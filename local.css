@@ -1,0 +1,9 @@
+div#content {
+    padding: 0.1em 0.6em;
+}
+
+#content h1 {
+    font-size : 200%;
+    margin: 0;    
+    color: red;
+}

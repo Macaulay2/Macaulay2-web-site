@@ -1,0 +1,6 @@
+# -*- makefile -*-
+
+export PATH := /home/html/www/Macaulay2/Scripts:/home/html/www/Macaulay2/bin:$(PATH)
+
+# most recent version of the documentation in ./doc:
+DOCVERSION = 1.6.0.1-20131031-2
