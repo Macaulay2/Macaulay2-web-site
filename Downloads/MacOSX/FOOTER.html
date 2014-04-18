@@ -1,0 +1,129 @@
+<h3>After downloading</h3>
+
+<p>
+  For Mac OS X 10.5 and later, remember to run the following command on the dmg
+  file you download with a browser before opening it, or else each time you open one of its html files
+  later with a browser, you will be warned by the browser with a pop-up dialogue box.
+</p>
+<pre>
+    xattr -d com.apple.quarantine Macaulay2*.dmg
+</pre>
+<p>
+  If the system responds "No such xattr: com.apple.quarantine", then
+  the file was not quarantined, and everything should be fine.
+</p>
+<p>
+  Alternatively, you could have used something like the following command to download the
+  file, without quarantine.
+</p>
+<pre>
+    curl http://www.math.uiuc.edu/Macaulay2/Downloads/MacOSX/Macaulay2-1.4-x86_64-MacOS-10.6.dmg -o Macaulay2-1.4-x86_64-MacOS-10.6.dmg
+</pre>
+
+<h3>Installation</h3>
+
+<p>
+  Next, mount the disk image by double-clicking on it. Then drag the <tt>Macaulay2</tt>
+  folder in it to somewhere else on your disk. One good location is your system
+  <tt>Applications</tt> folder, at the top level on your main disk.
+</p>
+
+<h3>Getting emacs</h3>
+
+<p>
+  There are various options for getting emacs, with which <i>Macaulay2</i> can be run.
+</p>
+
+<ul>
+  <li>
+    Use "aquamacs", available
+    at <a href="http://aquamacs.org/">http://aquamacs.org/</a>.
+    This is a native Mac application, with support for fonts, drag and drop,
+    and cut and paste.
+  </li>
+  <li>
+    Use "emacs for Mac OS X", available
+    at <a href="http://emacsformacosx.com/">http://emacsformacosx.com/</a>.
+    This is a native Mac application, with support for fonts, drag and drop,
+    and cut and paste.
+  </li>
+  <li>
+    Use <tt>/usr/bin/emacs</tt>: the problem with it is that it is not X aware,
+    and thus must be run in a terminal window.
+  </li>
+  <li>
+    Compile emacs yourself from the source code available
+    at <a href="ftp://ftp.gnu.org/gnu/emacs">ftp://ftp.gnu.org/gnu/emacs</a>.
+    You will also need to install X11, available, for example
+    at <a href="http://xquartz.macosforge.org/">http://xquartz.macosforge.org/</a>.
+  </li>
+  <li>
+    Use "homebrew" to install
+    emacs: <a href="http://brew.sh/">http://brew.sh/</a>.  You will also need
+    to install X11.
+  </li>
+</ul>
+
+<h3>Set up</h3>
+
+<p>
+  Now arrange for <i>Macaulay2</i> to set up your <tt>.emacs</tt> files and your command
+  shell init files so that M2 will be on the path.
+</p>
+
+<p>
+  The easiest way to set up these files is to do the following in a
+  Terminal window (the Terminal application is found in the <tt>Utilities</tt>
+  folder inside the <tt>Applications</tt> folder.  You might want to drag this
+  application to your dock too).
+</p>
+
+<p>
+  First run the '<tt>setup</tt>' command in <i>Macaulay2</i> this way, replacing the 
+  path <tt>/Applications/Macaulay2-1.4</tt> appropriately:
+</p>
+<pre>    /Applications/Macaulay2-1.4/bin/M2
+          setup()  -- Type these lines inside <i>Macaulay2</i>.
+                   -- Answer any questions.
+          exit</pre>
+
+<p>
+  After you log out and in again, your PATH will have <i>Macaulay2</i>'s bin
+  directory on it.  The '<tt>setup</tt>' routine will modify (some of) your
+  shell command init files (such
+  as <tt>.profile</tt>, <tt>.bashrc</tt>, <tt>.login</tt>, <tt>.cshrc</tt>),
+  and your <tt>.emacs</tt> file.  The existing files are backed up first.  It
+  also creates files <tt>.profile-Macaulay2</tt>, <tt>.emacs-Macaulay2</tt>,
+  and <tt>.login-Macaulay2</tt> in your home directory (making no backups of
+  old versions), which do the actual work, including putting <tt>M2</tt> on your
+  path.
+</p>
+
+<p>
+  This allows you to run <i>Macaulay2</i> by typing:
+</p>
+<pre>      M2</pre>
+<p>
+  at a terminal command line, to access the info and man pages, and to
+  use the <i>Macaulay2</i> emacs interface.
+</p>
+
+<h3>Try it out</h3>
+
+<p>
+  See the file <a href="ReadMe-MacOSX.txt">ReadMe-MacOSX.txt</a> for further installation instructions.
+</p>
+
+
+
+<h3>Compiling from Sources</h3>
+
+<p>
+
+  When the fink version of Macaulay2 is available (eventually), the instructions in
+  <a href="ReadMe-MacOSX-fink.txt">ReadMe-MacOSX-fink.txt</a> for compiling
+  Macaulay2 from source code will apply.  It will be slower than downloading a
+  disk image, as described above.
+
+</p>
+

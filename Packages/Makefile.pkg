@@ -1,0 +1,15 @@
+all :: update versions
+	echo versions: >&2
+	sed 's/^/   /' versions >&2
+packagename := $(shell basename `pwd`)
+package := $(shell if test -d package ; then echo yes ; else echo no ; fi)
+ifeq "$(package)" "yes"
+update:
+	cd package && svn up
+	VERSION=`grep Version package/$(packagename).m2 | head -1 | sed 's/.*"\(.*\)".*/\1/'` ;\
+	   mkdir -p $$VERSION ;\
+	   tar cfzv $$VERSION/$(packagename).tgz -C package --exclude=index.html --exclude=.svn .
+else
+update:
+endif
+versions : . ; ls | egrep '^[0-9]' > $@

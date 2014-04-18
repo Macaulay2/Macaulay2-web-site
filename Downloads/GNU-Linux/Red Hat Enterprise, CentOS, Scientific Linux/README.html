@@ -1,0 +1,41 @@
+<p>
+  Red Hat Enterprise, Scientific Linux, and CentOS offer the same Linux
+  environment for applications, so the Macaulay2 distributions in this
+  directory should work on all of them.  The version numbers correspond this
+  way: "Scientific Linux 5.3" is based on "Red Hat Enterprise Linux 5 update
+  3".
+</p>
+
+<p>
+  Eventually we will arrange for automatic installation of Macaulay 2 on Red
+  Hat systems, and the method will be explained here.
+</p>
+
+<p>
+  For now you may install the package files manually (they all have names of
+  the form <b>*.rpm</b>), but they come in pairs, one containing the
+  architecture dependent files (in this directory), and one containing the
+  architecture independent files and having "common" in the name.  The latter
+  files can be obtained in <a href="../../Common/">Common/</a>.
+</p>
+
+<p>
+  Here are sample commands for manually installing Macaulay2 from downloaded *.rpm
+  files.  (Replace "1.6" by the current version number, "x86_64" by your
+  architecture, and "RedHatEnterprise-4" by the issue.)
+</p>
+
+<pre>
+        sudo rpm -i -v Macaulay2-1.6-common.rpm
+        sudo rpm -i -v Macaulay2-1.6-x86_64-Linux-RedHatEnterprise-4.rpm
+</pre>
+
+<p>
+  Here are sample commands for manually uninstalling Macaulay2.  (Replace "1.6" by
+  the current version number.)
+</p>
+
+<pre>
+	sudo rpm -e -v Macaulay2-1.6
+	sudo rpm -e -v Macaulay2-common-1.6
+</pre>

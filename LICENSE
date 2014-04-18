@@ -1,6 +1,7 @@
 The license below applies to the files forming the framework of the Macaulay2
 web site, but not to the Macaulay2 software distribution files that are
-displayed on the web site.
+displayed on the web site, and not to those files that display contrary
+licenses within them, such as bin/genini.
 
 I also put all the files into the public domain.
 

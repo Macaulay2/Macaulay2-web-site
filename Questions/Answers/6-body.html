@@ -1,0 +1,21 @@
+<h2>Question 6</h2>
+
+<p>
+      If I try to use <code><b>installPackage</b></code> to install a package that depends on another package that I've already installed, then when
+      running the examples, the examples fail because that other package is not found on the path.
+</p>
+
+<h2>Answer</h2>
+
+<p>
+      The problem is that the examples are run in a new Macaulay 2 process with
+      "-q" on the command line, directing it to ignore files in the user's
+      Macaulay2 application directory, which is the place where that other
+      package has been installed.  The solution is to set the user mode option as in the following example.
+</p>
+
+<pre>
+<code>
+    installPackage("Foo", UserMode => true)
+</code>
+</pre>

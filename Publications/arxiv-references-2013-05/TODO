@@ -1,0 +1,14 @@
+0) automate the updates from arxiv, for all arxiv items we've got
+
+1) collect journal references, as in http://arxiv.org/abs/math/0010105
+
+	<td class="tablecell jref">Contemporary Math., Amer. Math. Soc., vol. 276 (2001), pp. 43-79</td>
+
+2) search also for "Macaulay 2" in addition to "Macaulay2"
+
+3) make sure these get added:
+      1012.1016
+
+4) figure out how to do full text search for any papers between http://arxiv.org/abs/0908.2609
+   and http://arxiv.org/abs/1110.4080
+

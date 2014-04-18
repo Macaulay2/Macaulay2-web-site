@@ -1,0 +1,59 @@
+A typical file name for an architecture dependent Macaulay 2 distribution file
+looks like this:
+
+        Macaulay2-1.2-i386-Linux-FedoraCore-1.tar.gz
+
+whereas the architecture independent file name looks like this
+
+        Macaulay2-1.2-common.tar.gz
+
+Both files are needed (except under Macintosh OS X) and should be unzipped and
+unpacked in the same directory.
+
+Explanation of the parts of the name:
+
+  Macaulay2     the name of our software package
+
+    1.2         the Macaulay 2 version (or release) number
+
+    i386        the CPU architecture; it should match your machine and your OS
+                   i386, i486, i686 : 32 bit Intel architectures
+                   x86_64, amd64: 64 bit Intel/AMD architecture,
+                           including the Intel Core 2 Duo
+                           and the Intel Centrino Duo.
+                           We use these two names as synonyms.
+                   powerpc: Macintosh Power PC architecture 
+
+    Linux       the operating system; it should match your machine
+                   MacOS : Macintosh operating system
+                   MicrosoftWindows : Microsoft Windows
+                   FreeBSD : Free BSD (unix)
+                   Linux : GNU Linux
+
+ FedoraCore-1   the operating system "issue"; for GNU/Linux, this name is found
+                in the file /etc/issue on your computer.  Translation:
+                   FedoraCore-1 : Fedora Core release 1 (Yarrow)
+                   Cygwin : Microsoft Windows with Cygwin installed
+                   Generic : an artificial "issue" designed to run on many machines
+                   Ubuntu :
+                   Debian :
+                   Fedora :
+
+    tar         the format of the archive:
+                   tar : use the "tar" program to extract files
+                   dmg : a disk image, mountable under Mac OS X
+                   deb : a debian archive, use "dpkg" or "gdebi-gtk".
+                   rpm : a red hat program manager archive, use "rpm"
+                   tbz : a FreeBSD package, use "pkg_add" to install it
+                         or "gtar" ("tar") with the appropriate "bunzip2"
+                         option to unpack it
+
+    bz2         the method of compression, if any
+                   gz : use gunzip, or use GNU "tar" with the "xfz" option
+                   bz2: use bunzip2, or use GNU "tar" with the "xfj" option
+
+
+Some components of the name are optional:
+
+  libc-2.7      the version number of the sharable library "libc" on which the 
+                executable file "M2" was compiled

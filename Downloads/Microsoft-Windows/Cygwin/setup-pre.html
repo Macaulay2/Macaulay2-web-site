@@ -1,0 +1,58 @@
+<h2>Downloading <i>Macaulay 2</i> for Cygwin with setup.exe</h2>
+
+<p>
+  Installation of Cygwin is done with a program called <tt>setup.exe</tt>.  You may use it to install <i>Macaulay 2</i> by telling it the
+  location of our <a href="/Macaulay2/Repositories/cygwin/">cygwin repository</a>.  It will download the needed file and install any
+  prerequisite packages that you haven't yet installed.  You may look in the repository to see what versions of <i>Macaulay 2</i> are
+  available.
+</p>
+
+<p>
+  It may happen, when you try to run <tt>setup.exe</tt>, that you get a warning that the file is from an untrusted source, and you
+  are asked whether you really want to execute it.  If you got it from <tt>http://cygwin.com/</tt>, then you can trust it and execute
+  it.
+</p>
+
+<p>
+  Starting in 2008, it is important to start <tt>setup.exe</tt> in such a way that it does not check for a signature attached to
+  our <tt>setup.ini</tt> file, since we don't know how to generate such signatures.  (If anyone knows how we should generate
+  signatures, inform us!)  You must start it with <b><tt>-X</tt></b> on the command line.  One way to do that is to open up a
+  "command prompt" window, change to the directory containing <tt>setup.exe</tt>, and then type <b><tt>setup -X</tt></b> to run the
+  program.  (Please observe that the <b><tt>X</tt></b> is upper case; it will not work with <b><tt>x</tt></b>.)  Another way is to
+  create a shortcut on your desktop to the program, to edit the command line of the shortcut (or its target, under Vista) to
+  add <b><tt>-X</tt></b> to it, and then to run the shortcut.
+</p>
+
+<p>
+  Here is the way to tell Cygwin's setup.exe program the location of the <i>Macaulay 2</i> repository.  (You may tell it the first time you
+  use it, or any subsequent time.)  After it downloads the list of mirror sites from cygwin.com, it displays a dialogue box
+  entitled <em>Choose A Download Site</em>.  Add our site to the list of available sites by
+  entering
+</p>
+  <pre>http://www.math.uiuc.edu/Macaulay2/Repositories/cygwin/</pre>
+<p>
+  in the box labelled <em>User URL</em> and pressing
+  the <em>Add</em> button.  Once our site is on the list (with only the domain name displayed, sigh) highlight a cygwin mirror site
+  (if one is not already highlighted) by clicking on it, and then highlight our site by clicking on it with the left button
+  while <em>holding down the control key</em>, so that now you have two sites highlighted, ours and a cygwin mirror site.  If you
+  highlight both our site and your favorite mirror for the main repository, <tt>setup.exe</tt> will always be prepared to update
+  software from both repositories.  <em>Warning</em>: if you highlight just our site, then packages upon which <i>Macaulay 2</i> depends may
+  not be installed for you by the cygwin setup program, and our program will not run.  (The next time you run the cygwin setup
+  program, simply leave these two mirror sites highlighted, and all will be well.)
+</p>
+
+<p>
+  Now press the <em>Next</em> button and examine the <em>Select Packages</em> dialogue box.  The Macaulay2 package will appear in
+  the <em>Math</em> category, at the beginning of the list, perhaps because its name is capitalized.  Press the spinning arrow symbol
+  to select the appropriate action: <em>Install</em>.  After you press the <em>Next</em> button <i>Macaulay 2</i> will be automatically
+  installed, along with the other packages it needs.
+</p>
+
+<p>
+  Installing <i>Macaulay 2</i> the way described above will set all paths appropriately and make the <i>Macaulay 2</i> emacs files visible to
+  emacs, so users will not have to run the "setup()" function in <i>Macaulay 2</i>.  However, if you at least run the "setupEmacs()"
+  function in <i>Macaulay 2</i>, then code will be added to your emacs init file that arranges for the <em>f12</em> function key to be bound to the
+  emacs "M2" function, which starts <i>Macaulay 2</i> running in an interactive emacs buffer.  One way to run the new code in your emacs
+  init file is to restart emacs, after which the <em>f12</em> key in emacs should work.  If you don't run "setupEmacs()" in <i>Macaulay 2</i>, you
+  can always start <i>Macaulay 2</i> in emacs with the keystrokes <tt>M-x M2</tt> in emacs.
+</p>

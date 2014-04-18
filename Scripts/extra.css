@@ -1,0 +1,9 @@
+.menu h2, .menu h2 a:link, .menu h2 a:visited, .menu h2 a:active, .menu h2 a:hover {
+    background: #82abde url("/Style/ltab.png") top no-repeat;
+    color: #fff;
+    text-align: center;
+    font-size: 110%;
+    margin: 0;
+    padding-top: 0.3em;
+    padding-bottom: 0.2em; 
+}

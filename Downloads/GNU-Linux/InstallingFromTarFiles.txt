@@ -1,0 +1,45 @@
+It may happen that your flavor of GNU/Linux is not one of the ones listed, or
+that you do not have root access, and so you can't use the automatic method of
+installing Macaulay 2 in the right location.  (The right location for M2 is in
+/usr/bin, so it's on your path.)
+
+These instructions tell you what to do in that case, and they are a little more
+complicated.
+
+In brief summary, the steps are to download two tar files, to untar them (into
+any directory), to run the resulting M2 program, and to execute the Macaulay 2
+command "setup()".  The next time you log in, M2 will be on your path, and the
+f12 key in emacs will start it up in an interactive buffer.
+
+We now explain in more detail.
+
+Starting with release 1.1, there are two files that must be downloaded, one
+containing the files needed just for your architecture, and the other
+containing the files shared in common by all distributions.  The former
+includes an indication of the architecture in its name, and the latter includes
+the word "common" or the word "all" in its name, depending on the distribution
+style.  An example:
+
+	Macaulay2-1.2-i386-Linux-Generic.tar.gz
+	Macaulay2-1.2-common.tar.gz
+
+(Replace "1.2" by the current version number and "i386" by your architecture.
+The term "Generic" indicates that we have compiled it to depend on as few
+dynamic libraries as possible.)
+
+Get the former file from the appropriate subdirectory of this directory,
+depending upon your architecture and operating system release and issue.  Get
+the latter file from the subdirectory of this directory named "Common".
+
+After downloading the files to an temporary empty directory, extract the
+component files with commands like these:
+
+	tar xzf Macaulay2-1.2-i386-Linux-Generic.tar.gz
+	tar xzf Macaulay2-1.2-common.tar.gz
+
+and then read further installation instructions in
+
+        Macaulay2-1.2/INSTALL
+
+Oops, that doesn't seem to be there, so look at INSTALL-1.2 in this directory of
+the web site.

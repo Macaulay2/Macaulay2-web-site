@@ -1,0 +1,37 @@
+I got the photo 9planets.gif from a JPL (part of NASA) web site.  We should
+figure out who to give credit for it to.
+
+references to this photo also occur at :
+
+   http://www.gecdsb.on.ca/d&g/astro/images/NinePlanets-min.jpg
+
+and at
+
+   http://www.nineplanets.org/
+
+where the author says this:
+
+   The Images
+
+   The images in The Nine Planets are almost all from NASA. Here is a statement from NASA (applying to some but perhaps not
+   all of its images):
+
+       No copyright is asserted for these images. If a recognizable person appears in an image, use for commercial purposes
+       may infringe a right of privacy or publicity. These images may not be used to state or imply the endorsement by NASA
+       or by any NASA employee of a commercial product, process or service, or used in any other manner that might
+       mislead. Accordingly, it is requested that if these images are used in advertising and other commercial promotion,
+       layout and copy be submitted to NASA prior to release.
+
+       National Aeronautics and Space Administration, Houston TX 77058 
+
+   Here's another NASA statement:
+
+       All of the images presented on NSSDC's Photo Gallery are in the public domain. As such, they may be used for any
+       purpose. NSSDC does ask, however, that you acknowledge NSSDC as the supplier of the data. In addition, where the
+       source of the image (by project or as a specific person) is credited in the text, you should also acknowledge that,
+       too.
+
+   Or see NASA's copyright guidelines page.
+
+   HST images are generally OK for non-commercial use. But see their copyright page. 
+

@@ -1,0 +1,158 @@
+<!-- -*- fill-column: 77 -*- -->
+
+<p>
+  <i>Macaulay2</i> for Microsoft Windows has been compiled
+  under the 32 bit version of <a href="http://cygwin.com/">Cygwin</a>, a system that provides
+  Microsoft Windows with a high degree of compatibility with
+  the <a href="http://gnu.org/">GNU operating system</a> (upon which
+  GNU/Linux is based), which you will need in order to install and to
+  run <i>Macaulay2</i>.
+  Visit <a href="http://cygwin.com/">http://cygwin.com/</a> to download the
+  program <tt>setup-x86.exe</tt> and to install Cygwin, if you haven't done so
+  already.  The initial minimal installation takes 77MB, excluding the
+  temporary download files, which can be manually deleted later; the
+  final installation, including Macaulay2, emacs, and X Windows, takes
+  572MB.
+</p>
+
+<p>
+  You may use <tt>setup-x86.exe</tt> to install <i>Macaulay2</i> by telling it
+  the location of our <a href="/Macaulay2/Repositories/cygwin/">Cygwin
+  repository</a>.  It will download the needed file(s) and install any
+  prerequisite packages that haven't yet been installed.  It is important to
+  start <tt>setup-x86.exe</tt> with the full path to the public key
+  file <a href="../../../PublicKeys/Macaulay2-key.data">Macaulay2-key.data</a>,
+  which you should download and save, so it can use it to verify the
+  signature attached to our <tt>setup.ini</tt> file.  
+  Suppose you have downloaded and saved <tt>setup-x86.exe</tt> in the
+  directory <tt>F:\foo\bar</tt>, and you have downloaded and
+  saved <tt>Macaulay2-key.data</tt> in <tt>J:\goo\car</tt>.  Then the command
+  would be:
+</p>
+
+<pre>F:\foo\bar\setup-x86 -K J:\goo\car\Macaulay2-key.data</pre> 
+
+<p>
+  Use the command above in a command prompt window, in a command prompt
+  window running as an administrator, in the "Run" window, or in a shortcut
+  that you create.  (The setup command presumably changes directories before
+  looking for the specified key file, which is why the full path to the key
+  file must be specified.  Inconvenient but true.)
+</p>
+
+<p>
+  Here is the way to tell Cygwin's <tt>setup-x86</tt> program the location of
+  the <i>Macaulay2</i> repository.  (You may tell it the first time you use
+  it, or any subsequent time.)  After it downloads the list of mirror sites
+  from cygwin.com, it displays a dialogue box entitled <em>Choose A Download
+  Site</em>.  Add our site to the list of available sites by entering
+</p>
+<pre>http://macaulay2.com/Repositories/cygwin/</pre>
+<p>
+  in the box labelled <em>User URL</em> and pressing the <em>Add</em> button.
+  Normally our site's domain name will then be highlighted, as will the
+  domain name of the Cygwin mirror used for your initial installation of
+  Cygwin.  If you see that only one download site is highlighted, then
+  highlight a Cygwin mirror site geographically near you by clicking on it
+  (all of the other names on the list are names of Cygwin mirror sites), and
+  then highlight our site by clicking on it with the left button
+  while <em>holding down the control key</em>, so that now you have both
+  sites highlighted.  <em>Warning</em>: if you highlight just our site, then
+  packages upon which <i>Macaulay2</i> depends may not be installed for you
+  by the Cygwin setup program, and our program will not run.  The next time
+  you run the Cygwin setup program, simply leave these two mirror sites
+  highlighted, and all will be well.
+</p>
+
+<p>
+  Now press the <em>Next</em> button and examine the <em>Select Packages</em>
+  dialogue box.  Initially the "View" is set to to "Category", but pushing
+  the button changes it to "Full".  Enter the first four letters or so of
+  "Macaulay2" into the "Search" box and the packages <b>Macaulay2</b>
+  and <b>Macaulay2-icons</b> will appear; the packages have independent
+  version numbers.  Installing the latter package is equivalent to installing
+  the most recent version of the former, together with convenient shortcuts
+  for starting up X Windows, emacs, and Macaulay2 with a single click.  Press
+  the spinning arrow symbol under "New" for the desired package to replace
+  the desired action (initially set to "Skip") by the desired version number
+  of Macaulay2.  After you press the <em>Next</em> button, the package will
+  be installed, along with the other 87 packages it needs, including emacs
+  and X Windows.
+</p>
+
+<p>
+  Assuming you installed the package <b>Macaulay2-icons</b> in the previous step, you may now
+  start up X Windows, emacs, and Macaulay2 by clicking on the shortcut on your desktop, or in the start
+  menu folder called <b>Macaulay2</b>, whose name is <b>XWin + emacs + M2</b>.  If X Windows is
+  already running, then use the shortcut whose name is <b>emacs + M2 on 0</b>.  An emacs window should
+  eventually pop up with Macaulay2 running in a command interaction buffer.
+</p>
+
+<p>
+  Installing <i>Macaulay2</i> as described above will set all paths appropriately and make
+  the <i>Macaulay2</i> emacs files visible to emacs, so users will not have to run the "setup()" function
+  in <i>Macaulay2</i>.  However, if you run the "setupEmacs()" function in <i>Macaulay2</i>, then code
+  will be added to your emacs init file that arranges for the <em>f12</em> function key to be bound to
+  the emacs "M2" function, which starts <i>Macaulay2</i> running in an interactive emacs buffer.  One way
+  to run the new code in your emacs init file is to restart emacs, after which the <em>f12</em> key in
+  emacs should work.  If you don't run "setupEmacs()" in <i>Macaulay2</i>, you can always
+  start <i>Macaulay2</i> in emacs with the keystrokes <tt>M-x M2</tt> in emacs.
+</p>
+
+<p>
+  Users new to emacs should spend some time becoming accustomed to it.  A good place to start learning
+  how to use emacs is with the Emacs Tutorial, which can be accessed after starting emacs.
+</p>
+
+<hr>
+
+<p>
+  Here are some solutions for some common problems that occur when running Cygwin.
+</p>
+
+<ul>
+
+  <li><em><b>setup-x86.exe</b> keeps offering to make cygwin shortcuts on my
+      desktop, even though I don't want them.</em>  Solution: add <b>-n</b> to the 
+      command line.</li>
+
+  <li><em>I typed the URL of the Macaulay2 cygwin repository incorrectly,
+      but there seems to be no way to edit it or to remove it from the 
+      list of download sites known to <b>setup-x86.exe</b>.</em>
+      Solution: Unhighlight that download site in the list and
+      exit the program.  The next time, it won't be there.</li>
+
+  <li><em>emacs can't interrupt Macaulay2 with C-c C-c</em>: Cause: a bug in the way emacs sends
+    interrupts to subjobs.  Solution: send a C-c character to Macaulay2 with C-q C-c RETURN.  A future
+    version of emacs will address the problem, at least for interruption of loops, but perhaps not for 
+    interruption of printing.
+  </li>
+
+  <li><em>emacs can't start M2 for want of resources</em>:  Cause: unclear; solution: try this:
+    shut down all Cygwin processes, start up a Windows shell, navigate to C:/cygwin/bin, run "ash.exe",
+    and run "./rebaseall -v".</li>
+
+  <li><em>M2 runs a program and gets this message: "linked dll data write copy failed"</em>:  Cause: unclear;
+    try this: shut down all Cygwin processes, start up a Windows shell, navigate to C:/cygwin/bin, run "ash.exe",
+    and run "./rebaseall -v".  Alternatively, refer to <a href="http://cygwin.com/faq/faq.using.html#faq.using.bloda">this list of
+      programs that might interfere with cygwin</a>, and try shutting down any of them that are running on your machine.</li>
+
+
+  <li><em>It's hard to locate files from within <i>Macaulay2</i> or emacs.</em>  Cause: Cygwin and
+    Microsoft Windows have different roots for their file systems.  Solution: within a Cygwin program,
+    such as M2 or emacs, the root of drive C (for example) can be accessed as "/cygdrive/c".  Within a
+    Microsoft Windows program, such as the explorer or firefox, the root of Cygwin's file system is
+    visible as "C:/cygwin", if Cygwin was installed in the usual location.  The program <tt>cygpath</tt>
+    can be used to translate paths in either direction.
+  </li>
+
+  <li><em>I ask <b>setup-x86.exe</b> to install something, and it doesn't install it.</em>  A good way to see
+    what <b>setup</b> will install in the final step, before going there, is to press the "View" button
+    in the upper right hand corner until the text to the right of it says "Pending".  Then the list below
+    will consist of those Cygwin packages it intends to install or upgrade.</li>
+
+</ul>
+
+<p>
+  Let us know if there are any (further) problems!
+</p>

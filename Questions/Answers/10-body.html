@@ -1,0 +1,19 @@
+<h2>Question 10</h2>
+
+<p>
+  XEmacs doesn't work with Macaulay 2.
+</p>
+
+<h2>Answer</h2>
+
+<p>
+  Try adding the following lines to your ~/.xemacs/init.el file.  (The last line loads the file
+  that the M2 "setup()" and "setupEmacs()" commands create, so run that first.)  Let us know whether it works out!
+</p>
+
+<pre>
+  (if (and (boundp 'xemacsp) xemacsp)
+     (defun replace-regexp-in-string (regexp rep string)
+        (replace-in-string string regexp rep)))
+  (load "~/.emacs-Macaulay2" t)
+</pre>

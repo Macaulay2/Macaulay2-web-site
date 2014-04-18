@@ -1,0 +1,76 @@
+<h2>Question 7</h2>
+
+<p>
+      If I try to use <code><b>getPackage</b></code> to download and install a package that depends on another package that I've already installed, then when
+      running the examples, the examples fail because that other package is not found on the path.
+</p>
+
+<h2>Answer</h2>
+
+<p>
+      The problem is that the examples are run in a new Macaulay 2 process with
+      "-q" on the command line, directing it to ignore files in the user's
+      Macaulay2 application directory, which is the place where that other
+      package has been installed.  The solution method used
+      for <a href="6.html">question 6</a> will not work here, because
+      "getPackage" calls "installPackage" and doesn't know about the UserMode
+      option.  
+
+</p><p> One solution is to edit the
+    file <code><b>/usr/share/Macaulay2/Core/m2/html.m2</b></code>,
+    where <code><b>/usr</b></code> should be replaced, if necessary, by the
+    path to the Macaulay2 files on your system.  In that file you will change
+    the default value of the UserMode option to installPackage from false to
+    true.  Find the following line:
+</p>
+
+<pre>
+<code>
+	  UserMode => false,
+</code>
+</pre>
+</p>
+<p>
+... and change it to this:
+</p>
+
+<pre>
+<code>
+	  UserMode => true,
+</code>
+</pre>
+
+<p>
+  On linux systems where loaddata and dumpdata are working, you may wish to
+  refresh the dumpdata file by running the following shell command.
+</p>
+
+<pre>
+<code>
+	  M2 --dumpdata
+</code>
+</pre>
+
+To see whether, on your system, M2 tries to consult the dumpdata file, start M2 this way:
+
+<pre>
+<code>
+	  M2 --notify
+</code>
+</pre>
+
+<p>
+  Another solution takes advantage of the fact that the current directory,
+  "./", is on the path: ensure that you start up M2 in the directory where the
+  source code for that other package has been installed.  The name of that
+  directory varies, depending on the operating system, but can be obtained from
+  Macaulay 2 as follows:
+</p>
+
+<pre>
+<code>
+    i1 : applicationDirectory()|"local/"|LAYOUT#"packages"
+
+    o1 = /home/25/dan/.Macaulay2/local/share/Macaulay2/
+</code>
+</pre>

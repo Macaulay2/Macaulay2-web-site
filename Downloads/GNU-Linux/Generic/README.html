@@ -1,0 +1,45 @@
+<p>
+  This directory contains <em>generic</em> versions of Macaulay 2, which we
+  have compiled for GNU/Linux so the executable program <tt>M2</tt> depends on
+  as few dynamic libraries as possible, and so the libraries are relatively
+  old.  We do that to make it as likely as possible that you can run it on your
+  machine.
+</p>
+
+<p>
+  For us to link against an old version of the standard system
+  library <tt>libc.so.6</tt> is especially useful, since the program will
+  refuse to run with an older one on your system.  For example, in preparing
+  <i>Macaulay2</i> 1.6, we linked against libc 2.11, which was already 3 1/2
+  years old.
+</p>
+
+<p>
+  There are some dynamic libraries that we must nevertheless link with, such as
+  libc and libncurses.  If you have versions of these on your machine are
+  sufficiently different from the versions on ours, the program will not work.
+  See the corresponding *-README.txt files for information about the libraries M2
+  is linked against.
+</p>
+
+<p>
+  The tar files come in pairs, one containing the architecture dependent files
+  (in this directory), and one containing the architecture independent files
+  and having "common" in the name.  The latter can be obtained
+  in <a href="../../Common/">Common/</a>.  Download and untar both files in the
+  same directory, such as in a new directory with a name of your choice.
+  The <i>Macaulay2</i> executable is the file <tt>Macaulay2-*/bin/M2</tt>, where 
+  here <tt>*</tt> denotes the version number; run it to start <i>Macaulay2</i>.
+  If some of the files end up in the wrong place, there will be an error message 
+  about the file <tt>setup.m2</tt> not being found.
+</p>
+
+<p>
+  Further instructions about installing from tar files are in
+  <a href="../InstallingFromTarFiles.txt">../InstallingFromTarFiles.txt</a>.
+</p>
+
+<p>
+  Please let us know if your (modern) GNU/Linux system is incompatible with
+  this distribution of Macaulay 2.
+</p>

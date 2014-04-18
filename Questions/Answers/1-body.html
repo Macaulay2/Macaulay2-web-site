@@ -1,0 +1,107 @@
+<h2>Question 1</h2>
+
+<p>
+  After <tt>QQ[t_1]</tt> it turns out that <tt>t_1</tt> is not an element of the ring.  Why is that?
+</p>
+
+
+<h2>Answer</h2>
+
+<p>
+  This problem is encountered mostly by users who are writing their own code.
+  One way this can happen, in version 1.1, but not in version 0.9.95, is if t
+  is a symbol whose value is another symbol:
+</p>
+
+<table class="examples"><tbody><tr><td><pre>    i1 : t = x
+
+    o1 = x
+
+    o1 : Symbol</pre></td></tr><tr><td><pre>    i2 : QQ[t_1]
+
+    o2 = QQ [x ]
+	      1
+
+    o2 : PolynomialRing</pre></td></tr><tr><td><pre>    i3 : t_1
+
+    o3 = x
+	  1
+
+    o3 : IndexedVariable</pre></td></tr></tbody></table>
+
+<p>
+  However, if x is used instead of t, we see our ring element:
+</p>
+
+<table class="examples"><tbody><tr><td><pre>    i4 : x_1
+
+    o4 = x
+	  1
+
+    o4 : QQ [x ]
+	      1</pre></td></tr></tbody></table>
+
+<p>
+  Internally, Macaulay 2 handles subscripted variables through "indexed variable tables":
+</p>
+
+<table class="examples"><tbody><tr><td><pre>    i5 : t
+
+    o5 = x
+
+    o5 : Symbol</pre></td></tr><tr><td><pre>    i6 : x
+
+    o6 = x
+
+    o6 : IndexedVariableTable</pre></td></tr></tbody></table>
+
+<p>
+  One solution: insert "t = value t" after creating the polynomial ring, like this:
+</p>
+
+<table class="examples"><tbody><tr><td><pre>    i1 : t = x
+
+    o1 = x
+
+    o1 : Symbol</pre></td></tr><tr><td><pre>    i2 : QQ[t_1]
+
+    o2 = QQ [x ]
+	      1
+
+    o2 : PolynomialRing</pre></td></tr><tr><td><pre>    i3 : t = value t
+
+    o3 = x
+
+    o3 : IndexedVariableTable</pre></td></tr><tr><td><pre>    i4 : t_1
+
+    o4 = x
+	  1
+
+    o4 : QQ [x ]
+	      1</pre></td></tr></tbody></table>
+
+<p>
+  Another solution: use "value t_1" to get the ring element:
+</p>
+
+<table class="examples"><tbody><tr><td><pre>    i1 : t = x
+
+    o1 = x
+
+    o1 : Symbol</pre></td></tr><tr><td><pre>    i2 : QQ[t_1]
+
+    o2 = QQ [x ]
+	      1
+
+    o2 : PolynomialRing</pre></td></tr><tr><td><pre>    i3 : t_1
+
+    o3 = x
+	  1
+
+    o3 : IndexedVariable</pre></td></tr><tr><td><pre>    i4 : value t_1
+
+    o4 = x
+	  1
+
+    o4 : QQ [x ]
+	      1</pre></td></tr></tbody></table>

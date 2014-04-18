@@ -1,0 +1,96 @@
+<h2>Question 4</h2>
+
+<p>
+  The computation of kernels and images of ring homomorphisms seems to be slower in 1.1 than in previous versions.
+</p>
+
+<h2>Answer</h2>
+
+<p>
+  In older versions, the degrees of the variables in the ring of the graphIdeal
+  were tailored to the degrees of the images of the variables in the ring
+  homomorphism, like this.
+</p>
+
+<pre>
+    Macaulay 2, version 0.9.2
+    --Copyright 1993-2001, D. R. Grayson and M. E. Stillman
+    --Singular-Factory 1.3b, copyright 1993-2001, G.-M. Greuel, et al.
+    --Singular-Libfac 0.3.2, copyright 1996-2001, M. Messollen
+
+    i1 : R = QQ[x]
+
+    o1 = R
+
+    o1 : PolynomialRing
+
+    i2 : S = QQ[y]
+
+    o2 = S
+
+    o2 : PolynomialRing
+
+    i3 : degrees ring graphIdeal map(R,S,{x^2+1})
+
+    o3 = {{1}, {2}}
+
+    o3 : List
+</pre>
+
+<p>
+  But now, the graphIdeal is an ideal in the tensor product of the two rings,
+  as it ought to be.  Unfortunately, that changes the monomial order, and slows
+  down the computation of kernels and images.
+</p>
+
+<pre>
+    Macaulay 2, version 1.1.1
+    with packages: Classic, Core, Elimination, IntegralClosure, LLLBases, Parsing, PrimaryDecomposition, SchurRings, TangentCone
+
+    i1 : R = QQ[x]
+
+    o1 = R
+
+    o1 : PolynomialRing
+
+    i2 : S = QQ[y]
+
+    o2 = S
+
+    o2 : PolynomialRing
+
+    i3 : degrees ring graphIdeal map(R,S,{x^2+1})
+
+    o3 = {{1}, {1}}
+
+    o3 : List
+</pre>
+
+<p>
+  Meanwhile, a good work-around is to set the degrees of the variables in the
+  source ring to match the degrees of the polynomials they are sent to under
+  the ring map.
+</p>
+
+<pre>
+    Macaulay 2, version 1.1.1
+    with packages: Classic, Core, Elimination, IntegralClosure, LLLBases, Parsing, PrimaryDecomposition, SchurRings, TangentCone
+
+    i1 : R = QQ[x]
+
+    o1 = R
+
+    o1 : PolynomialRing
+
+    i2 : S = QQ[y,Degrees=>{2}]
+
+    o2 = S
+
+    o2 : PolynomialRing
+
+    i3 : degrees ring graphIdeal map(R,S,{x^2+1})
+
+    o3 = {{1}, {2}}
+
+    o3 : List
+</pre>

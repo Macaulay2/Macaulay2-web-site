@@ -1,0 +1,140 @@
+<p>
+  However, the best way to get the source code is with a client
+  for <a href="http://git-scm.com/">git</a>, the source code control system we
+  use.  To get (or to view) the latest version of the source code, possibly
+  with bugs, visit
+  <a href="https://github.com/Macaulay2/M2">https://github.com/Macaulay2/M2</a>
+  and press the "ZIP" or "Clone" buttons.  Alternatively, run this command in a
+  new directory:
+</p>
+
+<pre>
+        git clone https://github.com/Macaulay2/M2
+</pre>
+
+<p>
+  The result will be a directory named M2 containing the source code directory
+  tree of <em>Macaulay2</em>, checked out from the branch called "master".
+  Other branches are used for development of numbered releases (e.g.,
+  "release-1.6"), and there are tags that label stable versions of those
+  branches (e.g., "release-1.6-stable-20130514").
+</p>
+
+<hr/>
+
+<p>
+  The old way to get the source code, soon to be phased out, is with a
+  client for <a href="http://subversion.apache.org/">subversion</a>, the source
+  code control system we use.  To get the very latest version of the source
+  code, possibly with bugs, run this command in a new directory:
+</p>
+
+<pre>
+	svn co -q svn://svn.macaulay2.com/Macaulay2/trunk/M2
+</pre>
+
+<p>
+  The result will be a directory named M2 containing the source code directory
+  tree of <em>Macaulay2</em>.
+</p>
+
+<p>
+  Alternatively, as we work to port the latest numbered release to various
+  architectures, we will work in one of the branches listed by this command:
+</p>
+
+<pre>
+	svn list svn://svn.macaulay2.com/Macaulay2/release-branches
+</pre>
+
+<p>
+  The changes made there will eventually be merged into the trunk.  For example,
+  to get the code corresponding to version 1.2 that is most current and thus most
+  likely to compile for you, run this command:
+</p>
+
+<pre>
+	svn co -q svn://svn.macaulay2.com/Macaulay2/release-branches/1.2
+</pre>
+
+<p>
+  The resulting directory tree, 1.2, can be renamed to M2, for example.
+</p>
+
+<p>
+  To see what stable (unchanging) releases there are, run this:
+</p>
+
+<pre>
+	svn list svn://svn.macaulay2.com/Macaulay2/stable
+</pre>
+
+<p>
+  To check out one of those, do something like this:
+</p>
+
+<pre>
+	svn co -q svn://svn.macaulay2.com/Macaulay2/stable/2006-11-05-0.9.95
+</pre>
+
+<p>
+  The resulting directory tree, 2006-11-05-0.9.95, can be renamed, to M2, for
+  example.
+</p>
+
+<p>
+  After getting the source code as described above, and assuming the directory
+  is now named "M2", you may build <em>Macaulay2</em> from it as follows.  First do
+</p>
+
+<pre>
+	 cd M2
+	 make
+</pre>
+
+<p>
+  That initial step will create the "configure" script.
+</p>
+
+<p>
+  Then do something like
+</p>
+
+<pre>
+	 cd BUILD
+	 mkdir foo
+	 cd foo
+	 ../../configure --prefix=/usr/local --enable-download
+	 make
+	 make install
+</pre>
+
+<p>
+  to compile and install the code.  You may replace /usr/local by $HOME/local,
+  for example, if you don't have root privileges.  You may replace "foo" by a
+  directory anywhere, provided you adjust the path to "configure" appropriately.
+</p>
+
+<p>
+  The command
+</p>
+
+<pre>
+	 ../../configure --help
+</pre>
+
+<p>
+  will explain the options can be passed to the configure script.
+</p>
+
+<p>
+  You may refer to the file
+</p>
+
+<pre>
+	 ./INSTALL
+</pre>
+
+<p>
+  for some more detailed instructions about this installation.
+</p>

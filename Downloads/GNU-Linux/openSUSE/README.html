@@ -1,0 +1,34 @@
+<p>
+  Eventually we will arrange for automatic installation of Macaulay 2 on
+  openSUSE systems, and the method will be explained here.  For now you
+  may install the package files manually (they all have names of the
+  form <b>*.rpm</b>).  They come in pairs, one containing the architecture
+  dependent files, and one containing the architecture independent files and
+  having <b>common</b> in the name.
+</p>
+
+<p>
+  Here are sample commands for manually installing Macaulay2 from downloaded
+  *.rpm files.  (Replace "1.4-1" by the current version number.)
+</p>
+
+<pre>
+     sudo rpm -i -v Macaulay2-1.4-1.common.rpm
+     sudo rpm -i -v Macaulay2-1.4-1.x86_64-Linux-openSUSE-11.3.rpm
+</pre>
+
+<p>
+  Refer to <a href="../../../PublicKeys/">PublicKeys</a> for information about checking signatures.
+  The rpm files themselves are signed internally.
+</p>
+
+</p>
+
+<p>
+  Here are sample commands for manually uninstalling Macaulay2.
+</p>
+
+<pre>
+     sudo rpm -e -v Macaulay2-1.4-1
+     sudo rpm -e -v Macaulay2-common-1.4-1
+</pre>

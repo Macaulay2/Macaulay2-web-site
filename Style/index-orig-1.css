@@ -1,0 +1,240 @@
+/*-*- css -*-*/
+
+body {
+     color: black; 
+     /* background-image: url("recbg.jpg"); */
+     background-color: #f0ffff;
+     margin : 0; /* relative boxes obey the body's margin (8px by default), but absolute ones do not, so get rid of it */
+}
+
+h1   { text-align: center; font-size : 125%; }
+h2   { font-size : 110%; }
+h3   { font-size : 105%; }
+h4   { font-size : 100%; margin-left: 8pt; }
+ul   { clear: both; } 
+
+a:link { background-color: transparent; color: #0000ee; }
+a:visited { background-color: transparent; color: #52188b; }
+a:hover { background-color: transparent; color: #009999; }
+a:active { background-color: transparent; color: #ee0000; }
+
+table.buttons td { text-align: center; }
+
+table.examples { 
+     margin-left: 2em;
+     width: 25%;
+     background-color: #c0ffff;
+     border-style: solid;
+     border-top-color: #c0ffff;
+     border-bottom-color: #50b0b0;
+     border-left-color: #a0ffff;
+     border-right-color: #50b0b0;
+     border-width: 3px;
+     border-spacing: 0px;
+     font-size: 75%;
+     line-height: 110%;		/* 122% seems to be the default, and 100% leaves almost no space between lines */
+}
+table.examples td {
+     border-style: solid;
+     border-top-color: #50b0b0;
+     border-bottom-color: #c0ffff;
+     border-left-color: #50b0b0;
+     border-right-color: #a0ffff;
+     padding: 1ex;
+     border-width: 1px;
+}
+table.examples pre {
+     margin: 0pt;
+     padding: 0pt;
+}
+
+div.waystouse {
+     font-size: 75%;
+     line-height: 110%;
+}
+
+/* css tables */
+
+div.list {
+     /* display: table; */
+}
+
+dl.element {
+  display: table-row;
+}
+
+dt.heading {
+  display: table-caption;
+  vertical-align: top;
+  margin-left: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 1em;
+}
+
+/*
+
+dt.heading:after {
+  content: ":";
+}
+
+*/
+
+dd.value {
+  display: table-cell;
+  vertical-align: top;
+}
+
+div.random_link {
+  font-size: 72%;
+}
+
+div.small {
+  font-size: 80%;
+}
+
+div#footer {
+  font-family: sans-serif;
+  padding: 1em 4em;
+  margin: 0 12.01em;
+}
+
+div#content {
+  font-family: sans-serif;
+  background-color: white;
+  padding: 0.5em 2em;
+  margin: 1.5em 13em /* sidebar width */ ;
+  border: 2px solid #000000;
+}
+
+div.margins li {
+  list-style-type: none;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+div#header h1 {
+  margin: .4em 0;
+  font-size: 175%;
+}
+
+div#logo {
+  font-size: 175%;
+}
+
+div.red {
+    color: red;
+}
+
+div#logo a:link {
+    color: red;
+}
+
+div#footer td {
+  text-align: right;
+}
+
+div#left_sidebar td {
+  text-align: left;
+  padding: 0.2em 0 0.0em 0.2em;
+}
+
+div#right_sidebar td {
+  text-align: left;
+  padding: 0.2em 0 0.0em 0.5em;
+}
+
+div#right_sidebar li {
+    list-style-type: none;
+}
+
+div.tinyitem {
+    font-size: 66%;
+    margin-left: 1em;
+    margin-bottom: 0.25em;
+}
+
+div.tiny {
+    font-size: 66%;
+}
+
+div#header td {
+    text-align: right;
+}
+
+div#left_sidebar input {
+    font-size: 75%;
+    width: 13.33em;
+    margin-left: 1em;
+}
+
+div#left_sidebar a {
+    text-decoration: none;
+    color: blue;
+}
+
+div#footer a {
+    text-decoration: none;
+    color: blue;
+}
+
+div#right_sidebar a {
+    text-decoration: none;
+    color: blue;
+}
+
+div#right_sidebar a:hover {
+ text-decoration: underline;
+}
+
+div#left_sidebar a:hover {
+ text-decoration: underline;
+}
+
+div#content a {
+ text-decoration: none;
+ color: blue;
+}
+
+div#content a:hover {
+ text-decoration: underline;
+}
+
+div#logo a:visited {
+ color: red;
+}
+
+div#left_sidebar table {
+  border-spacing: 0;
+  width: 13em /* sidebar width */ ;
+}
+
+div#right_sidebar table {
+  width: 13em /* sidebar width */ ;
+}
+
+div#left_sidebar {
+    font-family: sans-serif;
+    position: absolute;
+    left: 0;
+    top: 1em;
+    width: 13em /* sidebar width */ ;
+}
+
+div#right_sidebar {
+    font-family: sans-serif;
+    position: absolute;
+    right: 0;
+    top: 1em;
+    width: 13em /* sidebar width */ ;
+}
+
+div.em { height: 1em; width: 1em; background-color: red; }
+
+div#header {
+    font-family: sans-serif;
+    padding: 0em 1em;
+    margin: 0 13em /* sidebar width */ ;
+}
+
+a img { border: 0; }

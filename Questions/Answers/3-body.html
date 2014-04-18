@@ -1,0 +1,26 @@
+<h2>Question 3</h2>
+
+<p>
+On my machine, the function keys f11 and f12 are intercepted by the operating system, and emacs doesn't respond to them.
+</p>
+
+<h2>Answer</h2>
+
+<p>
+  You could bind those two functions to different key sequences by putting
+  lines like this in your .emacs init file (in your home directory).
+</p>
+
+<pre>
+ (global-set-key [ (control c) (m) ] 'M2)
+ (global-set-key [ (control c) (c) ] 'M2-send-to-program)
+</pre>
+
+<p>
+  Or you could bind them to different function keys like this:
+</p>
+
+<pre>
+ (global-set-key [ f9 ] 'M2)
+ (global-set-key [ f10 ] 'M2-send-to-program)
+</pre>

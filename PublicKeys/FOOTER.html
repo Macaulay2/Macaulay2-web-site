@@ -1,0 +1,48 @@
+<p>
+  The fingerprint of the key is
+</p>
+<pre>
+  CD9C 0E09 B0C7 8094 3A1A  D855 53F8 BD99 F40D CB31
+</pre>
+
+<hr/>
+
+<p>
+  To add the key to your gpg key ring, save the file and issue this command:
+</p>
+<pre>
+  gpg --import Macaulay2-key
+</pre>
+<p>
+  Then, to verify a signature contained in a file called <tt>foo.sig</tt>, say,
+  issue this command:
+</p>
+<pre>
+  gpg --verify foo.sig
+</pre>
+
+<hr/>
+
+<p>
+  To add this key to the key ring of your Ubuntu or Debian system's package manager, issue this command:
+</p>
+
+<pre>
+    apt-key add Macaulay2-key
+</pre>
+
+<hr/>
+
+
+<p>
+  To add this key to your "rpm" key ring in your redhat-based linux system, issue this command:
+</p>
+<pre>
+  sudo rpm --import Macaulay2-key.txt
+</pre>
+<p>
+  To use the key to check an internally signed rpm file called <tt>foo.rpm</tt>, issue this command:
+</p>
+<pre>
+  rpm --checksig foo.rpm
+</pre>

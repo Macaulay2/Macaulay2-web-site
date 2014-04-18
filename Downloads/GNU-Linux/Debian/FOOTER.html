@@ -1,0 +1,176 @@
+<h2>Instructions for installing Macaulay 2 with root access</h2>
+
+<p>
+  Prepare for installing Macaulay 2 (with apt-get, gdebi-gtk, or the
+  Synaptic Package Manager) by adding the following line to the file
+  /etc/apt/sources.list, suitably modified as described in the table below:
+</p>
+
+<pre>
+    deb http://www.math.uiuc.edu/Macaulay2/Repositories/Debian XXXX main
+</pre>
+
+<table border="1">
+  <tr>
+    <th>Operating system</th>
+    <th>Replacement for "XXXX"</th>
+    <th>Comment</th>
+  </tr>
+  <tr> <td>D<!--D-->ebian 4</td> <td>etch</td> </tr>
+  <tr> <td>D<!--D-->ebian 5</td> <td>lenny</td> </tr>
+  <tr> <td>D<!--D-->ebian 6</td> <td>squeeze</td> </tr>
+  <tr> <td>D<!--D-->ebian 7</td> <td>wheezy</td> </tr>
+</table>
+
+<p>
+  There are various ways to add that line to that file:
+</p>
+
+<ul>
+  <li>
+    Use the "Synaptic Package Manager", which can be started from the
+    "System/Administration" menu or the "Desktop/Administration" menu.  (You
+    may also start it with the command "sudo synaptic" in a shell window.)
+    Pull down the "Settings" menu, and select "Repositories".  That will open up
+    a window called "Software Sources".  Now, depending
+    on which version you have, do one of the following.
+    <ul>
+      <li>
+	If you see a tab labelled "Other Software" or "Third Party Software",
+	click on it, then click on "Add", and add the entry.  If you make a
+	mistake, be prepared to use an editor to edit the file to correct it.
+	If two entries are created, remove or un-check the one corresponding
+	to the source code (since we don't provide those).  For "Type", select
+	"Binary", for "URI" insert "http://www.math.uiuc.edu/Macaulay2/Repositories/Debian",
+	for "Distribution" insert the replacement for "XXXX" introduced above,
+	and for "Components" insert "main".
+      </li>
+      <li>
+	If you see a tab labelled "Installation Media", then click on it, then
+	click on "Add" and then "Custom", and add the entry.
+      </li>
+    </ul>
+  </li>
+  <li>
+    Use the "Software Sources" program, which can be started from the
+    "System/Administration" menu, or the "Software Properties" program, which
+    can be started from the "Desktop/Administration" menu.
+  </li>
+  <li>
+    Use the command "<tt>sudo emacs /etc/apt/sources.list</tt>" to edit the file and add that line.
+  </li>
+</ul>
+
+<p>
+  Another thing you should do (now) is to download and save the public key
+  file <a href="../../../PublicKeys/Macaulay2-key">Macaulay2-key</a>, so you
+  can add it to the key ring used for upgrading the system.  This will allow
+  the system to verify the signatures attached to the Macaulay2 distribution
+  files.  To add it to the key ring using the graphical user interface, access
+  the "Software Sources" window (or program), as mentioned above, but this time
+  select the "Authentication" tab.  Click on the "Import Key File..." button,
+  and select the previously downloaded public key file, <tt>Macaulay2-key</tt>.
+  To add it to the key ring manually use the command "<tt>sudo apt-key add
+  Macaulay2-key</tt>".
+</p>
+
+<p>
+  Now, using the "Synaptic Package Manager", reload the package lists from the
+  repositories by clicking on the "Reload" button, and then click on the
+  Mathematics (Math) section.  You should see "macaulay2" on the list,
+  available for download: click on it.  It will add both "macaulay2" and
+  "macaulay2-common" to the list of packages to be installed.  (Behind the
+  scenes, the package manager will
+  consult <a href="http://www.math.uiuc.edu/Macaulay2/Repositories/Debian/dists/">our
+  Debian repository</a>.)
+</p>
+
+<p>
+  Later upgrades to Macaulay 2 will become available to you almost
+  automatically.  You can periodically run the Synaptic Package Manager and
+  check for updates by clicking on "Reload" and then on "Mark all Upgrades".
+  Alternatively, when an orange starburst icon is occasionally displayed in
+  your task bar indicating that updates are available from Debian headquarters,
+  you may click on the icon to activate the Update Manager, and then click on
+  "Check" to download any new package information from the software channels,
+  including the Macaulay 2 repository.  If an update of Macaulay 2 is
+  available, it will be displayed at the bottom of the list, after the
+  Important Security Updates and the Recommended Updates, among the Other
+  Updates.  Press "Install Updates" to have it installed, along with the
+  others.  (If you have not installed the Macaulay2 public key file as
+  described above, then our update will be listed as "Not authenticated", and
+  the "list of changes" will not be available.)
+</p>
+
+<p>
+  Another way to install Macaulay 2, after that line are added to
+  /etc/apt/sources.list, is with these command lines.
+</p>
+
+<pre>
+	sudo apt-get update -q
+	sudo apt-get install -y -q macaulay2
+</pre>
+
+<!-- <p> -->
+<!--   <b>Warning:</b> if you get something like the following error messages: -->
+<!-- </p> -->
+<!-- <pre>        $ M2 -->
+<!--         M2: /usr/lib/libstdc++.so.6: version `GLIBCXX_3.4.11' not found (required by M2) -->
+<!--         M2: /usr/lib/libxml2.so.2: no version information available (required by M2) -->
+<!--         M2: /usr/lib/libxml2.so.2: no version information available (required by M2) -->
+<!--         M2: /usr/lib/libxml2.so.2: no version information available (required by M2) -->
+<!--         $ </pre> -->
+<!-- <p> -->
+<!--   then it means that we have compiled M2 on a more recent version of Debian -->
+<!--   than you have installed on your machine.  To fix it, you can "upgrade" to -->
+<!--   the latext ubuntu release (for example, Macaulay2 1.3.1 requires ubuntu 9.10 -->
+<!--   or higher), or you can compile Macaulay2 -->
+<!--   from <a href="../../SourceCode/">source code</a>. -->
+<!-- </p> -->
+
+<p>
+  The preferred way to run Macaulay 2 is with emacs, but the installation
+  procedure described above doesn't teach emacs how to do that.  So, after
+  Macaulay 2 is successfully installed as described above, the first thing you
+  should do is to run M2 and to issue the Macaulay 2
+  command <b>setupEmacs()</b>.  That will ensure that the next time you start
+  emacs, it knows how to edit *.m2 files, and it knows that when you press the
+  f12 key, it should start Macaulay 2 running in an interactive buffer.
+</p>
+
+<p>
+  If the procedure above doesn't work for you, then you may install the package
+  files manually with <b>dpkg</b> (they all have names of the
+  form <b>*.deb</b>).  They come in pairs, one containing the architecture
+  dependent files (in this directory), and one of
+  the <a href="../../Common/">the common files</a> containing the architecture
+  independent files and having "common" in the name.
+</p>
+
+<h2>Instructions for installing Macaulay 2 without root access</h2>
+
+<p>
+  You may <a href="../InstallingFromTarFiles.txt">install from a tar file</a>,
+  if we have provided one above.  Alternatively, here is the procedure for
+  unpacking a *.deb file yourself.  We assume the *.deb file is
+  called <tt>/tmp/Macaulay2-1.6-AAA-Linux-Debian-XXX.deb</tt>, which
+  you have chosen because you have version XXX of Debian.  Here "AAA"
+  denotes your computer's architecture.
+</p>
+
+<pre>
+     mkdir foo
+     cd foo
+     ar x /tmp/Macaulay2-1.6-AAA-Linux-Debian-XXX.deb data.tar.gz
+     tar xzf data.tar.gz
+</pre>
+
+<p>
+  The result will be a directory tree named "usr", which can be moved and
+  renamed at will.  After moving it, run the program bin/M2 contained within,
+  and run the "setup()" command to set up your standard init files, as
+  described elsewhere.  Then the directory "foo" and the file "data.tar.gz" in
+  it can be removed.
+</p>
+
