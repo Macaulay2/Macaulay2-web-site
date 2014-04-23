@@ -225,13 +225,14 @@ else set - \
 	 -name \*.toc -o  \
 	 -name \*.aux -o  \
 	 -name README -o  \
-	 -name README.html -o  \
+	 -name README\*.html -o  \
 	 -name HEAD.html -o  \
 	 -name \*-200.jpg -o  \
 	 -name .nfs\* -o  \
 	 -name .title -o  \
 	 -name \*.sig -o  \
-	 -name FOOTER.html -o  \
+	 -name .gitignore -o  \
+	 -name FOOTER\*.html -o  \
 	 -name local.css
 fi
 
