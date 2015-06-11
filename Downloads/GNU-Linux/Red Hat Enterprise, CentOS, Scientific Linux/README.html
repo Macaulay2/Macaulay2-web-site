@@ -7,37 +7,30 @@
 </p>
 
 <p>
-  Eventually we will arrange for automatic installation of Macaulay 2 on Red
-  Hat systems, and the method will be explained here.  In either case, it is
-  a good idea to install the <a href="../../../PublicKeys/">Macaulay2 public key</a>,
-  which "rpm" will use to verify the integrity of the files available here.
+  We have arranged for automatic installation of Macaulay 2 on Red Hat systems,
+  and the method is be explained here.  Whether you install manually or
+  automatically, it is a good idea first to install
+  the <a href="../../../PublicKeys/">Macaulay2 public key</a>, which "rpm" will
+  use to verify the integrity of the files available here.
 </p>
 
 <p>
-  For now you may install the package files manually (they all have names of
-  the form <b>*.rpm</b>), but they come in pairs, one containing the
-  architecture dependent files (in this directory), and one containing the
-  architecture independent files and having "common" in the name.  The latter
-  files can be obtained in <a href="../../Common/">Common/</a>.
-</p>
-
-<p>
-  Here are sample commands for manually installing Macaulay2 from downloaded *.rpm
-  files.  (Replace "1.6" by the current version number, "x86_64" by your
-  architecture, and "RedHatEnterprise-4" by the issue.)
-</p>
-
+  To install Macaulay2 automatically, you first add
+  our <a href="../../../Repositories/Scientific">repository</a> to your list 
+  of software repositories.  Do this by downloading the
+  file <a href="Macaulay2.repo">Macaulay2.repo</a> and placing it in your
+  directory <tt>/etc/yum.repos.d</tt>.  Then run 
 <pre>
-        sudo rpm -i -v Macaulay2-1.6-common.rpm
-        sudo rpm -i -v Macaulay2-1.6-x86_64-Linux-RedHatEnterprise-4.rpm
+       yum update
+       yum install Macaulay2
 </pre>
-
-<p>
-  Here are sample commands for manually uninstalling Macaulay2.  (Replace "1.6" by
-  the current version number.)
 </p>
 
-<pre>
-	sudo rpm -e -v Macaulay2-1.6
-	sudo rpm -e -v Macaulay2-common-1.6
-</pre>
+<p>
+  You may also install the package files manually (they all have names of the
+  form <b>*.rpm</b>), but they come in pairs, one containing the architecture
+  dependent files (in this directory), and one containing the architecture
+  independent files and having "common" in the name.  The latter files can be
+  obtained in <a href="../../Common/">Common/</a>, and the former files are
+  listed here:
+</p>

@@ -7,7 +7,7 @@ a:
 	find . -name Macaulay2\*FreeBSD\* -exec mv -iv '{}' ../Downloads/FreeBSD/. ';'
 	find . -name Macaulay2\*Darwin\* -exec mv -iv '{}' ../Downloads/MacOSX/. ';'
 	find . -name Macaulay2\*Fedora\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Fedora/. ';'
-	find . -name Macaulay2\*ScientificLinux\* -exec mv -iv '{}' ../Downloads/GNU-Linux/ScientificLinux/. ';'
+	find . -name Macaulay2\*ScientificLinux\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	$(MAKE) -C ../Downloads index-new
 	$(MAKE) -C ../Downloads/Microsoft-Windows index-new-local
 	$(MAKE) -C ../Downloads/Microsoft-Windows/Cygwin index-new
