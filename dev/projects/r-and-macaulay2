@@ -1,0 +1,21 @@
+Title: R and Macaulay2
+
+Description: interface between Macaulay2 and statistical software R
+
+=============================================================================
+
+Proposed by: Sonja Petrovic
+
+Potential Advisor: 
+Project assigned to: Vishesh Karwa, Elizabeth Gross, Sonja Petrovic
+Current status: drafting basic functionality.
+
+=============================================================================
+
+ 
+Progress log: 
+
+	 See the wiki for the IMA-2011 workshop for the latest updates.
+
+	 We are first working on the interface to basic functions for R from
+	 Macaulay2. Long-term goal to interface M2 from R!

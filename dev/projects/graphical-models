@@ -1,0 +1,22 @@
+Title: GraphicalModels
+
+Description: the package for graphical models in algebraic statistics.
+
+=============================================================================
+
+Proposed by: Mike Stillman, Seth Sullivant
+Potential Advisor: 
+Project assigned to: Seth Sullivant, Sonja Petrovic
+Current status: 
+
+	basic package has been finished, 
+	authors: Mike Stillman and Luis Garcia-Puente; 
+	contributing authors: Alex Diaz, Shaowei Lin, Sonja Petrovic.
+
+	The package is functional already but needs a few updates.
+
+=============================================================================
+
+Progress log:
+
+	updating and restoring functionality during the IMA-2011 workshop.
