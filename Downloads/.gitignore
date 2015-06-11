@@ -1,0 +1,7 @@
+/index.html
+*.dev
+*.sig
+*.tar.bz2
+*.tar.gz
+*.zip
+*.tgz
