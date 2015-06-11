@@ -22,6 +22,7 @@ AddType 'application/x-debian-package' .deb
 
 Redirect permanent /Macaulay2/ftp-site/ http://www.math.uiuc.edu/Macaulay2/Downloads/
 Redirect permanent /Macaulay2/Events/Workshop2013January/ http://www.math.uiuc.edu/Macaulay2/Events/Workshop2014January/
+Redirect permanent /Macaulay2/Extra http://www.math.uiuc.edu/Macaulay2/Downloads/OtherSourceCode
 Redirect gone /Macaulay2/Manual/
 Redirect gone /Macaulay2/doc/Macaulay2-1.0
 Redirect gone /Macaulay2/doc/Macaulay2-1.1
