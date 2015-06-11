@@ -1,0 +1,141 @@
+mailing list:
+
+editors at Springer
+
+To:	Martin Peters <Peters@Springer.de>
+CC:	Ruth Allewelt <Allewelt@Springer.de>
+
+-----------------------------------------------------------------------------
+
+fax numbers:
+        Luchezar Avramov
+        Wolfram Decker
+	Serkan Hosten
+        Frank Schreyer
+	Gregory G. Smith
+        Frank Sottile
+	Rekha Thomas		206-543-0397
+	Fabio Tonoli
+        Uli Walther		765-494-0548		okayed
+ 	David Eisenbud		510-642-8609		okayed
+	Daniel Grayson		217-333-9576		change 'from' to 'form'
+	Michael Stillman	33 (0) 4.93.51.79.74 
+	Bernd Sturmfels
+
+To:     Luchezar Avramov <avramov@math.purdue.edu>,
+        Wolfram Decker <decker@math.uni-sb.de>,
+	Serkan Hosten <serkan@math.sfsu.edu>,
+        Frank Schreyer <frank.schreyer@uni-bayreuth.de>,
+	Gregory G. Smith <ggsmith@math.berkeley.edu>,
+        Frank Sottile <sottile@math.umass.edu>,
+	Rekha Thomas <thomas@math.washington.edu>,
+	Fabio Tonoli <tonoli@uni-math.gwdg.de>,
+        Uli Walther <walther@math.purdue.edu>
+CC: 	David Eisenbud <de@msri.org>,
+	Daniel Grayson <dan@math.uiuc.edu>,
+	Michael Stillman <mike@math.cornell.edu>,
+	Bernd Sturmfels <bernd@math.berkeley.edu>
+CC:	Karl-Friedrich Koch <KFKoch@t-online.de>
+Subject: Macaulay 2 book
+ 
+editors:
+	David Eisenbud <de@msri.org>
+	Daniel R. Grayson <dan@math.uiuc.edu>
+	Michael E. Stillman <mike@math.cornell.edu>
+	Bernd Sturmfels <bernd@math.berkeley.edu>
+
+chapters:
+
+	"Algorithms for the Toric Hilbert Scheme", by Mike Stillman, Bernd Sturmfels, Rekha Thomas
+		Ready by September 8?
+		Stillman might like to referee Eisenbud-Decker.
+
+	"Computations over complete intersections", Luchezar Avramov, Dan Grayson
+		There's a chance it'll be ready by Sept 11.
+		Completely written, except for the final part about the computations.
+		Lucho has to spend another day checking it over, and then the
+		authors have to edit it, but Lucho is very busy teaching.
+
+	"Macaulay 2 and the geometry of schemes", Gregory Smith, Bernd Sturmfels
+		Chapter complete.
+
+	"From enumerative geometry to solving systems of equations", Frank Sottile
+		Has provided a final draft.  There are some things Dan should try to
+		speed up : "it would be good for rudimentary real root counting and
+		also the trace form (with signature!) to be implemented
+		in Macaulay2, at least to some degree."
+
+	"Explicit computations in characteristic zero with D-module theory", Uli Walther
+		Has provided a final draft.  This involves Groebner bases in
+		noncommutative rings (Weyl algebras), and ends up computing
+		local cohomology and perhaps deRham cohomology.
+		[Would be willing to referee Avramov/Grayson, Eisenbud, or Eisenbud/Decker.]
+
+	"Sheaf algorithms using the exterior algebra", David Eisenbud and Wolfram Decker
+		Final draft provided.
+		About resolutions over exterior algebras and Beilinson's spectral sequence.
+
+	"Using small fields to construct objects in algebraic geometry", 
+		by Frank Schreyer and Fabio Tonoli.
+		Final draft provided.  
+
+        Serkan Hosten, "Computing with monomial ideals and Scarf complexes".  
+		This would involve extremal behavior of Betti numbers.
+		He fell ill last weekend.  We'll get it by Sep 11!
+		It is going to be a nice chapter on monomial ideals.
+
+	David Jorgensen, "Computing Support Varieties"
+		We've invited him to submit his paper for consideration as a chapter,
+		and he'll submit his paper by Sept 11.
+
+	-----------------------------------------------------------------------------
+
+	we don't expect these chapters
+
+	David A. Bayer
+		Is willing to try to come up with a suitable topic.
+
+	David Eisenbud
+	       Is willing to write a chapter on "Jet spaces of algebraic
+	       varieties".  It concerns whether higher jet spaces are 
+	       irreducible, and is related to whether the singularities
+	       are rational singularities.
+
+        Sorin Popescu
+		Is willing to write a chapter perhaps on secant varieties of
+		canonically embedded curves, or graded Betti numbers of
+		finite 	subsets of projective space (computation of the 
+		canonical module, Gale transform).
+		
+
+royalty shares ?:
+
+1 for each author, 1 for each editor, 1 for each author of Macaulay 2
+
+
+-----------------------------------------------------------------------------
+
+Editor addresses:
+
+        David Eisenbud
+                Mathematical Sciences Research Institute
+                1000 Centennial Drive
+                Berkeley, CA 94720, USA,
+                and
+                Department of Mathematics
+                University of California at Berkeley
+                Berkeley, CA 94720, USA
+
+        Bernd Sturmfels
+                Department of Mathematics
+                University of California
+                Berkeley, California 94720, USA
+
+
+	Mike Stillman
+		Departement de Mathematiques
+		Universite de Nice
+		Parc Valrose
+		06108 Nice Cedex 02
+		France
+

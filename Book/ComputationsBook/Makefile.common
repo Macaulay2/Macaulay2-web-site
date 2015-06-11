@@ -1,0 +1,5 @@
+find-tex :
+	@echo $(FILE) is `kpsewhich -format=.tex $(FILE)` >>/tmp/trace
+	@kpsewhich -format=.tex $(FILE)
+find-bib :
+	@kpsewhich -format=.bib $(FILE)

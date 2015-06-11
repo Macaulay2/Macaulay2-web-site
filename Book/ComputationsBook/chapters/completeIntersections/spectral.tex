@@ -1,0 +1,81 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb,latexsym}
+\usepackage[matrix,arrow,curve]{xy}
+\usepackage{amsthm}
+\newtheorem{lemma}{Lemma}
+\newtheorem{definition}{Definition}
+\begin{document}
+\begin{lemma}\label{quis}
+  If 
+  \begin{equation}
+    \xymatrix{
+      0 \ar[r] & A  \ar[d]_p \ar[r] & B  \ar[d]_q\ar[r] & C  \ar[d]_r\ar[r] & 0 \\
+      0 \ar[r] & A' \ar[r] & B' \ar[r] & C' \ar[r] & 0 
+      }
+  \end{equation}
+  is a map between short exact sequences of chain complexes, and $p$ and $r$
+  are quasi-isomorphisms, them so is $q$.
+\end{lemma}
+\begin{proof}
+  \ Apply the 5-lemma to the following diagram.
+  \begin{equation}
+    \xymatrix{
+      H_{n-1} C  \ar[d]_{H_{n-1}r}^\cong \ar[r] &
+      H_n     A  \ar[d]_{H_n    p}^\cong \ar[r] &
+      H_n     B  \ar[d]_{H_n    q}       \ar[r] &
+      H_n     C  \ar[d]_{H_n    r}^\cong \ar[r] &
+      H_{n+1} A  \ar[d]_{H_{n+1}p}^\cong
+      \\
+      H_{n-1} C'         \ar[r] &
+      H_n     A'         \ar[r] &
+      H_n     B'         \ar[r] &
+      H_n     C'         \ar[r] &
+      H_{n+1} A' 
+      }
+  \end{equation}
+\end{proof}
+\begin{definition} A {\em bounded} ascending filtration of a module $M$ is an ascending
+      filtration of $M$ by submodules such that $F_0 M=0$ and $F_n M= M$ for some $n \in \mathbb N$.
+\end{definition}
+\begin{definition} A {\em bounded} ascending filtration of a chain complex $C$ is an ascending
+      filtration by subcomplexes such that for each $k \in \mathbb Z$ the
+      induced filtration on the module $C_k$ is bounded.  We say also that
+      $C$ is {\em boundedly} filtered.
+\end{definition}
+\begin{definition}
+  A {\em map} of filtered chain complexes $f : C \to D$ is a chain map such that,
+  for each $n \in \mathbb Z$ we have $f(F_n C) \subseteq F_n D$.  Such a map
+  induces maps of chain complexes $F_n f : F_n C \to F_n D$ and $gr_n f : gr_n C \to gr_n D$.
+\end{definition}
+\begin{lemma}
+  Suppose $f : C \to D$ is a map of boundedly filtered chain complexes, and
+  that for each $n \in \mathbb Z$, the induced map $gr_n f$ is a
+  quasi-isomorphism.  Then $f$ is a quasi-isomorphism.
+\end{lemma}
+\begin{proof}
+  It is enough to show that for each $n \in \mathbb Z$, the map $F_n f$ is a
+  quasi-isomorphism.  For, suppose we are given $k \in \mathbb Z$, and we
+  wish to show that $H_k f : H_k C \to H_k D$ is an isomorphism.  Pick $n$ so
+  large that $F_n C_{k-1} = C_{k-1}$, $F_n C_{k} = C_{k}$, $F_n C_{k+1} =
+  C_{k+1}$, $F_n D_{k-1} = D_{k-1}$, $F_n D_{k} = D_{k}$, and $F_n D_{k+1} =
+  D_{k+1}$.  With that choice for $n$, we see that $H_k F_n C = H_k C$ and
+  $H_k F_n D = H_k D$.  Assuming as we are that $H_k F_n f : H_k F_n C \to
+  H_k F_n D$ has been shown to be an isomorphism, it follows that $H_k f :
+  H_k C \to H_k D$ is an isomorphism.
+  
+  We shall show that for each $n \in \mathbb Z$ the map $F_n f : F_n C \to
+  F_n D$ is a quasi-isomorphism by ascending induction on $n$, the statement
+  being clear for $n=0$ because $F_0 C = 0$ and $F_0 D = 0$.  For the
+  inductive step, we assume that $F_{n-1} f : F_{n-1} C \to F_{n-1} D$ is a
+  quasi-isomorphism and show that $F_{n} f : F_{n} C \to F_{n} D$ is, too.
+  For this, simply apply the hypothesis and Lemma \ref{quis} to the
+  following diagram.
+  \begin{equation}
+    \xymatrix{
+      0 \ar[r] & F_{n-1} C  \ar[d]_\sim \ar[r] & F_n C  \ar[d]\ar[r] & gr_n C  \ar[d]_\sim\ar[r] & 0 \\
+      0 \ar[r] & F_{n-1} D \ar[r] & F_n D \ar[r] & gr_n D \ar[r] & 0 
+      }
+  \end{equation}
+\end{proof}
+\end{document}

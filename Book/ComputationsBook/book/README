@@ -1,0 +1,5 @@
+# commands needed to create this book:
+
+latex book
+makeindex -s sprmindx.sty book
+latex book

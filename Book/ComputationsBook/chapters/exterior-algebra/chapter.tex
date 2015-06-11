@@ -1,0 +1,2823 @@
+\title{Sheaf Algorithms Using the Exterior Algebra}
+\titlerunning{Sheaf Algorithms}
+\toctitle{Sheaf Algorithms Using the Exterior Algebra}
+\author{Wolfram Decker
+        % \inst 1
+   \and David Eisenbud
+        % \inst 2
+        }
+\authorrunning{W. Decker and D. Eisenbud}
+% \institute{FB Mathematik, Universit\"at des Saarlandes, 66041 Saarbr\"ucken, Germany
+%            \and
+%            1000 Centennial Drive, Mathematical Sciences Research Institute, Berkeley, CA 94720, USA}
+
+%%%%%%%%%%%%% EISENBUDS %%%%%%%%%%%%%%%%%%
+%\input begin.tex
+%\showlabels
+%\showlabelsabove
+% \input diagrams.tex
+%\vsize=13.6truecm
+%\hsize=19truecm
+% \overfullrule=0pt
+% Gothic fonts from AMSTeX 
+\font\tengoth=eufm10  \font\fivegoth=eufm5
+\font\sevengoth=eufm7
+\newfam\gothfam  \scriptscriptfont\gothfam=\fivegoth 
+\textfont\gothfam=\tengoth \scriptfont\gothfam=\sevengoth
+\def\goth{\fam\gothfam\tengoth}
+%
+% Bold italic fonts 
+\font\tenbi=cmmib10  \font\fivebi=cmmib5
+\font\sevenbi=cmmib7
+\newfam\bifam  \scriptscriptfont\bifam=\fivebi 
+\textfont\bifam=\tenbi \scriptfont\bifam=\sevenbi
+\def\bi{\fam\bifam\tenbi}
+%
+\font\hd=cmbx10 scaled\magstep1
+%%%%%%%%%%%%%%%%%%%%%% EISENBUD ENDE %%%%%%%%%%%%%%%%%%
+
+%\usepackage{amsmath,amscd,amsthm,amssymb,amsxtra,latexsym,epsfig,epic,eepic,graphics}
+
+% \usepackage{amsmath,amscd,amsthm,amssymb,amsxtra,latexsym,epsfig,epic,graphics}
+
+% \usepackage[matrix,arrow,curve]{xy}
+%
+
+\def \fix#1 {{\par \bf (( #1 ))\par}}
+\def \Box {\hfill\hbox{}\nobreak \vrule width 1.6mm height 1.6mm
+depth 0mm  \par \goodbreak \smallskip}
+\def \reg {\mathop{\rm regularity}}
+\def \coker {\mathop{\rm coker}}
+\def \ker {\mathop{\rm ker}}
+\def \im {\mathop{\rm im}}
+\def \deg  {\mathop{\rm deg}}
+\def \depth {\mathop{\rm depth}}
+\def \span {\mathop{\rm span}}
+\def \socle {\mathop{\rm socle}}
+\def \dim{{\rm dim}}
+\def \codim{{\rm codim}}
+\def \Im  {\mathop{\rm Im}}
+\def \ann  {\mathop{\rm ann}}
+\def \rank {\mathop{\rm rank}}
+\def \sing {\mathop{\rm Sing}}
+\def \iso {\cong}
+\def \tensor {\otimes}
+\def \dsum {\oplus}
+\def \intersect {\cap}
+\def \Hom {{\mathop{\rm Hom}\nolimits}}
+\def \hom {{\mathop{\rm Hom}\nolimits}}
+\def \Ext {{\rm Ext}}
+\def \ext{{\rm Ext}}
+\def \Tor {{\rm Tor}}
+\def \tor{{\rm Tor}}
+\def \Sym {{\mathop{\rm Sym}\nolimits}}
+\def \End {{\mathop{\rm End}\nolimits}}
+\def \sym{{\rm Sym}}
+\def \GL{{\rm GL}}
+\def \Proj{{\rm Proj}}
+\def \h {{\rm h}}
+
+\def \coh{{\rm Coh}}
+%\def \BGG{{\rm BGG}}
+\def \lin{{\rm lin}}
+
+\def \th {{^{\rm th}}}
+\def \st {{^{\rm st}}}
+
+
+\def \A {{\cal A}}
+\def \AA {{\bf A}}
+\def \B {{\cal B}}
+\def \C {{\cal C}}
+\def \CC {{\bf C}}
+\def \DD  {{\bf D}}
+\def \E  {{\cal E}}
+\def \F {{\cal F}}
+\def \FF {{\bf F}}
+\def \G {{\cal G}}
+\def \GG {{\bf G}}
+\def \K {{\cal K}}
+\def \H {{\rm H}}
+\def \KK {{\bf K}}
+\def \L {{\cal L}}
+\def \LL {{\bf L}}
+\def \MM{{\bf M}}
+\def \N {{\cal N}}
+\def \O {{\cal O}}
+\def \P {{\bf P}}
+\def \PP {{\bf P}}
+\def \RR {{\bf R}}
+\def \TT {{\bf T}}
+\def \Z {{\bf Z}}
+
+\def \gm {{\goth m}}
+
+
+
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%The black board font
+%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\A}{{\mathbb A}}
+%\newcommand{\B}{{\mathbb B}}
+%\newcommand{\C}{{\mathbb C}}
+%\newcommand{\D}{{\mathbb D}}
+%\newcommand{\E}{{\mathbb E}}
+%\newcommand{\F}{{\mathbb F}}
+%\newcommand{\G}{{\mathbb G}}
+%\newcommand{\H}{{\mathbb H}}
+%\newcommand{\I}{{\mathbb I}}
+%\newcommand{\J}{{\mathbb J}}
+%\newcommand{\K}{{\mathbb K}}
+%\newcommand{\L}{{\mathbb L}}
+%\newcommand{\M}{{\mathbb M}}
+%\newcommand{\N}{{\mathbb N}}
+%\newcommand{{\mathbb O}}
+%\newcommand{{\mathbb P}}
+\newcommand{\QQ}{{\mathbb Q}}
+%\newcommand{\R}{{\mathbb R}}
+%\newcommand§{{\mathbb S}}
+%\newcommand{\T}{{\mathbb T}}
+%\newcommand{\U}{{\mathbb U}}
+%\newcommand{\V}{{\mathbb V}}
+%\newcommand{\W}{{\mathbb W}}
+%\newcommand{\X}{{\mathbb X}}
+%\newcommand{\Y}{{\mathbb Y}}
+%\newcommand{\Z}{{\mathbb Z}}
+
+%\newcommand{\LL}{{\mathbb L}}
+%\newcommand{\TT}{{\mathbb T}}
+%\newcommand{\HH}{{\mathbb H}}
+
+\def\pp#1{{\text{$\text{I\!P}_#1$}}}
+%\newcommand{\PP}{{\mathbb P}}
+
+%\DeclareMathOperator{\gin}{gin}
+
+%\newcommand{\Syz}{{\rm{Syz}\;}}
+%\newcommand{\sym}{{\rm{Sym}}}
+%\newcommand{\SSyz}{{\rm{Syz}}}
+%\newcommand{\spoly}{{\rm{spoly}}}
+%\newcommand{\Spe}{{\rm{Sp}}}
+%\newcommand{\openC}{{\mathbb C}}
+%\newcommand{\ms}{{\rm{m}}}
+\newcommand{\SL}{{\rm{SL}}}
+%\newcommand{\IS}{{\rm{I}}}
+%\newcommand{\Loc}{{\rm{Loc}\,}}
+%\newcommand{\lcm}{{\rm{lcm}}}
+%\newcommand{\lc}{{\rm{lc}}}
+%\newcommand{\lm}{{\rm{lm}}}
+%\newcommand{\con}{{\rm{c}}}
+%\newcommand{\ext}{{\rm{e}}}
+%\newcommand{\ec}{{\rm{ec}}}
+%\newcommand{\ann}{{\rm{ann}}}
+%\newcommand{\Ext}{{\rm{Ext}}}
+%\newcommand{\equi}{{\rm{equi}}}
+%\newcommand{\rk}{{\rm{rk}}}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% new commands for calligraphic characters with amsmath
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\ka}{{\mathcal A}}
+\newcommand{\kb}{{\mathcal B}}
+\newcommand{\kc}{{\mathcal C}}
+\newcommand{\kd}{{\mathcal D}}
+\newcommand{\ke}{{\mathcal E}}
+\newcommand{\kf}{{\mathcal F}}
+\newcommand{\kg}{{\mathcal G}}
+\newcommand{\kh}{{\mathcal H}}
+\newcommand{\ki}{{\mathcal I}}
+\newcommand{\kj}{{\mathcal J}}
+\newcommand{\kk}{{\mathcal K}}
+\newcommand{\kl}{{\mathcal L}}
+\newcommand{\km}{{\mathcal M}}
+\newcommand{\kn}{{\mathcal N}}
+\newcommand{\ko}{{\mathcal O}}
+\newcommand{\kp}{{\mathcal P}}
+\newcommand{\kq}{{\mathcal Q}}
+\newcommand{\kr}{{\mathcal R}}
+\newcommand{\ks}{{\mathcal S}}
+\newcommand{\kt}{{\mathcal T}}
+\newcommand{\ku}{{\mathcal U}}
+\newcommand{\kv}{{\mathcal V}}
+\newcommand{\kw}{{\mathcal W}}
+\newcommand{\kx}{{\mathcal X}}
+\newcommand{\ky}{{\mathcal Y}}
+\newcommand{\kz}{{\mathcal Z}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%The mathscript for sheaves
+%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%
+\newcommand{\s}{\mathscr}
+\newcommand{\sA}{{\s A}}
+\newcommand{\sB}{{\s B}}
+\newcommand{\sC}{{\s C}}
+\newcommand{\sD}{{\s D}}
+\newcommand{\sE}{{\s E}}
+\newcommand{\sF}{{\s F}}
+\newcommand{\sG}{{\s G}}
+\newcommand{\sH}{{\s H}}
+\newcommand{\sI}{{\s I}}
+\newcommand{\sJ}{{\s J}}
+\newcommand{\sK}{{\s K}}
+\newcommand{\sL}{{\s L}}
+\newcommand{\sM}{{\s M}}
+\newcommand{\sN}{{\s N}}
+\newcommand{\sO}{{\s O}}
+\newcommand{\sP}{{\s P}}
+\newcommand{\sQ}{{\s Q}}
+\newcommand{\sR}{{\s R}}
+\newcommand{\sS}{{\s S}}
+\newcommand{\sT}{{\s T}}
+\newcommand{\sU}{{\s U}}
+\newcommand{\sV}{{\s V}}
+\newcommand{\sW}{{\s W}}
+\newcommand{\sX}{{\s X}}
+\newcommand{\sY}{{\s Y}}
+\newcommand{\sZ}{{\s Z}}
+
+\newcommand{\cO}{{\s O}}
+\newcommand{\cI}{{\s I}}
+% \newcommand{\cL}{{\s L}} %% \cL is used in \xy
+% \newcommand{\cR}{{\s R}} %% \cR is used in \xy
+\newcommand{\cN}{{\s N}}
+\newcommand{\cT}{{\s T}}
+\newcommand{\cX}{{\s X}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Arrows
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\inj}{\hookrightarrow}
+\newcommand{\surj}{\lra \lra}
+\newcommand{\lra}{\longrightarrow}
+\newcommand{\lla}{\longleftarrow}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\C}{\C}
+\newcommand{\openP}¶
+\newcommand{\uf}{{\bf F}}
+\newcommand{\uc}{{\bf C}}
+%\newcommand{\tensor}{\otimes}
+\newcommand{\mi}{{\bf m}}
+\newcommand{\tX}{\widetilde{X}}
+\newcommand{\punkt}{\hspace{-.3ex}\raise.15ex\hbox to1ex{\Huge.}}
+\newcommand{\tpunkt}{\hspace{-.3ex}\hbox to1ex{\Huge.}}
+\newlength{\br}
+\newlength{\ho}
+%\DeclareMathOperator{\GL}{GL}
+%\DeclareMathOperator{\Aut}{Aut}
+%\DeclareMathOperator{\Oo}{O}
+%\DeclareMathOperator{\Spec}{Spec}
+%\DeclareMathOperator{\Hom}{Hom}
+%\DeclareMathOperator{\Tor}{Tor}
+%\DeclareMathOperator{\syz}{syz}
+%\DeclareMathOperator{\ord}{ord}
+%\DeclareMathOperator{\word}{w\,ord}
+%\DeclareMathOperator{\supp}{supp}
+%\DeclareMathOperator{\Ker}{Ker}
+%\DeclareMathOperator{\im}{im}
+%\DeclareMathOperator{\wdeg}{w\,deg}
+%\DeclareMathOperator{\depth}{depth}
+%\DeclareMathOperator{\Coker}{Coker}
+%\DeclareMathOperator{\NF}{NF}
+%\DeclareMathOperator{\pd}{pd}
+%\DeclareMathOperator{\SL}{SL}
+%\DeclareMathOperator{\SO}{SO}
+%\DeclareMathOperator{\Ort}{O}
+%\DeclareMathOperator{\Spez}{Sp}
+%\DeclareMathOperator{\PSL}{PSL}
+%\DeclareMathOperator{\wdim}{wdim}
+%\DeclareMathOperator{\cdim}{cdim}
+%\DeclareMathOperator{\cha}{char}
+%\DeclareMathOperator{\trdeg}{trdeg}
+%\DeclareMathOperator{\codim}{codim}
+%\DeclareMathOperator{\kdim}{kdim}
+%\DeclareMathOperator{\height}{height}
+%\DeclareMathOperator{\Ass}{Ass}
+%\DeclareMathOperator{\Lie}{Lie}
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\newcommand{\Ndash}{\nobreakdash--}% for pages 1\Ndash 9
+\newcommand{\somespace}{\hfill{}\\ \vspace{-0.7cm}}
+
+%%%theosdefinitionen
+%newcommand{\gm}{\mathfrak m}
+%newcommand{\integer}{\Z}
+%newcommand{\proj}
+%newcommand{\complex}{\C}
+%newcommand{\real}{\mathbb R}
+%newcommand{\gp}{\mathfrak p}
+%newcommand{\gq}{\mathfrak q}
+%newcommand{\scr}{\cal}
+%newcommand{\openF}{\F}
+%\newcommand{\CC}{\mathbb C}
+%newcommand{\ZZ}{\Z}
+%newcommand{\QQ}{\Q}
+%newcommand{\FF}{\F}
+
+%%%%%%%%%%%%%%%BIBLIOGRAPHY
+%newcommand{\by}{}
+%newcommand{\paper}{: \begin{it}}
+%newcommand{\jour }{, \end{it}}
+%newcommand{\vol}{}
+%newcommand{\pages}{}
+%newcommand{\yr}{}
+%\newcommand{\endref}{}
+% Local Variables:
+% mode: latex
+% TeX-master: "tot"
+% End:
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%     HOLGERs Sätze
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\maketitle
+
+\begin{abstract}
+In this chapter we explain constructive methods for computing
+the cohomology of a sheaf on a projective variety. We also
+give a construction for the Beilinson monad, a tool for
+studying the sheaf from partial knowledge of its cohomology.
+Finally, we give some examples illustrating the use of the Beilinson
+monad. 
+\end{abstract}
+
+\section{Introduction}
+
+%\textbf{EISENBUD}
+
+In this chapter $V$ denotes a vector space of finite dimension $n+1$ over
+a field $K$ with dual space $W=V^*$, and $S=\sym_K(W)$ is the symmetric
+algebra of $W$, isomorphic to the polynomial ring on a basis for $W$.
+We write $E$ for the \ie{exterior algebra} on $V$. We grade
+$S$ and $E$ by taking elements of $W$ to have
+degree 1, and elements of $V$ to have degree $-1$.
+We denote the projective space of 1-quotients of $W$
+(or of lines in $V$) by $\P^n = \P(W)$.
+
+Serre's sheafification functor $M\mapsto \tilde M$ 
+allows one to consider a coherent sheaf on $\P(W)$ as an
+equivalence class of 
+finitely generated graded $S$-modules, where we identify two such modules
+$M$ and $M'$ if, for some $r$, the truncated modules $M_{\geq r}$ and
+$M'_{\geq r}$ are isomorphic. A free resolution of $M$,
+sheafified, becomes a resolution of $\tilde M$ by sheaves that
+are direct sums of line bundles on $\P(W)$ -- that is, a
+description of $\tilde M$ in terms of homogeneous matrices
+over $S$. Being able to compute
+syzygies over
+$S$ one can compute the cohomology of $\tilde M$ 
+starting from the minimal free resolution of $M$ (see 
+\cite{EA:MR1484973:eisenbud}, \cite{smith}
+and Remark \ref{cohold} below).
+
+The \ie{Bernstein-Gel'fand-Gel'fand correspondence} (\ie{BGG}) is an isomorphism
+between the derived category of bounded complexes of finitely
+ge\-nerated $S$-modules and the derived category of 
+bounded complexes of finitely generated $E$-modules
+or of certain ``\ie{Tate resolution}s'' of $E$-modules.
+In this chapter we show how to effectively compute
+the Tate resolution $\TT(\mathcal F)$
+associated to a sheaf $\mathcal F$, and we use this construction
+to give relatively cheap computations of the cohomology of $\mathcal F$.
+
+It turns out that by applying a simple functor to the Tate resolution $\TT(\mathcal F)$
+one gets a finite complex of sheaves  whose homology is the sheaf $\mathcal F$
+itself. This complex is called a
+{\it Beilinson monad\/}
+\index{Beilinson monad} \index{monad!Beilinson}
+for $\mathcal F$. The Beilinson monad
+provides a powerful method for getting information about a sheaf from 
+partial knowledge of its cohomology.
+It is a representation of the sheaf in terms  of direct sums of
+(suitably twisted) bundles of differentials and homomorphisms  between these
+bundles, which are given by homogeneous matrices over $E$. 
+
+The following recipe for computing the cohomology of a sheaf
+is typical of our methods: Suppose that
+$\F=\tilde M$ is the coherent sheaf on $\P(W)$ associated to a
+finitely generated graded $S$-module $M=\oplus M_i$. To
+compute the cohomology of $\F$ we consider a
+sequence of free $E$-modules and maps
+$$
+\FF(M):\quad \cdots \rTo F^{i-1}\rTo^{\phi_{i-1}} 
+F^i\rTo^{\phi_{i}} 
+F^{i+1}\rTo\cdots.
+$$
+Here we set $F^i=M_i \otimes_K E$ and define $\phi_i:F^i\rTo F^{i+1}$ to be the
+map taking $m\otimes 1\in M_{i}\otimes_K E$ to
+$$
+\sum_j x_jm\otimes e_j\in M_{i+1}\otimes V\subset F^{i+1},
+$$
+where $\{x_j\}$ and $\{e_j\}$ are dual bases of $W$ and $V$
+respectively. It turns out that $\FF(M)$
+is a complex; that is, $\phi_i\phi_{i-1}=0$ for
+every $i$ (the reader may easily check this by direct
+computation; a proof without indices is given in
+\cite{EA:eis-sch:sheaf}). %Eisenbud and Schreyer [2000].
+If we regard $M_i$ as a vector space concentrated
+in degree $i$, so that $F^i$ is a direct sum of copies of $E(-i)$,
+then these maps are homogeneous of degree 0.
+
+We shall see that if $s$ is a sufficiently large integer then
+the truncation of the Tate resolution
+$$
+F^s\rTo^{\phi_s} F^{s+1}\rTo\cdots
+$$ 
+is exact and is thus the minimal injective
+resolution of the finitely generated graded $E$-module
+$P_s=\ker \phi_{s+1}$. (In fact any value of $s$ greater
+than the 
+Castelnuovo-Mumford regularity of $M$ will do.) 
+
+Because the number of monomials 
+in $E$ in any given degree is small compared to the number of monomials of 
+that degree in the symmetric algebra, it is relatively cheap to compute a free
+resolution of 
+$P_s$ over $E$, and thus to 
+compute the graded vector
+spaces $\Tor^E_t(P_s,K)$. Our algorithm exploits the fact, proved in
+\cite{EA:eis-sch:sheaf}, %Eisenbud and Schreyer [2000],
+that the $j^\th$ cohomology $\H^j\F$ of $\F$ 
+in the Zariski topology is isomorphic to the degree $-n-1$ part of 
+$\Tor^E_{s-j}(P_s,K)$; that is,
+$$
+\H^j\F\cong\Tor^E_{s-j}(P_s,K)_{-n-1}.
+$$
+In addition, the linear parts of the matrices
+in the complex $\TT(\mathcal F)$ determine the
+graded
+$S$-modules
+$$
+\H^j_*\mathcal F := \oplus_{i\in\mathbb Z}\, \H^j  \mathcal F(i)\ .
+$$
+In many cases this is the fastest known method for computing cohomology.
+
+Section 2 of this paper is devoted to a sketch of the
+Eisenbud-Fl{\o}ystad-Schreyer approach
+to the Bernstein-Gel'fand-Gel'fand correspondence, and 
+the computation of cohomology, together with \Mtwo programs
+that carry it out, is explained in Section 3. 
+
+
+The remainder of this paper is devoted to an explanation of
+the Beilinson monad, how to compute it in \Mtwo, and what it
+is good for.
+This technique has played an important role in the construction
+and study of vector bundles and varieties. In the typical application
+one constructs or classifies monads in order to  construct or classify
+sheaves. 
+
+The BGG correspondence and Beilinson's monad were originally
+formulated in the language of derived categories, and the
+proofs were rather complicated.
+The ideas of Eisenbud-Fl{\o}ystad-Schreyer exposed above allow, 
+for the first time, an
+explanation of these matters on a level that can be understood by 
+an advanced undergraduate.
+
+The Beilinson monad is similar in spirit to the technique of
+free re\-solutions. That theory essentially describes arbitrary
+sheaves by comparing them with direct sums of line bundles.
+In the Beilinson technique, one uses a different set of 
+``elementary" sheaves, direct sums of exterior powers of
+the tautological sub-bundle. Beilinson's remarkable observation
+was that this comparison has a much more direct connection
+with cohomology than does the free resolution method.
+
+Sections 4 and 5 are introductory in nature. In
+Section 4 we begin with a preparatory discussion of the
+necessary vector bundles
+on projective space and their cohomology. In Section 5
+we define monads, a generalization of resolutions. We give
+a completely elementary account which constructs the
+Beilinson monad in a very special case, following ideas
+of Horrocks, and we use this to sketch part of one of the 
+first striking applications of monads: the classification of stable
+rank 2 vector bundles on the projective plane by
+Barth, Hulek and Le Potier.
+
+In Section 6 we give the construction of Eisenbud-Fl{\o}ystad-Schreyer
+for the Beilinson monad in general. This is quite suitable for
+computation, and we give \Mtwo code that does this job.
+
+A natural question for the student at this point is:
+``Why should I bother learning Beilinson's theorem, what is it good
+for?" In section 7, we describe two more explicit applications
+of the theory developed. In the  first, the classification of
+elliptic conic bundles in $\P^4$, computer algebra played 
+a  significant role, demonstrating that several published papers
+contained serious mistakes by constructing an example
+they had excluded! Using the routines developed earlier
+in the chapter we give a simpler account of the
+crucial computation.
+
+In the second application, the construction of abelian surfaces in
+$\P^4$ and the related Horrocks-Mumford bundles, computer algebra
+allows one to greatly shorten some of the original arguments made.
+As the reader will see, everything follows easily
+with computation, once a certain $2\times 5$ matrix of exterior 
+monomials, given by Horrocks and Mumford, has been written down.
+One might compare the computations here with the original paper of Horrocks and
+Mumford \cite{EA:HM} (for the cohomology) and the papers by 
+Manolache \cite{EA:nico} and Decker \cite{EA:cam} (for the
+syzygies) of the Horrocks-Mumford bundle. A great deal of effort, using
+representation theory, was necessary to derive results that can be
+computed in seconds using the \Mtwo programs here. Much more theoretical
+effort, however, is needed to derive classification results.
+
+Another application of the construction of the Beilinson
+complex (in a slightly more general setting) is to compute
+\ie{Chow form}s of varieties; see
+\cite{EA:Eisenbud-Schreyer:ChowForms}.
+
+Perhaps the
+situation is similar to that in the beginning of the 1980's when it
+became clear that syzygies could be computed by a machine. Though
+syzygies had been used theoretically for many years it took quite a
+while until the practical computation of syzygies lead to applications,
+too, mostly through the greatly increased ability to study examples. 
+
+A good open problem of this sort is to extend
+and make more precise the very useful criterion given in \ref{critsur}:
+Can the reader find a necessary and sufficient condition
+to replace the necessary condition for surjectivity given there?
+How about a criterion for exactness?
+
+\section{Basics of the Bernstein-Gel'fand-Gel'fand Correspondence}
+
+\index{Bernstein-Gel'fand-Gel'fand correspondence}
+In this section we describe the basic idea of the BGG correspondence,
+introduced in \cite{EA:MR80c:14010a}. %Bernstein, Gel'fand, and Gel'fand [1978]. 
+For a more complete treatment along the lines given here, see the first section
+of \cite{EA:eis-sch:sheaf}. %Eisenbud and Schreyer [2000] .
+
+As a simple example of the construction given in
+%%% Referenz
+Section~1, consider the case $M=S=\sym_K(W)$. The associated 
+complex, made from the homogeneous components $\sym_i(W)$ of $S$, 
+has the form
+$$
+\FF(S):\quad E\rTo W\otimes E \rTo \Sym_2(W)\otimes E\rTo\cdots,
+$$
+where we regard $\Sym_iW$ as concentrated in degree $i$.
+It is easy to see that the kernel of the first map,
+$E\rTo W\otimes E$, is exactly the socle $\bigwedge^{n+1} V\subset E$,
+which is a 1-dimensional vector space concentrated in degree $-n-1$.
+In fact $\FF(S)$ is the minimal injective resolution of
+this vector space.  If we tensor with the dual vector space
+$\bigwedge^{n+1} W$ (which is concentrated in degree $n+1$),
+we obtain the minimal injective resolution of the
+vector space $\bigwedge^{n+1} W\otimes \bigwedge^{n+1} V$,
+which may be identified canonically
+with the residue field $K$ of $E$.
+This resolution is called the {\it Cartan resolution\/}
+\index{Cartan resolution}
+of $K$.  To write it conveniently, we
+set $\omega_E=\bigwedge^{n+1}W\otimes E$. The socle of
+$\omega_E$ is $K$. Since $E$ is
+injective (as well as projective) as an $E$-module, 
+the same goes for $\omega_E$, so $\omega_E$ is the
+injective envelope of the residue class field $K$ and
+we have $\omega_E=\Hom_K(E,K)$. Thus we
+can write the injective resolution of the residue field as
+$$
+\RR(S):\quad \omega_E\rTo W\otimes \omega_E \rTo 
+\Sym_2(W)\otimes \omega_E \rTo\cdots,
+$$
+or again as
+$$
+\Hom_K(E,K)\rTo \Hom_K(E,W) \rTo 
+\Hom_K(E,\Sym_2(W)) \rTo\cdots.
+$$
+Taking our cue from this situation, 
+our primary object of study in the case of
+an arbitrary finitely generated graded $S$-module 
+$M = \oplus M_i$ will be the complex
+$$
+\RR(M):\quad \cdots \rTo M_i\otimes \omega_E
+\rTo M_{i+1}\otimes\omega_E\rTo \cdots,
+$$ 
+which will have a more natural grading than $\FF(M)$;
+in any case, it differs from $\FF(M)$
+only by tensoring over $K$ with the one-dimensional
+$K$-vector space $\bigwedge^{n+1}W$, concentrated in degree $n+1$, and
+thus has the same basic properties. 
+(Writing $\RR(M)$ in terms of 
+$\Hom$ as above suggests that the functor $\RR$
+might have a left adjoint, and
+indeed there is a left adjoint that produces linear free
+complexes over $S$ from graded $E$-modules. $\RR$ and its
+left adjoint are used to construct the isomorphisms of 
+derived categories in the BGG correspondence; see
+\cite{EA:eis-sch:sheaf} %Eisenbud and Schreyer [2000]
+for a treatment in this spirit.)
+
+An important fact for us is that the complex $\RR(M)$ is eventually 
+exact (and thus 
+$$
+F^i\rTo^{\phi_i} F^{i+1}\rTo\cdots
+$$
+is the minimal injective resolution of $\ker \phi_i$ when $i \gg 0$).
+It turns out that the point at which exactness sets in is
+a well-known invariant, the \ie{Castelnuovo-Mumford regularity} of
+$M$, whose definition we briefly recall:
+
+If $M=\oplus M_i$ is a finitely generated graded $S$-module
+then for all large integers $r$
+the submodule $M_{\geq r}\subset M$ is generated in degree $r$ and has
+a {\it linear free resolution\/}; 
+\index{linear free resolution}
+that is, its first syzygies are
+generated in degree $r+1$, its second syzygies in degree $r+2$,
+etc. (see \cite[chapter 20]{EA:MR97a:13001}%Eisenbud [1995]
+).  The {\it Castelnuovo-Mumford regularity\/} of $M$ is the
+least integer $r$ for which this occurs.
+
+\begin{theorem}[\cite{EA:eis-sch:sheaf}]\label{regularity}
+% \vskip0.3cm
+% \noindent
+% \textbf{Theorem 3.1.}
+%\theorem{regularity} 
+% {\em 
+Let $M$ be a finitely generated graded
+$S$-module of Cas\-tel\-nuovo-Mumford regularity $r$.
+The complex $\RR(M)$ is exact at $\Hom_K(E,M_i)$
+for all $i\geq s$ if and only if $s>r$.\qed
+%}
+%\vskip0.3cm
+\end{theorem}
+
+More generally, it is shown in \cite{EA:eis-sch:sheaf} that the components of the 
+cohomology of the complex $\RR(M)$ can be identified with the Koszul cohomology
+of $M$. An equivalent result was stated in
+\cite{EA:MR89g:13005:appendix}. %Buchweitz [1985] .
+
+For instance, it is not hard to show that if 
+$M$ is of finite length, then the regularity of $M$
+is the largest $i$ such that $M_i\neq 0$. Let us verify Theorem
+\ref{regularity} directly in a simple example:
+
+%\begin{Example}
+\begin{example}
+Let $S=K[x_0,x_1,x_2]$, and let
+$M=S/(x_0^2,x_1^2,x_2^2)$. The module
+$M_{\geq 3}= K\cdot x_0x_1x_2$ is a trivial $S$-module, and
+its resolution is the Koszul complex on $x_0$, $x_1$ and $x_2$, which is linear.
+Thus the Castelnuovo-Mumford regularity of $M$
+is $\leq 3$. On the other hand $M_{\geq 2}$ is, up to twist,
+isomorphic to the dual of $S/(x_0,x_1,x_2)^2$, and it follows that
+the resolution of $M_{\geq 2}$ has the form
+$$
+0\rTo S(-6)\rTo 6\:\! S(-4)\rTo 8\:\! S(-3)\rTo 3\:\! S(-2),
+$$
+which is not linear, so the Castelnuovo-Mumford regularity of
+$M$ is exactly 3. Note that the regularity is larger than the degrees
+of the generators and relations of $M$---in general it
+can be much larger.
+
+Over $E$ the linear free complex 
+corresponding to $M$ has the form
+$$
+\cdots\to  0\to
+M_0\otimes\omega_E
+\to 
+M_1\otimes\omega_E
+\to 
+M_2\otimes\omega_E
+\to
+M_3\otimes\omega_E
+\to 0\to
+\cdots,
+$$
+where all the terms not shown are 0. Using the isomorphism
+$\omega_E\cong E(-3)$ this
+can be written (non-canonically) as
+$$
+0\rTo E(-3)
+\rTo^{ \begin{pmatrix} e_0\\ e_1\\ e_2 \end{pmatrix}} 
+3\:\! E(-2)
+\rTo^{\begin{pmatrix} 0&e_2&e_1\\ e_2&0&e_0\\ e_1&e_0&0 \end{pmatrix}} 
+3\:\! E(-1)
+\rTo^{\begin{pmatrix}e_0& e_1& e_2 \end{pmatrix}} 
+E\rTo 0.
+$$
+One checks easily that this complex is inexact at  every non-zero term
+(despite its resemblance to a Koszul complex),
+verifying Theorem \ref{regularity}.\qed
+\end{example}
+%\end{example}
+
+Another case in which everything can be checked directly
+occurs when $M$ is the homogeneous coordinate ring of a point:
+
+
+%\begin{Example}
+\begin{example} 
+Take $M=S/I$ where $I$ is generated
+by a codimension 1 space of linear forms in $W$, so that 
+$I$ is the homogeneous ideal of a point $p\in \P(W)$.
+The free resolution of $M$ is 
+the Koszul complex on $n$ linear forms,
+so $M$ is 0-regular. As $M_i$
+is 1-dimensional for every $i$ the terms of the complex
+$\RR(M)$ are all rank 1 free $E$-modules. One
+easily checks that $\RR(M)$ takes the form
+$$
+\RR(M):\quad \omega_E\rTo^a \omega_E(-1)\rTo^a\omega_E(-2)\rTo^a\cdots\ ,
+$$
+where $a\in V = W^*$ is a linear functional that vanishes on all
+the linear forms in $I$; that is, $a$ is a generator of 
+the one-dimensional subspace of $V$ corresponding to the point $p$.
+As for any linear form in $E$, the annihilator of $a$ 
+is generated by $a$, and it follows directly that the complex
+$\RR(M)$ is acyclic in this case.\qed
+\end{example}
+%\end{example}
+
+
+We present two \Mtwo functions, {\texttt{symExt}} and 
+{\texttt{bgg}}, which compute a differential of the complex
+$\RR(M)$ for a finitely generated graded module $M$ defined over 
+some polynomial ring $S=K[x_0,\dots,x_n]$ with variables $x_i$ of 
+degree 1. Both functions expect as an additional input the name of an 
+exterior algebra $E$ with the same number $n+1$ of generators, also 
+supposed to be of degree 1 (and NOT -1). This convention, which
+makes the cohomology diagrams more naturally looking when printed in 
+\Mtwo, necessitates the adjustment of degrees in the second half of 
+the programs.
+
+The first of the functions, {\texttt{symExt}}, takes as input a
+matrix $m$ with linear entries, which we think of as
+a presentation matrix for a positively graded $S$-module  
+$M = \oplus _{i\geq 0} M_i$, and 
+returns a matrix represen\-ting the map
+$M_{0}\otimes\omega_E\to M_{1}\otimes\omega_E$
+which is the first differential of the complex $\RR(M)$. 
+\vskip0.3cm
+
+<<<symExt = (m,E) ->(
+     ev := map(E,ring m,vars E);
+     mt := transpose jacobian m;
+     jn := gens kernel mt;
+     q  := vars(ring m)**id_(target m);
+     ans:= transpose ev(q*jn);
+     --now correct the degrees:
+     map(E^{(rank target ans):1}, E^{(rank source ans):0}, 
+         ans));>>>
+
+\vskip0.3cm
+\noindent
+If $M$ is a module whose presentation is not linear
+in the sense above, we can still
+apply {\texttt{symExt}} to a high truncation of $M$:
+\vskip0.3cm
+
+<<<S=ZZ/32003[x_0..x_2];>>>
+<<<E=ZZ/32003[e_0..e_2,SkewCommutative=>true];>>>
+<<<M=coker matrix{{x_0^2, x_1^2}};>>>
+<<<m=presentation truncate(regularity M,M);>>>
+<<<symExt(m,E)>>>
+
+\vskip0.3cm
+\noindent
+The function
+{\texttt{symExt}} is a quick-and-dirty tool which requires little
+computation. If it is called on two successive truncations
+of a module the maps it produces may NOT compose to zero
+because the choice of bases is not consistent.
+The second function, {\texttt{bgg}}, makes the computation in such a way
+that the bases are consistent, but does more computation
+to achieve this end. It takes as input an integer $i$ and 
+a finitely generated graded $S$-module  $M$, and 
+returns the $i^{\text{th}}$ map in $\RR (M)$,
+which is an ``adjoint'' of the multiplication
+map between $M_i$ and $M_{i+1}$. 
+\vskip0.3cm
+
+<<<bgg = (i,M,E) ->(
+     S :=ring(M);
+     numvarsE := rank source vars E;
+     ev:=map(E,S,vars E);
+     f0:=basis(i,M);
+     f1:=basis(i+1,M);
+     g :=((vars S)**f0)//f1;
+     b:=(ev g)*((transpose vars E)**(ev source f0));
+     --correct the degrees (which are otherwise
+     --wrong in the transpose)
+     map(E^{(rank target b):i+1},E^{(rank source b):i}, b));>>>
+
+\vskip0.3cm
+\noindent
+For instance, in Example 2.2:
+\vskip0.3cm
+
+<<<M=cokernel matrix{{x_0^2, x_1^2, x_2^2}};>>>
+<<<bgg(1,M,E)>>>
+
+\vskip0.3cm
+
+%\textbf{EISENBUD ENDE}
+
+%{\bf 4. Cohomology and Tate}
+
+
+
+%\textbf{EISENBUD}
+
+
+
+\section{The Cohomology and the Tate Resolution of a Sheaf}
+
+\index{sheaf cohomology}\index{cohomology!sheaf}
+Given a finitely generated graded $S$-module 
+$M$ we construct a (doubly infinite)
+$E$-free complex $\TT(M)$ with vanishing homology,
+called the {\it Tate resolution}
+\index{Tate resolution} 
+of $M$, as follows:
+Let $r$ be the Castelnuovo-Mumford regularity of $M$. The
+truncation $\TT^{>r}(M)$, the part of $\TT(M)$ with cohomological
+degree $>r$, is $\RR(M_{>r})$. We complete this to an exact
+complex by adjoining a minimal projective resolution of the kernel
+of $\Hom_K(E,M_{r+1})\to\Hom_K(E,M_{r+2})$. 
+
+If, for example, $M$ has finite length as in Example 2.2, the Tate 
+resolution of $M$ is the complex
+$$
+\cdots\to 0\to 0\to 0 \to\cdots.
+$$
+At the opposite extreme, take $M=S$, the free module of rank 1.
+Since $S$ has regularity 0, it follows that $\RR(S)$ is an injective 
+resolution of the residue field $K$ of $E$. Applying the exact functor
+$\Hom_K(\hbox{\bf---}, K)$, and using the fact that it carries
+$\omega_E=\Hom_K(E,K)$ back to $E$, we see that the 
+Tate resolution $\TT(S)$ is the first row of the diagram
+$$
+\xymatrix{
+\cdots \ar[r]& W^*\otimes E \ar[r]& E\ar[dr] \ar[rr]&& \omega_E
+\ar[r]& W\otimes\omega_E  \ar[r]&\cdots\\
+&&&K\ar[ur]
+}
+$$      
+Another simple example occurs in the case where $M$ is
+the homogeneous coordinate ring of a point $p\in\P(W)$. The complex
+$\RR(M)$ constructed in Example 2.3 is periodic, so
+it may be simply continued to the left, giving
+$$
+\TT(M):\quad \cdots \rTo^a \omega_E(i)
+\rTo^a\omega_E(i-1)\rTo^a\cdots,
+$$
+where again $a\in V=W^*$ is a non-zero linear functional
+vanishing on the linear forms in the ideal of $p$.
+
+For arbitrary $M$, by the results of the previous section,
+$\RR(M_{>r})$ has no
+homology in cohomological degree $>r+1$, so $\TT(M)$ could be constructed
+by a similar recipe from any truncation 
+$\RR(M_{>s})$ with $s\geq r$. Thus
+the Tate resolution  depends only on the sheaf $\tilde M$ 
+on $\P(W)$ corresponding to $M$.
+We sometimes write $\TT(M)$ as $\TT(\tilde M)$ to
+emphasize this point.
+
+Using the \Mtwo function {\texttt{symExt}}
+of the last section, one can compute any finite piece of the Tate resolution.
+\vskip0.3cm
+
+<<<tateResolution = (m,E,loDeg,hiDeg)->(
+     M := coker m;
+     reg := regularity M;
+     bnd := max(reg+1,hiDeg-1);
+     mt  := presentation truncate(bnd,M);
+     o   := symExt(mt,E);
+     --adjust degrees, since symExt forgets them
+     ofixed   :=  map(E^{(rank target o):bnd+1},
+                E^{(rank source o):bnd},
+                o);
+     res(coker ofixed, LengthLimit=>max(1,bnd-loDeg+1)));>>>
+
+\vskip0.3cm
+\noindent
+{\texttt{tateResolution}} takes as input a presentation matrix $m$ of a 
+finitely generated graded module $M$ defined 
+over some polynomial ring $S=K[x_0,\dots,x_n]$ with variables $x_i$ of 
+degree 1, the name of an exterior algebra $E$ with the same number 
+$n+1$ of generators, also supposed to be of degree 1, and two integers,
+say $l$ and $h$. If $r$ is the regularity of $M$, then
+{\tt{tateResolution(m,E,l,h)}} computes the piece
+$$
+\TT^{\,l}(M)\to \dots \to \TT^{\,\max(r+2,h)}(M)
+$$
+of $\TT(M)$. For instance, for the homogeneous coordinate ring of a point in
+the projective plane:
+\vskip0.3cm
+
+<<<m = matrix{{x_0,x_1}};>>>
+<<<regularity coker m>>>
+<<<T = tateResolution(m,E,-2,4)>>>
+<<<betti T>>>
+<<<T.dd_1>>>
+
+\vskip0.3cm
+
+For arbitrary $M$ we have $M_i=\H^0\tilde M(i)$ for
+large $i$, so the correspon\-ding term of the complex 
+$\TT(\tilde M)$ with cohomological degree $i$ is 
+$M_i\otimes \omega_E=\H^0(\tilde M(i))\otimes \omega_E$. 
+The following result generalizes 
+this to a description of all the terms of the Tate resolution,
+and gives the formula for the cohomology described in the
+introduction.
+
+\begin{theorem}[\cite{EA:eis-sch:sheaf}]\label{tate}
+%\vskip0.3cm
+%\noindent
+%\textbf{Theorem 4.1.}
+%{\em 
+Let $M$ be a finitely generated graded $S$-module.
+The term of the complex $\TT(M)=\TT(\tilde M)$ with cohomological degree $i$ is 
+$$
+\oplus_j \H^j\tilde M(i-j)\otimes \omega_E \ ,
+$$
+where $\H^j\tilde M(i-j)$ is regarded as a vector space
+concentrated in degree $i-j$, so that the summand
+$\H^j\tilde M(i-j)\otimes \omega_E$ is isomorphic to a direct sum
+of copies of $\omega_E(j-i)$.
+Moreover the subquotient complex 
+$$
+\cdots \to \H^j\tilde M(i-j)\otimes \omega_E
+\to
+\H^j\tilde M(i+1-j)\otimes \omega_E
+\to \cdots
+$$
+is 
+$\RR(\H^j_*(\tilde M(-j))) (j)$ (up to twists and shifts it is
+$\RR(\H^j_* \tilde M).$ )\qed
+%}
+\end{theorem}
+
+%\vskip0.3cm
+Thus each cohomology group of each twist of the sheaf
+$\tilde M$ occurs (exactly once) in
+a term of $\TT(M)$. When we compute a part of $\TT(M)$,
+we are computing the sheaf cohomology of various twists
+of the associated sheaf together with maps
+which describe the $S$-module structure of $\H^j_*\tilde M$
+in the sense that  the linear maps in this complex
+are adjoints of the multiplication maps that determine the
+module structure (the multiplication maps themselves could
+be computed by a function similar to {\texttt{bgg}}). 
+The higher degree maps in the complex $\TT(M)$
+determine certain higher cohomology operations, which we understand 
+only in very special cases (see \cite{EA:Eisenbud-Schreyer:ChowForms}).
+ 
+If $M = \coker\, m$, then {\tt{betti tateResolution(m,E,l,h)}} prints
+the dimensions $\h^j \tilde M(i-j) = \dim\,\H^j \tilde M(i-j)$ for
+$\max(r+2, h) \geq i\geq l$, where $r$ is the regularity of $M$.
+Truncating the Tate resolution if necessary allows one to restrict 
+the size of the output.
+\index{sheaf cohomology}\index{cohomology!sheaf}
+\vskip0.3cm
+
+<<<sheafCohomology = (m,E,loDeg,hiDeg)->(
+     T := tateResolution(m,E,loDeg,hiDeg);
+     k := length T;
+     d := k-hiDeg+loDeg;
+     if d > 0 then 
+        chainComplex apply(d+1 .. k, i->T.dd_(i))
+     else T);>>>
+
+
+\vskip0.3cm
+\noindent
+The expression
+{\tt{betti sheafCohomology(m,E,l,h)}} prints a cohomology table for
+$\tilde M$ of the form
+$$
+{\setlength{\arraycolsep}{.4cm}
+\begin{array}{llcl}
+\h^0\tilde M(h)& \dots &\h^0\tilde M(l)\\
+\h^1\tilde M(h-1)& \dots & \h^1\tilde M(l-1)\\
+\hfil\vdots&&\hfil\vdots\\
+\h^n\tilde M(h-n)& \dots &\h^n\tilde M (l-n)\ .
+\end{array}}
+$$
+As a simple example we consider the cotangent bundle on projective 
+3-space (see the next section for the Koszul resolution of this bundle):
+\vskip0.3cm
+
+<<<S=ZZ/32003[x_0..x_3];>>>
+<<<E=ZZ/32003[e_0..e_3,SkewCommutative=>true];>>>
+\vskip0.1cm
+
+\noindent
+The cotangent bundle is the cokernel of the third
+differential of the Koszul complex on the variables of $S$.
+
+\vskip0.1cm
+<<<m=koszul(3,vars S);>>>
+<<<regularity coker m>>>
+<<<betti tateResolution(m,E,-6,2)>>>
+<<<betti sheafCohomology(m,E,-6,2)>>>
+\vskip0.1cm
+\noindent
+Of course these two results differ only in the precise point of
+truncation.
+
+\index{sheaf cohomology}\index{cohomology!sheaf}
+\begin{remark}\label{cohold}  There is also a built-in sheaf cohomology
+function {\texttt{HH}} in \Mtwo which is based on the algorithms in 
+\cite{EA:MR1484973:eisenbud}.  These algorithms are often much 
+slower than {\texttt{sheafCohomology}}. 
+To access it, first execute
+\begin{verbatim}
+     M=sheaf coker m;
+\end{verbatim}
+\noindent
+and pick integers $j$ and $d$. Then
+\begin{verbatim}
+     HH^j(M(>=d))
+\end{verbatim}
+\noindent
+returns the truncated $j^{\text{th}}$ cohomology module 
+$\H^j_{i\geq d} \tilde M$.  In the above example of the cotangent
+bundle $\mathcal F$ on projective 3-space we obtain the
+Koszul presentation of $H^1 \mathcal F \cong K$ considered as an $S$-module 
+sitting in degree 0:
+
+\vskip0.3cm
+
+<<<M=sheaf coker m;>>>
+<<<HH^1(M(>=0))>>>
+\qed
+\end{remark}
+
+The Tate resolutions of sheaves are, as the reader may easily check,
+precisely the doubly infinite, graded, exact complexes of finitely-generated
+free $E$-modules which are ``eventually linear'' on the right,
+in an obvious sense. What about other doubly exact graded free
+complexes? For example what if we take the dual of the Tate
+resolution of a sheaf? In general it will not be eventually linear.
+What is it?
+
+To explain this we must generalize the construction of $\RR(M)$:
+If 
+$$
+M^\bullet:\quad \cdots\rTo M^{i+1}\rTo M^i\rTo M^{i-1}\rTo\cdots
+$$
+is a complex of $S$-modules, then applying the functor
+$\RR$ gives a complex of free complexes over $E$.
+By changing some signs we get a double complex. 
+In general the associated total complex is not minimal; but at least if 
+$M^\bullet$ is a bounded complex then,
+just as one produces the unique minimal free
+resolution of a module from any free resolution,
+we can construct a unique minimal
+complex from it. We call this minimal complex $\RR(M^\bullet)$.
+(See \cite{EA:eis-sch:sheaf} %Eisenbud and Schreyer [2000]
+for more information. This construction is a necessary part of interpreting
+the BGG correspondence as an equivalence of derived categories.)
+
+Again
+if $M^\bullet$ is a bounded complex of finitely generated
+modules, then as before
+one shows
+that $\RR(M^\bullet)$ is exact from a certain point on, and
+so we can form the Tate resolution $\TT(M^\bullet)$ by adjoining
+a free resolution of a kernel. Once again, the Tate resolution 
+depends only on the bounded complex of coherent sheaves
+$\F^\bullet$ associated
+to $M^\bullet$, and we write $\TT(\F^\bullet)=\TT(M^\bullet)$.
+
+A variant of the theorem of Bernstein, Gel'fand and Gel'fand
+shows that every minimal graded doubly infinite exact sequence
+of finitely generated free $E$-modules is of the form $\TT(\F^\bullet)$
+for some complex of coherent sheaves $\F^\bullet$, unique up
+to quasi-isomorphism. The terms of the Tate resolution can
+be expressed using hypercohomology
+by a formula like that of Theorem \ref{tate}.
+
+One way that interesting complexes of sheaves arise is through
+duality. 
+\index{duality of sheaves}
+For simplicity,
+write $\O$ for the structure sheaf $\O_{\P(W)}$.
+If $\F=\tilde M$ is a sheaf on $\P(W)$ then 
+the derived functor $RHom(\F, \O)$ may be computed
+by applying the functor $Hom(\hbox{\bf ---},\O)$
+to a sheafified free resolution of $M$; it's value is thus
+a complex of sheaves rather than an individual sheaf.
+
+We can now identify the dual of the Tate resolution:
+
+
+\begin{theorem}\label{duality}
+%\noindent
+%\textbf{Theorem 4.2.}
+%{\em 
+%\theorem{duality} 
+$\Hom_K(\TT(\F), K) \iso \TT(RH{\rm om}(\F, \O))[1]$.\qed
+%}
+\end{theorem}
+
+Here the $[1]$ denotes a shift by one in cohomological degree.
+For example, take $\F=\O$. We have $RH{\rm om}(\O, \O)=\O$. The
+Tate resolution is given by
+$$
+\xymatrix @R=0mm @C=6mm{
+\TT(\O):\quad\cdots\ar[r]& E \ar[r]& \omega_E\ar[r]&\cdots\\
+&-1&0
+}
+$$
+where the number under each term is its  cohomological degree.
+Taking into account $\omega_E=\Hom_K(E,K)$,
+the dual of the Tate resolution is thus
+$$
+\xymatrix @R=0mm{
+\Hom_K(\TT(\O),K):\quad\cdots&\ar[l]\omega_E&\ar[l]E&\ar[l]\cdots\\
+&1&0
+}
+$$
+which is the same as 
+$\TT(\O)[1]$.
+A completely analogous computation gives the
+proof of Theorem \ref{duality} 
+if $\F=\O(a)$ for some $a$, and the general case follows
+by taking free resolutions.
+
+
+%\textbf{EISENBUD ENDE}
+
+
+\section{Cohomology and Vector Bundles}
+
+\index{vector bundle}
+In this section we first recall how vector bundles,
+direct sums of line bundles, and  bundles of differentials 
+can be characterized among all coherent sheaves on $\PP (W)$ in terms of  
+cohomology (as usual we do not distinguish between vector bundles and 
+locally free sheaves). Then we describe the homomorphisms between the 
+suitably twisted bundles of differentials in terms of the exterior 
+algebra $E$. This description plays an important role in the context of 
+Beilinson monads.
+
+Vector bundles on $\PP (W)$ are characterized by a criterion of Serre
+\index{bundle!Serre's criterion}
+\cite{EA:MR16:953c} which can be formulated as follows:
+A coherent sheaf $\mathcal F$ on $\PP (W)$ is locally free if and only if 
+its module of sections $\H^0_* ({\mathcal F})$ is finitely generated and its 
+{\it {intermediate cohomology modules}} \index{cohomology!intermediate}
+$\H^j_*\mathcal F$, $1\leq j \leq n-1$, are of finite length.
+
+ From a cohomological point of view, the simplest vector bundles are
+the direct sums of line bundles.  Every vector bundle on the projective line
+splits into a direct sum of line bundles by Grothendieck's splitting
+theorem \index{splitting theorem!of Grothendieck}
+(see \cite{EA:MR81b:14001}).  Induction yields Horrocks'
+splitting theorem \index{splitting theorem!of Horrocks}
+(see \cite{EA:MR80f:14005}): A vector bundle on $\P
+(W)$ splits into a direct sum of line bundles if and only if its
+intermediate cohomology vanishes (originally, this theorem was proved
+as a corollary to a more general result, see \cite{EA:MR30:120} and
+\cite{EA:MR99f:14064}).
+
+Just a little bit more complicated are the bundles of differentials.
+\index{bundles!of differentials} To fix our notation in this context we write 
+$\mathcal O = \mathcal O_{\PP (W)}$, 
+$W \otimes \mathcal O$ for the trivial bundle on $\PP (W)$ with fiber $W$,
+$U=\Omega_{\P (W)}(1)$ for the cotangent bundle twisted by 1, and
+$$
+U^i = {\textstyle\bigwedge}^i U = {\textstyle\bigwedge}^i (\Omega_{\P (W)}(1)) = \Omega^i_{\PP (W)}(i)
+$$
+for the $i^{\text{th}}$ bundle of  differentials twisted by $i$; in particular 
+$U^0 = \mathcal O$,  $U^n\cong \mathcal O (-1)$, and $U^i=0$ if $i<0$ or $i>n$.
+
+\begin{remark} \label{dualitybd} For each $0 \leq i \leq n$ the pairing
+$$
+U^i \otimes U^{n-i} \overset\wedge\longrightarrow U^n \cong \mathcal O (-1)
+$$
+induces an isomorphism
+$$
+U^{n-i} \cong (U^{i})^* (-1)\, .\qquad\qed
+$$
+\end{remark}
+
+The fiber of $U$ at the point of $\PP (W)$ corresponding to the line 
+$\langle a \rangle\subset V$ is the subspace $(V/\langle a \rangle)^*\subset W$. 
+Thus $U$ fits into the 
+short exact sequence
+$$
+0\rightarrow U \rightarrow W \otimes \mathcal O \rightarrow 
+\mathcal O (1) \rightarrow 0\ .
+$$
+In fact, $U$ is the {\it tautological subbundle\/} 
+\index{tautological subbundle}
+of $W \otimes \mathcal O$.
+Taking exterior powers, we get the short exact sequences
+$$
+0\rightarrow U^{i+1} \rightarrow {\textstyle\bigwedge}^{i+1}W \otimes \mathcal O \rightarrow 
+U^i\otimes \mathcal O (1) \rightarrow 0\ .
+$$
+Twisting the $i^\th$ sequence by $-i-1$, and gluing them
+together we get the exact sequence
+$$
+\xymatrix@1@C=6mm{
+0  \ar[r] & {\bigwedge^{n+1}_{\vbox to 2mm{}}}
+W\otimes \mathcal O(-n-1) \ar[r] &\,\cdots\;  \ar[r]& {\bigwedge^{0}_{\vbox to 2mm{}}}
+W\otimes \mathcal O \ar[r]& 0\ .
+}
+$$
+This sequence is the sheafification of the Koszul complex, which
+is the free resolution of the ``trivial'' graded $S$-module $K=S/(W)$.
+
+\begin{remark} \label{cohbd}
+By taking cohomology in the short exact sequences above we find that
+$$
+\H^j_*U^i =
+\begin{cases}
+K(i)& j=i,\\
+0& j\ne i,
+\end{cases}
+\qquad 1\leq i,j\leq n-1\ ,
+$$
+where $K(i)=(S/(W))(i)$. Conversely, every vector bundle $\mathcal F$ on 
+$\PP(W)$ with this intermediate cohomo\-logy is {\it {stably equivalent}}
+\index{stable equivalence} 
+to $U^i$; that is, there exists a direct sum  $\mathcal L$  
+of line bundles such that $\mathcal F\cong U^i \oplus\mathcal L.$
+This follows by comparing the sheafified Koszul complex with the minimal free resolution
+of the dual bundle $\mathcal F^*$.\qed 
+\end{remark}
+
+In what follows we describe the homomorphisms bet\-ween the various $U^i$,
+$0 \leq i \leq n$. Note that since $U=U^1\subset W\otimes \mathcal O$ each element
+of $V=\hom_K(W,K)$ induces a homomorphism $U^1\to U^0$ which is the composite
+$$
+U^1 \subset W\otimes \mathcal O \to K\otimes\mathcal O = \mathcal O = U^0.
+$$
+Similarly, using the diagonal map of the exterior algebra
+$U^i=\bigwedge^iU \to U\otimes U^{i-1}$, each element of $V$ 
+induces a homomorphism $U^i\to U^{i-1}$ which is the composite
+$$
+U^i \to U\otimes U^{i-1} \to W\otimes U^{i-1} \to K\otimes U^{i-1} = U^{i-1}.
+$$
+It is not hard to show that these maps induced by elements of $V$
+anticommute with each other
+(see for example \cite[A2.4.1]{EA:MR97a:13001}).
+Thus we get maps $\bigwedge^jV\to \hom(U^i, U^{i-j})$
+which together give a graded ring  homomorphism
+$\bigwedge V \to \hom(\oplus_i U^i, \oplus_i U^i)$.
+In fact this construction gives
+all the homomorphisms between the $U^i$:
+\noindent
+\begin{lemma} \label{hombd} The maps
+$$
+{\textstyle{\textstyle\bigwedge}}^jV\to \hom(U^i, U^{i-j}),\quad 0 \leq i, i-j \leq n\, ,
+$$
+described above are isomorphisms. Under these isomorphisms an element
+$e\in\bigwedge^jV$ acts by contraction on the fibers of the $U^i$:
+$$
+\xymatrix{
+\bigwedge^i(V/\langle a \rangle)^*\;\ar[d]\ar@{^(->}[r]& \bigwedge^{i} W \ar[d]^{e}\\
+\bigwedge^{i-j}(V/\langle a \rangle)^*\;\ar@{^(->}[r] &\bigwedge^{i-j} W\ .
+}
+$$
+\end{lemma}
+
+\begin{proof} Every homomorphism  
+$U^i \rightarrow U^{i-j}$ lifts uniquely to a
+homomorphism between shifted Koszul complexes:
+$$
+\xymatrix@1@C=4mm{
+0  \ar[r] & {\bigwedge^{n+1}_{\vbox to 2mm{}}}
+W\otimes \mathcal O(i-n-1) \ar[d]\ar[r] &\,\cdots\; \ar[r]& {\bigwedge^{j}_{\vbox to 2mm{}}}
+W\otimes \mathcal O (i-j) \ar[d]\ar[r]&\cdots\\
+ \cdots\,  
+\ar[r] & {\bigwedge^{n+1-j}_{\vbox to 2mm{}}}W\otimes \mathcal O(i-n-1) 
+\ar[r] &\,\cdots\;  \ar[r]& \mathcal O (i-j) \ar[r]& 0
+}
+$$
+Indeed, the corresponding obstructions vanish by Remarks \ref{dualitybd} and 
+\ref{cohbd}. All results follow since the vertical arrows are necessarily 
+given by contraction with an element in
+$$
+\Hom ({\textstyle\bigwedge}^{j} W \otimes \mathcal O (i-j), \mathcal O (i-j))\cong  {\textstyle\bigwedge}^jV\, .\quad\qed
+$$
+\end{proof} 
+
+
+In practical terms, these results say that a map
+$U^i \overset{e}\longrightarrow U^{i-j}$ is represented as
+$$
+\xymatrix{
+\bigwedge^{i+1} W \otimes \mathcal O (-1) \ar[d]^e \ar@{->>}[r]& U^i \ar[d]\\
+\bigwedge^{i-j+1} W \otimes \mathcal O (-1) \ar@{->>}[r]& U^{i-j}\
+}
+$$
+if $0 < i-j \leq i \leq n$, and as the composite
+$$
+\xymatrix{
+\bigwedge^{i+1} W \otimes \mathcal O (-1) \ar@{->>}[r]& U^i\; \ar[d]\ar@{^(->}[r]&
+\bigwedge^{i} W \otimes \mathcal O\ar[d]^e\\
+&U^0 \ar@{}[r]|{=} &\mathcal O\
+}
+$$
+if $0 = i-j < i \leq n$. 
+
+A map from a sum of copies of various $U^i$ to another
+such sum is given by a homogeneous matrix over the exterior algebra $E$. In
+general it is an interesting problem to relate properties of
+the matrix to properties of the map. Here is one relation
+which is easy. We will apply it later on in this chapter.
+
+\noindent
+\begin{proposition}\label{critsur} If
+$$
+r\, U^i\overset B \longrightarrow s\,U^{i-1}
+$$
+is a homomorphism, that is, if $B$ is an $s\times r$-matrix with entries 
+in $V$, then the following condition is 
+necessary for $B$ to be surjective: If $(b_1,\dots, b_r)$ is 
+a non-trivial linear combination of the rows of $B$, then
+$$
+\dim\, {\def\span{\operatorname{span}} \span} (b_1,\dots, b_r)\geq i+1.
+$$
+\end{proposition}
+\begin{proof} $B$ is surjective if and only if its dual map is injective on fibers:
+$$
+s\,{\textstyle\bigwedge}^{i-1}(V/\langle  a \rangle) \overset {\wedge B^t}\longrightarrow r
+\,{\textstyle\bigwedge}^{i}(V/\langle  a \rangle)
+$$
+is injective for any line $\langle a\rangle \subset V$. Consider
+a non-trivial linear combination $(b_1,\dots, b_r)^t$ of the columns of ${B^t}$,
+and write $d = \dim\, \span (b_1,\dots, b_r)$. 
+If $d=i$, then ${B^t}$ is not injective at any point 
+of $\P (W)$ corresponding to a vector in ${\def\span{\operatorname{span}} \span} 
+(b_1,\dots, b_r)$. If  $d < i$, then ${B^t}$ is not injective at any point of $\P (W)$.\qed
+\end{proof}
+
+\section{Cohomology and Monads}
+
+\index{monads!applications of}
+The technique of monads provides powerful tools for problems such as the 
+construction and classification of coherent sheaves with prescribed invariants. 
+This section is an introduction to monads. We demonstrate their usefulness, 
+which is not obvious at first glance, by reviewing the
+classification of stable rank 2 vector bundles on the projective plane
+(see \cite{EA:MR57:324}%Barth [1977]
+, \cite{EA:MR80m:14012}%Le Potier [1979]
+, and \cite{EA:MR80m:14011}%Hulek [1979]
+).  Recall that stable bundles admit moduli (see \cite{EA:MR81h:14014}%Gieseker [1977]
+, \cite{EA:MR56:8567}, and \cite{EA:MR82h:14011}%Maruyama [1977, 1978]
+).
+
+The basic idea behind monads is to represent arbitrary coherent sheaves
+in terms of simpler sheaves such as line
+bundles or bundles of differentials, and in terms of homomorphisms
+between these simpler sheaves. If $M$ is a finitely generated graded $S$-module,
+with associated sheaf $\mathcal F = \tilde M$, then the sheafification of
+the minimal free resolution of $M$ is a monad for $\mathcal F$ which involves 
+direct sums of line bundles and thus homogeneous matrices over $S$. 
+The Beilinson monad for $\mathcal F$, which 
+will be considered in the next section, involves direct sums of twisted bundles 
+of differentials $U^i$, and thus homogeneous matrices over $E$.
+
+
+\noindent
+\begin{definition}\label{monad}
+A {\it{monad}}
+\index{monad}
+on $\P (W)$ is a bounded complex
+$$
+\cdots\, \longrightarrow {\mathcal K}^{-1} \longrightarrow {\mathcal K}^{0}
+\longrightarrow {\mathcal K}^{1} \longrightarrow \, \cdots
+$$
+of coherent sheaves on $\P (W)$ which is exact except  at
+${\mathcal K}^{0}$. The homology $\mathcal F$ at ${\mathcal K}^{0}$ 
+is called the {\it {homology of the monad}}, \index{monad!homology of} 
+and the monad is said to be a monad for $\mathcal F$. We say that the 
+{\it {type of a monad}} \index{monad!type of} is 
+determined if the sheaves ${\mathcal K}^{i}$ are determined.\qed
+\end{definition}
+
+\noindent
+There are different ways of representing a given sheaf as the homology of 
+a monad, and the type of the monad depends on the way chosen.
+
+When constructing or classifying sheaves in a given class via 
+monads, one typically proceeds along the following lines.
+
+\vskip0.2cm
+\noindent
+{\it{Step 1.}}\; Compute cohomological information which determines 
+the type of the corresponding monads.
+\vskip0.1cm
+\noindent
+{\it{Step 2.}}\; Construct or classify the differentials of the monads.
+
+\vskip0.2cm
+\noindent
+There are no general recipes for either step and some cases require
+sophisticated ideas and quite a bit of intuition (see Example 7.2 below).
+If one wants to classify, say, vector bundles, then a third step is needed:
+
+\vskip0.2cm
+\noindent
+{\it{Step 3.}}\; Determine which monads lead to isomorphic vector bundles.
+\vskip0.2cm
+
+\noindent
+One of the first successful applications of this approach was the classification
+of (Gieseker-)stable rank 2 vector bundles with even first Chern class $c_1\in\Z$ on 
+the complex projective plane by  Barth \cite{EA:MR57:324}, who 
+detected geometric properties of the corresponding moduli spaces without giving
+an explicit description of the differentials in the second step. The same ideas 
+apply in the case  $c_1$ odd which we are going to survey in what follows
+(see \cite{EA:MR80m:14012}, \cite{EA:MR80m:14011}, and \cite{EA:MR81b:14001} for
+full details and proofs).
+
+In general, rank 2 vector bundles enjoy properties which are not shared by
+all vector bundles.
+
+\begin{remark}\label{remark-5.2}
+%{{
+%  {\bf Remark 5.2.}
+Every rank 2 vector bundle $\mathcal F$ on $\PP (W)$ is 
+{\it {self-dual}},\index{bundle!self-dual} that is, it admits a symplectic structure. 
+Indeed, the  map 
+$$\mathcal F \otimes \mathcal F 
+\overset\wedge\longrightarrow {\textstyle\bigwedge}^2 \mathcal F \cong \mathcal O_{\PP (W)} (c_1)
+$$ 
+induces an isomorphism 
+$\varphi: \mathcal F \overset{\cong}\to \mathcal F^{\ast} (c_1)$ 
+with $\varphi = - \varphi^* (c_1)$ (here $c_1$ is the first Chern class
+of $\mathcal F$). In particular there are isomorphisms 
+$$
+(\H^j \mathcal F (i))^*\cong \H^{n-j} \mathcal F (-i-n-1-c_1)
+$$
+by Serre duality.\index{bundle!Serre duality} \qed
+\end{remark}
+
+
+We will not give a general definition of stability here. For rank 2 vector bundles
+stability can be characterized as follows (see \cite{EA:MR81b:14001}).
+
+\begin{remark}\label{remark-5.3} If $\mathcal F$ is a rank 2 vector bundle 
+on $\PP (W)$, then the following hold:
+\vskip0.1cm
+\noindent
+(1) \; $\mathcal F$ is stable \index{bundle!stable}
+if and only if $\Hom (\mathcal F, \mathcal F)\cong K$.
+In this case the symplectic structure on $\mathcal F$ is uniquely determined up to scalars.
+\vskip0.1cm
+\noindent
+(2)\; By tensoring with a line bundle we can {\it {normalize}} $\mathcal F$
+\index{bundle!normalized}
+so that its first Chern class is $0$ or $-1$. In this case $\mathcal F$ is stable  
+\index{bundle!stable} if and only if it has no global sections.\qed
+\end{remark}
+
+\begin{example} By the results of the previous section the twisted cotangent bundle 
+$U$ on the projective plane is a stable rank 2 vector bundle with Chern classes
+$c_1 = -1$ and $c_2 = 1$.\qed
+\end{example}
+
+\begin{remark}\label{remark-5.5}
+% \noindent
+%{{{\bf Remark 5.3.} 
+The generalized theorem of Riemann-Roch yields a polynomial
+in $\QQ [c_1, \dots ,  c_r]$ which gives the Euler characteristic 
+$\chi \mathcal F = \sum_j (-1)^j \h^j \mathcal F$ for e\-very rank $r$ vector bundle 
+$\mathcal F$ on $\PP (W)$ with Chern classes $c_1, \dots , c_r$.
+This polynomial can be determined by interpreting the generalized theorem of Riemann-Roch
+or by computing the Euler characteristic for enough special bundles of rank $r$ (like direct
+sums of line bundles). For a rank 2 vector bundle on the projective plane, 
+for example, one obtains 
+$$\chi (\mathcal F)=(c_1^2-2c_2+3c_1+4)/2\, .\quad\qed$$
+\end{remark}
+
+
+We now focus on stable rank 2 vector bundles on the complex projective plane
+$\PP^2(\CC) = \PP(W)$ with first Chern class $c_1 = -1$.
+Let $\mathcal F$ be such a bundle.
+
+
+\begin{remark}\label{remark-5.6} Since $\mathcal F$  is stable and
+normalized its second Chern class $c_2$ must be $\geq 1$. Indeed, 
+$$\H^2 \mathcal F (i-2) = \H^0 \mathcal F(-i) = 0 \quad {\text{for}}\quad i\geq 0$$
+by Remarks 5.2 and 5.3, and $\chi (\mathcal F (i)) = (i+1)^2 -c_2$ by
+Riemann-Roch. In particular the dimensions 
+$\h^j \mathcal F (i)$ in the range $-2 \leq i \leq 0$ are 
+as in the following cohomology table (a zero is represented by an empty box):
+\vspace{0.2cm}
+%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Neue Längen für Abstände horizontal und vertikal
+% Nur einmal vor dem ersten Auftreten eines Beilinson-Diagramms
+%\newlength{\br}
+%\newlength{\ho}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{
+$$ %Diagramm zentrieren
+%
+% Wähle die Einheiten \br horizontal und \ho vertikal
+{
+\setlength{\br}{10mm}
+\setlength{\ho}{6mm}
+\fontsize{10pt}{8pt}
+\selectfont
+\begin{xy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Achsenkreuz im Punkte (0,0)
+%
+% x-Achse von -3\br bis 1\br
+% mit einem "j" an 0.98 der Länge und 3mm unter der Achse:
+%
+,<-3.5\br,0\ho>;<1\br,0\ho>**@{-}?>*@{>}
+?(0.95)*!/^3mm/{i}
+%
+% y-Achse von 0\ho bis 4\ho
+% mit einem "i" an 0,9 der Länge und 3mm rechts neben der Achse:
+%
+,<-1\br,0\ho>;<-1\br,4\ho>**@{-}?>*@{>}
+?(0.95)*!/^3mm/{j}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 5 waagrechte Linien von -3\br bis +0\br
+% in den Höhen 1\ho,...,5\ho:
+%
+,0+<-3\br,1\ho>;<0\br,1\ho>**@{-}
+,0+<-3\br,2\ho>;<0\br,2\ho>**@{-}
+,0+<-3.5\br,3\ho>;<.5\br,3\ho>**@{-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 11 senkrechte Linien von 0\ho bis 3\ho
+% in den waagrechten Punkten -3\br,...,+0\br:
+%
+,0+<-3\br,0\ho>;<-3\br,3\ho>**@{-}
+,0+<-2\br,0\ho>;<-2\br,3\ho>**@{-}
+,0+<0\br,0\ho>;<0\br,3\ho>**@{-}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Einträge in den Mitten der Kästen. Daher die Koordinaten mit .5
+%
+,0+<-2.5\br,1.5\ho>*{c_2-1}
+,0+<-1.5\br,1.5\ho>*{c_2}
+,0+<-0.5\br,1.5\ho>*{c_2-1}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-2.5\br,-0.6\ho>*{-2}
+,0+<-1.5\br,-0.6\ho>*{-1}
+,0+<-0.5\br,-0.6\ho>*{0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-4.0\br,2.5\ho>*{2}
+,0+<-4.0\br,1.5\ho>*{1}
+,0+<-4.0\br,0.5\ho>*{0}
+\end{xy}
+}
+$$
+\quad\qed
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\vskip0.1cm
+\noindent
+\end{remark}
+
+We abbreviate $\mathcal O = \mathcal O_{\PP^2 (\CC)}$ and go through the 
+three steps above.
+
+\vskip0.3cm
+\noindent
+{\it{Step 1.}}\; In this step we show that $\mathcal F$ is the 
+homology of a monad of type
+$$
+0\rightarrow \H^1 \mathcal F (-2)\otimes U^2 
+\rightarrow \H^1 \mathcal F (-1) \otimes U \rightarrow 
+\H^1 \mathcal F \otimes \mathcal O \rightarrow 0\ ,
+$$
+where the middle term occurs in cohomological degree 0.
+This actually follows from the general construction of Beilinson monads presented
+in the next chapter and the fact that $\H^2 \mathcal F (i-2) = \H^0 \mathcal F(-i) = 0$ 
+for $2\geq i\geq 0$ (see Remark \ref{remark-5.6}). Here we derive the existence 
+of the monad directly with Horrocks' technique of killing cohomology 
+\index{killing cohomology} \cite{EA:MR84j:14026},  which 
+requires further cohomological information. Such information is typically obtained 
+by restricting the given bundles to linear subspaces. In our case we consider 
+the Koszul complex on the equations of a point $p\in \PP^2(\CC)$:
+$$
+\xymatrix @C=11mm{
+0\ar[r]&\ \mathcal O(-2)\ar[r]^{\left(\substack{-x'\\x}\right)}
+&2\:\! \mathcal O (-1)\ar[r]^{\quad(x\ x^{\prime})} &\mathcal O
+\ar[r]&\mathcal O_p\ar[r]&0\ .
+}
+$$
+\noindent
+By tensoring with $\mathcal F (i+1)$ and taking cohomology we find that 
+$\H^1 \mathcal F$ generates $\H^1_{\geq 0}\, \mathcal F$. Indeed, the composite map 
+$${\begin{pmatrix} x & x^{\prime}\end{pmatrix}}: 2 \\\H^1\mathcal F(i) 
+\longrightarrow \H^1 (\mathcal J_p\otimes\mathcal F(i+1))
+\longrightarrow \H^1\mathcal F(i+1)$$
+is surjective if $i\geq -1$. In particular, if $c_2=1$, then  
+$\H^1 \mathcal F(i) =  0$ for $i \neq -1$ (apply Serre duality for the
+twists $\leq -2$), so $\mathcal F\cong U$ is the twisted cotangent bundle by Remark 
+\ref{cohbd} since both bundles have the same rank and intermediate cohomology. 
+
+If $c_2\geq 2$ then $\H^1 \mathcal F\neq 0$, and the identity in 
+$$\Hom (\H^1 \mathcal F, \H^1 \mathcal F)\cong\Ext^1(\H^1 \mathcal F 
+\otimes \mathcal O, \mathcal F)$$
+ defines an extension
+$$
+0\rightarrow \mathcal F \rightarrow \mathcal G \rightarrow \H^1 \mathcal F
+\otimes \mathcal O\rightarrow 0\ , 
+$$
+where $\H^1_{\geq 0}\,\mathcal G = 0$, and where $\mathcal G$ is a vector bundle 
+(apply Serre's criterion in Section 4). Similarly, by taking Serre duality into
+account,  we obtain an extension
+$$
+0\rightarrow \H^1 \mathcal F (-2)\otimes  U^2 \rightarrow \mathcal H
+\rightarrow  \mathcal F\rightarrow 0\ , 
+$$
+where $\mathcal H$ is a vector bundle with $\H^{1}_{\leq -2} \mathcal H = 0$. 
+The two extensions fit into a commutative diagram with exact rows and and columns
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+$$
+\xymatrix{
+&&0\ar[d]&0\ar[d]\\
+0\ar[r]& \H^1 \mathcal F (-2)\otimes U^2\ar@{}[d]|{\scriptscriptstyle ||}\ar[r]&
+\mathcal  H\ar[d]\ar[r]&
+\mathcal F\ar[r]\ar[d]& 0\\
+0\ar[r]&  \H^1 \mathcal F (-2)\otimes U^2\ar[r]^{\qquad \quad \alpha}& 
+\mathcal B \ar[d]^{\beta}\ar[r]&\mathcal G\ar[d]\ar[r]& 0\\
+&& \H^1 \mathcal F\otimes \mathcal O \ar[d]\ar@{}[r]|{=}&
+\H^1 \mathcal F \otimes \mathcal O \ar[d]\\
+&&0&0
+}
+$$
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+since, for example, the extension in the top row lifts uniquely to an extension 
+as in the middle row (the obstructions in the corresponding Ext-sequence vanish). 
+Then $\mathcal B \cong \H^1 \mathcal F (-1)\otimes U$ 
+since by construction these bundles  have the same rank and intermediate cohomology.
+What we have is the {\it display}
+\index{monad!display of}
+ of (the short exact sequences associated to)
+a monad 
+$$
+0\longrightarrow \H^1 \mathcal F (-2)\otimes U^2 \overset{\alpha}
+\longrightarrow \H^1 \mathcal F (-1) \otimes U \overset{\beta}\longrightarrow 
+\H^1 \mathcal F \otimes \mathcal O \longrightarrow 0
+$$
+for $\mathcal F$. 
+
+\vskip0.3cm
+\noindent
+{\it{Step 2.}}\;
+Our task in this step is to describe what maps $\alpha$ and $\beta$ could
+be the differentials of a monad as above. In fact we give a description in terms of 
+linear algebra for which it is enough to deal with one of the differentials,
+say $\alpha$, since the self-duality of $\mathcal F$ and the vanishing
+of certain obstructions allows one to represent $\mathcal F$ as the
+homology of a ``self-dual'' monad. Let us abbreviate $A=\H^1 \mathcal F (-2)$, 
+$B=\H^1 \mathcal F (-1)$ and $A^*\cong \H^1 \mathcal F$. By chasing the displays 
+of a monad as above and its dual we see that the symplectic structure on 
+$\mathcal F$ lifts to a unique isomorphism of monads
+$$
+\xymatrix{
+0\ar[r]& A\otimes U^2 \ar[d]^{\Phi}\ar[r]^{\alpha}&
+B \otimes U \ar[d]^{\Psi}\ar[r]^{\beta}&
+A^*\otimes\mathcal O \ar[r] \ar[d]^{-\Phi^*(-1)} & 0\\
+0\ar[r]&A\otimes \mathcal O(-1) \ar[r]^{{\beta^*}(-1)} & B^* \otimes U^*(-1) 
+\ar[r]^{{\alpha^*}(-1)}& A^*\otimes (U^2)^*(-1) \ar[r]& 0
+}
+$$
+with $\Psi = -\Psi^*(-1)$. Indeed, the corresponding obstructions vanish
+(see \cite{EA:MR80f:14005} and \cite[II, 4.1]{EA:MR81b:14001} for a discussion of 
+this argument in a general context). $\Psi$ is the tensor product of an isomorphism 
+$q: B\rightarrow B^*$ and a symplectic form $\iota\in\Hom(U,U^*(-1))\cong\CC$
+on $U$.  Note that $q$ is symmetric since
+$-(q\otimes\iota) = (q\otimes\iota)^*(-1)=q^*\otimes\iota^*(-1)=-q^*\otimes\iota$.
+We may and will now assume that $\mathcal F$ is the homology of a {\it {self-dual monad}},
+\index{monad!self-dual}
+where self-dual means  that $\beta = \alpha^d:=\alpha^* (-1)\circ(q\otimes\iota)$. 
+The monad conditions
+
+\vskip0.2cm
+($\alpha_1$) $\alpha^d\circ\alpha = 0$, and
+\vskip0.1cm
+($\alpha_2$) $\alpha$ is a vector bundle monomorphism ($\alpha^d$ is an epimorphism)
+\vskip0.2cm
+\noindent
+can be rewritten in terms of linear algebra as follows. 
+The identifications in Lemma \ref{hombd} allow one to view 
+$$\alpha\in\Hom(A\otimes U^2, B \otimes U) \cong V \otimes \Hom(A, B) $$
+as a homomorphism $\alpha: W \rightarrow \Hom (A,B)$ operating by
+$\xi \otimes (x \wedge x^{\prime}) \rightarrow \alpha (x)(\xi) \otimes x^{\prime}
+- \alpha (x^{\prime})(\xi) \otimes x$ on the fibers of 
+$A\otimes U^2$. Similarly we consider $\alpha^d$
+as the homomorphism $\alpha^d: W \rightarrow \Hom (B,A^*), x\mapsto \alpha^*(x) \circ q$, 
+operating by $\eta \otimes x \rightarrow \alpha^d (x)(\eta)$ on the fibers
+of $B \otimes U$. Then
+
+\vskip0.2cm
+($\alpha_1^{\prime}$)\, $\alpha^d(x) \circ \alpha(x^{\prime})=
+\alpha^d(x^{\prime}) \circ\alpha(x)$ for all $x, x^{\prime}\in W$, and
+\vskip0.1cm
+($\alpha_2^{\prime}$)\, for every $\xi\in A\setminus \{0\}$
+the map $W \rightarrow B$, $x \to \alpha(x)(\xi)$ has rank $\geq 2$.
+
+
+\noindent
+% \noindent
+%\begin{Example} 
+\begin{example}\label{exc22}
+If $c_2=2$, then  the monads can be written (non-canonically) as 
+$$
+\xymatrix @C=9mm{
+0\ar[r]&U^2\ar[r]^{\ \left(\substack{a\\b}\right)}
+&2\:\!U\ar[r]^{\,(a\ b)} &\mathcal O\ar[r]&0\ ,
+}
+$$
+where $a, b$ are two vectors in $V$.
+In this case ($\alpha_1$) gives no extra condition and 
+($\alpha_2$) means that $a$ and $b$ are linearly independent.
+If $a$ and $b$ are  explicitly given, then we can compute the
+homology of the monad with the help of \Mtwo:
+
+\vskip0.3cm
+<<<S = ZZ/32003[x_0..x_2];>>>
+\vskip0.1cm
+\noindent
+$U$ is obtained from the Koszul complex resolving $S/(x_0, x_1, x_2)$ by
+tensoring the cokernel of the differential $\bigwedge^3 W\otimes S(-3) 
+\to \bigwedge^2W \otimes S(-2)$ with $S(1)$ (and sheafifying).
+
+\vskip0.1cm
+<<<U = coker koszul(3,vars S) ** S^{1};>>>
+\vskip0.1cm
+
+\noindent
+For representing $\alpha$ and $\alpha^d$ we also need the differential 
+$\bigwedge^2W \otimes S(-2) \to W \otimes S(-1)$ of the Koszul complex.
+
+\vskip0.1cm
+<<<k2 = koszul(2,vars S)>>>
+\vskip0.1cm
+
+\noindent
+The expression
+{\tt{koszul(2,vars S)}} computes a matrix representing the differential
+with respect to the monomial bases $x_0\wedge x_1, x_0 \wedge x_2, x_1 \wedge x_2$ 
+of $\bigwedge^2W$ and $x_0, x_1, x_2$ of $W$.
+We pick $(a,b) = (e_1, e_2)$ and represent the corresponding maps $\alpha$ 
+and $\alpha^d$ with respect to the monomial bases (see the discussion following
+Lemma \ref{hombd}).
+
+\vskip0.1cm
+<<<alpha = map(U ++ U, S^{-1}, transpose{{0,-1,0,1,0,0}});>>>
+<<<alphad = map(S^1, U ++ U, matrix{{0,1,0,0,0,1}} * (k2 ++ k2));>>>
+\vskip0.1cm
+
+\noindent
+Prune computes a minimal presentation.
+
+\vskip0.1cm
+<<<F = prune homology(alphad, alpha);>>>
+<<<betti  F>>>
+
+\vskip0.3cm
+
+In the next section we will present a more elegant way of 
+computing the homology of Beilinson monads. \qed
+\end{example}
+
+We go back to the general case and reverse our construction. 
+Let $A$ and $B$ be $\CC$-vector spaces of 
+the appropriate dimensions, let $q$ be a non-degenerate quadratic form on $B$,
+and let 
+$$
+\widetilde{\cal{M}}=\{\alpha\in\Hom(W, \Hom(A, B)) \mid \alpha {\text { satisfies }} 
+(\alpha_1^{\prime}) {\text { and }} (\alpha_2^{\prime})\}\ .
+$$
+Then every $\alpha\in \widetilde{\cal{M}}$ defines a self-dual
+monad as above whose homology is a stable rank 2 vector bundle on $\PP^2(\CC)$ with 
+Chern classes $c_1=-1$ and $c_2$. In this way we obtain a description of
+the differentials of  the monads which is not as explicit as we might have 
+hoped (with the exception of the case $c_2 = 2$). It is, however,  enough for detecting 
+geometric properties of the corresponding moduli spaces.
+
+\vskip0.3cm
+\noindent
+{\it{Step 3.}}\; Constructing the moduli spaces means to parametrize
+the isomorphism classes of our bundles in a convenient way. We very roughly 
+outline how to do that. Let ${\text{O}}(B)$ be the orthogonal group of
+$(B,q)$, and let $G:= \GL (A)\times {\text{O}}(B)$. Then $G$ acts on 
+$\widetilde{\cal{M}}$ by $((\Phi, \Psi),\alpha) \mapsto \Psi\alpha\Phi^{-1}$,
+where $\Psi\alpha\Phi^{-1}(x) := \Psi\alpha(x)\Phi^{-1}$. We may consider an 
+element $(\Phi, \Psi)\in G$ as an isomorphism bet\-ween 
+the monad defined by $\alpha$ and the monad defined by $\Psi\alpha\Phi^{-1}$.
+By going back and forth between isomorphisms of bundles
+and isomorphisms of mo\-nads one shows that the  stabilizer of $G$ in 
+each point is $\{\pm 1\}$, and that our construction induces a bijection
+between the set of isomorphism classes of stable rank 2 vector bundles on $\PP^2(\CC)$ 
+with Chern classes $c_1=-1$ and $c_2$ and ${\cal{M}}:=\widetilde{\cal{M}}/G_0$, 
+where $G_0:=G/\{\pm 1\}$. With the help of a universal monad over 
+$\PP^2(\CC)\times \widetilde{\cal{M}}$ one proves that the analytic structure on 
+$\widetilde{\cal{M}}$ descends to an analytic structure on ${\cal{M}}$ so that 
+${\cal{M}}$ is smooth of dimension $\h^1 \mathcal F^* \otimes \mathcal F = 4c_2-4$ 
+in each point (the obstructions for smoothness in the point corresponding to 
+$\mathcal F$ lie in $\H^2 \mathcal F^* \otimes \mathcal F$ which is zero). 
+Moreover the homology of the universal monad tensored by a suitable line bundle
+descends to a universal family over ${\cal{M}}$ (here one needs $c_1=-1$). In other 
+words, ${\cal{M}}$ is what one calls a fine moduli space for our bundles. Further 
+efforts show that ${\cal{M}}$ is irreducible and rational.
+
+\begin{remark} Horrocks' technique of killing cohomology always yields 3-term monads.
+In general, the bundle in the middle can be pretty complicated.\qed
+\end{remark}
+
+
+\section{The Beilinson Monad}
+
+%\textbf{EISENBUD}
+
+
+%\section{beilinson} The Beilinson Monad
+
+\index{monad!Beilinson}
+We can use the Tate resolution associated to a sheaf to 
+give a construction of a complex first
+described by Beilinson \cite{EA:MR80c:14010b}, which gives a 
+powerful method for deriving information about a sheaf from
+information about a few of its cohomology groups.
+The general idea is the following:
+
+
+Suppose that $\A$ is an additive category and consider
+a graded object
+$
+\oplus_{i=0}^{n+1}U^i
+$
+in $\A$.
+Given a graded ring homomorphism $E\to \End_\A(\oplus_{i=0}^{n+1}U^i)$
+we can make an additive functor from the category of 
+free $E$-modules to $\A$:
+On objects we take
+$$
+\omega_E(i)\mapsto{ \begin{cases} U^i & \text{for } 0\leq i
+\leq {n+1} \text{ and}; \\0 & \text{otherwise.}\end{cases}}
+$$
+To define the functor on maps, we use 
+$$
+\begin{aligned}
+\Hom_E(\omega_E(i),\omega_E(j))&=
+\Hom_E(E(i),E(j))\\
+&= E_{j-i}
+\longrightarrow\End(\oplus U^i)_{j-i}\longrightarrow \Hom(U^i,U^j)\ .
+\end{aligned}
+$$
+(Note that we could have taken any twist of $E$ in place of 
+$\omega_E\cong E(-n-1)$; the choice of $\omega_E$ is made to 
+simplify the statement of Theorem \ref{Beilinson-theorem}, below.)
+%%%%%%%%% Referenz \ref{Beilinson theorem}, below.)
+
+We shall be interested in the special case
+where $\A$ is the category of coherent sheaves on
+$\P(W)$ and where $U^i = \Omega_{\P(W)}^i (i)$ as in Section~4.
+Further examples may be obtained by taking $U^i$ to be the $i^\th$ exterior
+power of the tautological subbundle $U_k$ on the Grassmannian
+of $k$-planes in $W$ for any $k$; the case we have taken
+here is the case $k=n$. See \cite{EA:Eisenbud-Schreyer:ChowForms} 
+for more information on the general case
+and applications to the computation of
+resultants and more general Chow forms.
+
+Applying the functor just defined to the Tate resolution $\TT(\F)$
+of a cohe\-rent sheaf $\F$ on $\P(W)$, 
+and using Theorem \ref{tate}, we get 
+a complex
+$$
+\Omega(\F):\quad
+\cdots\rTo \oplus_j \H^j\F(i-j)\otimes U^{j-i}\rTo\dots ,
+$$
+where the term we have written down occurs in cohomological
+degree $i$. The resolution $\TT(\F)$ is well-defined up to homotopy, 
+so the same is true of $\Omega(\F)$.
+Since $U^{k}=0$ unless $0\leq k\leq n$
+the only cohomology groups of $\F$ that
+are actually involved in $\Omega(\F)$ are $\H^j\F(k)$ with
+$-n\leq k\leq 0$; $\Omega(\F)$ is of type
+$$
+\xymatrix@1@C=3mm{
+0\ar[r]& \H^0 \mathcal F (-n)\otimes U^n\ar@{}[d]|{\scriptscriptstyle ||}\ar[r]&
+\cdots \ar[r]& 
+\oplus_{j=0}^{n}\H^j \mathcal F (-j)\otimes U^j\ar@{}[d]|{\scriptscriptstyle ||}\ar[r]&
+\cdots \ar[r]&
+\H^n \mathcal F \otimes U^0\ar@{}[d]|{\scriptscriptstyle ||}\ar[r]&
+0&\\
+0\ar[r]&  \Omega^{-n}(\F)\ar[r]&\cdots \ar[r]& \Omega^0(\F)\ar[r]& 
+\cdots \ar[r]& \Omega^n(\F)\ar[r]& 0&.\\
+}
+$$
+For applications it is important to note that instead of working with  
+$\Omega(\F)$ one can also work with $\Omega(\F(i))$ for some twist $i$. 
+This gives one some freedom in choosing the cohomology groups of $\F$ 
+to be involved.
+
+
+To see a simple example, consider again the structure 
+sheaf $\O_p$ of the subvariety consisting of a point
+$p\in \P(W)$. Write $I$ for the homogeneous ideal of $p$,
+and let $a\in V=W^*$ be a non-zero functional vanishing
+on the linear forms in $I$ as before.
+The Tate resolution of the homogeneous coordinate ring $S/I$
+has already been computed, and we have seen that it depends only
+on the sheaf $\widetilde{S/I}=\O_p$. From the computation of
+$\TT(S/I)=\TT(\O_p)$ made in Section~3 we see that 
+$\Omega(\O_p)$ takes the form
+$$
+\Omega(\O_p):\quad 0\to U^n\rTo^a U^{n-1}\rTo^a
+\cdots \rTo^a U^1\rTo^a U^0\rTo 0\ ,
+$$
+with $U^i$ in cohomological degree $-i$. 
+
+We have already noted that the map 
+$a: U=U^1 \rTo U^0=\O_{\P(W)}$ is the composite of the
+tautological embedding $U\subset W\otimes \O_{\P(W)}$ with the
+map $a\otimes 1:\ W\otimes \O_{\P(W)} \to \O_{\P(W)}$.
+Thus the image of $a: U^1\to \O_{\P(W)}$ is the ideal
+sheaf of $p$, and we see that the homology of the complex
+$\Omega(\O_p)$ at $U^0$ is $\O_p$. One can check further
+that $\Omega(\O_p)$ is the Koszul complex associated with
+the map $a: U^1\to \O_{\P(W)}$, and it follows that 
+the homology of $\Omega(\O_p)$ at $U^i$ is 0 for $i>0$.
+The following result shows that this is typical.
+
+\begin{theorem}[\cite{EA:eis-sch:sheaf}]\label{Beilinson-theorem}
+%\theorem{Beilinson theorem} 
+%\vskip0.3cm
+%\noindent
+%\textbf{Theorem 6.1}
+%{\em 
+If $\F$ is a coherent sheaf on
+$\P(W)$, then the only non-vanishing homology of  the
+complex $\Omega(\F)$ is 
+$$
+\H^0(\Omega(\F))=\F\, .\qquad\qed
+$$
+%}
+\end{theorem}
+
+The existence of a complex satisfying the theorem and having the same
+terms as $\Omega(\F)$ was first asserted by
+Beilinson in \cite{EA:MR80c:14010b},
+and thus we will call $\Omega(\F)$ a {\it Beilinson monad\/} 
+\index{monad!Beilinson}
+\index{Beilinson monad}
+for $\F$.
+Existence proofs via a somewhat less effective construction than the one
+given here may be found in \cite{EA:MR89g:18018} and \cite{EA:MR92g:14013}.
+
+The explicitness of the construction via Tate resolutions allows one to 
+detect properties of the differentials of Beilinson monads.
+\index{Beilinson monad!differentials of} Let us write
+$$
+\begin{aligned}
+d_{ij}^{(r)}\in \Hom( \H^j \mathcal F (i-j) \otimes U^{j-i}, 
+\H^{j-r+1} \mathcal F (i-j+r) \otimes U^{j-i-r})\\
+\cong {\textstyle\bigwedge}^r V\otimes  \Hom (\H^j \mathcal F (i-j),  
+\H^{j-r+1} \mathcal F (i-j+r))\\
+\cong \Hom ({\textstyle\bigwedge}^r W \otimes \H^j \mathcal F (i-j),  
+\H^{j-r+1} \mathcal F (i-j+r))
+\end{aligned}
+$$
+for the degree $r$ maps actually occurring in $\Omega(\F)$.
+
+\begin{remark}\label{diff1}\; The constant maps $d_{ij}^{(0)}$ in 
+$\Omega(\F)$ are zero since $\TT(\mathcal F)$ is minimal. \qed
+\end{remark}
+
+\begin{proposition}[\cite{EA:eis-sch:sheaf}]\label{diff2}\; 
+The linear maps $d_{ij}^{(1)}$ in $\Omega(\F)$ 
+correspond to the multiplication maps 
+$$W \otimes \H^j \mathcal F (i-j)\to \H^{j} \mathcal F (i-j+1)\, .\qquad\qed$$
+\end{proposition}
+
+\noindent
+This follows from the identification of the linear strands in $\TT (\F)$ 
+(see the discussion following Theorem 3.1). The higher degree maps in 
+$\TT (\F)$ and $\Omega(\F)$, however, are not yet well-understood.
+
+Since $(\TT(\mathcal F))[1] = \TT(\mathcal F(1))$ we can compare
+the differentials in $\Omega(\F)$ with those in $\Omega(\F(1))$:
+
+\begin{proposition}[\cite{EA:eis-sch:sheaf}]\label{diff3}\; If the maps 
+$d_{ij}^{(r)}$ in $\Omega(\F)$ and $d_{i-1,j}^{(r)}$ in $\Omega(\F(1))$ 
+both actually occur, then they correspond to the same element
+in 
+$${\textstyle\bigwedge}^r V\otimes  \Hom (\H^j \mathcal F (i-j),  
+\H^{j-r+1} \mathcal F (i-j+r))\ .\qquad\qed$$
+\end{proposition}
+
+
+In what follows we present some \Mtwo code for computing Beilinson monads. 
+Our  functions {\tt {sortedBasis}}, {\tt {beilinson1}}, {\tt {U}}, and
+{\tt {beilinson}} reflect what we did in Example \ref{exc22} . 
+
+The expression
+{\tt {sortedBasis(i,E)}} sorts the monomials of degree $i$ in $E$ to match the order 
+of the columns of {\tt {koszul(i,vars S)}}, where our conventions with respect to $S$ and $E$
+are as in Section 2, and where we suppose that the monomial order on $E$ is
+reverse lexicographic, the \Mtwo default order.
+
+\vskip0.3cm
+<<<sortedBasis = (i,E) -> (
+     m := basis(i,E);
+     p := sortColumns(m,MonomialOrder=>Descending);
+     m_p);>>>
+
+\vskip0.1cm
+\noindent
+For example:
+\vskip0.1cm
+
+<<<S=ZZ/32003[x_0..x_3];>>>
+<<<E=ZZ/32003[e_0..e_3,SkewCommutative=>true];>>>
+<<<koszul(2,vars S)>>>
+<<<sortedBasis(2,E)>>>
+
+\vskip0.1cm
+\noindent
+If $e\in E$ is homogeneous of degree $j$, then 
+{\tt {beilinson1(e,j,i,S)}} computes the map $U^i \overset{e}\longrightarrow U^{i-j}$
+on $\PP^n = \Proj \,S$. If $0 < i-j \leq i \leq n$, then the result is a matrix representing 
+the map $\bigwedge^{i+1}W \otimes S(-1)\overset{e\otimes 1} \longrightarrow 
+\bigwedge^{i-j+1}W\otimes S(-1)$ defined by contraction with $e$. If $0 = i-j < i \leq n$, 
+then the result is a matrix representing the composite
+of the map $\bigwedge^{i}W \otimes S \overset{e\otimes 1}
+\longrightarrow S$ with the Koszul differential 
+$\bigwedge^{i+1}W \otimes S(-1) \rightarrow \bigwedge^{i}W \otimes S$.
+Note that the degrees of the result are not set correctly since 
+the functions {\tt {U}} and {\tt {beilinson}} below are supposed to do that.
+\vskip0.1cm
+
+<<<beilinson1=(e,dege,i,S)->(
+     E := ring e;
+     mi := if i < 0 or i >= numgens E then map(E^1, E^0, 0)
+           else if i === 0 then id_(E^1)
+           else sortedBasis(i+1,E);
+     r := i - dege;
+     mr := if r < 0 or r >= numgens E then map(E^1, E^0, 0)
+           else sortedBasis(r+1,E);
+     s = numgens source mr;
+     if i === 0 and r === 0 then
+          substitute(map(E^1,E^1,{{e}}),S)
+     else if i>0 and r === i then substitute(e*id_(E^s),S)
+     else if i > 0 and r === 0 then
+          (vars S) * substitute(contract(diff(e,mi),transpose mr),S)
+     else substitute(contract(diff(e,mi), transpose mr),S));>>>
+ 
+\vskip0.1cm
+\noindent
+For example:
+\vskip0.1cm
+
+<<<beilinson1(e_1,1,3,S)>>>
+<<<beilinson1(e_1,1,2,S)>>>
+<<<beilinson1(e_1,1,1,S)>>>
+
+\vskip0.1cm
+\noindent
+The function {\tt {U}} computes the bundles $U^i$ on Proj$\,S$:
+
+\vskip0.1cm
+\noindent
+<<<U = (i,S) -> (
+     if i < 0 or i >= numgens S then S^0
+     else if i === 0 then S^1
+     else cokernel koszul(i+2,vars S) ** S^{i});>>>
+
+\vskip0.1cm
+\noindent
+Finally, if $o : \oplus E(-a_i) \to \oplus E(-b_j)$ is a homogeneous 
+matrix over $E$, then {\tt {beilinson(o,S)}} computes the 
+corresponding map $o : \oplus U^{a_i} \to \oplus U^{b_j}$ on Proj$\,S$
+by calling {\tt {beilinson1}} and {\tt {U}}.
+\vskip0.3cm
+
+<<<beilinson = (o,S) -> (
+     coldegs := degrees source o;
+     rowdegs := degrees target o;
+     mats = table(numgens target o, numgens source o,
+              (r,c) -> (
+                   rdeg = first rowdegs#r;
+                   cdeg = first coldegs#c;
+                   overS = beilinson1(o_(r,c),cdeg-rdeg,cdeg,S);
+                   -- overS = substitute(overE,S);
+                   map(U(rdeg,S),U(cdeg,S),overS)));
+     if #mats === 0 then matrix(S,{{}})
+     else matrix(mats));>>>
+
+\vskip 0.1cm
+\noindent
+With these functions the code in Example \ref{exc22} can be rewritten as follows:
+\vskip 0.1cm
+
+<<<S=ZZ/32003[x_0..x_2];>>>
+<<<E = ZZ/32003[e_0..e_2,SkewCommutative=>true];>>>
+<<<alphad = map(E^1,E^{-1,-1},{{e_1,e_2}})>>>
+<<<alpha = map(E^{-1,-1},E^{-2},{{e_1},{e_2}})>>>
+<<<alphad=beilinson(alphad,S);>>>
+<<<alpha=beilinson(alpha,S);>>>
+<<<F = prune homology(alphad,alpha);>>>
+<<<betti  F>>>
+
+\vskip 0.3cm
+
+\section{Examples}
+
+\index{Beilinson monad!applications of}
+In this section we give two examples of explicit constructions of Beilinson 
+monads over $\PP^4(\CC) = \PP(W)$ and of classification results based on these monads.
+As in Section 5 we proceed in three steps. Let us write $\mathcal O = 
+\mathcal O_{\PP^4(\CC)}$.
+
+%\begin{Example}\label{was7.1}
+\begin{example}\label{was7.1}
+%\noindent
+%{\it{Example 7.1.}}\, 
+Our first example is taken from the classification
+of {\it {conic bundles}} 
+\index{conic bundle}
+in  $\PP^4(\CC)$, that is, of smooth surfaces 
+$X\subset\PP^4(\CC)$ which are ruled in conics in the sense that there exists a 
+surjective morphism $\pi:X \rightarrow C$ onto a smooth curve $C$ such that the 
+general fiber of $\pi$ is a smooth conic in the given embedding of $X$.
+There are precisely three families of such surfaces (see \cite{EA:ES} and 
+\cite{EA:BR}). Two families, the Del Pezzo surfaces of 
+degree 4 and the  Castelnuovo surfaces, are classical. 
+The third family, consisting of {\it {elliptic conic bundles}}
+\index{conic bundle!elliptic}
+(conic bundles over an elliptic curve) of degree 8, had been falsely 
+ruled out in two classification papers in the 1980's
+(see  \cite{EA:okgrad8} and \cite{EA:ionescu}). Only recently Abo, Decker, and Sasakura 
+\cite{EA:conicbundle} constructed and classified such surfaces  by considering the Beilinson 
+monads for the suitably twisted ideal sheaves of the surfaces. Let us explain how
+this works.
+
+\vskip0.1cm
+\noindent
+{\it{Step 1.}}\; In this step we suppose that an elliptic conic
+bundle $X$ as above exists, and we determine the type of the Beilinson
+monad for the suitably twisted ideal sheaf $\mathcal J_X$.
+We know from the classification of smooth surfaces in 
+$\PP^4(\CC)$ which are contained in a cubic hypersurface (see \cite{EA:roth} and 
+\cite{EA:aure-thesis}) that $\H^0 \mathcal J_X (i) = 0$ for $i\leq 3$. 
+It follows from general results such as the theorem of Riemann-Roch that the 
+dimensions $\h^j \mathcal J_X(i)$ in range $-2\leq i \leq 3$ are as follows  
+(here, again, a zero is represented by an empty box):
+\vskip0.2cm
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Neue Längen für Abstände horizontal und vertikal
+% Nur einmal vor dem ersten Auftreten eines Beilinson-Diagramms
+% \newlength{\br}
+% \newlength{\ho}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+{
+$$ %Diagramm zentrieren
+%
+% Wähle die Einheiten \br horizontal und \ho vertikal
+{
+\setlength{\br}{9mm}
+\setlength{\ho}{6mm}
+\fontsize{10pt}{8pt}
+\selectfont
+\begin{xy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Achsenkreuz im Punkte (0,0)
+%
+% x-Achse von -3\br bis 5\br
+% mit einem "j" an 0.95 der Länge und 3mm unter der Achse:
+%
+,<-2.5\br,0\ho>;<5\br,0\ho>**@{-}?>*@{>}
+?(0.98)*!/^3mm/{i}
+%
+% y-Achse von 0\ho bis 6\ho
+% mit einem "i" an 0,9 der Länge und 3mm rechts neben der Achse:
+%
+,<0\br,0\ho>;<0\br,6\ho>**@{-}?>*@{>}
+?(0.98)*!/^3mm/{j}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 5 waagrechte Linien von -2\br bis +4\br
+% in den Höhen 1\ho,...,5\ho:
+%
+,0+<-2\br,1\ho>;<4\br,1\ho>**@{-}
+,0+<-2\br,2\ho>;<4\br,2\ho>**@{-}
+,0+<-2\br,3\ho>;<4\br,3\ho>**@{-}
+,0+<-2\br,4\ho>;<4\br,4\ho>**@{-}
+,0+<-2.5\br,5\ho>;<4.5\br,5\ho>**@{-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 11 senkrechte Linien von 0\ho bis 5\ho
+% in den waagrechten Punkten -2\br,...,+3\br:
+%
+,0+<-2\br,0\ho>;<-2\br,5\ho>**@{-}
+,0+<-1\br,0\ho>;<-1\br,5\ho>**@{-}
+%
+,0+<1\br,0\ho>;<1\br,5\ho>**@{-}
+,0+<2\br,0\ho>;<2\br,5\ho>**@{-}
+,0+<3\br,0\ho>;<3\br,5\ho>**@{-}
+,0+<4\br,0\ho>;<4\br,5\ho>**@{-}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Einträge in den Mitten der Kästen. Daher die Koordinaten mit .5
+%
+,0+<-1.5\br,3.5\ho>*{8}
+,0+<-0.5\br,3.5\ho>*{4}
+%
+,0+<0.5\br,2.5\ho>*{1}
+,0+<1.5\br,2.5\ho>*{1}
+,0+<2.5\br,2.5\ho>*{a}
+,0+<3.5\br,2.5\ho>*{b}
+,0+<2.5\br,1.5\ho>*{a+1}
+,0+<3.5\br,1.5\ho>*{b+1}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-1.5\br,-0.6\ho>*{-2}
+,0+<-0.5\br,-0.6\ho>*{-1}
+,0+<0.5\br,-0.6\ho>*{0}
+,0+<1.5\br,-0.6\ho>*{1}
+,0+<2.5\br,-0.6\ho>*{2}
+,0+<3.5\br,-0.6\ho>*{3}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-3.0\br,4.5\ho>*{4}
+,0+<-3.0\br,3.5\ho>*{3}
+,0+<-3.0\br,2.5\ho>*{2}
+,0+<-3.0\br,1.5\ho>*{1}
+,0+<-3.0\br,0.5\ho>*{0}
+\end{xy} 
+}
+$$
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip0.1cm
+\noindent
+with $a := \h^2 \mathcal J_X(2)$ and $b := \h^2 \mathcal J_X(3)$ still to
+be determined. The Beilinson monad for $\mathcal J_X(2)$ is thus of type
+$$
+0 \rightarrow 8\:\! \mathcal O (-1) \rightarrow 4\:\! U^3\oplus U^2
+\rightarrow  U\oplus (a+1)\:\! \mathcal O \rightarrow a\:\! \mathcal O \rightarrow 0\ ,
+$$
+where $\,(a+1)\:\! \mathcal O \rightarrow a\:\! \mathcal O\,$ is the zero map
+(see Remark \ref{diff1}), 
+and where consequently $U$ is mapped surjectively onto $\,a\,\! \mathcal O\,$. By 
+Proposition \ref{critsur} this is only possible if $a = 0$. The same idea applied to 
+$\mathcal J_X(3)$ shows that then also $b = 0$. 
+
+The cohomological information obtained so far determines the type of the Beilinson 
+monad for $\mathcal J_X(2)$ and for $\mathcal J_X(3)$. We decide to concentrate on 
+the monad for $\mathcal J_X(3)$ since its differentials are smaller in size than those of the 
+monad for $\mathcal J_X(2)$. In order to ease our calculations further we kill
+the 4-dimensional space $\H^3 \mathcal J_X(-1)$. Let us write $\omega_X$ for
+the dualizing sheaf of $X$. Serre duality on $\PP^4(\CC)$ 
+respectively on $X$  yields canonical isomorphisms
+$$
+\begin{aligned}
+Z& :=  \Ext^1(\mathcal J_X(-1),\mathcal O(-5))\\
+&\cong (\H^3 \mathcal J_X(-1))^*
+\cong (\H^2 \mathcal O_X(-1))^*\cong \H^0(\omega_X(1))\ .
+\end{aligned}
+$$
+The identity in 
+$$
+\Hom (Z, Z) \cong \Ext^1(\mathcal J_X(-1), Z^* \otimes \mathcal O(-5))
+$$
+defines an extension which, twisted by 4, can be written as
+$$
+0 \rightarrow 4\:\! \mathcal O(-1) \rightarrow \mathcal G
+\rightarrow \mathcal J_X(3) \rightarrow 0\ .
+$$
+Let us show that $\mathcal G$ is a vector bundle.
+We know from the classification of scrolls in $\PP^4(\CC)$ (see \cite{EA:Lanteri} 
+and \cite{EA:aure-thesis}) that $X$ is not a scroll.
+Hence adjunction theory implies that $\omega_X(1)$ is generated by the adjoint linear 
+system $\H^0(\omega_X(1))$ (see \cite[Corollary 9.2.2]{EA:adj-theory}). It follows by
+Serre's criterion (\cite{EA:MR16:953c}, see also \cite[Theorem 2.2]{EA:okreflexiv})
+that $\mathcal G$ is locally free. By construction $\mathcal G$ has a 
+cohomology table as follows:
+\vskip0.2cm
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Neue Längen für Abstände horizontal und vertikal
+% Nur einmal vor dem ersten Auftreten eines Beilinson-Diagramms
+%\newlength{\br}
+%\newlength{\ho}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+$$ %Diagramm zentrieren
+%
+% Wähle die Einheiten \br horizontal und \ho vertikal
+{
+\setlength{\br}{9mm}
+\setlength{\ho}{6mm}
+\fontsize{10pt}{8pt}
+\selectfont
+\begin{xy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Achsenkreuz im Punkte (0,0)
+%
+% x-Achse von -5.5\br bis 1\br
+% mit einem "j" an 0.95 der Länge und 3mm unter der Achse:
+%
+,<-5.5\br,0\ho>;<1\br,0\ho>**@{-}?>*@{>}
+?(0.98)*!/^3mm/{i}
+%
+% y-Achse von 0\ho bis 6\ho
+% mit einem "i" an 0,9 der Länge und 3mm rechts neben der Achse:
+%
+,<-1\br,0\ho>;<-1\br,6\ho>**@{-}?>*@{>}
+?(0.98)*!/^3mm/{j}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 5 waagrechte Linien von -5\br bis +0\br
+% in den Höhen 1\ho,...,5\ho:
+%
+,0+<-5\br,1\ho>;<0\br,1\ho>**@{-}
+,0+<-5\br,2\ho>;<0\br,2\ho>**@{-}
+,0+<-5\br,3\ho>;<0\br,3\ho>**@{-}
+,0+<-5\br,4\ho>;<0\br,4\ho>**@{-}
+,0+<-5.5\br,5\ho>;<.5\br,5\ho>**@{-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 11 senkrechte Linien von 0\ho bis 5\ho
+% in den waagrechten Punkten -8\br,...,+3\br:
+%
+,0+<-5\br,0\ho>;<-5\br,5\ho>**@{-}
+,0+<-4\br,0\ho>;<-4\br,5\ho>**@{-}
+,0+<-3\br,0\ho>;<-3\br,5\ho>**@{-}
+,0+<-2\br,0\ho>;<-2\br,5\ho>**@{-}
+,0+<0\br,0\ho>;<0\br,5\ho>**@{-}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Einträge in den Mitten der Kästen. Daher die Koordinaten mit .5
+%
+,0+<-3.5\br,2.5\ho>*{1}
+,0+<-2.5\br,2.5\ho>*{1}
+,0+<-1.5\br,1.5\ho>*{1}
+,0+<-0.5\br,1.5\ho>*{1}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-4.5\br,-0.6\ho>*{-4}
+,0+<-3.5\br,-0.6\ho>*{-3}
+,0+<-2.5\br,-0.6\ho>*{-2}
+,0+<-1.5\br,-0.6\ho>*{-1}
+,0+<-0.5\br,-0.6\ho>*{0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-6.0\br,4.5\ho>*{4}
+,0+<-6.0\br,3.5\ho>*{3}
+,0+<-6.0\br,2.5\ho>*{2}
+,0+<-6.0\br,1.5\ho>*{1}
+,0+<-6.0\br,0.5\ho>*{0}
+\end{xy}
+}
+$$
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\vskip0.1cm
+\noindent
+So the  Beilinson monad of $\mathcal G$ is of type
+$$
+0 \rightarrow U^3 \overset\alpha\rightarrow U^2\oplus U
+\overset\beta\rightarrow \mathcal O \rightarrow 0\ .
+$$
+
+\vskip0.1cm
+\noindent
+{\it{Step 2.}}\; Now we proceed the other way around. We show that a 
+rank 5 bundle $\mathcal G$  as in the first step exists, and that the dependency locus of 
+four general sections of $\mathcal G(1)$ is a surface of the desired type. Differentials which 
+define a monad as above with a locally free homology  can be easily found.
+By Lemma \ref{hombd} $\alpha$ corresponds to a pair of vectors $\alpha=(\alpha_1, \alpha_2)^t
+\in V \oplus \bigwedge^2 V$ . By dualizing (see Remark \ref{dualitybd}) we find that it 
+is a vector bundle monomorphism  if and only if  
+$U^2\oplus U^3\overset{\alpha^t}\longrightarrow U^1$ is an epimorphism. Equivalently, 
+$\alpha_1$ is non-zero and $\alpha_2$ considered as a vector in 
+$\bigwedge^2 (V/\langle \alpha_1 \rangle)$ is indecomposable (argue as in the proof of
+Proposition \ref{critsur}). Taking the other monad conditions into account we see
+that we may pick
+$$
+\alpha=
+\begin{pmatrix}
+e_4\\
+e_0\wedge e_2 + e_1\wedge e_3
+\end{pmatrix}
+$$
+and
+$$
+\beta=
+\begin{pmatrix}
+    e_0\wedge e_2 + e_1\wedge e_3\, ,&-e_4
+\end{pmatrix} ,
+$$
+where $e_0 , \dots , e_4$ is a basis of $V$, and that up to isomorphisms of monads 
+and up to the choice of the basis this is the only possibility. We fix $\mathcal G$ as
+the homology of this monad and compute the syzygies of $\mathcal G$ with \Mtwo.
+\vskip0.3cm
+
+
+<<<S = ZZ/32003[x_0..x_4];>>>
+<<<E = ZZ/32003[e_0..e_4,SkewCommutative=>true];>>>
+<<<beta=map(E^1,E^{-2,-1},{{e_0*e_2+e_1*e_3,-e_4}})>>>
+<<<alpha=map(E^{-2,-1},E^{-3},{{e_4},{e_0*e_2+e_1*e_3}})>>>
+<<<beta=beilinson(beta,S);>>>
+<<<alpha=beilinson(alpha,S);>>>
+<<<G = prune homology(beta,alpha);>>>
+<<<betti res G>>>
+
+
+\vskip0.3cm
+\noindent
+We see in particular that $\mathcal G (1)$ is globally generated. Hence the
+dependency locus of four general sections of $\mathcal G (1)$ is indeed a smooth surface
+in $\PP^4(\CC)$ by Kleiman's Bertini-type result \cite{EA:Bertini}. The smoothness can
+also be checked with \Mtwo in an example via the built-in Jacobian criterion
+(see \cite{EA:DSJSC} for a speedier method).
+\vskip0.3cm
+
+<<<foursect = random(S^4, S^10) * presentation G;>>>
+\vskip0.1cm
+
+\noindent
+The function
+{\tt{trim}} computes a minimal presentation.
+
+\vskip0.1cm
+<<<IX = trim minors(4,foursect);>>> 
+<<<codim IX>>>
+<<<degree IX>>>
+<<<codim singularLocus IX>>>
+
+\vskip0.3cm
+\noindent
+By construction $X$ has the correct invariants and is in fact an elliptic conic bundle
+as claimed: Since the adjoint linear system $\H^0(\omega_X(1))$ is base point free 
+and 4-dimensional
+by what has been  said in the first step, the corresponding adjunction map 
+$X \rightarrow \PP^3$ is a morphism which exhibits, as is easy to see, $X$ as a
+conic bundle over a smooth elliptic curve in $\PP^3$ 
+(see \cite[Proposition 2.1]{EA:conicbundle}). 
+
+\vskip0.1cm
+\noindent
+{\it{Step 3.}}\; Our discussion in the previous steps gives also a classification
+result. Up to projectivities the elliptic conic bundles of degree 8 in $\PP^4(\CC)$ are 
+precisely the smooth surfaces arising as the dependency locus of four sections of the 
+bundle $\mathcal G(1)$ fixed in Step 2.\qed
+%\end{Example}
+\end{example}
+
+%\begin{Example}
+\begin{example}
+%\noindent
+%{\it {Example 7.2}}\, 
+This example is concerned with the construction and
+classification of \ie{abelian surface}s in $\PP^4(\CC)$, and
+with the closely related
+\ie{Horrocks-Mumford bundle}s \cite{EA:HM}.
+\index{bundle!Horrocks-Mumford}
+\vskip0.1cm
+\noindent
+{\it{Step 1.}}\; Horrocks and Mumford  found evidence for the 
+existence of a family of abelian surfaces in $\PP^4(\CC)$. 
+Suppose that such a surface $X$ exists. Then the dualizing sheaf of $X$ is trivial, 
+$\omega_X\cong \mathcal O_X$, and $X$ has degree 10 (see \cite[Example 3.2.15]{EA:fultonit}).
+The same arguments as in Example \ref{was7.1} show that $X$ arises as the zero scheme of a 
+section of a rank 2 vector bundle: There is an extension 
+$$
+0 \rightarrow  \mathcal O \rightarrow \mathcal F (3)
+\rightarrow \mathcal J_X(5) \rightarrow 0\ ,
+$$
+where $\mathcal F (3)$ is a rank 2 vector bundle with Chern classes $c_1 = 5$ and 
+$c_2 = \deg X = 10$, and where $\mathcal F$ has a cohomology table as
+displayed in Figure \ref{cohtable}.
+\begin{figure}
+%
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% Neue Längen für Abstände horizontal und vertikal
+% Nur einmal vor dem ersten Auftreten eines Beilinson-Diagramms
+%\newlength{\br}
+%\newlength{\ho}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+{
+$$ %Diagramm zentrieren
+%
+% Wähle die Einheiten \br horizontal und \ho vertikal
+{
+\setlength{\br}{9mm}
+\setlength{\ho}{6mm}
+\fontsize{10pt}{8pt}
+\selectfont
+\begin{xy}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Achsenkreuz im Punkte (0,0)
+%
+% x-Achse von -5.5\br bis 1\br
+% mit einem "j" an 0.95 der Länge und 3mm unter der Achse:
+%
+,<-5.5\br,0\ho>;<1\br,0\ho>**@{-}?>*@{>}
+?(0.98)*!/^3mm/{i}
+%
+% y-Achse von 0\ho bis 6\ho
+% mit einem "i" an 0,9 der Länge und 3mm rechts neben der Achse:
+%
+,<-1\br,0\ho>;<-1\br,6\ho>**@{-}?>*@{>}
+?(0.98)*!/^3mm/{j}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 5 waagrechte Linien von -5\br bis +0\br
+% in den Höhen 1\ho,...,5\ho:
+%
+,0+<-5\br,1\ho>;<0\br,1\ho>**@{-}
+,0+<-5\br,2\ho>;<0\br,2\ho>**@{-}
+,0+<-5\br,3\ho>;<0\br,3\ho>**@{-}
+,0+<-5\br,4\ho>;<0\br,4\ho>**@{-}
+,0+<-5.5\br,5\ho>;<.5\br,5\ho>**@{-}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% 11 senkrechte Linien von 0\ho bis 5\ho
+% in den waagrechten Punkten -8\br,...,+3\br:
+%
+,0+<-5\br,0\ho>;<-5\br,5\ho>**@{-}
+,0+<-4\br,0\ho>;<-4\br,5\ho>**@{-}
+,0+<-3\br,0\ho>;<-3\br,5\ho>**@{-}
+,0+<-2\br,0\ho>;<-2\br,5\ho>**@{-}
+,0+<0\br,0\ho>;<0\br,5\ho>**@{-}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Einträge in den Mitten der Kästen. Daher die Koordinaten mit .5
+%
+,0+<-4.5\br,3.5\ho>*{5}
+,0+<-2.5\br,2.5\ho>*{2}
+,0+<-0.5\br,1.5\ho>*{5}
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-4.5\br,-0.6\ho>*{-4}
+,0+<-3.5\br,-0.6\ho>*{-3}
+,0+<-2.5\br,-0.6\ho>*{-2}
+,0+<-1.5\br,-0.6\ho>*{-1}
+,0+<-0.5\br,-0.6\ho>*{0}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+,0+<-6.0\br,4.5\ho>*{4}
+,0+<-6.0\br,3.5\ho>*{3}
+,0+<-6.0\br,2.5\ho>*{2}
+,0+<-6.0\br,1.5\ho>*{1}
+,0+<-6.0\br,0.5\ho>*{0}
+\end{xy}
+}
+$$
+}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\caption{}\label{cohtable}
+\end{figure}
+In particular $\mathcal F$, which has Chern classes $c_1=-1$ and $c_2=4$, is stable by 
+Remark 5.3. A discussion as in Section 5 shows that the Beilinson monad for $\mathcal F$ 
+is of type 
+$$
+\xymatrix{
+0\ar[r]& A\otimes \mathcal O(-1)\ar[r]^{\alpha}&
+B \otimes U^2 \ar[r]^{\alpha^d}& A^*\otimes\mathcal O \ar[r]  & 0
+}\ ,
+$$
+with $\CC$-vector spaces $A$ and $B$ of dimension 5 and 2 respectively,
+and with $\alpha^d = \alpha^*(-1)\circ(q\otimes\iota)$,  where $q$ is
+a symplectic form on $B$, and where 
+$\iota : U^2 \overset{\cong}\longrightarrow (U^2)^*(-1)$ is induced
+by the pairing $U^2 \otimes U^2 \overset\wedge\longrightarrow U^4\cong\mathcal O(-1)$.
+By choosing appropriate bases of $A$ and $B$ we may suppose
+that $\alpha$ is a $2\times 5$ matrix with entries in $\bigwedge^2 V$ and that
+$\alpha^d = \alpha^t\cdot \begin{pmatrix} 0 & 1\\ -1 & 0\end{pmatrix}$.
+
+\vskip0.1cm
+\noindent
+{\it{Step 2.}}\; As in Example 7.1 we now proceed the other way around.
+But this time it is not obvious  how to define $\alpha$.
+Horrocks and Mumford remark that up to projectivities
+one may suppose that the abelian surfaces in $\P^4(\CC)$ are invariant under
+the action of the {\ie Heisenberg group} $H_5$ in its Schr\"odinger representation, and
+they use the representation theory of $H_5$ and its normalizer $N_5$ in 
+$\SL(5, \CC)$ to find 
+$$
+\alpha = 
+\begin{pmatrix}
+e_2\wedge e_3\;&e_3\wedge e_4\;&e_4\wedge e_0\;&e_0\wedge e_1\;&e_1\wedge e_2\\
+e_1\wedge e_4\;&e_2\wedge e_0\;&e_3\wedge e_1\;&e_4\wedge e_2\;&e_0\wedge e_3
+\end{pmatrix}\ ,
+$$
+where $e_0 ,\dots , e_4$ is a basis of $V$. A straightforward computation shows
+that with this $\alpha$ the desired monad conditions are indeed satisfied. The resulting
+Horrocks-Mumford bundle $\mathcal F_{\text{HM}}$ on $\PP^4(\CC)$ is essentially 
+the only rank 2 vector bundle known on $\PP^n(\CC)$, $n\geq 4$, which does not 
+split as direct sum of two line bundles. Let us compute the syzygies of 
+$\mathcal F_{\text{HM}}$ with \Mtwo.
+\vskip0.3cm
+
+<<<alphad = matrix{{e_4*e_1, e_2*e_3},{e_0*e_2, e_3*e_4},
+                {e_1*e_3, e_4*e_0},{e_2*e_4, e_0*e_1},
+                {e_3*e_0, e_1*e_2}};>>>
+<<<alphad=map(E^5,E^{-2,-2},alphad)>>>
+<<<alpha=syz alphad>>>
+<<<alphad=beilinson(alphad,S);>>>
+<<<alpha=beilinson(alpha,S);>>>
+<<<FHM = prune homology(alphad,alpha);>>>
+<<<betti res FHM>>>
+<<<regularity FHM>>>
+<<<betti sheafCohomology(presentation FHM,E,-6,6)>>> 
+
+\vskip0.3cm
+\noindent
+Since $\H^0 \mathcal F_{\text{HM}}(i) = 0$ for $i<3$ every non-zero section of 
+$\mathcal F_{\text{HM}}(3)$ vanishes along a surface (with the desired invariants).
+Horrocks and Mumford need an extra argument to show that the general such surface
+is smooth (and thus abelian) since Kleiman's Bertini-type result does not apply
+($\mathcal F_{\text{HM}}(3)$ is not globally generated). Our explicit construction 
+allows one again to check the smoothness with \Mtwo in an example.
+\vskip0.3cm
+
+<<<sect =  map(S^1,S^15,0) | random(S^1, S^4);>>>
+\vskip0.1cm
+
+\noindent
+We compute the equations of $X$ via a mapping cone.
+\vskip0.1cm
+
+<<<mapcone = sect || transpose presentation FHM;>>>
+<<<fmapcone = res coker mapcone;>>>
+<<<IX =  trim ideal fmapcone.dd_2;>>>
+<<<codim IX>>>
+<<<degree IX>>>
+<<<codim singularLocus IX>>>
+
+
+\vskip0.3cm
+\noindent
+{\it{Step 3.}}\; Horrocks and Mumford showed that up to projectivities
+every abelian surface in $\PP^4(\CC)$ arises as the zero scheme of a section
+of $\mathcal F_{\text{HM}}(3)$. In fact, one can show much more.
+By a careful analysis of possible Beilinson monads and their restrictions
+to various linear subspaces Decker \cite{EA:uniquenesshm1} proved that every stable rank 2
+vector bundle $\mathcal F$ on $\PP^4(\CC)$ with Chern classes $c_1=-1$ and $c_2=4$
+is the homology of a monad of the type as in Step 1. From geometric properties of the 
+``variety of unstable planes''  of $\mathcal F$  Decker and Schreyer \cite{EA:uniquenesshm2} 
+deduced that up to isomorphisms and projectivities the differentials of the monad coincide 
+with those of $\mathcal F_{\text{HM}}$. Together with results from \cite{EA:decker24} 
+this implies that the moduli space of our bundles is isomorphic to the homogeneous 
+space $\SL(5, \CC)/N_5.$\qed
+%\end{Example}
+\end{example}
+
+%\textbf{EISENBUD ENDE}
+
+% \section*{References}
+
+% use \cite{EA:MR92g:14013} instead.
+% \noindent\textbf{Ancona, V. \& Ottaviani, G.}:
+%         {\sl An introduction to derived categories and the theorem of Beilinson},
+%         Atti Accademia Peloritana dei Pericolanti, Classe I de Scienze 
+%         Fis. Mat. et Nat. LXVII, 99-110 (1989)
+
+% use \cite{EA:MR57:324} instead
+% \noindent\textbf{Barth, W.}: 
+%         {\sl Moduli of vector bundles on the projective plane},
+%         Invent. math. {\bf 42}, 63-91 (1977)
+
+
+% use \cite{EA:MR80f:14005} instead
+%\noindent\textbf{Barth, W. \& Hulek, K.}: 
+%        {\sl Monads and Moduli of Vector Bundles}, 
+%        manuscripta math. {\bf 25}, 323-347 (1978)
+
+% use \cite{EA:MR80c:14010b} instead
+% \noindent\textbf{Beilinson, A}:
+%         {\sl Coherent sheaves on $\P^n$ and problems of linear algebra},
+%         Funct. Anal. and its Appl. {\bf 12}, 214-216 (1978)
+
+% use \cite{EA:MR80c:14010a} instead
+% \noindent\textbf{Bernstein, Gel'fand, and Gel'fand}:
+%         {\sl Algebraic bundles on $\P^n$ and problems of linear algebra},
+%         Funct. Anal. and its Appl. {\bf 12}, 212-214 (1978)
+
+% use \cite{EA:MR89g:13005:appendix} instead
+% \noindent\textbf{Buchweitz, R.-O.}:
+%         Appendix to Cohen-Macaulay modules on quadrics, by
+%         R.-O. Buchweitz, D. Eisenbud, and J. Herzog. In
+%         {\sl Singularities, representation of algebras,
+%         and vector bundles} (Lambrecht, 1985),
+%         Springer-Verlag Lecture Notes in Math, 1273, 96-116 (1987)
+
+
+% use \cite{EA:MR97a:13001} instead
+% \noindent\textbf{Eisenbud,  David}: 
+%         {\sl Commutative Algebra with a View Toward Algebraic Geometry},
+%         Springer Verlag, 1995
+
+% use \cite{EA:MR1484973:eisenbud} instead
+% \noindent\textbf{Eisenbud,  David}: 
+%         {\sl Computing cohomology} in Chapter of 
+%         ``Computational methods in Commutative Algebra and Algebraic Geometry'' 
+%         by ~W.~Vasconcelos, Springer Verlag, Berlin, 1998
+
+% use \cite{EA:Eisenbud-Schreyer:ChowForms} instead
+% \noindent\textbf{Eisenbud, D.  \&  Schreyer, F.-O.}: 
+%         {\sl Chow forms and free resolution}, in preparation 2001
+
+% use \cite{EA:eis-sch:sheaf} instead
+% \noindent\textbf{Eisenbud, D.  \&  Schreyer, F.-O.}: 
+%         {\sl Sheaf Cohomology and Free Resolutions over Exterior Algebras},
+%         AG/0005055, 2000
+
+% use \cite{EA:MR81h:14014}% instead
+% \noindent\textbf{Gieseker, D.}:
+%         {\sl On the moduli of vector bundles on an algebraic surface},
+%         Ann. of Math. {\bf 106}, 45-60 (1977)
+
+% use \cite{EA:MR80m:14011}% instead
+% \noindent\textbf{Hulek, Klaus}:
+%         {\sl Stable Rank-2 Vector Bundles on $\P_2$ with $c_1$ odd},
+%         Math. Ann. {\bf 242}, 241-266 (1979)
+
+% use \cite{EA:MR30:120}% instead
+% \noindent\textbf{Horrocks, G.}: 
+%         {\sl Vector bundles on the punctured spectrum of a local ring},
+%         Proc. London Math. Soc. (3), {\bf 14}, 689-713 (1964)
+
+% use \cite{EA:MR84j:14026}% instead
+% \noindent\textbf{Horrocks, G.}: 
+%         {\sl Construction of bundles on $\PP^n$} in ``Les equations de Yang-Mills'',
+%         by A. Douady, J.-L. Verdier (eds.), Asterisque {\bf 71-72}, 197-202 (1980)
+
+
+% use \cite{EA:MR89g:18018}% instead
+% \noindent\textbf{Kapranov, M. M.}:
+%         {\sl On the derived categories of coherent sheaves on some 
+%         homogeneous spaces}, Invent. Math. {\bf 92}, 479-508 (1988)
+
+% use \cite{EA:MR80m:14012} instead
+% \noindent\textbf{Le Potier, J.}:
+%         {\sl Fibr\'es stables de rang 2 sur $\P_2 (\CC)$},
+%         Math. Ann. {\bf 241}, 217-256 (1979)
+
+% use \cite{EA:MR56:8567}% instead
+% \noindent\textbf{Maruyama, M.}:
+%         {\sl Moduli of stable sheaves I},
+%         J. Math. Kyoto Univ. {\bf 17}, 91-126 (1977)
+
+% use \cite{EA:MR82h:14011}% instead
+% \noindent\textbf{Maruyama, M.}:
+%         {\sl Moduli of stable sheaves II},
+%          J. Math. Kyoto Univ. {\bf 18}, 557-614 (1978)
+
+
+% use \cite{EA:MR81b:14001}% instead
+% \noindent\textbf{Okonek, C., Schneider, M. \& Spindler, H.}:
+%          {\sl Vector bundles on complex projective spaces}, Boston, 1980
+
+
+% use \cite{EA:MR16:953c}% instead
+% \noindent\textbf{Serre, J.P.}: 
+%         {\sl Faisceaux alg\'ebriques coherents},
+%         Ann. of Math. {\bf 61}, 197-278  (1955)
+
+% use \cite{EA:MR99f:14064}% instead
+% \noindent\textbf{Walter, Charles H.}:
+%          {\sl Pfaffian subschemes}, 
+%         J. Algebr. Geom. {\bf 5}, 671-704 (1996)
+
+% % Local Variables:
+% % mode: latex
+% % mode: reftex
+% % tex-main-file: "chapter-wrapper.tex"
+% % reftex-keep-temporary-buffers: t
+% % reftex-use-external-file-finders: t
+% % reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+% % TeX-master: "~/M2BUCH/ComputationsBook/chapters/exterior-alge"
+% % End:

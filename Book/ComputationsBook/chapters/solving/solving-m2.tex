@@ -1,0 +1,2153 @@
+%solving.tex
+%
+%   Macaulay 2 Chapter:
+%  From Enumerative geometry to solving polynomial systems
+%
+% Frank Sottile
+%
+% Begun:                  25 April 1999
+% Began new version       27 July
+% Preliminary version     27 August
+% Started working again    1 July 2000
+% Completed & Submitted   20 July 
+% arXiv.org/math.AG/0007142  npvkp
+%     Title: "An excursion ...(title above)... with Macaulay2" 
+% Final revised version   14 November  
+% Replaced arXiv version  15 November
+% Really Final version    25 January 2000
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                                            %
+%   WARNING: * On an AMD K6/2 300MHz w/ 256MB the M2 code    %
+%              takes 8:15 minutes to run and uses 82MB       %
+%            * On Intel PIII 600MHz w/ 256K cache & 256MB    %
+%              the M2 code takes 4:15 minutes                %
+%            * On Intel PIII 850MHz w/ 256K cache & 1GB      %
+%              the M2 code takes 3:20 minutes                %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\title{From Enumerative Geometry to Solving Systems of Polynomial Equations}
+
+\titlerunning{From Enumerative Geometry to Solving Equations} 
+\toctitle{From Enumerative Geometry to Solving Systems of Polynomial Equations} 
+\author{Frank Sottile\thanks{Supported in part by NSF grant DMS-0070494.}}
+\authorrunning{F. Sottile}
+% \institute{Department of Mathematics and Statistics, University of
+% Massachusetts, Amherst, MA 01003, USA}
+\maketitle
+
+\begin{abstract}
+Solving a system of polynomial equations is a ubiquitous problem in
+the applications of mathematics. 
+Until recently, it has been hopeless to find explicit solutions to such
+systems, and mathematics has instead developed deep and
+powerful theories about the solutions to polynomial equations.
+Enumerative Geometry is concerned with counting the
+number of solutions when the polynomials come from a geometric situation and
+Intersection Theory\index{intersection theory} gives methods to accomplish the enumeration.
+
+   We use \Mtwo{}\/ to investigate some problems from enumerative geometry,
+illustrating some applications of symbolic computation to this important
+problem of solving systems of polynomial equations.
+Besides enumerating solutions to the resulting polynomial systems, which
+include overdetermined, deficient, and improper systems, we address the
+important question of real solutions to these geometric problems. 
+\end{abstract}
+
+\section{Introduction}
+A basic question to ask about a system of polynomial equations is
+its number of solutions\index{polynomial equations}.
+For this, the fundamental result is the following  
+B\'ezout Theorem\index{Bezout's Theorem@B\'ezout's Theorem}.
+
+\begin{theorem}
+ The number of isolated solutions to a system of polynomial equations
+$$
+ f_1(x_1,\ldots,x_n)=f_2(x_1,\ldots,x_n)= \cdots
+ =f_n(x_1,\ldots,x_n)=0
+$$
+ is bounded by $d_1d_2\cdots d_n$, where $d_i:=\deg f_i$.
+ If the polynomials are generic, then this bound is attained for 
+ solutions in an algebraically closed field\index{field!algebraically closed}.
+\end{theorem}
+
+Here, isolated is taken with respect to the algebraic closure.
+%There are examples where this result fails without that restriction.
+This B\'ezout Theorem is a consequence of the refined B\'ezout Theorem of
+Fulton and MacPherson~\cite[\S 1.23]{SO:Fu84a}.
+
+A system of polynomial equations with fewer than this
+degree bound or B\'ezout number\index{Bezout number@B\'ezout number} of solutions is called
+{\it deficient}\index{polynomial equations!deficient}, 
+and there are well-defined classes of deficient systems that satisfy other
+bounds.  
+For example, fewer monomials lead to fewer solutions, for which polyhedral
+bounds~\cite{SO:Bernstein} on the number of solutions are often tighter (and
+no weaker than) the B\'ezout number, which applies when
+all monomials are present.
+When the polynomials come from geometry, determining the
+number of solutions is the central problem in enumerative
+geometry\index{enumerative geometry}.
+
+Symbolic computation\index{symbolic computation} can help compute the
+solutions to a system of equations 
+that has only isolated solutions.
+In this case, the polynomials generate a zero-dimensional ideal
+$I$\index{artinian, {\it see also} ideal,
+zero-dimensional}\index{ideal!zero-dimensional}. 
+The {\it degree}\index{ideal!degree} of $I$ is $\dim_k k[X]/I$, the dimension of the 
+$k$-vector space $k[X]/I$, which is also the
+number of standard monomials in any term order.
+This degree gives an upper bound on
+the number of solutions, which is attained when $I$ is
+radical\index{ideal!radical}. 
+
+\begin{example}\label{ex:one}
+We illustrate this discussion with an example.
+Let $f_1$, $f_2$, $f_3$, and $f_4$ be random quadratic polynomials in the ring  
+${\mathbb F}_{101}[y_{11},y_{12},y_{21},y_{22}]$.
+%
+\beginOutput
+i1 : R = ZZ/101[y11, y12, y21, y22];\\
+\endOutput
+%
+\beginOutput
+i2 : PolynomialSystem = apply(1..4, i -> \\
+\                     random(0, R) + random(1, R) + random(2, R));\\
+\endOutput
+%
+The ideal they generate has dimension 0 and degree $16=2^4$, which is the
+B\'ezout number. 
+%
+\beginOutput
+i3 : I = ideal PolynomialSystem;\\
+\emptyLine
+o3 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i4 : dim I, degree I\\
+\emptyLine
+o4 = (0, 16)\\
+\emptyLine
+o4 : Sequence\\
+\endOutput
+%
+If we restrict the monomials which appear in the $f_i$ to be among
+$$
+  1,\;\ y_{11},\;\ y_{12},\;\ y_{21},\;\ y_{22},\;\  
+  y_{11}y_{22},\;\ \mbox{ and }\;\  y_{12}y_{21},
+$$
+then the ideal they generate again has dimension 0, but its degree is now 4.
+%
+\beginOutput
+i5 : J = ideal (random(R^4, R^7) *  transpose(\\
+\             matrix\{\{1, y11, y12, y21, y22, y11*y22, y12*y21\}\}));\\
+\emptyLine
+o5 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i6 : dim J, degree J\\
+\emptyLine
+o6 = (0, 4)\\
+\emptyLine
+o6 : Sequence\\
+\endOutput
+%
+If we further require that the coefficients of the
+quadratic terms sum to zero, then the ideal they generate now 
+has degree 2.
+%
+\beginOutput
+i7 : K = ideal (random(R^4, R^6) * transpose( \\
+\             matrix\{\{1, y11, y12, y21, y22, y11*y22 - y12*y21\}\}));\\
+\emptyLine
+o7 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i8 : dim K, degree K\\
+\emptyLine
+o8 = (0, 2)\\
+\emptyLine
+o8 : Sequence\\
+\endOutput
+%
+In Example~\ref{ex:G22}, we shall see how this last specialization is
+geometrically meaningful.
+\end{example}
+
+
+For us, enumerative geometry\index{enumerative geometry} is concerned
+with {\sl enumerating geometric figures of some kind having
+specified positions with respect to general fixed figures}.
+That is, counting the solutions to a geometrically meaningful
+system of polynomial equations\index{polynomial equations}.
+We use \Mtwo{}\/ to investigate some enumerative geometric
+problems\index{enumerative problem} from this point of view.
+The problem of enumeration will be solved by computing the
+degree\index{ideal!degree} of the 
+(0-dimensional) ideal generated by the polynomials.
+
+\section{Solving Systems of Polynomials}
+We briefly discuss some aspects of solving systems of polynomial
+equations\index{solving polynomial equations}.
+For a more complete survey, see the relevant chapters
+in~\cite{SO:CCS,SO:CLO92}.
+
+Given an ideal $I$ in a polynomial ring $k[X]$, set 
+${\mathcal V}(I):= {\rm Spec}\,k[X]/I$.
+When $I$ is generated by the polynomials
+$f_1,\ldots,f_N$, ${\mathcal V}(I)$ gives the set of solutions in affine 
+space to the system 
+\begin{equation}\label{eq:system}
+  f_1(X)\ =\ \cdots\ =\ f_N(X)\ =\ 0
+\end{equation}
+a geometric structure.
+These solutions are the {\it roots} of the ideal $I$.
+The degree of a zero-dimensional ideal $I$ provides an algebraic count of
+its roots.
+The degree of its radical counts 
+roots in the algebraic closure, ignoring multiplicities.
+          
+\subsection{Excess Intersection}
+Sometimes, only a proper (open) subset of affine space is 
+geometrically meaningful, and we want to count only the meaningful roots of
+$I$. 
+Often the roots ${\mathcal V}(I)$ has positive dimensional components that lie
+in the complement of the meaningful subset.
+One way to treat this situation of excess or improper intersection is to
+saturate\index{saturation} $I$ by a polynomial $f$ vanishing on the extraneous
+roots. 
+This has the effect of working in $k[X][f^{-1}]$, the coordinate ring of the
+complement of ${\mathcal V}(f)$~\cite[Exer.~2.3]{SO:MR97a:13001}.
+
+\begin{example}\label{ex:two}
+We illustrate this with an example.
+Consider the following ideal in ${\mathbb F}_7[x,y]$.
+%
+\beginOutput
+i9 : R = ZZ/7[y, x, MonomialOrder=>Lex];\\
+\endOutput
+%
+\beginOutput
+i10 : I = ideal (y^3*x^2 + 2*y^2*x + 3*x*y,  3*y^2 + x*y - 3*y);\\
+\emptyLine
+o10 : Ideal of R\\
+\endOutput
+%
+Since the generators have greatest common factor $y$, $I$ defines
+finitely many points together with the line $y=0$.
+Saturate $I$\/ by the variable $y$ to obtain the ideal $J$ of isolated roots. 
+%
+\beginOutput
+i11 : J = saturate(I, ideal(y))\\
+\emptyLine
+\              4    3     2\\
+o11 = ideal (x  + x  + 3x  + 3x, y - 2x - 1)\\
+\emptyLine
+o11 : Ideal of R\\
+\endOutput
+%
+The first polynomial factors completely in ${\mathbb F}_7[x]$,
+%
+\beginOutput
+i12 : factor(J_0)\\
+\emptyLine
+o12 = (x)(x - 2)(x + 2)(x + 1)\\
+\emptyLine
+o12 : Product\\
+\endOutput
+%
+and so the isolated roots of $I$ are $(2,5),(-1,-1),(0,1)$, and $(-2,-3)$. 
+\end{example}
+
+Here, the extraneous roots came from a common factor in both
+equations.
+A less trivial example of this phenomenon will be seen in
+Section~\ref{sec:tangent_lines}. 
+
+\subsection{Elimination, Rationality, and Solving}
+Elimination theory\index{elimination theory} can be used to study the
+roots of a zero-dimensional ideal $I\subset k[X]$\index{solving polynomial
+equations!via elimination}.
+A polynomial $h\in k[X]$ defines a map 
+$k[y]\rightarrow k[X]$ (by $y\mapsto h$) and a corresponding projection 
+$h\colon{\rm Spec}\,k[X]\twoheadrightarrow{\mathbb A}^1$.
+The generator $g(y)\in k[y]$ of the 
+kernel\index{kernel of a ring map} of the map $k[y]\to k[X]/I$ is called an 
+{\it eliminant}\index{eliminant}
+and it has the property that ${\mathcal V}(g)=h({\mathcal V}(I))$.
+When $h$ is a coordinate function $x_i$, we may consider the eliminant to be
+in the polynomial ring $k[x_i]$, and we have 
+$\langle g(x_i)\rangle=I\cap k[x_i]$.
+The most important result concerning eliminants is the Shape
+Lemma\index{Shape Lemma}~\cite{SO:BMMT}. 
+\medskip
+
+\noindent{\bf Shape Lemma.} 
+{\it
+Suppose $h$ is a linear polynomial and $g$ is the corresponding eliminant of
+a zero-dimensional ideal $I\subset k[X]$ with $\deg(I)=\deg(g)$. 
+Then the roots of $I$ are defined in the splitting
+field\index{field!splitting} of $g$ and  
+$I$ is radical\index{ideal!radical} if and only if $g$ is square-free.
+
+Suppose further that $h=x_1$ so that $g=g(x_1)$.
+Then, in the lexicographic term order 
+with $x_1<x_2<\cdots<x_n$, $I$ has a Gr\"obner basis\index{Grobner basis@Gr\"obner basis} of
+the form: 
+%
+\begin{equation}\label{triangular}  
+    g(x_1),\ \ x_2-g_2(x_1), \ \ \ldots,\ \ x_n-g_n(x_1)\,,
+\end{equation}
+%
+where $\deg(g)>\deg(g_i)$ for $i=2,\ldots,n$.
+}\medskip
+
+When $k$ is infinite and $I$ is radical, an eliminant $g$ given by a generic
+linear polynomial $h$ will satisfy $\deg(g)=\deg(I)$.
+Enumerative geometry\index{enumerative geometry} counts solutions
+when the fixed figures are generic.
+We are similarly concerned with the generic situation of 
+$\deg(g)=\deg(I)$.
+In this case, eliminants provide a useful computational device to study
+further questions about the roots of $I$.
+For instance, the Shape Lemma holds for the saturated ideal of Example~\ref{ex:two}.
+Its eliminant, which is the polynomial {\tt J{\char`\_}0}, factors completely 
+over the ground field ${\mathbb F}_7$, so all four solutions are defined
+in ${\mathbb F}_7$.
+In Section 4.3, we will use eliminants in another way, to show that
+an ideal is radical. 
+
+Given a polynomial $h$ in a zero-dimensional ring $k[X]/I$, the
+procedure {\tt eliminant(h, k[y])} finds a linear relation modulo $I$ 
+among the powers $1, h, h^2, \ldots, h^d$ of $h$ with $d$ minimal
+and returns this as a polynomial in $k[y]$.
+This procedure is included in the \Mtwo{}\/ package 
+{\tt realroots.m2}.
+%
+\beginOutput
+i13 : load "realroots.m2"\\
+\endOutput
+%
+\beginOutput
+i14 : code eliminant\\
+\emptyLine
+o14 = -- realroots.m2:65-80\\
+\      eliminant = (h, C) -> (\\
+\           Z := C_0;\\
+\           A := ring h;\\
+\           assert( dim A == 0 );\\
+\           F := coefficientRing A;\\
+\           assert( isField F );\\
+\           assert( F == coefficientRing C );\\
+\           B := basis A;\\
+\           d := numgens source B;\\
+\           M := fold((M, i) -> M || \\
+\                     substitute(contract(B, h^(i+1)), F), \\
+\                     substitute(contract(B, 1_A), F), \\
+\                     flatten subsets(d, d));\\
+\           N := ((ker transpose M)).generators;\\
+\           P := matrix \{toList apply(0..d, i -> Z^i)\} * N;\\
+\                (flatten entries(P))_0)\\
+\endOutput
+%
+Here, {\tt M} is a matrix whose rows are the normal forms of the
+powers  $1$, $h$, $h^2$, $\ldots$, $h^d$ of $h$, for $d$ the degree of the ideal.
+The columns of the kernel {\tt N} of {\tt transpose M} are a basis of the
+linear relations among these powers. 
+The matrix {\tt P} converts these relations into polynomials.
+Since {\tt N} is in column echelon form, the initial entry of {\tt P} 
+is the relation of minimal degree.
+(This method is often faster than na\"\i vely computing the kernel of the
+map $k[Z]\to A$ given by $Z\mapsto h$, which is implemented by
+{\tt  eliminantNaive(h, Z)}.)
+
+Suppose we have an eliminant\index{eliminant} $g(x_1)$ of a zero-dimensional 
+ideal  $I\subset k[X]$ with $\deg(g)=\deg(I)$, and we have computed the
+lexicographic Gr\"obner basis~(\ref{triangular}). 
+Then the roots of $I$ are
+%
+\begin{equation}\label{tri_roots}
+   \{ (\xi_1,g_2(\xi_1), \ldots, g_n(\xi_1))\mid g(\xi_1)=0\}\,.
+\end{equation}
+
+
+Suppose now that $k={\mathbb Q}$ and we seek floating point approximations
+for the (complex) roots of $I$.
+Following this method, we first compute floating point solutions to
+$g(\xi)=0$, which give all the $x_1$-coordinates of the roots of $I$,  and
+then use~(\ref{tri_roots}) to find the other coordinates.
+The difficulty here is that enough precision may be lost in evaluating
+$g_i(\xi_1)$ so that the result is a poor approximation for the other
+components $\xi_i$.
+
+
+\subsection{Solving with Linear Algebra}
+We describe another method based upon numerical linear algebra.
+When $I\subset k[X]$ is zero-dimensional, $A=k[X]/I$ is a finite-dimensional 
+$k$-vector space, and {\it any} Gr\"obner basis for $I$ gives an efficient
+algorithm to compute ring operations using linear algebra.
+In particular, multiplication by $h\in A$ is a linear transformation 
+$m_h:A\to A$ and the command {\tt regularRep(h)} from 
+{\tt realroots.m2} gives the matrix of $m_h$ in
+terms of the standard basis of $A$.
+%
+\beginOutput
+i15 : code regularRep\\
+\emptyLine
+o15 = -- realroots.m2:96-100\\
+\      regularRep = f -> (\\
+\           assert( dim ring f == 0 );\\
+\           b := basis ring f;\\
+\           k := coefficientRing ring f;\\
+\           substitute(contract(transpose b, f*b), k))\\
+\endOutput
+%
+
+Since the action of $A$ on itself is faithful, the minimal polynomial of 
+$m_h$ is the eliminant\index{eliminant} corresponding to $h$.
+The procedure {\tt charPoly(h, Z)} in {\tt realroots.m2}
+computes the characteristic polynomial 
+$\det(Z\cdot\mbox{\it Id} - m_h)$ of $h$.
+%
+\beginOutput
+i16 : code charPoly\\
+\emptyLine
+o16 = -- realroots.m2:106-113\\
+\      charPoly = (h, Z) -> (\\
+\           A := ring h;\\
+\           F := coefficientRing A;\\
+\           S := F[Z];\\
+\           Z  = value Z;     \\
+\           mh := regularRep(h) ** S;\\
+\           Idz := S_0 * id_(S^(numgens source mh));\\
+\           det(Idz - mh))\\
+\endOutput
+%
+When this is the minimal polynomial (the situation of the Shape Lemma),
+this procedure often computes the eliminant faster than does 
+{\tt eliminant}, and for systems of moderate degree, much faster than
+na\"\i vely computing the kernel of the map $k[Z]\to A$ given by $Z\mapsto h$.
+
+The eigenvalues and eigenvectors of $m_h$ give another algorithm for finding
+the roots of $I$\index{solving polynomial equations!via eigenvectors}.
+The engine for this is the following result\index{Stickelberger's Theorem}.
+\medskip
+
+\noindent{\bf Stickelberger's Theorem. }
+{\it
+Let $h\in A$ and $m_h$ be as above.
+Then there is a one-to-one correspondence between eigenvectors
+${\bf v}_\xi$ of $m_h$ and roots $\xi$ of $I$, the eigenvalue of $m_h$ on 
+${\bf v}_\xi$ is the value $h(\xi)$ of $h$ at $\xi$, and the multiplicity
+of this eigenvalue (on the eigenvector ${\bf v}_\xi$) is the
+multiplicity of the root $\xi$.
+}\medskip
+
+Since the linear transformations $m_h$ for $h\in A$ commute, the
+eigenvectors ${\bf v}_\xi$ are common to all $m_h$.
+Thus we may compute the roots of a zero-dimensional ideal $I\subset k[X]$
+by first computing floating-point approximations to the
+eigenvectors ${\bf v}_\xi$ of $m_{x_1}$.
+Then the root $\xi\ =\ (\xi_1,\ldots,\xi_n)$ of $I$ corresponding to the
+eigenvector ${\bf v}_\xi$ has $i$th coordinate satisfying
+%
+\begin{equation}\label{eigenv}
+   m_{x_i}\cdot {\bf v}_\xi\ =\ \xi_i \cdot {\bf v}_\xi\,.
+\end{equation}
+%
+An advantage of this method is that we may use structured numerical linear
+algebra after the matrices $m_{x_i}$ are precomputed using exact arithmetic. 
+(These matrices are typically sparse and have additional structures which may
+be exploited.)
+Also, the coordinates $\xi_i$ are {\it linear} functions of the floating
+point entries of ${\bf v}_\xi$, which affords greater precision than 
+the non-linear evaluations $g_i(\xi_1)$ in the method based upon elimination.
+While in principle only one of the $\deg(I)$ components of the vectors
+in~(\ref{eigenv}) need be computed, averaging the results from all
+components can improve precision.
+
+
+\subsection{Real Roots}
+Determining the real roots of a polynomial system is a challenging problem
+with real world applications\index{solving polynomial equations!real solutions}.
+When the polynomials come from geometry, this is the main problem of
+real enumerative geometry\index{enumerative geometry!real}.
+Suppose $k\subset{\mathbb R}$ and $I\subset k[X]$ is zero-dimensional.
+If $g$ is an eliminant of $k[X]/I$ 
+with $\deg(g)=\deg(I)$, then the real roots of
+$g$ are in 1-1 correspondence with the real roots of $I$.
+Since there are effective methods for counting the real roots of a univariate
+polynomial, eliminants give a na\"\i ve, but useful method for determining the
+number of real roots to a polynomial system.
+(For some applications of this technique in mathematics,
+see~\cite{SO:RS98,SO:So_shap-www,SO:So00b}.) 
+
+The classical symbolic method of Sturm, based upon Sturm sequences,  counts
+the number of  real roots of a univariate polynomial in an interval.
+When applied to an eliminant satisfying the Shape Lemma, this method counts
+the number of real roots of the ideal.
+This is implemented in \Mtwo{}\/ via the command
+{\tt SturmSequence(f)} of {\tt realroots.m2}
+%
+\beginOutput
+i17 : code SturmSequence\\
+\emptyLine
+o17 = -- realroots.m2:117-131\\
+\      SturmSequence = f -> (\\
+\           assert( isPolynomialRing ring f );\\
+\           assert( numgens ring f === 1 );\\
+\           R := ring f;\\
+\           assert( char R == 0 );\\
+\           x := R_0;\\
+\           n := first degree f;\\
+\           c := new MutableList from toList (0 .. n);\\
+\           if n >= 0 then (\\
+\                c#0 = f;\\
+\                if n >= 1 then (\\
+\                     c#1 = diff(x,f);\\
+\                     scan(2 .. n, i -> c#i = - c#(i-2) {\char`\%} c#(i-1));\\
+\                     ));\\
+\           toList c)\\
+\endOutput
+%
+The last few lines of {\tt SturmSequence} construct the Sturm
+sequence\index{Sturm sequence} of the univariate argument $f$:
+This is $(f_0, f_1, f_2,\ldots)$ where $f_0=f$, $f_1=f'$, and 
+for $i>1$, $f_i$ is the normal form reduction of $-f_{i-2}$ modulo
+$f_{i-1}$.
+Given any real number $x$, the {\it variation} of $f$ at $x$ is the number of
+changes in sign of the sequence $(f_0(x), f_1(x), f_2(x),\ldots)$ obtained by
+evaluating the Sturm sequence of $f$ at $x$.
+Then the number of real roots of $f$ over an interval $[x,y]$ is the
+difference of the variation of $f$ at $x$ and at $y$.
+
+The \Mtwo{}\/ commands  {\tt numRealSturm} and 
+{\tt numPosRoots} (and also {\tt numNegRoots}) use this method to respectively
+compute the total number of real roots and the number of positive roots of 
+a univariate polynomial. 
+%
+\beginOutput
+i18 : code numRealSturm\\
+\emptyLine
+o18 = -- realroots.m2:160-163\\
+\      numRealSturm = f -> (\\
+\           c := SturmSequence f;\\
+\           variations (signAtMinusInfinity {\char`\\} c) \\
+\               - variations (signAtInfinity {\char`\\} c))\\
+\endOutput
+%
+\beginOutput
+i19 : code numPosRoots\\
+\emptyLine
+o19 = -- realroots.m2:168-171\\
+\      numPosRoots = f -> (  \\
+\           c := SturmSequence f;\\
+\           variations (signAtZero {\char`\\} c) \\
+\               - variations (signAtInfinity {\char`\\} c))\\
+\endOutput
+%
+These use the commands {\tt signAt}$*${\tt (f)}, which 
+give the sign of ${\tt f}$
+at $*$.
+(Here, $*$ is one of  {\tt Infinity}, {\tt zero}, or {\tt MinusInfinity}.)
+Also {\tt variations(c)} computes the 
+number of sign changes in the sequence {\tt c}.
+%
+\beginOutput
+i20 : code variations\\
+\emptyLine
+o20 = -- realroots.m2:183-191\\
+\      variations = c -> (\\
+\           n := 0;\\
+\           last := 0;\\
+\           scan(c, x -> if x != 0 then (\\
+\                     if last < 0 and x > 0 or last > 0 \\
+\                        and x < 0 then n = n+1;\\
+\                     last = x;\\
+\                     ));\\
+\           n)\\
+\endOutput
+%
+
+
+A more sophisticated method to compute the number of real roots which can also
+give information about their location uses the rank and
+signature\index{bilinear form!signature} of the
+symmetric trace form. 
+Suppose $I\subset k[X]$ is a zero-dimensional ideal and 
+set $A:=k[X]/I$.
+For $h\in k[X]$, set $S_h(f,g):={\rm trace}(m_{hfg})$.
+It is an easy exercise that $S_h$ is a symmetric bilinear form\index{bilinear
+form!symmetric} on $A$.
+The procedure {\tt traceForm(h)} in {\tt realroots.m2}
+computes this trace form\index{trace form} $S_h$.
+%
+\beginOutput
+i21 : code traceForm\\
+\emptyLine
+o21 = -- realroots.m2:196-203\\
+\      traceForm = h -> (\\
+\           assert( dim ring h == 0 );\\
+\           b  := basis ring h;\\
+\           k  := coefficientRing ring h;\\
+\           mm := substitute(contract(transpose b, h * b ** b), k);\\
+\           tr := matrix \{apply(first entries b, x ->\\
+\                     trace regularRep x)\};\\
+\           adjoint(tr * mm, source tr, source tr))\\
+\endOutput
+%
+The value of this construction is the following theorem.
+
+\begin{theorem}[\cite{SO:BW,SO:PRS}]\label{t:PRS}
+Suppose $k\subset{\mathbb R}$ and $I$ is a zero-dimensional ideal in
+$k[x_1,\ldots,x_n]$ and consider ${\mathcal V}(I)\subset {\mathbb C}^n$. 
+Then, for $h\in k[x_1,\ldots,x_n]$, the signature $\sigma(S_h)$ and rank 
+$\rho(S_h)$ of the bilinear form $S_h$ satisfy
+\begin{eqnarray*}
+\sigma(S_h)&=&\#\{a\in{\mathcal V}(I)\cap{\mathbb R}^n:h(a)>0\}
+            - \#\{a\in{\mathcal V}(I)\cap{\mathbb R}^n:h(a)<0\}\,\\
+\rho(S_h)&=&\#\{a\in{\mathcal V}(I):h(a)\neq0\}\,.
+\end{eqnarray*}
+\end{theorem}
+
+That is, the rank of $S_h$ counts roots in 
+${\mathbb C}^n-{\mathcal V}(h)$, and its signature counts the real roots
+weighted by the sign of $h$ (which is $-1$, $0$, or $1$) at each root.
+The command {\tt traceFormSignature(h)} in {\tt realroots.m2} returns the
+rank and  signature of the trace form $S_h$.
+%
+\beginOutput
+i22 : code traceFormSignature\\
+\emptyLine
+o22 = -- realroots.m2:208-218\\
+\      traceFormSignature = h -> (\\
+\           A := ring h;\\
+\           assert( dim A == 0 );\\
+\           assert( char A == 0 );\\
+\           S := QQ[Z];\\
+\           TrF := traceForm(h) ** S;\\
+\           IdZ := Z * id_(S^(numgens source TrF));\\
+\           f := det(TrF - IdZ);\\
+\           << "The trace form S_h with h = " << h << \\
+\             " has rank " << rank(TrF) << " and signature " << \\
+\             numPosRoots(f) - numNegRoots(f) << endl; )\\
+\endOutput
+%
+The \Mtwo{}\/ command {\tt numRealTrace(A)} simply returns the number of
+real roots of $I$, given ${\tt A}=k[X]/I$.  
+%
+\beginOutput
+i23 : code numRealTrace\\
+\emptyLine
+o23 = -- realroots.m2:223-230\\
+\      numRealTrace = A -> (\\
+\           assert( dim A == 0 );\\
+\           assert( char A == 0 );\\
+\           S := QQ[Z];\\
+\           TrF := traceForm(1_A) ** S;\\
+\           IdZ := Z * id_(S^(numgens source TrF));\\
+\           f := det(TrF - IdZ);\\
+\           numPosRoots(f)-numNegRoots(f))\\
+\endOutput
+%
+
+\begin{example}
+We illustrate these methods on the following polynomial system.
+%
+\beginOutput
+i24 : R = QQ[x, y];\\
+\endOutput
+%
+\beginOutput
+i25 : I = ideal (1 - x^2*y + 2*x*y^2,  y - 2*x - x*y + x^2);\\
+\emptyLine
+o25 : Ideal of R\\
+\endOutput
+%
+The ideal $I$ has dimension zero and degree 5.
+%
+\beginOutput
+i26 : dim I, degree I\\
+\emptyLine
+o26 = (0, 5)\\
+\emptyLine
+o26 : Sequence\\
+\endOutput
+%
+We compare the two methods to compute the eliminant of $x$ in 
+the ring $R/I$.
+%
+\beginOutput
+i27 : A = R/I;\\
+\endOutput
+%
+\beginOutput
+i28 : time g = eliminant(x, QQ[Z])\\
+\     -- used 0.09 seconds\\
+\emptyLine
+\       5     4     3    2\\
+o28 = Z  - 5Z  + 6Z  + Z  - 2Z + 1\\
+\emptyLine
+o28 : QQ [Z]\\
+\endOutput
+%
+\beginOutput
+i29 : time g = charPoly(x, Z)\\
+\     -- used 0.02 seconds\\
+\emptyLine
+\       5     4     3    2\\
+o29 = Z  - 5Z  + 6Z  + Z  - 2Z + 1\\
+\emptyLine
+o29 : QQ [Z]\\
+\endOutput
+%
+The eliminant has 3 real roots, which we test in two different ways.
+%
+\beginOutput
+i30 : numRealSturm(g), numRealTrace(A)\\
+\emptyLine
+o30 = (3, 3)\\
+\emptyLine
+o30 : Sequence\\
+\endOutput
+%
+We use Theorem~\ref{t:PRS} to isolate these roots in the $x,y$-plane.
+%
+\beginOutput
+i31 : traceFormSignature(x*y);\\
+The trace form S_h with h = x*y has rank 5 and signature 3\\
+\endOutput
+%
+Thus all 3 real roots lie in the first and third
+quadrants (where $xy>0$).
+We isolate these further.
+%
+\beginOutput
+i32 : traceFormSignature(x - 2);\\
+The trace form S_h with h = x - 2 has rank 5 and signature 1\\
+\endOutput
+%
+This shows that two roots lie in the first quadrant with $x>2$ and one lies
+in the third.
+Finally, one of the roots lies in the triangle $y>0$, $x>2$, and $x+y<3$.
+%
+\beginOutput
+i33 : traceFormSignature(x + y - 3);\\
+The trace form S_h with h = x + y - 3 has rank 5 and signature -1\\
+\endOutput
+
+Figure~\ref{fig:roots} shows these three roots (dots), as well as the
+lines $x+y=3$ and $x=2$.
+\begin{figure}
+$$
+  %  40 pt = 1 unit
+  %  
+  %
+  \setlength{\unitlength}{0.8pt}
+  \begin{picture}(220,110)(-60,-50)
+  % y - axis
+   \put(0,-50){\vector(0,1){110}} \put(0,0){\vector(0,-1){50}}
+   \put(-11,47){$y$}
+   \put(-5,-40){\line(1,0){10}} \put(6,-42.8){$-1$}
+   \put(-5,40){\line(1,0){10}}  \put(6, 36.5){$1$}
+  % \put(-5,80){\line(1,0){10}}  \put(6, 77){$2$}
+  % x - axis
+   \put(-60,0){\vector(1,0){220}} \put(0,0){\vector(-1,0){60}}
+   \put(-40,-5){\line(0,1){10}} \put(-50,-15){$-1$}
+   \put(40,-5){\line(0,1){10}}  \put(37.5,-15){$1$}
+   \put(120,-5){\line(0,1){10}} \put(117,-15){$3$}
+   \put(-51,5){$x$}
+  
+  \thicklines
+  \put(80,-50){\line(0,1){110}}  \put(85,-35){$x=2$}
+  \put(160,-40){\line(-1,1){100}}%\put(15,50){$x+y=3$}
+  \put(100,25){$x+y=3$}
+  
+  \put(-26.2, -42.1){\circle*{2}}
+  \put(86.3, 11.8){\circle*{2}}
+  \put(112.8, 50.8){\circle*{2}}
+  \end{picture}
+$$
+\caption{Location of roots\label{fig:roots}}
+\end{figure}
+\end{example}
+
+
+\subsection{Homotopy Methods}
+We describe symbolic-numeric 
+{\it homotopy continuation methods}\index{homotopy continuation} 
+for finding approximate complex solutions to a system of
+equations\index{solving polynomial equations!via numerical homotopy}.
+These exploit the traditional principles of conservation of number and 
+specialization from enumerative geometry\index{enumerative geometry}.
+
+Suppose we seek the isolated solutions of a system $F(X)=0$
+where $F=(f_1,\ldots,f_n)$ are polynomials in the variables
+$X=(x_1,\ldots,x_N)$.
+First, a {\em homotopy} $H(X,t)$ is found with the following properties:
+\begin{enumerate}
+  \item $H(X,1)= F(X)$. 
+  \item The isolated solutions of the {\it start system} $H(X,0)=0$ are known.
+  \item The system $H(X,t)=0$ defines finitely many (complex) curves, 
+        and each isolated solution of the original system $F(X)=0$ is
+        connected to an isolated solution $\sigma_i(0)$ of $H(X,0)=0$ along
+        one of these curves. 
+\end{enumerate}
+Next, choose a generic smooth path $\gamma(t)$ from 0 to 1 in the complex
+plane.
+Lifting $\gamma$ to the curves $H(X,t)=0$ gives 
+smooth paths $\sigma_i(t)$ connecting each solution
+$\sigma_i(0)$ of the start system to a solution of the original system.
+The path $\gamma$ must avoid the finitely many points in ${\mathbb C}$ over
+which the curves are singular or meet other components of the solution set
+$H(X,t)=0$.
+
+Numerical path continuation is used to trace each path
+$\sigma_i(t)$ from $t=0$ to $t=1$.
+When there are fewer solutions to $F(X)=0$ than to 
+$H(X,0)=0$, some paths will diverge or become singular as
+$t\rightarrow 1$, and it is expensive to trace such a path.
+The homotopy is {\it optimal}\index{homotopy!optimal} when this does not
+occur. 
+
+When $N=n$ and the $f_i$ are generic, set
+$G(X):=(g_1,\ldots,g_n)$ with $g_i=(x_i-1)(x_i-2)\cdots(x_i-d_i)$
+where $d_i:=\deg(f_i)$.
+Then the {\it B\'ezout homotopy}\index{homotopy!B\'ezout} 
+$$
+  H(X,t)\quad :=\quad tF(X)\ +\ 
+  (1-t)G(X)
+$$
+is optimal.
+This homotopy furnishes an effective demonstration of
+the bound in B\'ezout's Theorem\index{Bezout's Theorem@B\'ezout's Theorem} for the number of
+solutions to $F(X)=0$.
+
+When the polynomial system is deficient, the B\'ezout homotopy is not optimal.
+When $n>N$ (often the case in geometric examples), 
+the B\'ezout homotopy  does not apply.
+In either case, a different strategy is needed.
+Present optimal homotopies for such systems all exploit some structure of
+the systems they are designed to solve.
+The current state-of-the-art is described in~\cite{SO:Ver99}.
+
+\begin{example}\label{example:Groebner}
+The Gr\"obner homotopy\index{homotopy!Gr\"obner}~\cite{SO:HSS} is an optimal 
+homotopy\index{homotopy!optimal} that exploits a square-free initial
+ideal\index{initial ideal!square-free}.
+Suppose our system has the form
+$$
+  F\ :=\ g_1(X),\ldots,g_m(X),\ \Lambda_1(X),\ldots,\Lambda_d(X)
+$$
+where $g_1(X),\ldots,g_m(X)$ form a Gr\"obner basis for an ideal $I$ 
+with respect to a given term order $\prec$, $\Lambda_1,\ldots,\Lambda_d$ are
+linear forms with $d=\dim({\mathcal V}(I))$, {\it and}\/ we assume that 
+the initial ideal ${\rm in}_\prec I$ is square-free.
+This last, restrictive, hypothesis occurs for
+certain determinantal varieties\index{determinantal variety}.
+
+As in~\cite[Chapter 15]{SO:MR97a:13001}, there exist polynomials
+$g_i(X,t)$ interpolating between $g_i(X)$ and their initial terms
+${\rm in}_\prec g_i(X)$
+$$
+  g_i(X;1)\ =\ g_i(X) \qquad\mbox{and}\qquad
+  g_i(X;0) \ =\ {\rm in}_\prec g_i(X)
+$$
+so that $\langle g_1(X,t),\ldots,g_m(X,t)\rangle$ is a flat family
+with generic fibre isomorphic to $I$ and special fibre 
+${\rm in}_\prec I$.
+The {\it Gr\"obner homotopy} is
+$$
+  H(X,t)\ :=\ 
+  g_1(X,t),\ldots,g_m(X,t),\ \Lambda_1(X),\ldots,\Lambda_d(X).
+$$
+Since ${\rm in}_\prec I$ is square-free, 
+${\mathcal V}({\rm in}_\prec I)$ is a union of 
+$\deg(I)$-many coordinate $d$-planes.
+We solve the start system by linear algebra.
+This conceptually simple homotopy is in general not
+efficient as it is typically overdetermined.
+\end{example}
+
+\section{Some Enumerative Geometry}\label{sec:enumerative}
+
+We use the tools we have developed to explore the enumerative geometric
+problems of cylinders meeting 5 general points and lines tangent to
+4 spheres\index{enumerative geometry}\index{enumerative problem}. 
+
+\subsection{Cylinders Meeting 5 Points}\label{sec:cylinder}
+A {\it cylinder}\index{cylinder} is the locus of points equidistant from a
+fixed line in ${\mathbb R}^3$. 
+The Grassmannian\index{Grassmannian} of lines in 3-space is 4-dimensional,
+which implies that 
+the space of cylinders is 5-dimensional, and so we expect that 5 points in  
+${\mathbb R}^3$ will determine finitely many cylinders.
+That is, there should be finitely many lines equidistant from 5 general points.
+The question is: How many cylinders/lines, and how many of them can be real?
+
+Bottema and Veldkamp~\cite{SO:BV77}
+show there are 6 {\it complex} cylinders 
+and Lichtblau~\cite{SO:Li00} observes that if the 5
+points are the vertices of 
+a bipyramid consisting of 2 regular tetrahedra sharing a common face, then
+all 6 will be real.
+We check this reality on a configuration with less symmetry (so the Shape
+Lemma holds).
+
+If the axial line has direction ${\bf V}$ and contains the point ${\bf P}$
+(and hence has parameterization ${\bf P}+t{\bf V}$), and if $r$ is the squared
+radius, then the cylinder\index{cylinder} is the set of points ${\bf X}$
+satisfying 
+$$
+  0 \ =\ r - 
+  \left\| {\bf X} - {\bf P} - \frac{{\bf V}\cdot({\bf X} - {\bf P})}%
+     {\|{\bf V}\|^2}\,{\bf V} \right\|^2\ .
+$$
+Expanding and clearing the denominator of $\|{\bf V}\|^2$ yields
+%
+\begin{equation}\label{eq:cylinder}
+  0 \ =\ r \|{\bf V}\|^2 + 
+         [{\bf V}\cdot({\bf X} - {\bf P})]^2 - 
+        \|{\bf X} - {\bf P}\|^2\, \|{\bf V}\|^2\,.
+\end{equation}
+%
+We consider cylinders containing the following 5 points, which form an
+asymmetric bipyramid.
+%
+\beginOutput
+i34 : Points = \{\{2, 2,  0 \}, \{1, -2,  0\}, \{-3, 0, 0\}, \\
+\                \{0, 0, 5/2\}, \{0,  0, -3\}\};\\
+\endOutput
+%
+Suppose that ${\bf P}=(0,y_{11},y_{12})$ and ${\bf V}=(1,y_{21},y_{22})$.
+%
+\beginOutput
+i35 : R = QQ[r, y11, y12, y21, y22];\\
+\endOutput
+%
+\beginOutput
+i36 : P = matrix\{\{0, y11, y12\}\};\\
+\emptyLine
+\              1       3\\
+o36 : Matrix R  <--- R\\
+\endOutput
+%
+\beginOutput
+i37 : V = matrix\{\{1, y21, y22\}\};\\
+\emptyLine
+\              1       3\\
+o37 : Matrix R  <--- R\\
+\endOutput
+%
+We construct the ideal given by evaluating the
+polynomial~(\ref{eq:cylinder}) at each of the five points.
+%
+\beginOutput
+i38 : Points = matrix Points ** R;\\
+\emptyLine
+\              5       3\\
+o38 : Matrix R  <--- R\\
+\endOutput
+%
+%
+\beginOutput
+i39 : I = ideal apply(0..4, i -> (\\
+\                X := Points^\{i\};\\
+\                r * (V * transpose V)  +\\
+\                 ((X - P) * transpose V)^2) -\\
+\                 ((X - P) * transpose(X - P)) * (V * transpose V)\\
+\                );\\
+\emptyLine
+o39 : Ideal of R\\
+\endOutput
+%
+This ideal has dimension 0 and degree 6.
+%
+\beginOutput
+i40 : dim I, degree I\\
+\emptyLine
+o40 = (0, 6)\\
+\emptyLine
+o40 : Sequence\\
+\endOutput
+%
+There are 6 real roots, and they correspond to real cylinders (with $r>0$).
+%
+\beginOutput
+i41 : A = R/I; numPosRoots(charPoly(r, Z))\\
+\emptyLine
+o42 = 6\\
+\endOutput
+%
+
+\subsection{Lines Tangent to 4 Spheres}\label{sec:12lines}
+We now ask for the lines having a fixed distance from 4 general points.
+Equivalently, these are the lines mutually tangent to 4 spheres\index{sphere} of equal radius.
+Since the Grassmannian\index{Grassmannian} of lines is four-dimensional, we
+expect there to be only finitely many such lines.
+Macdonald, Pach, and Theobald~\cite{SO:MPT00} show that there
+are indeed 12 lines, and that all 12 may be real.
+This problem makes geometric sense over any field $k$ not of characteristic
+2, and the derivation of the number 12 is also valid for algebraically
+closed\index{field!algebraically closed} 
+fields not of characteristic 2.
+
+A sphere in $k^3$ is given by ${\mathcal V}(q(1,{\bf x}))$, where 
+$q$ is some quadratic form\index{quadratic form} on $k^4$. 
+Here ${\bf x}\in k^3$ and we note that not all quadratic forms give spheres.
+If our field does not have characteristic 2, then there 
+is a symmetric $4\times 4$ matrix $M$ such that 
+$q({\bf u})={\bf u}M{\bf u}^t$.
+
+A line $\ell$ having direction ${\bf V}$ and containing the point ${\bf P}$ 
+is tangent to the sphere defined by $q$ when the univariate polynomial in $s$ 
+$$
+  q( (1,{\bf P})+s(0,{\bf V}) )\ =\ 
+  q(1,{\bf P}) + 2s (1,{\bf P})M (0,{\bf V})^t + s^2q(0,{\bf V})\,,
+$$
+has a double root.
+Thus its discriminant\index{discriminant} vanishes, giving the equation
+%
+\begin{equation}\label{eq:sphere}
+  \left( (1,{\bf P})M(0,{\bf V})^t\right)^2 \ -\ 
+   (1,{\bf P})M (1,{\bf P})^t\cdot(0,{\bf V})M (0,{\bf V})^t 
+     \ =\ 0\,.
+\end{equation}
+%
+
+The matrix $M$ of the quadratic form $q$ of the sphere with
+center $(a,b,c)$ and squared radius $r$ is constructed by 
+{\tt Sphere(a,b,c,r)}.
+%
+\beginOutput
+i43 : Sphere = (a, b, c, r) -> (\\
+\              matrix\{\{a^2 + b^2 + c^2 - r ,-a ,-b ,-c \},\\
+\                     \{         -a         , 1 , 0 , 0 \},\\
+\                     \{         -b         , 0 , 1 , 0 \},\\
+\                     \{         -c         , 0 , 0 , 1 \}\}\\
+\              );\\
+\endOutput
+%
+If a line $\ell$ contains the point ${\bf P}=(0,y_{11},y_{12})$ 
+and $\ell$ has direction ${\bf V} = (1,y_{21},y_{22})$, then 
+{\tt tangentTo(M)} is the equation for $\ell$ to be tangent to the 
+quadric $uMu^T=0$ determined by the matrix $M$.
+%
+\beginOutput
+i44 : R = QQ[y11, y12, y21, y22];\\
+\endOutput
+%
+\beginOutput
+i45 : tangentTo = (M) -> (\\
+\           P := matrix\{\{1, 0, y11, y12\}\};\\
+\           V := matrix\{\{0, 1, y21, y22\}\};\\
+\           (P * M * transpose V)^2 - \\
+\             (P * M * transpose P) * (V * M * transpose V)\\
+\           );\\
+\endOutput
+The ideal of lines having distance $\sqrt{5}$ from the four points
+$(0,0,0)$, $(4,1,1)$, $(1,4,1)$, and $(1,1,4)$ has dimension zero and degree 12.
+%
+\beginOutput
+i46 : I = ideal (tangentTo(Sphere(0,0,0,5)), \\
+\                 tangentTo(Sphere(4,1,1,5)), \\
+\                 tangentTo(Sphere(1,4,1,5)), \\
+\                 tangentTo(Sphere(1,1,4,5)));\\
+\emptyLine
+o46 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i47 : dim I, degree I\\
+\emptyLine
+o47 = (0, 12)\\
+\emptyLine
+o47 : Sequence\\
+\endOutput
+%
+Thus there are 12 lines whose distance from those 4 points is $\sqrt{5}$.
+We check that all 12 are real.
+%
+\beginOutput
+i48 : A = R/I;\\
+\endOutput
+%
+\beginOutput
+i49 : numRealSturm(eliminant(y11 - y12 + y21 + y22, QQ[Z]))\\
+\emptyLine
+o49 = 12\\
+\endOutput
+%
+Since no eliminant\index{eliminant} given by a coordinate function satisfies
+the hypotheses of the Shape Lemma, 
+we took the eliminant with respect to the linear form
+$y_{11} - y_{12} + y_{21} + y_{22}$.
+
+This example is an instance of Lemma~3 of~\cite{SO:MPT00}.
+These four points define a regular tetrahedron with volume
+$V=9$ where each face has area $A=\sqrt{3^5}/2$ and each edge has length
+$e=\sqrt{18}$.
+That result guarantees that all 12 lines will be real when 
+$e/2<r<A^2/3V$, which is the case above.
+
+
+\section{Schubert Calculus}
+The classical Schubert calculus\index{Schubert calculus} of enumerative
+geometry\index{enumerative geometry} concerns linear subspaces having
+specified positions with respect to other, fixed subspaces. 
+For instance, how many lines in ${\mathbb P}^3$ meet four given
+lines? (See Example~\ref{ex:G22}.) 
+More generally, let $1<r<n$ and suppose that we are given general linear
+subspaces $L_1,\ldots,L_m$ of $k^n$ with $\dim L_i=n-r+1-l_i$.
+When $l_1+\cdots+l_m=r(n-r)$, there will be a finite number
+$d(r,n;l_1,\ldots,l_m)$ of $r$-planes in
+$k^n$ which meet each $L_i$ non-trivially. 
+This number may be computed using classical algorithms of Schubert and Pieri
+(see~\cite{SO:MR48:2152}).
+
+
+The condition on $r$-planes to meet a fixed $(n{-}r{+}1{-}l)$-plane
+non-trivially is called a {\it (special) Schubert condition}, and we call 
+the data $(r,n;l_1,\ldots,l_m)$ {\it (special) Schubert data}.
+The {\it (special) Schubert calculus} concerns this class of enumerative
+problems\index{Schubert calculus}\index{enumerative problem}.
+We give two polynomial formulations of this special Schubert calculus,
+consider their solutions over ${\mathbb R}$, and end with a question for
+fields of arbitrary characteristic.
+
+\subsection{Equations for the Grassmannian}\label{sec:grass}
+The ambient space for the Schubert calculus is the
+Grassmannian\index{Grassmannian}  
+of $r$-planes in $k^n$, denoted ${\bf G}_{r,n}$.
+For $H\in{\bf G}_{r,n}$, the $r$th exterior product of the embedding 
+$H \rightarrow k^n$ gives a line
+$$
+  k\ \simeq\ \wedge^r H\ \longrightarrow\ \wedge^r k^{n}\ \simeq\ 
+  k^{\binom{n}{r}}\,.
+$$
+This induces the Pl\"ucker embedding\index{Plucker embedding@Pl\"ucker embedding}  
+${\bf G}_{r,n}\hookrightarrow{\mathbb P}^{\binom{n}{r}-1}$.
+If $H$ is the row space of an $r$ by $n$ matrix, also written $H$, then the 
+Pl\"ucker embedding sends $H$ to its vector of $\binom{n}{r}$ maximal
+minors.
+Thus the $r$-subsets of $\{0,\ldots,n{-}1\}$, 
+${\mathbb Y}_{r,n}:={\tt subsets(n,r)}$,  
+index Pl\"ucker coordinates\index{Plucker coordinate@Pl\"ucker coordinate} of ${\bf G}_{r,n}$.
+The Pl\"ucker ideal\index{Plucker ideal@Pl\"ucker ideal} of ${\bf G}_{r,n}$ is therefore the
+ideal of algebraic relations among the maximal minors of a generic $r$ by $n$
+matrix. 
+
+We create the coordinate ring 
+$k[p_\alpha\mid\alpha\in{\mathbb Y}_{2,5}]$ of ${\mathbb P}^9$ and the
+Pl\"ucker ideal of ${\bf G}_{2,5}$.
+The Grassmannian ${\bf G}_{r,n}$ of $r$-dimensional subspaces of $k^n$ is also
+the Grassmannian of $r{-}1$-dimensional affine subspaces of 
+${\mathbb P}^{n-1}$.
+\Mtwo{} uses this alternative indexing scheme.
+%
+\beginOutput
+i50 : R = ZZ/101[apply(subsets(5,2), i -> p_i )];\\
+\endOutput
+%
+\beginOutput
+i51 : I = Grassmannian(1, 4, R)\\
+\emptyLine
+o51 = ideal (p      p       - p      p       + p      p      , p       $\cdot\cdot\cdot$\\
+\              \{2, 3\} \{1, 4\}    \{1, 3\} \{2, 4\}    \{1, 2\} \{3, 4\}   \{2, 3\} $\cdot\cdot\cdot$\\
+\emptyLine
+o51 : Ideal of R\\
+\endOutput
+%
+This projective variety has dimension 6 and degree 5
+%
+\beginOutput
+i52 : dim(Proj(R/I)), degree(I)\\
+\emptyLine
+o52 = (6, 5)\\
+\emptyLine
+o52 : Sequence\\
+\endOutput
+%
+
+This ideal has an important combinatorial 
+structure~\cite[Example 11.9]{SO:Sturmfels_GBCP}. 
+We write each $\alpha\in{\mathbb Y}_{r,n}$ as an increasing
+sequence $\alpha\colon\alpha_1<\cdots<\alpha_r$. 
+Given $\alpha,\beta\in{\mathbb Y}_{r,n}$, consider the 
+two-rowed array with $\alpha$ written above $\beta$.
+We say $\alpha\leq \beta$ if each column weakly increases.
+If we sort the columns of an array with rows $\alpha$ and
+$\beta$, then the first row is the {\it meet} $\alpha\wedge\beta$ 
+(greatest lower bound) and the
+second row the {\it join} $\alpha\vee\beta$ (least upper bound) of $\alpha$
+and $\beta$. 
+These definitions endow ${\mathbb Y}_{r,n}$ with the structure of a
+distributive lattice.
+Figure~\ref{fig2} shows ${\mathbb Y}_{2,5}$.
+\begin{figure}
+$$
+ \epsfysize=1.8in \epsfbox{Y25.eps}
+$$\caption{${\mathbb Y}_{2,5}$\label{fig2}}
+\end{figure}
+
+We give $k[p_\alpha]$ the degree reverse
+lexicographic order, where we first order the variables $p_\alpha$ by
+lexicographic order on their indices $\alpha$.
+
+\begin{theorem}\label{PluckerIdeal}
+The reduced Gr\"obner basis\index{Grobner basis@Gr\"obner basis!reduced} of the Pl\"ucker
+ideal with respect to this degree 
+reverse lexicographic term order consists of quadratic
+polynomials 
+$$
+  g(\alpha,\beta)\quad=\quad
+  p_\alpha\cdot p_\beta \ -\  p_{\alpha\vee\beta}\cdot p_{\alpha\wedge\beta} 
+  \ +\ \hbox{lower terms in $\prec$}\,,
+$$
+for each incomparable pair $\alpha,\beta$ in
+${\mathbb Y}_{r,n}$,
+and all lower terms $\lambda p_\gamma\cdot p_\delta$ in $g(\alpha,\beta)$
+satisfy $\gamma\leq \alpha\wedge\beta$ and $\alpha\vee\beta\leq \delta$.
+\end{theorem}
+
+The form of this Gr\"obner basis implies that the standard monomials are 
+the sortable monomials, those $p_\alpha p_\beta\cdots p_\gamma$ with 
+$\alpha\leq\beta\leq\cdots\leq\gamma$.
+Thus the Hilbert function\index{Hilbert function} of ${\bf G}_{r,n}$ may be
+expressed in terms of the combinatorics of ${\mathbb Y}_{r,n}$.
+For instance, the dimension of ${\bf G}_{r,n}$ is the rank of 
+${\mathbb Y}_{r,n}$, and its degree is the number of maximal chains.
+From Figure~\ref{fig2}, these are 6 and 5 for ${\mathbb Y}_{2,5}$,
+confirming our previous calculations.
+
+Since the generators $g(\alpha,\beta)$ are linearly independent, this
+Gr\"obner basis is also a minimal generating set for the ideal.
+The displayed generator in {\tt o51}, 
+$$
+  p_{\{2,3\}}p_{\{1,4\}}\ -\ p_{\{1,3\}}p_{\{2,4\}}\ -\
+  p_{\{1,2\}}p_{\{3,4\}}\ ,
+$$
+is $g(23, 14)$, and corresponds to the underlined incomparable pair in
+Figure~\ref{fig2}. 
+Since there are 5 such incomparable pairs, the Gr\"obner basis has 5
+generators.
+As ${\bf G}_{2,5}$ has codimension 3, it is not a complete
+intersection\index{Grassmannian!not a complete intersection}\index{complete intersection}. 
+This shows how the general enumerative problem from the Schubert calculus
+gives rise to an overdetermined system of equations\index{polynomial
+equations!overdetermined} in this global 
+formulation. 
+\medskip
+
+The Grassmannian\index{Grassmannian!local coordinates} has a useful system of
+local coordinates given by ${\rm Mat}_{r,n-r}$ as follows
+%
+\begin{equation}\label{eq:local}
+  Y\ \in {\rm Mat}_{r,n-r}\ \longmapsto\ 
+  {\rm row space}\ [ I_r : Y ]\ \in\ {\bf G}_{r,n}\,.
+\end{equation}
+%
+
+Let $L$ be a ($n-r+1-l$)-plane in $k^n$ which is the row space of
+a $n-r+1-l$ by $n$ matrix, also written $L$.
+Then $L$ meets $X\in{\bf G}_{r,n}$ non-trivially if
+$$
+  \mbox{maximal minors of }\ 
+  \left[\begin{array}{c}L\\X\end{array}\right]\ =\ 0\,.
+$$
+Laplace expansion of each minor along the rows of $X$ gives a linear
+equation in the Pl\"ucker coordinates.
+In the local coordinates (substituting $[I_r:Y]$ for $X$), we obtain
+multilinear equations of degree $\min\{r,n-r\}$.
+These equations generate a prime ideal of codimension $l$.
+
+Suppose each $l_i=1$ in our enumerative problem.
+Then in the Pl\"ucker coordinates, we have the Pl\"ucker ideal of 
+${\bf G}_{r,n}$
+together with $r(n-r)$ linear equations, one for each
+$(n{-}r)$-plane $L_i$.
+By Theorem~\ref{PluckerIdeal}, the Pl\"ucker ideal has a square-free initial
+ideal\index{initial ideal!square-free}, and so the Gr\"obner
+homotopy\index{homotopy!Gr\"obner} of 
+Example~\ref{example:Groebner} may be 
+used to solve this enumerative problem.
+
+\begin{example}\label{ex:G22}
+${\bf G}_{2,4}\subset{\mathbb P}^5$ has equation
+%
+\begin{equation}\label{eq:G22}
+   p_{\{1,2\}}p_{\{0,3\}}-p_{\{1,3\}}p_{\{0,2\}}+ p_{\{2,3\}}p_{\{0,1\}}
+   \ =\ 0\,.
+\end{equation}
+%
+The condition for $H\in{\bf G}_{2,4}$ to meet a 2-plane $L$ is the
+vanishing of 
+\begin{equation}\label{eq:hypersurface}
+    p_{\{1,2\}}L_{34}-p_{\{1,3\}}L_{24}+p_{\{2,3\}}L_{14} 
+  + p_{\{1,4\}}L_{23}-p_{\{2,4\}}L_{13}+p_{\{3,4\}}L_{12}\,,
+\end{equation}
+where $L_{ij}$ is the $(i,j)$th maximal minor of $L$.
+
+If $l_1=\cdots=l_4=1$, we have 5 equations in ${\mathbb P}^5$, one quadratic
+and 4 linear, and so by B\'ezout's Theorem\index{Bezout's Theorem@B\'ezout's Theorem} there are
+two 2-planes in $k^4$ that meet 4 general 2-planes non-trivially. 
+This means that there are 2 lines in ${\mathbb P}^3$ meeting 4 general lines. 
+In local coordinates, (\ref{eq:hypersurface}) becomes
+$$
+    L_{34}-L_{14}y_{11}+L_{13}y_{12}-L_{24}y_{21} 
+  + L_{23}y_{22} + L_{12}(y_{11}y_{22}-y_{12}y_{21})\,.
+$$
+This polynomial has the form of the last specialization in
+Example~\ref{ex:one}. 
+\end{example}
+
+
+\subsection{Reality in the Schubert Calculus}\label{sec:shapiro}
+Like the other enumerative problems we have discussed, enumerative problems
+in the special Schubert calculus\index{Schubert calculus} are fully
+real\index{enumerative problem!fully real} in that all solutions can be 
+real~\cite{SO:So99a}. 
+That is, given any Schubert data $(r,n;l_1,\ldots,l_m)$, there exist 
+subspaces $L_1,\ldots,L_m\subset{\mathbb R}^n$ such that each of the
+$d(r,n;l_1,\ldots,l_m)$ $r$-planes that meet each $L_i$ are themselves
+real.
+
+This result gives some idea of which choices of the $L_i$ give
+all $r$-planes real.
+Let $\gamma$ be a fixed rational normal curve in ${\mathbb R}^n$.
+Then the $L_i$ are linear subspaces osculating $\gamma$.
+More concretely, suppose that $\gamma$ is the standard rational normal
+curve\index{rational normal curve},
+$\gamma(s) = (1, s, s^2, \ldots, s^{n-1})$.
+Then the $i$-plane 
+$L_i(s):=\langle \gamma(s),\gamma'(s),\ldots,\gamma^{(i-1)}(s)\rangle$ 
+osculating $\gamma$ at $\gamma(s)$ is the row space
+of the matrix given by {\tt oscPlane(i, n, s)}.
+%
+\beginOutput
+i53 : oscPlane = (i, n, s) -> (\\
+\           gamma := matrix \{toList apply(1..n, i -> s^(i-1))\};\\
+\           L := gamma;\\
+\           j := 0;\\
+\           while j < i-1 do (gamma = diff(s, gamma); \\
+\                L = L || gamma;\\
+\                j = j+1);\\
+\           L);\\
+\endOutput
+%
+\beginOutput
+i54 : QQ[s]; oscPlane(3, 6, s)\\
+\emptyLine
+o55 = | 1 s s2 s3  s4   s5   |\\
+\      | 0 1 2s 3s2 4s3  5s4  |\\
+\      | 0 0 2  6s  12s2 20s3 |\\
+\emptyLine
+\                   3            6\\
+o55 : Matrix QQ [s]  <--- QQ [s]\\
+\endOutput
+%
+(In {\tt o55}, the exponents of $s$ are displayed in line: $s^2$ is written
+{\tt s2}.
+\Mtwo{} uses this notational convention to display
+matrices efficiently.) 
+
+
+\begin{theorem}[\cite{SO:So99a}]\label{thm:special-reality}
+For any Schubert data $(r,n;l_1,\ldots,l_m)$, {\bf there exist} real numbers
+$s_1,s_2,\ldots,s_m$ such that there are $d(r,n;l_1,\ldots,l_m)$
+$r$-planes that meet each osculating plane $L_i(s_i)$, and all are real.
+\end{theorem}
+
+The inspiration for looking at subspaces osculating the rational normal
+curve\index{rational normal curve} to
+study real enumerative geometry\index{enumerative geometry!real} for the
+Schubert calculus\index{Schubert calculus} is the following very interesting 
+conjecture of Boris Shapiro and Michael
+Shapiro, or more accurately,
+extensive computer experimentation based upon their
+conjecture~\cite{SO:RS98,SO:So_shap-www,SO:So00b,SO:Ver00}.
+\medskip
+
+\noindent{\bf Shapiros's Conjecture\index{Shapiros's Conjecture}. }
+{\it 
+For any Schubert data $(r,n;l_1,\ldots,l_m)$ and {\bf for all} real numbers
+$s_1,s_2,\ldots,s_m$ there are $d(r,n;l_1,\ldots,l_m)$
+$r$-planes that meet each osculating plane $L_i(s_i)$, and all are real.
+}\medskip
+
+In addition to Theorem~\ref{thm:special-reality}, (which replaces the 
+quantifier {\it for all}\/ by  {\it there exist}), the strongest evidence for
+this Conjecture is the following result of Eremenko and
+Gabrielov~\cite{SO:EG00}. 
+
+\begin{theorem}
+Shapiros's Conjecture is true when either $r$ or $n-r$ is $2$.
+\end{theorem}
+
+We test an example of this conjecture for the Schubert data
+$(3,6;1^3,2^3)$, (where $a^b$ is $a$ repeated $b$ times).
+The algorithms of the Schubert calculus predict that $d(3,6;1^3,2^3)=6$.
+The function {\tt spSchub(r, L, P)} computes the ideal of $r$-planes meeting
+the row space of $L$ in the Pl\"ucker coordinates $P_\alpha$.
+%
+\beginOutput
+i56 : spSchub = (r, L, P) -> (\\
+\           I := ideal apply(subsets(numgens source L, \\
+\                            r + numgens target L), S -> \\
+\                fold((sum, U) -> sum +\\
+\                 fold((term,i) -> term*(-1)^i, P_(S_U) * det(\\
+\                  submatrix(L, sort toList(set(S) - set(S_U)))), U), \\
+\                     0, subsets(#S, r))));\\
+\endOutput
+%
+We are working in the Grassmannian of 3-planes in 
+${\mathbb C}^6$.
+%
+\beginOutput
+i57 : R = QQ[apply(subsets(6,3), i -> p_i )];\\
+\endOutput
+%
+The ideal $I$ consists of the
+special Schubert conditions for the 3-planes to meet the 3-planes osculating
+the rational normal curve at the points 1, 2, and 3, and to also meet the
+2-planes osculating at 4, 5, and 6,
+together with the Pl\"ucker ideal {\tt Grassmannian(2, 5, R)}.
+Since this is a 1-dimensional homogeneous ideal, we add the linear form 
+{\tt p{\char`\_}\char`\{0,1,5{\char`\}} - 1} to make the ideal
+zero-dimensional\index{ideal!zero-dimensional}.
+As before, {\tt Grassmannian(2, 5, R)} creates the Pl\"ucker ideal of 
+${\bf G}_{3,6}$.
+%
+\beginOutput
+i58 : I = fold((J, i) -> J +\\
+\            spSchub(3, substitute(oscPlane(3, 6, s), \{s=> 1+i\}), p) +\\
+\            spSchub(3, substitute(oscPlane(2, 6, s), \{s=> 4+i\}), p), \\
+\            Grassmannian(2, 5, R), \{0,1,2\}) + \\
+\           ideal (p_\{0,1,5\} - 1);\\
+\emptyLine
+o58 : Ideal of R\\
+\endOutput
+%
+This has dimension 0 and degree 6, in agreement with the Schubert calculus.
+%
+\beginOutput
+i59 : dim I, degree I\\
+\emptyLine
+o59 = (0, 6)\\
+\emptyLine
+o59 : Sequence\\
+\endOutput
+%
+As expected, all roots are real.
+%
+\beginOutput
+i60 : A = R/I; numRealSturm(eliminant(p_\{2,3,4\}, QQ[Z]))\\
+\emptyLine
+o61 = 6\\
+\endOutput
+%
+There have been many checked instances of this
+conjecture~\cite{SO:So_shap-www,SO:So00b,SO:Ver00}, and it has some
+geometrically interesting generalizations~\cite{SO:So_flags}.
+
+The question remains for which numbers $0\leq d\leq d(r,n;l_1,\ldots,l_m)$ do
+there exist real planes $L_i$ with $d(r,n;l_1,\ldots,l_m)$
+$r$-planes meeting each $L_i$, and exactly $d$ of them are real.
+Besides Theorem~\ref{thm:special-reality} and the obvious parity condition,
+nothing is known in general.
+In every known case, every possibility occurs---which is not the case in all
+enumerative problems, even those that are fully real\index{enumerative
+problem!fully real}\footnote{For example, of
+the 12 rational plane cubics containing 8 real points in ${\mathbb P}^2$,
+either 8, 10 or 12 can be real, and there are 8 points with all 12
+real~\cite[Proposition 4.7.3]{SO:DeKh00}.}.
+Settling this (for $d=0$) has implications for linear systems
+theory~\cite{SO:RS98}.\footnote{After this was written, Eremenko and
+Gabrielov~\cite{SO:EG-NR} showed that $d$ can be zero for the enumerative 
+problems given by data $(2,2n,1^{4n-4})$ and  $(2n-2,2n,1^{4n-4})$.}
+
+\subsection{Transversality in the Schubert Calculus}
+A basic principle of the classical Schubert calculus\index{Schubert calculus}
+is that the intersection 
+number $d(r,n;l_1,\ldots,l_m)$ has enumerative significance---that is, for
+general linear subspaces $L_i$, all solutions appear with multiplicity 1.
+This basic principle is not known to hold in general.
+For fields of characteristic zero, Kleiman's Transversality
+Theorem~\cite{SO:MR50:13063} establishes this principle.
+When $r$ or $n{-}r$ is 2, then Theorem~E of~\cite{SO:So97a} establishes this
+principle in arbitrary characteristic.
+We conjecture that this principle holds in general; that is, for arbitrary
+infinite fields and any Schubert data, if the planes $L_i$ are in general
+position, then the resulting zero-dimensional ideal is
+radical\index{ideal!radical}. 
+
+We test this conjecture on the enumerative problem of 
+Section~\ref{sec:shapiro}, which is not covered by 
+Theorem~E of~\cite{SO:So97a}.
+The function {\tt testTransverse(F)} tests transversality
+for this enumerative problem, for a given field $F$. 
+It does this by first computing the ideal of the enumerative problem using 
+random planes $L_i$.
+%
+\beginOutput
+i62 : randL = (R, n, r, l) -> \\
+\                matrix table(n-r+1-l, n, (i, j) -> random(0, R));\\
+\endOutput
+%
+and the Pl\"ucker ideal of the Grassmannian ${\bf G}_{3,6}$
+ {\tt Grassmannian(2, 5, R)}.)
+Then it adds a random (inhomogeneous) linear relation 
+ {\tt 1 + random(1, R)} to make the ideal zero-dimensional for generic $L_i$. 
+When this ideal is zero dimensional and has degree 6 (the expected degree), it
+computes the characteristic polynomial {\tt g} of a generic linear form.
+If {\tt g} has no multiple roots, {\tt 1 == gcd(g, diff(Z, g))}, 
+then the Shape Lemma\index{Shape Lemma}
+guarantees that the ideal was radical.
+{\tt testTransverse} exits either when it computes a radical ideal,
+or after {\tt limit} iterations (which is set to 5 for these examples), and
+prints the return status. 
+%
+\beginOutput
+i63 : testTransverse = F -> (\\
+\            R := F[apply(subsets(6, 3), i -> q_i )];\\
+\            continue := true;\\
+\            j := 0;  \\
+\            limit := 5;\\
+\            while continue and (j < limit) do (\\
+\                 j = j + 1;\\
+\                 I := fold((J, i) -> J + \\
+\                           spSchub(3, randL(R, 6, 3, 1), q) +\\
+\                           spSchub(3, randL(R, 6, 3, 2), q),\\
+\                           Grassmannian(2, 5, R) + \\
+\                           ideal (1 + random(1, R)),\\
+\                           \{0, 1, 2\});\\
+\                 if (dim I == 0) and (degree I == 6) then (\\
+\                 lin := promote(random(1, R), (R/I));\\
+\                 g := charPoly(lin, Z);\\
+\                 continue = not(1 == gcd(g, diff(Z, g)));\\
+\                 ));\\
+\            if continue then << "Failed for the prime " << char F << \\
+\               " with " << j << " iterations" << endl;\\
+\            if not continue then << "Succeeded for the prime " <<\\
+\                char F << " in " << j << " iteration(s)" << endl;\\
+\            );\\
+\endOutput
+%
+Since 5 iterations do not show transversality for ${\mathbb F}_2$,
+%
+\beginOutput
+i64 : testTransverse(ZZ/2);\\
+Failed for the prime 2 with 5 iterations\\
+\endOutput
+%
+we can test transversality in characteristic 2 using the field with
+four elements, ${\mathbb F}_4=$ {\tt GF 4}.
+%
+\beginOutput
+i65 : testTransverse(GF 4);\\
+Succeeded for the prime 2 in 3 iteration(s)\\
+\endOutput
+%
+We do find transversality for ${\mathbb F}_7$.
+%
+\beginOutput
+i66 : testTransverse(ZZ/7);\\
+Succeeded for the prime 7 in 2 iteration(s)\\
+\endOutput
+
+We have tested transversality for all primes less than 100 in every
+enumerative problem involving Schubert conditions on 3-planes in $k^6$.
+These include the problem above as well as the problem of 42 3-planes meeting
+9 general 3-planes.\footnote{After this was written, we discovered an
+elementary proof of transversality for the enumerative problems given by data 
+$(r,n;1^{r(n-r)})$, where the conditions are all
+codimension~1~\cite{SO:So_trans}.}
+
+
+\section{The 12 Lines: Reprise}
+The enumerative problems of Section~\ref{sec:enumerative} were formulated
+in local coordinates~(\ref{eq:local}) for the Grassmannian of lines in
+${\mathbb P}^3$ (Grassmannian of 2-dimensional subspaces in $k^4$).
+When we formulate the problem of Section~\ref{sec:12lines} in the global
+Pl\"ucker coordinates\index{Plucker coordinate@Pl\"ucker coordinate} of Section~\ref{sec:grass},
+we find some interesting phenomena.
+We also consider some related enumerative problems\index{enumerative problem}.
+
+\subsection{Global Formulation}\label{sec:global}
+A quadratic form\index{quadratic form} $q$ on a vector space $V$ over a field
+$k$ not of characteristic 2 is given by
+$q({\bf u})=(\varphi({\bf u}),{\bf u})$, where $\varphi\colon V\to V^*$ is
+a {\it symmetric} linear map, that is 
+$(\varphi({\bf u}),{\bf v})=(\varphi({\bf v}),{\bf u})$.
+Here, $V^*$ is the linear dual of $V$ and $(\,\cdot\;,\,\cdot\,)$ is the
+pairing $V\otimes V^*\to k$. 
+The map $\varphi$ induces a quadratic form $\wedge^rq$ on the $r$th exterior
+power $\wedge^rV$ of $V$ through the symmetric map 
+$\wedge^r\varphi\colon \wedge^rV\to\wedge^rV^*=(\wedge^rV)^*$.
+The action of $\wedge^rV^*$ on $\wedge^rV$ is given by
+%
+\begin{equation}\label{eq:wedge}
+  ({\bf x}_1\wedge{\bf x}_2\wedge\cdots\wedge{\bf x}_r,\ 
+   {\bf y\!}_1\wedge{\bf y}\!_2\wedge\cdots\wedge{\bf y}\!_r)\ =\ 
+   \det|({\bf x}_i, {\bf y}\!_j)|\,,
+\end{equation}
+%
+where ${\bf x}_i\in V^*$ and ${\bf y}\!_j\in V$.
+
+When we fix isomorphisms $V\simeq k^n\simeq V^*$, the map $\varphi$ is given
+by a symmetric $n\times n$ matrix $M$ as in Section~\ref{sec:12lines}.
+Suppose $r=2$.
+Then for ${\bf u},{\bf v}\in k^n$,
+$$
+  \wedge^2q({\bf u}\wedge{\bf v})\ = 
+              \det\left[\begin{array}{cc}
+                    {\bf u}M{\bf u}^t &{\bf u}M{\bf v}^t\\
+                    {\bf v}M{\bf u}^t &{\bf v}M{\bf v}^t
+                  \end{array}\right]\ ,
+$$
+which is Equation~(\ref{eq:sphere}) of  Section~\ref{sec:12lines}.
+
+\begin{proposition}\label{prop:tangent_line}
+  A line $\ell$ is tangent to a quadric ${\mathcal V}(q)$ in 
+  ${\mathbb P}^{n-1}$ if and only if its Pl\"ucker 
+  coordinate\index{Plucker coordinate@Pl\"ucker coordinate}  
+  $\wedge^2\ell\in{\mathbb P}^{\binom{n}{2}-1}$ lies on the quadric
+  ${\mathcal V}(\wedge^2q)$.
+\end{proposition}
+       
+Thus the Pl\"ucker coordinates for the set of lines tangent to 4 general
+quadrics in ${\mathbb P}^3$ satisfy 5 quadratic equations:
+The single Pl\"ucker relation~(\ref{eq:G22})
+together with one quadratic equation for each quadric.
+Thus we expect the B\'ezout number\index{Bezout number@B\'ezout number} of $2^5=32$ such
+lines. 
+We check this.
+
+The procedure {\tt randomSymmetricMatrix(R, n)}
+generates a random symmetric $n\times n$ matrix with entries in 
+the base ring of $R$.
+%
+\beginOutput
+i67 : randomSymmetricMatrix = (R, n) -> (\\
+\          entries := new MutableHashTable;\\
+\          scan(0..n-1, i -> scan(i..n-1, j -> \\
+\                       entries#(i, j) = random(0, R)));\\
+\          matrix table(n, n, (i, j) -> if i > j then \\
+\                       entries#(j, i) else entries#(i, j))\\
+\          );\\
+\endOutput
+%
+The procedure {\tt tangentEquation(r, R, M)} gives the equation in Pl\"ucker
+coordinates for a point in ${\mathbb P}^{\binom{n}{r}-1}$ to be
+isotropic with respect to the bilinear form\index{bilinear form}  $\wedge^rM$
+({\tt R} is assumed to be the coordinate ring of 
+${\mathbb P}^{\binom{n}{r}-1}$).
+This is the equation for an $r$-plane to be tangent to the quadric
+associated to $M$.
+%
+\beginOutput
+i68 : tangentEquation = (r, R, M) -> (\\
+\           g := matrix \{gens(R)\};\\
+\           (entries(g * exteriorPower(r, M) * transpose g))_0_0\\
+\           );\\
+\endOutput
+%
+We construct the ideal of lines tangent to 4 general quadrics in
+${\mathbb P}^3$.
+%
+\beginOutput
+i69 : R = QQ[apply(subsets(4, 2), i -> p_i )];\\
+\endOutput
+%
+\beginOutput
+i70 : I = Grassmannian(1, 3, R) + ideal apply(0..3, i -> \\
+\           tangentEquation(2, R, randomSymmetricMatrix(R, 4)));\\
+\emptyLine
+o70 : Ideal of R\\
+\endOutput
+%
+As expected, this ideal has dimension 0 and degree 32.
+%
+\beginOutput
+i71 : dim Proj(R/I), degree I\\
+\emptyLine
+o71 = (0, 32)\\
+\emptyLine
+o71 : Sequence\\
+\endOutput
+%
+
+
+\subsection{Lines Tangent to 4 Spheres}\label{sec:tangent_lines}
+That calculation raises the following question:
+In Section~\ref{sec:12lines}, why did we obtain only 12 lines tangent to 4
+spheres\index{sphere}? 
+To investigate this, we generate the global ideal of lines tangent to the 
+spheres of Section~\ref{sec:12lines}.
+%
+\beginOutput
+i72 : I = Grassmannian(1, 3, R) + \\
+\              ideal (tangentEquation(2, R, Sphere(0,0,0,5)),\\
+\                     tangentEquation(2, R, Sphere(4,1,1,5)),\\
+\                     tangentEquation(2, R, Sphere(1,4,1,5)),\\
+\                     tangentEquation(2, R, Sphere(1,1,4,5)));\\
+\emptyLine
+o72 : Ideal of R\\
+\endOutput
+%
+We compute the dimension and degree of ${\mathcal V}(I)$.
+%
+\beginOutput
+i73 : dim Proj(R/I), degree I\\
+\emptyLine
+o73 = (1, 4)\\
+\emptyLine
+o73 : Sequence\\
+\endOutput
+%
+The ideal is not zero dimensional\index{ideal!zero-dimensional}; there is an
+extraneous one-dimensional 
+component of zeroes with degree 4.
+Since we found 12 lines in
+Section~\ref{sec:12lines} using the local coordinates~(\ref{eq:local}),
+the extraneous component must lie in the complement of that coordinate patch,
+which is defined by the vanishing of the first Pl\"ucker coordinate, $p_{\{0,1\}}$.
+We saturate\index{saturation} $I$ by $p_{\{0,1\}}$ to obtain the desired lines.
+%
+\beginOutput
+i74 : Lines = saturate(I, ideal (p_\{0,1\}));\\
+\emptyLine
+o74 : Ideal of R\\
+\endOutput
+%
+This ideal does have dimension 0 and degree 12, so we have recovered the
+zeroes of Section~\ref{sec:12lines}.
+%
+\beginOutput
+i75 : dim Proj(R/Lines), degree(Lines)\\
+\emptyLine
+o75 = (0, 12)\\
+\emptyLine
+o75 : Sequence\\
+\endOutput
+%
+
+We investigate the rest of the zeroes, which we obtain 
+by taking the ideal
+quotient of $I$ and the ideal of lines.
+As computed above, this has dimension 1 and degree 4.
+%
+\beginOutput
+i76 : Junk = I : Lines;\\
+\emptyLine
+o76 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i77 : dim Proj(R/Junk), degree Junk\\
+\emptyLine
+o77 = (1, 4)\\
+\emptyLine
+o77 : Sequence\\
+\endOutput
+%
+We find the support of this extraneous component by taking its
+radical.
+%
+\beginOutput
+i78 : radical(Junk)\\
+\emptyLine
+\                                         2         2         2\\
+o78 = ideal (p      , p      , p      , p       + p       + p      )\\
+\              \{0, 3\}   \{0, 2\}   \{0, 1\}   \{1, 2\}    \{1, 3\}    \{2, 3\}\\
+\emptyLine
+o78 : Ideal of R\\
+\endOutput
+%
+From this, we see that the extraneous component is supported on an imaginary
+conic in the ${\mathbb P}^2$ of lines at infinity.
+\smallskip
+
+To understand the geometry behind this computation, observe that
+the sphere with radius $r$ and center $(a,b,c)$ has homogeneous equation
+$$
+  (x-wa)^2+(y-wb)^2+(z-wc)^2\ =\ r^2w^2\,.
+$$
+At infinity, $w=0$, this has equation
+$$
+  x^2+y^2+z^2\ =\ 0\,.
+$$
+The extraneous component is supported on the set of tangent
+lines to this imaginary conic.
+Aluffi and Fulton~\cite{SO:AF} studied
+this problem, using geometry to 
+identify the extraneous ideal and the excess intersection
+formula~\cite{SO:FM76} to obtain the answer of 12. 
+Their techniques show that there will be 12 isolated lines tangent to 4
+quadrics which have a smooth conic in common.
+
+When the quadrics are spheres, the conic is the imaginary conic at infinity.
+Fulton asked the following question:
+Can all 12 lines be real if the (real) four quadrics share a real conic?
+We answer his question in the affirmative in the next section.
+
+
+\subsection{Lines Tangent to Real Quadrics Sharing a Real Conic}
+We consider four quadrics in ${\mathbb P}^3_{\mathbb R}$ sharing a
+non-singular conic, which we will take to be at infinity so that we may use
+local coordinates for ${\bf G}_{2,4}$ in our computations.
+The variety ${\mathcal V}(q)\subset{\mathbb P}^3_{\mathbb R}$ of a
+nondegenerate quadratic form $q$ is determined up to isomorphism by the
+absolute value of the signature\index{bilinear form!signature} $\sigma$ of the
+associated bilinear form. 
+Thus there are three possibilities, 0, 2, or 4, for $|\sigma|$.
+
+When $|\sigma|=4$, the real quadric ${\mathcal V}(q)$ is empty.
+The associated symmetric matrix $M$ is conjugate to the identity
+matrix, so $\wedge^2M$ is also conjugate to the identity matrix.
+Hence ${\mathcal V}(\wedge^2q)$ contains no real points.
+Thus we need not consider quadrics with $|\sigma|=4$.
+
+When $|\sigma|=2$, we have ${\mathcal V}(q)\simeq S^2$, the 2-sphere.
+If the conic at infinity is imaginary, then 
+${\mathcal V}(q)\subset{\mathbb R}^3$ is an ellipsoid\index{ellipsoid}.
+If the conic at infinity is real, then ${\mathcal V}(q)\subset{\mathbb R}^3$ is 
+a hyperboloid\index{hyperboloid} of two sheets.
+When $\sigma=0$, we have ${\mathcal V}(q)\simeq S^1\times S^1$, a torus.
+In this case, ${\mathcal V}(q)\subset{\mathbb R}^3$ is 
+a hyperboloid of one sheet and the conic at infinity is real.
+
+Thus either we have 4 ellipsoids sharing an imaginary conic at infinity,
+which we studied in Section~\ref{sec:12lines}; or else we have four
+hyperboloids sharing a real conic at infinity, and there are five 
+possible combinations of hyperboloids of one or two sheets sharing a real
+conic at infinity.
+This gives six topologically distinct possibilities in all.
+
+
+\begin{theorem}
+For each of the six topologically distinct possibilities of four real
+quadrics sharing a smooth conic at infinity, there exist four quadrics
+having the property that each of the 12 lines in ${\mathbb C}^3$
+simultaneously tangent to the four quadrics is real.
+\end{theorem}
+
+\begin{proof}
+By the computation in Section~\ref{sec:12lines}, 
+we need only check the five possibilities for hyperboloids\index{hyperboloid}.
+We fix the conic at infinity to be $x^2+y^2-z^2=0$.
+Then the general hyperboloid of two sheets containing this conic has
+equation in ${\mathbb R}^3$
+%
+\begin{equation}\label{eq:twoSheet}
+  (x-a)^2+(y-b)^2-(z-c)^2+r\ =\ 0\,,
+\end{equation}
+%
+(with $r>0$).
+The command {\tt Two(a,b,c,r)} generates the associated 
+symmetric matrix.
+%
+\beginOutput
+i79 : Two = (a, b, c, r) -> (\\
+\           matrix\{\{a^2 + b^2 - c^2 + r ,-a ,-b , c \},\\
+\                  \{         -a         , 1 , 0 , 0 \},\\
+\                  \{         -b         , 0 , 1 , 0 \},\\
+\                  \{          c         , 0 , 0 ,-1 \}\}\\
+\           );\\
+\endOutput
+The general hyperboloid of one sheet containing the conic
+$x^2+y^2-z^2=0$ at infinity has equation in ${\mathbb R}^3$
+%
+\begin{equation}\label{eq:oneSheet}
+  (x-a)^2+(y-b)^2-(z-c)^2-r\ =\ 0\,,
+\end{equation}
+%
+(with $r>0$).
+The command {\tt One(a,b,c,r)} generates the associated 
+symmetric matrix.
+%
+\beginOutput
+i80 : One = (a, b, c, r) -> (\\
+\           matrix\{\{a^2 + b^2 - c^2 - r ,-a ,-b , c \},\\
+\                  \{         -a         , 1 , 0 , 0 \},\\
+\                  \{         -b         , 0 , 1 , 0 \},\\
+\                  \{          c         , 0 , 0 ,-1 \}\}\\
+\           );\\
+\endOutput
+
+We consider $i$ quadrics of two sheets~(\ref{eq:twoSheet}) and $4-i$
+quadrics of one sheet~(\ref{eq:oneSheet}).
+For each of these cases, the table below displays four 4-tuples of data
+$(a,b,c,r)$ which give 12 real lines.
+(The data for the hyperboloids of one sheet are listed first.)
+\begin{center}
+\begin{tabular}{|c|l|}\hline
+$\;i$\;&\hspace{13em}Data\\\hline
+$0$&$\hspace{.915em}(5,3,3,16),\hspace{2.185em}(5,-4,2,1),\hspace{1.27em}
+                             (-3,-1,1,1),\hspace{.88em}(2,-7,0,1)$\\\hline
+$1$&$\hspace{.385em}(3,-2,-3,6),\hspace{.885em}(-3,-7,-6,7),\hspace{.5em}
+                            (-6,3,-5,2),\hspace{.865em}(1,6,-2,5)$\\\hline
+$2$&$\hspace{1.165em}(6,4,6,4),\hspace{2.43em}(-1,3,3,6),\hspace{1.265em}
+                             (-7,-2,3,3),\hspace{.5em}(-6,7,-2,5)$\\\hline
+$3$&$(-1,-4,-1,1),\hspace{.885em}(-3,3,-1,1),\hspace{.885em}
+              \hspace{.4em}(-7,6,2,9),\hspace{1.025em}(5,6,-1,12)$\\\hline
+$4$&$\hspace{.525em}(5,2,-1,25),\hspace{1.555em}(6,-6,2,25),\hspace{1.03em}
+                 \hspace{.4em}(-7,1,6,1),\hspace{1.65em}(3,1,0,1)$\\\hline
+\end{tabular}
+\end{center}
+
+%\noindent$|\hspace{1em}|$
+
+%\noindent$|\hspace{10pt}|$
+
+
+We test each of these, using the formulation in local coordinates of
+Section~\ref{sec:12lines}. 
+%
+\beginOutput
+i81 : R = QQ[y11, y12, y21, y22];\\
+\endOutput
+%
+\beginOutput
+i82 : I = ideal (tangentTo(One( 5, 3, 3,16)), \\
+\                 tangentTo(One( 5,-4, 2, 1)),  \\
+\                 tangentTo(One(-3,-1, 1, 1)), \\
+\                 tangentTo(One( 2,-7, 0, 1)));\\
+\emptyLine
+o82 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i83 : numRealSturm(charPoly(promote(y22, R/I), Z))\\
+\emptyLine
+o83 = 12\\
+\endOutput
+%
+\beginOutput
+i84 : I = ideal (tangentTo(One( 3,-2,-3, 6)), \\
+\                 tangentTo(One(-3,-7,-6, 7)),  \\
+\                 tangentTo(One(-6, 3,-5, 2)), \\
+\                 tangentTo(Two( 1, 6,-2, 5)));\\
+\emptyLine
+o84 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i85 : numRealSturm(charPoly(promote(y22, R/I), Z))\\
+\emptyLine
+o85 = 12\\
+\endOutput
+%
+\beginOutput
+i86 : I = ideal (tangentTo(One( 6, 4, 6, 4)),  \\
+\                 tangentTo(One(-1, 3, 3, 6)), \\
+\                 tangentTo(Two(-7,-2, 3, 3)), \\
+\                 tangentTo(Two(-6, 7,-2, 5)));\\
+\emptyLine
+o86 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i87 : numRealSturm(charPoly(promote(y22, R/I), Z))\\
+\emptyLine
+o87 = 12\\
+\endOutput
+%
+
+\beginOutput
+i88 : I = ideal (tangentTo(One(-1,-4,-1, 1)),\\
+\                 tangentTo(Two(-3, 3,-1, 1)),  \\
+\                 tangentTo(Two(-7, 6, 2, 9)), \\
+\                 tangentTo(Two( 5, 6,-1,12)));\\
+\emptyLine
+o88 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i89 : numRealSturm(charPoly(promote(y22, R/I), Z))\\
+\emptyLine
+o89 = 12\\
+\endOutput
+%
+\beginOutput
+i90 : I = ideal (tangentTo(Two( 5, 2,-1,25)), \\
+\                 tangentTo(Two( 6,-6, 2,25)), \\
+\                 tangentTo(Two(-7, 1, 6, 1)), \\
+\                 tangentTo(Two( 3, 1, 0, 1)));\\
+\emptyLine
+o90 : Ideal of R\\
+\endOutput
+%
+\beginOutput
+i91 : numRealSturm(charPoly(promote(y22, R/I), Z))\\
+\emptyLine
+o91 = 12\\
+\endOutput
+%
+\qed
+\end{proof}
+
+
+In each of these enumerative problems there are 12 complex solutions.
+For each, we have done other computations  showing that every possible
+number of real solutions (0, 2, 4, 6, 8, 10, or 12) can occur.
+
+
+
+\subsection{Generalization to Higher Dimensions}
+We consider lines tangent to quadrics in higher dimensions.
+First, we reinterpret the action of $\wedge^rV^*$ on $\wedge^rV$
+described in~(\ref{eq:wedge}) as follows.
+The vectors ${\bf x}_1,\ldots,{\bf x}_r$ and ${\bf y}\!_1,\ldots,{\bf y}\!_r$ 
+define maps $\alpha\colon k^r\to V^*$ and $\beta\colon k^r\to V$.
+The matrix $[({\bf x}_i,\,{\bf y}\!_j)]$ is the matrix of the bilinear form
+on $k^r$ given by 
+$\langle{\bf u},\,{\bf v}\rangle:= (\alpha({\bf u}),\,\beta({\bf v}))$.
+Thus~(\ref{eq:wedge}) vanishes when the bilinear form 
+$\langle\,\cdot\,,\,\cdot\,\rangle$ on $k^r$ is degenerate.
+
+Now suppose that we have a quadratic form $q$ on $V$ given by a symmetric map 
+$\varphi\colon V\to V^*$.
+This induces a quadratic form and hence a quadric on any $r$-plane $H$ in $V$ 
+(with $H\not\subset{\mathcal V}(q)$).
+This induced quadric is singular when $H$ is tangent to ${\mathcal V}(q)$.
+Since a quadratic form is degenerate only when the associated projective
+quadric is singular, we see that
+$H$ is tangent to the quadric
+${\mathcal V}(q)$ if and only if 
+$(\wedge^r\varphi(\wedge^rH),\,\wedge^rH)=0$.
+(This includes the case $H\subset{\mathcal V}(q)$.)
+We summarize this argument.
+
+
+\begin{theorem}
+Let $\varphi\colon V\to V^*$ be a linear map with resulting bilinear form
+$(\varphi({\bf u}),\,{\bf v})$.
+Then the locus of $r$-planes in $V$ for which the restriction of this form
+is degenerate is the set of $r$-planes $H$ whose Pl\"ucker
+coordinates\index{Plucker coordinate@Pl\"ucker coordinate} are
+isotropic, $(\wedge^r\varphi(\wedge^rH),\,\wedge^rH)=0$, with respect to the
+induced form on $\wedge^rV$.
+
+When $\varphi$ is symmetric, this is the locus of $r$-planes tangent to the
+associated quadric in ${\mathbb P}(V)$.
+\end{theorem}
+
+
+We explore the problem of lines tangent to quadrics in ${\mathbb P}^n$.
+From the calculations of Section~\ref{sec:global}, we do not expect this to
+be interesting if the quadrics are general.
+(This is borne out for ${\mathbb P}^4$:
+ we find 320 lines in ${\mathbb P}^4$ tangent to 6 general quadrics.
+ This is the B\'ezout number\index{Bezout number@B\'ezout number}, as $\deg{\bf G}_{2,5}=5$
+ and the condition to be tangent to a quadric has degree 2.)
+This problem is interesting if the quadrics 
+in ${\mathbb P}^n$ share a quadric in a ${\mathbb P}^{n-1}$.
+We propose studying such enumerative problems, both determining the 
+number of solutions for general such quadrics, and investigating whether or
+not it is possible to have all solutions be real. 
+
+We use \Mtwo{}\/ to compute the expected number of
+solutions to this problem when $r=2$ and $n=4$.
+We first define some functions for this computation, which will involve
+counting the degree of the ideal of lines in ${\mathbb P}^4$ tangent to 6
+general spheres\index{sphere}.
+Here, $X$ gives local coordinates for the Grassmannian\index{Grassmannian},
+$M$ is a symmetric matrix, {\tt tanQuad} gives the equation in $X$ for the
+lines tangent to the quadric given by $M$.
+%
+\beginOutput
+i92 : tanQuad = (M, X) -> (\\
+\           u := X^\{0\};\\
+\           v := X^\{1\};\\
+\           (u * M * transpose v)^2 - \\
+\           (u * M * transpose u) * (v * M * transpose v)\\
+\           );\\
+\endOutput
+%
+{\tt nSphere} gives the matrix $M$ for a sphere with
+center {\tt V} and squared radius {\tt r}, and {\tt V} and {\tt r} give random
+data for a sphere.
+%
+\beginOutput
+i93 : nSphere = (V, r) -> \\
+\               (matrix \{\{r + V * transpose V\}\} || transpose V ) |\\
+\               ( V || id_((ring r)^n)\\
+\               );\\
+\endOutput
+%
+\beginOutput
+i94 : V = () -> matrix table(1, n, (i,j) -> random(0, R));\\
+\endOutput
+%
+\beginOutput
+i95 : r = () -> random(0, R);\\
+\endOutput
+%
+We construct the ambient ring, local coordinates, and the ideal of the
+enumerative problem of lines in ${\mathbb P}^4$ tangent to 6 random spheres.
+%
+\beginOutput
+i96 : n = 4;\\
+\endOutput
+%
+\beginOutput
+i97 : R = ZZ/1009[flatten(table(2, n-1, (i,j) -> z_(i,j)))];\\
+\endOutput
+%
+\beginOutput
+i98 : X = 1 | matrix table(2, n-1, (i,j) -> z_(i,j))\\
+\emptyLine
+o98 = | 1 0 z_(0,0) z_(0,1) z_(0,2) |\\
+\      | 0 1 z_(1,0) z_(1,1) z_(1,2) |\\
+\emptyLine
+\              2       5\\
+o98 : Matrix R  <--- R\\
+\endOutput
+%
+\beginOutput
+i99 : I = ideal (apply(1..(2*n-2), \\
+\                     i -> tanQuad(nSphere(V(), r()), X)));\\
+\emptyLine
+o99 : Ideal of R\\
+\endOutput
+%
+We find there are 24 lines in ${\mathbb P}^4$ tangent to 6 general spheres.
+\beginOutput
+i100 : dim I, degree I\\
+\emptyLine
+o100 = (0, 24)\\
+\emptyLine
+o100 : Sequence\\
+\endOutput
+%
+The expected numbers of solutions we have obtained in this way are displayed
+in the table below.
+The numbers in boldface are those which are proven.\footnote{As this was
+going to press, the obvious pattern was proven:
+There are $3\cdot 2^{n-1}$ complex lines tangent to $2n-2$ 
+general spheres in ${\mathbb R}^n$, and all may be real~\cite{SO:STh01}.}
+
+\begin{center}
+\begin{tabular}{|c|c|c|c|c|c|}\hline
+  $n$&2&3&4&5&6\\\hline
+  \# expected\;&\;{\bf 4}\;&\;{\bf 12}\;&\;24\;&\;48\;&\;96\;\\\hline
+\end{tabular}
+\end{center}
+
+\begin{acknowledgment}
+We thank Dan Grayson and 
+Bernd Sturmfels:
+some of the procedures in this chapter were written by Dan Grayson
+and the calculation in Section 5.2 is due to Bernd Sturmfels.
+\end{acknowledgment}
+
+%\bibliographystyle{siam}
+%\bibliography{../../bibl/bibliography,../../bibl/sottile}
+
+%\end{document}
+

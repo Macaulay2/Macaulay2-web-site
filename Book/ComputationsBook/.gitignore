@@ -1,0 +1,16 @@
+*.xyc
+*.idx
+*.aux
+*.ilg
+*.ind
+*.log
+*.toc
+*.old
+*.bbl
+*.bux
+*.blg
+*~
+tmp
+log
+diffs
+undiffs

@@ -1,0 +1,219 @@
+From bernd@math.berkeley.edu  Sun Feb  4 13:04:58 2001
+From: Bernd Sturmfels <bernd@math.berkeley.edu>
+Date: Sun, 4 Feb 2001 11:04:53 -0800 (PST)
+To: dan@math.uiuc.edu
+
+Dear Dan:
+
+here is the revised version of the preface, 
+produced in one iteration by David and me.
+If it looks fine to you, please post.
+
+Bernd
+
+
+
+
+\chapter*{Preface}
+
+\bgroup
+
+This book is about algorithms and computations in algebraic geometry
+and related fields. The algorithmic approach to this subject has two
+principal aims: developing new tools for research within mathematics,
+and providing new tools for modeling and solving problems involving
+polynomials which arise in the sciences and engineering.  A healthy
+synergy emerges, as new theorems yield new algorithms and emerging
+applications lead to new theoretical questions.
+
+In addition to providing new algorithmic tools, this book introduces a
+software system in which they can be carried out.  \Mtwo is a computer
+algebra system devoted to supporting research in algebraic geometry,
+commutative algebra, and their applications. This book gives an
+introduction to \Mtwo in the context of concrete applications and
+practical computations in algebraic geometry.  
+
+Although \Mtwo is used for illustrations, most of this book
+is essentially software-independent. It is addressed to
+a wide range of mathematicians, including the users of other programs
+similar to \Mtwo (e.g. Singular, COCOA, etc.), and including those who
+are not interested in explicit machine computations at all.  We hope
+that the expositions will serve as a useful guide for those wishing to
+bring computational tools to bear on their own problems.
+
+The chapters are ordered roughly by increasing mathematical
+difficulty. The first half of the book is meant to be accessible to
+graduate students and computer algebra users from across the
+mathematical sciences. The first four chapters are primarily concerned
+with introducing \Mtwo.  The seven later chapters emphasize the
+mathematics.  Each one exposes some domain of mathematics at an
+accesible level, presents the relevant algorithms, sometimes with
+proofs, illustrates the use of the program.  Each chapter comes with
+its own abstract and its own bibliography; the index at the back of
+the book covers all of them.
+
+
+\def\im{\operatorname{im}}
+\def\coker{\operatorname{coker}}
+
+%
+
+One of the first computer algebra packages aimed at algebraic geometry
+was {\sl Macaulay,} the predecessor of \Mtwo, written during the years
+1983-1993 by Dave Bayer and Mike Stillman. Worst-case estimates
+suggest that trying to compute Gr\"obner bases might be a hopeless
+approach to solving problems. But from the first prototype, \Macaulay
+was successful surpisingly often, perhaps because of the geometrical
+origin of the problems attacked.  \Macaulay improved steadily during
+its first decade.  It helped transform the theoretical notion of a
+projective resolution into an exciting new practical research tool,
+and became widely used for research and teaching in commutative
+algebra and algebraic geometry.  It was possible to write routines in
+the top-level language, and many important algorithms were added by
+David Eisenbud other users, enhancing the system and broadening its
+usefulness.
+
+There were certain practical drawbacks for the researcher who wanted to use
+\Macaulay effectively.  A minor annoyance was that only finite prime fields
+were available as coefficient rings.  The major problem was that the language
+made available to users was primitive and barely supported high-level
+development of new algorithms; it had few basic datatypes and didn't support
+the addition of new ones. 
+
+\Mtwo is based on experience gained from writing and using its predecessor
+\Macaulay, but is otherwise a fresh start.  It was written by Dan Grayson and
+Mike Stillman with the generous financial support of the U.S. National
+Science Foundation, with the work starting in 1993\footnote{NSF grants DMS
+  92-10805, 92-10807, 96-23232, 96-22608, 99-70085, and 99-70348.}.  
+It also incorporates
+some code from other authors: the package FACTORY 
+\cite{factory} 
+by Gert-Martin Greuel and R\"udiger Stobbe provides for factorization of
+polynomials, and LIBFAC
+\cite{libfac}
+by Michael Messollen uses FACTORY to enable the computation of characteristic
+sets and thus the decomposition of subvarieties into their irreducible
+components.
+
+\Mtwo aims to support efficient computation associated with a wide
+variety of high level mathematical objects, including Galois fields,
+number fields, polynomial rings, exterior algebras, Weyl algebras,
+quotient rings, ideals, modules, homomorphisms of rings and modules,
+graded modules, maps between graded modules, chain complexes, maps
+between chain complexes, free resolutions, algebraic varieties, and
+coherent sheaves.  To make the system as easily accessible as
+possible, standard mathematical notation is followed closely.
+
+As with \Macaulay, it was hoped that users would join in the further
+development of new algorithms for \Mtwo, so the developers
+tried to make the language available to
+the users as powerful as possible, yet easy to use.
+Indeed, much of the high-level part of the system is written in the same language
+available to the user.  This ensures that the user will find it just as easy
+as the developers did to implement a new type of mathematical object or to
+modify the high-level aspects of the current algorithms.
+
+The language available to the user is interpreted.  The interpreter itself
+is written in a convenient language designed to be mostly type-safe and to
+handle memory allocation and initialization automatically.  For maximum
+efficiency, the core mathematical algorithms are written in C++ and compiled,
+not interpreted.  This includes the arithmetic operations of rings, modules,
+and matrices, the Gr\"obner basis algorithm (in several enhanced versions,
+tailored for various situations), several algorithms for computing free
+resolutions of modules, the algorithm for computing the Hilbert series of a
+graded ring or module, the algorithms for computing determinants and
+Pfaffians, the basis reduction algorithm, factoring, etc.
+
+% other features of the implementation just above here
+
+In one way \Mtwo is like a standard computer algebra system, such as {\sl
+Mathematica} or {\sl Maple}: the user enters
+mathematical expressions at the keyboard, and the program computes the value
+of the expression and displays the answer.
+
+Here is the first input prompt offered to the user.
+\[\text{\tt i1\ :\ }\]
+In response to the prompt, the user may enter, for example, a simple arithmetic expression.
+<<<3/5 + 7/11>>>
+The answer itself is displayed to the right of the output
+label \[\text{\tt o1\ = \ }\] and its type (or class) is displayed to the
+right of the following label.
+\[\text{\tt o1\ :\ }\]
+The symbol {\tt QQ} appearing in this example 
+%  not an index fund for the top 10 NASDAQ stocks!
+denotes the class of all rational numbers, and is meant to be reminiscent of
+the notation $\mathbb Q$.
+
+\Mtwo often finds itself being run in a window with horizontal scroll bars,
+so by default it does not wrap output lines, but instead lets them grow
+without bound.  This book was produced by an automated mechanism that submits
+code provided by the authors to \Mtwo and incorporates the result into the
+text.  Output lines which exceed the width of the pages of this book are
+indicated with ellipses.
+<<<100!>>>
+
+Next we describe an important difference between 
+general computer algebra systems (e.g. {\sl Maple}, {\sl Mathematica})
+and \Mtwo.  An expression involving variables (like {\tt x+y}) cannot be 
+entered
+without first creating a ring containing the variables.  Rings are important
+objects of study in algebraic geometry: quotient rings of polynomial rings,
+for example, encapsulate the essential information about a system of
+polynomial equations.  Often one has several rings under consideration at
+once, along with ring homomorphisms between them, so it is important to treat
+them as first-class objects in the computer, capable of being named and
+manipulated the same way numbers and characters can be manipulated in simpler
+programming languages.
+
+% other differences from standard computer algebra systems just above here
+
+Let's give a hint of the breadth of types of mathematical objects available
+with \Mtwo with some examples.
+In \Mtwo one defines a quotient ring of a polynomial ring $R$ over the
+rational numbers by entering a command such as the one below.
+<<<R = QQ[x,y,z]/(x^3-y^3-z^3)>>>
+Having done that, we can compute in the ring.
+<<<(x+y+z)^3>>>
+We can make matrices over the ring.
+<<<b = vars R>>>
+<<<c = matrix {{x^2,y^2,z^2}}>>>
+We can make modules over the ring.
+<<<M = coker b>>>
+<<<N = ker c>>>
+We can make projective resolutions of modules.
+<<<res M>>>
+We can make projective varieties.
+<<<X = Proj R>>>
+We can make coherent sheaves and compute their  cohomology.
+<<<HH^1 cotangentSheaf X >>>
+
+At this writing, \Mtwo is available for Linux and other flavors of Unix, 
+and also for Windows and the Mac OS. Although it can be used
+as a free-standing program, it is most convenient to use it in an 
+editor's buffer: 
+Emacs (on Unix or Windows systems) or MPW on Macintosh systems are
+currently the editors of choice.
+To obtain \Mtwo, download it from the website \cite{PRE:M2}, 
+and unpack the file.
+Among the resulting files will be a file called {\tt Macaulay2/README.txt}
+which you should read.  It will tell you how to run the {\tt setup} script,
+and how to install a few lines of code in your {\tt emacs} init file to
+enable you to run {\tt M2} in an emacs buffer and to edit \Mtwo code.  A
+system administrator of a Unix system may optionally arrange for those lines
+of code to be available to every emacs user.
+
+The editors thank the authors of the chapters for their valuable
+contributions and hard work, and the National Science Foundation for funding
+the development of \Mtwo and for partial funding of the authors who have
+contributed to this volume.
+
+\begin{flushright}\noindent
+\today          \hfill                  David Eisenbud\\
+                                        Daniel R. Grayson\\
+                                        Michael E. Stillman\\
+                                        Bernd Sturmfels
+\end{flushright}
+
+
+\egroup
+

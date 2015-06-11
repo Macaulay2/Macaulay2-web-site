@@ -1,0 +1,14 @@
+user times for running M2 	debug version		optimized
+
+preface				 0m00.230s		0m0.230s
+programming			 0m00.900s		0m0.740s
+varieties			 0m13.420s		0m11.690s
+geometry			 0m28.750s		0m22.980s
+schemes				 1m54.530s		1m28.260s
+monomialIdeals			 2m44.530s		1m36.770s
+exterior-algebra		 3m59.560s		2m14.950s
+completeIntersections		 4m49.280s		2m27.330s
+d-modules			 4m34.330s		3m25.360s
+solving				 6m21.970s		5m29.460s
+toricHilbertScheme		17m04.850s		12m7.770s
+constructions			28m44.630s		17m11.080s

@@ -1,0 +1,429 @@
+\title{Author instructions}
+\author{Daniel R. Grayson\thanks{Supported by the NSF}}
+\authorrunning{Grayson}
+\institute{University of Illinois at Urbana-Champaign, Department of Mathematics}
+\maketitle
+
+\def\lll{{\tt\char`\<\char`\<\char`\<}}
+\def\rrr{{\tt\char`\>\char`\>\char`\>}}
+\def\slash{\char`\\}
+
+\begin{abstract}
+The abstract should summarize the contents of the paper
+using at least 70 and at most 150 words. It will be set in 9-point
+font size and be inset 1.0 cm from the right and left margins.
+There will be two blank lines before and after the Abstract.
+\end{abstract}
+
+\section*{Introduction}
+Run TeX on the files {\tt lncse-doc.tex} and {\tt lncse-dem.tex} in the
+directory {\tt lncse-macros} to produce the documentation and a demonstration
+of the macro package {\tt lncse} provided to us by Springer.  It's almost
+compatible with AMS-Latex and Latex-2e, but multiple authors are handled with
+a single {\tt \slash author} macro, the macros {\tt \slash email} and {\tt
+  \slash urladdr} are missing, the macro {\tt \slash address} is replaced by
+{\tt \slash institute}, and the macro {\tt \slash thanks} should be inserted
+where the corresponding footnote indicator is needed.  Another difference is
+that the command {\tt \slash theoremstyle} does not exist, and the command
+{\tt \slash newtheorem} has been modified to take a few extra arguments.
+
+To create your own chapter, copy the entire directory {\tt TEMPLATE} to
+create a directory for your own chapter, and edit the files there.  For
+example, the command
+\par\smallskip
+\centerline{\tt
+cp -a TEMPLATE foo
+}
+\smallskip\noindent
+will copy the files to a new directory named {\tt foo}.  Then you should also
+add a line $$\text{\tt \slash getChapter\char`\{foo/chapter\char`\}}$$ to the file
+{\tt book/book.tex}, and a pair of dependency lines to the top of {\tt
+book/Makefile}.
+
+The file {\tt foo/chapter.tex} is the one you where you should insert your
+text, after deleting the TeX code for these paragraphs.  It is not a complete
+TeX file, because it gets eventually input into TeX by the file {\tt
+book/book.tex} or the file {\tt foo/chapter-wrapper.tex}.  It is
+intentionally missing the $$\text{\tt \slash documentclass\char`\{lncse\char`\}}$$ and
+$$\text{\tt \slash begin\char`\{document\char`\}}$$ macros at the top, and the
+$$\text{\tt \slash bibliography\char`\{papers\char`\}}$$ and $$\text{\tt \slash
+end\char`\{document\char`\}}$$ macros at the bottom, so don't add them; these things have
+to be done in a special way when the chapter is incorporated into the book.
+
+If you want to change the name of the file {\tt foo/chapter.tex}, you should
+edit {\tt book/Makefile}, {\tt book/book.tex}, the top line of {\tt
+foo/Makefile}, and in the value of {\tt tex-main-file} at the bottom of {\tt
+foo/chapter.tex}.
+
+We include a file $$\text{\tt inputs/book-macros.tex},$$ which authors should not
+modify, which provides macros and commands which can be used throughout the
+book.  It loads the {\tt amsmath}, {\tt amscd}, {\tt amssymb}, {\tt
+latexsym} packages.
+
+We can produce an entry in the index for the whole book using the macro {\tt
+\slash index}, illustrated here with \index{indexing} $$\text{\tt
+\slash index\char`\{indexing\char`\}}.$$
+
+Use the macro $${\tt \slash Mtwo}$$ to incorporate the name \Mtwo into
+your text.  This ensures the name will be uniformly italicized.  Spaces after
+the macro will be obeyed, and an italic correction will be inserted.
+
+References to the literature \cite{MR47:3318} are created as usual with {\tt
+\slash cite}.  Make sure you put the corresponding bibtex entries,
+obtainable from MathSciNet, in the file {\tt papers.bib} in the same
+directory as your chapter.  Bibtex entries that duplicate those in other
+chapters will cause harmless warning messages.
+
+The file {\tt Makefile} contains the information needed for GNU make to run
+TeX and various auxiliary programs in the correct sequence.  To make sure you
+have GNU make installed, execute the command {\tt make -v}.  GNU make will
+identify itself with a first line like this:
+\par\smallskip
+\centerline{\tt
+GNU Make version 3.77, by Richard Stallman and Roland McGrath.
+}
+\smallskip\noindent
+You can type {\tt make} in your chapter's directory to process just your
+chapter, or you can type {\tt make} in the top level directory to create the
+whole book.  It runs TeX in scroll mode, so you can get many error messages
+at once; you can change that if you'd like it to be more interactive.
+
+If {\tt make} runs successfully, your chapter can be viewed in the file $$\text{\tt
+foo/chapter-wrapper.dvi},$$ and the book can be viewed in the file $$\text{\tt
+book/book.dvi}.$$
+
+\section{Incorporating \Mtwo code in your chapter.}
+
+To incorporate \Mtwo code into your text, surround each statement to be
+executed with \lll{} and \rrr, and the result will be automatically run
+through \Mtwo for you.
+\beginOutput
+i1 : A = QQ[x,y]\\
+\emptyLine
+o1 = A\\
+\emptyLine
+o1 : PolynomialRing\\
+\endOutput
+For example, the code above was inserted by the following line.
+\par\smallskip
+\centerline{\tt
+\lll A = QQ[x,y]\rrr
+}
+\smallskip\noindent
+A single statement can span multiple lines, but try to keep it short.
+\beginOutput
+i2 : N = cokernel random (\\
+\             A^1, \\
+\             A^\{-2,-2\}\\
+\             )\\
+\emptyLine
+o2 = cokernel | 5/2xy+y2 -8/9xy-2/5y2 |\\
+\emptyLine
+\                            1\\
+o2 : A-module, quotient of A\\
+\endOutput
+\beginOutput
+i3 : res N\\
+\emptyLine
+\      1      2      1\\
+o3 = A  <-- A  <-- A  <-- 0\\
+\                           \\
+\     0      1      2      3\\
+\emptyLine
+o3 : ChainComplex\\
+\endOutput
+If the output from \Mtwo is too wide, dots will appear indicating
+where it was truncated. 
+\beginOutput
+i4 : 100!\\
+\emptyLine
+o4 = 93326215443944152681699238856266700490715968264381621468592963895 $\cdot\cdot\cdot$\\
+\endOutput
+
+Make sure you always have the most recent version of \Mtwo installed, for
+you will be running other authors' code through it.
+
+\section{Running \Mtwo in emacs}
+
+Because some answers can be very wide, it is a good idea to run \Mtwo in
+a window which does not wrap output lines and allows the user to scroll
+horizontally to see the rest of the output.  We provide a package for {\tt
+{}emacs} which implements this, in {\tt {}emacs/M2.el} (the directory {\tt
+emacs} is in the \Mtwo distribution).  It also provides for dynamic
+completion of symbols in the language.
+
+There is an ASCII version of this section of the documentation distributed
+in the file {\tt {}emacs/emacs.hlp}.  It might be useful for you to visit
+that file with emacs now, thereby avoiding having to cut and paste bits of
+text into emacs buffers for the demonstrations below.
+
+If you are a newcomer to emacs, start up emacs with the command 
+{\tt {}emacs} and then start up the emacs tutorial with the keystrokes 
+{\tt {}C-H\ t}.  (The notation {\tt {}C-H} indicates that you should type 
+{\tt {}Control-H}, by holding down the control key, 
+and pressing {\tt {}H}.)  The emacs tutorial will introduce you to the
+basic keystrokes useful with emacs.  After running through that you will want
+to examine the online emacs manual which can be read with {\tt {}info}
+mode; you may enter or re-enter that mode with the keystrokes {\tt {}C-H\ i}.  
+You may also want to purchase (or print out) the emacs manual.  It is cheap,
+comprehensive and informative.  Once you have spent an hour with the emacs
+tutorial and manual, come back and continue from this point.
+
+Edit your {\tt {}.emacs} initialization file, located in your home directory,
+creating one if necessary.  (Under Windows, this file is called {\tt {}\_emacs}.)
+Insert into it the following lines of emacs-lisp code.
+
+\medskip
+
+{\scriptsize\ttfamily\obeylines
+(setq~auto-mode-alist~(append~auto-mode-alist~'(("{\tt\char`\\}{\tt\char`\\}.m2\$"~.~M2-mode))))
+(autoload~'M2-mode~"M2-mode.el"~"Macaulay~2~editing~mode"~t)
+(global-set-key~"{\tt\char`\\}{\char94}Cm"~'M2)~(global-set-key~[~f12~]~'M2)
+(global-set-key~"{\tt\char`\\}{\char94}Cm"~'M2)~(global-set-key~[~SunF37~]~'M2)
+(autoload~'M2~"M2.el"~"Run~Macaulay~2~in~a~buffer."~t)
+(setq~load-path~(cons~"/usr/local/Macaulay2/emacs"~load-path))
+(make-variable-buffer-local~'transient-mark-mode)
+(add-hook~'M2-mode-hook~'(lambda~()~(setq~transient-mark-mode~t)))
+(add-hook~'comint-M2-hook~'(lambda~()~(setq~transient-mark-mode~t)))
+}
+
+\smallskip
+
+The first two lines cause emacs to enter a special mode for editing \Mtwo
+code whenever a file whose name has the form {\tt {}*.m2} is encountered.  
+The next three lines provide a special mode for running \Mtwo in an emacs buffer.
+The sixth line tells emacs where to find the emacs-lisp files provided in the
+\Mtwo emacs directory - you must edit the string in that line to
+indicate the correct path on your system to the \Mtwo emacs directory.
+The files needed from that directory are {\tt {}M2-mode.el},
+{\tt {}M2-symbols.el}, and {\tt {}M2.el}.  The seventh line sets
+the variable {\tt {}transient-mark-mode} so that it can
+have a different value in each buffer.  The eighth and ninth lines set
+hooks so that {\tt {}transient-mark-mode} will be set to {\tt {}t} 
+in M2 buffers.  The effect of this is that the mark is only active occasionally,
+and then emacs functions which act on a region of text will refuse to proceed 
+unless the mark is active.  The {\tt {}set-mark} function or the
+{\tt {}exchange-point-and-mark} function will activate the mark, and it
+will remain active until some change occurs to the buffer.  The only reason
+we recommend the use of this mode is so the same key can be used to evaluate 
+a line or a region of code, depending on whether the region is active.
+
+Exit and restart emacs with your new initialization file.  
+If you are reading this file with emacs, then use the keystrokes
+{\tt {}C-x\ 2} to divide the buffer containing this file into two windows.
+Then press the {\tt {}F12} function key to start up 
+\Mtwo in a buffer named {\tt {}*M2*}.
+
+If this doesn't start up \Mtwo, one reason may be that your function
+keys are not operable.  In that case press {\tt {}C-C\ m} instead.  (The 
+notation {\tt {}C-C} is standard emacs notation for Control-C.)  Another
+reason may be that you have not installed \Mtwo properly - the startup
+script ({\tt {}M2} or {\tt {}M2.bat}) should be on your path.
+A third reason may be that you are in Windows-98 and are using anti-virus 
+software such as {\tt {}Dr.\ Solomon's}, which can interfere with emacs 
+when it tries to run a subprocess.
+
+You may use {\tt {}C-x\ o} freely to switch from one window to the other.
+Verify that \Mtwo is running by entering a command such as {\tt {}2+2}.  
+Now paste the following text into a buffer, unless you have the ASCII
+version of this documentation in an emacs buffer already, position
+the cursor on the first line of code, and press the {\tt {}F11} function 
+key (or {\tt {}C-C\ s}) repeatedly to present each line to \Mtwo.
+
+\smallskip
+
+{\ttfamily\obeylines
+i1~=~R~=~ZZ/101[x,y,z]
+i2~=~f~=~symmetricPower(2,vars~R)
+i3~=~M~=~cokernel~f
+i4~=~C~=~resolution~M
+i5~=~betti~C
+}
+
+\smallskip
+
+Notice that the input prompts are not submitted to \Mtwo.
+
+Here is a way to conduct a demo of \Mtwo in which the code to be
+submitted is not visible on the screen.  Paste the following text into
+an emacs buffer.
+
+\smallskip
+
+{\ttfamily\obeylines
+~~~~20!
+~~~~4~+~5~2{\char94}20
+~~~~--~that's~all~folks!
+}
+
+\smallskip
+
+Press {\tt {}M-F11} with your cursor in this buffer to designate it as
+the source for the \Mtwo commands.  (The notation {\tt {}M-F11} means 
+that while holding the {\tt {}Meta} key down, you should press the {\tt {}F11} 
+key.  The Meta key is the Alt key on some keyboards, or it can be simulated by 
+pressing Escape (just once) and following that with the key you wanted to press 
+while the meta key was held down.)  Then position your cursor (and thus the 
+emacs point) within the line containing {\tt {}20!}.  Now press {\tt {}M-F12}
+to open up a new frame called {\tt {}DEMO} for the {\tt {}*M2*} window with
+a large font suitable for use with a projector, and with your cursor in that
+frame, press {\tt {}F11} a few times to conduct the demo.  (If the font or frame is the
+wrong size, you may have to create a copy of the file {\tt {}M2.el}
+with a version of the function {\tt {}M2-demo} modified to fit your screen.)
+
+One press of {\tt {}F11} brings the next line of code forward into the
+{\tt {}*M2*} buffer, and the next press executes it.  Use {\tt {}C-x\ 5\ 0} 
+when you want the demo frame to go away.
+
+There is a way to send a region of text to \Mtwo: simply select a region
+of text, making sure the mark is active (as described above) and press {\tt {}F11}.
+Try that on the list below; put it into an emacs buffer, move your cursor to the 
+start of the list, press {\tt {}M-C-@} or {\tt {}M-C-space} to mark the list, 
+and then press {\tt {}F11} to send it to \Mtwo.  (The notation {\tt {}M-C-@} 
+means: while holding down the Meta key and the Control key press the {\tt {}@} key, 
+for which you'll also need the shift key.)
+
+\smallskip
+
+{\ttfamily\obeylines
+{\tt\char`\{}a,b,c,d,e,f,
+g,h,i,j,k,l,
+m,n{\tt\char`\}}
+}
+
+\smallskip
+
+We have developed a system for incorporating \Mtwo interactions into TeX
+files.  Here is an example of how that looks.  Paste the following text,
+representing something you might see in a TeX file, into an emacs buffer.
+
+\medskip
+
+{\ttfamily\obeylines\scriptsize
+~~~The~answer,~4,~is~displayed~after~the~output~label~``{\tt\char`\{}{\tt\char`\\}tt~o1{\tt\char`\\}~={\tt\char`\}}''.~~
+~~~Multiplication~is~indicated~with~the~traditional~{\tt\char`\{}{\tt\char`\\}tt~*{\tt\char`\}}.
+~~~{\tt \char`\<}{\tt\char`\<}{\tt\char`\<}1*2*3*4{\tt\char`\>}{\tt\char`\>}{\tt\char`\>}
+~~~Powers~are~obtained~as~follows.
+~~~{\tt\char`\<}{\tt\char`\<}{\tt\char`\<}2{\char94}100{\tt\char`\>}{\tt\char`\>}{\tt\char`\>}
+}
+
+\smallskip
+
+The bits in brackets can be submitted to \Mtwo easily.  Position your
+cursor at the top of the buffer and press {\tt {}F10.}  The cursor will move 
+just past the first {\tt {<}<<}, and the emacs mark will be positioned just 
+before the {\tt {}>>>}.  Thus {\tt {}1*2*3*4} is the region, and it will
+even be highlighted if you have set the emacs variable {\tt {}transient-mark-mode}
+to {\tt {}t} for this buffer.  Pressing {\tt {}F11} will send {\tt {}1*2*3*4} 
+to \Mtwo for execution: try it now.  A sequence of such \Mtwo commands 
+can be executed by alternately pressing {\tt {}F10} and {\tt {}F11}.  You may
+also use {\tt {}M-F10} to move backward to the previous bracketed expression.
+
+Now let's see how we can handle wide and tall \Mtwo output.  Execute the
+following line of code.
+
+\smallskip
+
+{\ttfamily\obeylines
+random(R{\char 94}20,R{\char94}{\tt\char`\{}6:-2{\tt\char`\}})
+}
+
+\smallskip
+
+Notice that the long lines in the \Mtwo window, instead of being wrapped
+around to the next line, simply disappear off the right side of the screen,
+as indicated by the dollar signs in the rightmost column.  Switch to the
+other window and practice scrolling up and down with {\tt {}M-v} and {\tt {}C-v}, 
+and scrolling left and right with the function key {\tt {}F3} (or {\tt {}C-C\ <}) 
+and the function key {\tt {}F4} (or {\tt {}C-C\ >}).  Notice how the use of
+{\tt {}C-E} to go to the end of the line
+sends the cursor to the dollar sign at the right hand side of the screen;
+that's where the cursor will appear whenever you go to a position off the
+screen to the right.  Then use the {\tt {}F2} function key (or {\tt {}C-C\ .}) to 
+scroll the text so the cursor appears at the center of the screen.  Use {\tt {}C-A} to 
+move to the beginning of the line and then the {\tt {}F2} function key 
+(or {\tt {}C-C\ .}) to bring the left margin back into view.
+
+You may use the {\tt {}F5} function key or (or {\tt {}C-C\ ?}) to 
+toggle whether long lines are truncated or wrapped; initially they are truncated.
+
+Now go to the very end of the {\tt {}*M2*} buffer with {\tt {}M->} and 
+experiment with keyword completion.  Type {\tt {}reso} and then press the 
+{\tt {}TAB} key.  Notice how the word is completed to {\tt {}resolution}
+for you.  Delete the word with {\tt {}M-DEL}, type {\tt {}res}
+and then press the {\tt {}TAB} key.  The possible completions are displayed 
+in a window.  Switch to it with the {\tt {}F8} key, move to the desired 
+completion, select it with the {\tt {}RETURN} key, and then return to the 
+{\tt {}*M2*} buffer with {\tt {}C-X\ o}.  Alternatively, if you have a
+mouse, use the middle button to select the desired completion.
+
+Experiment with command line history in the {\tt {}*M2*} buffer.  Position 
+your cursor at the end of the buffer, and then use {\tt {}M-p} and {\tt {}M-n} 
+to move to the previous and next line of input remembered in the history.  When you 
+get to one you'd like to run again, simply press return to do so.  Or edit it
+slightly to change it before pressing return.
+
+\section{Editing \Mtwo code with emacs}
+
+In this section we learn how to use emacs to edit \Mtwo code.  Assuming you
+have set up your emacs init file as described in {\tt {}running\ Macaulay\ 2\ in\ emacs}
+when you visit a file whose name ends with {\tt {}.m2} 
+you will see on the mode line the name {\tt {}Macaulay\ 2} in
+parentheses, indicating that the file is being edited in \Mtwo mode.  (Make
+sure that the file {\tt {}emacs/M2-mode.el} is on your {\tt {}load-path}.)
+
+To see how electric parentheses, electric semicolons, and indentation work,
+move to a blank line of this file and type the following text.
+
+\smallskip
+
+{\ttfamily\obeylines
+f~=~()~-{\tt\char`\>}~(
+~~~~~a~:=~4;
+~~~~~b~:=~{\tt\char`\{}6,7{\tt\char`\}};
+~~~~~a+b)
+}
+
+\smallskip
+
+Observe carefully how matching left parentheses are indicated briefly when a
+right parenthesis is typed.
+
+Now position your cursor in between the 6 and 7.  Notice how
+pressing {\tt {}M-C-u} moves you up out of the list to its left.  Do it 
+again.  Experiment with {\tt {}M-C-f} and {\tt {}M-C-b} to move forward
+and back over complete parenthesized
+expressions.  (In the emacs manual a complete parenthesized expression is
+referred to as an sexp, which is an abbreviation for S-expression.)  Try out
+{\tt {}C-U\ 2\ M-C-@} as a way of marking the next two complete parenthesized
+expression, and see how to use {\tt {}C-W} to kill them and {\tt {}C-Y} to yank 
+them back.  Experiment with {\tt {}M-C-K} to kill the next complete parenthesized 
+expression.
+
+Position your cursor on the 4 and observe how {\tt {}M-;} will start a comment 
+for you with two hyphens, and position the cursor at the point where commentary
+may be entered.
+
+Type {\tt {}res} somewhere and then press {\tt {}C-C\ TAB} to bring up the
+possible completions of the word to documented \Mtwo symbols.
+
+Finally, notice how {\tt {}C-H\ m} will display the keystrokes peculiar to 
+the mode in a help window.
+
+The text below is for testing purposes:
+
+    \def\f{\edef\g{\the\lastskip}{\tt<----- \g}\par}
+
+    a: \f
+    a. \f
+    a? \f
+    a; \f
+
+% Local Variables:
+% mode: latex
+% mode: reftex
+% tex-main-file: "chapter-wrapper.tex"
+% reftex-keep-temporary-buffers: t
+% reftex-use-external-file-finders: t
+% reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+% End:

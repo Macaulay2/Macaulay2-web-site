@@ -1,0 +1,642 @@
+\title{Teaching the Geometry of Schemes}
+\titlerunning{Teaching the Geometry of Schemes}
+\toctitle{Teaching the Geometry of Schemes}
+
+\author{Gregory G.~Smith \and Bernd Sturmfels}
+\authorrunning{G. G. Smith and B. Sturmfels}
+% \institute{Department of Mathematics, University of California,
+% Berkeley, California 94720, USA}
+
+\maketitle
+
+
+%%----------------------------------------------------------
+\newtheorem*{problem*}{Problem}{\bfseries\upshape}{\itshape}
+\newtheorem*{solution*}{Solution}{\itshape}{\rmfamily}
+
+\newcommand{\Spec}{\operatorname{Spec}}
+\newcommand{\Proj}{\operatorname{Proj}}
+\newcommand{\codim}{\operatorname{codim}}
+%%----------------------------------------------------------
+
+
+\begin{abstract}
+This chapter presents a collection of graduate level problems in
+algebraic geometry illustrating the power of \Mtwo as an educational
+tool.
+\end{abstract}
+
+When teaching an advanced subject, like the language of schemes, we
+think it is important to provide plenty of concrete instances of the
+theory.  Computer algebra systems, such as \Mtwo, provide students
+with an invaluable tool for studying complicated examples.
+Furthermore, we believe that the explicit nature of a computational
+approach leads to a better understanding of the objects being
+examined.  This chapter presents some problems which we feel
+illustrate this point of view.
+
+Our examples are selected from the homework of an algebraic geometry
+class given at the University of California at Berkeley in the fall of 1999.
+This graduate course was taught by the second author with assistance from the
+first author.  Our choice of problems, as the title suggests, follows the
+material in David Eisenbud and Joe Harris' textbook {\em The Geometry of
+  Schemes} \cite{SC:EH}.
+
+%%----------------------------------------------------------
+\section{Distinguished Open Sets}
+
+We begin with a simple example involving the Zariski topology of an affine
+scheme\index{scheme!affine}. This example also indicates some of the
+subtleties involved in working with arithmetic
+schemes\index{scheme!arithmetic}.
+
+\begin{problem*}
+Let $S = \bbbz[x,y,z]$ and $X = \Spec(S)$.  If $f = x$ and $X_{f}$ is
+the corresponding basic open subset in $X$, then establish the
+following:
+\begin{enumerate}
+\item[$(1)$] If $e_{1} = x+y+z$, $e_{2} = xy+xz+yz$ and $e_{3} = xyz$
+are the elementary symmetric functions then the set $\{X_{e_{i}}\}_{1
+\leq i \leq 3}$ is an open cover of $X_{f}$.
+\item[$(2)$] If $p_{1} = x+y+z$, $p_{2} = x^{2}+y^{2}+z^{2}$ and $p_{3}
+= x^{3}+y^{3}+z^{3}$ are the power sum symmetric functions then
+$\{X_{p_{i}}\}_{1 \leq i \leq 3}$ is {\em not} an open cover of
+$X_{f}$.
+\end{enumerate}
+\end{problem*}
+
+\begin{solution*}
+$(1)$ To prove that $\{X_{e_{i}}\}_{1 \leq i \leq 3}$ is an open cover
+of $X_{f}$, it suffices to show that $e_{1}$, $e_{2}$ and $e_{3}$
+generate the unit ideal in $S_{f}$; see Lemma I-16 in Eisenbud and
+Harris~\cite{SC:EH}.  This is equivalent to showing that $x^{m}$
+belongs to the $S$-ideal $\langle e_{1}, e_{2}, e_{3} \rangle$ for
+some $m \in \bbbn$.  In other words, the saturation\index{saturation}
+$\big( \langle e_{1}, e_{2}, e_{3} \rangle : x^{\infty} \big)$ is the
+unit ideal if and only if $\{X_{e_{i}}\}_{1 \leq i \leq 3}$ is an open
+cover of $X_{f}$.  We verify this in \Mtwo as follows:
+<<<S = ZZ[x, y, z];>>>
+<<<elementaryBasis = ideal(x+y+z, x*y+x*z+y*z, x*y*z);>>>
+<<<saturate(elementaryBasis, x)>>>
+$(2)$ Similarly, to show that $\{X_{p_{i}}\}_{1 \leq i \leq 3}$ is not
+an open cover of $X_{f}$, we prove that $\big( \langle p_{1}, p_{2},
+p_{3} \rangle : x^{\infty} \big)$ is not the unit ideal.  Calculating
+this saturation, we find
+<<<powerSumBasis = ideal(x+y+z, x^2+y^2+z^2, x^3+y^3+z^3);>>>
+<<<saturate(powerSumBasis, x)>>>
+<<<clearAll>>>
+which is not the unit ideal.\qed
+\end{solution*}
+
+The fact that $6$ is a generator of the ideal $\big( \langle p_{1},
+p_{2}, p_{3} \rangle : x^{\infty} \big)$ indicates that
+$\{X_{p_{i}}\}_{1 \leq i \leq 3}$ does not contain the points in $X$
+lying over the points $\langle 2 \rangle$ and $\langle 3 \rangle$ in
+$\Spec(\bbbz)$.  If we work over a base ring in which $6$ is a unit,
+then $\{X_{p_{i}}\}_{1 \leq i \leq 3}$ would, in fact, be an open
+cover of $X_{f}$.
+
+
+%%----------------------------------------------------------
+\section{Irreducibility}
+
+The study of complex semisimple Lie algebras gives rise to an
+important family of algebraic varieties called nilpotent
+orbits\index{nilpotent orbits}.  The next problem examines the
+irreducibility\index{scheme!irreducible} of a particular nilpotent
+orbit.
+
+\begin{problem*} 
+Let $X$ be the set of nilpotent complex $3 \times 3$ matrices.  Show
+that $X$ is an irreducible algebraic variety.
+\end{problem*}
+
+\begin{solution*}
+A $3 \times 3$ matrix $M$ is nilpotent if and only if its minimal
+polynomial $p(\sf T)$ equals ${\sf T}^{k}$, for some $k \in \bbbn$.
+Since each irreducible factor of the characteristic polynomial of $M$
+is also a factor of $p(\sf T)$, it follows that the characteristic
+polynomial of $M$ is ${\sf T}^{3}$.  We conclude that the coefficients
+of the characteristic polynomial of a generic $3 \times 3$ matrix
+define the algebraic variety $X$.
+
+To prove that $X$ is irreducible over $\bbbc$, we construct a rational
+parameterization\index{rational parameterization}.  First, observe
+that ${\rm GL}_{3}(\bbbc)$ acts on $X$ by conjugation.  Jordan's
+canonical form theorem implies that there are exactly three orbits;
+one for each of the following matrices:
+\[
+N_{(1,1,1)} =\left[ \begin{smallmatrix} 0 & 0 & 0 \\ 0 & 0 & 0 \\ 0 &
+0 & 0 \end{smallmatrix} \right], \quad
+N_{(2,1)} = \left[ \begin{smallmatrix} 0 & 1 & 0 \\ 0 & 0 & 0 \\ 0 & 0
+& 0 \end{smallmatrix} \right] \text{ and }
+N_{(3)} = \left[ \begin{smallmatrix} 0 & 1 & 0 \\ 0 & 0 & 1 \\ 0 & 0 &
+0 \end{smallmatrix} \right] \enspace .
+\]
+Each orbit is defined by a rational parameterization, so it suffices
+to show that the closure of the orbit containing $N_{(3)}$ is the
+entire variety $X$.  We demonstrate this as follows:
+<<<S = QQ[t, y_0 .. y_8, a..i, MonomialOrder => Eliminate 10];>>>
+<<<N3 = (matrix {{0,1,0},{0,0,1},{0,0,0}}) ** S>>>
+<<<G = genericMatrix(S, y_0, 3, 3)>>>
+To determine the entries in $G \cdot N_{(3)} \cdot G^{-1}$, we use the
+classical adjoint\index{classical adjoint} to construct the matrix
+$\det(G) \cdot G^{-1}$.
+<<<classicalAdjoint = (G) -> (
+     n := degree target G;
+     m := degree source G;
+     matrix table(n, n, (i, j) -> (-1)^(i+j) * det(
+               submatrix(G, {0..j-1, j+1..n-1}, 
+                    {0..i-1, i+1..m-1}))));>>>
+<<<num = G * N3 * classicalAdjoint(G);>>>
+<<<D = det(G);>>>
+<<<M = genericMatrix(S, a, 3, 3);>>>
+The entries in $G \cdot N_{(3)} \cdot G^{-1}$ give a rational
+parameterization of the orbit generated by $N_{(3)}$.  Using
+elimination theory\index{elimination theory} --- see section~3.3 in
+Cox, Little and O`Shea~\cite{SC:CLO} --- we give an ``implicit
+representation'' of this variety.
+<<<elimIdeal = minors(1, (D*id_(S^3))*M - num) + ideal(1-D*t);>>>
+<<<closureOfOrbit = ideal selectInSubring(1, gens gb elimIdeal);>>>
+
+Finally, we verify that this orbit closure equals $X$
+scheme-theoretically.  Recall that $X$ is defined by the coefficients
+of the characteristic polynomial of a generic $3 \times 3$ matrix {\tt
+M}.
+%% was X = ideal submatrix( (coeff-icients({0}, det(M - t*id_(S^3))))_1,
+%% {1,2,3} ), but 'coeff-icients' is to be redesigned, and 'contract' is
+%% more self-explanatory, anyway.
+<<<X = ideal substitute(
+        contract(matrix{{t^2,t,1}}, det(t-M)),
+        {t => 0_S})>>>
+<<<closureOfOrbit == X>>>
+<<<clearAll>>>
+This completes our solution.\qed
+\end{solution*}
+
+More generally, Kostant shows that the set of all nilpotent elements
+in a complex semisimple Lie algebra\index{Lie algebra} form an
+irreducible variety.  We refer the reader to Chriss and
+Ginzburg~\cite{SC:CV} for a proof of this result (Corollary~3.2.8) and
+a discussion of its applications in representation theory.
+
+
+%%----------------------------------------------------------
+\section{Singular Points}
+
+In our third question, we study the singular locus\index{singular
+locus} of a family of elliptic curves\index{elliptic curve}.
+
+\begin{problem*} 
+Consider a general form of degree $3$ in $\bbbq[x,y,z]$:
+\[
+F = ax^{3} + bx^{2}y + cx^{2}z + dxy^{2} + exyz + fxz^{2} + gy^{3} +
+hy^{2}z + iyz^{2} + jz^{3} \enspace .
+\]
+Give necessary and sufficient conditions in terms of $a, \ldots, j$
+for the cubic curve $\Proj\big( \bbbq[x,y,z] / \langle F \rangle
+\big)$ to have a singular point.
+\end{problem*}
+
+\begin{solution*}
+The singular locus of $F$ is defined by a polynomial of degree $12$ in
+the $10$ variables $a, \dotsc, j$.  We calculate this polynomial in two
+different ways.
+
+Our first method is an elementary but time consuming elimination.
+Carrying it out in \Mtwo, we have
+<<<S = QQ[x, y, z, a..j, MonomialOrder => Eliminate 2];>>>
+<<<F = a*x^3+b*x^2*y+c*x^2*z+d*x*y^2+e*x*y*z+f*x*z^2+g*y^3+h*y^2*z+
+             i*y*z^2+j*z^3;>>>
+<<<partials = submatrix(jacobian matrix{{F}}, {0..2}, {0})>>>
+<<<singularities = ideal(partials) + ideal(F);>>>
+<<<elimDiscr = time ideal selectInSubring(1,gens gb singularities);>>>
+<<<elimDiscr = substitute(elimDiscr, {z => 1});>>>
+On the other hand, there is also an elegant and more useful
+determinantal formula for this discriminant\index{discriminant}; it is
+a specialization of the formula (2.8) in section~3.2 of Cox, Little
+and O`Shea~\cite{SC:CLO2}.  To apply this determinantal formula, we
+first create the coefficient matrix {\tt A} of the partial derivatives
+of $F$.
+%% was A = (coeff-icients({0,1,2}, submatrix(jacobian matrix{{F}}, {0..2}, {0})))_1;
+%% but 'coeff-icients' is deprecated.
+<<<A = contract(matrix{{x^2,x*y,y^2,x*z,y*z,z^2}},
+        diff(transpose matrix{{x,y,z}},F))>>>
+We also construct the coefficient matrix {\tt B} of the partial
+derivatives of the Hessian\index{hessian} of $F$.
+<<<hess = det submatrix(jacobian ideal partials, {0..2}, {0..2});>>>
+%% was B = (coeff-icients({0,1,2}, submatrix(jacobian matrix{{hess}}, {0..2}, {0})))_1;
+%% but 'coeff-icients' is deprecated.
+<<<B = contract(matrix{{x^2,x*y,y^2,x*z,y*z,z^2}},
+        diff(transpose matrix{{x,y,z}},hess))>>>
+To obtain the discriminant, we combine these two matrices and take the
+determinant.
+<<<detDiscr = ideal det (A || B);>>>
+Finally, we check that our two discriminants are equal
+<<<detDiscr == elimDiscr>>>
+and examine the generator.
+<<<detDiscr_0>>>
+<<<numgens detDiscr>>>
+<<<# terms detDiscr_0>>>
+<<<clearAll>>>
+Hence, the singular locus is given by a single polynomial of degree
+$12$ with $2040$ terms.\qed
+\end{solution*}
+
+For a further discussion of singularities and discriminants see
+Section~V.3 in Eisenbud and Harris~\cite{SC:EH}.  For information on
+resultants and discriminants see Chapter~2 in Cox, Little and
+O`Shea~\cite{SC:CLO2}.
+
+
+%%----------------------------------------------------------
+\section{Fields of Definition}
+
+Schemes\index{scheme!over a number field} over non-algebraically
+closed fields arise in number theory.  Our fourth problem looks at one
+technique for working with number fields in \Mtwo.
+
+\begin{problem*}[Exercise~II-6 in  \cite{SC:EH}]
+An inclusion of fields $K \hookrightarrow L$ induces a map
+$\mathbb{A}_{L}^{n} \to \mathbb{A}_{K}^{n}$.  Find the images in
+$\mathbb{A}_{\bbbq}^{2}$ of the following points of
+$\mathbb{A}_{\overline{\bbbq}}^{2}$ under this map.
+\begin{enumerate}
+\item[$(1)$] $\langle x - \sqrt{2}, y - \sqrt{2} \rangle ;$
+\item[$(2)$] $\langle x - \sqrt{2}, y - \sqrt{3} \rangle ;$
+\item[$(3)$] $\langle x - \zeta, y - \zeta^{-1} \rangle$ where $\zeta$
+is a $5$-th root of unity $;$
+\item[$(4)$] $\langle \sqrt{2}x- \sqrt{3}y \rangle ;$
+\item[$(5)$] $\langle \sqrt{2}x- \sqrt{3}y-1 \rangle$.
+\end{enumerate}
+\end{problem*}
+
+\begin{solution*}
+The images can be determined by using the following three step
+algorithm: (1) replace the coefficients not contained in $K$ with
+indeterminates, (2) add the minimal polynomials of these coefficients
+to the given ideal in $\mathbb{A}_{L}^{2}$, and (3) eliminate the new
+indeterminates.  Here are the five examples:
+<<<S = QQ[a,b,x,y, MonomialOrder => Eliminate 2];>>>
+<<<I1 = ideal(x-a, y-a, a^2-2);>>>
+<<<ideal selectInSubring(1, gens gb I1)>>>
+<<<I2 = ideal(x-a, y-b, a^2-2, b^2-3);>>>
+<<<ideal selectInSubring(1, gens gb I2)>>>
+<<<I3 = ideal(x-a, y-a^4, a^4+a^3+a^2+a+1);>>>
+<<<ideal selectInSubring(1, gens gb I3)>>>
+<<<I4 = ideal(a*x+b*y, a^2-2, b^2-3);>>>
+<<<ideal selectInSubring(1, gens gb I4)>>>
+<<<I5 = ideal(a*x+b*y-1, a^2-2, b^2-3);>>>
+<<<ideal selectInSubring(1, gens gb I5)>>>
+<<<clearAll>>>
+\qed
+\end{solution*}
+
+It is worth noting that the points in $\mathbb{A}_{\bbbq}^{n}$ correspond
+to orbits of the action of ${\rm Gal}(\overline{\bbbq}/\bbbq)$ on the
+points of $\mathbb{A}_{\overline{\bbbq}}^{n}$.  For more examples and
+information, see section~II.2 in Eisenbud and Harris~\cite{SC:EH}.
+
+
+%%----------------------------------------------------------
+\section{Multiplicity}
+
+The multiplicity\index{multiplicity} of a zero-dimensional scheme $X$
+at a point $p \in X$ is defined to be the length of the local ring
+$\mathcal{O}_{X,p}$.  Unfortunately, we cannot work directly in the
+local ring in \Mtwo.  What we can do, however, is to compute the
+multiplicity by computing the degree of the component of $X$ supported
+at $p$; see page 66 in Eisenbud and Harris~\cite{SC:EH}.
+
+\begin{problem*}
+What is the multiplicity of the origin as a zero of the polynomial
+equations $x^{5}+y^{3}+z^{3} = x^{3}+y^{5}+z^{3} = x^{3}+y^{3}+z^{5} =
+0$?
+\end{problem*}
+
+\begin{solution*}
+If $I$ is the ideal generated by $x^{5}+y^{3}+z^{3}$,
+$x^{3}+y^{5}+z^{3}$ and $x^{3}+y^{3}+z^{5}$ in $\bbbq[x,y,z]$, then
+the multiplicity of the origin is
+\[
+\dim_{\bbbq} \frac{\bbbq[x,y,z]_{\langle x,y,z \rangle}}
+{I \bbbq[x,y,z]_{\langle x,y,z \rangle}} \, .
+\]
+It follows that the multiplicity is the vector space dimension of the
+ring $\bbbq[x,y,z] / \varphi^{-1}(I \bbbq[x,y,z]_{\langle x,y,z
+\rangle})$ where $\varphi \colon \bbbq[x,y,z] \to
+\bbbq[x,y,z]_{\langle x,y,z \rangle}$ is the natural map.  Moreover,
+we can express this using ideal quotients:
+\[
+\varphi^{-1}(I \bbbq[x,y,z]_{\langle x,y,z \rangle}) \,\,= \,\,
+\big(I : (I : \langle x,y,z \rangle^{\infty})\big) \, .
+\]
+Carrying out this calculation in \Mtwo, we obtain:
+<<<S = QQ[x, y, z];>>>
+<<<I = ideal(x^5+y^3+z^3, x^3+y^5+z^3, x^3+y^3+z^5);>>>
+<<<multiplicity = degree(I : saturate(I))>>>
+<<<clearAll>>>
+Thus, we conclude that the multiplicity is $27$.\qed
+\end{solution*}
+
+There are algorithms (not yet implemented in \Mtwo) for working
+directly in the local ring $\bbbq[x,y,z]_{\langle x,y,z \rangle}$.  We
+refer the interested reader to Chapter~4 in Cox, Little and
+O`Shea~\cite{SC:CLO2}.
+
+
+%%----------------------------------------------------------
+\section{Flat Families}
+
+Non-reduced schemes\index{scheme!non-reduced} arise naturally as flat
+limits\index{flat limit} of a family of reduced
+schemes\index{scheme!reduced}. Our next problem illustrates how a
+family of skew lines in $\bbbp^{3}$ gives rise to a double line with
+an embedded point\index{embedded point}.
+
+\begin{problem*}[Exercise~III-68 in \cite{SC:EH}]
+Let $L$ and $M $ be the lines in $\bbbp^{3}_{k[t]}$ given by $x=y=0$
+and $x-tz = y+t^{2}w =0$ respectively.  Show that the flat limit as $t
+\to 0$ of the union $L \cup M$ is the double line $x^{2} = y = 0$ with
+an embedded point of degree $1$ located at the point $(0:0:0:1)$.
+\end{problem*}
+
+\begin{solution*}
+We first find the flat limit by saturating\index{saturation} the
+intersection ideal and setting $t = 0$.
+<<<PP3 = QQ[t, x, y, z, w];>>>
+<<<L = ideal(x, y);>>>
+<<<M = ideal(x-t*z, y+t^2*w);>>>
+<<<X = intersect(L, M);>>>
+<<<Xzero = trim substitute(saturate(X, t), {t => 0})>>>
+Secondly, we verify that this is the union of a double line and an
+embedded point of degree $1$.
+<<<Xzero == intersect(ideal(x^2, y), ideal(x, y^2, z))>>>
+<<<degree(ideal(x^2, y ) / ideal(x, y^2, z))>>>
+<<<clearAll>>>
+\qed
+\end{solution*}
+
+Section~III.3.4 in Eisenbud and Harris~\cite{SC:EH} contains several
+other interesting limits of various flat families.
+
+
+%%----------------------------------------------------------
+\section{B\'{e}zout's Theorem}
+
+B\'{e}zout's Theorem\index{Bezout's Theorem@B\'ezout's Theorem} --- Theorem~III-78 in
+Eisenbud and Harris~\cite{SC:EH} --- may fail without the
+Cohen-Macaulay\index{Cohen-Macaulay} hypothesis.  Our seventh problem
+is to demonstrate this.
+
+\begin{problem*}[Exercise~III-81 in \cite{SC:EH}]
+Find irreducible closed subvarieties $X$ and $Y$ in $\bbbp^{4}$ such
+that 
+\begin{align*}
+\codim(X \cap Y) &= \codim(X) + \codim(Y) \\
+\deg(X \cap Y) &> \deg(X) \cdot \deg(Y) \, .
+\end{align*}
+\end{problem*}
+
+\begin{solution*}
+We show that the assertion holds when $X$ is the cone over the
+nonsingular rational quartic curve\index{rational quartic curve} in
+$\bbbp^{3}$ and $Y$ is a two-plane passing through the vertex of the
+cone.  First, recall that the rational quartic curve is given by the
+$2 \times 2$ minors of the matrix $\left[ \begin{smallmatrix} a &
+b^{2} & bd & c \\ b & ac & c^2 & d \end{smallmatrix} \right]$; see
+Exercise~18.8 in Eisenbud~\cite{SC:E}.  Thus, we have
+<<<S = QQ[a, b, c, d, e];>>>
+<<<IX = trim minors(2, matrix{{a, b^2, b*d, c},{b, a*c, c^2, d}})>>>
+<<<IY = ideal(a, d);>>>
+<<<codim IX + codim IY == codim (IX + IY)>>>
+<<<(degree IX) * (degree IY)>>>
+<<<degree (IX + IY)>>>
+which establishes the assertion.\qed
+\end{solution*}
+
+To understand how this example works, it is enlightening to express
+$Y$ as the intersection of two hyperplanes; one given by $a = 0$ and
+the other given by $d = 0$.  Intersecting $X$ with the first
+hyperplane yields
+<<<J = ideal mingens (IX + ideal(a))>>>
+However, this first intersection has an embedded point;
+<<<J == intersect(ideal(a, b*c, b^2, c^3-b*d^2), 
+     ideal(a, d, b*c, c^3, b^3)) -- embedded point>>>
+<<<clearAll>>>
+The second hyperplane passes through this embedded
+point\index{embedded point} which explains the extra intersection.
+
+
+%%----------------------------------------------------------
+\section{Constructing Blow-ups}
+
+The blow-up\index{blow-up} of a scheme $X$ along a subscheme $Y$ can
+be constructed from the Rees algebra\index{Rees algebra} associated to
+the ideal sheaf of $Y$ in $X$; see Theorem~IV-22 in Eisenbud and
+Harris~\cite{SC:EH}.  Gr\"{o}bner basis techniques allow one to
+express the Rees algebra in terms of generators and relations.  We
+illustrate this method in the next solution.
+
+\begin{problem*}[Exercises~IV-43 \& IV-44 in \cite{SC:EH}]
+Find the blow-up $X$ of the affine plane\index{scheme!affine}
+$\mathbb{A}^{2} = \Spec\big( \bbbq[x, y] \big)$ along the subscheme
+defined by $\langle x^{3}, xy, y^{2} \rangle$.  Show that $X$ is
+nonsingular and its fiber over the origin is the union of two copies
+of $\bbbp^{1}$ meeting at a point.
+\end{problem*}
+
+\begin{solution*}
+We first provide a general function which returns the ideal of
+relations for the Rees algebra.
+<<<blowUpIdeal = (I) -> (
+     r := numgens I;
+     S := ring I;
+     n := numgens S;
+     K := coefficientRing S;
+     tR := K[t, gens S, vars(0..r-1), 
+               MonomialOrder => Eliminate 1];
+     f := map(tR, S, submatrix(vars tR, {1..n}));
+     F := f(gens I);
+     J := ideal apply(1..r, j -> (gens tR)_(n+j)-t*F_(0,(j-1)));
+     L := ideal selectInSubring(1, gens gb J);
+     R := K[gens S, vars(0..r-1)];
+     g := map(R, tR, 0 | vars R);
+     trim g(L));>>>
+Now, applying the function to our specific case yields: 
+<<<S = QQ[x, y];>>>
+<<<I = ideal(x^3, x*y, y^2);>>>
+<<<J = blowUpIdeal(I)>>>
+Therefore, the blow-up of the affine plane along the given subscheme
+is
+\[
+X = \Proj\left( \frac{(\bbbq[x,y])[a,b,c]}{\langle yb-xc, xb^{2}-ac,
+x^{2}b-ya, x^{3}c-y^{2}a \rangle} \right) \, .
+\]
+Using \Mtwo, we can also verify that the scheme $X$ is
+nonsingular\index{singular locus};
+<<<J + ideal jacobian J == ideal gens ring J>>>
+<<<clearAll>>>
+Since we have
+\[
+\frac{(\bbbq[x,y])[a,b,c]}{\langle yb-xc, xb^{2}-ac, x^{2}b-ya,
+x^{3}c-y^{2}a \rangle} \otimes \frac{\bbbq[x,y]}{\langle x, y \rangle}
+\cong \frac{\bbbq[a,b,c]}{\langle ac \rangle} \, ,
+\]
+the fiber over the origin $\langle x,y \rangle$ in $\mathbb{A}^{2}$ is
+clearly a union of two copies of $\bbbp^{1}$ meeting at one point.  In
+particular, the exceptional fiber is not a projective space.\qed
+\end{solution*}
+
+Many other interesting blow-ups can be found in section~II.2 in
+Eisenbud and Harris~\cite{SC:EH}.
+
+
+%%----------------------------------------------------------
+\section{A Classic Blow-up}
+
+We consider the blow-up\index{blow-up} of the projective plane
+$\bbbp^{2}$ at a point.
+
+\vbox{
+\begin{problem*}
+Show that the following varieties are isomorphic.
+\begin{enumerate}
+\item[$(a)$] the image of the rational map from $\bbbp^{2}$ to
+$\bbbp^{4}$ given by
+\[
+(r:s:t) \mapsto (r^{2}:s^{2}:rs:rt:st) \, ;
+\]
+\item[$(b)$] the blow-up of the plane $\bbbp^{2}$ at the point
+$(0:0:1)$;
+\item[$(c)$] the determinantal variety\index{determinantal variety}
+defined by the $2 \times 2$ minors of the matrix $\left[
+\begin{smallmatrix} a & c & d \\ b & d & e \end{smallmatrix} \right]$
+where $\bbbp^{4} = \Proj\big( k[a,b,c,d,e] \big)$.
+\end{enumerate}
+This surface is called the {\em cubic scroll}\index{cubic scroll} in
+$\bbbp^{4}$.
+\end{problem*}
+}
+
+\begin{solution*}
+We find the ideal in part~$(a)$ by elimination
+theory\index{elimination theory}.
+<<<PP4 = QQ[a..e];>>>
+<<<S = QQ[r..t, A..E, MonomialOrder => Eliminate 3];>>>
+<<<I = ideal(A - r^2, B - s^2, C - r*s, D - r*t, E - s*t);>>>
+<<<phi = map(PP4, S, matrix{{0_PP4, 0_PP4, 0_PP4}} | vars PP4)>>>
+<<<surfaceA = phi ideal selectInSubring(1, gens gb I)>>>
+Next, we determine the surface in part~$(b)$.  We construct the ideal
+defining the blow-up of $\bbbp^{2}$ 
+<<<R = QQ[t, x, y, z, u, v, MonomialOrder => Eliminate 1];>>>
+<<<blowUpIdeal = ideal selectInSubring(1, gens gb ideal(u-t*x, 
+     v-t*y))>>>
+and embed it in $\bbbp^{2} \times \bbbp^{1}$.
+<<<PP2xPP1 = QQ[x, y, z, u, v];>>>
+<<<embed = map(PP2xPP1, R, 0 | vars PP2xPP1);>>>
+<<<blowUp = PP2xPP1 / embed(blowUpIdeal);>>>
+We then map this surface into $\bbbp^{5}$ using the Segre
+embedding\index{Segre embedding}.
+<<<PP5 = QQ[A .. F];>>>
+<<<segre = map(blowUp, PP5, matrix{{x*u,y*u,z*u,x*v,y*v,z*v}});>>>
+<<<ker segre>>>
+Note that the image under the Segre map lies on a hyperplane in
+$\bbbp^{5}$.  To get the desired surface in $\bbbp^{4}$, we project
+<<<projection = map(PP4, PP5, matrix{{a, c, d, c, b, e}})>>>
+<<<surfaceB = trim projection ker segre>>>
+Finally, we compute the surface in part~$(c)$.
+<<<determinantal = minors(2, matrix{{a, c, d}, {b, d, e}})>>>
+<<<sigma = map( PP4, PP4, matrix{{d, e, a, c, b}});>>>
+<<<surfaceC = sigma determinantal>>>
+By incorporating a permutation of the variables into definition of
+{\tt surfaceC}, we obtain the desired isomorphisms
+<<<surfaceA == surfaceB>>>
+<<<surfaceB == surfaceC>>>
+<<<clearAll>>>
+which completes the solution.\qed
+\end{solution*}
+
+For more information of the geometry of rational normal scrolls, see
+Lecture~8 in Harris~\cite{SC:H}.
+
+
+%%----------------------------------------------------------
+\section{Fano Schemes}
+
+Our final example concerns the family of Fano schemes\index{Fano
+scheme} associated to a flat family of quadrics.
+Recall that the $k$-th Fano scheme $F_{k}(X)$ of a
+scheme $X \subseteq \bbbp^{n}$ is the subscheme of
+the Grassmannian parametrizing $k$-planes
+contained in $X$.
+
+\begin{problem*}[Exercise~IV-69 in \cite{SC:EH}]
+Consider the one-parameter family\index{one-parameter family} of
+quadrics tending to a double plane with equation
+\[ 
+Q = V(tx^{2}+ty^{2}+tz^{2}+w^{2}) \subseteq \bbbp^{3}_{\bbbq[t]} =
+\Proj\big(\bbbq[t][x,y,z,w]\big) \enspace .
+\]
+What is the flat limit\index{flat limit} of the Fano schemes
+$F_{1}(Q_{t})$?
+\end{problem*}
+
+\begin{solution*}
+We first compute the ideal defining $F_{1}(Q_{t})$, the scheme
+parametrizing lines in $Q$.
+<<<PP3 = QQ[t, x, y, z, w];>>>
+<<<Q = ideal( t*x^2+t*y^2+t*z^2+w^2 );>>>
+To parametrize a line in our projective space, we introduce
+indeterminates $u, v$ and $A, \dotsc, H$.
+<<<R = QQ[t, u, v, A .. H];>>>
+We then make a map {\tt phi} from {\tt PP3} to {\tt R} sending the
+variables to the coordinates of the general point on a line.
+<<<phi = map(R, PP3, matrix{{t}} | 
+        u*matrix{{A, B, C, D}} + v*matrix{{E, F, G, H}});>>>
+<<<imageFamily = phi Q;>>>
+For a line to belong to $Q$, the {\tt imageFamily} must vanish
+identically.  In other words, $F_{1}(Q)$ is defined by the
+coefficients of the generators of {\tt imageFamily}.
+%% removing a final use of 'coefficients'
+%% coeffOfFamily = (coefficients ({1,2}, gens imageFamily))_1;
+<<<coeffOfFamily = contract(matrix{{u^2,u*v,v^2}}, gens imageFamily)>>>
+Since we don't need the variables $u$ and $v$, we get rid of them.
+<<<S = QQ[t, A..H];>>>
+<<<coeffOfFamily = substitute(coeffOfFamily, S);>>>
+<<<Sbar = S / (ideal coeffOfFamily);>>>
+Next, we move to the Grassmannian\index{Grassmannian} $\mathbb{G}(1,3)
+\subset \bbbp^{5}$.  Recall the homogeneous coordinates on
+$\bbbp^{5}$ correspond to the $2 \times 2$ minors of a $2 \times 4$
+matrix.  We obtain these minors using the {\tt exteriorPower} function
+in \Mtwo.
+<<<psi = matrix{{t}} | exteriorPower(2, 
+            matrix{{A, B, C, D}, {E, F, G, H}})>>>
+<<<PP5 = QQ[t, a..f];>>>
+<<<fanoOfFamily = trim ker map(Sbar, PP5, psi);>>>
+Now, to answer the question, we determine the limit as $t$ tends to $0$.
+<<<zeroFibre = trim substitute(saturate(fanoOfFamily, t), {t=>0})>>>
+Let's transpose the matrix of generators so all of its elements are visible
+on the printed page.
+<<<transpose gens zeroFibre>>>
+We see that $F_{1}(Q_{0})$ is supported on the plane conic $\langle d,
+e, f, a^{2}+b^{2}+c^{2} \rangle$.  However, $F_{1}(Q_{0})$ is not
+reduced\index{scheme!non-reduced}; it has
+multiplicity\index{multiplicity} two.  On the other hand, the generic
+fiber is
+<<<oneFibre = trim substitute(saturate(fanoOfFamily, t), {t => 1})>>>
+<<<oneFibre == intersect(ideal(c-d, b+e, a-f, d^2+e^2+f^2), 
+     ideal(c+d, b-e, a+f, d^2+e^2+f^2))>>>
+Hence, for $t \neq 0$, $F_{1}(Q_{t})$ is the union of two conics lying
+in complementary planes and $F_{1}(Q_{0})$ is the double conic
+obtained when the two conics move together.\qed
+\end{solution*}
+
+% Local Variables:
+% mode: latex
+% mode: reftex
+% tex-main-file: "chapter-wrapper.tex"
+% reftex-keep-temporary-buffers: t
+% reftex-use-external-file-finders: t
+% reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+% End:

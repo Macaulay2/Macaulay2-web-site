@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="us-ascii"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1 plus MathML 2.0//EN" "http://www.w3.org/TR/MathML2/dtd/xhtml-math11-f.dtd" >
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+<title>Errata for the book: Computations in algebraic geometry with Macaulay 2</title>
+<style type="text/css">
+  body { background-image: url("../recbg.jpeg") }
+  h1   { text-align: center}
+</style>
+</head>
+
+<body>
+
+<h1>Errata for the book: Computations in algebraic geometry with <i>Macaulay 2</i></h1>
+
+<pre>
+<hr/>page 65, posted May 13, 2004:
+
+The routine blowUpIdeal was never intended to handle the blow-up of an
+arbitrary scheme along an arbitrary subscheme.  It was designed to
+illustrate several of the classic blow-ups in Section IV.2 in
+Eisenbud and Harris [5].  As a result, it makes the following
+assumptions on the input:
+
+   (1) The ideal "I" lives in a polynomial ring.  The routine ignores any
+       relations between the variables in the ring "S" of "I", so it will
+       fail unless the ring is a polynomial ring.
+
+   (2) It uses "t" as a global variable, so fails if the ideal "I" is in a
+       ring already using "t" as an indeterminate.
+
+   (3) It also uses the first "r" letters of the alphabet as global
+       variables, where "r" is the number of generators of the ideal "I",
+       so fails if the ideal is in a ring using any of those letters as
+       variables.
+
+The input line i71 does not establish that the scheme X is
+nonsingular.  To accomplish this, we should show that the singular
+locus, which is given by the appropriate minors of the Jacobian
+matrix, contains a power of the irrelevant ideal.  This can be
+implement in Macaulay 2 as follows:
+
+  ring J == saturate(J + minors(codim J, jacobian J), ideal(a,b,c))
+<hr/>
+</pre>
+</body>
+</html>

@@ -1,0 +1,64 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%
+%%%%% book-macros.tex
+%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+% \usepackage{amsthm} % can't use this!
+\usepackage{amsmath}
+\usepackage{amscd}
+\usepackage{amssymb,latexsym}
+\usepackage{xispace}
+% \usepackage[light]{draftcopy} \draftcopySetGrey{0.965}
+\usepackage{verbatim}
+
+\usepackage[PostScript=dvips]{diagrams}           % used only in the Eisenbud-Decker paper
+\let\labelstyle\undefined       % xy redefines this, anyway
+\let\objectstyle\undefined      % xy redefines this, anyway
+\let\objectwidth\undefined      % xy redefines this, anyway
+\let\objectheight\undefined     % xy redefines this, anyway
+\let\stop\undefined             % xy redefines this, anyway
+\let\diagram\undefined          % xy redefines this, anyway
+
+\usepackage[matrix,arrow,curve]{xy}
+% \usepackage{hyperref} \hypersetup{
+%         bookmarks=true,
+%         bookmarksnumbered=true,
+%         colorlinks=true
+%         }
+\input xypic.tex
+\input epsf.tex
+\numberwithin{theorem}{section}
+\newtheorem{Remark}[theorem]{Remark}{\bfseries}{\rm}
+\newtheorem{Example}[theorem]{Example}{\bfseries}{\rm}
+\newtheorem{code}[theorem]{Code}{\bfseries}{\rm}
+\newcommand{\Mtwo}{{\textsl{Macaulay~2}}\xispace}
+\newcommand{\Macaulay}{\textsl{Macaulay}\xispace}
+\date{\ifcase\month\or January\or February\or March\or April\or May\or
+  June\or July\or August\or September\or October\or November\or December\fi
+  \space\number\day, \number\year}
+\bibliographystyle{springer}
+\newcommand{\ie}[1]{#1\index{#1}}
+\newcommand{\indexcmd}[1]{\index{#1@{\tt #1}}}
+
+\setcounter{tocdepth}{1}
+
+% we need this definition here so it can be used in the index!
+\def\Ext{\operatorname{Ext}}
+\hyphenation{Mac-au-lay}
+
+\input merge
+
+%% this overrides some junk in lncse.cls:
+\def\bbbr{{\mathbb R}}
+\def\bbbm{{\mathbb M}}
+\def\bbbn{{\mathbb N}}
+\def\bbbf{{\mathbb F}}
+\def\bbbh{{\mathbb H}}
+\def\bbbk{{\mathbb K}}
+\def\bbbp{{\mathbb P}}
+\def\bbbc{{\mathbb C}}
+\def\bbbq{{\mathbb Q}}
+\def\bbbt{{\mathbb T}}
+\def\bbbs{{\mathbb S}}
+\def\bbbz{{\mathbb Z}}

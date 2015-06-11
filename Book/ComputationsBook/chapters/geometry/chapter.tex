@@ -1,0 +1,973 @@
+%%%% Commands to cover (and index):
+%% Matrix stuff: matrix, map, source, target, jacobian, minors, det, resolution,
+%% Ext, Tor, what a module is, presentation, coker, image, kernel, annihilator,
+%% sheaf cohomology, transpose, prune, trim, random, chain complexes, dd, C.dd_i,
+%% ring maps. saturate
+%%% Didn't put in ``annihilator'', random, chain complexes
+
+
+\title{Projective Geometry and Homological Algebra}
+\titlerunning{Projective Geometry and Homological Algebra}
+\toctitle{Projective Geometry and Homological Algebra}
+\author{David Eisenbud\thanks{Supported by the NSF.}}
+\authorrunning{D. Eisenbud}
+% \institute{1000 Centennial Drive, Mathematical Sciences Research Institute, Berkeley, CA
+% 94720, USA, and
+% University of California at Berkeley, Department of Mathematics, Berkeley, CA
+% 94720, USA}
+
+\maketitle
+
+\begin{abstract}
+We provide an introduction to many of the homological
+commands in \Mtwo (modules, free resolutions, Ext and Tor\dots)
+by means of examples showing how to use homological tools to
+study projective varieties.
+\end{abstract}
+
+%%% TeX requirements
+% \input diagrams.tex
+\def\P{{\mathbb P}} %% Projective space. Change to \Bbb if available -- done
+\def\Z{{\mathbb Z}} %% The integers. Change to \Bbb if available -- done
+\def\H{{\rm H}}
+\def\cO{{\cal O}}
+\def\O{{\cal O}}
+\def\iso{{\cong}}
+
+In this chapter we will illustrate how one can 
+manipulate
+projective varieties and sheaves,
+using the rich collection of tools
+\Mtwo provides.
+One of our goals is to show how homological
+methods can be effective in solving concrete geometric problems.
+\index{homological methods!introduction to}
+
+The first four sections can be read by anyone who knows about
+projective varieties at the level of a first graduate course
+and knows the definitions of Ext and Tor. The last section assumes
+that the reader is familiar with the theory of curves and surfaces
+roughly at the level of the books of Hartshorne \cite{Hartshorne} and 
+Harris \cite{Harris}.
+
+We will work with projective schemes over a field {\tt
+kk}. \Mtwo can work over any finite field of characteristic at most
+\index{32749}
+32749, and also a variety of fields in characteristic 0 (except for
+the primary decomposition commands, which at this writing are still
+restricted to positive characteristics). Our main interest is in
+geometry over an algebraically closed field of characteristic
+0. Nevertheless, it is most convenient to work over a large prime
+{}field. 
+\index{finite fields!use of}
+It is known that the intermediate results in Gr\"obner basis
+computations (as in the Euclidean Algorithm computations they
+generalize) often involve coefficients far larger than those in the
+input data, so that work in characteristic zero essentially requires
+infinite precision arithmetic, a significant additional overhead. If
+we work over a finite field where the scalars can be represented in
+one machine word, we avoid this coefficient explosion. Experience with
+the sort of computations we will be doing shows that working over
+$\Z/p$, where $p$ is a moderately large prime, gives results
+identical to the results we would get in characteristic 0.
+%% This isn't strictly true -- look at all the coefficients in your output
+%% that have more than 3 digits: their digits will probably change in as p
+%% varies.
+Of course one still
+has to be careful about the fact that our fields are not
+algebraically closed, especially when using primary
+decomposition. The largest prime $p$ we can work with being 32749, we
+choose the field ${\bf Z}/32749$. 
+The name of the \Mtwo constant representing the
+integers is {\tt ZZ}, and by analogy we will call our field {\tt kk}:
+<<<kk = ZZ/32749>>>
+%% I had to leave the characteristic at 32003, because your code breaks when
+%% I put in 32749, which is actually the largest characteristic available.
+%% The reason it breaks is probably that the coefficients in the polynomials
+%% defining idealX are no longer correct, since they were precomputed in
+%% characteristic 32003.  Should we compute idealX automatically?  One way
+%% would be to define a function in a file called "mystery.m2" that computes
+%% it for you.  You could reveal the code of the function later.
+
+In \Mtwo we will represent \ie{projective space} $\P^n$ by its
+homogeneous coordinate ring ${\tt ringPn} = {\tt kk}[x_0,\dots,x_n]$.  A
+projective scheme $X$ in $\P^n$ may be most conveniently
+represented, depending on the situation, by its \ie{homogeneous ideal} {\tt
+idealX} or its \ie{homogeneous coordinate ring}, represented either as a
+ring {\tt ringPn/idealX} or as a module {\tt OX} over {\tt ringPn}.
+\index{coherent sheaf!representation of}
+\index{sheaf!representation of}
+Coherent sheaves on the projective space, or on its subvarieties, will
+be represented by finitely generated
+graded
+modules over {\tt ringPn}, using the
+\ie{Serre correspondence}.
+%%% Dan, the previous line didn't print in the version you sent!
+%%%  -- It's printing for me.
+For example, the structure sheaf $\cO_X$
+of the subvariety $X$ would be represented by the module 
+{\tt ringPn\char`\^1/idealX}; here {\tt ringPn\char`\^1}
+denotes the free module of rank one over the ring
+{\tt ringPn}.
+
+\section{The Twisted Cubic}
+
+\index{twisted cubic}\index{cubic space curve}
+As a first illustration, we give three constructions
+of the twisted cubic
+curve in $\P^3$. We represent $\P^3$ by
+<<<ringP3 = kk[x_0..x_3]>>>
+
+The twisted cubic is the image of the map $\P^1\to\P^3$ sending
+a point with homogeneous coordinates $(s,t)$ to the point with
+homogeneous coordinates $(s^3, s^2t, st^2, t^3)$. We can compute
+its relations directly with
+\index{matrix}\index{map of rings}
+<<<ringP1 = kk[s,t]>>>
+<<<cubicMap = map(ringP1,ringP3,{s^3, s^2*t, s*t^2, t^3})>>>
+\index{kernel of a ring map}%
+<<<idealCubic = kernel cubicMap>>>
+We could also use \Mtwo's built-in facility, and say
+\indexcmd{monomialCurveIdeal}
+<<<idealCubic2 = monomialCurveIdeal(ringP3,{1,2,3})>>>
+which uses precisely the same method.
+
+Of course we might remember that the ideal of the twisted
+cubic is generated by the $2\times 2$ minors of the 
+matrix
+$$\begin{pmatrix}
+x_0&x_1&x_2\cr
+x_1&x_2&x_3
+\end{pmatrix},
+$$
+which we can realize with the commands
+<<<M = matrix{{x_0,x_1,x_2},{x_1,x_2,x_3}}>>>
+\indexcmd{minors}\index{ideal}%
+<<<idealCubic3 = minors(2, M)>>>
+We can get some useful information about the ideal
+{\tt idealCubic} with
+\indexcmd{codimension}%
+<<<codim idealCubic>>>
+\index{degree of a projective variety}%
+<<<degree idealCubic>>>
+This shows that we do indeed have a cubic curve. Note that the
+command
+\index{dimension of a projective variety}%
+<<<dim idealCubic>>>
+gives 2, not 1; it represents the dimension of the ideal 
+in {\tt ringP3}, the dimension of the affine cone over the
+curve.
+
+We can easily assure ourselves that these ideals are the same.
+{}For example, to see whether the ideal {\tt idealCubic}
+is contained in the ideal of minors of {\tt M}, we can
+reduce the former modulo the latter, and see whether 
+we get zero. The reduction operator {\tt \%} takes two
+maps with the same target as its arguments, so
+we must replace each ideal by a matrix whose entries 
+generate it. This is done by the function {\tt gens} as in
+\indexcmd{gens}\indexcmd{generators}%
+<<<gens idealCubic>>>
+Thus for one of the inclusions we check
+\indexcmd{\%}%
+\index{reduced form}%
+<<<0 == (gens idealCubic)%(gens idealCubic3)>>>
+Both inclusions can be checked automatically in this way
+with
+<<<idealCubic == idealCubic3>>>
+
+
+
+\section{The Cotangent Bundle of $\P^3$}
+
+\index{cotangent bundle}%
+Many invariants of varieties are defined in
+terms of their tangent and cotangent bundles. We 
+identify a bundle with its sheaf of
+sections, which is locally free.
+Any coherent locally free sheaf arises this way.
+(One can also regard a bundle
+as a variety in its own right, but this view
+is used in algebraic geometry more rarely.)
+In this section and the next we construct
+the cotangent  bundle $\Omega_{\P^3}$ of $\P^3$ and
+its restriction to the twisted cubic above.
+
+Consulting Hartshorne \cite[Theorem II.8.13]{Hartshorne}, we find 
+that the cotangent bundle to $\P^n$ can be described
+by the {\it cotangent sequence\/}:
+\index{cotangent sequence}%
+$$
+0\rTo 
+\Omega_{\P^n}\rTo 
+\cO_{\P^n}(-1)^{n+1}\rTo^f 
+\cO_{\P^n} \rTo 
+0
+$$
+where $f$ is defined by the matrix 
+of variables $(x_0,\dots,x_n)$.
+We can translate this description directly into the 
+language of \Mtwo, here in the case $n=3$:
+<<<f = vars ringP3>>>
+\index{kernel of a module map}%
+<<<OmegaP3 = kernel f>>>
+\index{modules!how to represent}%
+Note that the module which we specified as a kernel
+is now given as the image of a matrix. We can recover this
+matrix with
+<<<g=generators OmegaP3>>>
+and we could correspondingly write
+\indexcmd{image}%
+<<<OmegaP3=image g>>>
+An even more elementary way to give a module is by generators
+and relations, and we can see this ``free presentation'' too with
+\indexcmd{presentation}%
+<<<presentation OmegaP3>>>
+The astute reader will have noticed that we have just been computing
+the first few terms in the free resolution of the cokernel of the
+map of free modules corresponding to
+{\tt f}. We could see the whole resolution at once with
+\index{resolution!free}\indexcmd{res}\indexcmd{coker}\indexcmd{cokernel}
+\index{chain complex}\index{complex}
+<<<G = res coker f>>>
+and then see all the matrices in the resolution with
+\indexcmd{dd}\index{differentials of a complex}
+\index{complex!differentials in}
+<<<G.dd>>>
+or just one of them, say the second, with
+\index{dd\_i@{\tt dd\_i}, i-th differential of a complex}
+<<<G.dd_2>>>
+Note that this matrix does not look exactly the same as
+the matrix produced by computing the kernel of {\tt f}.
+This is because when \Mtwo is asked to compute a whole
+resolution, it does not do the ``obvious'' thing and
+compute kernels over and over; it defaults to a more efficient
+algorithm, first proposed by Frank Schreyer
+\cite[Appendix]{s1}.
+\index{Schreyer's algorithm for free resolutions}
+
+Any graded map of free modules, such as a map in a graded
+{}free resolution of a graded module, comes with some numerical data: 
+the degrees of the 
+generators of the source and target free modules.
+We can extract this information one module at a time with
+the command {\tt degrees}, as in
+\indexcmd{degrees}
+\indexcmd{source}\indexcmd{target}
+<<<degrees source G.dd_2>>>
+<<<degrees target G.dd_2>>>
+
+\Mtwo has a more convenient
+mechanism for examining this numerical data,
+which we take time out to explain. First, for the resolution just
+computed, we can call
+<<<betti G>>>
+\index{Betti diagram}\index{diagram, Betti}\indexcmd{betti}%
+The diagram shows the degrees of the generators of each free module
+in the resolution in coded form. To understand the code, it may
+be helpful to look at a less symmetric example, say the free
+resolution of {\tt ringP3\char`\^1/I} where $I$ is
+the ideal generated by the minors of the following $2\times 4$ matrix.
+<<<m = matrix{{x_0^3, x_1^2, x_2,x_3},{x_1^3,x_2^2,x_3,0}}>>>
+We do this with
+<<<I = minors(2,m)>>>
+<<<F = res(ringP3^1/I)>>>
+<<<betti F>>>
+
+The resulting Betti diagram should be interpreted as follows.
+{}First, the maps go from right to left, so the beginning of the 
+resolution is on the left. The given Betti diagram
+thus corresponds to an exact sequence of graded free modules
+$$
+{}F_0\lTo F_1\lTo F_2\lTo F_3\lTo 0.
+$$
+The top row of the diagram, 1,6,8,3, shows the
+ranks of the free modules $F_i$ in the resolution. For example the 1
+on the left means that $F_0$ has rank 1 (and,
+indeed, the module {\tt ringP3\char`\^1/I} we are resolving is cyclic). 
+The 6 shows that the rank of $F_1$ is 6, or equivalently that
+the ideal {\tt I} is minimally generated by 6 elements---in this
+case the $6 = {\binom 4 2}$ minors of size 2 of the $2\times 4$
+matrix $m$. 
+
+The first column of the diagram shows degrees. The successive
+columns indicate how many generators of each degree occur in the
+successive $F_i$.  The free module $F_0$ has a single generator in
+degree 0, and this is the significance of the second column.  Note
+that $F_1$ could not have any generators of degree less than or equal
+to zero, because the resolution is minimal! Thus for compactness, the
+diagram is skewed: in each successive column the places correspond to
+larger degrees.  More precisely, a number $a$ occurring opposite the
+degree indication ``{\tt i:}'' in the column corresponding to $F_j$ signifies
+that $F_j$ has $a$ generators in degree $i+j$.  Thus for example the 1
+in the third column opposite the one on the left corresponds to a
+generator of degree 2 in the free module $F_1$; and
+altogether $F_1$ has one generator of degree 2, two generators of
+degree 3, two of degree 4 and one of degree 5.
+
+Returning to the diagram
+<<<betti G>>>
+we see that the successive free modules of {\tt G} are 
+each generated in degree 1 higher than the previous one; that
+is, the matrices in {\tt G.dd} all have linear entries, as
+we have already seen.
+
+
+
+
+\section{The Cotangent Bundle of a Projective Variety}
+
+\index{cotangent bundle}%
+It is easy to construct the cotangent bundle $\Omega_X$ of a projective
+variety $X$ starting from the cotangent bundle 
+of the ambient
+projective space. We use the {\it conormal sequence}
+\index{conormal sequence}
+(Hartshorne \cite[Proposition II.8.12]{Hartshorne} or Eisenbud
+\cite[Proposition 16.3]{eCA}).
+Writing $I$ for the ideal of a variety $X$ in $\P^n$ there is
+an exact sequence of sheaves
+$$
+I \rTo^\delta \Omega_{\P^n}\otimes \cO_X\rTo \Omega_X\rTo 0
+$$
+where the map $\delta$ takes a function $f$
+to the element $df\otimes 1$. If $I$ is generated by 
+{}forms $f_1,\dots,f_m$ then $\delta$ is represented
+by the \ie{Jacobian matrix} $(df_i/dx_j)$. 
+
+
+{}First of all, we must compute a module corresponding to
+$\Omega_{\P^n}\otimes \cO_X$, the restriction of the sheaf
+$\Omega_{\P^n}$ to $X$. The simplest approach would be
+to take the tensor product of graded modules representing
+$\Omega_{\P^n}$ and  $\cO_X$. The result would represent the
+right sheaf, but would not be the module of twisted global
+sections of $\Omega_{\P^n}\otimes \cO_X$ (the unique module
+of depth two representing the sheaf). This would make further
+computations less efficient. 
+
+Thus we take a different approach:
+since the cotangent sequence given 
+in the previous section
+is a sequence of locally free sheaves, it is locally split, and
+thus remains exact when tensored by $\cO_X$. Consequently
+$\Omega_{\P^n}\otimes \cO_X$ is also represented by the kernel
+of the map $f\otimes  \cO_X$, where $f$ is the map used
+in the definition of the cotangent bundle of $\P^n$.
+In \Mtwo, working on $\P^3$, with $X$ the twisted cubic, we
+can translate this into
+<<<OmegaP3res = kernel (f ** (ringP3^1/idealCubic))>>>
+(The operator {\tt \char`\*\char`\*} is \Mtwo's symbol for tensor product.)
+Since the map is a map between free modules
+over {\tt ringP3/idealCubic}, the kernel has depth (at least) two.
+
+Next, we form the Jacobian matrix of the generators
+of
+% the ideal
+{\tt idealCubic}, which represents a map
+from this ideal to the free module {\tt ringP3\char`\^4}.
+\indexcmd{jacobian}
+<<<delta1 = jacobian idealCubic>>>
+We need to make this into a map to {\tt OmegaP3res}, which
+as defined is a subquotient of {\tt ringP3\char`\^4}. To this end
+we must first express the image of {\tt delta1} in terms of
+the generators of {\tt OmegaP3res}. The \ie{division command} {\tt //}
+does this with
+<<<delta2 = delta1 // (gens OmegaP3res)>>>
+Once this is done we can use this matrix to form the
+necessary map $\delta: I\to \Omega_{\P^3}\otimes\O_X$:
+\index{map of modules}
+<<<delta = map(OmegaP3res, module idealCubic, delta2)>>>
+A minimal free presentation of $\Omega_X$ --- or rather of
+one module over
+{\tt ringP3} that represents it --- can be obtained with
+\indexcmd{prune}\index{presentation!minimal}
+<<<OmegaCubic = prune coker delta>>>
+We have used the function {\tt prune} to compute
+minimal presentation matrices; these often make subsequent
+computations faster, and also allow us to inspect the final 
+answer more easily. 
+
+The module {\tt OmegaCubic} represents the sheaf $\Omega_{X}$, where
+$X$ is the cubic, but it is not the simplest possibility.
+A better representative is the graded module
+$\oplus_{d\in \Z} \H^0(\Omega_X(d))$. We can at least find 
+a minimal presentation of the
+submodule $\oplus_{d\geq 0} \H^0(\Omega_X(d))$ with
+\index{sheaf cohomology}\index{cohomology!sheaf}\indexcmd{HH}\indexcmd{sheaf}
+<<<prune HH^0((sheaf OmegaCubic)(>=0))>>>
+The large coefficients appearing in the matrix arise in finite characteristic as the result
+of chance division by small integers.
+We see from the degrees labeling the rows of the matrix in the
+output of this command that
+the generators of the submodule are in degree 1,
+so in particular $\H^0(\Omega_X) = 0$.
+It follows that that
+$\H^0(\Omega_X(d)) = 0$ for all $d\leq 0$, so
+the submodule we computed was actually the whole module
+that we wanted! (If this had not been the case we could have tried
+{\tt HH\char`\^0((sheaf OmegaCubic)(>=d))} to compute the cohomology
+of all the twists greater than a given negative integer $d$,
+or simply used the submodule we had already computed, since
+it also represents the sheaf $\Omega_X$.)
+
+
+The sequence of commands we have used to construct the
+cotangent sheaf can be obtained also with
+the following built-in commands.
+<<<Cubic = Proj(ringP3/idealCubic)>>>
+<<<cotangentSheaf Cubic>>>
+
+
+Since $X$ is a smooth curve, its cotangent bundle is equal
+to its {\it canonical bundle}, and also to its {\it dualizing sheaf} 
+(see Hartshorne \cite[sections II.8 and III.7]{Hartshorne} 
+{}for definitions).
+\index{cotangent bundle}\index{canonical bundle}\index{dualizing sheaf}
+We will
+see another (generally more efficient) method of computing this
+dualizing sheaf by using {\tt Ext} and \ie{duality} theory.
+
+\goodbreak
+
+\section{Intersections by Serre's Method}
+
+\index{intersection theory}\index{Serre's intersection formula}%
+To introduce homological algebra in a simple geometric context,
+consider the problem of computing the \ie{intersection multiplicities}
+of two varieties $X$ and $Y$ in $\P^n$, assuming for simplicity
+that $\mathop{\rm dim} X +\mathop{\rm dim} Y = n$ and that the two
+meet in a zero-dimensional scheme. Beginning in the
+19th century, many people struggled to make a definition of
+local intersection multiplicity
+that would make {\it B\'ezout's Theorem\/} true: the product 
+of the degrees of $X$ and $Y$ should be the number of points
+of intersection, each counted with its local intersection multiplicity
+(multiplied by the degree of the point, if the point is not
+rational over the ground field).
+\index{Bezout's Theorem@B\'ezout's Theorem}
+In the simplest case, where the two varieties are Cohen-Macaulay,
+the right answer is that a point $p$ should count with multiplicity
+equal to the length of the local ring 
+\index{length of a module}
+$\cO_{X,p}\otimes_{\cO_{\P^n,p}} \cO_{Y,p}$,
+and at first it was naively assumed that this would be the right answer
+in general. 
+
+Here is a famous example in ${\bf P}^4$ showing that
+the naive value can be wrong: in it, the scheme $X$ is a 2-plane
+and the scheme $Y=L_1\cup L_2$ is the union of two 2-planes. 
+The planes $L_1$ and $L_2$ meet at just one point $p$,
+and we assume that $X$ passes through $p$ as well, and
+is general enough so that it meets
+$Y$ only in $p$.
+Since $\mathop{\rm degree}(X) = 1, \mathop{\rm degree}(Y) = 2$, 
+B\'ezout's Theorem requires that
+the multiplicity of the intersection at $p$ should be 2. 
+However, we have:
+<<<ringP4 = kk[x_0..x_4]>>>
+<<<idealX = ideal(x_1+x_3, x_2+x_4)>>>
+<<<idealL1 = ideal(x_1,x_2)>>>
+<<<idealL2 = ideal(x_3,x_4)>>>
+<<<idealY = intersect(idealL1,idealL2)>>>
+<<<degree(idealX+idealY)>>>
+That is, 
+the length of 
+$\cO_{X,p}\otimes_{\cO_{\P^n,p}} \cO_{Y,p}$
+is 3 rather than 2. (We can do this computation
+without first passing to local rings because there
+is only one point of intersection, and because all the
+constructions we are using commute with localization.)
+
+It was the happy discovery
+of Jean-Pierre Serre \cite[V.B.3]{Serre} that the naive 
+measure of intersection multiplicity can be fixed in a simple
+way that works for all intersections in smooth varieties.
+One simply replaces the length of the tensor product
+$$
+\cO_{X,p}\otimes_{\cO_{\P^n,p}} \cO_{Y,p}=
+\mathop{\rm Tor}\nolimits_0^{\cO_{{\P^n},p} }
+               (\cO_{X,p}, \cO_{Y,p})
+$$
+with the alternating sum of the Tor functors
+$$
+\sum_i(-1)^i \mathop{\rm length}
+\mathop{\rm Tor}\nolimits_i^{\cO_{{\P^n},p} }
+               (\cO_{X,p}, \cO_{Y,p}).
+$$
+In \Mtwo we can proceed as follows:
+\indexcmd{Tor}
+<<<degree Tor_0(ringP4^1/idealX, ringP4^1/idealY)>>>
+<<<degree Tor_1(ringP4^1/idealX, ringP4^1/idealY)>>>
+<<<degree Tor_2(ringP4^1/idealX, ringP4^1/idealY)>>>
+The other Tor's are 0 because the projective
+dimension of {\tt ringP4\char`\^1/idealX} is only two,
+as we see from
+<<<res (ringP4^1/idealX)>>>
+Thus, indeed, the alternating sum is 2, and B\'ezout's
+Theorem is upheld.
+
+\section{A Mystery Variety in $\P^3$}
+
+In the file {\tt mystery.m2} is a function called {\tt mystery} that will
+compute the ideal of a subvariety $X$ of $\P^3$.  We'll reveal what it does
+at the end of the chapter.  Let's run it.
+<<<ringP3 = kk[x_0..x_3];>>>
+<<<load "mystery.m2">>>
+<<<idealX = mystery ringP3>>>
+We can't see all the generators of the ideal; the same file contains a
+function {\tt prettyPrint} which will display the generators visibly.
+<<<prettyPrint gens idealX>>>
+Imagine that you found yourself looking at the
+scheme $X$ in $\P^3$ defined by the 6 equations above.
+<<<X = variety idealX>>>
+How would you analyze the scheme $X$? 
+We will illustrate one approach.
+
+In outline, we will first look at the topological invariants:
+\index{topology of a projective variety}
+the number and dimensions of the irreducible components,
+and how they meet if there is more than one; the topological
+type of each component; and the degree of each component in
+$\P^3$. We will then see what we can say about the analytic
+invariants of $X$ using \ie{adjunction theory} (we give some references
+at the end).
+
+Since we are interested in the projective scheme defined by 
+{\tt idealX} we could work with any ideal having the same
+saturation. It is usually the case that working with the
+saturation itself greatly eases subsequent computation so,
+as a matter of good practice, 
+we begin by checking whether the ideal is saturated. If
+not, we should replace it with its saturation.
+\indexcmd{saturate}\index{saturation}
+<<<idealX == saturate idealX>>>
+Thus we see that {\tt idealX} is already saturated.
+Perhaps the most basic invariant of $X$ is its dimension:
+<<<dim X>>>
+This shows that {\tt X} consists of a curve, and
+possibly some zero-dimensional components.
+The command
+<<<idealXtop = top idealX>>>
+\index{top dimensional part of an ideal}%
+%% Dan the \index command above seems to insert an extra space
+%% at the beginning of the line!
+%%
+%% The extra space comes from not putting a % at the end of the line.
+returns the ideal of the largest dimensional components of {\tt X}.
+If there were 0-dimensional components (or if idealX were not saturated)
+then {\tt idealXtop} would be larger than {\tt idealX}.
+To test this we reduce {\tt idealXtop} modulo {\tt idealX}
+and see whether we get 0:
+<<<(gens idealXtop)%(gens idealX) == 0>>>
+Thus
+{\tt X}
+is a purely one-dimensional scheme.
+
+
+Is {\tt X}
+singular?
+<<<codim singularLocus idealX>>>
+%%Dan, Same spacing problem again, below!
+\index{singular locus of a scheme}%
+%% Same fix, above.
+A variety of codimension 4 in $\P^3$ must be empty, so $X$
+is a nonsingular curve. 
+
+A nonsingular curve in $\P^3$ could still be reducible,
+but since the intersection of two components
+would be a singular point, the curve would then be disconnected.
+A straightforward
+way to decide is to use the command {\tt decompose},
+which returns a list of irreducible components defined over {\tt kk}. 
+The length
+of this list,
+<<<# decompose idealX>>>
+\indexcmd{decompose}\index{decompose a variety}%
+\index{primary decomposition}%
+\index{irreducible decomposition}%
+is thus the number of irreducible components
+that are defined over {\tt kk}, and
+we see there is only one. (Warning: at this writing (December 2000), 
+the command
+``decompose'' works only in positive characteristic).  
+
+Often what we really want to know is
+whether {\tt X} is 
+{\it absolutely irreducible\/} (that is, irreducible over the 
+algebraic closure of {\tt kk}).
+\index{irreducible!absolutely}
+\index{absolutely irreducible}
+The property of being smooth transfers to the algebraic
+closure, so again the question is the number of connected
+components we would get over the algebraic closure.
+{}For any reduced scheme {\tt X} over a perfect
+{}field (such as our finite field {\tt kk}) this number is
+$\mathop{\rm h}\nolimits^0\cO_X := \mathop{\rm dim}\nolimits_{\tt kk}\mathop{\rm H}\nolimits^0\cO_X$.
+We compute it with
+<<<HH^0 OO_X>>>
+<<<rank oo>>>
+This command works much faster than the decompose command.
+(You can compute the time by adding the command {\tt time}
+\indexcmd{time}
+to the beginning of the line where the command to be timed
+starts.) Since we already know that {\tt idealX} is saturated,
+this also shows that {\tt idealX} is prime.
+
+We next ask for the genus of the curve $X$.
+\index{genus of a curve}
+Here the {\it genus} may be defined as the dimension of
+the space $\operatorname{H}\nolimits^1\cO_X$. 
+We can get this space with
+<<<HH^1 OO_X>>>
+The genus of the curve is the dimension of this space,
+which we can see to be 6.
+Next, the cohomology class of {\tt X} in $\P^3$ is determined
+by the degree of {\tt X}:
+<<<degree idealX>>>
+In sum: {\tt X} is a smooth, absolutely irreducible curve of 
+genus 6 and degree 10.
+
+We next ask for
+analytic information about the curve and the embedding.
+A reasonable place to start is
+with the relation between the line bundle defining the
+embedding and the canonical sheaf $\omega_X$.
+Notice first that the degree of the hyperplane divisor (the
+degree of the curve) is 10 = 2g-2, the same as the canonical
+bundle. By Riemann-Roch the embedding line bundle either is the canonical
+bundle or has first cohomology 0, which we can check with
+<<<P3 = Proj ringP3>>>
+<<<HH^1((OO_P3(1)/idealX)(>=0))>>>
+Let's examine the degree of the generator of that module.
+<<<degrees oo>>>
+% Note the construction {\tt ringP3\char`\^\{1\}}, which denotes
+% the free module of rank 1 corresponding to $\cO_{\P^3}(1)$.
+% (In general, {\tt ringP3\char`\^\{a,b,\dots\}} denotes
+% the free module over {\tt ringP3} corresponding to the sheaf
+% $\cO_{\P^3}(a)\oplus \cO_{\P^3}(b)\oplus \cdots$ --- that is,
+% the free module with generators in degrees $-a, -b, \dots$.)
+From that and the presentation matrix above
+%% $${\tt dualModule\char`\_\{0\}\ \char`\|\ x\char`\_3\ x\char`\_2\ x\char`\_1\ x\char`\_0\ \char`\|}$$
+%%Dan, please check that the previous line will typeset correctly!
+%% I've changed it a bit -- I don't understand the juxtaposition of the
+%% expression and the matrix.  Also, dualModule hasn't been defined yet!
+%% Why not just reserve \tt font for computer stuff, and try to typeset math here?
+we see that this cohomology module is the residue class field
+${\tt ringP3/(x_0,x_1,x_2,x_3)}$,
+concentrated in degree 0.
+Thus the embedding line bundle $\cO_X(1)$
+is isomorphic to $\omega_X$. On the other hand
+the dimension of the space of sections of this line bundle has already been
+computed; it is $g = 6$. The curve is embedded in $\P^3$, so
+only 4 of these sections were used---the embedding is a projection
+of the same curve,  embedded in  $\P^6$ by the {\it canonical map\/}.
+\index{canonical embedding}
+
+We next ask more about the curve itself. After the genus,
+the \ie{gonality} and the \ie{Clifford index} are
+among the most interesting invariants.
+Recall that the
+{\it gonality\/} of $X$ is the smallest degree of a mapping from
+$X$ to $\P^1$. To define the Clifford index
+of $X$ 
+we first define the {\it Clifford index of a line bundle\/} $L$
+on $X$ to be
+$\mathop{\rm degree}(L)-2(\mathop{\rm h}\nolimits^0(L)-1)$.
+{}For example, the Clifford indices of the structure sheaf
+$\cO_X$ and the canonical sheaf $\omega_X$ are both equal to 0.
+The {\it Clifford index of the curve\/} 
+$X$ is defined to be the minimum value
+of the Clifford index of a line bundle $L$
+on $X$ for which both
+$\mathop{\rm h}\nolimits^0(L)\geq 2$ and $\mathop{\rm h}\nolimits^1(L)\geq 2$. 
+The Clifford index of a curve of genus $g$
+lies between 0 (for a \ie{hyperelliptic curve})
+\index{curve!hyperelliptic} and
+$\lfloor (g-1)/2\rfloor$ (for a general curve\index{curve!general}).
+The Clifford index of any curve is bounded above
+by the gonality minus 2.
+
+{}For a curve of genus 6 such as $X$, the gonality is either
+2 (the hyperelliptic case), 3 (the trigonal case) or 4
+(the value for general curves). The Clifford index, on the
+other hand is either 0 (the hyperelliptic case) or 1
+(the case of a \ie{trigonal curve}
+\index{curve!trigonal} OR a smooth 
+\index{curve!plane quintic} plane quintic curve---which
+is necessarily of gonality 4)
+or 2 (the case of a general curve). Thus for most curves 
+(and this is true in any genus)
+the Clifford index is equal to the gonality minus 2.
+
+We can make a start on distinguishing these cases already:
+since our curve is embedded in $\P^3$ by a subseries of the
+canonical series, $X$ cannot be hyperelliptic (for hyperelliptic
+curves, the canonical series maps the curve two-to-one onto
+a rational curve.)
+
+To make further progress we use an idea of Mark Green
+\index{Green's conjecture}
+(see Green and Lazarsfeld \cite{gl}). Green conjectured a formula
+{}for the Clifford index that depends only on
+numerical data about the free resolution of the
+curve in its complete canonical embedding (where the hyperplanes
+cut out all the canonical divisors). 
+The conjecture is known for genus 6 and
+in many other cases; see for example Schreyer \cite{s}.
+
+We therefore begin by 
+computing the canonical embedding of $X$. We could proceed
+to find the \ie{canonical bundle}
+as in the computation for $\P^3$ above, or indeed
+as $\cO_X(1)$, but instead we describe the general
+method that is most efficient: duality, as described (for
+example) in the book of Altman and Kleiman \cite{ak}. The 
+module $\oplus_{d\in \Z}\mathop{\rm H}\nolimits^0(\omega_X(d))$ can be
+computed as
+\indexcmd{Ext}
+<<<omegaX = Ext^(codim idealX)(ringP3^1/idealX, ringP3^{-4})>>>
+
+To find the equations of
+the \ie{canonical embedding} of $X$, we 
+first compute a basis of ${\rm H}^0(\omega_X)$, which
+is the degree 0 part of the module {\tt omegaX}.
+The desired equations are computed as the algebraic
+relations among the images of this basis under any
+monomorphism $\omega_X \to \O_X$.
+
+As the ring {\tt ringP3/idealX} is a domain,
+and $\omega_X$ is the module corresponding to
+a line bundle, any nonzero map
+{}from  $\omega_X$ to {\tt ringP3/idealX}  will be
+an embedding. We can compute the module of such maps with
+<<<dualModule = Hom(omegaX, ringP3^1/idealX)>>>
+and examine it with
+<<<betti prune dualModule>>>
+For want of a better idea
+we take the first generator, {\tt dualModule\char`\_\char`\{0\char`\}}, which
+we can turn into an actual homomorphism with
+<<<f = homomorphism dualModule_{0}>>>
+The image of a basis of $\omega_X$ is
+given by the columns of the matrix
+<<<canGens = f*basis(0,omegaX)>>>
+regarded as elements of 
+<<<ringX = ringP3/idealX>>>
+Because of the particular homomorphism we chose,
+they have degree 5.
+
+We can now compute the defining ideal for $X$ in its canonical
+embedding as the relations on these elements. We first define
+a ring with 6 variables corresponding to the columns of {\tt canGens}
+<<<ringP5 = kk[x_0..x_5]>>>
+and then compute the canonical ideal as the
+kernel of the corresponding map from
+this ring to {\tt ringX} with
+\indexcmd{trim}
+<<<idealXcan = trim kernel map(ringX, ringP5, 
+                               substitute(matrix canGens,ringX),
+                               DegreeMap => i -> 5*i)>>>
+Here the command {\tt trim} is used to extract a minimal set
+of generators of the desired ideal, and the command {\tt matrix}
+replaces the map of (nonfree) modules {\tt canGens} by the matrix that
+gives its action on the generators.  The {\tt DegreeMap} option specifies a
+function which transforms degrees (represented as lists of integers) as the
+ring homomorphism does; using it here makes the ring map homogeneous.
+
+To get information about the Clifford index, we examine the 
+{}free resolution with
+<<<betti res idealXcan>>>
+Quite generally, for a non-hyperelliptic curve of genus 
+$g\geq 3$ the ideal
+of the canonical embedding requires ${g-\binom 2 2}$ 
+quadratic generators, in our case 6. It is known that
+the curve is trigonal (Clifford index 1) if and only if the
+ideal also requires cubic generators, that is, the
+{}first term in the free resolution requires generators of degree
+$3 = 1+2$; and Green's conjecture says in general that the
+curve has Clifford index $c$ if the $c-1$ term in the
+resolution does not require generators of degree
+$(c-1)+2 = c+1$ but the $c$ term does require generators
+of degree $c+2$. Thus from the Betti diagram above, and
+the truth of Green's conjecture in low genus, we
+see that our curve has Clifford index 1 and is thus either
+trigonal or a plane quintic. 
+
+If $X$ is trigonal, that is, $X$ has a map of degree 3 to $\P^1$,
+then the fibers of this map form a linear series whose elements
+are divisors of degree three. The geometric form
+\index{Riemann-Roch theorem!geometric}
+of the Riemann-Roch theorem says that if 
+$$
+p_1,\dots,p_d\in X\subset \P^g
+$$
+are points on a canonically embedded curve $X$,
+then the dimension of the linear system in which the divisor
+$p_1+\cdots+p_d$ moves is the amount by which the points fail
+to be linearly independent: $d-1$ minus the dimension of the 
+projective plane spanned by the points.
+In particular, the 3 points in the fiber of a three-to-one
+map to $\P^1$ are linearly dependent, that is,
+they span a projective line.
+This ``explains'' why the ideal of a
+trigonal curve requires cubic generators: the quadrics all 
+contain three points of these lines and thus contain the whole
+lines! It is known (see St-Donat \cite{s-d}) that, in the 
+trigonal case, the 6 quadrics in the ideal of the canonical curve
+generate the defining ideal of the variety which is the union of these
+lines, and that variety is a \ie{rational normal scroll}\index{scroll!rational normal}.
+In case $X$ is a plane quintic, the {\it adjunction formula\/}
+(Hartshorne \cite[II.8.20.3]{Hartshorne}) 
+shows that the canonical embedding of $X$ is
+obtained from the plane embedding by composing with the Veronese
+embedding of the plane in $\P^5$ as the \ie{Veronese surface}; 
+and the 6 quadrics in the ideal
+of the canonical curve generate the defining ideal of the
+Veronese surface. 
+
+Thus if we let $S$ denote the variety defined by the quadrics
+in the ideal of $X$, we can decide whether $X$ is a 
+trigonal curve or a plane quintic by deciding whether $S$ is
+a rational normal scroll or a Veronese surface.
+To compute the ideal of $S$ we first ascertain which
+of the generators of the ideal of the canonical curve
+have degree 2 with
+\indexcmd{positions}
+<<<deg2places = positions(degrees idealXcan, i->i=={2})>>>
+and then compute
+<<<idealS= ideal (gens idealXcan)_deg2places>>>
+
+One of the scrolls that could appear is singular, the cone
+over the rational quartic in $\P^4$. We check for singularity
+{}first:
+<<<codim singularLocus idealS>>>
+Since the codimension is 6, the surface $S$ is nonsingular,
+and thus must be one of the nonsingular scrolls or the Veronese
+surface (which is by definition the image of ${\bf P}^2$, 
+embedded in ${\bf P}^5$ by the linear series of conics.)
+
+The ideals defining any rational normal
+scroll of codimension 3, and the ideal
+of a Veronese surface all have free resolutions with
+the same Betti diagrams, so we need a subtler method
+to determine the identity of $S$. The most powerful tool
+{}for such purposes is adjunction theory; we will use a 
+simple version. 
+
+The idea is to compare the embedding bundle
+(the ``hyperplane bundle'') with the canonical bundle.
+On the Veronese surface,  the canonical bundle is 
+the bundle associated to $-3$ lines in ${\bf P}^2$,
+while the hyperplane bundle is associated to
+2 lines in ${\bf P}^2$. Thus the inverse of the 
+square of the canonical bundle is the cube of the 
+hyperplane bundle, $\O_S(3)$. For a scroll on the other hand,
+these two bundles are different.
+
+As before we follow the
+homological method for computing the canonical bundle:
+<<<omegaS = Ext^(codim idealS)(ringP5^1/idealS, ringP5^{-6})>>>
+<<<OS = ringP5^1/idealS>>>
+
+We want the square of the canonical bundle, which we can compute
+as the tensor square
+<<<omegaS**omegaS>>>
+But while this module represents the correct sheaf, it is
+hard to interpret, since it may not be (is not, in this case)
+the module of all twisted global sections of the square of the
+line bundle. Since the free resolution of {\tt OS}
+(visible inside the Betti diagram of the 
+resolution of {\tt idealXcan}) has length 3,
+the module {\tt OS}  has depth 2. Thus we can
+{}find the module of all twisted global sections
+of {\tt omega2S} by taking the double dual
+<<<omega2S = Hom(Hom(omegaS**omegaS, OS),OS)>>>
+
+We see from the output that this module is
+generated by 1 element of degree 3.
+It follows that
+$\omega_S^2\cong \cO_S(-3)$. This in turn shows
+that $S$ is the Veronese surface.
+
+We now know that the canonical embedding of the curve
+$X$ is the Veronese map applied to a planar embedding
+of $X$ of degree 5, and we can ask to see the plane embedding.
+Since the {\it anticanonical bundle\/} $\omega_S^{-1}$
+on $S$ corresponds to 3 lines
+in the plane and the hyperplane bundle to 2 lines,
+we can recover the line bundle corresponding to 1 line,
+giving
+the isomorphism of $X$ to the plane, as the quotient
+<<<L = Hom(omegaS, OS**(ringP5^{-1}))>>>
+and the line bundle on {\tt Xcan} that gives the
+embedding in $\P^2$ will be the restriction of {\tt L}
+to {\tt Xcan}. 
+To realize the map from $X$ to $\P^2$, we proceed as before:
+<<<dualModule = Hom(L, OS)>>>
+<<<betti generators dualModule>>>
+Again, we may choose any homomorphism from {\tt L}
+to {\tt OS}, for example
+<<<g = homomorphism dualModule_{0}>>>
+<<<toP2 = g*basis(0,L)>>>
+<<<ringXcan = ringP5/idealXcan>>>
+<<<ringP2 = kk[x_0..x_2]>>>
+<<<idealXplane = trim kernel map(ringXcan, ringP2, 
+                                  substitute(matrix toP2,ringXcan))>>>
+
+We have effectively computed the square root of the line bundle
+embedding $X$ in $\P^3$ with which we started, and exchanged a messy
+set of defining equations of an unknown scheme for a single equation
+defining a smooth plane curve whose properties are easy to deduce.
+The  same curve may also be defined by a much simpler plane equation
+(see Appendix \ref{How} below). I do not know any general method for choosing
+a coordinate transformation to simplify a given equation! Can the
+reader find one that will work at least in this case?
+
+There is not yet a textbook-level exposition of the
+sort of methods we have used
+(although an introduction
+will be contained in a forthcoming elementary book
+of Decker and Schreyer). 
+The reader who would like to go further into
+such ideas can find a high-level survey of how adjunction theory
+is used
+in the paper of Decker and Schreyer \cite{ds}.
+For a group of powerful methods with a different flavor,
+see Aure, Decker, Hulek, Popescu, and
+Ranestad \cite{adhpr}.
+
+
+\appendix
+
+\section{How the ``Mystery Variety'' was Made}\label{How}
+
+{}For those who would like to try out the
+computations above over a different field (perhaps the
+{}field of rational numbers {\tt QQ}),
+and for the curious, we include the code
+used to produce the equations of the variety $X$ above.
+
+Start with the Fermat quintic in the plane
+<<<ringP2 = kk[x_0..x_2]>>>
+<<<idealC2 = ideal(x_0^5+x_1^5+x_2^5)>>>
+Embed it by the Veronese map in $\P^5$:
+<<<ringC2 = ringP2/idealC2>>>
+<<<ringP5 = kk[x_0..x_5]>>>
+<<<idealC5 = trim kernel map(ringC2, ringP5, 
+        gens (ideal vars ringC2)^2)>>>
+{}Finally, choose a projection into $\P^3$, from a line not meeting
+{\tt C5}, which is an isomorphism
+onto its image. (This requires the image to be a smooth curve
+of degree 10).
+<<<ringC5 = ringP5/idealC5>>>
+<<<use ringC5>>>
+<<<idealC = trim kernel map(ringC5, ringP3,
+        matrix{{x_0+x_1,x_2,x_3,x_5}})>>>
+Let's check that this is the same ideal as that of the mystery variety.
+<<<idealC == idealX>>>
+Here is the code of the function {\tt mystery}, which does the steps above.
+<<<code mystery>>>
+And here is the code of the function {\tt prettyPrint}.
+<<<code prettyPrint>>>
+
+% \end

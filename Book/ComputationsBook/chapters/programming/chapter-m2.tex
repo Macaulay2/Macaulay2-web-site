@@ -1,0 +1,917 @@
+\title{Data Types, Functions, and Programming}
+\titlerunning{Data Types, Functions, and Programming}
+\toctitle{Data Types, Functions, and Programming}
+\author{Daniel R. Grayson%
+        \thanks{Supported by NSF grant DMS 99-70085.}
+        % \inst 1
+   \and Michael E. Stillman%
+        %\inst 2
+        %\fnmsep
+        \thanks{Supported by NSF grant 99-70348.}}
+\authorrunning{D. R. Grayson and M. E. Stillman}
+% \institute{University of Illinois at Urbana-Champaign, Department of
+%   Mathematics, Urbana, IL 61801, USA
+%       \and Cornell University, Department of Mathematics, Ithaca, NY 14853, USA}
+
+\maketitle
+
+\begin{abstract}
+  In this chapter we present an introduction to the structure of \Mtwo
+  commands and the writing of functions in the \Mtwo language.  For further details
+  see the \Mtwo manual distributed with the program~\cite{M2}.
+\end{abstract}
+
+\section{Basic Data Types}
+
+The basic \ie{data types} of \Mtwo include numbers of various types (integers,
+rational numbers, floating point numbers, complex numbers), lists (basic
+lists, and three types of visible lists, depending on the delimiter used),
+hash tables, strings of characters (both 1-dimensional and 2-dimensional),
+Boolean values (true and false), symbols, and functions.  Higher level types
+useful in mathematics are derived from these basic types using facilities
+provided in the \Mtwo language.  Except for the simplest types (integers and
+Boolean values), \Mtwo normally displays the type of the output value on a
+second labeled output line.
+
+Symbols\index{symbols} have a name which consists of letters, digits, or apostrophes, the
+first of which is a letter.  Values can be assigned to symbols and recalled
+later.
+\beginOutput
+i1 : w\\
+\emptyLine
+o1 = w\\
+\emptyLine
+o1 : Symbol\\
+\endOutput
+\beginOutput
+i2 : w = 2^100\\
+\emptyLine
+o2 = 1267650600228229401496703205376\\
+\endOutput
+\beginOutput
+i3 : w\\
+\emptyLine
+o3 = 1267650600228229401496703205376\\
+\endOutput
+Multiple values can be assigned in parallel.
+\beginOutput
+i4 : (w,w') = (33,44)\\
+\emptyLine
+o4 = (33, 44)\\
+\emptyLine
+o4 : Sequence\\
+\endOutput
+\beginOutput
+i5 : w\\
+\emptyLine
+o5 = 33\\
+\endOutput
+\beginOutput
+i6 : w'\\
+\emptyLine
+o6 = 44\\
+\endOutput
+Comments are initiated by {\tt --} and extend to the end of the line.
+\beginOutput
+i7 : (w,w') = (33,   -- this is a comment\\
+\               44)\\
+\emptyLine
+o7 = (33, 44)\\
+\emptyLine
+o7 : Sequence\\
+\endOutput
+Strings\index{strings} of characters are delimited by quotation marks.
+\beginOutput
+i8 : w = "abcdefghij"\\
+\emptyLine
+o8 = abcdefghij\\
+\endOutput
+They may be joined horizontally to make longer strings, or vertically to make
+a two-dimensional version called a {\sl net}.
+\beginOutput
+i9 : w | w\\
+\emptyLine
+o9 = abcdefghijabcdefghij\\
+\endOutput
+\beginOutput
+i10 : w || w\\
+\emptyLine
+o10 = abcdefghij\\
+\      abcdefghij\\
+\endOutput
+Nets are used in the preparation of two dimensional output for polynomials.
+
+Floating point numbers are distinguished from integers by the presence of a
+decimal point, and rational numbers are entered as fractions.
+\beginOutput
+i11 : 2^100\\
+\emptyLine
+o11 = 1267650600228229401496703205376\\
+\endOutput
+\beginOutput
+i12 : 2.^100\\
+\emptyLine
+o12 = 1.26765 10^30\\
+\emptyLine
+o12 : RR\\
+\endOutput
+\beginOutput
+i13 : (36 + 1/8)^6\\
+\emptyLine
+\      582622237229761\\
+o13 = ---------------\\
+\           262144\\
+\emptyLine
+o13 : QQ\\
+\endOutput
+Parentheses, braces, and brackets are used as delimiters for the three types
+of {\em \ie{visible lists}}: \ie{lists}, \ie{sequences}, and \ie{arrays}.
+\beginOutput
+i14 : x1 = \{1,a\}\\
+\emptyLine
+o14 = \{1, a\}\\
+\emptyLine
+o14 : List\\
+\endOutput
+\beginOutput
+i15 : x2 = (2,b)\\
+\emptyLine
+o15 = (2, b)\\
+\emptyLine
+o15 : Sequence\\
+\endOutput
+\beginOutput
+i16 : x3 = [3,c,d,e]\\
+\emptyLine
+o16 = [3, c, d, e]\\
+\emptyLine
+o16 : Array\\
+\endOutput
+Even though they use braces, lists should not be confused with sets, which will be treated later.
+A double period can be used to construct a sequence of consecutive elements in various contexts.
+\beginOutput
+i17 : 1 .. 6\\
+\emptyLine
+o17 = (1, 2, 3, 4, 5, 6)\\
+\emptyLine
+o17 : Sequence\\
+\endOutput
+\beginOutput
+i18 : a .. f\\
+\emptyLine
+o18 = (a, b, c, d, e, f)\\
+\emptyLine
+o18 : Sequence\\
+\endOutput
+Lists can be nested.
+\beginOutput
+i19 : xx = \{x1,x2,x3\}\\
+\emptyLine
+o19 = \{\{1, a\}, (2, b), [3, c, d, e]\}\\
+\emptyLine
+o19 : List\\
+\endOutput
+The number of entries in a list is provided by {\tt \#}.
+\beginOutput
+i20 : #xx\\
+\emptyLine
+o20 = 3\\
+\endOutput
+The entries in a list are numbered starting with 0, and can be recovered with
+{\tt \#} used as a binary operator.
+\beginOutput
+i21 : xx#0\\
+\emptyLine
+o21 = \{1, a\}\\
+\emptyLine
+o21 : List\\
+\endOutput
+\beginOutput
+i22 : xx#0#1\\
+\emptyLine
+o22 = a\\
+\emptyLine
+o22 : Symbol\\
+\endOutput
+We can join visible lists and {\sl append} or {\sl prepend} an element to a visible
+list.  The output will be the same type of visible list that was provided in
+the input: a list, a sequence, or an array; if the arguments are various
+types of lists, the output will be same type as the first argument. 
+\beginOutput
+i23 : join(x1,x2,x3)\\
+\emptyLine
+o23 = \{1, a, 2, b, 3, c, d, e\}\\
+\emptyLine
+o23 : List\\
+\endOutput
+\index{lists!joining}\indexcmd{join}%
+\beginOutput
+i24 : append(x3,f)\\
+\emptyLine
+o24 = [3, c, d, e, f]\\
+\emptyLine
+o24 : Array\\
+\endOutput
+\index{lists!appending}\indexcmd{append}%
+\beginOutput
+i25 : prepend(f,x3)\\
+\emptyLine
+o25 = [f, 3, c, d, e]\\
+\emptyLine
+o25 : Array\\
+\endOutput
+\index{lists!prepending}\indexcmd{prepend}%
+Use {\tt sum} or {\tt product} to produce the sum or product of all the
+elements in a list.
+\beginOutput
+i26 : sum \{1,2,3,4\}\\
+\emptyLine
+o26 = 10\\
+\endOutput
+\indexcmd{sum}%
+\beginOutput
+i27 : product \{1,2,3,4\}\\
+\emptyLine
+o27 = 24\\
+\endOutput
+\indexcmd{product}%
+
+
+\section{Control Structures}
+
+Commands for later execution are encapsulated in {\sl \ie{functions}}.  A function
+is created using the operator {\tt -\char`\>}\indexcmd{->} to separate the parameter or
+sequence of parameters from the code to be executed later.  Let's try an
+elementary example of a function with two arguments.
+\beginOutput
+i28 : f = (x,y) -> 1000 * x + y\\
+\emptyLine
+o28 = f\\
+\emptyLine
+o28 : Function\\
+\endOutput
+The parameters {\tt x} and {\tt y} are symbols that will acquire a
+value later when the function is executed.  They are {\sl local}\index{variables!local} in the sense that
+they are completely different from any symbols with the same name that occur
+elsewhere.  Additional local variables for use within the body of a function
+can be created by assigning a value to them with {\tt \char`\:\char`\=}
+\indexcmd{:=}
+(first time only).  We illustrate this by rewriting the function above.
+\beginOutput
+i29 : f = (x,y) -> (z := 1000 * x; z + y)\\
+\emptyLine
+o29 = f\\
+\emptyLine
+o29 : Function\\
+\endOutput
+Let's apply the function to some arguments.
+\beginOutput
+i30 : f(3,7)\\
+\emptyLine
+o30 = 3007\\
+\endOutput
+The sequence of arguments can be assembled first, and then passed to the
+function.
+\beginOutput
+i31 : s = (3,7)\\
+\emptyLine
+o31 = (3, 7)\\
+\emptyLine
+o31 : Sequence\\
+\endOutput
+\beginOutput
+i32 : f s\\
+\emptyLine
+o32 = 3007\\
+\endOutput
+As above, functions receiving one argument may be called without parentheses.
+\beginOutput
+i33 : sin 2.1\\
+\emptyLine
+o33 = 0.863209\\
+\emptyLine
+o33 : RR\\
+\endOutput
+A compact notation for functions makes it convenient to apply them
+without naming them first.  For example, we may use \indexcmd{apply}{\tt apply} to apply a
+function to every element of a list and to collect the results into a list.
+\beginOutput
+i34 : apply(1 .. 10, i -> i^3)\\
+\emptyLine
+o34 = (1, 8, 27, 64, 125, 216, 343, 512, 729, 1000)\\
+\emptyLine
+o34 : Sequence\\
+\endOutput
+The function \indexcmd{scan}{\tt scan} will do the same thing, but discard the results.
+\beginOutput
+i35 : scan(1 .. 5, print)\\
+1\\
+2\\
+3\\
+4\\
+5\\
+\endOutput
+Use \indexcmd{if}{\tt if ... then ... else ...} to perform alternative actions
+based on the truth of a condition.
+\beginOutput
+i36 : apply(1 .. 10, i -> if even i then 1000*i else i)\\
+\emptyLine
+o36 = (1, 2000, 3, 4000, 5, 6000, 7, 8000, 9, 10000)\\
+\emptyLine
+o36 : Sequence\\
+\endOutput
+A function can be terminated prematurely with \indexcmd{return}{\tt return}.
+\beginOutput
+i37 : apply(1 .. 10, i -> (if even i then return 1000*i; -i))\\
+\emptyLine
+o37 = (-1, 2000, -3, 4000, -5, 6000, -7, 8000, -9, 10000)\\
+\emptyLine
+o37 : Sequence\\
+\endOutput
+Loops in a program can be implemented with \indexcmd{while}{\tt while ... do ...}.
+\beginOutput
+i38 : i = 1; while i < 50 do (print i; i = 2*i)\\
+1\\
+2\\
+4\\
+8\\
+16\\
+32\\
+\endOutput
+Another way to implement loops is with \indexcmd{for}{\tt for} and
+\indexcmd{do}{\tt do} or {\tt list}, with optional
+clauses introduced by the keywords {\tt from}, {\tt to}, and {\tt when}.
+\beginOutput
+i40 : for i from 1 to 10 list i^3\\
+\emptyLine
+o40 = \{1, 8, 27, 64, 125, 216, 343, 512, 729, 1000\}\\
+\emptyLine
+o40 : List\\
+\endOutput
+\beginOutput
+i41 : for i from 1 to 4 do print i\\
+1\\
+2\\
+3\\
+4\\
+\endOutput
+A loop can be terminated prematurely with \indexcmd{break}{\tt break}, which accepts an
+optional value to return as the value of the loop expression.
+\beginOutput
+i42 : for i from 2 to 100 do if not isPrime i then break i\\
+\emptyLine
+o42 = 4\\
+\endOutput
+If no value needs to be returned, the condition for continuing can be
+provided with the keyword {\tt when}; iteration continues only as long as the
+predicate following the keyword returns {\tt true}.
+\beginOutput
+i43 : for i from 2 to 100 when isPrime i do print i\\
+2\\
+3\\
+\endOutput
+
+
+% if then else, while do, for, break, return,
+
+\section{Input and Output}
+
+The function \indexcmd{print}{\tt print} can be used to display something on the screen.
+\beginOutput
+i44 : print 2^100\\
+1267650600228229401496703205376\\
+\endOutput
+For example, it could be used to display the elements of a list on separate
+lines.
+\beginOutput
+i45 : (1 .. 5) / print;\\
+1\\
+2\\
+3\\
+4\\
+5\\
+\endOutput
+The operator {\tt <<} can be used to display something on the
+screen, without the newline character.
+\beginOutput
+i46 : << 2^100\\
+1267650600228229401496703205376\\
+o46 = stdio\\
+\emptyLine
+o46 : File\\
+\emptyLine
+\  --  the standard input output file\\
+\endOutput
+Notice the value returned is a {\em file}\index{files}.  A {\em file} in \Mtwo is a data type that
+represents a channel through which data can be passed, as input, as
+output, or in both directions.  The file \indexcmd{stdio}{\tt stdio} encountered above
+corresponds to your shell window or terminal, and is used for two-way
+communication between the program and the user.  A file may correspond
+to what one usually calls a file, i.e., a sequence of data bytes associated
+with a given name and stored on
+your disk drive.  A file may also correspond to a {\em socket}, a
+channel for communication with other programs over the network.
+
+Files can be used with the binary form
+of the operator {\tt \char`\<\char`\<} to display something else on the same
+line.
+\beginOutput
+i47 : << "the value is : " << 2^100\\
+the value is : 1267650600228229401496703205376\\
+o47 = stdio\\
+\emptyLine
+o47 : File\\
+\emptyLine
+\  --  the standard input output file\\
+\endOutput
+Using \indexcmd{endl}{\tt endl} to represent the new line character or character sequence, we can
+produce multiple lines of output.
+\beginOutput
+i48 : << "A = " << 2^100 << endl << "B = " << 2^200 << endl;\\
+A = 1267650600228229401496703205376\\
+B = 1606938044258990275541962092341162602522202993782792835301376\\
+\endOutput
+We can send the same output to a disk file named {\tt foo}, but we must remember to
+close it with {\tt close}.
+\beginOutput
+i49 : "foo" << "A = " << 2^100 << endl << close\\
+\emptyLine
+o49 = foo\\
+\emptyLine
+o49 : File\\
+\endOutput
+The contents of the file can be recovered as a string with \indexcmd{get}{\tt get}.
+\beginOutput
+i50 : get "foo"\\
+\emptyLine
+o50 = A = 1267650600228229401496703205376\\
+\emptyLine
+\endOutput
+If the file contains valid \Mtwo commands, as it does in this case, we can
+execute those commands with \indexcmd{load}{\tt load}.
+\beginOutput
+i51 : load "foo"\\
+\endOutput
+We can verify that the command took effect by evaluating {\tt A}.
+\beginOutput
+i52 : A\\
+\emptyLine
+o52 = 1267650600228229401496703205376\\
+\endOutput
+Alternatively, if we want to see those commands and the output they produce,
+we may use \indexcmd{input}{\tt input}.
+\beginOutput
+i53 : input "foo"\\
+\emptyLine
+i54 : A = 1267650600228229401496703205376\\
+\emptyLine
+o54 = 1267650600228229401496703205376\\
+\emptyLine
+i55 : \endOutput
+Let's set up a ring for computation in \Mtwo.
+\beginOutput
+i56 : R = QQ[x,y,z]\\
+\emptyLine
+o56 = R\\
+\emptyLine
+o56 : PolynomialRing\\
+\endOutput
+\index{ring!making one}%
+\beginOutput
+i57 : f = (x+y)^3\\
+\emptyLine
+\       3     2        2    3\\
+o57 = x  + 3x y + 3x*y  + y\\
+\emptyLine
+o57 : R\\
+\endOutput
+Printing, and printing to files, works for polynomials,
+too.\index{printing!to a file}%
+\beginOutput
+i58 : "foo" << f << close;\\
+\endOutput
+The two-dimensional output is readable by humans, but is not easy to convert
+back into a polynomial.
+\beginOutput
+i59 : get "foo"\\
+\emptyLine
+o59 =  3     2        2    3\\
+\      x  + 3x y + 3x*y  + y\\
+\endOutput
+Use \indexcmd{toString}{\tt toString} to create a 1-dimensional form of the polynomial
+that can be stored in a file in a format readable by \Mtwo and by other
+symbolic algebra programs, such as {\em Mathematica} or {\em Maple}.
+\beginOutput
+i60 : toString f\\
+\emptyLine
+o60 = x^3+3*x^2*y+3*x*y^2+y^3\\
+\endOutput
+Send it to the file.
+\beginOutput
+i61 : "foo" << toString f << close;\\
+\endOutput
+Get it back.
+\beginOutput
+i62 : get "foo"\\
+\emptyLine
+o62 = x^3+3*x^2*y+3*x*y^2+y^3\\
+\endOutput
+Convert the string back to a polynomial with \indexcmd{value}{\tt value}, using \indexcmd{oo}{\tt oo} to
+recover the value of the expression on the previous line.
+\beginOutput
+i63 : value oo\\
+\emptyLine
+\       3     2        2    3\\
+o63 = x  + 3x y + 3x*y  + y\\
+\emptyLine
+o63 : R\\
+\endOutput
+The same thing works for matrices, and a little more detail is provided by
+\indexcmd{toExternalString}{\tt toExternalString}, if needed.
+\beginOutput
+i64 : vars R\\
+\emptyLine
+o64 = | x y z |\\
+\emptyLine
+\              1       3\\
+o64 : Matrix R  <--- R\\
+\endOutput
+\beginOutput
+i65 : toString vars R\\
+\emptyLine
+o65 = matrix \{\{x, y, z\}\}\\
+\endOutput
+\beginOutput
+i66 : toExternalString vars R\\
+\emptyLine
+o66 = map(R^\{\{0\}\}, R^\{\{-1\}, \{-1\}, \{-1\}\}, \{\{x, y, z\}\})\\
+\endOutput
+
+\section{Hash Tables}
+
+Recall how one sets up a quotient ring for computation in \Mtwo.
+\beginOutput
+i67 : R = QQ[x,y,z]/(x^3-y)\\
+\emptyLine
+o67 = R\\
+\emptyLine
+o67 : QuotientRing\\
+\endOutput
+\beginOutput
+i68 : (x+y)^4\\
+\emptyLine
+\        2 2       3    4           2\\
+o68 = 6x y  + 4x*y  + y  + x*y + 4y\\
+\emptyLine
+o68 : R\\
+\endOutput
+How does \Mtwo represent a ring like $R$ in the computer?  To answer that,
+first think about what sort of information needs to be retained about $R$.
+We may need to remember the coefficient ring of $R$, the names of the
+variables in $R$, the monoid of monomials in the variables, the degrees of
+the variables, the characteristic of the ring, whether the ring is
+commutative, the ideal modulo which we are working, and so on.  We also may
+need to remember various bits of code: the code for performing the basic
+arithmetic operations, such as addition and multiplication, on elements of
+$R$; the code for preparing a readable representation of an element of $R$,
+either 2-dimensional (with superscripts above the line and subscripts below),
+or 1-dimensional.  Finally, we may want to remember certain things that take
+a lot of time to compute, such as the Gr\"obner basis of the ideal.
+
+A {\sl \ie{hash table}} is, by definition, a way of representing (in the computer)
+a function whose domain is a finite set.  In \Mtwo, hash tables are extremely
+flexible: the elements of the domain (or {\sl keys\index{keys of a hash table}}) and the elements of the
+range (or {\sl values\index{values of a hash table}}) of the function may be any of the other objects
+represented in the computer.  It's easy to come up with uses for functions
+whose domain is finite: for example, a monomial can be represented by the
+function that associates to a variable its nonzero exponent; a polynomial can
+be represented by a function that associates to a monomial its nonzero
+coefficient; a set can be represented by any function with that set as its
+domain; a (sparse) matrix can be represented as a function from pairs of
+natural numbers to the corresponding nonzero entry.
+
+Let's create a hash table and name it.
+\beginOutput
+i69 : f = new HashTable from \{ a=>444, Daniel=>555, \{c,d\}=>\{1,2,3,4\}\}\\
+\emptyLine
+o69 = HashTable\{\{c, d\} => \{1, 2, 3, 4\}\}\\
+\                a => 444\\
+\                Daniel => 555\\
+\emptyLine
+o69 : HashTable\\
+\endOutput
+The operator \indexcmd{=>}{\tt \char`\=\char`\>} is used to represent a key-value pair.
+We can use the operator \indexcmd{\#}{\tt \#} to recover the value from the key.
+\beginOutput
+i70 : f#Daniel\\
+\emptyLine
+o70 = 555\\
+\endOutput
+\beginOutput
+i71 : f#\{c,d\}\\
+\emptyLine
+o71 = \{1, 2, 3, 4\}\\
+\emptyLine
+o71 : List\\
+\endOutput
+If the key is a symbol, we can use the operator \indexcmd{.}{\tt .} instead; this is
+convenient if the symbol has a value that we want to ignore.
+\beginOutput
+i72 : Daniel = a\\
+\emptyLine
+o72 = a\\
+\emptyLine
+o72 : Symbol\\
+\endOutput
+\beginOutput
+i73 : f.Daniel\\
+\emptyLine
+o73 = 555\\
+\endOutput
+We can use \indexcmd{\#?}{\tt \#?} to test whether a given key occurs in the hash table.
+\beginOutput
+i74 : f#?a\\
+\emptyLine
+o74 = true\\
+\endOutput
+\beginOutput
+i75 : f#?c\\
+\emptyLine
+o75 = false\\
+\endOutput
+Finite sets are implemented in \Mtwo as hash tables: the elements of the set
+are stored as the keys in the hash table, with the accompanying values all
+being $1$.  (Multisets are implemented by using values larger than $1$, and
+are called {\sl tallies}.)
+\beginOutput
+i76 : x = set\{1,a,\{4,5\},a\}\\
+\emptyLine
+o76 = Set \{\{4, 5\}, 1, a\}\\
+\emptyLine
+o76 : Set\\
+\endOutput
+\indexcmd{set}%
+\beginOutput
+i77 : x#?a\\
+\emptyLine
+o77 = true\\
+\endOutput
+\beginOutput
+i78 : peek x\\
+\emptyLine
+o78 = Set\{\{4, 5\} => 1\}\\
+\          1 => 1\\
+\          a => 1\\
+\endOutput
+\beginOutput
+i79 : y = tally\{1,a,\{4,5\},a\}\\
+\emptyLine
+o79 = Tally\{\{4, 5\} => 1\}\\
+\            1 => 1\\
+\            a => 2\\
+\emptyLine
+o79 : Tally\\
+\endOutput
+\beginOutput
+i80 : y#a\\
+\emptyLine
+o80 = 2\\
+\endOutput
+We might use \indexcmd{tally}{\tt tally} to tally how often a function attains its various
+possible values.  For example, how often does an integer have 3 prime
+factors?  Or 4?  Use \indexcmd{factor}{\tt factor} to factor an integer.
+\beginOutput
+i81 : factor 60\\
+\emptyLine
+\       2\\
+o81 = 2 3*5\\
+\emptyLine
+o81 : Product\\
+\endOutput
+Then use {\tt \#} to get the number of factors.
+\beginOutput
+i82 : # factor 60\\
+\emptyLine
+o82 = 3\\
+\endOutput
+Use {\tt apply} to list some values of the function.
+\beginOutput
+i83 : apply(2 .. 1000, i -> # factor i)\\
+\emptyLine
+o83 = (1, 1, 1, 1, 2, 1, 1, 1, 2, 1, 2, 1, 2, 2, 1, 1, 2, 1, 2, 2, 2,  $\cdot\cdot\cdot$\\
+\emptyLine
+o83 : Sequence\\
+\endOutput
+Finally, use {\tt tally} to summarize the results.
+\beginOutput
+i84 : tally oo\\
+\emptyLine
+o84 = Tally\{1 => 193\}\\
+\            2 => 508\\
+\            3 => 275\\
+\            4 => 23\\
+\emptyLine
+o84 : Tally\\
+\endOutput
+
+Hash tables turn out to be convenient entities for storing odd bits and
+pieces of information about something in a way that's easy to think about and
+use.
+In \Mtwo, rings are represented as hash tables, as are ideals, matrices,
+modules, chain complexes, and so on.  For example, although it isn't a
+documented feature, the key {\tt ideal} is used to preserve the ideal that
+was used above to define the quotient ring {\tt R}, as part of the
+information stored in {\tt R}.  
+\beginOutput
+i85 : R.ideal\\
+\emptyLine
+\             3\\
+o85 = ideal(x  - y)\\
+\emptyLine
+o85 : Ideal of QQ [x, y, z]\\
+\endOutput
+The preferred and documented way for a user to recover this information is
+with the function \indexcmd{ideal}{\tt ideal}. 
+\beginOutput
+i86 : ideal R\\
+\emptyLine
+\             3\\
+o86 = ideal(x  - y)\\
+\emptyLine
+o86 : Ideal of QQ [x, y, z]\\
+\endOutput
+Users who want to introduce a new high-level mathematical
+concept to \Mtwo may learn about hash tables by referring to the \Mtwo manual
+\cite{M2}.
+
+\section{Methods}
+
+You may use the \texttt{code}\indexcmd{code} command to locate the source code for a given
+function, at least if it is one of those functions written in the \Mtwo
+language.  For example, here is the code for {\tt demark}, which may be used
+to put commas between strings in a list.
+\beginOutput
+i87 : code demark\\
+\emptyLine
+o87 = -- ../../../m2/fold.m2:23\\
+\      demark = (s,v) -> concatenate between(s,v)\\
+\endOutput
+The code for tensoring a ring map with a module can be displayed in this way.
+\beginOutput
+i88 : code(symbol **, RingMap, Module)\\
+\emptyLine
+o88 = -- ../../../m2/ringmap.m2:294-298\\
+\      RingMap ** Module := Module => (f,M) -> (\\
+\           R := source f;\\
+\           S := target f;\\
+\           if R =!= ring M then error "expected module over source ring";\\
+\           cokernel f(presentation M));\\
+\endOutput
+\indexcmd{symbol}
+The code implementing the {\tt ideal} function when applied to a
+quotient ring can be displayed as follows.
+\beginOutput
+i89 : code(ideal, QuotientRing)\\
+\emptyLine
+o89 = -- ../../../m2/quotring.m2:7\\
+\      ideal QuotientRing := R -> R.ideal\\
+\endOutput
+Notice that it uses the key {\tt ideal} to extract the information from the
+ring's hash table, as you might have guessed from the previous discussion.
+The bit of code displayed above may be called a {\sl method}\index{method} as
+a way of indicating that several methods for dealing with various types of
+arguments are attached to the function named {\tt ideal}.  New such {\sl
+  method functions} may be created with the function {\tt method}\indexcmd{method}.  Let's
+illustrate that with an example: we'll write a function called {\tt denom}
+which should produce the denominator of a rational number.  When applied to
+an integer, it should return 1.  First we create the method function.
+\beginOutput
+i90 : denom = method();\\
+\endOutput
+Then we tell it what to do with an argument from the class {\tt QQ} of rational numbers.
+\beginOutput
+i91 : denom QQ := x -> denominator x;\\
+\endOutput
+And also what to do with an argument from the class {\tt ZZ} of integers.
+\beginOutput
+i92 : denom ZZ := x -> 1;\\
+\endOutput
+Let's test it.
+\beginOutput
+i93 : denom(5/3)\\
+\emptyLine
+o93 = 3\\
+\endOutput
+\beginOutput
+i94 : denom 5\\
+\emptyLine
+o94 = 1\\
+\endOutput
+
+\section{Pointers to the Source Code}
+
+A substantial part of \Mtwo is written in the same language provided to the
+users.  A good way to learn more about the \Mtwo language is to peruse the
+source code that comes with the system in the directory {\tt Macaulay2/m2}.
+Use the {\tt code} function, as described in the previous section, for
+locating the bit of code you wish to view.
+
+The source code for the interpreter of the \Mtwo language is in the directory
+{\tt Macaulay2/d}.  It is written in another language designed to be mostly
+type-safe, which is translated into {\tt C} by the translator whose own
+{\tt C} source code is in the directory {\tt Macaulay2/c}.  Here is a
+sample line of code from the file {\tt Macaulay2/d/tokens.d}, which shows how
+the translator provides for allocation and initialization of dynamic data
+structures.
+\par
+\vskip 5 pt
+\begingroup
+\tteight
+\baselineskip=8pt
+\lineskip=0pt
+\obeyspaces
+globalFrame := Frame(dummyFrame,globalScope.seqno,Sequence(nullE));\leavevmode\hss\endgraf
+\endgroup
+\penalty-1000
+\par
+\vskip 1 pt
+\noindent
+And here is the {\tt C} code produced by the translator.
+\par
+\vskip 5 pt
+\begingroup
+\tteight
+\baselineskip=\outputBaseLineSkip
+\lineskip=0pt
+\obeyspaces
+\obeylines
+tokens\char`\_Frame tokens\char`\_globalFrame;
+tokens\char`\_Frame tmp\char`\_\char`\_23;
+Sequence tmp\char`\_\char`\_24;
+tmp\char`\_\char`\_24 = (Sequence) GC\char`\_MALLOC(sizeof(struct S259\char`\_)+(1-1)*sizeof(Expr));
+if (0 == tmp\char`\_\char`\_24) outofmem();
+tmp\char`\_\char`\_24->len\char`\_ = 1;
+tmp\char`\_\char`\_24->array\char`\_[0] = tokens\char`\_nullE;
+tmp\char`\_\char`\_23 = (tokens\char`\_Frame) GC\char`\_MALLOC(sizeof(struct S260\char`\_));
+if (0 == tmp\char`\_\char`\_23) outofmem();
+tmp\char`\_\char`\_23->next = tokens\char`\_dummyFrame;
+tmp\char`\_\char`\_23->scopenum = tokens\char`\_globalScope->seqno;
+tmp\char`\_\char`\_23->values = tmp\char`\_\char`\_24;
+tokens\char`\_globalFrame = tmp\char`\_\char`\_23;
+\endgroup
+\penalty-1000
+\par
+\vskip 1 pt
+
+The core algebraic algorithms constitute the {\sl engine} of \Mtwo and are
+written in {\tt C\char`\+\char`\+}, with the source files in the directory
+{\tt Macaulay2/e}.  In the current version of the program, the interface
+between the interpreter and the core algorithms consists of a single
+two-directional stream of bytes.  The manual that comes with the system
+\cite{M2} describes the engine communication protocol used in that
+interface.
+
+%% Mike says we don't need this:
+
+%% One feature of \Mtwo which should be understood by system administrators, at
+%% least of Unix systems, is the {\tt dumpdata} routine.  Since so much of the
+%% source code is written in the interpreted \Mtwo language, and the task of
+%% reading and parsing it can take an appreciable amount of time on slower
+%% machines, we perform that task in advance (by the {\tt setup} command) when
+%% the program is installed on your system.  The results are saved by writing
+%% all of the data areas of the memory of the program to disk.  When a user runs
+%% {\tt M2}, the file containing the saved contents is quickly mapped into
+%% memory using the {\tt loaddata} command.  The contents of memory depend
+%% in a detailed way on the architecture of the computer and the shareable
+%% libraries that are installed, so when those things change, the {\tt setup}
+%% command may need to be run again.  If those things change too often, the
+%% system administrator may disable that feature.
+
+
+%% Date: Tue, 21 Nov 2000 11:36:16 +0900 (JST)
+%% From: Nobuki Takayama <taka@math.kobe-u.ac.jp>
+%% To: dan@math.uiuc.edu
+%% CC: mike@polygon.math.cornell.edu, taka@math.kobe-u.ac.jp
+%% In-reply-to: <200011161511.JAA18405@orion.math.uiuc.edu> (dan@math.uiuc.edu)
+%% Subject: Re: software
+%% 
+%% Dear Dan;
+%% I would like to know 
+%%   (1) "hints" to read and understand the M2 source code
+%% and
+%%   (2) what are new ideas in the M2 implementations.
+%% The source code contains all ideas in detail, but it is not easy to
+%% read and understand it without some hints.
+%% 
+%% I look forward to reading the section and the source code with the help
+%% of the section.
+%% Nobuki
+%% 
+%% >    If you want to add one subsection at the end, it could be something
+%% >    like "Developers' notes" or "System Issues". The reader I have in mind
+%% >
+%% >    chapter is just the place. If you wish to consider this, then I suggest
+%% >    that Mike communicate directly with Nobuki about the contents.
+%% >
+%% >Could you tell us directly whay you have in mind about that?
+%% 

@@ -1,0 +1,31 @@
+
+o Serkan and I have complete a chapter on monomial ideals.  I've
+  attached all the files (1 .tex, 1 .bib, 3 .eps, 1 .m2).  If you 
+  prefer, you can also obtain the files from my public_html 
+  directory:
+
+       www.math.berkeley.edu/~ggsmith/Book
+
+o Since we are using an older version of M2, the commands will
+  be slightly different for your version.  I've tried to 
+  anticipate all of the changes --- try the file "chapter.dan"
+  on your machine.
+
+   -- you will have to add one line to "monideal.m2" to
+      define "hilbertSeries" for "monomialIdeal"
+
+o I normally use the package "psfrag" to add figures to a
+  LaTeX file.  In particular, I think it makes the text
+  look better.  Have you considered using this package for
+  the book?
+
+o Our chapter uses some M2 code from the chapter by Sturmfels, 
+  Stillman and Thomas.  I was sure how you wanted to handle that
+  so we load a file "toric.m2" containing this code.  
+
+o The missing citation also refers to the chapter by SST;
+
+
+Please let me know if there are any changes we should make.
+Cheers,
+  -- Greg.

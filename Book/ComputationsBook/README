@@ -1,0 +1,5 @@
+This directory contains the source code for the book on Macaulay 2 edited by
+Eisenbud, Grayson, Stillman, and Sturfels.  Type 'make' (with GNU make
+installed) to create book/book.dvi.
+
+To see whether you have GNU make installed, type 'make -v'.

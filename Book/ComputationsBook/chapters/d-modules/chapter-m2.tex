@@ -1,0 +1,3132 @@
+\title{$D$-modules and Cohomology of Varieties}
+\titlerunning{$D$-modules and Cohomology of Varieties}
+\toctitle{$D$-modules and Cohomology of Varieties}
+\author{Uli Walther}
+\authorrunning{U. Walther}
+% \institute{Mathematical Sciences Research Institute, Berkeley, CA 94720, USA,
+% and\\
+% Department of Mathematics, Purdue University, West
+% Lafayette, IN 47907, USA}
+% % \email{walther@math.umn.edu}
+
+\maketitle
+
+\newtheorem{alg}[theorem]{Algorithm}{\bfseries}{}
+% \newtheorem{hyp}[theorem]{Hypothesis}
+% \newtheorem{con}[theorem]{Construction}
+% \newtheorem{conj}[theorem]{Conjecture}
+% \newtheorem{notn}[theorem]{Notation}
+
+\def\ann{\operatorname{ann}}
+\def\ass{\operatorname{ass}}
+\def\codim{\operatorname{codim}}
+\def\cd{\operatorname{cd}}
+\def\depth{\operatorname{depth}}
+\def\Der{\operatorname{Der}}
+\def\endo{\operatorname{End}}
+\def\ext{\operatorname{Ext}}
+\def\gr{\operatorname{gr}}
+\def\hom{\operatorname{Hom}}
+\def\height{\operatorname{ht}}
+\def\im{\operatorname{im}}
+\def\ini{\operatorname{in}}
+\def\lcd{\operatorname{lcd}}
+\def\lcm{\operatorname{lcm}}
+\def\spec{\operatorname{Spec}}
+\def\soc{\operatorname{soc}}
+\def\supp{\operatorname{supp}}
+\def\var{\operatorname{Var}}
+
+\def\curlN{{\mathcal N}}
+\def\del{\partial}
+\def\eps{\varepsilon}
+\def\m{{\mathfrak m}}
+\def\into{\hookrightarrow}
+\def\onto{\to\hskip-1.7ex\to}
+\def\A{{\mathbb A}}
+\def\C{{\mathbb C}}
+\def\F{{\mathfrak F}}
+\def\M{{\mathcal M}}
+%\def\MLf{{{\mathcal M}^L_f}}
+\def\N{{\mathbb N}}
+\def\OO{{\mathcal O}}
+\def\P{{\mathbb P}}
+\def\Q{{\mathbb Q}}
+\def\R{{\mathbb R}}
+\def\Z{{\mathbb Z}}
+
+
+\def\action{\bullet}
+\def\order{\prec}
+
+
+
+
+\def\_#1{\underline{#1}}
+%\def\mylabel#1{\label{#1} \marginpar{#1}}
+\def\mylabel#1{\label{#1}}
+%\def\myindex#1{\index{#1} \marginpar{#1}}
+\def\myindex#1{\index{#1}}
+\def\h{\hspace*{-3pt}}
+\def\bar#1{\overline{#1}}
+
+\numberwithin{equation}{section}
+
+% \setcounter{tocdepth}{2}
+% \maketitle
+% \tableofcontents
+
+% \input{0.tex}
+
+\begin{abstract}
+  In this chapter we introduce the reader to some ideas from the world of
+  differential operators. We show how to use these concepts in conjunction
+  with \Mtwo to obtain new information about polynomials and their algebraic
+  varieties.
+\end{abstract}
+
+Gr\"obner bases over polynomial rings have been used for many
+years in computational algebra, and the other chapters in this book
+bear witness to this fact. 
+In the mid-eighties some important steps were made in the theory of
+Gr\"obner bases in non-commutative rings, notably in rings of differential
+operators. This chapter is about some of the applications of this
+theory to problems in commutative algebra and algebraic geometry. 
+
+Our interest in rings of differential operators and $D$-modules stems
+from the fact that some very interesting objects in algebraic geometry and
+commutative algebra have a {\em finite} module structure
+over an appropriate ring of differential operators. The prime example
+is the ring of regular functions on the complement of an affine
+hypersurface. A more general object is the \v Cech complex associated
+to a set of polynomials, and its cohomology, the local
+cohomology modules of the variety defined by the vanishing of the
+polynomials. More advanced topics are restriction functors and de Rham
+cohomology. 
+
+With these goals in mind, we shall study 
+applications  of Gr\"obner bases theory 
+in the simplest
+ring of differential operators, the Weyl algebra, and develop
+algorithms that compute various invariants associated to a polynomial
+$f$. These include the Bernstein-Sato polynomial $b_f(s)$, the set of
+differential  operators $J(f^s)$ 
+which annihilate the germ of the function $f^s$
+(where $s$ is a new variable), and the ring of regular functions on the
+complement of the variety of $f$. 
+
+
+For a family $f_1,\ldots,f_r$ of polynomials we study the associated \v Cech
+complex as a complex in the category of modules over the Weyl
+algebra. The algorithms are illustrated with examples.
+We
+also give an indication what other invariants associated to
+polynomials or varieties are known to be computable at this point and
+list some open problems in the area.
+
+
+\begin{acknowledgment}
+It is with great pleasure that I acknowledge the help of A.\ Leykin,
+M.\ Stillman
+and H.\ Tsai while writing this chapter. The $D$-module routines
+used or mentioned here have all been written by them and I would like
+to thank them for this marvelous job.
+I also would like to thank D.\ Grayson for help on \Mtwo and D.\
+Eisenbud and B.\ Sturmfels for inviting me to contribute to this volume.
+\end{acknowledgment}
+
+%\input{1.tex}
+
+
+\section{Introduction}
+
+\subsection{Local Cohomology -- Definitions} 
+Let $R$ be a commutative Noetherian ring (always associative, 
+with identity) and $M$ an 
+$R$-module. For $f\in R$ one defines a {\em \v Cech complex}\index{Cech complex@\v
+Cech complex} of $R$-modules
+\begin{eqnarray}
+\check
+C^\bullet(f)=(0\to \underbrace{R}_{\text{degree}\ 0}\into 
+\underbrace{R[f^{-1}]}_{\text{degree}\ 1}\to 0)
+\end{eqnarray}
+where
+the injection is the natural map sending $g\in R$ to ${g}/{1}\in
+R[f^{-1}]$ and ``degree'' refers to  cohomological degree. 
+For a family $f_1,\ldots,f_r\in R$ one defines 
+\begin{eqnarray}
+\check
+C^\bullet(f_1,\ldots,f_r)=\bigotimes_{i=1}^r\check C^\bullet(f_i),
+\end{eqnarray}
+and for
+an $R$-module $M$ one sets 
+\begin{eqnarray}
+\check C^\bullet(M;f_1,\ldots,f_r)=M\otimes_R \check
+C^\bullet(f_1,\ldots,f_r).
+\end{eqnarray}
+
+
+The $i$-th (algebraic) {\em local
+cohomology functor}\index{local cohomology}
+ with respect to $f_1,\ldots,f_r$ is the $i$-th 
+cohomology functor of $\check C^\bullet(-;f_1,\ldots,f_r)$. If
+$I=R\cdot (f_1,\ldots,f_r)$ then this functor  agrees
+with the $i$-th right
+derived functor of the functor $H^0_I(-)$ which sends $M$ to the
+$I$-torsion $\bigcup_{k=1}^\infty (0:_MI^k)$ of $M$ and is denoted by
+$H^i_I(-)$. This means in particular, that $H^\bullet_I(-)$ 
+depends only on the (radical of the) ideal generated by
+the $f_i$. Local 
+cohomology was introduced by A.~Grothendieck \cite{DM:lc-notes}
+as an algebraic analog of
+(classical) relative cohomology. For instance, if $X$ is a scheme, 
+$Y$ is
+a closed subscheme and $U=X\setminus Y$ then there is a long exact
+sequence 
+\[
+\cdots\to H^i(X,\F)\to H^i(U,\F)\to H^{i+1}_Y(X,\F)\to\cdots
+\]
+for all quasi-coherent sheaves $\F$ on $X$. (To make sense of this one
+has to generalize the definition of local cohomology to be the right
+derived functor of $H^0_Y(-): \F\to(U\to\{f\in\F(U):\supp(f)\subseteq
+Y\cap U\})$.)
+An introduction to algebraic local
+cohomology theory may be found in \cite{DM:B-S}. 
+
+The {\em
+cohomological dimension of $I$ in $R$}, \index{cohomological
+dimension} denoted by $\cd(R,I)$, is the
+smallest integer $c$ such that 
+$H^i_I(M)=0$ for all $i>c$ and all $R$-modules $M$. If $R$ is the
+coordinate ring of an affine variety $X$ and $I\subseteq R$ is the defining
+ideal of the Zariski closed subset $Y\subseteq X$ then the {\em local
+cohomological dimension of $Y$ in $X$} \index{local cohomological
+dimension}  is defined as $\cd(R,I)$.
+It is not hard to show that if $X$ is smooth, then the integer
+$\dim(X)-\cd(R,I)$ depends only on $Y$ but neither on $X$ nor on the
+embedding $Y\into X$. 
+%
+\subsection{Motivation} 
+As one sees from the definition of local cohomology, the
+modules $H^i_I(R)$ carry information about the sections of the
+structure sheaf on Zariski open sets, and hence about the topology of
+these open sets.
+This is illustrated by the following examples. Let $I\subseteq
+R$ and $c=\cd(R,I)$. Then 
+$I$ cannot be generated by fewer than $c$ elements -- in other words,
+$\spec(R)\setminus \var(I)$ cannot be covered by fewer than $c$ affine
+open subsets (i.e., $\var(I)$ cannot be cut out by fewer than $c$
+hypersurfaces).  In fact, no ideal $J$ 
+with the same radical as $I$ will be generated by fewer than $c$
+elements, \cite{DM:B-S}.
+
+Let $H^i_{{\rm Sing}}(-;\C)$ stand for the $i$-th singular cohomology
+functor with complex coefficients. 
+The classical
+Lefschetz Theorem \index{Lefschetz Theorem} \cite{DM:Gri-Har}
+states that if $X\subseteq \P^n_\C$ is a
+ variety in projective $n$-space 
+and $Y$ a hyperplane section of $X$ such that $X\setminus Y$
+is smooth, 
+then $H^i_{{\rm Sing}}(X;\C)\to
+H^i_{{\rm Sing}}(Y;\C)$ is an isomorphism for $i<\dim (X)-1$ and injective for
+$i=\dim (X)-1$. 
+The Lefschetz Theorem has generalizations in terms of local
+cohomology, called Theorems of Barth Type.
+For example, let $Y\subseteq \P_\C^n$ be Zariski 
+closed
+and $I\subseteq 
+R=\C[x_0,\ldots,x_n]$ the 
+defining ideal of $Y$. 
+Then $H^i_{{\rm Sing}}(\P^n_\C;\C)\to H^i_{{\rm Sing}}(Y;\C)$ is an isomorphism for $i<
+n-\cd(R,I)$ and injective if $i=n-\cd(R,I)$ (\cite{DM:DRCAV}, Theorem III.7.1).
+
+A consequence of the work of Ogus and Hartshorne
+(\cite{DM:Og}, 2.2, 2.3 and \cite{DM:DRCAV}, Theorem IV.3.1) is the
+following. 
+If $I\subseteq
+R=\C[x_0,\ldots,x_n]$ is the defining 
+ideal of a complex smooth variety $Y\subseteq \P^n_\C$ then, for
+$i<n-\codim (Y)$,
+\[
+\dim_\C\soc_R
+(H^0_\m(H^{n-i}_I (R)))=\dim_\C H^i_x(\tilde Y;\C)
+\]
+where
+$H^i_x(\tilde 
+Y;\C)$ stands for the $i$-th singular cohomology group of the affine
+cone $\tilde Y$ over $Y$ with support in the vertex $x$ of $\tilde Y$ and
+with coefficients in $\C$ (and $\soc_R(M)$  denotes the socle
+$(0:_M(x_0,\ldots,x_n))\subseteq M$ for any 
+$R$-module $M$), \cite{DM:L-Dmod}. 
+These iterated local cohomology modules have a
+special structure (cf.\ Subsection \ref{subsec-lambda}).
+
+Local cohomology relates to the connectedness of the underlying spaces
+as is shown by the following facts. If $Y$ is a complete intersection
+of positive dimension in $\P^n_\C$, then $Y$ cannot be disconnected by
+the removal of closed subsets of codimension 2 in $Y$ or higher,
+\cite{DM:Br-R}. 
+This is a
+consequence of the so-called Hartshorne-Lichtenbaum vanishing theorem,
+see \cite{DM:B-S}.
+
+In a similar spirit one can show that if $(A,\m)$ is a complete
+local domain of dimension $n$ and $f_1,\ldots,f_r$ are elements of the
+maximal ideal with $r+2\le n$, then
+$\var(f_1,\ldots,f_r)\setminus\{\m\}$ 
+is connected, \cite{DM:Br-R}.
+
+In fact, as we will discuss to some extent in Section \ref{sec-ausblick}, 
+over the complex numbers the complex $\check
+C^\bullet(R;f_1,\ldots,f_r)$ for $R=\C[x_1,\ldots,x_n]$ determines
+the Betti numbers
+$\dim_\C(H^i_{{\rm Sing}}(\C^n\setminus\var(f_1,\ldots,f_r);\C))$.
+\subsection{The Master Plan} 
+The cohomological dimension has been studied by many authors. For an
+extensive list of references and some open questions 
+we recommend to consult 
+the very nice survey article \cite{DM:Hu}. 
+
+It turns out that for the determination of $\cd(R,I)$ it is in
+fact enough to find a test to 
+decide whether or not the local cohomology module $H^i_I(R)=0$ for
+given $i, R, I$. This is because $H^i_I(R)=0$ for all $i>c$ implies
+$\cd(R,I)\le c$ (see \cite{DM:CDAV}, Section 1).  
+
+Unfortunately,
+calculations are complicated by the fact that $H^i_I(M)$ is rarely
+finitely generated as $R$-module, even for very nice $R$ and $M$. 
+In this
+chapter we show how in an important class of examples one may still
+carry out explicit computations, by enlarging $R$. 
+
+We shall assume that 
+$I\subseteq R_n=K[x_1,\ldots,x_n]$ where $K$ is a
+computable field
+containing the rational numbers. (By a
+{\em computable field}\index{computable field} 
+we mean a subfield $K$ of $\C$ such that $K$ is
+described by a finite set of data and for which addition, subtraction,
+multiplication and division as well as the test whether the result of
+any of these operations is zero in the field can be executed by the
+Turing machine. For example, $K$ could be $\Q[\sqrt 2]$ stored as a
+2-dimensional vector space over $\Q$ with an appropriate
+multiplication table.)
+
+The ring of $K$-linear differential operators $D(R,K)$ of the
+commutative $K$-algebra $R$ is defined inductively: one sets
+$D_0(R,K)=R$, and for $i>0$ defines 
+\[
+D_i(R,K)=\left\{P\in\hom_K(R,R):Pr-rP\in D_{i-1}(R,K) \text{ for all } r\in
+R\right\}.
+\]
+Here, $r\in R$ is interpreted as the endomorphism of $R$ that
+multiplies by $r$.
+
+The local cohomology
+modules $H^i_I(R_n)$ have a natural
+structure of finitely generated left $D(R_n,K)$-modules (see for
+example \cite{DM:K2,DM:L-Dmod}).
+The basic reason for  this finiteness is that in this case 
+$R_n[f^{-1}]$ is a cyclic
+$D(R_n,K)$-module, generated by $f^{a}$ for $\Z\ni a\ll 0$
+(compare \cite{DM:B}): 
+\begin{eqnarray}
+\label{eqn-loc-iso}
+R_n[f^{-1}]=D(R_n,K)\action f^{a}.
+\end{eqnarray}
+
+Using 
+this finiteness we employ the theory of
+Gr\"obner bases in $D(R_n,K)$
+to develop 
+algorithms that give a presentation of $H^i_I(R_n)$ and $H^i_\m (H^j_I(R_n))$
+for all triples  $i,j\in \N$, $I\subseteq R_n$ in terms of generators and
+relations over 
+$D(R_n,K)$ (where $\m=R_n\cdot(x_1,\ldots,x_n)$), see Section \ref{sec-lc}. 
+This also leads to an
+algorithm for the computation of the invariants 
+\[
+\lambda_{i,j}(R_n/I)=\dim_K\soc_{R_n}(H^i_\m(H^{n-j}_I(R_n)))
+\]
+introduced in
+\cite{DM:L-Dmod}.
+
+
+At the basis for the computation of local cohomology are algorithms that
+compute the localization of a $D(R_n,K)$-module at a hypersurface $f\in
+R_n$. That means, if the left module $M={D(R_n,K)}^d/L$ is given by means of a
+finite number of generators for the left module $L\subseteq {D(R_n,K)}^d$
+then we want to compute a finite number of generators for the left
+module $L'\subseteq {D(R_n,K)}^{d'}$ which satisfies
+
+\[
+{D(R_n,K)}^{d'}/L'\cong 
+({D(R_n,K)}^d/L)\otimes_{R_n}R_n[f^{-1}]
+,
+\]
+which we do in Section \ref{sec-loc}.  
+
+Let $L$ be a left ideal of $D(R_n,K)$. 
+The computation of the localization of 
+$M=D(R_n,K)/L$ at $f\in R_n$ is closely related to the
+$D(R_n,K)[s]$-module $\M_f$ generated by 
+\begin{eqnarray}
+\bar 1\otimes 1\otimes f^s\in M\otimes_{R_n} R_n[f^{-1},s]\otimes f^s
+\end{eqnarray}
+and the minimal polynomial $b_f(s)$ 
+of $s$ on the quotient of $\M_f$ by its submodule $\M_f\cdot f$
+generated over $D(R_n,K)[s]$ by $\bar 1\otimes f\otimes f^s$,  
+ cf.\ Section \ref{sec-loc}. 
+Algorithms for the computation of these objects have been
+established by T.\ Oaku in a sequence of papers
+\cite{DM:Oa,DM:Oa3,DM:Oa2}.
+
+Astonishingly, the roots of $b_f(s)$ prescribe the exponents $a$ that
+can be used in the isomorphism (\ref{eqn-loc-iso}) 
+between $R_n[f^{-1}]$ and the
+$D(R_n,K)$-module generated by $f^{a}$. Moreover, any
+ good exponent $a$ can be used to transform $\M_f$ into
+$M\otimes R_n[f^{-1}]$ by a suitable ``plugging in'' procedure. 
+
+Thus the strategy for the computation of local cohomology will be
+to compute $\M_f$ and a good $a$ for each $f\in\{f_1,\ldots,f_r\}$,
+and then assemble the \v Cech complex.
+
+\subsection{Outline of the Chapter}
+The next section is devoted to a short introduction of results on
+the Weyl algebra $D(R_n,K)$ and $D$-modules as they apply to our
+work. 
+We start with some remarks on the theory of Gr\"obner
+bases in the Weyl algebra.
+
+In Section \ref{sec-loc} we investigate Bernstein-Sato polynomials,
+localizations and the \v Cech complex.
+The purpose of
+that section is to find a 
+presentation of $M\otimes R_n[f^{-1}]$ as a cyclic $D(R_n,K)$-module 
+if $M=D(R_n,K)/L$
+is a given holonomic $D$-module (for a definition and some properties
+of holonomic modules, see Subsection \ref{subsec-D-modules} below).
+
+
+
+In
+Section \ref{sec-lc} we describe 
+algorithms that for
+arbitrary $i,j,k,I$ 
+determine the structure of
+$H^k_I(R), H^i_\m (H^j_I(R))$ and find $\lambda_{i,j}(R/I)$. 
+The final section is devoted to comments on 
+implementations, efficiency, discussions of other topics, and open problems.
+
+
+
+%\input{2.tex}
+\section{The Weyl Algebra and Gr\"obner Bases}
+\mylabel{sec-weyl}
+
+$D$-modules, that is, rings or sheaves of differential operators and
+modules over these, have been around for several decades and played
+prominent roles in representation theory, some parts of analysis and
+in algebraic geometry. The founding fathers of the theory are 
+M.\ Sato, M.\ Kashiwara, T.\ Kawai, J.\ Bernstein, and A.\ Beilinson.
+ The area has also benefited much from the work of P.\ Deligne,
+J.-E.\ Bj\"ork, J.-E.\ Roos, 
+B.\ Malgrange and  Z.\ Mebkhout. The more computational aspects of the
+theory have been initiated by T.\ Oaku and N.\ Takayama.
+
+The simplest example of a ring of differential
+operators is given by the Weyl algebra, the ring of $K$-linear
+differential operators on $R_n$. In characteristic
+zero, this is a finitely generated $K$-algebra that resembles the ring
+of polynomials in $2n$ variables but fails to be commutative.
+\subsection{Notation} Throughout we shall use the following notation:
+$K$ will 
+denote a computable field 
+of characteristic zero and $R_n=K[x_1,\ldots,x_n]$ the ring of polynomials
+over $K$ in $n$ variables. The $K$-linear differential operators on
+$R_n$ are
+then the elements of  
+\[D_n=K\langle
+x_1,\del_1,\ldots,x_n,\del_n\rangle,
+\]
+the {\em $n$-th Weyl algebra}\myindex{Weyl algebra}
+ over $K$, where the symbol $x_i$ denotes the operator ``multiply by
+ $x_i$'' and $\del_i$ denotes the operator ``take partial
+derivative with respect to $x_i$''. We therefore have in $D_n$ the relations
+\begin{eqnarray*}
+x_ix_j&=&x_jx_i\quad \text{ for all } 1\le i,j\le n,\\ 
+\del_i\del_j&=&\del_j\del_i \quad \text{ for all } 1\le i,j\le n,\\
+x_i\del_j&=&\del_jx_i \quad \text{ for all } 1\le i\not =j\le n,\\
+\text{ and }\, x_i\del_i+1&=&\del_ix_i \quad \text{ for all } 1\le i\le n. 
+\end{eqnarray*}
+The last relation is nothing but
+the {\em product} (or {\em Leibniz})\myindex{Leibniz rule} {\em rule}, 
+$xf'+f=(xf)'$. 
+We shall use multi-index notation: $x^\alpha\del^\beta$ denotes the
+monomial 
+\[
+{x_1}^{\alpha_1}\cdots {x_n}^{\alpha_n}\cdot
+{\del_1}^{\beta_1}\cdots{\del_n}^{\beta_n}
+\]
+and $|\alpha|=\alpha_1+ \dots +\alpha_n$. 
+ 
+In order to keep the product $\del_i x_i\in D_n$ 
+and the application of $\del_i\in D_n$ to $x_i\in R_n$ apart, we shall
+write $\del_i\action (g)$ to mean the result of 
+the action\myindex{action (of a differential operator)} of $\del_i$ on $g\in
+R_n$. So for example, $\del_ix_i=x_i\del_i+1\in D_n$ but
+$\del_i\action x_i=1\in R_n$. The action of $D_n$ on $R_n$ takes
+precedence over the multiplication in $R_n$ (and is of course
+compatible with the multiplication in $D_n$), so for
+example $\del_2\action (x_1)x_2=0\cdot x_2=0\in R_n$.
+
+The symbol
+$\m$ will stand for the maximal ideal $R_n\cdot (x_1,\ldots,x_n)$ of
+$R_n$, $\Delta$ will denote the maximal left ideal $D_n\cdot 
+(\del_1,\ldots,\del_n)$
+of $D_n$ and  $I$ will stand for the ideal $R_n\cdot (f_1,\ldots,f_r)$ in
+$R_n$. Every $D_n$-module becomes an $R_n$-module via the embedding
+$R_n\into D_n$ as $D_0(R_n,K)$. 
+
+All tensor products in this chapter will be over $R_n$ and all
+$D_n$-modules (resp.\ ideals)\myindex{$D_n$-modules}
+ will be left modules (resp.\ left ideals) unless specified otherwise.
+%
+\subsection{Gr\"obner Bases in $D_n$}
+\mylabel{subsec-GB}
+This subsection is a severely shortened version of Chapter 1 in
+\cite{DM:SST} (and we strongly recommend that the reader take a look at
+this book). The 
+purpose is to see how Gr\"obner basis theory applies to the Weyl algebra.
+
+The elements in $D_n$ allow a {\em normally ordered
+expression}\myindex{normally ordered expression}. 
+Namely, if $P\in D_n$ then we can write it as 
+\[
+P=\sum_{(\alpha,\beta)\in E}c_{\alpha,\beta}x^\alpha\del^\beta
+\]
+where $E$ is a finite subset of $\N^{2n}$.
+Thus, as $K$-vector spaces there is an isomorphism
+\[
+\Psi:K[x,\xi]\to D_n
+\]
+(with $\xi=\xi_1,\ldots,\xi_n$) 
+sending $x^\alpha\xi^\beta$ to $x^\alpha\del^\beta$. We will assume
+that every $P\in D_n$ is normally ordered.
+
+We shall say that $(u,v)\in\R^{2n}$ is a {\em weight vector for
+$D_n$}\myindex{weight vector for $D_n$}
+if $u+v\geq 0$, that is $u_i+v_i\geq 0$ for all $1\le i\le n$. We
+set the {\em weight}\myindex{weight}
+ of the monomial $x^\alpha\del^\beta$ under
+$(u,v)$ to be $u\cdot\alpha+v\cdot\beta$ (scalar product). The weight
+of an operator is then the maximum of the weights of the nonzero
+monomials appearing in the normally ordered expression of $P$.
+ If $(u,v)$
+is a weight vector for $D_n$, there is an associated graded ring
+$\gr_{(u,v)}(D_n)$ with 
+\[
+\gr_{(u,v)}^r(D_n)=\frac{\{P\in D_n : w(P)\le r\}}{\{P\in D_n : w(P)<
+r\}}.
+\]
+So $\gr_{(u,v)}(D_n)$ is 
+the
+$K$-algebra on the symbols $\{x_i:1\le i\le n\}\cup
+\{\del_i:u_i+v_i=0\}\cup\{\xi_i:u_i+v_i>0\}$. Here all variables
+commute with each other except $\del_i$ and $x_i$ for which the
+Leibniz rule holds.
+
+Each $P\in D_n$ has an {\em initial form}\myindex{initial form}
+ or {\em symbol} \myindex{symbol} $\ini_{(u,v)}(P)$ 
+in $\gr_{(u,v)}(D_n)$ defined by
+taking all monomials in the normally ordered expression for $P$ that
+have maximal weight, and replacing all $\del_i$ with $u_i+v_i>0$ by
+the corresponding $\xi_i$. 
+
+The inequality $u_i+v_i\geq
+0$ is 
+needed to assure that the product of the initial forms of two
+operators equals the initial form of their product: one would not want
+to have $\ini(\del_i\cdot x_i)=\ini(x_i\cdot\del_i +1)=1$.
+
+
+
+A weight of particular importance is $-u=v=(1,\ldots,1)$, or more
+generally $-u=v=(1,\ldots,1,0,\ldots,0)$. In these cases
+$\gr_{(u,v)}(D_n)\cong D_n$. On the other hand, if $u+v$ is
+componentwise positive, then $\gr_{(u,v)}(D_n)$ is commutative
+(compare the initial forms of $\del_ix_i$ and $x_i\del_i$) and
+isomorphic to the polynomial ring in $2n$ variables corresponding to
+the symbols of $x_1,\ldots,x_n,\del_1,\ldots,\del_n$. 
+
+
+If $L$ is a left ideal in $D_n$ 
+we write $\ini_{(u,v)}(L)$\myindex{$\ini_{(u,v)}(L)$}
+ for $\{\ini_{(u,v)}(P):P\in L\}$. This is a
+left ideal in $\gr_{(u,v)}(D_n)$. If $G\subset L$ is a finite set we
+call it a {\em $(u,v)$-Gr\"obner basis}\myindex{$(u,v)$-Gr\"obner basis}
+ if the left ideal of
+$\gr_{(u,v)}(D_n)$ generated by the initial forms of the elements of
+$G$ agrees with $\ini_{(u,v)}(L)$.
+
+A {\em multiplicative monomial order on $D_n$}\myindex{monomial order
+on $D_n$} 
+is a total order $\order$
+on the normally ordered monomials such that 
+\begin{enumerate}
+\item $1\order x_i\del_i$ for all $i$, and
+\item $x^\alpha\del^\beta\order x^{\alpha'}\del^{\beta'}$ implies 
+$x^{\alpha+\alpha''}\del^{\beta+\beta''}\order
+x^{\alpha'+\alpha''}\del^{\beta'+\beta''}$ for all
+$\alpha'',\beta''\in \N^n$. 
+\end{enumerate}
+A multiplicative monomial order is a {\em
+term order}\myindex{term order on $D_n$}
+ if $1$ is the (unique) smallest monomial. 
+Multiplicative monomial orders, and more specifically term orders,
+clearly abound.
+
+Multiplicative monomial orders (and hence term orders) allow the
+construction of initial forms just like weight vectors. Now, however, the
+initial forms are always monomials, and always elements of $K[x,\xi]$
+(due to the total order requirement on $\order$). One
+defines Gr\"obner bases for multiplicative monomial orders analogously
+to the weight vector case.
+
+For our algorithms 
+we have need to compute weight vector Gr\"obner bases, and this can be
+done as follows. Suppose $(u,v)$ is a weight vector on $D_n$ and
+$\order$ a term order. Define a
+multiplicative monomial order $\order_{(u,v)}$ as follows:
+\begin{eqnarray*}
+x^\alpha\del^\beta\order_{(u,v)}
+x^{\alpha'}\del^{\beta'}&\Leftrightarrow& \left[(\alpha-\alpha')\cdot
+u+(\beta-\beta')\cdot 
+v<0\right] \text{ or }\\
+&&\left[(\alpha-\alpha')\cdot
+u+(\beta-\beta')\cdot 
+v=0 \text{ and } x^\alpha\del^\beta\order x^{\alpha'}\del^{\beta'}\right].
+\end{eqnarray*}
+Note that $\order_{(u,v)}$ is a term order precisely when $(u,v)$ is
+componentwise nonnegative.
+\begin{theorem}[\cite{DM:SST}, Theorem 1.1.6.]
+Let $L$ be a left ideal in $D_n$, $(u,v)$ a weight vector for $D_n$, 
+$\order$ a term
+order and $G$ a Gr\"obner basis for $L$ with respect to
+$\order_{(u,v)}$. Then
+\begin{enumerate}
+\item $G$ is a Gr\"obner basis for $L$ with respect to $(u,v)$.
+\item $\ini_{(u,v)}(G)$ is a Gr\"obner basis for $\ini_{(u,v)}(L)$ with
+respect to $\order$.\qed
+\end{enumerate}
+\end{theorem}
+We end this subsection with the remarks that Gr\"obner bases with
+respect to multiplicative monomial
+ orders can be computed using the Buchberger algorithm
+adapted to the non-commutative situation (thus, Gr\"obner bases with
+respect to  weight vectors are computable according to the theorem), 
+and that the computation of
+syzygies, kernels, intersections and preimages in $D_n$ 
+works essentially as in the commutative algebra $K[x,\xi]$. For precise
+statements of the algorithms we refer the reader to \cite{DM:SST}.
+
+\subsection{$D$-modules} \mylabel{subsec-D-modules}
+A good introduction to $D$-modules\myindex{$D$-modules}
+ are the book by J.-E.\ Bj\"ork,
+\cite{DM:B}, the nice introduction \cite{DM:Coutinho} by S.~Coutinho, 
+and the lecture notes by J.~Bernstein
+ \cite{DM:Bernstein-notes}. 
+In this subsection  we list some properties of
+localizations of $R_n$ that are important for module-finiteness over
+ $D_n$. Most of this section is taken from Section 1 in \cite{DM:B}.
+
+Let $f\in R_n$. Then the $R_n$-module $R_n[f^{-1}]$ has a
+structure as left $D_n$-module via the extension of the action
+$\action$\myindex{action (of a differential operator)}: 
+\begin{eqnarray*}
+x_i\action (\frac{g}{f^k})=\frac{x_ig}{f^k},&\quad&
+\del_i\action (\frac{g}{f^k})=\frac{\del_i\action(g)f-
+   k\del_i\action(f)g}{f^{k+1}}.
+\end{eqnarray*} 
+This may be thought of as a special case of localizing a $D_n$-module: if
+$M$ is a $D_n$-module and $f\in R_n$ then $M\otimes_{R_n} R_n[f^{-1}]$ 
+becomes a
+$D_n$-module via the {\em product rule}\myindex{product
+rule}\myindex{action}
+\begin{eqnarray*}
+x_i\action (m\otimes \frac{g}{f^k})=m\otimes (\frac{x_ig}{f^k}),
+&\quad&
+\del_i\action (m\otimes \frac{g}{f^k})=
+ m\otimes \del_i\action(\frac{g}{f^k})+\del_i m\otimes \frac{g}{f^k}.
+\end{eqnarray*}
+
+Of particular interest are the {\em
+holonomic} modules\myindex{holonomic module}
+ which are those finitely generated $D_n$-modules $M$
+for which $\ext^j_{D_n}(M,D_n)$ vanishes 
+unless $j=n$. 
+This innocent looking definition has surprising consequences,
+some of which we discuss now. 
+
+The holonomic modules form a full Abelian subcategory of
+the category of left $D_n$-modules, closed under the formation of
+subquotients. 
+Our standard example of a holonomic module is\myindex{$R_n$ as a
+$D_n$-module} 
+\[
+R_n=D_n/\Delta.
+\] 
+This equality may require some thought -- it pictures $R_n$ as a
+$D_n$-module generated by $1\in R_n$. It is particularly noteworthy
+that not all elements of $R_n$ are killed by $\Delta$ -- quite
+impossible if $D_n$ were commutative. 
+
+Holonomic modules are
+always cyclic and of finite length over $D_n$. These fundamental
+properties are consequences of the {\em Bernstein
+inequality}\myindex{Bernstein inequality}. To
+understand this inequality we associate with the $D_n$-module
+$M=D_n/L$ the Hilbert function $q_L(k)$ with values in the integers which
+counts for each $k\in\N$ the number of monomials $x^\alpha\del^\beta$ with
+$|\alpha|+|\beta|\le k$ whose cosets in $M$ are $K$-linearly
+independent. The filtration $k\mapsto K\cdot \{x^\alpha\del^\beta\mod L:
+|\alpha|+|\beta|\le k\}$ is called the \myindex{Bernstein filtration} 
+{\em Bernstein filtration}. The Bernstein inequality states that 
+$q_L(k)$ is either identically 
+zero (in which case $M=0$) or asymptotically a
+polynomial in $k$ of degree between $n$ and $2n$.
+This degree is called the {\em dimension of $M$}\myindex{dimension (of a
+$D$-module)}.
+A holonomic module is one of dimension $n$, the minimal possible value
+for a nonzero module.
+
+This characterization of holonomicity can be used quite easily to
+check with \Mtwo that $R_n$ is holonomic. Namely, let's say $n=3$. 
+Start a \Mtwo session with
+\beginOutput
+i1 : load "D-modules.m2"\\
+\endOutput
+\beginOutput
+i2 : D = QQ[x,y,z,Dx,Dy,Dz, WeylAlgebra => \{x=>Dx, y=>Dy, z=>Dz\}]\\
+\emptyLine
+o2 = D\\
+\emptyLine
+o2 : PolynomialRing\\
+\endOutput
+\beginOutput
+i3 : Delta = ideal(Dx,Dy,Dz)\\
+\emptyLine
+o3 = ideal (Dx, Dy, Dz)\\
+\emptyLine
+o3 : Ideal of D\\
+\endOutput
+The first of these commands loads the $D$-module library 
+by A.\ Leykin, M.\ Stillman  and H.\ Tsai, \cite{DM:M2D}. 
+The second line defines the
+base ring $D_3=\Q\langle x,y,z,\del_x,\del_y,\del_z\rangle$, 
+while the third command defines the $D_3$-module $D_3/\Delta\cong
+R_3$.
+
+As one can see, \Mtwo thinks of {\tt D} as a ring of polynomials. This is
+using the vector space isomorphism $\Psi$ from Subsection
+\ref{subsec-GB}. Of course, two elements are multiplied according to
+the Leibniz rule. 
+To see how \Mtwo uses the map $\Psi$, we enter the following expression.
+\beginOutput
+i4 : (Dx * x)^2\\
+\emptyLine
+\      2  2\\
+o4 = x Dx  + 3x*Dx + 1\\
+\emptyLine
+o4 : D\\
+\endOutput
+All Weyl algebra ideals and modules 
+are by default left
+ideals and left modules in \Mtwo. 
+
+If we don't explicitly specify a monomial ordering to be used in the Weyl
+algebra, then \Mtwo uses graded reverse lex ({\tt GRevLex}), as we can see by
+examining the options of the ring.
+\beginOutput
+i5 : options D\\
+\emptyLine
+o5 = OptionTable\{Adjust => identity                        \}\\
+\                 Degrees => \{\{1\}, \{1\}, \{1\}, \{1\}, \{1\}, \{1\}\}\\
+\                 Inverses => false\\
+\                 MonomialOrder => GRevLex\\
+\                 MonomialSize => 8\\
+\                 NewMonomialOrder => \\
+\                 Repair => identity\\
+\                 SkewCommutative => false\\
+\                 VariableBaseName => \\
+\                 VariableOrder => \\
+\                 Variables => \{x, y, z, Dx, Dy, Dz\}\\
+\                 Weights => \{\}\\
+\                 WeylAlgebra => \{x => Dx, y => Dy, z => Dz\}\\
+\emptyLine
+o5 : OptionTable\\
+\endOutput
+
+To compute the initial ideal of $\Delta$ with respect to the weight
+that associates $1$ to each $\del$ and to each variable, execute
+\beginOutput
+i6 : DeltaBern = inw(Delta,\{1,1,1,1,1,1\}) \\
+\emptyLine
+o6 = ideal (Dz, Dy, Dx)\\
+\emptyLine
+o6 : Ideal of QQ [x, y, z, Dx, Dy, Dz]\\
+\endOutput
+The command {\tt inw} can be used with any weight vector for $D_n$ as
+second argument. 
+One notes that the output is not an ideal in a Weyl algebra any more,
+but in a ring of polynomials, as it should.
+The dimension of $R_3$, which is the dimension of the variety
+associated to {\tt DeltaBern}, is computed by
+\beginOutput
+i7 : dim DeltaBern \\
+\emptyLine
+o7 = 3\\
+\endOutput
+As this is equal to $n=3$, the ideal $\Delta$ is holonomic.
+
+\bigskip
+
+Let $R_n[f^{-1},s]\otimes f^s$ be the free $R_n[f^{-1},s]$-module
+generated by the symbol $f^s$.  
+Using the action $\action$ of $D_n$ on $R_n[f^{-1},s]$ we define an
+action\myindex{action (of a differential operator)} $\action$ 
+of $D_n[s]$ on 
+$R_n[f^{-1},s]\otimes f^s$ by setting
+\begin{eqnarray*}
+s\action \left(\frac{g(x,s)}{f^k}\otimes f^s\right)&=& 
+\frac{sg(x,s)}{f^k}\otimes f^s,\\
+x_i\action\left(\frac{g(x,s)}{f^k}\otimes f^s\right)&=&
+ \frac{x_ig(x,s)}{f^k}\otimes f^s,\\
+\del_i\action\left(\frac{g(x,s)}{f^k}\otimes f^s\right)&=&
+ \left(\del_i\action\left(\frac{g(x,s)}{f^k}\right)+s\del_i\action(f)\cdot
+ \frac{g(x,s)}{f^{k+1}}\right)\otimes f^s.
+\end{eqnarray*}
+The last rule justifies the choice for the symbol of the generator.
+
+Writing $M=D_n/L$ and denoting by $\bar 1$ the coset of $1\in D_n$ in
+$M$, 
+this action extends to an action\myindex{action (of a differential
+ operator)}
+ of $D_n[s]$ on 
+\begin{eqnarray}
+\M^L_f=D_n[s]\action(\bar 1\otimes 1\otimes f^s)\subseteq 
+M\otimes_{R_n} \left(R_n[f^{-1},s]\otimes f^s\right)
+\end{eqnarray}
+by the product rule\myindex{product rule} for all left $D_n$-modules $M$.
+The interesting bit about $\M^L_f$
+is the following fact.
+If $M=D_n/L$ is holonomic 
+then
+there is a nonzero polynomial $b(s)$ in $K[s]$ and an
+operator $P(s)\in D_n[s]$ such that 
+\begin{eqnarray}
+\label{def-b-poly}
+P(s)\action(\bar 1\otimes f\otimes f^s)=
+\bar 1\otimes b(s)\otimes f^s
+\end{eqnarray}
+in $\M^L_f$.
+This entertaining equality, often written as 
+\[
+P(s)\left( \bar 1\otimes f^{s+1}\right)=\bar{b(s)}\otimes f^s,
+\] 
+says that $P(s)$ is roughly equal to
+division by $f$.
+The unique monic polynomial that divides 
+all other polynomials $b(s)$ satisfying an identity of this type is called the
+{\em Bernstein} (or also {\em Bernstein-Sato}) {\em
+polynomial}\myindex{Bernstein (Bernstein-Sato) polynomial} of $L$ and 
+$f$ and denoted by $b_f^L(s)$\myindex{$b_f^L(s)$}.
+Any operator $P(s)$ that satisfies (\ref{def-b-poly}) with
+$b(s)=b_f(s)$ 
+ we shall call a 
+{\em Bernstein operator}\myindex{Bernstein operator} and refer
+to the roots of $b_f^L(s)$ as {\em Bernstein roots}\myindex{Bernstein
+root} 
+of $f$ on $D_n/L$.
+It is clear from (\ref{def-b-poly}) and the definitions that
+$b^L_f(s)$ is the minimal polynomial of $s$ on the quotient of
+$\M^L_f$ by $D_n[s]\action(\bar 1\otimes f\otimes f^s)$. 
+
+The Bernstein roots of the polynomial $f$ are somewhat mysterious, but
+related to other algebro-geometric invariants as, for example, the
+monodromy of $f$ (see \cite{DM:M}), the Igusa zeta function (see \cite{Loeser}), and the log-canonical threshold
+(see \cite{DM:Kollar}). For a long time it was also unclear how to
+compute $b_f(s)$ for given $f$. In \cite{DM:Yano} many interesting examples of
+Bernstein-Sato polynomials are worked out by hand, while in
+\cite{DM:AK,DM:Brianconetal,DM:Maisonobe,DM:Satoetal}
+algorithms were given that compute $b_f(s)$ under certain conditions
+on $f$. The general algorithm we are going to explain was given by
+T.\ Oaku.  Here is a classical example.
+\begin{example}
+Let $f=\sum_{i=1}^n {x_i}^2$ and $M=R_n$ with $L=\Delta$. One can check
+that 
+\[
+\sum_{i=1}^n{\del_i}^2\action(\bar 1\otimes 1\otimes f^{s+1})=\bar 1\otimes
+4(s+1)(\frac{n}{2}+s)\otimes f^{s}
+\]
+and hence that 
+$\frac{1}{4}\sum_{i=1}^n{\del_i}^2$ is a Bernstein operator while the
+Bernstein roots of $f$ are $-1$ and $-{n}/{2}$ and the Bernstein
+polynomial is $(s+1)(s+\frac{n}{2})$.
+\end{example}
+\begin{example}
+Although in the previous example the Bernstein operator looked a lot
+like the polynomial $f$, this is not often the case and it is
+usually hard to guess Bernstein operators. For example, one has
+\[
+\left(\frac{1}{27}\,{\del_y}^3+
+\frac{y}{6}{\del_x}^2\del_y+\frac{x}{8}{\del_x}^3\right)(x^2+y^3)^{s+1}=
+(s+\frac{5}{6})(s+1)(s+\frac{7}{6}) (x^2+y^3)^s.
+\]
+In the case of non-quasi-homogeneous polynomials, there is usually no
+resemblance between $f$ and any Bernstein operator.
+\end{example}
+A very important property of holonomic modules is the
+(somewhat counterintuitive) fact that any localization of a
+holonomic module $M=D_n/L$ at a single element 
+(and hence at any finite number
+of elements) of $R_n$ is holonomic (\cite{DM:B}, 1.5.9) and 
+in particular cyclic over $D_n$, generated by $\bar 1\otimes f^{a}$ for
+sufficiently small $a\in \Z$. 
+As a
+special case we note that 
+localizations of $R_n$ are holonomic, and hence finitely generated 
+over $D_n$. 
+Coming back to the \v Cech complex we see that the complex $\check
+C^\bullet(M;f_1,\ldots,f_r)$   
+consists of holonomic $D_n$-modules whenever $M$ is holonomic. 
+
+As a consequence, local cohomology modules of $R_n$ are 
+$D_n$-modules and in fact holonomic. To see this it 
+suffices to know that the maps
+in the \v Cech complex are
+$D_n$-linear, which we will explain in Section \ref{sec-lc}. 
+Since the category 
+of holonomic $D_n$-modules and their $D_n$-linear maps
+is closed under subquotients,
+holonomicity of $H^k_I(R_n)$
+follows. 
+
+For similar reasons, $H^i_\m (H^j_I(R_n))$ is holonomic for
+$i,j\in \N$ (since $H^j_I(R_n)$ is holonomic).  
+These modules, investigated in Subsections \ref{subsec-lclc} and
+\ref{subsec-lambda}, are 
+rather special $R_n$-modules and seem to carry some very interesting
+information about $\var(I)$, see \cite{DM:G-S,DM:W-lambda}. 
+
+The fact that $R_n$ is holonomic and every localization of a holonomic
+module is as well, provides motivation for us to study this class of
+modules. There are, however, more occasions where holonomic modules
+show up. One such situation arises in the study of linear partial
+differential equations. More specifically, the so-called GKZ-systems
+(which we will meet again in the final chapter) provide a very
+interesting class of objects with fascinating combinatorial and
+analytic properties \cite{DM:SST}. 
+
+
+%\input{3.tex}
+\section{Bernstein-Sato Polynomials and Localization}
+\mylabel{sec-loc}
+We mentioned in the introduction that for the computation
+of local cohomology the following is an
+important algorithmic problem to solve.
+
+\begin{problem}
+\mylabel{prob}
+Given $f\in  
+R_n$ and a left ideal $L\subseteq D_n$ such that $M=D_n/L$ is holonomic,  
+compute the structure of the module 
+$D_n/L\otimes R_n[f^{-1}]$ in terms of generators and relations. 
+\end{problem}
+This section is about solving Problem \ref{prob}.
+\subsection{The Line of Attack}
+Recall for a given $D_n$-module $M=D_n/L$ the action of $D_n[s]$ on the
+tensor product $M\otimes_{R_n}(R_n[f^{-1},s]\otimes f^s)$ from
+Subsection \ref{subsec-D-modules}. 
+We begin with defining an ideal of operators:
+\begin{definition}
+Let  $J^L(f^s)$ stand for the ideal in $D_n[s]$
+that kills $\bar 1\otimes 1\otimes f^s\in (D_n/L)\otimes_{R_n}
+R_n[f^{-1},s]\otimes f^s$. 
+\end{definition}
+It turns out that it is very useful to know this ideal.
+If $L=\Delta$ then there are some obvious candidates for generators of
+$J^L(f^s)$. For example, there are $f\del_i-\del_i\action(f)s$ for all
+$i$. However, unless the affine hypersurface defined by $f=0$ is smooth, these will not generate
+$J^\Delta(f^s)$. For a more general $L$, there is a similar set of
+(somewhat less) obvious candidates, but again finding all elements of
+$J^\Delta(f^s)$ is far from elementary, even for smooth $f$.
+
+In order to find $J^L(f^s)$, we will consider the module 
+$(D_n/L)\otimes R_n[f^{-1},s]\otimes f^s$ over the ring $D_{n+1}=D_n\langle
+t,\del_t\rangle$ by defining an appropriate action of $t$ and $\del_t$
+on it. It is then not hard to 
+compute the ideal $J^L_{n+1}(f^s)\subseteq D_{n+1}$ consisting of all
+operators that kill $\bar 1\otimes 1\otimes f^s$, see Lemma
+\ref{lem-malgrange}.  
+In Proposition \ref{prop-oaku} 
+we will then explain how to compute $J^L(f^s)$ from $J_{n+1}^L(f^s)$. 
+
+This construction 
+gives an answer to the question of determining
+a presentation of  $D_n\action (\bar 1\otimes f^a)$ for ``most'' $a\in
+K$, which we make precise as follows.
+\begin{definition}
+We say that a property depending on $a\in K^m$ {\em holds for $a$
+ in
+very general position}, if there is a countable set of hypersurfaces
+ in $K^m$ such that the property holds for all $a$ not on any of the
+ exceptional hypersurfaces. 
+\end{definition}
+It will turn out that for $a\in K$ in very general position $J^L(f^s)$
+``is'' the annihilator for $f^a$: we shall very explicitly 
+identify a countable number of
+exceptional values
+in $K$ such that if $a$ is not equal to one of them, then $J^L(f^s)$
+evaluates under $s\mapsto a$ to the annihilator inside $D_n$ of $\bar 1\otimes f^a$.
+  
+For $a\in\Z$ we have
+of course
+$D_n\action (\bar 1\otimes f^a)\subseteq M\otimes 
+R_n[f^{-1}]$ but the inclusion may be strict
+(e.g., for $L=\Delta$ and $a=0$). 
+Proposition \ref{prop-kashiwara}
+shows how 
+$(D_n/L)\otimes R_n[f^{-1}]$ and
+$J^L(f^s)$ are related.
+\subsection{Undetermined Exponents}
+Consider $D_{n+1}=D_n\langle t,\del_t\rangle$, \myindex{$D_{n+1}$} 
+the Weyl algebra in
+$x_1,\ldots,x_n$ and the new variable $t$. B.\ Malgrange
+\cite{DM:M} 
+has defined an\myindex{action} 
+action $\action$ of $D_{n+1}$ on 
+$(D_n/L)\otimes R_n[f^{-1},s]\otimes f^s$ as follows.
+We require that $x_i$ acts as multiplication on the first factor, and
+for the other variables we set (with $\bar P\in D_n/L$ and  $g(x,s)\in
+R_n[s]$) 
+\begin{eqnarray*}
+\del_i\action(\bar P\otimes \frac{g(x,s)}{f^k}\otimes f^s)&=
+  &\left(\bar P\otimes
+  \left(\del_i\action(\frac{g(x,s)}{f^k})+\frac{s\del_i\action(f)g(x,s)}{f^{k+1}}\right)  
+\right. \\ & & \left. \quad {}
+   +\bar{\del_iP}\otimes \frac{g(x,s)}{f^k}\right)\otimes f^s,\\
+t\action(\bar P\otimes \frac{g(x,s)}{f^k}\otimes f^s)&=
+  &\bar P\otimes \frac{g(x,s+1)f}{f^k}\otimes f^s,\\
+\del_t\action(\bar P\otimes \frac{g(x,s)}{f^k}\otimes f^s)&=
+  &\bar P\otimes \frac{-sg(x,s-1)}{f^{k+1}} \otimes f^s.
+\end{eqnarray*}
+One checks that this actually
+defines a left $D_{n+1}$-module structure 
+ (i.e., $\del_tt$ acts like $t\del_t+1$) 
+and that
+$-\del_tt$ acts as 
+multiplication by $s$. 
+
+\begin{definition}
+We denote by $J^L_{n+1}(f^s)$ the ideal in $D_{n+1}$ that annihilates the
+element $\bar 1\otimes 1\otimes f^s$ in $(D_n/L)\otimes
+R_n[f^{-1},s]\otimes f^s$ with $D_{n+1}$ acting
+as defined above. 
+Then we have an induced morphism
+of $D_{n+1}$-modules $D_{n+1}/J^L_{n+1}(f^s)\to (D_n/L)\otimes
+R_n[f^{-1},s]\otimes f^s$ sending
+$P+J^L_{n+1}(f^s)$ to 
+$P\action (\bar 1\otimes 1\otimes f^s)$. 
+\end{definition}
+
+We say that an ideal $L\subseteq D_n$ is {\em
+ $f$-saturated}\myindex{saturated@$f$-saturated}
+ if $f\cdot
+P\in L$ implies $P\in L$ and we say that $D_n/L$ is {\em $f$-torsion
+free}\myindex{torsion free@$f$-torsion free} if $L$ is $f$-saturated. 
+$R_n$ and all its localizations are examples of $f$-torsion free
+modules for arbitrary $f$.
+
+The
+following lemma is a modification of Lemma 4.1 in \cite{DM:M} 
+where the special case
+$L=D_n\cdot (\del_1,\ldots,\del_n), D_n/L=R_n$ is considered (compare also
+\cite{DM:W1}).
+
+\begin{lemma}
+\mylabel{lem-malgrange}
+Suppose that $L=D_n\cdot (P_1,\ldots,P_r)$ is $f$-saturated.
+With the above definitions, $J^L_{n+1}(f^s)$ is the
+ideal generated by $f-t$ together with the images of the $P_j$ under
+the automorphism $\phi$ of $D_{n+1}$ induced by $x_i\mapsto x_i$ for all
+$i$, and $t \mapsto t-f$. 
+\end{lemma}
+
+\begin{proof}
+The automorphism sends $\del_i$ to $\del_i+\del_i\action(f)\del_t$ 
+and $\del_t$ to
+$\del_t$. So if we write $P_j$ as a polynomial
+$P_j(\del_1,\ldots,\del_n)$
+in the $\del_i$ 
+with coefficients in
+$K[x_1,\ldots,x_n]$, then 
+\[
+\phi
+(P_j)=P_j(\del_1+\del_1\action(f)\del_t,\ldots,\del_n+\del_n\action(f)\del_t).
+\]
+
+One checks that $(\del_i+\del_i\action(f)\del_t)\action 
+(\bar Q\otimes 1\otimes f^s)=
+\bar{\del_i
+Q}\otimes 1\otimes f^s$ for all $Q\in D_{n+1}$, so that
+$\phi(P_j(\del_1,\ldots,\del_n))\action (
+\bar 1\otimes 1\otimes f^s)=\bar{P_j(\del_1,\ldots,\del_n)}\otimes 1
+\otimes f^s=0$. By
+definition, $f\action
+(\bar 1\otimes 1\otimes f^s)=t\action (\bar 1\otimes 1\otimes f^s)$. So $t-f\in
+J^L_{n+1}(f^s)$ and $\phi(P_j)\in J^L_{n+1}(f^s)$ for $j=1,\ldots,r$.
+
+Conversely let $P\action (\bar 1\otimes 1\otimes f^s)=0$. The proof that
+$P\in\phi(J^L_{n+1}+D_{n+1}\cdot t)$ relies on
+an elimination idea and has some Gr\"obner basis flavor. 
+We have to show that
+$P\in D_{n+1}\cdot (\phi(P_1),\ldots,\phi(P_r),t-f)$. 
+We may assume, that $P$ does
+not contain 
+any power of  $t$ since we can eliminate $t$ using $f-t$. Now rewrite $P$ in
+terms of $\del_t$ and the $\del_i+\del_i\action(f)\del_t$. Say, 
+$P=\sum_{\alpha,\beta}
+\del_t^\alpha
+x^\beta
+Q_{\alpha,\beta}
+(\del_1+\del_1\action(f)\del_t,\ldots,\del_n+\del_n\action(f)\del_t)$, 
+where the $Q_{\alpha,\beta}\in K[y_1,\ldots,y_n]$ are polynomial
+expressions. 
+Then
+\[
+P\action (\bar 1\otimes 1\otimes f^s)=\sum_{\alpha,\beta} 
+\del_t^\alpha\action(
+\bar{x^\beta
+Q_{\alpha,\beta}(\del_1,\ldots,\del_n)}\otimes 1\otimes f^s).
+\] 
+Let $\bar\alpha$ be the largest $\alpha\in\N$ for which there is a
+nonzero $Q_{\alpha,\beta}$ occurring in $P=\sum_{\alpha,\beta}
+\del_t^\alpha
+x^\beta Q_{\alpha,\beta}(\del_1+\del_1\action(f)\del_t,\ldots,\del_n+\del_n\action(f)\del_t)$.
+We show that the sum of terms that contain
+$\del_t^{\bar\alpha}$ is in $D_{n+1}\cdot \phi(L)$ as
+follows. In 
+order for $P\action 
+(\bar 1\otimes 1\otimes f^s)$ to vanish, the sum of terms with the
+highest $s$-power, namely $s^{\bar\alpha}$, must vanish. Hence  
+$\sum_\beta 
+x^\beta Q_{\bar\alpha,\beta}(\del_1,\ldots,\del_n)
+\otimes (-1/f)^{\bar\alpha}\otimes f^s
+\in
+L\otimes R_n[f^{-1},s]\otimes f^s$ as $R_n[f^{-1},s]$ is $R_n[s]$-flat.
+It follows that $\sum_\beta x^\beta
+Q_{\bar\alpha,\beta}(\del_1,\ldots,\del_n)\in L$ ($L$ is
+$f$-saturated!) and hence $\sum_\beta
+\del_t^{\bar\alpha}
+x^\beta
+Q_{\bar\alpha,\beta}
+(\del_1+\del_1\action(f)\del_t,\ldots,\del_n+\del_n\action(f)  
+\del_t)\in
+D_{n+1}\cdot \phi(L)$ as announced.
+
+So by the first part,
+$P-\sum_\beta \del_t^{\bar\alpha} x^\beta
+Q_{\bar\alpha,\beta}(\del_1+\del_1\action(f)\del_t,\ldots,\del_n+\del_n
+\action(f)\del_t)$ kills
+$\bar 1\otimes 1\otimes f^s$, but is of 
+smaller degree in $\del_t$ than $P$ was.
+
+The claim follows by induction on $\bar\alpha$.\qed
+\end{proof}
+
+\bigskip
+
+If we identify $D_n[-\del_tt]$ with $D_n[s]$ then $J^L_{n+1}(f^s)\cap
+D_n[-\del_tt]$ is identified with  $J^L(f^s)$ since, as we observed
+earlier, $-\del_tt$ multiplies by $s$ on $\M^L_f$. 
+As we pointed out in the beginning, the crux of our algorithms is to
+calculate $J^L(f^s)=J^L_{n+1}(f^s)\cap D_n[s]$. We shall deal with
+this computation now.
+
+\mylabel{subsec-oaku}
+In Theorem 19 of \cite{DM:Oa2}, T.~Oaku
+showed how to construct a generating set for $J^L(f^s)$ in the case 
+$L=D_n\cdot(\del_1,\ldots,\del_n)$. 
+%According to Subsection 
+%\ref{subsec-special-exp}, $J^L(f^s)$ is the
+%intersection of $J^L_{n+1}(f^s)$ with $D_n[-\del_tt]$. 
+Using his ideas we explain how one may calculate $J\cap
+D_n[-\del_tt]$ whenever $J\subseteq D_{n+1}$ is any given ideal, and as a
+corollary develop an algorithm that for $f$-saturated $D_n/L$
+computes $J^L(f^s)=J^L_{n+1}(f^s)\cap D_n[-\del_tt]$. 
+
+We first review some work
+of Oaku. 
+On $D_{n+1}$ we define the weight vector\myindex{weight vector}
+ $w$ by  $w(t)=1,
+w(\del_t)=-1, w(x_i)=w(\del_i)=0$ and we extend it to
+$D_{n+1}[y_1,y_2]$ by $w(y_1)=-w(y_2)=1$. If $P=\sum_i P_i\in
+D_{n+1}[y_1,y_2]$ and all $P_i$ are monomials, then we will write
+$(P)^h$ for the operator $\sum_i P_i\cdot y_1^{d_i}$ where
+$d_i=\max_j(w(P_j))-w(P_i)$ and call it the {\em
+$y_1$-homogenization}\myindex{$y_1$-homogenization} 
+of $P$.
+
+Note that the
+Buchberger algorithm preserves homogeneity 
+in the following sense: if a set of generators for an ideal is given
+and these generators are homogeneous with respect to the weight above,
+then any new generator for the ideal constructed with the classical
+Buchberger algorithm will also be homogeneous. (This is a consequence
+of the facts that the $y_i$ commute with all other variables and that
+$\del_t t=t\del_t+1$ is homogeneous of weight zero.) 
+This homogeneity is very important for the following 
+result of Oaku:
+\begin{proposition}
+\mylabel{prop-oaku}
+Let $J=D_{n+1}\cdot(Q_1,\ldots,Q_r)$.
+Let $I$ be the left ideal in $D_{n+1}[y_1]$ generated by the
+$y_1$-homogenizations $(Q_i)^h$ of the $Q_i$, relative to the weight
+$w$ above, and set $\tilde
+I=D_{n+1}[y_1,y_2]\cdot (I,1-y_1y_2)$. Let $G$ be a Gr\"obner basis
+for $\tilde I$ under a monomial order that eliminates $y_1,y_2$. For
+each $P\in G\cap D_{n+1}$ 
+set $P'=t^{-w(P)}P$ if $w(P)<0$ and $P'=\del_t^{w(P)}P$ if
+$w(P)\geq 0$. Set $G_0=\{ P': P\in G\cap D_{n+1}\}$. Then
+$G_0\subseteq D_n[-\del_tt]$ generates $J\cap D_n[-\del_tt]$.
+\end{proposition}
+
+\begin{proof}
+This is in essence Theorem 18 of \cite{DM:Oa2}. (See the remarks 
+in Subsection \ref{subsec-GB} on how to compute such Gr\"obner
+bases.)\qed 
+\end{proof}
+
+As a corollary to this proposition we obtain an algorithm for the
+computation of $J^\Delta(f^s)$:
+
+\begin{alg}[Parametric Annihilator]
+\mylabel{alg-ann-fs}~
+
+\noindent {\sc Input}: $f\in R_n$; $L\subseteq D_n$ such that $L$ is 
+$f$-saturated.
+
+\noindent {\sc Output}: Generators for $J^L(f^s)$\myindex{$J^L(f^s)$,
+algorithm for}.
+
+\begin{enumerate}
+\item For each generator $Q_i$ of $D_{n+1}\cdot (L,t)$ 
+compute the image $\phi(Q_i)$
+under $x_i\mapsto
+x_i$, $t\mapsto t-f$, $\del_i\mapsto \del_i+\del_i\action(f)\del_t$,
+$\del_t\mapsto\del_t$.
+
+\item Homogenize all $\phi(Q_i)$ with respect to the new variable
+$y_1$ relative to the weight $w$ introduced before Proposition \ref{prop-oaku}.
+
+\item Compute a Gr\"obner basis for the ideal
+\[
+D_{n+1}[y_1,y_2]\cdot((\phi(Q_1))^h, \ldots, (\phi(Q_r))^h, 1-y_1y_2)
+\]
+in $D_{n+1}[y_1,y_2]$
+using an order that eliminates $y_1,y_2$.
+
+\item Select the operators $\{ P_j\}_1^b$ in this basis which do not
+contain $y_1, y_2$. 
+
+\item For each $P_j$, $1\le j\le b$, if $w(P_j)>0$ replace $P_j$ by
+$P_j'=\del_t^{w(P_j)}P_j$. Otherwise replace $P_j$ by
+$P_j'=t^{-w(P_j)}P_j$. 
+
+\item Return the new operators $\{P_j'\}_1^b$.
+\end{enumerate}
+End.
+\end{alg}
+The output will be operators in $D_n[-\del_tt]$ which is naturally
+identified with $D_n[s]$ (including the action on $\M^L_f$).
+This algorithm is in effect Proposition 7.1 of \cite{DM:Oa3}.
+
+In \Mtwo, one can compute the parametric annihilator ideal (for
+$R_n=\Delta$) by the command {\tt AnnFs}:
+\beginOutput
+i8 : D = QQ[x,y,z,w,Dx,Dy,Dz,Dw, \\
+\            WeylAlgebra => \{x=>Dx, y=>Dy, z=>Dz, w=>Dw\}];\\
+\endOutput
+\beginOutput
+i9 : f = x^2+y^2+z^2+w^2\\
+\emptyLine
+\      2    2    2    2\\
+o9 = x  + y  + z  + w\\
+\emptyLine
+o9 : D\\
+\endOutput
+\beginOutput
+i10 : AnnFs(f)\\
+\emptyLine
+\                                                                       $\cdot\cdot\cdot$\\
+o10 = ideal (w*Dz - z*Dw, w*Dy - y*Dw, z*Dy - y*Dz, w*Dx - x*Dw, z*Dx  $\cdot\cdot\cdot$\\
+\                                                                       $\cdot\cdot\cdot$\\
+\emptyLine
+o10 : Ideal of QQ [x, y, z, w, Dx, Dy, Dz, Dw, \$s, WeylAlgebra => \{x = $\cdot\cdot\cdot$\\
+\endOutput
+If we want to compute $J^L(f^s)$ 
+for more general $L$, we have to use
+the command {\tt AnnIFs}:
+\beginOutput
+i11 : L=ideal(x,y,Dz,Dw)\\
+\emptyLine
+o11 = ideal (x, y, Dz, Dw)\\
+\emptyLine
+o11 : Ideal of D\\
+\endOutput
+\beginOutput
+i12 : AnnIFs(L,f)\\
+\emptyLine
+\                                1        1\\
+o12 = ideal (y, x, w*Dz - z*Dw, -*z*Dz + -*w*Dw - \$s)\\
+\                                2        2\\
+\emptyLine
+o12 : Ideal of QQ [x, y, z, w, Dx, Dy, Dz, Dw, \$s, WeylAlgebra => \{x = $\cdot\cdot\cdot$\\
+\endOutput
+It should be emphasized that saturatedness of $L$ with respect to $f$ is
+a must for {\tt AnnIFs}. 
+
+\subsection{The Bernstein-Sato Polynomial}
+Knowing $J^L(f^s)$ allows us to get our hands on the Bernstein-Sato
+polynomial of $f$ on $M$:
+
+\begin{corollary}
+\mylabel{cor-b-poly}
+Suppose $L$ is a holonomic ideal in $D_n$ (i.e., $D_n/L$ is holonomic). 
+The
+Bernstein polynomial $b_f^L(s)$ of $f$ on $(D_n/L)$ satisfies 
+\begin{eqnarray}
+(b^L_f(s))=\left(D_n[s]\cdot(J^L(f^s),f)\right)\cap K[s].
+\end{eqnarray}
+Moreover, if $L$ is $f$-saturated then
+$b^L_f(s)$ can be computed with Gr\"obner basis computations.
+\end{corollary}
+
+\begin{proof}
+By definition of $b^L_f(s)$ we have
+$(b_f^L(s)-P_f^L(s)\cdot f)\action (\bar 1\otimes 1\otimes f^s)=0$ for
+a suitable $P^L_f(s)\in D_n[s]$. Hence
+$b_f^L(s)$ is in $K[s]$ and in 
+$D_n[s](J^L(f^s),f)$. Conversely, if $b(s)$ is in this intersection
+then $b(s)$ satisfies an equality of the type of (\ref{def-b-poly}) and
+hence is a multiple of $b^L_f(s)$.
+
+If we use 
+an elimination order for which $\{x_i,\del_i\}_1^n\gg s$ in $D_n[s]$, then
+if $J^L(f^s)$ is known, 
+$b^L_f(s)$ will be (up to a scalar 
+factor) the unique element in the reduced Gr\"obner basis for
+$D_n[s]\cdot (J^L(f^s),f)$ that 
+contains no $x_i$ nor $\del_i$. Since we assume $L$ to be
+$f$-saturated,  $J^L(f^s)$ can be computed
+according to Proposition \ref{prop-oaku}. 
+\qed
+\end{proof}
+
+We therefore arrive at the following algorithm for the Bernstein-Sato
+polynomial \cite{DM:Oa}.
+
+\begin{alg}[Bernstein-Sato polynomial]~
+
+\mylabel{alg-b-poly-L}
+\noindent {\sc Input}: $f\in R_n$; $ L\subseteq D_n$ such that 
+$D_n/L$ is holonomic and
+$f$-torsion free. 
+
+\noindent {\sc Output}: The Bernstein polynomial\myindex{Bernstein
+polynomial, algorithm for} $b^L_f(s)$.
+\begin{enumerate}
+\item Determine $J^L(f^s)$ following Algorithm \ref{alg-ann-fs}. 
+
+\item Find a reduced Gr\"obner basis for the ideal
+$J^L(f^s)+D_n[s]\cdot f$ 
+using an elimination order for $x$ and $\del$. 
+
+\item Pick the unique element $b(s)\in K[s]$ contained in that basis and
+return it.
+\end{enumerate}
+End.
+\end{alg}
+
+We illustrate the algorithm with two examples. We first recall $f$
+which was defined at the end of the previous subsection.
+\beginOutput
+i13 : f\\
+\emptyLine
+\       2    2    2    2\\
+o13 = x  + y  + z  + w\\
+\emptyLine
+o13 : D\\
+\endOutput
+Now we compute the Bernstein-Sato polynomial. 
+\beginOutput
+i14 : globalBFunction(f)\\
+\emptyLine
+\        2\\
+o14 = \$s  + 3\$s + 2\\
+\emptyLine
+o14 : QQ [\$s]\\
+\endOutput
+The routine {\tt globalBFunction} computes the
+Bernstein-Sato polynomial of $f$ on $R_n$. We also take a look at the
+Bernstein-Sato polynomial of a cubic:
+\beginOutput
+i15 : g=x^3+y^3+z^3+w^3\\
+\emptyLine
+\       3    3    3    3\\
+o15 = x  + y  + z  + w\\
+\emptyLine
+o15 : D\\
+\endOutput
+\beginOutput
+i16 : factorBFunction globalBFunction(g)\\
+\emptyLine
+\                    7       8               4       5\\
+o16 = (\$s + 1)(\$s + -)(\$s + -)(\$s + 2)(\$s + -)(\$s + -)\\
+\                    3       3               3       3\\
+\emptyLine
+o16 : Product\\
+\endOutput
+In \Mtwo one can also find $b^L_f(s)$ for more general $L$. We will
+see in the following remark what the appropriate commands are. 
+ 
+\begin{remark}
+\mylabel{rem-nonQ-root}
+It is clear that $s+1$ is always a factor of any Bernstein-Sato
+polynomial on $R_n$, but this is not necessarily the case if $L\not =
+\Delta$. For example, 
+$b^L_f(s)=s$ for $n=1$, $f=x$ and $L=x\del_x+1$ (in which case
+$D_1/L\cong R_1[x^{-1}]$, generated by ${1}/{x}$). 
+In particular, it is not true that
+the roots of $b_f^L(s)$ are negative for general holonomic $L$. 
+
+If $L$ is equal to $\Delta$, and if
+$f$ is nice, then the Bernstein roots are all between $-n$ and $0$
+\cite{DM:Varchenko}.  But for  general $f$ very little is known besides
+a famous theorem of Kashiwara
+ that states that $b^\Delta_f(s)$ factors over
+$\Q$ \cite{DM:K} and all roots are negative.
+
+For $L$ arbitrary, the situation is more complicated.
+The Bernstein-Sato polynomial of any polynomial $f$ on the
+$D_n$-module generated by $\bar 1\otimes f^a$ with $a\in K$ is
+related to that of $f$ on $D_n/L$ by a simple shift, and so the
+Bernstein roots of $f$ on the $D_n$-module generated by the function
+germ $f^a$, $a\in K$,  
+are still all
+in $K$  by
+\cite{DM:K}. Localizing other modules however can easily lead to
+nonrational roots. As an example, consider
+\beginOutput
+i17 : D1 = QQ[x,Dx,WeylAlgebra => \{x=>Dx\}];\\
+\endOutput
+\beginOutput
+i18 : I1 = ideal((x*Dx)^2+1)\\
+\emptyLine
+\             2  2\\
+o18 = ideal(x Dx  + x*Dx + 1)\\
+\emptyLine
+o18 : Ideal of D1\\
+\endOutput
+This is input defined over the rationals.
+Even localizing $D_1/I_1$ at a very simple $f$ leads to nonrational roots:
+\beginOutput
+i19 : f1 = x;\\
+\endOutput
+\beginOutput
+i20 : b=globalB(I1, f1)\\
+\emptyLine
+\                                   2\\
+o20 = HashTable\{Boperator => - x*Dx  + 2Dx*\$s + Dx\}\\
+\                                 2\\
+\                Bpolynomial => \$s  + 2\$s + 2\\
+\emptyLine
+o20 : HashTable\\
+\endOutput
+The routine {\tt globalB} is to be used if a Bernstein-Sato polynomial
+is suspected to fail to factor over $\Q$. If $b_f^L(s)$ does factor
+over $\Q$, one can also use the routine {\tt DlocalizeAll} to be
+discussed below. It
+would be very interesting to determine rules that govern the splitting field
+of $b^L_f(s)$ in general.
+
+
+\end{remark}
+
+\subsection{Specializing Exponents}
+\mylabel{subsec-special-exp}
+In this subsection we investigate the result of substituting $a\in K$
+for $s$ in $J^L(f^s)$.
+Recall that the Bernstein polynomial $b^L_f(s)$  
+will exist (i.e., be nonzero) if $D_n/L$ 
+is holonomic. As outlined in the previous subsection, $b^L_f(s)$ can
+be computed if $D_n/L$ is holonomic and $f$-torsion free. 
+The following proposition 
+(Proposition 7.3 in \cite{DM:Oa3}, see also Proposition 6.2 in \cite{DM:K})
+ shows that replacing $s$ by an
+exponent in very general position 
+leads to a solution of the localization problem.
+
+\begin{proposition}
+\mylabel{prop-kashiwara}
+If $L$ is holonomic and $a\in K$ is such that 
+no element of $\{a-1,a-2,\ldots\}$ is a Bernstein
+root of $f$ on $L$ then we have $D_n$-isomorphisms 
+\begin{equation}
+%% \label{eqn-s=a-iso}
+(D_n/L)\otimes_{R_n}\left( R_n[f^{-1}]\otimes f^a\right)
+\cong \left(D_n[s]/J^L(f^s)\right)|_{s=a}\cong D_n\action
+(\bar 1 \otimes 1\otimes f^a).
+\end{equation}
+\qed
+\end{proposition}
+One notes in particular that
+if any $a\in\Z $ satisfies the conditions of the
+proposition, then so does every integer smaller than $a$. This
+motivates the following 
+\begin{definition}
+The {\em stable integral exponent of $f$ on $L$} is the smallest
+integral root of $b^L_f(s)$, and denoted $a^L_f$.
+\end{definition}
+In terms of this definition, 
+\[
+\left(D_n/J^L(f^s)\right)|_{s=a^L_f}\cong
+(D_n/L)\otimes_{R_n}R_n[f^{-1}],
+\]
+and the presentation corresponds to the generator $\bar 1\otimes
+f^{a^L_f}$. 
+If $L=\Delta$ then Kashiwara's result tells us that $b^L_f(s)$ will
+factor over the rationals, and thus it is very easy to find the stable
+integral exponent. If we localize a more general module, 
+the roots  may not even be
+$K$-rational anymore as we saw at the end of the previous subsection. 
+
+The following lemma deals with the question of finding the smallest
+integer root of a polynomial. We let $|s|$ denote the complex absolute
+value. 
+\begin{lemma}
+Suppose that in the situation of Corollary \ref{cor-b-poly}, 
+\[
+b^L_f(s)=s^d+b_{d-1}s^{d-1}+\dots+b_0,
+\]
+and define 
+$B=\max_{i}\{|b_i|^{1/(d-i)}\}$.
+The smallest integer root of $b^L_f(s)$ is an integer between $-2B$
+and $2B$. 
+If in particular $L=D_n\cdot 
+(\del_1,\ldots,\del_n)$, it suffices to check the
+integers between $-b_{d-1}$ and $-1$.
+\end{lemma}
+
+\begin{proof}
+Suppose
+$|s_0|=2B\rho$ where $B$ is as defined above and $\rho>1$. 
+Assume 
+also that $s_0$ is a root of $b_f^L(s)$. We find
+\begin{eqnarray*}
+(2B\rho)^d=|s_0|^d&=&|-\sum_{i=0}^{d-1}b_i{s_0}^i|
+%&\le&\sum_0^{d-1}|b_i|\cdot|s_0|^i \\
+\le\sum_{i=0}^{d-1}B^{d-i}|s_0|^i\\
+&=&B^d\sum_{i=0}^{d-1}(2\rho)^i
+\le B^d((2\rho)^d-1),
+\end{eqnarray*}
+using $\rho\geq 1$.
+By contradiction, $s_0$ is not a root.
+
+The
+final claim is a consequence of Kashiwara's work
+ \cite{DM:K} where
+he proves that if $L=D_n\cdot(\del_1,\ldots,\del_n)$ then  all roots of
+$b_f^L(s)$ are rational and negative, and hence 
+$-b_{n-1}$ is a 
+lower bound for each single root.
+\qed
+\end{proof}
+
+Combining Proposition \ref{prop-kashiwara} 
+with Algorithms 
+\ref{alg-ann-fs} 
+and  
+\ref{alg-b-poly-L} 
+we therefore obtain
+\begin{alg}[Localization]~
+
+\mylabel{alg-D/L-loc-f}
+\myindex{localization!algorithm for}
+\noindent {\sc Input}: 
+ $f\in R_n$; $L\subseteq D_n$ such that $D_n/L$ is holonomic and
+$f$-torsion free. 
+
+\noindent {\sc Output}: 
+ Generators for an ideal $J$ such that $(D_n/L)\otimes_{R_n}
+ R_n[f^{-1}]\cong D_n/J$.
+
+\begin{enumerate}
+\item Determine $J^L(f^s)$ following Algorithm \ref{alg-ann-fs}. 
+\item Find the Bernstein polynomial $b_f^L(s)$ using Algorithm
+\ref{alg-b-poly-L}. 
+\item Find the smallest integer root $a$ of $b_f^L(s)$.
+\item Replace $s$ by $a$ in all generators for $J^L(f^s)$ and
+return these generators.
+\end{enumerate}
+End.
+\end{alg}
+Algorithms \ref{alg-b-poly-L} and \ref{alg-D/L-loc-f} are 
+Theorems 6.14 and Proposition 7.3 in \cite{DM:Oa3}.
+
+\begin{example}
+For $f=x^2+y^2+z^2+w^2$, we found a stable integral exponent of $-2$
+in the previous subsection.
+To compute the annihilator of 
+$f^{-2}$ using \Mtwo, we use the command {\tt
+Dlocalize} which automatically uses the stable integral exponent.
+We first change the current ring back to the ring {\tt D} which we used 
+in the previous subsection:
+\beginOutput
+i21 : use D\\
+\emptyLine
+o21 = D\\
+\emptyLine
+o21 : PolynomialRing\\
+\endOutput
+Here is the
+module to be localized.
+\beginOutput
+i22 : R = (D^1/ideal(Dx,Dy,Dz,Dw))\\
+\emptyLine
+o22 = cokernel | Dx Dy Dz Dw |\\
+\emptyLine
+\                             1\\
+o22 : D-module, quotient of D\\
+\endOutput
+The localization then is obtained by running
+\beginOutput
+i23 : ann2 = relations Dlocalize(R,f)\\
+\emptyLine
+o23 = | wDz-zDw wDy-yDw zDy-yDz wDx-xDw zDx-xDz yDx-xDy xDx+yDy+zDz+wD $\cdot\cdot\cdot$\\
+\emptyLine
+\              1       10\\
+o23 : Matrix D  <--- D\\
+\endOutput
+The output {\tt ann2} is a $1\times 10$ matrix whose entries generate
+$\ann_{D_4}(f^{-2})$. 
+\end{example}
+
+\begin{remark}
+The computation of the annihilator 
+of $f^a$ for values of $a$ such that $a-k$ is a
+Bernstein root for some $k\in\N^+$ can be achieved by an appropriate
+syzygy computation. For example, we saw above
+that the Bernstein-Sato
+polynomial of $f=x^2+y^2+z^2+w^2$ on $R_4$ is $(s+1)(s+2)$. So
+evaluation of $J^L(f^s)$ at $-1$ does not necessarily yield
+$\ann_{D_4}(f^{-1})$, as will be documented in the next remark. 
+On the other hand, evaluation at $-2$ gives
+$\ann_{D_4}(f^{-2})$. It is not hard to see that
+$\ann_{D_4}(f^{-1})=\{P\in D_n:Pf\in \ann_{D_n}(f^{-2})\}$ because
+$D_4\action f^{-1}=D_4f\action f^{-2}
+\subseteq D_4\action f^{-2}$. So we set:
+\beginOutput
+i24 : F = matrix\{\{f\}\}\\
+\emptyLine
+o24 = | x2+y2+z2+w2 |\\
+\emptyLine
+\              1       1\\
+o24 : Matrix D  <--- D\\
+\endOutput
+To find $\ann_{D_4}(f^{-1})$, we use the command {\tt modulo} which
+computes relations: {\tt modulo(M,N)} computes for two matrices $M, N$
+the set of (vectors of) operators $P$ such that $P\cdot M\subseteq \im(N)$. 
+\beginOutput
+i25 : ann1 = gb modulo(F,ann2)\\
+\emptyLine
+o25 = \{2\} | wDz-zDw wDy-yDw zDy-yDz Dx^2+Dy^2+Dz^2+Dw^2 wDx-xDw zDx-xD $\cdot\cdot\cdot$\\
+\emptyLine
+o25 : GroebnerBasis\\
+\endOutput
+The generator $\del_2^2+\del_y^2+\del_z^2+\del_w^2$ is particularly interesting. 
+To see the quotient of
+$D_4\action f^{-2}$ by $D_4\action f^{-1}$ we execute
+\beginOutput
+i26 : gb((ideal ann2) + (ideal F))\\
+\emptyLine
+o26 = | w z y x |\\
+\emptyLine
+o26 : GroebnerBasis\\
+\endOutput
+which shows that $D_4\action f^{-2}$ is an extension of
+$D_4/D_4(x,y,z,w)$ by $D_4\action f^{-1}$. This is not surprising,
+since $(0,0,0,0)$ is the only singularity of $f$ and hence the
+difference between $D_4\action f^{-2}$ and $D_4\action f^{-1}$ must be
+supported at the origin.
+
+It is perhaps interesting to note that for a more complicated (but still
+irreducible) polynomial $f$ the
+quotient $({D_n\action f^{a}})/({D_n\action f^{a+1}})$ can
+be a nonsimple nonzero $D_n$-module. For example, let
+$f=x^3+y^3+z^3+w^3$ and $a=a^\Delta_f=-2$. 
+A computation similar to the quadric case above
+shows that here $({D_n\action f^{a}})/({D_n\action f^{a+1}})$ is a
+$(x,y,z,w)$-torsion module (supported at the singular locus of $f$)
+isomorphic to $(D_4/D_4\cdot (x,y,z,w))^6$. The socle elements of the
+quotient are the degree 2 polynomials in $x,y,z,w$.
+\end{remark}
+
+\begin{example}
+\mylabel{ex-cubic}
+Here we show how with \Mtwo one can get more information
+from the localization
+procedure. 
+\beginOutput
+i27 : D = QQ[x,y,z,Dx,Dy,Dz, WeylAlgebra => \{x=>Dx, y=>Dy, z=>Dz\}];\\
+\endOutput
+\beginOutput
+i28 : Delta = ideal(Dx,Dy,Dz);\\
+\emptyLine
+o28 : Ideal of D\\
+\endOutput
+We now define a polynomial and compute the localization of $R_3$
+at the
+polynomial.
+\beginOutput
+i29 : f=x^3+y^3+z^3;\\
+\endOutput
+\beginOutput
+i30 : I1=DlocalizeAll(D^1/Delta,f,Strategy=>Oaku)\\
+\emptyLine
+\                                1        1        1             2      $\cdot\cdot\cdot$\\
+o30 = HashTable\{annFS => ideal (-*x*Dx + -*y*Dy + -*z*Dz - \$s, z Dy -  $\cdot\cdot\cdot$\\
+\                                3        3        3\\
+\                                     2      5       4\\
+\                Bfunction => (\$s + 1) (\$s + -)(\$s + -)(\$s + 2)\\
+\                                            3       3\\
+\                              2       3         2       4      1   2   $\cdot\cdot\cdot$\\
+\                Boperator => --*y*z*Dx Dy*Dz - --*y*z*Dy Dz + ---*z Dx $\cdot\cdot\cdot$\\
+\                             81                81             243      $\cdot\cdot\cdot$\\
+\                GeneratorPower => -2\\
+\                LocMap => | x6+2x3y3+y6+2x3z3+2y3z3+z6 |\\
+\                LocModule => cokernel | 1/3xDx+1/3yDy+1/3zDz+2 z2Dy-y2 $\cdot\cdot\cdot$\\
+\emptyLine
+o30 : HashTable\\
+\endOutput
+\beginOutput
+i31 : I2=DlocalizeAll(D^1/Delta,f)\\
+\emptyLine
+o31 = HashTable\{GeneratorPower => -2                                   $\cdot\cdot\cdot$\\
+\                                          2        2      2       1\\
+\                IntegrateBfunction => (\$s) (\$s + 1) (\$s + -)(\$s + -)\\
+\                                                          3       3\\
+\                LocMap => | x6+2x3y3+y6+2x3z3+2y3z3+z6 |\\
+\                LocModule => cokernel | xDx+yDy+zDz+6 z2Dy-y2Dz z2Dx-x $\cdot\cdot\cdot$\\
+\emptyLine
+o31 : HashTable\\
+\endOutput
+
+%\begin{verbatim}
+%i1 : load "Dloadfile.m2"
+%i2 : D = QQ[x,y,z,Dx,Dy,Dz, WeylAlgebra => {x=>Dx, y=>Dy, z=>Dz}]
+%i3 : Delta=ideal(Dx,Dy,Dz)
+%i4 : f=x^3+y^3+z^3
+%i5 : I1=DlocalizeAll(D^1/Delta,f,Strategy=>Oaku)
+%i6 : I2=DlocalizeAll(D^1/Delta,f)
+%\end{verbatim}
+The last two commands  both compute the localization of
+$R_3$ 
+at $f$ but follow different localization algorithms. The
+former uses our Algorithm \ref{alg-D/L-loc-f} while the latter follows
+\cite{DM:O-T-W}. 
+
+The output of the command {\tt DlocalizeAll} is a hashtable, because
+it contains a variety of data that pertain to the map $R_n\into
+R_n[f^{-1}]$. {\tt LocMap} gives the element that induces the map on
+the $D_n$-module level (by right multiplication). {\tt LocModule} gives
+the localized module as cokernel of the displayed matrix. {\tt
+Bfunction} is the Bernstein-Sato polynomial and {\tt annFS} the
+generic annihilator $J^L(f^s)$. {\tt Boperator} displays a
+Bernstein operator and the stable integral exponent is stored in {\tt
+GeneratorPower}. 
+
+  %% The warning {\tt Oaku's \ldots saturated} refers
+  %% to the fact that 
+Algorithm \ref{alg-D/L-loc-f} requires the ideal $L$ to be
+$f$-saturated. This property is not checked by \Mtwo, so the user
+needs to make sure it holds. For example, this is always the case if
+$D_n/L$ is a localization of $R_n$. One can check the saturation
+property in \Mtwo, but it is a rather involved computation. This difficulty can
+be circumvented by omitting the option {\tt Strategy=>Oaku}, in
+which case the localization algorithm of \cite{DM:O-T-W} is used. In
+terms of complexity, using the Oaku strategy is much better behaved.
+
+One can address the entries of a hashtable.  For
+example, executing
+\beginOutput
+i32 : I1.LocModule\\
+\emptyLine
+o32 = cokernel | 1/3xDx+1/3yDy+1/3zDz+2 z2Dy-y2Dz z2Dx-x2Dz y2Dx-x2Dy |\\
+\emptyLine
+\                             1\\
+o32 : D-module, quotient of D\\
+\endOutput
+one can see that 
+$R_3[f^{-1}]$ is isomorphic to the cokernel of the {\tt LocModule}
+entry which (for either localization method) is
+\begin{eqnarray*}
+D_3/&D_3\cdot(&x\del_x+y\del_y+z\del_z+6,\,\,\,z^2\del_y-y^2\del_z,\,\,\,x^3\del_y+y^3\del_y+y^2z\del_z+6y^2,\\ 
+         &&      z^2\del_x-x^2\del_z,\,\,\,y^2\del_x-x^2\del_y,\,\,\, 
+               x^3\del_z+y^3\del_z+z^3\del_z+6z^2).
+\end{eqnarray*}
+The first line of the hashtable {\tt I1} shows 
+that $R_3[f^{-1}]$ is generated
+by $f^{-2}$ over $D_3$, while {\tt I1.LocMap} shows that the natural inclusion
+$D_3/\Delta=R_3\into R_3[f^{-1}]=D_3/J^\Delta(f^s)|_{s=a^\Delta_f}$ 
+is given by right multiplication by $f^2$, shown as the third entry
+of the hashtable {\tt I1}.
+%The Bernstein polynomial {\tt I1.Bfunction} can be computed by
+%<<factorBFunction(globalBFunction(f))>>
+It is perhaps useful to point out that the fourth entry of hashtable
+{\tt I2} is a relative of the Bernstein-Sato polynomial of $f$, and is
+used for the computation of the so-called restriction functor (compare
+with \cite{DM:O-T1,DM:W2}).
+\end{example}
+
+\begin{remark}
+Plugging in bad values $a$ for $s$ (such that $a-k$ {\em is} a Bernstein
+root for some $k\in \N^+$) can have unexpected results. Consider the
+case $n=1$, $f=x$. Then $J^\Delta(f^s)=D_1\cdot(s+1-\del_1x_1)$. Hence
+$b^\Delta_f(s)=s+1$ and $-1$ is the unique Bernstein root. According
+to Proposition \ref{prop-kashiwara}, 
+\[
+\left(D_1[s]/J^\Delta(f^s)\right)|_{s=a}
+\cong R_1[{x_1}^{-1}]\otimes {x_1}^a\cong D_1\action {x_1}^a
+\]
+for all $a\in K\setminus\N$. For $a\in\N^+$, we also have
+$D_1[s]/J^\Delta(f^s)|_{s=a}\cong D_1\action x^a$, but this is of
+course not $R_1[{x_1}^{-1}]$ but just $R_1$. 
+
+For $a=0$ however, $\left(D_1[s]/J^\Delta(f^s)\right)|_{s=a}$ 
+has $x_1$-torsion! It
+equals in fact what is called the Fourier transform of
+$R_1[{x_1}^{-1}]$ and fits into an exact sequence 
+\[
+0\to H^1_{x_1}(R_1)\to{\mathcal F}(R_1[{x_1}^{-1}])\to R_1\to 0.
+\]
+\end{remark}
+
+
+
+\begin{remark}
+If $D_n/L$ is holonomic but has $f$-torsion, then 
+$(D_n/L)\otimes R_n[f^{-1}]$ 
+and $((D_n/L)/H^0_{(f)}(D_n/L))\otimes R_n[f^{-1}]$ are of course
+isomorphic.  So if we
+knew how to find $M/H^0_f(M)$ for holonomic modules $M$, our localization
+algorithm could be generalized to all holonomic modules. There are two
+different approaches to the problem of $f$-torsion, presented in
+\cite{DM:O-T1} and in \cite{DM:Ts,DM:Ts0}. The former is based on homological
+methods and restriction to the diagonal 
+while the latter aims at direct computation of
+those $P\in D_n$ for which $f^k P\in L$ for some $k$. 
+
+There is also another direct method for localizing $M=D_n/L$ at $f$
+that works in the situation where the nonholonomic locus of $M$ is
+contained in the variety of $f$ (irrespective of torsion). 
+It was proved by Kashiwara, that
+$M[f^{-1}]$ is then holonomic, and in \cite{DM:O-T-W} an algorithm based
+on integration is
+given that computes a presentation for it.
+\end{remark}
+
+%\input{5.tex}
+\section{Local Cohomology Computations}
+\mylabel{sec-lc}
+The purpose of this section is to present algorithms
+that compute 
+for given $i,j,k\in \N, I\subseteq  R_n$ 
+the structure of the
+local cohomology modules $H^k_I(R_n)$ and  $H^i_\m(H^j_I(R_n))$, and the
+invariants $\lambda_{i,j}(R_n/I)$ associated to $I$.
+%
+In particular, the algorithms 
+detect the vanishing of local
+cohomology modules. 
+\subsection{Local Cohomology}
+\mylabel{subsec-lc}
+We will first describe an algorithm that takes a finite
+set of polynomials $\{f_1,\ldots,f_r\}\subset R_n$ and
+returns a 
+presentation of $H^k_I(R_n)$ where $I=R_n\cdot(f_1,\ldots,f_r)$. In particular,
+if $H^k_I(R_n)$ is zero, then the algorithm will return the zero
+presentation. 
+
+\begin{definition}
+Let $\Theta^r_k$\myindex{$\Theta^r_k$}
+be the set of $k$-element subsets of $\{1,\ldots,r\}$ and
+for $\theta\in \Theta^r_k$ write $F_\theta$ for the product $\prod_{i\in
+\theta}f_{i}$.
+\end{definition}
+Consider the  \v Cech complex $\check C^\bullet=\check
+C^\bullet(f_1,\ldots,f_r)$ associated to $f_1,\ldots,f_r$ in
+$R_n$, 
+\begin{equation}
+%% \label{cechcomplex}
+0\to R_n\to \bigoplus_{\theta\in\Theta^r_1} R_n[{F_\theta}^{-1}]\to 
+ \bigoplus_{\theta\in\Theta^r_2}R_n[{F_\theta}^{-1}]
+ \to\cdots\to R_n[{(f_1\cdots f_r)}^{-1}]\to 0.
+\end{equation}
+Its $k$-th cohomology group is 
+$H^k_I(R_n)$.
+The map 
+\begin{equation}
+\label{cechmap}
+M_k:\left(\check C^k=\bigoplus\limits_{\theta\in\Theta^r_k}
+   R_n[{F_\theta}^{-1}]\right)\to 
+\left(\bigoplus\limits_{\theta'\in\Theta^r_{k+1}}
+   R_n[{F_{\theta'}}^{-1}]=\check C^{k+1} \right)
+\end{equation}
+ is the sum of maps
+\begin{equation}
+\label{cechmap-parts}
+R_n[{(f_{i_1}\cdots f_{i_k})}^{-1}]\to R_n[{(f_{j_1}\dotsb
+f_{j_{k+1}})}^{-1}]
+\end{equation}
+which are zero if $\{i_1,\ldots,i_k\}\not\subseteq
+\{j_1,\ldots,j_{k+1}\}$, or send $\frac{1}{1}$ to
+$\frac{1}{1}$ (up to sign). 
+With $D_n/\Delta\cong R_n$, identify
+$R_n[{(f_{i_1}\cdots f_{i_k})}^{-1}]$ with
+$D_n/J^\Delta((f_{i_1}\cdots f_{i_k})^s)|_{s=a}$ and
+$R_n[{(f_{j_1}\cdots f_{j_{k+1}})}^{-1}]$ with
+$D_n/J^\Delta((f_{j_1}\cdots f_{j_{k+1}})^s)|_{s=a'}$ where
+$a,a'$ are sufficiently small integers. By
+Proposition \ref{prop-kashiwara} we may assume that $a=a'\le 0$. Then the map
+(\ref{cechmap-parts}) is in the nonzero case multiplication from the right by
+$(f_l)^{-a}$ where $l=\{j_1,\ldots,j_{k+1}\}\backslash \{i_1,\ldots,i_k\}$,
+again up to sign. For example, consider the inclusion 
+\[
+D_2/D_2\cdot(\del_xx,\del_y)=R_2[x^{-1}]\into
+R_2[(xy)^{-1}]=D_2/D_2\cdot (\del_xx,
+\del_yy).
+\]
+Since $\frac{1}{x}
+=\frac{y}{xy}$, the inclusion on the level of $D_2$-modules 
+maps $P+\ann(x^{-1})$ to $Py+\ann((xy)^{-1})$.  
+
+It follows that the matrix representing the map $\check C^k\to \check 
+C^{k+1}$ in
+terms of $D_n$-modules is very easy to write down once the annihilator
+ideals and Bernstein polynomials for all $k$- and $(k+1)$-fold products
+of the $f_i$ are known: the entries are 0 or $\pm f_l^{-a}$ where
+$f_l$ is the new factor. These considerations give the following 
+
+\begin{alg}[Local cohomology\index{local cohomology!algorithm for}]~
+
+\mylabel{alg-lc}
+
+\noindent {\sc Input}: $f_1,\ldots,f_r\in R_n; k\in \N$.
+
+\noindent {\sc Output}: $H_I^k(R_n)$ in terms of generators and relations as finitely
+generated $D_n$-module where $I=R_n\cdot(f_1,\ldots,f_r)$.
+\begin{enumerate}
+\item Compute the annihilator ideal $J^\Delta((F_\theta)^s)$
+and the Bernstein 
+polynomial $b^\Delta_{F_\theta}(s)$ for all $(k-1)$-, $k$- and $(k+1)$-fold
+products $F_\theta$ of 
+${f_1},\ldots,{f_r}$ following Algorithms \ref{alg-ann-fs} and \ref{alg-b-poly-L} (so
+$\theta$ runs through $\Theta^r_{k-1}\cup \Theta^r_k\cup \Theta^r_{k+1}$).
+
+\item Compute the stable integral exponents $a^\Delta_{F_\theta}$, 
+ let $a$
+be their minimum
+and replace $s$ by $a$ in all the annihilator ideals.
+
+\item Compute the two matrices $M_{k-1},M_k$ representing the
+$D_n$-linear maps 
+$\check C^{k-1}\to \check C^k$ and $\check C^k\to \check 
+C^{k+1}$ as explained above.
+
+\item Compute a Gr\"obner basis $G$ for the kernel of the composition
+\[
+\bigoplus_{\theta\in\Theta_k^r}D_n\onto \bigoplus_{\theta\in\Theta^r_k} 
+D_n/J^\Delta({F_\theta}^s)|_{s=a}\stackrel{M_k}{\longrightarrow}
+\bigoplus_{\theta'\in
+\Theta^r_{k+1}}D_n/J^\Delta({F_{\theta'}}^s)|_{s=a}. 
+\]
+
+\item Compute a Gr\"obner basis $G_0$ for the preimage 
+in $\bigoplus_{\theta\in\Theta_k^r}D_n$ of the module 
+\[
+\im(M_{k-1})
+\subseteq \bigoplus_{\theta\in\Theta^r_k} 
+D_n/J^\Delta((F_\theta)^s)|_{s=a}\leftarrow\hskip-1.7ex\leftarrow \bigoplus_{\theta\in\Theta_k^r}D_n
+\]
+under the indicated projection.
+\item Compute the remainders of all elements of $G$ with
+respect to $G_0$. 
+
+\item Return these remainders and $G_0$.
+\end{enumerate}
+End.
+\end{alg}
+The nonzero elements of $G$ generate the quotient $G/G_0\cong
+H^k_I(R_n)$ so that in particular
+$H^k_I(R_n)=0$ if and only if all returned remainders are zero. 
+
+\begin{example}
+\mylabel{ex-minors}
+Let $I$ be the ideal in $R_6=K[x,y,z,u,v,w]$ that is generated by the
+$2\times 2$ minors $f,g,h$ of the matrix
+$\left(\begin{array}{ccc}x&y&z\\u&v&w\end{array}\right)$.
+Then $H_I^i(R_6)=0$ for $i<2$ and 
+$H^2_I(R_6)\ne 0$ because $I$ is a height 2 prime,
+ and $H^i_I(R_6)=0$ for $i>3$
+because $I$ is  
+3-generated, so the only open case is $H^3_I(R_6)$. This module
+ in
+fact does 
+not vanish, and our algorithm provides a proof of this 
+fact by direct calculation. The \Mtwo commands are as follows.
+\beginOutput
+i33 : D= QQ[x,y,z,u,v,w,Dx,Dy,Dz,Du,Dv,Dw, WeylAlgebra =>\\
+\                \{x=>Dx, y=>Dy, z=>Dz, u=>Du, v=>Dv, w=>Dw\}];\\
+\endOutput
+\beginOutput
+i34 : Delta=ideal(Dx,Dy,Dz,Du,Dv,Dw);\\
+\emptyLine
+o34 : Ideal of D\\
+\endOutput
+\beginOutput
+i35 : R=D^1/Delta;\\
+\endOutput
+\beginOutput
+i36 : f=x*v-u*y;\\
+\endOutput
+\beginOutput
+i37 : g=x*w-u*z;\\
+\endOutput
+\beginOutput
+i38 : h=y*w-v*z;\\
+\endOutput
+These commands define the relevant rings and polynomials. The
+following three
+compute the localization of $R_6$ at $f$: 
+\beginOutput
+i39 : Rf=DlocalizeAll(R,f,Strategy => Oaku)\\
+\emptyLine
+o39 = HashTable\{annFS => ideal (Dw, Dz, x*Du + y*Dv, y*Dy - u*Du, x*Dy $\cdot\cdot\cdot$\\
+\                Bfunction => (\$s + 1)(\$s + 2)\\
+\                Boperator => - Dy*Du + Dx*Dv\\
+\                GeneratorPower => -2\\
+\                LocMap => | y2u2-2xyuv+x2v2 |\\
+\                LocModule => cokernel | Dw Dz xDu+yDv yDy-uDu xDy+uDv  $\cdot\cdot\cdot$\\
+\emptyLine
+o39 : HashTable\\
+\endOutput
+of $R_6[f^{-1}]$ at
+$g$:
+\beginOutput
+i40 : Rfg=DlocalizeAll(Rf.LocModule,g, Strategy => Oaku)\\
+\emptyLine
+\                                                                       $\cdot\cdot\cdot$\\
+o40 = HashTable\{annFS => ideal (Dz*Dv - Dy*Dw, x*Du + y*Dv + z*Dw, z*D $\cdot\cdot\cdot$\\
+\                Bfunction => (\$s + 1)(\$s)\\
+\                Boperator => - Dz*Du + Dx*Dw\\
+\                GeneratorPower => -1\\
+\                LocMap => | -zu+xw |\\
+\                LocModule => cokernel | DzDv-DyDw xDu+yDv+zDw zDz-uDu- $\cdot\cdot\cdot$\\
+\emptyLine
+o40 : HashTable\\
+\endOutput
+and of $R_6[(fg)^{-1}]$ at $h$:   
+\beginOutput
+i41 : Rfgh=DlocalizeAll(Rfg.LocModule,h, Strategy => Oaku)\\
+\emptyLine
+\                                                                       $\cdot\cdot\cdot$\\
+o41 = HashTable\{annFS => ideal (x*Du + y*Dv + z*Dw, z*Dz - u*Du - v*Dv $\cdot\cdot\cdot$\\
+\                Bfunction => (\$s - 1)(\$s + 1)\\
+\                Boperator => - Dz*Dv + Dy*Dw\\
+\                GeneratorPower => -1\\
+\                LocMap => | -zv+yw |\\
+\                LocModule => cokernel | xDu+yDv+zDw zDz-uDu-vDv-2 yDy- $\cdot\cdot\cdot$\\
+\emptyLine
+o41 : HashTable\\
+\endOutput
+From the output of these commands
+one sees that $R_6[(fgh)^{-1}]$ is generated by
+${1}/{f^2gh}$. This follows from considering the stable integral exponents
+of the three localization procedures, 
+encoded in the hashtable entry stored under the key {\tt GeneratorPower}:
+for example, 
+\beginOutput
+i42 : Rf.GeneratorPower\\
+\emptyLine
+o42 = -2\\
+\endOutput
+shows that the generator for $R_6[f^{-1}]$ is $f^{-2}$.
+Now we compute the annihilator of $H^3_I(R_6)$.
+From the \v Cech complex it follows that 
+ $H^3_I(R_6)$ is the quotient of the output of {\tt Rfgh.LocModule}
+ (isomorphic to $R_6[(fgh)^{-1}]$)
+by the submodules generated by $f^2$, $g$ and $h$. (These submodules
+ represent $R_6[(gh)^{-1}]$, $R_6[(fh)^{-1}]$ and $R_6[(fg)^{-1}]$
+ respectively.)  
+\beginOutput
+i43 : Jfgh=ideal relations Rfgh.LocModule;\\
+\emptyLine
+o43 : Ideal of D\\
+\endOutput
+\beginOutput
+i44 : JH3=Jfgh+ideal(f^2,g,h);\\
+\emptyLine
+o44 : Ideal of D\\
+\endOutput
+\beginOutput
+i45 : JH3gb=gb JH3\\
+\emptyLine
+o45 = | w z uDu+vDv+wDw+4 xDu+yDv+zDw yDy-uDu-wDw-1 xDy+uDv uDx+vDy+wD $\cdot\cdot\cdot$\\
+\emptyLine
+o45 : GroebnerBasis\\
+\endOutput
+So {\tt JH3} is the ideal of $D_3$ generated by
+\begin{eqnarray*}
+&w,\,\,\, z,\,\,\, u\del_u+v\del_v+w\del_w+4,\,\,\,
+x\del_u+y\del_v+z\del_w,\,\, \, 
+y\del_y-u\del_u-w\del_w-1,&\\ 
+&x\del_y+u\del_v,\,\,\, 
+            u\del_x+v\del_y+w\del_z,\,\,\, y\del_x+v\del_u,\,\,\,
+x\del_x-v\del_v-w\del_w-1,&\\ & v^2,\,\,\, uv,\,\, yv,\,\,\,
+u^2,\,\,\, yu+xv,\,\, \, 
+            xu,\,\,\, y^2,\,\, \,xy,&\\ &x^2,\,\,\, xv\del_v+2x,\,\,\,
+v\del_y\del_u+w\del_z\del_u-v\del_x\del_v-w\del_x\del_w-3\del_x&
+\end{eqnarray*}
+which form a Gr\"obner basis.
+This proves that $H^3_I(R)\not =0$, because $1$ is not in the 
+Gr\"obner basis of {\tt JH3}.
+(There are also algebraic and topological proofs to this account. 
+Due to Hochster, and Bruns and
+Schw\"anzl, they are quite 
+ingenious and work only in rather special situations.)
+
+
+From our output one can see that $H^3_I(R_6)$ is
+$(x,y,z,u,v,w)$-torsion as {\tt JH3} contains $(x,y,z,u,v,w)^2$.
+The following sequence of commands defines a procedure {\tt testmTorsion}
+which as the name suggests tests a module $D_n/L$ for being $\m$-torsion.
+We first replace the generators of $L$ with a Gr\"obner basis.
+Then we pick the elements of the Gr\"obner basis not using any $\del_i$.
+If now the left over polynomials define an ideal of dimension $0$ in
+$R_n$, the ideal was $\m$-torsion and otherwise not.
+\beginOutput
+i46 : testmTorsion = method();\\
+\endOutput
+\beginOutput
+i47 : testmTorsion Ideal := (L) -> (\\
+\           LL = ideal generators gb L;\\
+\           n = numgens (ring (LL)) // 2;\\
+\           LLL = ideal select(first entries gens LL, f->(\\
+\                     l = apply(listForm f, t->drop(t#0,n));\\
+\                     all(l, t->t==toList(n:0))       \\
+\                     ));\\
+\           if dim inw(LLL,toList(apply(1..2*n,t -> 1))) == n\\
+\           then true\\
+\           else false);\\
+\endOutput
+If we apply {\tt testmTorsion} to {\tt JH3} we obtain
+\beginOutput
+i48 : testmTorsion(JH3)\\
+\emptyLine
+o48 = true\\
+\endOutput
+Further inspection shows that the ideal
+{\tt JH3} is in fact the annihilator of the fraction
+${f}/({wzx^2y^2u^2v^2})$ in
+$R_6[(xyzuvw)^{-1}]/R_6\cong 
+D_6/D_6\cdot(x,y,z,u,v,w)$, and that the fraction
+generates $D_6/D_6\cdot(x_1,\dots,x_6)$.
+Since $D_6/D_6\cdot(x_1,\dots,x_6)$ is
+isomorphic to   
+$E_{R_6}(R_6/R_6\cdot(x_1,\dots,x_6))$, the injective hull of 
+$R_6/R_6\cdot(x_1,\dots,x_6)=K$ in
+the category  
+of $R_6$-modules, we conclude that  
+$H^3_I(R_6)\cong E_{R_6}(K)$. (In the next subsection we will display
+a way to use \Mtwo to find the length of an $\m$-torsion module.)
+
+
+
+In contrast, let $I$ be defined as generated by the three
+minors, but this time over  a field of finite characteristic. Then 
+ $H^3_I(R_6)$ is
+zero because Peskine and Szpiro proved using the Frobenius functor 
+\cite{DM:P-S} that $R_6/I$
+Cohen-Macaulay implies that $H^k_I(R_6)$ is nonzero only if $k=\codim(I)$.
+
+Also opposite to the above example, but in any characteristic, is the
+following calculation.  Let $I$ be the ideal in $K[x,y,z,w]$
+describing the twisted cubic: $I=R_4\cdot (f,g,h)$ with $f=xz-y^2$, 
+$g=yw-z^2$,
+$h=xw-yz$. 
+The projective variety $V_2$ defined by $I$ is isomorphic to the
+projective
+line. It is of interest to determine whether $V_2$ and other Veronese
+embeddings of the projective line are complete
+intersections. The set-theoretic complete intersection property can
+occasionally be ruled out with local cohomology techniques: if $V$ is
+of codimension $c$ in the affine variety $X$ and
+$H^{c+k}_{I(V)}(O(X))\not =0$ for any positive $k$ then $V$ cannot be
+a set-theoretic complete intersection. 
+In the case of the twisted cubic, it turns out hat $H^3_I(R_4)=0$ as
+can be seen from the following computation:
+\beginOutput
+i49 : D=QQ[x,y,z,w,Dx,Dy,Dz,Dw,WeylAlgebra => \{x=>Dx, y=>Dy, z=>Dz,\\
+\      w=>Dw\}];\\
+\endOutput
+\beginOutput
+i50 : f=y^2-x*z;\\
+\endOutput
+\beginOutput
+i51 : g=z^2-y*w;\\
+\endOutput
+\beginOutput
+i52 : h=x*w-y*z;\\
+\endOutput
+\beginOutput
+i53 : Delta=ideal(Dx,Dy,Dz,Dw);\\
+\emptyLine
+o53 : Ideal of D\\
+\endOutput
+\beginOutput
+i54 : R=D^1/Delta;\\
+\endOutput
+\beginOutput
+i55 : Rf=DlocalizeAll(R,f,Strategy => Oaku)  \\
+\emptyLine
+\                                                         1             $\cdot\cdot\cdot$\\
+o55 = HashTable\{annFS => ideal (Dw, x*Dy + 2y*Dz, y*Dx + -*z*Dy, x*Dx  $\cdot\cdot\cdot$\\
+\                                                         2             $\cdot\cdot\cdot$\\
+\                                   3\\
+\                Bfunction => (\$s + -)(\$s + 1)\\
+\                                   2\\
+\                             1   2\\
+\                Boperator => -*Dy  - Dx*Dz\\
+\                             4\\
+\                GeneratorPower => -1\\
+\                LocMap => | y2-xz |\\
+\                LocModule => cokernel | Dw xDy+2yDz yDx+1/2zDy xDx-zDz $\cdot\cdot\cdot$\\
+\emptyLine
+o55 : HashTable\\
+\endOutput
+        
+\beginOutput
+i56 : Rfg=DlocalizeAll(Rf.LocModule,g, Strategy => Oaku);\\
+\endOutput
+          
+\beginOutput
+i57 : Rfgh=DlocalizeAll(Rfg.LocModule,h, Strategy => Oaku);\\
+\endOutput
+          
+\beginOutput
+i58 : Ifgh=ideal relations Rfgh.LocModule;\\
+\emptyLine
+o58 : Ideal of D\\
+\endOutput
+\beginOutput
+i59 : IH3=Ifgh+ideal(f,g,h);\\
+\emptyLine
+o59 : Ideal of D\\
+\endOutput
+\beginOutput
+i60 : IH3gb=gb IH3\\
+\emptyLine
+o60 = | 1 |\\
+\emptyLine
+o60 : GroebnerBasis\\
+\endOutput
+It follows that we cannot conclude from local cohomological
+considerations that $V_2$ is not a set-theoretic complete
+intersection. This is not an accident but typical, as the second
+vanishing theorem 
+of Hartshorne, Speiser, Huneke and Lyubeznik shows
+\cite{DM:CDAV,DM:H-Sp,DM:Hu-L}: if a homogeneous ideal $I\subseteq R_n$
+describes an geometrically connected projective variety of positive
+dimension then $H^{n-1}_I(R_n)=H^{n}_I (R_n)=0$.
+\end{example}
+
+
+\subsection{Iterated Local Cohomology}
+\mylabel{subsec-lclc}
+
+Recall that $\m=R_n\cdot(x_1,\ldots,x_n)$. 
+As a second application of Gr\"ob\-ner basis computations over the
+Weyl algebra we
+show now how to compute the $\m$-torsion modules $H^i_\m (H^j_I(R_n))$.
+Note that we cannot apply Lemma \ref{lem-malgrange} to $D_n/L=H^j_I(R_n)$
+since $H^j_I(R_n)$ may well 
+contain some torsion.
+
+$\check C^j(R_n;f_1,\ldots,f_r)$ denotes the $j$-th
+module in the 
+\v Cech complex to $R_n$ and $\{f_1,\ldots,f_r\}$. 
+Let $\check C^{\bullet,\bullet}$ be the double complex 
+
+\[
+\check C^{i,j}=\check C^i(R_n;x_1,\ldots,x_n)\otimes_{R_n} \check
+ C^j(R_n;f_1,\ldots,f_r), 
+\] 
+with
+vertical maps $\phi^{\bullet,\bullet}$ induced by the identity on the
+first factor and the 
+usual \v Cech maps on the second, and  horizontal maps
+$\xi^{\bullet,\bullet} $  induced
+by the \v Cech maps on the first factor and the identity on the
+second. 
+Now $\check C^{i,j}$ is a direct sum of modules $R_n[g^{-1}]$ where 
+$g=x_{\alpha_1}\cdots x_{\alpha_i}\cdot
+f_{\beta_1}\cdots f_{\beta_j}$. So the whole double complex
+can be rewritten in terms of $D_n$-modules and $D_n$-linear maps using
+Algorithm \ref{alg-D/L-loc-f}: 
+\[
+\diagram
+{\,\check C^{i-1,j+1}\,}{\rto^{\,\,\xi^{i-1,j+1}}}&
+        \check C^{i,j+1}\rto^{\xi^{i,j+1}}&
+                \check C^{i+1,j+1}\\
+\check C^{i-1,j}\rto^{\xi^{i-1,j}}\uto_{\phi^{i-1,j}}& 
+        \check C^{i,j}\rto^{\xi^{i,j}}\uto_{\phi^{i,j}}& 
+                \check C^{i+1,j}\uto_{\phi^{i+1,j}}\\
+\check C^{i-1,j-1}\rto^{\xi^{i-1,j-1}}\uto_{\phi^{i-1,j-1}}&
+        \check C^{i,j-1}\rto^{\xi^{i,j-1}}\uto_{\phi^{i,j-1}}& 
+                \check C^{i+1,j-1}\uto_{\phi^{i+1,j-1}}
+\enddiagram
+\]
+Since $\check C^i(R_n;x_1,\ldots,x_n)$ is $R_n$-flat, the column
+co\-ho\-mo\-lo\-gy of $\check C^{\bullet,\bullet}$ at $(i,j)$ is
+$\check C^i(R_n;x_1,\ldots,x_n)\otimes_{R_n}H^j_I(R_n)$ and the induced horizontal maps
+in the $j$-th row are
+simply the maps in the \v Cech complex $\check C^\bullet(H^j_I(R_n);x_1,\ldots,x_n)$. 
+It follows that
+the row cohomology of the column cohomology at $(i_0,j_0)$ is
+$H^{i_0}_\m(H^{j_0}_I(R_n))$, the object of our interest.
+
+We have, denoting by $X_{\theta'}$
+in analogy to $F_\theta$ the product $\prod_{i\in
+\theta'}x_i$,
+ the following 
+\begin{alg}[Iterated local cohomology]~
+
+\mylabel{alg-lclc}
+\myindex{local cohomology!algorithm for}
+\myindex{local cohomology!iterated}
+\noindent {\sc Input}: $f_1,\ldots,f_r\in R_n; i_0,j_0\in \N$.
+
+\noindent {\sc Output}: 
+$H^{i_0}_\m (H^{j_0}_I(R_n))$ in terms of generators and relations as
+finitely generated $D_n$-module where $I=R_n\cdot(f_1,\ldots,f_r)$.
+
+\begin{enumerate}
+\item For $i=i_0-1, i_0, i_0+1$ and $j=j_0-1,j_0,j_0+1$ compute the
+annihilators $J^\Delta((F_\theta\cdot X_{\theta'})^s)$, Bernstein
+polynomials $b^\Delta_{F_\theta\cdot X_{\theta'}}(s)$, and stable
+integral exponents $a^\Delta_{F_\theta\cdot X_{\theta '}}$  
+of $F_\theta\cdot
+X_{\theta'}$ 
+where $\theta \in \Theta^r_j, \theta'\in \Theta^n_i$.
+
+\item Let $a$ be the minimum of all $a^\Delta_{F_\theta\cdot X_{\theta '}}$
+and replace $s$ by $a$ in all the annihilators
+computed in the previous step.
+
+\item Compute the matrices to the $D_n$-linear maps
+ $\phi^{i,j}:\check C^{i,j}\to 
+\check C^{i,j+1}$ 
+and $\xi^{k,l}:\check C^{k,l}\to \check C^{k+1,l}$, for
+$(i,j)\in\{(i_0,j_0),(i_0+1,j_0-1),(i_0,j_0-1),(i_0-1,j_0)\}$ and 
+$(k,l)\in \{(i_0,j_0),(i_0-1,j_0)\}$. 
+\item Compute a Gr\"obner basis $G$ for the module 
+\[
+D_n\cdot G=\ker(\phi^{i_0,j_0})\cap
+\left[ 
+(\xi^{i_0,j_0})^{-1}(\im(\phi^{i_0+1,j_0-1}))\right]+\im(\phi^{i_0,j_0-1})
+\] 
+and a Gr\"obner basis $G_0$ for the module
+\[
+D_n\cdot
+G_0=\xi^{i_0-1,j_0}(\ker(\phi^{i_0-1,j_0}))+\im(\phi^{i_0,j_0-1}).
+\]
+\item Compute the remainders of all elements of $G$ with
+respect to $G_0$. 
+
+\item Return these remainders together with $G_0$.
+\end{enumerate}
+End.
+\end{alg}
+
+Note that $(D_n\cdot G)/(D_n\cdot G_0)$ is isomorphic to
+\[\frac{
+ \ker\left(\frac{\displaystyle\ker(\phi^{i_0,j_0})}
+            {\displaystyle\im(\phi^{i_0,j_0-1})}
+      \stackrel{\xi^{i_0,j_0}}{\longrightarrow}
+      \frac{\displaystyle\ker(\phi^{i_0+1,j_0})}
+            {\displaystyle\im(\phi^{i_0+1,j_0-1})}\right)}
+ {\xi^{i_0-1,j_0}\left(
+      \frac{\displaystyle\ker(\phi^{i_0-1,j_0})}
+           {\displaystyle\im(\phi^{i_0-1,j_0-1})}\right)}\cong H^{i_0}_\m(H^{j_0}_I(R_n)).
+\]
+The elements of $G$ will be generators for $H^{i_0}_\m
+(H^{j_0}_I(R_n))$ and 
+the elements of $G_0$ generate the extra relations that are not
+syzygies.
+
+The algorithm can of course be modified to compute any iterated local
+cohomology group $H^j_J(H^i_I(R_n))$ for $J\supseteq I$ by replacing
+the generators $x_1,\ldots,x_n$ for $\m$ by those for $J$. Moreover,
+the iteration depth can also be increased by considering
+``tricomplexes'' etc.\ instead of bicomplexes.
+
+Again we would like to point out that with the methods of \cite{DM:O-T1}
+or \cite{DM:O-T-W} one could actually compute first $H^i_I(R_n)$ and from
+that $H^j_J(H^i_I(R_n))$, but probably that is quite a bit more
+complex a computation. 
+%
+\subsection{Computation of Lyubeznik Numbers}
+\mylabel{subsec-lambda}
+G.\ Lyubeznik proved in \cite{DM:L-Dmod} that if $K$ is a field, 
+$R=K[x_1,\ldots,x_n]$, 
+$I\subseteq R$, $\m=R\cdot (x_1,\ldots,x_n)$ 
+and $A=R/I$ then $\lambda_{i,j}(A)=\dim_K\soc_R H^i_\m(H^{n-j}_I(R))$ is
+invariant under change of presentation of $A$. 
+In other words, it only
+depends on $A$ and $i,j$ but not the projection $R\onto A$. 
+Lyubeznik proved that $H^i_\m (H^j_I(R_n))$ is in fact an injective
+$\m$-torsion $R_n$-module of finite socle dimension $\lambda_{i,n-j}(A)$
+and so
+isomorphic to $(E_{R_n}(K))^{\lambda_{i,n-j}(A)}$ where $E_{R_n}(K)$ is the
+injective hull of $K$ over $R_n$. We
+are now in a position to compute these invariants of $R_n/I$ in
+characteristic zero..
+
+\begin{alg}[Lyubeznik numbers\index{Lyubeznik numbers}]~
+
+\mylabel{alg-lambda}
+\noindent {\sc Input}: $f_1,\ldots,f_r\in R_n; i,j\in \N$.
+
+\noindent {\sc Output}: $\lambda_{i,n-j}(R_n/R_n\cdot(f_1,\ldots,f_r))$.
+
+\begin{enumerate}
+\item Using Algorithm \ref{alg-lclc} find $g_1,\ldots,g_l\in {D_n}^d$
+and $h_1,\ldots,h_e\in {D_n}^d$ such that $H^i_\m(H^j_I(R_n))$ is
+isomorphic to $D_n\cdot (g_1,\ldots,g_l)$ modulo $H=D_n\cdot (h_1,\ldots,h_e)$.
+\item Assume that after a suitable renumeration 
+$g_1$ is not in $H$. If such a $g_1$ cannot be
+chosen, quit. 
+\item Find a monomial $m\in R_n$ such that $m\cdot g_1\not\in H$ but
+$x_img_1\in H$ for all $x_i$.
+\item Replace $H$ by $D_nmg_1+H$ and reenter at Step 2.
+\item Return $\lambda_{i,n-j}(R_n/I)$, the number of times Step 3 was
+executed. 
+\end{enumerate}
+End.
+\end{alg}
+The reason that this works is as follows.
+We know that
+$(D_n\cdot g_1+H)/H$ is $\m$-torsion (as $H^i_\m(H^j_I(R_n))$ is) 
+and so it is possible (with trial
+and error, or a suitable syzygy computation) 
+to find the monomial $m$ in Step 3.
+The element $mg_1 \mod H\in D_n/H$ has annihilator equal
+to $\m$ over $R_n$ and therefore generates a $D_n$-module isomorphic to
+$D_n/D_n\cdot \m\cong E_{R_n}(K)$. The injection 
+\[
+(D_n\cdot mg_1+H)/H\into
+(D_n\cdot(g_1,\ldots,g_l)+H)/H
+\]
+splits as map of $R_n$-modules because $E_{R_n}(K)$ is  
+injective and so the cokernel 
+$D_n\cdot (g_1,\ldots,g_l)/D_n\cdot (mg_1,h_1,\ldots,h_e)$ is isomorphic to
+$(E_{R_n}(K))^{\lambda_{i,n-j}(A)-1}$. 
+
+Reduction of the $g_i$ with respect to a Gr\"obner basis of the new
+relation module and repetition will lead to
+the determination of $\lambda_{i,n-j}(A)$.
+%
+
+Assume that $D_n/L$ is an $\m$-torsion module. For example, we could
+have $D_n/L\cong H^i_\m(H^j_I(R_n))$.  
+Here is a procedure that finds by trial and error 
+the monomial socle element $m$ of Step
+3 in Algorithm \ref{alg-lclc}.
+\beginOutput
+i61 : findSocle = method();\\
+\endOutput
+\beginOutput
+i62 : findSocle(Ideal, RingElement):= (L,P) -> (\\
+\           createDpairs(ring(L));\\
+\           v=(ring L).dpairVars#0;\\
+\           myflag = true;\\
+\           while myflag do (\\
+\                w = apply(v,temp -> temp*P {\char`\%} L);\\
+\                if all(w,temp -> temp == 0) then myflag = false\\
+\                else (\\
+\                     p = position(w, temp -> temp != 0);\\
+\                     P = v#p * P;)\\
+\                );\\
+\           P);\\
+\endOutput
+For example, if we want to apply this socle search to the ideal
+{\tt JH3} describing $H^3_I(R_6)$ of Example \ref{ex-minors} we do
+\beginOutput
+i63 : D = ring JH3\\
+\emptyLine
+o63 = D\\
+\emptyLine
+o63 : PolynomialRing\\
+\endOutput
+(as {\tt D} was most recently the differential operators on $\Q[x,y,z,w]$)
+\beginOutput
+i64 : findSocle(JH3,1_D)\\
+\emptyLine
+o64 = x*v\\
+\emptyLine
+o64 : D\\
+\endOutput
+One can then repeat the socle search and kill the newly found element
+as suggested in the explanation above:
+\beginOutput
+i65 : findLength = method();\\
+\endOutput
+\beginOutput
+i66 : findLength Ideal := (I) -> (   \\
+\           l = 0;\\
+\           while I != ideal 1_(ring I) do (\\
+\                l = l + 1;\\
+\                s = findSocle(I,1_(ring I));\\
+\                I = I + ideal s;);\\
+\           l);\\
+\endOutput
+Applied to {\tt JH3} of the previous subsection this yields
+\beginOutput
+i67 : findLength JH3\\
+\emptyLine
+o67 = 1\\
+\endOutput
+and hence {\tt JH3} does indeed describe a module isomorphic to $E_{R_6}(K)$.
+\nocite{DM:W1}
+
+%\input{6.tex}
+\section{Implementation, Examples, Questions}
+\mylabel{sec-ausblick}
+\subsection{Implementations and Optimizing}
+The Algorithms \ref{alg-ann-fs}, \ref{alg-b-poly-L} and \ref{alg-D/L-loc-f} 
+have first been implemented by
+T.\ Oaku
+  and N.\ Takayama 
+using the package Kan \cite{DM:T} which
+is a postscript language for computations in the Weyl algebra and in
+polynomial rings. 
+In \Mtwo Algorithms  \ref{alg-ann-fs},
+\ref{alg-b-poly-L} and \ref{alg-D/L-loc-f} as well as Algorithm 
+\ref{alg-lc}
+have been implemented by A.~Leykin, M.~Stillman and H.~Tsai. They additionally
+implemented a wealth of $D$-module routines that
+relate to topics which we cannot all cover in this chapter. These include
+homomorphisms between holonomic modules and extension functors,
+restriction functors to linear subspaces, integration (de Rham)
+functors to quotient spaces and others. For further theoretical 
+information 
+the reader is referred to \cite{DM:O-T1,DM:O-T2,DM:O-T-T,DM:SST,DM:T-W,DM:W2,DM:W4,DM:W3}. 
+
+\mylabel{efficiency}
+Computation of Gr\"obner bases in many variables is in general a time
+and space consuming enterprise. In commutative polynomial
+rings the worst case performance for the number of elements in reduced
+Gr\"obner bases 
+is doubly exponential in the number of variables and the degrees of
+the generators. In the (relatively) small 
+Example \ref{ex-minors} above $R_6$ is of dimension 6,
+so that the intermediate ring $D_{n+1}[y_1,y_2]$ contains 16
+variables. In view of these facts the following idea 
+has proved useful. 
+
+The general context in which Lemma \ref{lem-malgrange} and Proposition
+\ref{prop-kashiwara} were stated allows successive localization of
+$R_n[(fg)^{-1}]$ 
+in the following way. First one computes $R_n[f^{-1}]$ according to
+Algorithm \ref{alg-D/L-loc-f} as quotient $D_n/J^\Delta(f^s)|_{s=a}$,
+$\Z\ni a\ll 0$.  
+Then $R_n[(fg)^{-1}]$ may be
+computed using  Algorithm 
+\ref{alg-D/L-loc-f} again since $R_n[(fg)^{-1}]\cong
+R_n[g^{-1}]\otimes_{R_n} 
+D_n/J^\Delta(f^s)|_{s=a}$. (Note that all
+localizations of $R_n$ are automatically $f$-torsion free for $f\in R_n$
+so that Algorithm \ref{alg-D/L-loc-f} can be used.) This process
+may be iterated for products with any finite number of factors. 
+Of course the exponents for the various factors might be different. 
+This requires some care 
+%as the following situations illustrate. Assume
+%first that $-1$ is the smallest integer root of the Bernstein The
+%Bernstein polynomials
+%of $f$ and $g$ (both in $R_n$) with respect to the holonomic module
+%$R_n$. Assume further that $R_n[(fg)^{-1}]\cong D_n\action
+%( f^{-2}g^{-1})
+%\supsetneq
+%D_n\action( (fg)^{-1})$. Then $R_n[f^{-1}]\to R_n[(fg)^{-1}]$ can be written as
+%$D_n/\ann(f^{-1})\to D_n/\ann(f^{-2}\cdot g^{-1})$ sending $P\in D_n$ to
+%$P\cdot f\cdot g$. 
+%
+%Suppose on the other hand that we are interested in $H^2_I(R_n)$ where
+%$I=(f,g,h)$ and we know that $R_n[f^{-1}]=D_n\action
+%( f^{-2})\supsetneq 
+%D_n\action(
+%f^{-1}), R_n[g^{-1}]=D_n\action( g^{-2})$ and $R_n[(fg)^{-1}]=D_n\action( f^{-1}g^{-2})$. (In
+%fact, the degree 2 part of the \v Cech complex of Example
+%\ref{ex-minors} consists of such localizations.) We cannot write
+%the embedding $R_n[f^{-1}]\to R_n[(fg)^{-1}]$ with the use of a
+%Bernstein operator for $s=-2$ since $f^{-1}$ is not a
+%generator for $R_n[f^{-1}]$. So we must
+%write $R_n[(fg)^{-1}]$ as $D_n/\ann((fg)^{-2})$ and then send $P\in
+%\ann(f^{-2})$ to $P\cdot g^2$. 
+%
+%The two examples indicate how to write the \v Cech complex in terms
+%of generators and relations over $D_n$ while making 
+%
+%
+when setting up the \v Cech complex. In particular one needs to make 
+sure that the maps
+$\check C^k\to \check C^{k+1}$ can be made explicit using the $f_i$.
+% -- the exponents
+%used in $C^k$ have to be at least as big as those in $C^{k-1}$ (for the
+%same $f_i$). 
+(In our Example \ref{ex-minors}, this is precisely how we proceeded
+when we found {\tt Rfgh}.)
+\begin{remark}
+\label{remark}
+One might hope that for all holonomic $fg$-torsion free 
+modules $M=D_n/L$ 
+we have  (with $M\otimes R_n[g^{-1}]\cong D_n/L'$):
+\begin{eqnarray}
+\label{eq-ineq}
+a^L_f=\min\{s\in\Z:b_f^L(s)=0\}\le \min\{s\in\Z:b_f^{L'}(s)=0\}=a^{L'}_f.
+\end{eqnarray}
+This hope is unfounded. Let $R_5=K[x_1,\ldots,x_5]$,
+$f=x_1^2+x_2^2+x_3^2+x_4^2+x_5^2$. One may check that then
+$b^\Delta_f(s)=(s+1)(s+5/2)$. Hence $R_5[f^{-1}]=D_5\action f^{-1}$, let
+$L=\ker(D_5\to D_5\action f^{-1})$. Set $g=x_1$. Then
+$b^\Delta_g(s)=s+1$, let $L'=\ker(D_5\to D_5\action g^{-1})$.
+
+Then
+$b^{L'}_f(s)=(s+1)(s+2)(s+5/2)$ and $b^L_g(s)=(s+1)(s+3)$ because of 
+the following computations.
+\beginOutput
+i68 : erase symbol x; erase symbol Dx;\\
+\endOutput
+These two commands essentially clear the history of the variables {\tt
+x} and {\tt Dx} and make them available for future computations.
+\beginOutput
+i70 : D = QQ[x_1..x_5, Dx_1..Dx_5, WeylAlgebra =>\\
+\           apply(toList(1..5), i -> x_i => Dx_i)];\\
+\endOutput
+\beginOutput
+i71 : f = x_1^2 + x_2^2 + x_3^2 + x_4^2 +x_5^2;\\
+\endOutput
+\beginOutput
+i72 : g = x_1;\\
+\endOutput
+\beginOutput
+i73 : R = D^1/ideal(Dx_1,Dx_2,Dx_3,Dx_4,Dx_5);\\
+\endOutput
+As usual, these commands defined the base ring, two polynomials and
+the $D_5$-module $R_5$. Now we compute the respective localizations.
+\beginOutput
+i74 : Rf =DlocalizeAll(R,f,Strategy => Oaku);\\
+\endOutput
+\beginOutput
+i75 : Bf = Rf.Bfunction\\
+\emptyLine
+\            5\\
+o75 = (\$s + -)(\$s + 1)\\
+\            2\\
+\emptyLine
+o75 : Product\\
+\endOutput
+\beginOutput
+i76 : Rfg = DlocalizeAll(Rf.LocModule,g,Strategy => Oaku);\\
+\endOutput
+\beginOutput
+i77 : Bfg = Rfg.Bfunction\\
+\emptyLine
+o77 = (\$s + 1)(\$s + 3)\\
+\emptyLine
+o77 : Product\\
+\endOutput
+\beginOutput
+i78 : Rg = DlocalizeAll(R,g,Strategy => Oaku);\\
+\endOutput
+\beginOutput
+i79 : Bg = Rg.Bfunction\\
+\emptyLine
+o79 = (\$s + 1)\\
+\emptyLine
+o79 : Product\\
+\endOutput
+\beginOutput
+i80 : Rgf = DlocalizeAll(Rg.LocModule,f,Strategy => Oaku);\\
+\endOutput
+\beginOutput
+i81 : Bgf = Rgf.Bfunction\\
+\emptyLine
+\                            5\\
+o81 = (\$s + 2)(\$s + 1)(\$s + -)\\
+\                            2\\
+\emptyLine
+o81 : Product\\
+\endOutput
+
+%\begin{verbatim}
+%i20 : D = QQ[x_1..x_5, Dx_1..Dx_5, WeylAlgebra => 
+%    apply(toList(1..5), i -> x_i => Dx_i)]
+%i21 : f = x_1^2 + x_2^2 + x_3^2 + x_4^2 +x_5^2
+%i22 : g = x_1
+%i23 : R = D^1/ideal(Dx_1,Dx_2,Dx_3,Dx_4,Dx_5)
+%i24 : M1 =DlocalizeAll(R,f,Strategy => Oaku)
+%i25 : M12 = DlocalizeAll(M1.LocModule,g,Strategy => Oaku)
+%i26 : M2 = DlocalizeAll(R,g,Strategy => Oaku)
+%i27 : M21 = DlocalizeAll(M2.LocModule,f,Strategy => Oaku)
+%\end{verbatim}
+The output shows
+that $R_n[(fg)^{-1}]$ is generated by $f^{-2}g^{-1}$ or $f^{-1}g^{-3}$ but not
+by $f^{-1}g^{-2}$ and in particular not by $f^{-1}g^{-1}$. 
+This can be seen from the various Bernstein-Sato polynomials: as for
+example the smallest integral root of {\tt Bf} is $-1$ and that of
+{\tt Bfg} is $-3$, $R_3[f^{-1}]$ is generated by $f^{-1}$ and
+$R_3[(fg)^{-1}]$ by $f^{-1}g^{-3}$.
+This example not only disproves the above inequality (\ref{eq-ineq})
+but also shows
+the inequality to be wrong if $\Z$ is replaced by $\R$ (as
+$-3<\min(-5/2,-1)$). 
+\end{remark}
+
+
+Nonetheless, localizing $R_n[(fg)^{-1}]$ as $(R_n[f^{-1}])[g^{-1}]$ is
+heuristically advantageous, apparently for two reasons. For 
+one, it allows the exponents of the various factors to be distinct
+which is useful for the subsequent cohomology computation: it helps
+to keep the degrees of the maps small. So in
+Example \ref{ex-minors} we can write $R_6[(fg)^{-1}]$ as $D_6\action 
+(f^{-1} g^{-2})$ instead
+of $D_6\action (fg)^{-2}$. 
+Secondly,  
+since the computation of Gr\"obner bases is potentially 
+doubly exponential it
+seems to be advantageous to break a big problem (localization at a
+product) into several ``easy'' problems (successive localization).
+
+An interesting case of this behavior is our Example \ref{ex-minors}. If we
+compute $R_n[(fgh)^{-1}]$ as $((R_n[f^{-1}])[g^{-1}])[h^{-1}]$, 
+the calculation uses
+approximately 6MB and lasts a few seconds 
+using \Mtwo. If one tries to localize $R_n$ at the
+product of the three generators at once, \Mtwo 
+runs out of memory on all machines the author has 
+tried this computation on.
+\subsection{Projects for the Future}
+This is a list of theoretical and implementational questions that the
+author finds 
+important and interesting.
+\subsubsection{Prime Characteristic} In \cite{DM:L-Fmod},
+G.~Lyubeznik gave an
+algorithm for deciding whether or not 
+$H^i_I(R)=0$ for any given  $I\subseteq R=K[x_1,\ldots,x_n]$ where
+$K$ is a computable field of positive characteristic. His algorithm is built on
+entirely different methods than the ones used in this chapter 
+and relies on the Frobenius functor. The
+implementation of this algorithm would be quite worthwhile.
+\subsubsection{Ambient Spaces Different from ${\mathbb A}^n_K$}
+\mylabel{singular-spaces}
+If $A$ equals $K[x_1,\ldots,x_n]$, 
+$I\subseteq A$, $X=\spec (A)$ and $Y=\spec(A/I)$,
+knowledge of $H^i_I(A)$ for all $i\in \N$ answers of course the
+question about the local cohomological dimension of $Y$ in $X$. 
+If $W\subseteq X$ is a smooth variety containing $Y$
+then Algorithm \ref{alg-lc} for the computation of $H^i_I(A)$ also
+leads to a determination of the local cohomological dimension of $Y$
+in $W$. Namely, if $J$ stands for the
+defining ideal of $W$ in $X$ so that $R=A/J$ is the affine
+coordinate ring of $W$  and if we set $c=\height(J)$, then it can be
+shown that 
+$H^{i-c}_{I}(R)=\hom_A(R,H^i_I(A))$ for all $i\in\N$.
+As $H^i_I(A)$ is 
+$I$-torsion (and hence $J$-torsion), $\hom_A(R,H^i_I(A))$ is zero if
+and only if 
+$H^i_I(A)=0$. It follows that the local cohomological dimension of $Y$
+in $W$ equals $\cd(A,I)-c$ and in fact $\{i\in \N:H^i_I(A)\not =0\}=\{i\in
+\N:H^{i-c}_I(R)\not =0\}$. 
+
+If however $W=\spec(R)$ is not smooth, no algorithms for the computation of
+either $H^i_I(R)$ or $\cd(R,I)$ are known, irrespective of the
+characteristic of the base field. It would be very interesting to have
+even partial ideas for computations in that case.
+\subsubsection{De Rham Cohomology} In \cite{DM:O-T1,DM:W2} algorithms are given
+ to compute de Rham (in this case equal to singular) 
+cohomology of complements of complex affine
+hypersurfaces and more general varieties. In \cite{DM:W3} an algorithm
+is given to compute the multiplicative (cup product) structure, and in
+\cite{DM:W4} the computation of the de Rham cohomology of open and
+closed sets in projective
+space is explained. Some of these
+algorithms have been implemented while others are still waiting. 
+
+For
+example, de Rham cohomology of complements of hypersurfaces, and
+partially the cup product routine,  are implemented.
+\begin{example}
+Let $f=x^3+y^3+z^3$ in $R_3$. One can compute with \Mtwo
+the de Rham cohomology of the complement of $\var(f)$, and 
+it turns out that the
+cohomology in degrees 0 and 1 is 1-dimensional, in degrees 3 and 4
+2-dimensional and zero otherwise -- here is the input:
+\beginOutput
+i82 : erase symbol x;\\
+\endOutput
+Once {\tt x} gets used as a subscripted
+variable, it's hard to use it as a nonsubscripted variable.  So let's just
+erase it.
+\beginOutput
+i83 : R = QQ[x,y,z];\\
+\endOutput
+\beginOutput
+i84 : f=x^3+y^3+z^3;\\
+\endOutput
+\beginOutput
+i85 : H=deRhamAll(f);\\
+\endOutput
+%\begin{verbatim}
+%i28 ; R = QQ[x,y,z]
+%i29 ; f=x^3+y^3+z^3
+%i30 : deRhamAll(f)
+%\end{verbatim}
+{\tt H} is a hashtable with the entries 
+{\tt Bfunction}, 
+{\tt LocalizeMap}, 
+{\tt VResolution}, 
+{\tt TransferCycles}, 
+{\tt PreCycles}, 
+{\tt OmegaRes} and 
+{\tt CohomologyGroups}. For example,
+we have
+\beginOutput
+i86 : H.CohomologyGroups\\
+\emptyLine
+\                       1\\
+o86 = HashTable\{0 => QQ \}\\
+\                       1\\
+\                1 => QQ\\
+\                       2\\
+\                2 => QQ\\
+\                       2\\
+\                3 => QQ\\
+\emptyLine
+o86 : HashTable\\
+\endOutput
+showing that the dimensions are as claimed above. One can also extract
+information on the generator of $R_3[f^{-1}]$ used to represent the
+cohomology classes by
+\beginOutput
+i87 : H.LocalizeMap\\
+\emptyLine
+o87 = | \$x_1^6+2\$x_1^3\$x_2^3+\$x_2^6+2\$x_1^3\$x_3^3+2\$x_2^3\$x_3^3+\$x_3^6 |\\
+\emptyLine
+o87 : Matrix\\
+\endOutput
+which proves that the generator in question is $f^{-2}$. The cohomology
+classes that \Mtwo computes are differential forms:
+\beginOutput
+i88 : H.TransferCycles\\
+\emptyLine
+o88 = HashTable\{0 => | -1/12\$x_1^4\$x_2^3\$D_1-1/3\$x_1\$x_2^6\$D_1-1/12\$x_ $\cdot\cdot\cdot$\\
+\                1 => | 2/3\$x_1^5+2/3\$x_1^2\$x_2^3+2/3\$x_1^2\$x_3^3  |\\
+\                     | -2/3\$x_1^3\$x_2^2-2/3\$x_2^5-2/3\$x_2^2\$x_3^3 |\\
+\                     | 2/3\$x_1^3\$x_3^2+2/3\$x_2^3\$x_3^2+2/3\$x_3^5  |\\
+\                2 => | 48\$x_1\$x_2\$x_3^2 600\$x_3^4     |\\
+\                     | 48\$x_1\$x_2^2\$x_3 600\$x_2\$x_3^3 |\\
+\                     | 48\$x_1^2\$x_2\$x_3 600\$x_1\$x_3^3 |\\
+\                3 => | -\$x_1\$x_2\$x_3 -\$x_3^3 |\\
+\emptyLine
+o88 : HashTable\\
+\endOutput
+So, for example, the left column of the three rows that correspond to
+$H^2_{{\rm dR}}(\C^3\setminus\var(f),\C)$ represent the form
+$({xyz(48zdxdy+48ydzdx+48xdydz)})/{f^2}$. 
+If we apply the above elements of $D_3$ to $f^{-2}$ and equip the
+results with appropriate differentials one arrives (after dropping
+unnecessary integral factors) at 
+the results displayed in the table in Figure \ref{Figure}.
+\begin{figure}
+\[
+\def\sp#1{\vcenter{\vskip 2pt \hbox{$#1$}\vskip 2pt}}
+\begin{array}{|c|c|c|}
+\hline
+\text{Group}&\text{Dimension}&\text{Generators}\\
+\hline
+\hline
+H^0_{{\rm dR}}&1&\sp{e:=\frac{\displaystyle f^2}{\displaystyle f^2}}\\
+\hline
+H^1_{{\rm dR}}&1&\sp{o:=\frac{\displaystyle (x^2dx-y^2dy+z^2dz)f}{\displaystyle f^2}}\\
+\hline
+H^2_{{\rm dR}}&2&\sp{t_1:=\frac{\displaystyle xyz(zdxdy+ydzdx+xdydz)}{\displaystyle f^2}}\\
+        & &\sp{t_2:=\frac{\displaystyle (zdxdy+ydzdx+xdydz)z^3}{\displaystyle f^2}}\\
+\hline
+H^3_{{\rm dR}}&2&\sp{d_1:=\frac{\displaystyle xyzdxdydz}{\displaystyle f^2}}\\
+        & &\sp{d_2:=\frac{\displaystyle z^3dxdydz}{\displaystyle f^2}}\\
+\hline
+\end{array}
+\]
+\caption{}\label{Figure}
+\end{figure}
+In terms of de Rham cohomology, the cup product is given by the wedge
+product of differential forms. So 
+from the table one reads off the cup  product
+relations
+$o\cup t_1=d_1$, $o\cup t_2=d_2$, $o\cup
+o=0$, and that $e$ operates as the identity. 
+\end{example}
+For more involved examples, and the algorithms in \cite{DM:W4}, an
+actual implementation would be  necessary since paper and pen are
+insufficient tools then.
+\begin{remark}
+The reader should be warned: if $f^{-a}$ generates $R_n[f^{-1}]$ over
+$D_n$, then it is not necessarily the case that each de Rham
+cohomology class of $U=\C^n\setminus\var(f)$ can be written as a form
+with a pole of order at most $a$. A counterexample is given by
+$f=(x^3+y^3+xy)xy$, where $H^1_{{\rm dR}}(U;\C)$ has a class that requires a
+third order pole, although $-2$ is the smallest integral Bernstein root
+of $f$ on $R_2$.
+\end{remark}
+
+\subsubsection{Hom and Ext}
+In \cite{DM:O-T-T,DM:Ts0,DM:T-W} algorithms are explained that compute homomorphisms
+between holonomic systems. In particular, rational and polynomial
+solutions can be found because, for example, a polynomial solution to the system
+$\{P_1,\ldots,P_r\}\in D_n$ corresponds to an element of
+$\hom_{D_n}(D_n/I,R_n)$ where $I=D_n\cdot(P_1,\ldots,P_r)$.
+\begin{example}
+Consider the GKZ system in 2 variables associated to the matrix
+$(1,2)\in \Z^{1\times 2}$ and the parameter vector $(5)\in\C^1$. 
+Named after
+Gelfand-Kapranov-Zelevinski \cite{DM:GKZ}, this 
+is the following system of
+differential equations:
+\begin{eqnarray*}
+(x\del_x+y\del_y)\action f&=&5f,\\
+(\del_x^2-\del_y)\action f&=&0.
+\end{eqnarray*}
+With \Mtwo one can solve systems of this sort as follows:
+\beginOutput
+i89 : I = gkz(matrix\{\{1,2\}\}, \{5\})\\
+\emptyLine
+\              2\\
+o89 = ideal (D  - D , x D  + 2x D  - 5)\\
+\              1    2   1 1     2 2\\
+\emptyLine
+o89 : Ideal of QQ [x , x , D , D , WeylAlgebra => \{x  => D , x  => D \}]\\
+\                    1   2   1   2                   1     1   2     2\\
+\endOutput
+This is a simple command to set up the GKZ-ideal associated to a
+matrix and a parameter vector. The polynomial solutions are obtained
+by
+\beginOutput
+i90 : PolySols I\\
+\emptyLine
+\        5      3          2\\
+o90 = \{x  + 20x x  + 60x x \}\\
+\        1      1 2      1 2\\
+\emptyLine
+o90 : List\\
+\endOutput
+
+This means that there is exactly one polynomial solution to the given
+GKZ-system, and it is 
+\[
+x^5+20x^3y+60xy^2.
+\]
+\end{example}
+The algorithm for $\hom_{D_n}(M,N)$ is implemented and
+can be used to check whether two given $D$-modules are
+isomorphic. 
+Moreover, there are algorithms (not implemented yet) 
+to compute the ring structure of
+$\endo_D(M)$ for a given $D$-module $M$ of finite holonomic
+rank which can be used to split a given holonomic module into its
+direct summands. 
+Perhaps an adaptation of these methods can be used to construct
+Jordan-H\"older sequences for holonomic $D$-modules.
+
+\subsubsection{Finiteness and Stratifications}
+Lyubeznik pointed out in \cite{DM:L-Bpoly} the following curious
+fact. 
+\begin{theorem}
+Let $P(n,d;K)$ denote the set of polynomials of degree at most $d$ in
+at most $n$ variables over the field $K$ of characteristic zero. Let
+$B(n,d;K)$ denote the set  of Bernstein-Sato polynomials
+\[
+B(n,d;K)=\{b_f(s):f\in P(n,d;K)\}.
+\]
+Then $B(n,d;K)$ is finite.\qed
+\end{theorem}
+So $P(n,d;K)$ has a finite decomposition into strata with constant
+Bernstein-Sato polynomial.
+A.\ Leykin proved in \cite{DM:Ley} that this decomposition is independent
+of $K$ and computable
+in the sense that membership in  each stratum can be tested by the
+vanishing of a
+finite set of algorithmically computable polynomials over $\Q$ in the
+coefficients of the given polynomial in $P(n,d;K)$. In particular,
+the stratification is algebraic and for each $K$ induced by base
+change from $\Q$ to $K$. It makes thus sense to define $B(n,d)$ which
+is the finite set of Bernstein polynomials that can occur for $f\in
+P(n,d;K)$ (where $K$ is in fact irrelevant).
+\begin{example}
+Consider $P(2,2;K)$, the set of quadratic binary forms over $K$. With
+\Mtwo, Leykin showed that there are
+precisely 4 different Bernstein polynomials possible:
+\def\labelitemi{$\bullet$}
+\begin{itemize}
+\item $b_{f}(s)=1$
+iff $f\in V_{1}=V_{1}'\setminus V_{1}''$,
+where $V_{1}'=V(a_{1,1},a_{0,1},a_{0,2},a_{1,0},a_{2,0}) $, while
+$V_{1}''=V(a_{0,0})$
+\item $ b_{f}(s)=s+1 $
+iff $ f\in V_{2}=(V_{2}'\setminus V_{2}'')\cup (V_{3}'\setminus V_{3}'') $,
+where $ V_{2}'=V(0) $, $ V_{2}''=V(\gamma _{1}) $,
+$V_{3}'=V\left( \gamma _{2},\gamma _{3},\gamma _{4}\right)$, 
+$V_{3}''=V\left( \gamma _{3},\gamma _{4},\gamma _{5},\gamma _{6},\gamma _{7},\gamma _{8}\right)  $,
+\item $ b_{f}(s)=(s+1)^{2} $
+iff $ f\in V_{4}'\setminus V_{4}'' $,
+where $ V_{4}'=V(\gamma _{1}) $, 
+$ V_{4}''=V\left( \gamma _{2},\gamma _{3},\gamma _{4}\right)  $, 
+\item $ b_{f}(s)=(s+1)(s+\frac{1}{2}) $
+iff $ f\in V_{5}'\setminus V_{5}'' $,
+where $ V_{5}'=V\left( \gamma _{3},\gamma _{4},\gamma _{5},\gamma _{6},\gamma _{7},\gamma _{8}\right)  $,
+$ V_{5}''=V(a_{1,1},a_{0,1},a_{0,2},a_{1,0},a_{2,0}) $.
+\end{itemize}
+Here we have used the abbreviations
+\begin{itemize}
+\item $ \gamma_{1}=
+a_{0,2}a_{1,0}^{2}-a_{0,1}a_{1,0}a_{1,1}+a_{0,0}a_{1,1}^{2}+ 
+a_{0,1}^{2}a_{2,0}-4a_{0,0}a_{0,2}a_{2,0}$, 
+\item$ \gamma _{2}=2a_{0,2}a_{1,0}-a_{0,1}a_{1,1} $,
+
+\item $ \gamma _{3}=a_{1,0}a_{1,1}-2a_{0,1}a_{2,0} $, 
+
+\item $ \gamma _{4}=a_{1,1}^{2}-4a_{0,2}a_{2,0} $,
+
+\item $ \gamma _{5}=2a_{0,2}a_{1,0}-a_{0,1}a_{1,1} $,
+
+\item $ \gamma _{6}=a_{0,1}^{2}-4a_{0,0}a_{0,2} $,
+
+\item $ \gamma _{7}=a_{0,1}a_{1,0}-2a_{0,0}a_{1,1} $, 
+
+\item $ \gamma _{8}=a_{1,0}^{2}-4a_{0,0}a_{2,0} $.
+\end{itemize}
+Similarly, Leykin shows that there are 9 possible Bernstein
+polynomials for $f\in B(2,3;K)$:
+\begin{eqnarray*}
+B(2,3)&=&\left\{\,
+ (s+1)^{2}(s+\frac{2}{3})(s+\frac{4}{3}),\,\,\,(s+1)^{2}(s+\frac{1}{2}),\,\,\,(s+1),\,\,\,1,\right.\\ 
+ &  &\phantom{x}(s+1)(s+\frac{2}{3})(s+\frac{1}{3}),\,\,\,(s+1)^{2},\,\,\,(s+1)(s+\frac{1}{2}),\\
+ &  &\phantom{x}\left.(s+1)(s+\frac{7}{6})(s+\frac{5}{6}),\,\,\,(s+1)^{2}(s+\frac{3}{4})(s+\frac{5}{4})\right\}.
+\end{eqnarray*}
+\end{example}
+It would be very interesting to study the nature of the stratification
+in larger cases, and its restriction to hyperplane arrangements.
+
+A generalization of this stratification result is obtained in
+\cite{DM:W5}. There it is shown that there is an algorithm to give
+$P(n,d;K)$ an algebraic
+stratification defined over $\Q$ 
+such that the algebraic de Rham cohomology groups of the
+complement of $\var(f)$ do not vary on the stratum in a rather strong
+sense. 
+Again, the study
+and explicit computation of this stratification should be very
+interesting.
+
+\subsubsection{Hodge Numbers}
+If $Y$ is a projective variety in $\P^n_\C$ then algorithms outlined in \cite{DM:W4}
+show how to compute the dimensions not only of the de Rham cohomology
+groups of $\P^n_\C\setminus Y$ but also of $Y$ itself. 
+Suppose now that $Y$ is in fact a smooth  projective variety.  
+An interesting set of invariants are the Hodge numbers, defined by
+$h^{p,q}=\dim H^p(Y,\Omega^q)$, where $\Omega^q$ denotes the sheaf of
+$\C$-linear differential $q$-forms with coefficients in $\OO_Y$. 
+At present we do not know how to
+compute them. Of course there is a spectral sequence $
+H^p(Y,\Omega^q)\Rightarrow H^{p+q}_{{\rm dR}}(Y,\C)$ and we know the abutment
+(or at least its dimensions), but the technique for computing the
+abutment does not seem to be usable 
+to compute the $E^1$ term because on an affine
+patch $H^p(Y,\Omega^q)$ is either zero or an infinite dimensional
+vector space.
+
+Hodge structures and Bernstein-Sato polynomials are related as is for
+example shown in \cite{DM:Varchenko}. 
+
+\subsection{Epilogue}
+In this chapter we have only touched a few highlights of the theory of
+computations in $D$-modules, most of them related to homology and
+topology. Despite this we hardly touched on the topics of integration
+and restriction, which are the $D$-module versions of a pushforward
+and pullback, \cite{DM:K2,DM:Mebkhout,DM:O-T1,DM:W2}. 
+
+A very different aspect of $D$-modules is discussed in
+\cite{DM:SST} where at the center  of investigations is the combinatorics of
+solutions of hypergeometric differential equations. The combinatorial
+structure is used to find series solutions for the differential
+equations which are polynomial in certain logarithmic functions and 
+power series with respect to the variables.
+
+Combinatorial elements can also be found in the work of Assi, Castro
+and Granger, see \cite{DM:ACG1,DM:ACG2}, 
+on Gr\"obner fans in rings of differential
+operators. An important (open) question in this direction is the
+determination of the set of ideals in $D_n$ that are initial ideals
+under {\em some} weight.
+
+
+
+Algorithmic $D$-module theory promises to be an active
+area of research for many years to come, and to have interesting
+applications to various other parts of mathematics.
+
+
+%\begin{example}
+%In the case $n=d=2$ one has clearly 2 cases of the de Rham cohomology ring
+%$DR(f)$ in $P_h(n,d;K)$:
+%\begin{itemize}
+%\item $DR(f)=K\oplus K\cdot e$ with $e^2=0$ iff $4a_{2,0}a_{02}=a_{1,1}^2$,
+%\item $DR(f)=K\oplus K\cdot e_1\oplus K\cdot e_2$ with
+%$e_1^2=e_2^2=e_1e_2=0$ iff $4a_{20}a_{0,2}\not =a_{1,1}^2$.
+%\end{itemize}
+%\end{example}
+
+
+% Local Variables:
+% mode: latex
+% mode: reftex
+% tex-main-file: "chapter-wrapper.tex"
+% reftex-keep-temporary-buffers: t
+% reftex-use-external-file-finders: t
+% reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+% End:

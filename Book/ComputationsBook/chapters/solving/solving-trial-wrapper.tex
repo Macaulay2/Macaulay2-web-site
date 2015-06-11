@@ -1,0 +1,21 @@
+    \documentclass[runningheads]{lncse}
+    \usepackage{makeidx,multicol}\makeindex
+    \input book-macros.tex
+    \begin{document}
+      \bgroup
+      \input solving-m2.tex 
+      \egroup
+     \clearpage
+     \addtocmark[2]{Index}
+     \markboth{Index}{Index}
+     \renewcommand{\indexname}{Index}
+     \threecolindex
+     \printindex
+    \end{document}
+
+    % Local Variables:
+    % mode: latex
+    % mode: reftex
+    % reftex-use-external-file-finders: t
+    % reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+    % End:

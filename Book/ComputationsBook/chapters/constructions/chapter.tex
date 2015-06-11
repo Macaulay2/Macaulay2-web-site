@@ -1,0 +1,2040 @@
+% $Source: /home/cvs/M2/Macaulay2/ComputationsBook/chapters/constructions/chapter.tex,v $
+% $Revision: 1.30 $
+% $Date: 2001/03/16 22:03:06 $
+
+\title{Needles in a Haystack:\\Special Varieties via Small Fields}
+\titlerunning{Needles in a Haystack: Special Varieties via Small Fields}
+\toctitle{Needles in a Haystack: Special Varieties via Small Fields}
+\author{Frank-Olaf Schreyer
+        % \inst 1
+         \and Fabio Tonoli
+        % \inst 2
+        }
+\authorrunning{F-O. Schreyer and F. Tonoli}
+% \institute{Fakult\"at f\"ur Mathematik und Physik,
+%         Universit\"at Bayreuth, D-95440 Bayreuth, Germany
+%         \and
+%         Mathematisches Institut, Georg--August Universit\"at, D-37073
+%         G\"ottingen, Germany}
+
+% \newtheorem{lemma}{Lemma}[section]
+% \newtheorem{proposition}[lemma]{Proposition}
+% \newtheorem{theorem}[lemma]{Theorem}
+% \newtheorem{corollary}[lemma]{Corollary}
+\newtheorem{conjecture}[theorem]{Conjecture}{\itshape}{\rm}
+
+% \theoremstyle{definition}
+% \newtheorem{definition}[theorem]{Definition}
+% \newtheorem{remark}{Remark}[section]
+% \newtheorem{example}{Example}[section]
+% \newtheorem{exercise}{Exercise}[section]
+% \newtheorem{algorithm}{Algorithm}[subsection]
+% \newtheorem{sub}[subsubsection]{}
+
+
+\newcommand{\AAA}{{\mathbb A}}
+\newcommand{\BB}{{\mathbb B}}
+\newcommand{\CC}{{\mathbb C}}
+\newcommand{\DD}{{\mathbb D}}
+\newcommand{\EE}{{\mathbb E}}
+\newcommand{\FF}{{\mathbb F}}
+\newcommand{\GG}{{\mathbb G}}
+%\newcommand{\HH}{{\mathbb H}}
+\newcommand{\II}{{\mathbb I}}
+\newcommand{\JJ}{{\mathbb J}}
+\newcommand{\KK}{{\mathbb K}}
+%\newcommand{\LL}{{\mathbb L}}
+\newcommand{\MM}{{\mathbb M}}
+\newcommand{\NN}{{\mathbb N}}
+%\newcommand{{\mathbb O}}
+\newcommand{\PP}{{\mathbb P}}
+\newcommand{\QQ}{{\mathbb Q}}
+\newcommand{\RR}{{\mathbb R}}
+\renewcommand{\SS}{{\mathbb S}}
+\newcommand{\Ss}{{\mathbf S}}
+\newcommand{\TT}{{\mathbb T}}
+\newcommand{\UU}{{\mathbb U}}
+\newcommand{\VV}{{\mathbb V}}
+\newcommand{\WW}{{\mathbb W}}
+\newcommand{\XX}{{\mathbb X}}
+\newcommand{\YY}{{\mathbb Y}}
+\newcommand{\ZZ}{{\mathbb Z}}
+
+\newcommand{\LL}{{\mathbb L}}
+\newcommand{\HH}{{\mathbb H}}
+\newcommand{\Syz}{{\rm{Syz}\;}}
+\newcommand{\Sym}{{\rm{Sym}\;}}
+\newcommand{\SSyz}{{\rm{Syz}}}
+\newcommand{\spoly}{{\rm{spoly}}}
+\newcommand{\Spe}{{Sp}}
+\newcommand{\openC}{{\mathbb C}}
+\newcommand{\ms}{{\rm{m}}}
+\newcommand{\LS}{{\rm{L}}}
+\newcommand{\IS}{{\rm{I}}}
+\newcommand{\Loc}{{\rm{Loc}\,}}
+\newcommand{\lcm}{{\rm{lcm}}}
+\newcommand{\lc}{{\rm{lc}}}
+\newcommand{\lm}{{\rm{lm}}}
+\newcommand{\con}{{\rm{c}}}
+\newcommand{\ext}{{\rm{e}}}
+\newcommand{\ec}{{\rm{ec}}}
+\newcommand{\ann}{{\rm{ann}}}
+% \newcommand{\Ext}{{\rm{Ext}}}
+\newcommand{\equi}{{\rm{equi}}}
+\newcommand{\Tor}{{\rm{Tor}}}
+\newcommand{\rad}{{\rm{rad\;}}}
+\newcommand{\ini}{{\rm{in}}}
+\newcommand{\Hilb}{{\rm{Hilb}}}
+\newcommand{\image}{{\rm{image}}}
+\newcommand{\cliff}{{\rm{cliff}}}
+\newcommand{\Pic}{{\rm{Pic}}}
+\newcommand{\PR}{{\KK [x_1, \dots , x_n]}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%% new commands for calligraphic characters with amsmath
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcommand{\ka}{{\mathcal A}}
+\newcommand{\kb}{{\mathcal B}}
+\newcommand{\kc}{{\mathcal C}}
+\newcommand{\kd}{{\mathcal D}}
+\newcommand{\ke}{{\mathcal E}}
+\newcommand{\kf}{{\mathcal F}}
+\newcommand{\kg}{{\mathcal G}}
+\newcommand{\kh}{{\mathcal H}}
+\newcommand{\ki}{{\mathcal I}}
+\newcommand{\kj}{{\mathcal J}}
+\newcommand{\kk}{{\mathcal K}}
+\newcommand{\kl}{{\mathcal L}}
+\newcommand{\km}{{\mathcal M}}
+\newcommand{\kn}{{\mathcal N}}
+\newcommand{\ko}{{\mathcal O}}
+\newcommand{\kp}{{\mathcal P}}
+\newcommand{\kq}{{\mathcal Q}}
+\newcommand{\kr}{{\mathcal R}}
+\newcommand{\ks}{{\mathcal S}}
+\newcommand{\kt}{{\mathcal T}}
+\newcommand{\ku}{{\mathcal U}}
+\newcommand{\kv}{{\mathcal V}}
+\newcommand{\kw}{{\mathcal W}}
+\newcommand{\kx}{{\mathcal X}}
+\newcommand{\ky}{{\mathcal Y}}
+\newcommand{\kz}{{\mathcal Z}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%The mathscript for sheaves
+%%%%%%%%%%%%%%%%%%%%% %%%%%%%%%
+\newcommand{\s}{\mathscr}
+\newcommand{\sA}{{\s A}}
+\newcommand{\sB}{{\s B}}
+\newcommand{\sC}{{\s C}}
+\newcommand{\sD}{{\s D}}
+\newcommand{\sE}{{\s E}}
+\newcommand{\sF}{{\s F}}
+\newcommand{\sG}{{\s G}}
+\newcommand{\sH}{{\s H}}
+\newcommand{\sI}{{\s I}}
+\newcommand{\sJ}{{\s J}}
+\newcommand{\sK}{{\s K}}
+\newcommand{\sL}{{\s L}}
+\newcommand{\sM}{{\s M}}
+\newcommand{\sN}{{\s N}}
+\newcommand{\sO}{{\s O}}
+\newcommand{\sP}{{\s P}}
+\newcommand{\sQ}{{\s Q}}
+\newcommand{\sR}{{\s R}}
+\newcommand{\sS}{{\s S}}
+\newcommand{\sT}{{\s T}}
+\newcommand{\sU}{{\s U}}
+\newcommand{\sV}{{\s V}}
+\newcommand{\sW}{{\s W}}
+\newcommand{\sX}{{\s X}}
+\newcommand{\sY}{{\s Y}}
+\newcommand{\sZ}{{\s Z}}
+
+
+
+\newcommand{\cO}{{\s O}}
+\newcommand{\cI}{{\s I}}
+% \newcommand{\cL}{{\s L}}
+% \newcommand{\cR}{{\s R}}
+\newcommand{\cN}{{\s N}}
+\newcommand{\cT}{{\s T}}
+\newcommand{\cX}{{\s X}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Arrows
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\newcommand{\inj}{\hookrightarrow}
+%\newcommand{\surj}{\lra}
+\newcommand{\lra}{\longrightarrow}
+\newcommand{\lla}{\longleftarrow}
+\def\lto{\leftarrow}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\newcommand{\C}{\C}
+%\newcommand{\openP}{\P}
+\newcommand{\uf}{{\bf F}}
+\newcommand{\uc}{{\bf C}}
+\newcommand{\tensor}{\otimes}
+\newcommand{\mi}{{\bf m}}
+\newcommand{\tX}{\widetilde{X}}
+\newcommand{\punkt}{\hspace{-.3ex}\raise.15ex\hbox to1ex{\Huge.}}
+\newcommand{\tpunkt}{\hspace{-.3ex}\hbox to1ex{\Huge.}}
+% \newlength{\br}
+% \newlength{\ho}
+\def\DeclareMathOperator#1#2{\def#1{\operatorname{#2}}}
+\DeclareMathOperator{\det}{det}
+\DeclareMathOperator{\GL}{GL}
+\DeclareMathOperator{\Aut}{Aut}
+\DeclareMathOperator{\Oo}{O}
+\DeclareMathOperator{\Spec}{Spec}
+\DeclareMathOperator{\Hom}{Hom}
+\DeclareMathOperator{\syz}{syz}
+\DeclareMathOperator{\ord}{ord}
+\DeclareMathOperator{\word}{w\,ord}
+\DeclareMathOperator{\supp}{supp}
+\DeclareMathOperator{\Ker}{Ker}
+\DeclareMathOperator{\im}{im}
+%\DeclareMathOperator{\wdeg}{w\,deg}
+\DeclareMathOperator{\depth}{depth}
+\DeclareMathOperator{\gin}{gin}
+\DeclareMathOperator{\Coker}{Coker}
+\DeclareMathOperator{\NF}{NF}
+\DeclareMathOperator{\pd}{pd}
+\DeclareMathOperator{\SL}{SL}
+\DeclareMathOperator{\SO}{SO}
+\DeclareMathOperator{\Ort}{O}
+\DeclareMathOperator{\Spez}{Sp}
+\DeclareMathOperator{\PSL}{PSL}
+\DeclareMathOperator{\PGL}{PGL}
+\DeclareMathOperator{\wdim}{wdim}
+\DeclareMathOperator{\cdim}{cdim}
+\DeclareMathOperator{\cha}{char}
+\DeclareMathOperator{\trdeg}{trdeg}
+\DeclareMathOperator{\codim}{codim}
+\DeclareMathOperator{\kdim}{kdim}
+\DeclareMathOperator{\height}{height}
+\DeclareMathOperator{\Ass}{Ass}
+\DeclareMathOperator{\Lie}{Lie}
+\DeclareMathOperator{\rk}{rk}
+
+
+\renewcommand{\labelenumi}{(\arabic{enumi})}
+\newcommand{\Ndash}{\nobreakdash--}% for pages 1\Ndash 9
+%\newcommand{\somespace}{\hfill{}\\ \vspace{-0.7cm}}
+%\def\partitle#1{{\medskip\noindent {\bf #1.\hbox to 12pt{}}}}
+\def\partitle{\subsubsection}
+
+%%%theosdefinitionen
+\newcommand{\gm}{\mathfrak m}
+\newcommand{\gM}{\mathfrak M}
+\newcommand{\integer}{\ZZ}
+\newcommand{\proj}{\PP}
+\newcommand{\complex}{\CC}
+\newcommand{\real}{\mathbb R}
+\newcommand{\gp}{\mathfrak p}
+\newcommand{\gq}{\mathfrak q}
+% \newcommand{\go}{\mathfrak so}
+%\newcommand{\openF}{\F}
+
+%%%%%%%%%%%%%%%betti table more wide!
+\tabcolsep 3pt
+
+
+
+%%%%%%%%%%%%%%%BIBLIOGRAPHY
+\newcommand{\by}{}
+\newcommand{\paper}{: \begin{it}}
+\newcommand{\jour }{, \end{it}}
+\newcommand{\vol}{\begin{bf} }
+\newcommand{\yr}{\end{bf}(}
+\newcommand{\pages}{),}
+
+\maketitle
+
+\begin{abstract} In this article we illustrate how picking points
+over a finite field at random 
+can help to investigate algebraic geometry questions.
+In the first part we develop a program that produces random
+curves of genus $g \le 14$. In the second part we use the program to test
+Green's Conjecture on syzygies of canonical curves and compare 
+it with the corresponding statement for Coble self-dual sets of
+points.
+In the third section we apply our techniques to produce Calabi-Yau
+3-folds of degree $17$ in $\PP^6$.     
+\end{abstract}
+
+\section*{Introduction}
+
+The advances in speed of modern computers and computer algebra systems gave 
+life to the idea of solving equations\index{solving polynomial equations} by guessing a solution.
+Suppose $\MM \subset \GG$ is a subvariety of a rational variety
+of codimension $c$. 
+Then we expect that the probability for a point $p \in \GG(\FF_q)$ to lie in 
+$\MM(\FF_q)$ is about $1/q^c$. 
+Here $\FF_q$ denotes the field with $q$ elements.  
+
+We will discuss this idea in the following setting: 
+$\MM$ will be a parameter space for objects in algebraic geometry, e.g.,
+a \ie{Hilbert scheme}, a \ie{moduli space}, or a space dominating such spaces.
+
+The most basic question we might have in this case is whether $\MM$ is 
+non-empty and whether an open part of $\MM$ corresponds to smooth objects.
+
+Typically in these cases
+we will not have explicit equations for $\MM \subset \GG$
+but only an implicit algebraic description of $\MM$, and our approach will
+be successful if the time required to check $p \notin \MM(\FF_q)$ is sufficiently
+small compared to $q^c$.
+The first author applied this method first in \cite{CO:Sch1} to construct some
+rational surfaces in $\PP^4$; see \cite{CO:ElPe,CO:DS} for motivation.
+
+
+In this first section we describe a program that picks curve of genus
+$g \le 14$ at random. The moduli spaces $\gM_g$ are known to be unirational
+for $g\le 13$; see \cite{CO:Se,CO:CR}.
+
+Our approach based on this result
+can viewed as a computer aided proof of the \ie{unirationality}. 
+Many people might object 
+that this not a proof because we cannot control every single step in the
+computation. We however think that such a proof is much more reliable than
+a proof based on man-made computations.
+A mistake in a computer aided approach most often leads to an output far 
+away from our expectation, hence it is easy to spot.  
+A substantial improvement of present computers and computer algebra systems 
+would give us an explicit unirational parametrization of $\gM_g$ for $g\le 13$.
+\medskip
+
+In the second part we apply our ``random curves'' to probe the consequences 
+of Green's conjecture on syzygies of canonical curves, 
+and compare these results with the corresponding statements for 
+``Coble self-dual'' sets of $2g-2$ points in $\PP^{g-2}$. 
+\medskip
+
+In the last section we exploit our method to prove the existence 
+of three components of the Hilbert scheme of Calabi-Yau 3-folds of degree $17$ 
+in $\PP^6$ over the complex numbers. 
+This is one of the  main results of the second author's thesis
+\cite[Chapter 4]{CO:To}. 
+Calabi-Yau threefolds of lower degree in $\PP^6$ are easy to construct, 
+using the Pfaffian construction and a study of their Hartshorne-Rao modules.
+For degree $17$ the Hartshorne-Rao module has to satisfy a subtle condition. 
+Explicit examples of such Calabi-Yau 3-folds are first 
+constructed over a finite field by our probabilistic method.
+Then a delicate semi-continuity argument gives us the existence of such Calabi-Yau 3-folds
+over some number field.
+
+
+\begin{acknowledgment} 
+We thank Hans-Christian v. Bothmer and Dan Gray\-son for valuable discussions and
+remarks. 
+\end{acknowledgment} 
+
+
+\partitle{Notation} 
+For a finitely generated graded module $M$ over the polynomial ring 
+$S=k[x_0,\ldots,x_r]$ we summarize the numerical information of a finite
+free resolution
+$$ 0 \lto M \lto F_0 \lto F_1 \lto \ldots \lto F_n\lto 0 $$
+with $F_i = \oplus_j S(-j)^{\beta_{ij}}$ in a \ie{table of Betti numbers},
+whose $ij^{th}$ entry is
+$$ \beta_{i,i+j} = \dim \Tor_i^S(M,k)_{i+j}.$$
+As in the \Mtwo command {\tt betti} we suppress zeroes.
+For example the syzygies of the rational normal curve in $\PP^3$ 
+have the following Betti table.
+$$\begin{tabular}{|ccc}
+\hline
+1 & - & - \cr
+- & 3 & 2 \cr
+\end{tabular}$$
+Note that the degrees of the entries of the matrices in the free
+resolution can be read off from the relative position of two numbers in 
+consecutive columns. A pair of numbers in a line corresponds to linear entries.
+Quadratic entries correspond to two numbers of a square. Thus 
+$$\begin{tabular}{|cccc}
+\hline
+1 & - & - & - \cr
+- & 5 & 5 & - \cr 
+- & - & - & 1 \cr
+\end{tabular}$$
+corresponds to a 4 term complex with a quadratic, a linear and another
+quadratic map. The Grassmannian $\GG(2,5)$ in its Pl\"ucker embedding
+has such a free resolution.
+ 
+
+
+ 
+
+\section{How to Make Random Curves up to Genus $14$}
+
+\index{random curves}
+The \ie{moduli space of curves} $\gM_g$ is known to be of general type for 
+$g \ge 24$ and has non-negative Kodaira dimension for $g=23$ by work of 
+Harris, Mumford and Eisenbud \cite{CO:HM,CO:EH}. 
+For genus $g \le 13  $ unirationality is known \cite{CO:CR,CO:Se}.
+In this section we present a \Mtwo program that over a finite field $\FF_q$ 
+picks a point in $\gM_g(\FF_q)$  for $g \le 14$ at random. 
+
+By Brill-Noether theory \cite{CO:ACGH} every curve of genus $g$ has a linear 
+system $g^r_d$ of dimension $r$ and degree $d$, provided that the 
+\ie{Brill-Noether number}
+$\rho$ satisfies
+$$\rho := \rho(g,d,r) := g-(r+1)(g-d+r)\geq 0.$$
+We utilize this to find appropriate (birational) models for general curves of genus $g$.
+
+
+
+\subsection{Plane Models, $g\le 10$}
+
+This case was known to Severi; see \cite{CO:AC}. 
+Choose $d = g+2 - \lfloor g/3 \rfloor$. 
+Then $\rho(g,d,2) \ge 0$
+i.e., a general curve of genus g has a plane model $C'$ of degree $d$. 
+We expect that $C'$ has 
+$$\delta= \binom{d-1}{2} - g$$
+double points. 
+If the double points are in general position, then 
+$$s=h^0(\PP^2,\ko(d))-3\delta-1$$
+is the expected dimension of the linear system of curves of degree $d$ 
+with $\delta$ assigned double points.  
+We have the following table:
+$$
+{\tabcolsep 5pt
+\begin{tabular}{l|rrrrr rrrrr rr}
+g & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 & 12 \cr
+\hline
+$\rho$      & 1 & 2 & 0 & 1 & 2 & 0 & 1 & 2 & 0 & 1  &  2 & 0 \cr
+\hline
+$d$        & 3 & 4 & 4 & 5 & 6 & 6 & 7 & 8 & 8 & 9 & 10 & 10 \cr
+\hline
+$\delta$ & 0 & 1 & 0 & 2 & 5 & 4 & 8 & 13 & 12 & 18 & 25 & 24 \cr
+\hline
+$s$        & 9 & 11 & 14 & 14 & 12 & 15 & 11 & 5 & 8 & 0 & -10 & -7 \cr
+\end{tabular}}
+$$
+Thus for $g\le 10$ we assume that these double points lie in general position. 
+For $g>10$ the double points cannot lie in general position because $s<0$. 
+Since it is difficult to describe the special locus 
+$H_\delta(g) \subset \Hilb_\delta(\PP^2)$ 
+of double points of nodal genus $g$ curves, the plane model approach collapses for $g>10$.
+
+\partitle{Random Points}
+\index{random points}
+In our program, which picks plane models at random from an Zariski open subspace of $\gM_g$,
+we start by picking the nodes. 
+However, over a small field $\FF_q$ it is not a good idea to pick points individually, 
+because there might be simply too few: $|\PP^2(\FF_q)|=1+q+q^2$.
+What we should do is to pick a collection $\Gamma$ of $\delta$ points in $\PP^2(\bar \FF_q)$
+that is defined over $\FF_q$.
+General points in $\PP^2$ satisfy the minimal resolution condition, 
+that is, they have expected Betti numbers.
+This follows from the Hilbert-Burch theorem \cite[Theorem 20.15]{CO:Ei}.
+If the ideal of such $\Gamma$ has generators in minimal degree $k$,
+then 
+$\binom{k+1}2 \le \delta < \binom{k+2}2$,
+which gives $\delta= \binom{k+1}{2} + \epsilon$  with  $0 \le \epsilon \le k$.
+Thus $k=\lceil ({-3+\sqrt{9+8\delta}})/{2} \rceil$.
+The Betti table is one of the following two tables:
+
+
+\medskip 
+$2\epsilon \le k :$
+\begin{tabular}{c|ccc}\cline{2-4}
+0 & 1 & - & - \cr
+1 & - & - & - \cr
+\vdots & \vdots & \vdots & \vdots \cr
+$k-2$ & - & - & - \cr
+$k-1$ & - & $k+1-\epsilon$ & $k-2\epsilon$ \cr
+$k$ & - & - & \hbox to 20pt{\hfil$\epsilon$\hfil} \cr
+\end{tabular}
+$\quad2\epsilon \ge k :$
+\begin{tabular}{c|ccc}\cline{2-4}
+0 & 1 &- & - \cr
+1 & - & - & - \cr
+\vdots & \vdots & \vdots & \vdots \cr
+$k-2$ & - & - & - \cr
+$k-1$ & - & $k+1-\epsilon$ & - \cr
+$k$ & - & $2\epsilon-k$ & \hbox to 20pt{\hfil$\epsilon$\hfil} \cr
+\end{tabular}
+\medskip
+
+\noindent
+So we can specify a collection $\Gamma$ of $\delta$ points by picking 
+the Hilbert-Burch matrix of their resolution; see \cite[Thm 20.15]{CO:Ei}. 
+This is a matrix with linear and quadratic entries only, 
+whose minors of size $\epsilon$ ($k-\epsilon$ if $2\epsilon\leq k$) 
+generate the homogeneous ideal of $\Gamma$.
+<<<randomPlanePoints = (delta,R) -> (
+     k:=ceiling((-3+sqrt(9.0+8*delta))/2);
+     eps:=delta-binomial(k+1,2);
+     if k-2*eps>=0 
+     then minors(k-eps,
+          random(R^(k+1-eps),R^{k-2*eps:-1,eps:-2}))
+     else minors(eps,
+          random(R^{k+1-eps:0,2*eps-k:-1},R^{eps:-2})));>>>
+In unlucky cases these points might be infinitesimally near.
+<<<distinctPoints = (J) -> (
+     singJ:=minors(2,jacobian J)+J;
+     codim singJ == 3);>>>
+
+\medskip \noindent
+The procedure that returns the ideal of a \ie{random nodal curve} is then straightforward: 
+<<<randomNodalCurve = method();>>>
+<<<randomNodalCurve (ZZ,ZZ,Ring) := (d,g,R) -> (
+     delta:=binomial(d-1,2)-g;
+     K:=coefficientRing R;
+     if (delta==0) 
+     then (     --no double points
+          ideal random(R^1,R^{-d}))
+     else (      --delta double points            
+          Ip:=randomPlanePoints(delta,R);
+          --choose the curve
+          Ip2:=saturate Ip^2;
+          ideal (gens Ip2 * random(source gens Ip2, R^{-d}))));>>>
+<<<isNodalCurve = (I) -> (
+     singI:=ideal jacobian I +I;delta:=degree singI;
+     d:=degree I;g:=binomial(d-1,2)-delta;
+     {distinctPoints(singI),delta,g});>>>
+
+We next ask if we indeed get in this way points in a parameter space 
+that dominates $\gM_g$ for $g \le 10$.
+Let $\Hilb_{(d,g)}(\PP^2)$ denote the Hilbert scheme of nodal plane curves
+of degree $d$ and geometric genus $g$.
+Our construction starts from  a random element in $\Hilb_\delta(\PP^2)$ and picks 
+a random curve in the corresponding fiber of 
+$\Hilb_{(d,g)}(\PP^2)\to\Hilb_\delta(\PP^2)$:
+$$\xymatrix{\Hilb_{(d,g)}(\PP^2) \ar[r] \ar[d] &\gM_g\\ \Hilb_\delta(\PP^2)}.$$
+So the question is whether $\Hilb_{(d,g)}(\PP^2)$ dominates $\Hilb_\delta(\PP^2)$.
+A naive dimension count suggests that this should be true:
+the dimension of our parameter space is given by $2\delta +s$, 
+which is $3(g-1)+\rho+\dim\PGL(3)$, as it should be.
+To conclude this there is more to verify: 
+it could be that the nodal models of general curves have double points 
+in special position, 
+while all curve constructed above lie over a subvariety of $\gM_g$. 
+One way to exclude this is to prove that the variety $G(g,d,2)$ over $\gM_g$,
+whose fiber over a curve ${\tilde C}\in\gM_g$ is $G^2_d(\tilde C)=\{g^2_d\text{'s}\}$,
+is irreducible or, to put it differently, that the Severi Conjecture holds:
+
+\begin{theorem}[Harris \cite{CO:Ha1}] The space
+of nodal degree d genus g curves in $\PP^2$ is irreducible.
+\end{theorem}
+
+Another much easier proof for the few $(d,g)$ we are interested in is to
+establish that our parameter space $\MM$ of the construction is smooth of 
+expected dimension at our random point $p \in \MM$, as in \cite{CO:AC}.
+Consider the following diagram:
+$$\HH = \Hilb_{(d,g)}(\PP^2)/\Aut(\PP^2) \stackrel{\pi}{\lra} \gM_g.$$
+For a given curve ${\tilde C}\in\gM_g$, the inverse image $\pi^{-1} ({\tilde C})$ 
+consists of the variety $W^2_d({\tilde C})\subset\Pic^d({\tilde C})$.
+Moreover the choice of a divisor $L\in W^2_d({\tilde C})$ is equivalent to the 
+choice of $p \in \MM$, modulo $\Aut(\PP^2)$: 
+indeed $p$ determines a morphism $\nu\colon {\tilde C} \lra C\subset \PP^2$ 
+and a line bundle $L=\nu^{-1}\ko_{\PP^2}(1)$, where ${\tilde C}$ is the 
+normalization of the (nodal) curve $C$.
+Therefore $\MM$ is smooth of expected dimension $3(g-1)+\rho+\dim \PGL(3)$
+at $p \in \MM$ 
+if and only if $W^2_d({\tilde C})$ is smooth of expected dimension $\rho$ in $L$.
+This is well known to be equivalent to the injectivity of the multiplication map
+$\mu_L$
+$$
+H^0(L)\otimes H^0(K_{\tilde C}\otimes L^{-1}) \stackrel{\mu_L}{\lra}H^0(K_{\tilde C}),
+$$
+which can be easily checked in our cases,
+see \cite[p. 189]{CO:ACGH}.
+In our cases $\mu_L$ can be rewritten as 
+$$
+H^0(\ko_{\PP^2}(1))\otimes H^0(I_\Gamma(d-4)) \stackrel{\mu_L}{\lra}
+H^0(I_\Gamma(d-3)).
+$$
+So we need two conditions: 
+\begin{enumerate}
+\item $H^0(I_\Gamma(d-5))=0$;
+\item there are no linear relations among the generators of $H^0(I_\Gamma(d-4))$ of 
+degree $d-3$.
+\end{enumerate}
+We proceed case by case.
+For genus $g\leq 5$ this is clear, since $H^0(I_\Gamma(d-4))=0$ for $g=2,3$ and
+$\dim H^0(I_\Gamma(d-3))=1$ for $g=4,5$. 
+For $g=6$ we have $\dim H^0(I_\Gamma(d-3))= \dim H^0(I_\Gamma(2))=2$ and 
+the Betti numbers of $\Gamma$ 
+$$
+\begin{tabular}{|ccc}\hline
+1 & - & - \cr
+- & 2 & - \cr
+- & - & 1 \cr
+\end{tabular}
+$$
+shows there are no relations 
+with linear coefficients in $H^0(I_\Gamma(2))$.
+For $7\leq g \leq 10$ the method is similar:
+everything is clear once the Betti table of resolution of the set of nodal points 
+$\Gamma$ is computed. As a further example we do here the case $g=10$: we see that
+$\dim H^0(I_\Gamma(d-3))=\dim H^0(I_\Gamma(5))=3$ and the Betti numbers of $\Gamma$ are
+$$
+\begin{tabular}{|ccc}\hline
+1 & - & - \cr
+- & - & - \cr
+- & - & - \cr
+- & - & - \cr
+- & 3 & - \cr
+- & 1 & 3 \cr
+\end{tabular}
+$$
+from which it is clear that there are no linear relations between the quintic generators
+of $I_\Gamma$.
+
+%% and that the 
+%% Kodaira-Spencer map
+%% $$T_p(\MM) \to T_C(\gM_g) = H^0(C,\omega^{\tensor 2})^*$$
+%% is surjective. This is a first order deformation problem, which can be easily 
+%% solved by linear algebra in Macaulay2:
+%% 
+%% {\scriptsize
+%% \begin{verbatim}
+%% Kodaira-SpencerMap = (I) -> ???
+%% \end{verbatim}}
+
+
+\subsection{Space Models and Hartshorne-Rao Modules}
+\partitle{The Case of Genus $g=11$}
+In this case we have $\rho(11,12,3)=3$. 
+Hence every general curve of genus 11 has a space model of degree 12. 
+Moreover for a general curve the general space model of this degree 
+is linearly normal, because $\rho(11,13,4)=-1$ takes a smaller value. 
+If moreover such a curve $C \subset \PP^3$ has \ie{maximal rank},
+i.e., for each $m \in \ZZ$ the map 
+$$H^0(\PP^3,\ko(m)) \to H^0(C,\ko_C(m))$$
+has maximal rank,
+then the \ie{Hartshorne-Rao module} $M$, 
+defined as
+$M=H^1_*(\ki_C)=\oplus_m H^1(\PP^3,\ki_C(m))$, 
+has Hilbert function with values $(0,0,4,6,3,0,$ $0,\dots)$. For readers who want to know more about the
+Hartshorne-Rao module, we refer to the  pleasant treatment in \cite{CO:MDP}.
+
+Since being of maximal rank is an open condition, we will try a construction
+of maximal rank curves.
+Consider the  vector bundle $\kg$ on $\PP^3$ associated to the first syzygy 
+module of $I_C$: 
+$$ 0 \lto \ki_C \lto \oplus_i \ko(-a_i) \lto \kg \lto 0 \leqno(1)$$
+In this set-up $H^2_*(\kg)=H^1_*(\ki_C)$. 
+Thus $\kg$ is, up to direct sum of line bundles, the sheafified second syzygy 
+module of $M$; see e.g., \cite[Prop. 1.5]{CO:DES}.
+
+The expected Betti numbers of $M$ are
+$$
+\begin{tabular}{|ccccc}\hline
+4 & 10 & 3 & - & - \cr
+- & - & 8 & 2 & - \cr
+- & - & - & 6 & 3 \cr
+\end{tabular}
+$$
+Thus the $\FF$-dual $M^* = \Hom_\FF(M,\FF)$ is presented as 
+$\FF[x_0,\dots,x_3]$-module by a 
+$3 \times 8$ matrix with linear and quadratic entries, and a general such matrix 
+will give a general module
+(if the construction works, i.e., if the desired space of modules is non-empty), 
+because all conditions we impose are semi-continuous and open.
+Thus $M$ depends on 
+$$\dim \GG(6,3h^0\ko(1))+\dim \GG(2,3h^0\ko(2)-6h^0\ko(1))-\dim SL(3)=36$$
+parameters. 
+
+Assuming that $C$ has minimal possible syzygies:
+$$
+\begin{tabular}{|cccc}\hline
+1 & - & - & - \cr
+-&-&-&-\cr
+-&-&-&-\cr
+-&-&-&-\cr
+-&6&2&-\cr
+-&-&6&3\cr
+\end{tabular}
+$$
+we obtain, by dualizing the sequence (1), the following exact sequence
+$$ \kg^* {\lto  } 6\ko(5) \lto \ko \lto 0.$$
+If everything is as expected, 
+i.e., the general curve is of maximal rank and its syzygies have minimal possible
+Betti numbers, then the entries of the right hand matrix are
+homogeneous polynomials that generate $I_C$. 
+We will compute $I_C$ by determining $ \ker (\phi \colon 6\ko(5) \to \kg^*)$.
+Comparing with the syzygies of $M$ we obtain the following isomorphism
+$$\kg^* \cong \ker(2\ko(6)\oplus6\ko(7) \to 3\ko(8)) \cong 
+\image(3\ko(4)\oplus8\ko(5) \to 2\ko(6)\oplus6\ko(7)).$$
+and $\kg^* \lto 6\ko(5)$ factors over $\kg^* \lto 8\ko(5)\oplus3\ko(4)$.
+A general $\phi \in \Hom(6\ko(5),$ $\kg^*)$ gives a point in $\GG(6,8)$
+and the Hilbert scheme of  desired curves would have dimension 
+$36+12=48=4\cdot12=30+3+15$ as expected, c.f.~\cite{CO:Ha2}.
+
+\medskip
+Therefore the computation for obtaining a random space curve of genus $11$ 
+is done as follows:
+<<<randomGenus11Curve = (R) -> (
+     correctCodimAndDegree:=false;
+     while not correctCodimAndDegree do (
+          Mt=coker random(R^{3:8},R^{6:7,2:6});
+          M=coker (transpose (res Mt).dd_4);
+          Gt:=transpose (res M).dd_3;
+          I:=ideal syz (Gt*random(source Gt,R^{6:5}));
+          correctCodimAndDegree=(codim I==2 and degree I==12););
+     I);>>>
+
+\medskip
+In general for these problems there is rarely an a priori reason
+why such a construction for general choices will give a smooth curve. 
+Kleiman's global generation condition \cite{CO:Klei} is much too
+strong a hypothesis for many interesting examples. 
+But it is easy to check an example over a finite field with a computer:
+<<<isSmoothSpaceCurve = (I) -> (
+     --I generates the ideal sheaf of a pure codim 2 scheme in P3
+     singI:=I+minors(2,jacobian I);
+     codim singI==4);>>>
+
+Hence by semi-continuity this is true over $\QQ$ and the
+desired unirationality of $G(11,12,3)/\gM_{11}$ holds for all fields,
+except possibly for those whose ground field has characteristic is in some finite set.
+
+A calculation of an example over the integers
+would bound the number of exceptional characteristics, 
+which then can be ruled out case by case, 
+or by considering sufficiently many integer examples.
+
+As in case of nodal curves, to prove \ie{unirationality} of $\gM_{11}$ by computer
+aided computations we have to show the injectivity of
+$$
+H^0(L)\otimes H^0(K_{C}\otimes L^{-1}) \stackrel{\mu_L}{\lra}H^0(K_{C}),
+$$
+where $L$ is the restriction of $\ko_{\PP^3}(1)$ to the curve $C\subset \PP^3$.
+The following few lines do the job:
+<<<K=ZZ/101;>>>
+<<<R=K[x_0..x_3];>>>
+<<<C=randomGenus11Curve(R);>>>
+<<<isSmoothSpaceCurve(C)>>>
+<<<Omega=prune Ext^2(coker gens C,R^{-4});>>>
+<<<betti Omega>>>
+
+\noindent
+We see that there are no linear relations among the two generators
+of $H^0_*(\Omega_C)$ in degree -1.
+
+%% to prove uniratioanlity of $\gM_{11}$ by Computer
+%% aided computations we have to show that the Kodaira-Spencer map
+%%         $$ H^0(C,\kn_C) \to H^1(C,\kt_C) $$
+%% is onto in our example. 
+%% The following procedure returns the dimension 
+%% of the image of the Kodaira-Spencer map for a smooth projective variety
+%% (of codimension at least 2,
+%% otherwise $\kn_C^*=${\tt I2} is free and {\tt T} is just {\tt coker djt}):
+%% 
+%% {\scriptsize
+%% \begin{verbatim} 
+%% kodairaSpencerMap = (I) -> (
+%%      S:=R/I;
+%%      dIt:=substitute(transpose jacobian I,S);
+%%      I2:=substitute(syz gens I,S); --the conormal bundle
+%%      T:=prune(kernel transpose I2/image dIt);
+%%      hilbertFunction(0,T))
+%% \end{verbatim}}
+%% THIS SCRIPT FORGETS THE CONTRIBUTION OF H1 IN THE SEQUENCE GIVING T_P|C
+
+
+
+\partitle{Betti Numbers for Genus $g=12,13,14,15$}
+The approach in these cases is similar to $g=11$. We choose here $d=g$, 
+so $\rho(g,g,3)=g-12\ge 0$. 
+Under the maximal rank assumption the corresponding space curve has
+a Hartshorne-Rao module whose Hilbert function takes values 
+$(0,0,g-9,2g-19,3g-34,0,\ldots)$ in case $g=12,13$ 
+and $(0,0,g-9,2g-19,3g-34,4g-55,0,\ldots)$ in case $g=14,15$.
+Expected syzygies of $M$ have Betti tables:
+
+$$g=12: \;
+\begin{tabular}{|ccccc}\hline
+3 & 7 & - & - & -  \cr
+- & - & 10 & 5 & - \cr
+- & - & - & 3 & 2  \cr
+\end{tabular}
+\qquad
+g=13: \;
+\begin{tabular}{|ccccc}\hline
+4 & 9 & 1 & - & -  \cr
+- & - & 6 & - & - \cr
+- & - & 6 & 13 & 5  \cr
+\end{tabular}
+$$
+\medskip
+$$g=14: \;
+\begin{tabular}{|ccccc}\hline
+5 & 11 & 2 & - & -  \cr
+- & - & 3 & - & - \cr
+- & - & 13 & 17 & 4  \cr
+- & - & - & - & 1 \cr
+\end{tabular}
+\qquad
+g=15: \;
+\begin{tabular}{|ccccc}
+\hline
+6 & 13 & 3 & - & -  \cr
+- & - & 3 & - & - \cr
+- & - & 8 & 3 & -  \cr
+- & - & - & 9 & 5 \cr
+\end{tabular}
+$$
+
+\medskip
+Comparing with the expected syzygies of $C$ 
+$$g=12: \;
+\begin{tabular}{|cccc}\hline
+ 1 & - & - & -  \cr
+ - & - & - & -  \cr
+ - & - & - & -  \cr
+ - & - & - & -  \cr
+ - & 7 & 5 & - \cr
+ - & - & 3 & 2  \cr
+\end{tabular}
+\qquad
+g=13: \;
+\begin{tabular}{|cccc}\hline
+ 1 & - & - & -  \cr
+ - & - & - & -  \cr
+ - & - & - & -  \cr
+ - & - & - & -  \cr
+ - & 3 & - & - \cr
+ - & 6 & 13 & 5  \cr
+\end{tabular}
+$$
+\medskip
+$$g=14: \;
+\begin{tabular}{|cccc}\hline
+ 1 & - & - & -  \cr
+ - & - & - & -  \cr
+ - & - & - & -  \cr 
+- & - & - & -  \cr 
+- & - & - & -  \cr
+ - & 13 & 17 & 4  \cr
+ - & - & - & 1 \cr
+\end{tabular}
+\qquad
+g=15: \;
+\begin{tabular}{|cccc}
+\hline
+ 1 & - & - & -  \cr 
+ - & - & - & -  \cr
+- & - & - & -  \cr
+ - & - & - & -  \cr
+ - & - & - & -  \cr
+ - & 8 & 3 & -  \cr
+ - & - & 9 & 5 \cr
+\end{tabular}
+$$
+we see that given  $M$ the choice of a curve corresponds to a point
+in $\GG(7,10)$ or $\GG(3,6)$ for $g=12,13$ respectively, 
+while for $g=14,15$ everything is determined by the Hartshorne-Rao module. 
+For $g=12$ Kleiman's result guarantees smoothness for general choices,
+in contrast to the more difficult cases $g=14,15$. 
+So the construction of $M$ is the crucial step. 
+
+
+
+
+\partitle{Construction of Hartshorne-Rao Modules}
+In case $g=12$ the construction of $M$ is straightforward. 
+It is presented by a sufficiently general matrix of linear forms:
+$$0 \lto M \lto 3S(-2) \lto 7S(-3).$$
+
+\noindent
+The procedure for obtaining a random genus 12 curve is:
+<<<randomGenus12Curve = (R) -> (
+     correctCodimAndDegree:=false;
+     while not correctCodimAndDegree do (
+          M:=coker random(R^{3:-2},R^{7:-3});
+          Gt:=transpose (res M).dd_3;
+          I:=ideal syz (Gt*random(source Gt,R^{7:5}));
+          correctCodimAndDegree=(codim I==2 and degree I==12););
+     I);>>>
+
+
+\medskip
+In case $g=13$ we have to make sure that M has a second linear syzygy. 
+Consider the end of the Koszul complex:
+$$6R(-2) \stackrel{\kappa}{\lto} 4R(-3) \lto R(-1) \lto 0.$$
+Any product of a general map $4R(-2) \stackrel{\alpha}{\lto} 6R(-2)$ with 
+the Koszul matrix $\kappa$ yields
+$4R(-2) \lto 4R(-3)$ with a linear syzygy, 
+and concatenated with a general map $4R(-2) \stackrel{\beta}{\lto} 5R(-3)$
+gives a presentation matrix of a module M of desired type:
+$$ 0 \lto M \lto 4R(-2) \lto 4R(-3) \oplus 5R(-3).$$
+
+\noindent
+The procedure for obtaining a random genus 13 curve is:
+<<<randomGenus13Curve = (R) -> (
+     kappa:=koszul(3,vars R);
+     correctCodimAndDegree:=false;
+     while not correctCodimAndDegree do (
+          test:=false;while test==false do ( 
+               alpha:=random(R^{4:-2},R^{6:-2});
+               beta:=random(R^{4:-2},R^{5:-3});
+               M:=coker(alpha*kappa|beta);
+               test=(codim M==4 and degree M==16););
+          Gt:=transpose (res M).dd_3;
+          --up to change of basis we can reduce phi to this form
+          phi:=random(R^6,R^3)++id_(R^6);
+          I:=ideal syz(Gt_{1..12}*phi);
+          correctCodimAndDegree=(codim I==2 and degree I==13););
+     I);>>>
+
+
+\medskip
+The case of genus $g=14$ is about a magnitude more difficult. 
+To start with, we can achieve two second linear syzygies by the same method as 
+in the case $g=13$. 
+A general matrix 
+$5R(-2) \stackrel{\alpha}{\lto} 12R(-2)$ composed with 
+$12R(-2) \stackrel{\kappa \oplus \kappa}{\lto} 8R(-3)$ 
+yields the first component of
+$$5R(-2) \lto (8+3)R(-3).$$
+For a general choice of the second component 
+$5R(-2) \stackrel{\beta}{ \lto} 3R(-3)$ the cokernel
+will be a module with Hilbert function $(0,0,5,9,8,0,0,\ldots)$ and syzygies
+$$
+\begin{tabular}{|ccccc}\hline
+5 & 11 & 2 & - & -  \cr
+- & - & 2 & - & - \cr
+- & - & 17 & 23 & 8  \cr
+- & - & - & - & - \cr
+\end{tabular}
+$$
+What we want is to find $\alpha$ and $\beta$ so that $\dim M_5 = 1$ 
+and $\dim \Tor_2^R(M,\FF)_5 = 3$.
+Taking into account that we ensured $\dim \Tor_2^R(M,\FF)_4 =2$
+this amounts to asking that the $100 \times 102$ matrix $m(\alpha,\beta)$ 
+obtained from
+$$[0 \lto 5R(-2)_5 \lto 11R(-3)_5 \lto 2R(-4)_5 \lto 0] 
+\cong [0 \lto 100 \FF \stackrel{m(\alpha,\beta)} \lto 102 \FF \lto 0]$$
+drops rank by 1. 
+We do not know a systematic approach to produce such 
+$m(\alpha,\beta)$'s.
+However, we can find such matrices in a probabilistic way.
+In the space of the matrices $m(\alpha,\beta)$, 
+those which drop rank by 1 have expected codimension 3.
+Hence over a finite field $\FF=\FF_q$ we expect to find the desired modules $M$
+with a probability of $1/q^3$. 
+The code to detect bad modules is rather fast.
+<<<testModulesForGenus14Curves = (N,p) ->(
+     x := local x;
+     R := ZZ/p[x_0..x_3];
+     i:=0;j:=0;
+     kappa:=koszul(3,vars R);
+     kappakappa:=kappa++kappa;
+     utime:=timing while (i<N) do (
+          test:=false;
+          alpha:=random(R^{5:-2},R^{12:-2});
+          beta:=random(R^{5:-2},R^{3:-3});
+          M:=coker (alpha*kappakappa|beta);
+          fM:=res (M,DegreeLimit =>3);
+          if (tally degrees fM_2)_{5}==3 then (
+               --further checks to pick up the right module
+               test=(tally degrees fM_2)_{4}==2 and
+               codim M==4 and degree M==23;);
+          i=i+1;if test==true then (j=j+1;););
+     timeForNModules:=utime#0; numberOfGoodModules:=j;
+     {timeForNModules,numberOfGoodModules});>>>
+<<<testModulesForGenus14Curves(1000,5)>>>
+
+\noindent
+For timing tests we used a Pentium2 400Mhz with 128Mb of memory running GNU Linux.
+On such a machine examples can be tested at a rate 
+of $0.04$ seconds per example.
+Hence an approximate estimation of the CPU-time required to find a good example 
+is $q^3 \cdot 0.04$ seconds.
+Comparing this with the time to verify smoothness, 
+which is about $12$ seconds for an example of this degree,
+we see that up to $|\FF_q|=q \le 13$ we can expect to obtain examples within 
+few minutes.
+Actually the computations for $q=2$ and $q=3$ take longer than for $q=5$ on average,
+because examples of ``good modules'' tend to give singular curves more often. 
+Here is a table of statistics which summarizes the situation.
+$$
+\def\sb#1{\hbox to 22pt{\hfil#1}} %small fixed size box --text mode
+\begin{tabular}{l|rrrrrrr}
+$q$ &                           \sb2   &\sb3   &\sb5   &\sb7   &\sb{11}  &\sb{13}\cr
+\hline
+smooth curves &                 100 &100 &100 &100 &100 &100\cr
+1-nodal curves &                75  &53  &31  &16  &10  &8\cr
+reduced more singular &         1012&142 &24  &11  &2   &0\cr
+non reduced curves &            295 &7   &0   &0   &0   &0\cr
+\hline
+total number of curves &        1482&302 &155 &127 &112 &108\cr
+percentage of smooth curves \quad &  %the quad will be divided, ok
+                                6.7\% &33\%  &65\%  &79\%  &89\% &93\%\cr
+approx. time (in seconds) &     7400&3100&2700&3400&6500&9500\cr
+\end{tabular}
+$$
+
+\medskip
+\goodbreak
+\noindent
+The procedure for obtaining a random genus 14 curve is
+<<<randomGenus14Curve = (R) -> (
+     kappa:=koszul(3,vars R);
+     kappakappa:=kappa++kappa;
+     correctCodimAndDegree:=false;
+     count:=0;while not correctCodimAndDegree do (
+          test:=false;
+          t:=timing while test==false do (
+               alpha=random(R^{5:-2},R^{12:-2});
+               beta=random(R^{5:-2},R^{3:-3});
+               M:=coker (alpha*kappakappa|beta);
+               fM:=res (M,DegreeLimit =>3);
+               if (tally degrees fM_2)_{5}==3 then (
+                    --further checks to pick up the right module
+                    test=(tally degrees fM_2)_{4}==2 and
+                    codim M==4 and degree M==23;);
+               count=count+1;);
+          Gt:=transpose (res M).dd_3;
+          I:=ideal syz (Gt_{5..17});
+          correctCodimAndDegree=(codim I==2 and degree I==14););
+     <<"     -- "<<t#0<<" seconds used for ";
+     <<count<<" modules"<<endl;
+     I);>>>
+
+
+\medskip
+For $g=15$ we do not know a method along these lines that 
+would give examples over small fields.
+
+
+
+\partitle{Counting Parameters}
+For genus $g=12$ clearly the module $M$ depends on 
+$\dim\GG(7,3 \cdot h^0\ko(1))-\dim SL(3)= 7\cdot5-8=36$ parameters, 
+and the family of curves has dimension $36+\dim\GG(7,10)=48=4\cdot12=33+0+15$,
+as expected. 
+
+For genus $g=13$ and $14$ the parameter count is more difficult.
+Let us make a careful parameter count for genus $g=14$;
+the case $g=13$ is similar and easier.
+The choice of $\alpha$ corresponds to a point in $\GG(5,12)$.
+Then $\beta$ corresponds to a point $\GG(3,B_\alpha)$ where 
+$B_\alpha = U \tensor R_1/{<}\alpha{>}$ where $U$ denotes
+the universal subbundle on $\GG(5,12)$ and ${<}\alpha{>}$ 
+the subspace generated by the 8 columns of $\alpha\circ(\kappa \oplus \kappa)$. 
+So $\dim B_\alpha = 20-8=12$ and $\GG(3,B_\alpha) \to \GG(5,12)$ 
+is a Grassmannian bundle with fiber dimension 27 and total dimension 62. 
+In this space the scheme of good modules has codimension 3, 
+so we get a 59 dimensional family. 
+This is larger than the expected dimension $56=4\cdot 14=39+2+15$ 
+of the Hilbert scheme, c.f.~\cite{CO:Ha2}. 
+Indeed the construction gives a curve together
+with a basis of $\Tor_2^R(M,\FF)_4$. 
+Subtracting the dimension of the group of the projective coordinate changes 
+we arrive at the desired dimension $59-3=56$. 
+
+The unirationality of $\gM_{12}$ and $\gM_{13}$ can be proved by computer 
+as in case $\gM_{11}$, 
+while in case $g=14$ we don't know the unirationality of 
+the parameter space of the modules $M$ with 
+$\dim M_5=1$ and $\dim \Tor^R_2(M,\FF)_5=3$.
+
+\section[Comparing Green's Conjecture for Curves and Points]
+	{Comparing Green's Conjecture for Curves \\ and Points}
+
+\subsection{Syzygies of Canonical Curves}
+\index{Green's conjecture}
+\index{Syzygies of canonical curves}
+One of the most outstanding conjectures about free resolutions is 
+Green's prediction
+for the syzygies of canonical curves. 
+
+A \ie{canonical curve}
+$C \subset \PP^{g-1}$, i.e., a linearly normal curve with $\ko_C(1) \equiv 
+\omega_C$, the canonical line bundle, is projectively normal by a result of
+Max Noether, and hence has a Gorenstein homogeneous coordinate ring and is 
+3-regular.
+
+Therefore the Betti numbers of the free resolution of a canonical curve 
+are symmetric, that is, $\beta_{j,j+1}=\beta_{g-2-j,g-j}$, 
+and essentially only two rows of Betti numbers occur.
+The situation is summarized in the following table.
+$$
+\raise 0pt\hbox to 0 pt{\hspace{121.8pt} $\bullet$\hss}
+\def\sb#1{\hbox to 5mm{\hfil#1\hfil}} 
+\begin{tabular}{|ccccc ccccc cc}
+\hline
+1 & - & - & - & - & \sb{-} & \sb{-} & - & - & - & - & - \cr
+- & $\beta_{1,2}$ & $\beta_{2,3}$ & $\cdots$ & $\beta_{p,p+1}$ & $\cdots$ 
+& $\cdots$ & $\beta_{p,p+2}$ & - & - & - & - \cr
+- & - & - & - & $\beta_{p,p+2}$ & $\cdots$ 
+& $\cdots$ & $\beta_{p,p+1}$ & $\cdots$ & $\beta_{2,3}$ & $\beta_{1,2}$ & - \cr
+- & - & - & - & - & - & - & - & - & - & - & 1 \cr
+\end{tabular}
+$$
+%%$$
+%%\def\hd#1{\hbox to 14.5mm{\hfil$#1$\hfil}} %for hodge diagrams --math mode
+%%\setlength{\unitlength}{1mm}
+%%\begin{picture}(116,36)(-58,-18)  
+%%\put (-58,7.5){\hd{1}}
+%%\put (-43.5,1.5){\hd{\beta_{1,2}}}
+%%\put (-29,1.5){\hd{\ldots}}
+%%\put (-14.5,1.5){\hd{\ldots}}
+%%\put (-14.5,-4.5){\hd{\ldots}} %-0.85=-1+.25-.8
+%%\put (0,0){\circle*{2.5}}
+%%\put (0,1.5){\hd{\ldots}}
+%%\put (0,-4.5){\hd{\ldots}}
+%%\put (14.5,-4.5){\hd{\ldots}}
+%%\put (29,-4.5){\hd{\beta_{g-3,g-1}}}
+%%\put (43.5,-10.5){\hd{1}}
+%%%hor lines
+%%\put (-58,12) {\line(1,0){116}}
+%%\put (-58,6) {\line(1,0){116}}
+%%\put (-58,0) {\line(1,0){116}}
+%%\put (-58,-6) {\line(1,0){116}}
+%%\put (-58,-12) {\line(1,0){116}}
+%%%vert lines
+%%\put (-58,-12) {\line(0,1){24}}
+%%\put (-43.5,-12) {\line(0,1){24}}
+%%\put (-29,-12) {\line(0,1){24}}
+%%\put (-14.5,-12) {\line(0,1){24}}
+%%\put (0,-12) {\line(0,1){24}}
+%%\put (14.5,-12) {\line(0,1){24}}
+%%\put (29,-12) {\line(0,1){24}}
+%%\put (43.5,-12) {\line(0,1){24}}
+%%\put (58,-12) {\line(0,1){24}}
+%%%mark the resolution
+%%\linethickness{1pt}
+%%\put (-43.5,6) {\line(1,0){58}}
+%%\put (-43.5,0) {\line(1,0){29}} \put (14.5,0) {\line(1,0){29}}
+%%\put (-14.5,-6) {\line(1,0){58}}
+%%\put (-43.5,0) {\line(0,1){6}}
+%%\put (43.5,-6) {\line(0,1){6}}
+%%\put (-14.5,-6) {\line(0,1){6}}
+%%\put (14.5,0) {\line(0,1){6}}
+%%% description
+%%\put (-58,13) {$\overbrace{\hspace{116mm}}^{\displaystyle g-1}$}
+%%\put (-58,-13) {$\underbrace{\hspace{43.5mm}}_{\displaystyle p}$}
+%%\end{picture}   
+%%$$
+
+The first $p$ such that $\beta_{p,p+2}\neq 0$ is conjecturally precisely 
+the \ie{Clifford index} of the curve.
+
+\begin{conjecture}[Green \cite{CO:Gr2}]\label{GConj} 
+Let $C$ be a smooth canonical curve over $\CC$. 
+Then $\beta_{p,p+2} \ne 0$ if and only if $\exists L\in \Pic^d(C)$ with
+$h^0(C,L),h^1(C,L) \ge 2$ and $\cliff(L):=d-2(h^0(C,L))-1) \le p$.
+In particular, $\beta_{j,j+2}= 0$ for $j \le \lfloor \frac{g-3}{2} \rfloor$ 
+for a general curve of genus $g$.
+\end{conjecture}
+ 
+The ``if'' part is proved by Green and Lazarsfeld in \cite{CO:GL} 
+and holds for arbitrary ground fields. 
+For some partial results see \cite{CO:Vo,CO:Sch2,CO:Sch3,CO:BaEi,CO:vB,CO:HR,CO:Mu}.
+The conjecture is known to be false for some (algebraically closed) fields of
+finite characteristic, e.g.,
+genus $g=7$ and characteristic $\cha \FF=2$; see \cite{CO:Sch4}.
+
+
+\subsection{Coble Self-Dual Sets of Points}
+\index{Coble self-dual sets of points}
+The free resolution of a hyperplane section of a Cohen-Macaulay ring 
+has the same Betti numbers. Thus we may ask for a geometric
+interpretation of the syzygies of $2g-2$ points in $\PP^{g-2}$ 
+(hyperplane section of a canonical curve), 
+or syzygies of a graded Artinian Gorenstein algebra with Hilbert function
+$(1,g-2,g-2,1,0,\ldots)$ 
+(twice a hyperplane section). 
+ Any collection of $2g-2$ points obtained as a hyperplane section of a
+ canonical curve is special in the sense that it imposes only $2g-3$
+ conditions on quadrics.
+An equivalent condition for points in linearly uniform position is that 
+they are Coble (or Gale) self-dual; see \cite{CO:EiPo}. 
+Thus if we distribute the $2g-2$ points into two collections each of $g-1$ points, 
+with, say, the first consisting of the coordinate points
+and the second corresponding to the rows of a $(g-1) \times (g-1)$ matrix 
+$A=(a_{ij})$, then $A$ can be chosen to be an orthogonal matrix, i.e.,
+$A^t A = 1$; see \cite{CO:EiPo}.
+
+To see what the analogue of Green's Conjecture for the general curve means for
+orthogonal matrices we recall a result of \cite{CO:RS1}.
+
+Set $n=g-2$. We identify the homogeneous coordinate ring of $\PP^n$ with
+the ring $S=\FF[\partial_0,\ldots,\partial_n]$ of 
+\ie{differential operators} with 
+constant coefficients, $\partial_i=\frac{\partial}{\partial x_i}$. 
+The ring $S$ acts on $\FF[x_0,\ldots,x_n]$ by differentiation. 
+The annihilator of $q=x_0^2+\ldots+x_n^2$ is a homogeneous ideal 
+$J \subset S$ such that 
+$S/J$ is a \ie{graded Artinian Gorenstein ring} with Hilbert function $(1,n+1,1)$ 
+and socle induced by $q$, 
+see \cite{CO:RS2}, \cite[Section 21.2 and related exercise 21.7]{CO:Ei}.
+The syzygy numbers of S/J are
+$$
+\begin{tabular}{|ccccc cc}\hline
+1 &- &- &- &- &- &-\cr
+- &$\frac{n}{n+2}\binom{n+3}{2}$ &$\cdots$ &$\frac{p(n+1-p)}{n+2}\binom{n+3}{p+1}$
+&$\cdots$ &$\frac{n}{n+2}\binom{n+3}{n+1}$ &-\cr
+- &- &- &- &- &- &1\cr  
+\end{tabular}
+$$
+
+
+A collection $H_0,\ldots,H_n$ of hyperplanes in $\PP^n$ is said to 
+form a polar simplex to $q$ 
+if and only if the collection $\Gamma=\{p_0,\ldots,p_n\} \subset \check \PP^n$ 
+of the corresponding points in the dual space has its homogeneous ideal 
+$I_\Gamma \subset S$ contained in $J$.
+
+In particular the set $\Lambda$ consisting of the coordinate points correspond 
+to a polar simplex, because 
+$\partial_i\partial_j$ annihilates $q$ for $i\ne j$.
+
+For any polar collection of points $\Gamma$  the free resolution
+$\Ss_\Gamma$ is a subcomplex of the resolution $\Ss_{S/J}$. Green's conjecture
+for the generic curve of genus $g=n+2$ would imply: 
+
+\begin{conjecture}\label{PConj}  For a general
+$\Gamma$ and the given  $\Lambda$ the corresponding Tor-groups
+$$\Tor^S_k(S/I_\Gamma,\FF)_{k+1} \cap \Tor^S_k(S/I_\Lambda,\FF)_{k+1}
+\subset \Tor^S_k(S/J,\FF)_{k+1}$$
+intersect transversally.
+\end{conjecture} 
+
+\begin{proof}
+A zero-dimensional non-degenerate scheme $\Gamma\subset\PP^n$ of degree n+1 
+has syzygies
+$$
+\begin{tabular}{|ccccc c}\hline
+1 &- &- &- &- &-\cr
+- &$\binom{n+1}{2}$ &$\cdots$ &$k\binom{n+1}{k+1}$
+&$\cdots$ &$n$
+\end{tabular}
+$$
+
+Since both Tor groups are contained in $\Tor^S_k(S/J,\FF)_{k+1}$, 
+the claim is equivalent to saying that for a general polar simplex $\Gamma$ 
+the expected dimension of their intersection is 
+$\dim\Tor^S_k(S/_\Gamma,\FF)_{k+1}+\dim\Tor^S_k(S/_\Gamma,\FF)_{k+1}
+-\dim\Tor^S_k(S/J,\FF)_{k+1}$, which is
+$$
+2k\binom{g-1}{k+1}-\frac{k(g-1-k)}{g}\binom{g+1}{k+1}.
+$$
+
+On the other hand, $I_{\Gamma\cup\Lambda}=I_\Gamma\cap I_\Lambda$, hence
+$$\Tor^S_k(S/I_\Gamma,\FF)_{k+1} \cap \Tor^S_k(S/I_\Lambda,\FF)_{k+1} 
+=\Tor^S_k(S/I_{\Gamma\cup\Lambda},\FF)_{k+1},$$
+and Green's conjecture would imply
+$$
+\dim\Tor^S_k(S/I_{\Gamma\cup\Lambda},\FF)_{k+1}
+=\beta_{k,k+1}(\Gamma\cup\Lambda)
+=k\binom{g-2}{k+1}-(g-1-k)\binom{g-2}{k-2}.
+$$
+Now a calculation shows that the two dimensions above are equal.
+\end{proof}
+
+
+The family of all polar simplices $V$ is dominated by the family defined  
+by the ideal of $2 \times 2$ minors of the matrix
+$$\begin{pmatrix} 
+\partial_0 & \ldots & \partial_i & \ldots &\partial_n \cr
+\sum_j b_{0j} \partial_j & \ldots &\sum_j b_{ij} \partial_j & \ldots & \sum_j b_{nj} \partial_j
+\end{pmatrix}$$
+depending on     
+a symmetric matrix $B=(b_{ij})$, i.e., $b_{ij}=b_{ji}$ as parameters.
+For $B$  a general diagonal matrix
+we get $\Lambda$ together with a specific element in 
+$\Tor^S_n(S/I_\Lambda,\FF)_{n+1}$. 
+
+
+
+
+
+\subsection{Comparison and Probes}
+
+One of the peculiar consequences of Green's conjecture for odd genus $g=2k+1$ 
+is that, if $\beta_{k,k+1} = \beta_{k-1,k+1} \ne 0$, then the curve $C$ lies 
+in the closure of the locus of $k+1$-gonal curve. Any $k+1$-gonal curve
+lies on a rational normal 
+scroll $X$ of codimension $k$ that satisfies 
+$\beta_{k,k+1}(X) = k$. Hence
+$$\beta_{k,k+1}(C) \ne 0 \Rightarrow \beta_{k,k+1}(C) \ge k$$
+
+We may ask whether a result like this is true for the union of two polar simplices $\Lambda \cup \Gamma \subset \PP^{2k-1}$. Define
+$$\tilde D=\{ \Gamma \in V | \Gamma \cup \Lambda \hbox{ is syzygy special} \}$$
+where, as above, $V$ denotes the variety of polar simplices and 
+$\Lambda$ denotes the coordinate simplex. 
+If $\tilde D$ is a proper subvariety, then it is a divisor,
+because 
+$\beta_{k,k+1}(\Gamma \cup \Lambda) =\beta_{k-1,k+1}(\Gamma \cup \Lambda) $. 
+
+
+\begin{conjecture}\label{Exceptional locus}  The subscheme 
+$\tilde D \subset V$ is an irreducible divisor, 
+for $g=n+2=2k+1 \in \{7,9,11\}$. 
+The value of $\beta_{k,k+1}$ on a general point of $D$ 
+is $3, 2, 1$ respectively.
+\end{conjecture} 
+
+We can prove this for $g=7$ by computer algebra.  For
+$g=9$ and $g=11$ a proof is
+computationally out of reach with our methods, but we can get some
+evidence from examples over finite fields.
+
+\partitle{Evidence} 
+Since $\tilde D$ is a divisor, we expect that if we pick symmetric
+matrices $B$ over $\FF_q$ at random, we will hit points on every component
+of $\tilde D$ at a
+probability of $1/q$. For a general point on $ \tilde D$  the corresponding Coble
+self-dual set of points will have the generic  number of extra syzygies
+of that component. Points with even more syzygies will occur in higher 
+codimension, hence only with a probability of $1/q^2$. 
+Some evidence for irreducibility can be obtained from the Weil formulas:
+for sufficiently large $q$ we should see points on $\tilde D$ with
+probability
+$C q^{-1} + O(q^{-\frac32})$, where $C$ is the number of components.
+ 
+The following tables give for small fields $\FF_q$ the number $s_i$
+of examples with $i$ extra syzygies in a test of 1000 examples for $g=9$ and
+100 examples for $g=11$. 
+The number $s_{\rm tot}= \sum_{i>0} s_i$ is the total number of examples with extra
+syzygies.
+
+\noindent
+Genus $g=9$:
+$$
+\def\sb#1{\hbox to .8cm{\hfil$#1$}} %small fixed size box --text mode
+\begin{tabular}{r|r|r|r|r|r|r|}
+$q$ & $\ {\scriptstyle 1000}/q$ & \sb{s_{\rm tot}} & \sb{s_1} & \sb{s_2} & \sb{s_3} & \sb{s_4}  \cr
+\hline
+2 & 500 & 925 & 0 & 130 & 0 & 63 \cr
+3 & 333 & 782 & 0 & 273 & 0 & 33 \cr
+4 & 250 & 521 & 0 & 279 & 0 & 99 \cr
+5 & 200 & 350 & 0 & 217 & 0 &74 \cr
+7 & 143 & 197 & 0 & 144 & 0 &36 \cr
+8 & 125 & 199 & 0 & 147 & 0 & 43 \cr
+9 & 111 & 218 & 0 & 98 & 0 & 0 \cr
+11 & 91 & 118 & 0 & 102 & 0 & 15 \cr
+13 & 77 & 90 & 0 & 79 & 0 & 10 \cr
+16 & 62 & 72 & 0 & 68 & 0 & 4 \cr
+17 & 59 & 76 & 0 & 69 & 0 & 6 \cr
+\end{tabular}$$
+
+\noindent
+Genus $g=11$:
+$$
+\def\sb#1{\hbox to .8cm{\hfil$#1$}} %small fixed size box --text mode
+\begin{tabular}{r|r|r|r|r|r|r|}
+$q$ & $\ {\scriptstyle 100}/q$ & \sb{s_{\rm tot}} & \sb{s_1} & \sb{s_2} & \sb{s_3} & \sb{s_4}  \cr
+\hline
+7 & 14.3 & 16 & 14 & 0 & 0 & 0 \cr
+17 & 5.9 & 7 & 7 & 0 & 0 & 0 \cr
+\end{tabular}$$
+
+\noindent
+In view of these numbers, it is more likely that
+the set $\tilde D$ of syzygy special Coble points is irreducible 
+than that it is reducible. For a more precise statement we refer to \cite{CO:vBS}.
+
+ 
+ 
+\medskip
+\noindent
+{\bf A test of Green's Conjecture for Curves.}
+In view of \ref{Exceptional locus} it seems plausible that for a general curve
+of odd genus $g \ge 11$ with $\beta_{k,k+1}(C) \ne 0$ the value might
+be $\beta_{k,k+1}=1$ contradicting Green's conjecture. 
+It is clear that the syzygy 
+exceptional locus has codimension 1 in $\gM_g$ for odd genus, if it is proper, 
+i.e., if Green's 
+conjecture holds for the general curve of that genus. So picking points 
+at random we might be able to find such curve over a finite field $\FF_q$
+with probability $1/q$, roughly.
+%%$$<<\hbox{testGreensConjecture}>>$$ 
+
+Writing code that does this is straightforward. One makes a loop that
+picks up randomly a curve, computes its canonical image, and resolves
+its ideal, counting the possible values $\beta_{k,k+1}$
+until a certain amount of special curves is reached. 
+The result for 10 special curves in $\FF_7$ is as predicted:
+$$
+\def\sb#1{\hbox to .65cm{\hfil$#1$}} %small fixed size box --text mode
+\begin{tabular}{r|r|r|r|rrrrrr|}
+& &total &\ special &\multicolumn{6}{r}{possible values of $\beta_{k,k+1}$}\vrule\cr
+$g$ &\ seconds &\ curves &curves 
+&\sb{\le 2}&\sb3&\sb4&\sb5&\sb6&\sb{\ge 7} \cr
+\hline
+7&148&75&10&0&10&0&0&0&0\cr
+9&253&58&10&0&0&9&0&0&1\cr
+11&25640&60&10&0&0&0&9&0&1\cr
+\end{tabular}
+$$
+(The test for genus 9 and 11 used about 70
+and 120 megabytes of memory, respectively.)
+
+
+So Green's conjecture passed the test for $g=9,11$. 
+Shortly after the first author tried this test for the first time,
+a paper of Hirschowitz and Ramanan appeared proving this in general:
+
+\begin{theorem}[\cite{CO:HR}] If the general curve of odd genus $g=2k+1$ 
+satisfies Green's conjecture then the syzygy special curves lie on the divisor
+$D=\{ C \in \gM_g | W^1_{k+1}(C) \ne \emptyset \}$ 
+\end{theorem}
+
+The theorem gives strong evidence for the full Green's conjecture in
+view of our study of Coble self-dual sets of points.  
+
+\medskip
+Our findings suggest that the variety of points arising as 
+hyperplane sections of smooth canonical curves has the strange
+property that it intersects the divisor of syzygy special sets of
+points $\tilde D$ only in its singular locus. 
+
+\bigskip
+The conjecture for general curves is known to us up to $g \le 17$, which is 
+as far as a computer allows us to do a ribbon example; see \cite{CO:BaEi}.
+
+%%{\bf The end of the section should be deleted or expanded.}  
+%%The following scripts we do these example and allow to verify
+%% the generic Green's conjecture
+%%up to genus 17 (in that case the tests took 4556 seconds and 113Mbyte of memory).
+%%
+%%<testGreensConjectureForGivenParams = (a,b,k,l,K) -> (
+%%     collectGarbage();
+%%     x=symbol x;X=K[x_1..x_a];
+%%     mult1Withs2=matrix(apply((k-2)+1,i->(apply((a-1-k)+1,j->x_(i+j+1)))));
+%%     mult1Withst=matrix(apply((k-2)+1,i->(apply((a-1-k)+1,j->x_(i+j+2)))));
+%%     mult1Witht2=matrix(apply((k-2)+1,i->(apply((a-1-k)+1,j->x_(i+j+3)))));
+%%     --the Kozsul matrix \wedge^(k-1) Fa ->\wedge^k Fa ** Fa^ is given by
+%%     y=symbol y;Y=K[y_1..y_a];
+%%     alpha=transpose koszul(k,vars Y);
+%%     --the contraction map
+%%     QX=sum(numgens X,i->x_(i+1)^2);
+%%     JX=ideal (symmetricPower(2,vars X)*(syz diff(QX, symmetricPower(2,vars X))));  
+%%     Xquot=X/JX;XY=X**Y;contractMap=map(Xquot,XY,vars Xquot|vars Xquot);
+%%     --Now s^2*(\wedge^(k-1) Fa -> \wedge^k Fa ** Fa^* ** (S_(k-2))^* ** Fa) is symply:
+%%     alpha1=substitute(alpha,XY)**substitute(mult1Withs2,XY);
+%%     --and we just have to contract the x_i's with the y_i's, which are of bidegree (1,1)
+%%     alpha1=substitute(contractMap(alpha1),matrix(K,{toList(numgens X:1)}));
+%%     --and the same for the other 2 terms
+%%     alpha2=-2*substitute(alpha,XY)**substitute(mult1Withst,XY);
+%%     alpha2=substitute(contractMap(alpha2),matrix(K,{toList(numgens X:1)}));
+%%     alpha3=substitute(alpha,XY)**substitute(mult1Witht2,XY);
+%%     alpha3=substitute(contractMap(alpha3),matrix(K,{toList(numgens X:1)}));
+%%     --THE SAME WITH THE S_b, with variables (w,z)
+%%     w=symbol w;W=K[w_1..w_b];
+%%     mult2Withs2=matrix(apply((l-2)+1,i->(apply((b-1-l)+1,j->w_(i+j+1)))));
+%%     mult2Withst=matrix(apply((l-2)+1,i->(apply((b-1-l)+1,j->w_(i+j+2)))));
+%%     mult2Witht2=matrix(apply((l-2)+1,i->(apply((b-1-l)+1,j->w_(i+j+3)))));
+%%     z=symbol z;Z=K[z_1..z_b];
+%%     beta=transpose koszul(l,vars Z);
+%%     QW=sum(numgens W,i->w_(i+1)^2);
+%%     JW=ideal (symmetricPower(2,vars W)*(syz diff(QW, symmetricPower(2,vars W))));  
+%%     Wquot=W/JW;WZ=W**Z;contractMap=map(Wquot,WZ,vars Wquot|vars Wquot);
+%%     beta1=substitute(beta,WZ)**substitute(mult2Withs2,WZ);
+%%     beta1=substitute(contractMap(beta1),matrix(K,{toList(numgens W:1)}));
+%%     beta2=substitute(beta,WZ)**substitute(mult2Withst,WZ);
+%%     beta2=substitute(contractMap(beta2),matrix(K,{toList(numgens W:1)}));
+%%     beta3=substitute(beta,WZ)**substitute(mult2Witht2,WZ);
+%%     beta3=substitute(contractMap(beta3),matrix(K,{toList(numgens W:1)}));
+%%     --FINAL EQUATIONS
+%%     equat=alpha1**beta1+alpha2**beta2+alpha3**beta3;
+%%     <<numgens source equat<<"x"<<numgens target equat<<endl;
+%%     rank equat==min(numgens source equat,numgens target equat));>
+%%
+%%<testGreensConjectureForOddGenera = (g,p) -> (
+%%     if p==0 then K=QQ else K=ZZ/p;
+%%     test=true;
+%%     a:=floor((g-1)/2);
+%%     k:=2;while k<=ceiling(a/2) do (
+%%          <<k<<","<<a+1-k<<": ";
+%%          time test=testGreensConjectureForGivenParams(a,a,k,a+1-k,K); 
+%%          if test==false then k=a else k=k+1;);
+%%     test);>
+%%
+
+
+
+
+
+
+
+
+\section{Pfaffian Calabi-Yau Threefolds in $\PP^6$}
+
+\ie{Calabi-Yau 3-folds} caught the attention of physicists
+because they can serve as the compact factor of the
+Kaluza-Klein model of spacetime
+in superstring theory.
+One of the remarkable things that grows out of the work in physics
+is the discovery of mirror symmetry, which associates to a family of
+Calabi-Yau 3-folds $(M_\lambda)$, another family $(W_\mu)$ whose Hodge
+diamond is the mirror of the Hodge diamond of the original family.
+
+Although there is an enormous amount of evidence at present, the existence 
+of a mirror is still a hypothesis for general Calabi-Yau 3-folds. 
+The thousands of cases where this was established all are close to toric
+geometry, where through the work of Batyrev and others \cite{CO:Ba,CO:CK} 
+rigorous mirror
+constructions were given and parts of their conjectured properties proved.
+
+
+\medskip
+From a commutative algebra point of view the examples studied so far are 
+rather trivial, because nearly all are hypersurfaces or complete 
+intersections on toric varieties, or zero loci of sections in 
+homogeneous bundles on homogeneous spaces.  
+
+Of course only a few families of Calabi-Yau 3-folds should be of this kind.
+Perhaps the easiest examples beyond the toric/homogeneous range are 
+Ca\-la\-bi-Yau 3-folds in $\PP^6$. 
+Here examples can be obtained by the Pfaffian
+construction of Buchsbaum-Eisenbud \cite{CO:BE} with vector bundles; see 
+section \ref{Pfaffian complex} below. 
+Indeed a recent theorem of Walter \cite{CO:Wa} says 
+that any smooth Calabi-Yau in $\PP^6$ can be obtained in this way. 
+In this section we report on our construction of such examples. 
+
+As is quite usual in this kind of problem, there is a range where the
+construction is still quite easy, 
+e.g., for surfaces in $\PP^4$ the work in \cite{CO:DES,CO:Po} 
+shows that the construction of nearly all the 50 known families 
+of smooth non-general type surfaces is straight forward 
+and their Hilbert scheme component unirational. 
+Only in very few known examples is the construction more difficult
+and the unirationality of the Hilbert scheme component an open problem.
+
+The second author did the first ``non-trivial'' case of a construction of 
+Calabi-Yau 3-folds in $\PP^6$. 
+Although in the end the families  turned out to be unirational, 
+the approach utilized small finite field constructions as a research tool.
+
+
+
+
+\subsection{The Pfaffian Complex}
+\index{Pfaffian complex}
+Let $\kf$ be a vector bundle of odd rank $\rk \kf = 2r+1$ on a projective
+manifold $M$, and let $\kl$ be a line bundle. Let $\varphi 
+\in H^0(M,\Lambda^2 \kf \otimes \kl)$ be a section. We can 
+think of $\varphi$ as a skew-symmetric twisted homomorphism
+$$\kf^* \stackrel{\varphi}{\longrightarrow} \kf \otimes \kl.$$
+ 
+The $r^{th}$ divided power of $\varphi$ is a section
+$\varphi^{(r)} = \frac{1}{r!}(\varphi \wedge \dots \wedge \varphi) \in 
+H^0(M,$ $\Lambda^{2r}\kf \otimes \kl^r)$.  Wedge product with $\varphi^{(r)}$ 
+defines a morphism 
+$$ \kf \tensor \kl \stackrel{\psi}{\longrightarrow}  \Lambda^{2r+1} \kf \otimes \kl^{r+1}=\det(\kf)\tensor\kl^{r+1}.$$
+
+The  twisted image 
+$\ki = \image(\psi) \tensor \det(\kf^*) \tensor \kl^{-r-1} \subset \ko_M$
+is called the {\sl Pfaffian ideal} of $\varphi$, because working locally
+with frames, it is given by the ideal generated by the  $2r\times 2r$ principle
+Pfaffians of the matrix describing $\varphi$.
+Let $\kd$ denote the determinant line bundle $\det(\kf^*)$.
+
+\begin{theorem}[Buchsbaum-Eisenbud \cite{CO:BE}]\label{Pfaffian complex}
+With this notation
+$$0 \to \kd^2\tensor\kl^{-2r-1}
+\stackrel{\psi^t}{\longrightarrow} \kd\tensor\kl^{-r-1}\tensor\kf^* 
+\stackrel{\varphi}{\longrightarrow} \kf\tensor\kd\tensor\kl^{-r} 
+\stackrel{\psi}{\longrightarrow} \ko_M$$
+is a complex. 
+$X=V(\ki) \subset M$ has codimension $\le 3$ at every point, and in case equality
+holds (everywhere along $X$) then 
+this complex is exact and resolves the structure sheaf $\ko_X=\ko_M/\ki$ 
+of the  locally Gorenstein subscheme $X$. 
+\end{theorem}
+
+We will apply this to construct Calabi-Yau 3-folds in $\PP^6$. 
+In that case we want $X$ to be smooth and 
+$\det(\kf)^{-2}\tensor\kl^{-2r-1} \cong \omega_\PP\cong \ko(-7)$,
+so we may conclude that $\omega_X \cong \ko_X$. 
+A result of Walter \cite{CO:Wa} for $\PP^n$ guarantees the existence 
+of a Pfaffian presentation in $\PP^6$ for every subcanonical embedded 3-fold. 
+Moreover Walter's choice of $\kf\tensor\kd\tensor\kl^{-r}$ for Calabi-Yau 3-folds $X \subset \PP^6$
+is the sheafified first syzygy module $H^1_*(\ki_X)$ plus possibly 
+a direct sum of line bundles 
+(indeed $H^2_*(\ki_X)=0$ because of the Kodaira vanishing theorem). 
+Under the maximal rank assumption for
+$$H^0(\PP^6,\ko(m)) \to H^0(X,\ko_X(m))$$
+the Hartshorne-Rao module is zero for $d=\deg X \in \{12,13,14\}$ and 
+an arithmetically Cohen-Macaulay $X$ is readily found. 
+For $d \in \{15,16,17,18\}$
+the Hartshorne-Rao modules $M$ have Hilbert functions with values
+$(0,0,1,0,$ $\ldots)$, $(0,0,2,1,0,\ldots)$, $(0,0,3,5,0,\ldots)$ and 
+$(0,0,4,9,0,\ldots)$ respectively.
+
+We do not discuss the cases $d\le 16$ further. 
+The construction in those cases is obvious; see \cite{CO:To}.
+
+
+\subsection{Analysis of the Hartshorne-Rao Module for Degree $17$}
+
+Denote with $\kf_1$ the sheaf $\kf\tensor\kd\tensor\kl^{-r}$.
+We try to construct $\kf_1$ as the sheafified first syzygy module of $M$. 
+The construction of a module with the desired Hilbert function is straightforward.
+The cokernel of $3S(-2) \stackrel{b}{\longleftarrow} 16S(-3)$ for a general 
+matrix of linear forms has this property. 
+However, for a general $b$ and 
+$\kf_1 = \ker( 16\ko(-3) \stackrel{b}{\longrightarrow} 3\ko(-2))$ 
+the space of skew-symmetric maps $\Hom_{\rm skew}(\kf_1^*(-7),\kf_1)$ is zero:  
+$M$ has syzygies
+$$
+\begin{tabular}{|cccccccc}
+\hline
+3 & 16 & 28 & - & - & - & - \cr
+- & - & - & 70 & 112 & 84 & 32 & 5 \cr
+\end{tabular}
+$$
+\noindent
+Any map $\varphi \colon \kf_1^*(-7) \to \kf_1$ induces a map on the free
+resolutions:
+$$
+\xymatrix{
+0 &\kf_1 \ar[l] &28\ko(-4) \ar[l] &70\ko(-6) \ar[l] &112\ko(-7) \ar[l] \\
+0 &\kf_1^*(-7) \ar[l] \ar[u]_\varphi &16\ko(-4) \ar[l] \ar[u]_{\varphi_0}
+&3\ko(-5) \ar[l] \ar[u]_{\varphi_1} &0 \ar[l]
+}
+$$
+%\begin{diagram}[small] 
+%0 &\lTo &\kf &\lTo &28\ko &\lTo &70\ko(-2) &\lTo &112\ko(-3) \cr
+%&&\varphi\; \uTo && \varphi_0 \;\uTo && \varphi_1\; \uTo&& \cr
+%0&\lTo & \kf^*(1) &\lTo & 16\ko & \lTo &3\ko(-1) &\lTo & 0 \cr 
+%\end{diagram}
+\noindent
+Since $\varphi_1=0$ for degree reasons, $\varphi=0$ as well, and
+$\Hom(\kf_1^*(-7),\kf_1)=0$ for a general module $M$.
+
+What we need are special modules $M$ that have extra syzygies 
+$$
+\begin{tabular}{|cccccccc}
+\hline
+3 & 16 & 28 & $k$ & - & - & - \cr
+- & - & $k$ & 70 & 112 & 84 & 32 & 5 \cr
+\end{tabular}
+$$
+with $k$ at least 3.
+
+In a neighborhood of $o \in \Spec B$, where denotes $B$ the base space of 
+a semi-universal deformation of $M$, 
+the resolution above would lift to a complex over $B[x_0,\ldots,x_6]$ 
+and in the lifted complex there is a $k\times k$ matrix $\Delta$
+with entries in the maximal ideal $o \subset B$. 
+By the principal ideal theorem we see that Betti numbers stay constant 
+in a subvariety of codimension at most $k^2$. 
+To check for second linear syzygies on a randomly chosen M 
+is a computationally rather easy task.
+The following procedure tests the computer speed of this task.
+<<<testModulesForDeg17CY = (N,k,p) -> (
+     x:=symbol x;R:=(ZZ/p)[x_0..x_6];
+     numberOfGoodModules:=0;i:=0;
+     usedTime:=timing while (i<N) do (
+          b:=random(R^3,R^{16:-1});
+          --we put SyzygyLimit=>60 because we expect 
+          --k<16 syzygies, so 16+28+k<=60
+          fb:=res(coker b, 
+               DegreeLimit =>0,SyzygyLimit=>60,LengthLimit =>3);
+          if rank fb_3>=k and (dim coker b)==0 then (
+               fb=res(coker b, DegreeLimit =>0,LengthLimit =>4);
+               if rank fb_4==0 
+               then numberOfGoodModules=numberOfGoodModules+1;);
+          i=i+1;);
+     collectGarbage();
+     timeForNModules:=usedTime#0;
+     {timeForNModules,numberOfGoodModules});>>>
+
+Running this procedure we see that it takes not more than 
+$0.64$ seconds per example.
+Hence we can hope to find examples with $k=3$ within a reasonable time 
+for a very small field, say $\FF_3$. 
+
+\medskip
+The first surprise is that examples with $k$ extra syzygies 
+are found much more often, 
+as can be seen by looking at the second value output by the function {\tt testModulesForDeg17CY()}.
+
+This is not only a ``statistical'' remark, in the sense that 
+the result is confirmed by computing the semi-universal deformations of these modules.
+Indeed define $\MM_k=\{ M \mid \Tor^S_3(M,\FF)_5 \ge k \}$ and 
+consider a module $M\in \MM_k$:
+``generically'' we obtain $\codim(\MM_k)_M=k$ instead of $k^2$
+(and in fact one can diagonalize the matrix $\Delta$ over 
+the algebraic closure $\bar{\FF}$).
+
+The procedure is straightforward but a bit long. 
+First we pick up an example with $k$-extra syzygies.
+<<<randomModuleForDeg17CY = (k,R) -> (
+     isGoodModule:=false;i:=0;
+     while not isGoodModule do (
+          b:=random(R^3,R^{16:-1});
+          --we put SyzygyLimit=>60 because we expect 
+          --k<16 syzygies, so 16+28+k<=60
+          fb:=res(coker b, 
+               DegreeLimit =>0,SyzygyLimit=>60,LengthLimit =>3);
+          if rank fb_3>=k and (dim coker b)==0 then (
+               fb=res(coker b, DegreeLimit =>0,LengthLimit =>4);
+               if rank fb_4==0 then isGoodModule=true;);
+          i=i+1;);
+     <<"     -- Trial n. " << i <<", k="<< rank fb_3 <<endl;
+     b);>>>
+Notice that the previous function returns a presentation matrix $b$ of $M$, 
+and not $M$.
+
+Next we compute the tangent codimension of $\MM_k$ in the given example 
+$M=\Coker b$ by computing the codimension of the space 
+of the \ie{infinitesimal deformations} of $M$
+that still give an element in $\MM_k$.
+Denote with $b_i$ the maps in the linear strand of a minimal free resolution of $M$, 
+and with $b_2'$ the quadratic part in the second map of this resolution.
+Over $B=\FF[\epsilon]/{\epsilon^2}$ 
+let $b_1+\epsilon f_1$ be an infinitesimal deformation of $b_1$. 
+Then $f_1$ lifts to a linear map $f_2\colon 28S(-4) \to 16S(-3)$ determined by 
+$(b_1+\epsilon f_1)\circ(b_2+\epsilon f_2)=0$, and $f_2$ to a map 
+$f_3\oplus\Delta\colon k S(-5) \to 28 S(-4)\oplus k S(-5)$ determined by
+$(b_2+b_2')\circ\epsilon (f_3\oplus\Delta)=0$.
+Therefore we can determine $\Delta$ as:
+<<<getDeltaForDeg17CY = (b,f1) -> (
+     fb:=res(coker b, LengthLimit =>3);
+     k:=numgens target fb.dd_3-28; --# of linear syzygies
+     b1:=fb.dd_1;b2:=fb.dd_2_{0..27};b2':=fb.dd_2_{28..28+k-1};
+     b3:=fb.dd_3_{0..k-1}^{0..27};
+     --the equation for f2 is b1*f2+f1*b2=0, 
+     --so f2 is a lift of (-f1*b2) through b1 
+     f2:=-(f1*b2)//b1;
+     --the equation for A=(f3||Delta) is -f2*b3 = (b2|b2') * A
+     A:=(-f2*b3)//(b2l|b2');
+     Delta:=A^{28..28+k-1});>>>
+Now we just parametrize all possible maps $f_1\colon 16S(-3) \to 3S(-2)$,
+compute their respective maps $\Delta$,
+and find the codimension of the condition that $\Delta$ is the zero map:
+<<<codimInfDefModuleForDeg17CY = (b) -> (
+     --we create a parameter ring for the matrices f1's
+     R:=ring b;K:=coefficientRing R;
+     u:=symbol u;U:=K[u_0..u_(3*16*7-1)];
+     i:=0;while i<3 do (
+          <<endl<< " " << i+1 <<":" <<endl;
+          j:=0;while j<16 do(
+               << "    " << j+1 <<". "<<endl;
+               k:=0;while k<7 do (
+                  l=16*7*i+7*j+k; --index parametrizing the f1's
+                  f1:=matrix(R,apply(3,m->apply(16,n->
+                       if m==i and n==j then x_k else 0)));
+                  Delta:=substitute(getDeltaForDeg17CY(b,f1),U);
+                  if l==0 then (equations=u_l*Delta;) else (
+                       equations=equations+u_l*Delta;);
+                  k=k+1;);
+               collectGarbage(); --frees up memory in the stack
+               j=j+1;);
+          i=i+1;);
+     codim ideal equations);>>>
+
+
+\medskip
+The second surprise is that for $\kf_1 = syz_1(M)$ we find
+$$\dim \Hom_{\rm skew}(\kf_1^*(-7),\kf_1) =k= \dim \Tor_3^S(M,\FF)_5.$$
+$\Hom_{\rm skew}(\kf_1^*(-7),\kf_1)$ is the vector space of skew-symmetric
+linear matrices $\varphi$ such that $b \circ \varphi = 0$.
+The following procedure gives a matrix of size
+$\binom{16}2\times\dim \Hom_{\rm skew}(\kf_1^*(-7),\kf_1)$
+whose $i$-th column gives the entries of a $16\times16$ skew-symmetric matrix 
+inducing the $i$-th basis element of the vector space $\Hom_{\rm skew}(\kf_1^*(-7),\kf_1)$.
+<<<skewSymMorphismsForDeg17CY = (b) -> (
+     --we create a parameter ring for the morphisms: 
+     K:=coefficientRing ring b;
+     u:=symbol u;U:=K[u_0..u_(binomial(16,2)-1)];
+     --now we compute the equations for the u_i's:
+     UU:=U**ring b;
+     equationsInUU:=flatten (substitute(b,UU)*
+          substitute(genericSkewMatrix(U,u_0,16),UU));
+     uu:=substitute(vars U,UU);
+     equations:=substitute(
+          diff(uu,transpose equationsInUU),ring b);
+     syz(equations,DegreeLimit =>0));>>>
+A morphism parametrized by a column $\tt skewSymMorphism$ is then recovered
+by the following code.
+<<<getMorphismForDeg17CY = (SkewSymMorphism) -> (
+     u:=symbol u;U:=K[u_0..u_(binomial(16,2)-1)];
+     f=map(ring SkewSymMorphism,U,transpose SkewSymMorphism);
+     f genericSkewMatrix(U,u_0,16));>>>
+
+
+\partitle{Rank 1 Linear Syzygies of $M$}
+To understand this phenomenon we consider the multiplication tensor of $M$:
+$$\mu \colon M_2 \tensor V \to M_3$$
+where $V=H^0(\PP^6,\ko(1))$. 
+
+\begin{definition} A decomposable element of $M_2 \tensor V$ in the kernel of 
+$\mu$ is called a \ie{rank 1 linear syzygy} of $M$.
+The (projective) space of rank 1 syzygies is
+$$Y=(\PP^2 \times \PP^6) \cap \PP^{15} \subset \PP^{20}$$
+where $\PP^2=\PP(M_2^*),\PP^6=\PP(V^*)$ and $\PP^{15}=\PP(\ker(\mu)^*)$
+inside the Segre space $\PP((M_2 \tensor V)^*)\cong \PP^{20}$. 
+\end{definition}
+
+Proposition 1.5 of \cite{CO:Gr1} says that, for $\dim M_2 \le j$,
+the existence of a $j^{th}$ linear syzygy implies $\dim Y \ge j-1$. 
+This is automatically satisfied for $j=3$
+in our case: $\dim Y \ge 3$ with equality expected. 
+
+The projection $Y \to \PP^2$ has linear fibers, and the general fiber is a 
+$\PP^1$. However, special fibers might have higher dimension. In terms
+of the presentation matrix $b$ a special 2-dimensional fiber (defined
+over $\FF$) corresponds to a block
+$$
+b=\begin{pmatrix}
+0 & 0 & 0 & * & \ldots \cr
+0 & 0 & 0 & * & \ldots \cr
+l_1 & l_2 & l_3 & *& \ldots \cr 
+\end{pmatrix},
+$$
+where $l_1,l_2,l_3$ are linear forms, in the $3\times16$ presentation matrix of $M$.
+Such a block gives a 
+$$
+\begin{tabular}{|cccccccc}
+\hline
+1 & 3 & 3 & 1 & - & - & - &- \cr
+- & - & - & - & - & - & - & - \cr
+\end{tabular}
+$$
+subcomplex in the free resolution of $M$ and an element 
+$s \in H^0(\PP^6,\Lambda^2 \kf_1 \tensor \ko(7))$
+since the syzygy matrix
+$$
+\begin{pmatrix}
+0 & -l_3 & l_2  \cr
+l_3 & 0 & -l_1  \cr
+-l_2 & l_1 & 0  \cr 
+\end{pmatrix}
+$$
+is skew. 
+
+This answers the questions posed by both surprises: 
+we want a module $M$ with at least $k \ge 3$ special
+fibers and these satisfy $h^0(\PP^6,\Lambda^2 \kf_1 \tensor \ko(7)) \ge k$, 
+if the $k$ sections are linearly independent. 
+The condition for $k$ special fibers is of expected codimension $k$ in the
+parameter space $\GG(16,3h^0(\PP^6,\ko(1))$ of the presentation matrices.
+In a given point $M$ the actual codimension can be readily computed
+by a first order deformations and that 
+$H^0(\PP^6,\Lambda^2 \kf_1 \tensor \ko(7))$ is $k$-dimensional, and spanned by the
+$k$ sections corresponding to the $k$ special fibers can be checked as well. 
+
+First we check that $M$ has $k$ distinct points in $\PP(M_2^*)$ where 
+the multiplication map drops rank. 
+(Note that this condition is likely to fail over small fields. 
+However, the check is computationally easy).
+<<<checkBasePtsForDeg17CY = b -> (
+     --firstly the number of linear syzygies
+     fb:=res(coker b, DegreeLimit=>0, LengthLimit =>4);
+     k:=#select(degrees source fb.dd_3,i->i=={3});
+     --then the check
+     a=symbol a;A=K[a_0..a_2];
+     mult:=(id_(A^7)**vars A)*substitute(
+          syz transpose jacobian b,A);
+     basePts=ideal mingens minors(5,mult);
+     codim basePts==2 and degree basePts==k and distinctPoints(
+          basePts));>>>
+Next we check that $H^0(\PP^6,\Lambda^2 \kf_1 \tensor \ko(7))$ is $k$-dimensional,
+by looking at the numbers of columns of {\tt skewSymMorphismsForDeg17CY(b)}.
+Finally we do the computationally hard part of the check, which is to
+verify that the k special sections corresponding to the k special
+fibers of $Y \to \PP^2$ span $H^0(\PP^6,\Lambda^2 \kf_1 \tensor \ko(7))$.
+<<<checkMorphismsForDeg17CY = (b,skewSymMorphisms) -> (
+     --first the number of linear syzygies
+     fb:=res(coker b, DegreeLimit=>0, LengthLimit =>4);
+     k:=#select(degrees source fb.dd_3,i->i=={3});
+     if (numgens source skewSymMorphisms)!=k then (
+          error "the number of skew-sym morphisms is wrong";);
+     --we parametrize the morphisms:
+     R:=ring b;K:=coefficientRing R;
+     w:=symbol w;W:=K[w_0..w_(k-1)];
+     WW:=R**W;ww:=substitute(vars W,WW);
+     genericMorphism:=getMorphismForDeg17CY(
+          substitute(skewSymMorphisms,WW)*transpose ww);
+     --we compute the scheme of the 3x3 morphisms:
+     equations:=mingens pfaffians(4,genericMorphism);
+     equations=diff(
+          substitute(symmetricPower(2,vars R),WW),equations);
+     equations=saturate ideal flatten substitute(equations,W);
+     CorrectDimensionAndDegree:=(
+          dim equations==1 and degree equations==k);
+     isNonDegenerate:=#select(
+          (flatten degrees source gens equations),i->i==1)==0;
+     collectGarbage();
+     isOK:=CorrectDimensionAndDegree and isNonDegenerate;
+     if isOK then (
+          --in this case we also look for a skew-morphism f 
+          --which is a linear combination of the special 
+          --morphisms with all coefficients nonzero.
+          isGoodMorphism:=false;while isGoodMorphism==false do (
+               evRandomMorphism:=random(K^1,K^k);
+               itsIdeal:=ideal(
+                    vars W*substitute(syz evRandomMorphism,W));
+               isGoodMorphism=isGorenstein(
+                    intersect(itsIdeal,equations));
+               collectGarbage());
+          f=map(R,WW,vars R|substitute(evRandomMorphism,R));
+          randomMorphism:=f(genericMorphism);
+          {isOK,randomMorphism}) else {isOK});>>>
+The code above is structured as follows. 
+First we parametrize the skew-symmetric morphisms with new variables.
+The ideal of $4\times4$ Pfaffians is generated by forms of bidegree $(2,2)$
+over $\PP^6 \times \PP^{k-1}$. We are interested in
+points $p \in \PP^{k-1}$ such that the whole fiber 
+$\PP^6 \times \{ p \}$ is contained in the zero locus of the Pfaffian
+ideal. The next two lines produce the ideal of these points on
+$\PP^{k-1}$. Since we already know of $k$ distinct points by the
+previous check, it suffices to establish that the set consists of 
+collection of k spanning points. Finally, if this is the case, a further
+point, i.e., a further skew morphism, is a linear combination with all
+coefficients non-zero, if and only if the union with this point is a Gorenstein set
+of $k+1$ points in $\PP^{k-1}$.
+<<<isGorenstein = (I) -> (
+     codim I==length res I and rank (res I)_(length res I)==1);>>>
+
+
+It is clear that all 16 relations should take part in the desired
+skew homomorphism $\kf_1^*(-7) \stackrel{\varphi}{\longrightarrow} \kf_1$.
+Thus we need $k \ge 6$ to have a chance for a Calabi-Yau.
+Since $3\cdot5 <16$ it easy to guarantee 5 special fibers by suitable choice
+of the presentation matrix. 
+So the condition $k \ge 6$ is only of codimension $k-5$ on this subspace, 
+and we have a good chance to find a module of the desired type.
+<<<randomModule2ForDeg17CY = (k,R) -> (
+     isGoodModule:=false;i:=0;
+     while not isGoodModule do (
+          b:=(random(R^1,R^{3:-1})++
+               random(R^1,R^{3:-1})++
+               random(R^1,R^{3:-1})|
+               matrix(R,{{1},{1},{1}})**random(R^1,R^{3:-1})|
+               random(R^3,R^1)**random(R^1,R^{3:-1})|
+               random(R^3,R^{1:-1}));
+          --we put SyzygyLimit=>60 because we expect 
+          --k<16 syzygies, so 16+28+k<=60
+          fb:=res(coker b, 
+               DegreeLimit =>0,SyzygyLimit=>60,LengthLimit =>3);
+          if rank fb_3>=k and dim coker b==0 then (
+               fb=res(coker b, DegreeLimit =>0,LengthLimit =>4);
+               if rank fb_4==0 then isGoodModule=true;);
+          i=i+1;);
+     <<"     -- Trial n. " << i <<", k="<< rank fb_3 <<endl;
+     b);>>>
+
+
+\medskip
+Some modules $M$ with $k=8,9,11$ lead to smooth examples of 
+Calabi-Yau 3-folds $X$ of degree 17. 
+To check the smoothness via the Jacobian criterion 
+is computationally too heavy for a common computer today.
+For a way to speed up this computation considerably 
+and to reduce the required amount of memory to a reasonable value (128MB), 
+we refer to \cite{CO:To}.
+
+Since $h^0(\PP^6,\Lambda^2 \kf_1 \tensor \ko(7))=k$ 
+and $\codim \{ M \mid \Tor^S_3(M,\FF)_5 \ge k \} =k$ all three families
+have the same dimension. In particular no family lies in the closure 
+of another.
+
+A deformation computation verifies $h^1(X,\kt)=h^1(X,\Omega^2) = 23$. 
+Hence a computation of the Hodge numbers $h^q(X,\Omega^p)$ gives the diamond
+$$
+\begin{matrix}
+&&& 1 &&&\cr
+&& 0 && 0 &&\cr
+& 0 && 1 && 0 &\cr
+ 1 &&{23} &&{23} && 1\cr
+& 0 && 1 && 0 &\cr
+&& 0 && 0 &&\cr
+&&& 1 &&&\cr 
+\end{matrix}
+$$
+
+\begin{example}
+The following commands give an example of a Calabi-Yau 3-fold in $\PP^6$:
+<<<K=ZZ/13;>>>
+<<<R=K[x_0..x_6];>>>
+<<<time b=randomModule2ForDeg17CY(8,R);>>>
+<<<betti res coker b>>>
+<<<betti (skewSymMorphisms=skewSymMorphismsForDeg17CY b)>>>
+We check whether the base points in $M_0$ are all distinct.
+<<<checkBasePtsForDeg17CY b>>>
+Now we check whether the $k$ sections span the morphisms.  
+If we get {\tt true} then this is a good module.
+<<<finalTest=checkMorphismsForDeg17CY(b,skewSymMorphisms);>>>
+<<<finalTest#0>>>
+We pick up a random morphism involving all $k$ sections.
+<<<n=finalTest#1;>>> 
+If all the tests are okay, there should be a high degree syzygy.
+<<<betti (nn=syz n)>>>
+<<<n2t=transpose submatrix(nn,{0..15},{3});>>>
+<<<b2:=syz b;>>>
+Finally, compute the ideal of the Calabi-Yau 3-fold in $\PP^6$.
+<<<j:=ideal mingens ideal flatten(n2t*b2);>>>
+<<<degree j>>>
+<<<codim j>>>
+<<<betti res j>>>
+\end{example}
+
+
+
+
+\subsection{Lift to Characteristic Zero}
+
+\index{lift to characteristic zero}
+At this point we have constructed Calabi-Yau 3-folds $X \subset \PP^6$ over
+the finite field $\FF_5$ or $\FF_7$. 
+However, our main interest is the field of complex numbers $\CC$. 
+The existence of a lift to characteristic zero follows by the following argument.
+
+The set
+$\MM_k=\{ M \mid \Tor^S_3(M,\FF)_5 \ge k \}$ has codimension at most $k$.
+A deformation calculation shows that at our special point
+$M^{\rm special} \in \MM(\FF_p)$ the codimension is achieved and that $\MM_k$
+is smooth at this point. 
+Thus taking a transversal slice defined over $\ZZ$ through this point 
+we find a \ie{number field} $K$ and a prime $\gp$ in its ring of integers $O_K$ 
+with $O_K/\gp \cong \FF_p$ such that 
+$M^{\rm special}$ is the specialization of an $O_{K,\gp}$-valued point of $\MM_k$. 
+Over the generic point of $\Spec O_{K,\gp}$ we obtain a $K$-valued point. 
+From our computations with {\tt checkBasePtsForDeg17CY()} and 
+{\tt checkMorphismsForDeg17CY()},
+which explained why $h^0(\PP^6,\Lambda^2 \kf_1^{\rm special} \tensor \ko(7))=k$,
+it follows that 
+$$H^0(\PP^6_\ZZ\times\Spec O_{K,\gp},\Lambda^2 \kf_1 \tensor \ko(7))$$
+is free of rank $k$ over $O_{K,\gp}$.
+Hence $\varphi^{\rm special}$ extends to $O_{K,\gp}$ as well,
+and by semi-continuity we obtain a smooth Calabi-Yau 3-fold defined over
+$K \subset \CC$.
+
+\begin{theorem}[\cite{CO:To}] The Hilbert scheme of smooth Calabi-Yau 3-folds of 
+degree $17$ in 
+$\PP^6$ has at least 3 components. These three components are reduced  and 
+have dimension $23+48$. The corresponding Calabi-Yau 3-folds differ in the
+number of quintic generators of their homogeneous ideals,
+which are $8$, $9$ and $11$ respectively.   
+\end{theorem}
+
+See \cite{CO:To} for more details.
+\medskip
+
+
+Note that we do not give a bound on the degree $[K:\QQ]$ of the number field,
+and certainly we are far away from a bound of its discriminant.
+
+This leaves the question open whether these parameter spaces of Calabi-Yau 
+3-folds are unirational. Actually they are, as the geometric construction
+of modules $M \in \MM_k$ in \cite{CO:To} shows.
+
+A construction of one or several \ie{mirror families} of these Calabi-Yau 3-folds
+is an open problem. 
+
+\nocite{CO:vB}
+
+
+
+
+% Local Variables:
+% mode: latex
+% mode: reftex
+% tex-main-file: "chapter-wrapper.tex"
+% reftex-keep-temporary-buffers: t
+% reftex-use-external-file-finders: t
+% reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+% End:

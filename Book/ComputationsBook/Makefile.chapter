@@ -1,0 +1,197 @@
+# -*- mode: Makefile -*-
+
+ifndef MEMLIMIT
+MEMLIMIT = 150000
+endif
+
+DIR := $(shell basename `pwd`)
+
+UTIL := ../../util
+export TEXINPUTS := ../../inputs:$(TEXINPUTS)
+export BSTINPUTS := ../../inputs:$(BSTINPUTS)
+
+all : dvi ps pdf
+dvi : $(NAME)-wrapper.dvi
+pdf : $(NAME)-wrapper.pdf
+ps  : $(NAME)-wrapper.ps
+psz : $(NAME)-wrapper.ps.gz
+
+# DVIPSFLAGS = -z
+TEX = latex
+
+SOURCES = Makefile $(NAME).tex papers.bib
+
+.SUFFIXES: -m2.tex .bux .aux .out .m2
+.PHONY : all dvi pdf ps bak shar
+.PRECIOUS : %-m2.tex %.out %.m2 %.bbl
+
+$(NAME).tgz : $(SOURCES)
+	tar cfz $@ $^
+
+shar : $(NAME).shar
+$(NAME).shar: $(SOURCES)
+	shar $^ >$@
+	chmod a+x $@
+
+pub : $(NAME).pub
+$(NAME).pub : $(NAME)-m2.tex $(NAME)-m2.bbl $(NAME)-m2.aux
+	shar $^ >$@
+	chmod a+x $@
+
+bak.home : $(NAME).tgz
+	scp $(NAME).tgz osmium.home:
+bak : $(NAME).tgz
+	scp1 $(NAME).tgz earth.math.uiuc.edu:math/papers
+
+
+%.gz : %
+	gzip <$< >$@
+
+$(NAME)-wrapper.dvi $(NAME)-wrapper.pdf : $(NAME)-m2.tex $(NAME)-wrapper.tex $(TEXFILES) \
+	../../inputs/book-macros.tex \
+	../../inputs/lncse.cls \
+	../../inputs/merge.tex
+$(NAME)-trial-wrapper.aux : Makefile ../../wrapper.sh $(NAME)-m2.tex
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	NAME="$(NAME)" ../../wrapper.sh /dev/null >$(NAME)-trial-wrapper.tex
+
+	$(TEX) $(NAME)-trial-wrapper.tex
+$(NAME)-wrapper.tex : Makefile ../../wrapper.sh $(NAME)-trial-wrapper.aux
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	NAME="$(NAME)" ../../wrapper.sh $(NAME)-trial-wrapper.aux >$@
+%.m2 : %.tex
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	$(UTIL)/process $< >$@.tmp
+	mv $@.tmp $@
+%-m2.tex : %.tex %.out
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	$(UTIL)/merge $*.tex $*.out >$*-m2.tex.tmp
+	mv $*-m2.tex.tmp $*-m2.tex
+%.out : %.m2
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@, perhaps'
+	@ echo '=================================================================='
+	@if [ -f $*.out ] && cmp -s $*.m2 $*.old ; \
+	 then touch $*.out ; \
+	 else echo "running M2 on $*.m2, starting at $$(date +%T)"; \
+	   echo ulimit -v $(MEMLIMIT) '&&' time M2 -x -s -q '-e errorDepth 0' "<$*.m2" ">$*.out.tmp"; \
+	   ulimit -v 160000 && \
+	   time nice -19 M2 -x -s -q '-e errorDepth 0' <$*.m2 >$*.out.tmp && \
+	   mv $*.out.tmp $*.out && \
+	   cp $*.m2 $*.old ; \
+	 fi
+$(NAME)-wrapper.bux : $(NAME)-m2.tex
+%.bux : %.tex
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	$(TEX) '\scrollmode \input $<'
+	@if grep "end occurred inside a group" $*.log >/dev/null 2>&1 ; \
+	 then echo 'Error : end occurred inside a group' >&2 ; \
+	      echo '        balance those braces' >&2 ; \
+	      exit 1 ; \
+	 fi 
+	rm -f $*.dvi
+	cp $*.aux $*.bux
+.PRECIOUS : %.bux %.dvi
+%.bbl : %.bux
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	cp $*.bux $*.aux
+	if egrep '^.citation' $*.aux >/dev/null 2>&1; \
+	then bibtex $*; \
+	else cat /dev/null >$@ ; \
+	fi
+%.dvi : %.tex
+%.dvi : %.bbl
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	$(TEX) '\scrollmode \input $*'
+	@if grep "end occurred inside a group" $*.log >/dev/null 2>&1 ; \
+	 then echo 'Error : end occurred inside a group' >&2 ; \
+	      echo '        balance those braces' >&2 ; \
+	      exit 1 ; \
+	 fi 
+	@echo '==================================================================' ; \
+	 echo '==                       making $(DIR)/$@' ; \
+	 echo "makeindex -s ../../lncse-macros/sprmindx.sty -o $*.tmp $* && mv $*.tmp $*.ind" ; \
+	       makeindex -s ../../lncse-macros/sprmindx.sty -o $*.tmp $* && mv $*.tmp $*.ind  ; \
+	 echo '=================================================================='
+	@if true || grep "Rerun to get cross-references right." $*.log >/dev/null >&2 ; \
+	then echo '=================================================================='; \
+	     echo '==           making $(DIR)/$@ again'; \
+	     echo '=================================================================='; \
+	     echo "$(TEX) '\scrollmode \input $*'"; \
+	     $(TEX) '\scrollmode \input $*'; \
+	     if grep "end occurred inside a group" $*.log >/dev/null 2>&1 ; \
+	      then echo 'Error : end occurred inside a group' >&2 ; \
+		   echo '        balance those braces' >&2 ; \
+		   exit 1 ; \
+	      fi ; \
+	fi
+%.ps : %.dvi
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	dvips $(DVIPSFLAGS) $< $(OUTPUT_OPTION)
+	rm -f body.tmp head.tmp
+%.pdf : %.tex
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	pdf$(TEX) '\scrollmode \input $<'
+	@if grep "end occurred inside a group" $*.log >/dev/null 2>&1 ; \
+	 then echo 'Error : end occurred inside a group' >&2 ; \
+	      echo '        balance those braces' >&2 ; \
+	      exit 1 ; \
+	 fi 
+	pdf$(TEX) '\scrollmode \input $<'
+	@if grep "end occurred inside a group" $*.log >/dev/null 2>&1 ; \
+	 then echo 'Error : end occurred inside a group' >&2 ; \
+	      echo '        balance those braces' >&2 ; \
+	      exit 1 ; \
+	 fi 
+
+
+clean :
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	rm -f *.dvi *.numtex *.log *.xyc *.aux *.nums *.blg *.tmp *.bbl *.ps \
+		*.pdf *.bux *.tgz *.shar *-m2.tex $(NAME).m2 *.toc TAGS \
+		*.idx *.ilg *.ind diffs log \
+		$(NAME).pub $(NAME)-wrapper.tex $(NAME)-trial-wrapper.tex *.ps.gz *.tmp
+
+distclean : clean
+	@ echo '=================================================================='
+	@ echo '==           making $(DIR)/$@'
+	@ echo '=================================================================='
+	rm -f *.old *.out
+
+$(NAME).out : $(NAME).m2
+
+$(NAME)-wrapper.bbl : papers.bib ../../inputs/springer.bst
+
+run : $(NAME).out
+print : $(NAME)-m2.ps; lpr $<
+TAGS : $(NAME)-wrapper.tex
+	etags $(NAME).tex $(NAME)-wrapper.tex $(TEXFILES)
+include ../../Makefile.common
+
+diffs : $(NAME).tex papers.bib $(NAME).out
+	( echo ; echo "differences since the author's final version"; echo; echo; \
+	  cvs diff -r author-final $^; \
+	  true) >$@
+
+log : $(NAME).tex papers.bib $(NAME).out
+	cvs log >$@

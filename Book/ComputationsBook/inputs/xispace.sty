@@ -1,0 +1,45 @@
+% I've modified xspace to create this macro xispace, which includes an optional
+% italic correction along with the space. (Daniel R. Grayson)
+
+%% Copyright 1993 1994 1995 1996 1997 1998 1999
+%% The LaTeX3 Project and any individual authors listed elsewhere
+%% in this file.
+%% 
+%% This file is part of the Standard LaTeX `Tools Bundle'.
+%% -------------------------------------------------------
+%% 
+%%  This file, and all the other files in this bundle as listed below,
+%%  may be distributed under the terms of the LaTeX Project Public
+%%  License, as described in lppl.txt in the base LaTeX distribution.
+%%  Either version 1.0 or, at your option, any later version.
+%% 
+%% File: xspace.dtx Copyright (C) 1991-1996 David Carlisle
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{xispace}
+          [1997/10/13 v1.06 Space and italic correction after command names (DPC)]
+\DeclareRobustCommand\xispace{\futurelet\@let@token\@xispace}
+\def\@xispace{%
+  \ifx\@let@token\bgroup\else
+  \ifx\@let@token\egroup\else
+  \ifx\@let@token\/\else
+  \ifx\@let@token\ \else
+  \ifx\@let@token~\else
+  \ifx\@let@token.\else
+  \ifx\@let@token!\else
+  \ifx\@let@token,\else
+  \ifx\@let@token:\else
+  \ifx\@let@token;\else
+  \ifx\@let@token?\else
+  \ifx\@let@token/\else
+  \ifx\@let@token'\else
+  \ifx\@let@token)\else
+  \ifx\@let@token-\else
+  \ifx\@let@token\@xobeysp\else
+  \ifx\@let@token\space\else
+  \ifx\@let@token\@sptoken\else
+   \/\space
+   \fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi\fi}
+
+\endinput
+%%
+%% End of file `xispace.sty'.

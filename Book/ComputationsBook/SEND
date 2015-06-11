@@ -1,0 +1,6 @@
+#! /bin/sh -x
+
+make diffs log &&
+cvs ci &&
+(cd .. ; rsync -av --compress --delete ComputationsBook rhenium.math.uiuc.edu:M2 ) &&
+make -C ~/BACKUP-REPOSITORY

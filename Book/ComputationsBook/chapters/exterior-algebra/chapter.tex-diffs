@@ -1,0 +1,182 @@
+rhenium% diff -u chapter.tex chapter-new.tex 
+--- chapter.tex	Wed Feb 14 13:44:33 2001
++++ chapter-new.tex	Wed Feb 14 13:39:29 2001
+@@ -366,8 +366,8 @@
+ syzygies over
+ $S$ one can compute the cohomology of $\tilde M$ 
+ starting from the minimal free resolution of $M$ (see 
+-\cite{EA:MR1484973:eisenbud} in \cite{EA:VAS} for a sketch of an algorithm,
+-or \cite{EA:MR1769664} for a more systematic treatment of a generalization.)
++\cite{EA:MR1484973:eisenbud}, \cite{smith}
++and Remark \ref{cohold} below).
+ 
+ The \ie{Bernstein-Gel'fand-Gel'fand correspondence} (\ie{BGG}) is an isomorphism
+ between the derived category of bounded complexes of finitely
+@@ -451,25 +451,93 @@
+ $$
+ In many cases this is the fastest known method for computing cohomology.
+ 
+-The Beilinson monad has played an important role in the construction
++Section 2 of this paper is devoted to a sketch of the
++Eisenbud-Fl{\o}ystad-Schreyer approach
++to the Bernstein-Gel'fand-Gel'fand correspondence, and 
++the computation of cohomology, together with \Mtwo programs
++that carry it out, is explained in Section 3. 
++
++
++The remainder of this paper is devoted to an explanation of
++the Beilinson monad, how to compute it in \Mtwo, and what it
++is good for.
++This technique has played an important role in the construction
+ and study of vector bundles and varieties. In the typical application
+ one constructs or classifies monads in order to  construct or classify
+-sheaves. In later sections of this chapter we give examples which
+-show how this process works. 
++sheaves. 
+ 
+-One application of the construction of the Beilinson
++The BGG correspondence and Beilinson's monad were originally
++formulated in the language of derived categories, and the
++proofs were rather complicated.
++The ideas of Eisenbud-Fl{\o}ystad-Schreyer exposed above allow, 
++for the first time, an
++explanation of these matters on a level that can be understood by 
++an advanced undergraduate.
++
++The Beilinson monad is similar in spirit to the technique of
++free re\-solutions. That theory essentially describes arbitrary
++sheaves by comparing them with direct sums of line bundles.
++In the Beilinson technique, one uses a different set of 
++"elementary" sheaves, direct sums of exterior powers of
++the tautological sub-bundle. Beilinson's remarkable observation
++was that this comparison has a much more direct connection
++with cohomology than does the free resolution method.
++
++Sections 4 and 5 are introductory in nature. In
++Section 4 we begin with a preparatory discussion of the
++necessary vector bundles
++on projective space and their cohomology. In Section 5
++we define monads, a generalization of resolutions. We give
++a completely elementary account which constructs the
++Beilinson monad in a very special case, following ideas
++of Horrocks, and we use this to sketch part of one of the 
++first striking applications of monads: the classification of stable
++rank 2 vector bundles on the projective plane by
++Barth, Hulek and Le Potier.
++
++In Section 6 we give the construction of Eisenbud-Fl{\o}ystad-Schreyer
++for the Beilinson monad in general. This is quite suitable for
++computation, and we give \Mtwo code that does this job.
++
++A natural question for the student at this point is:
++``Why should I bother learning Beilinson' theorem, what is it good
++for?" In section 7, we describe two more explicit applications
++of the theory developed. In the  first, the classification of
++elliptic conic bundles in $\P^4$, computer algebra played 
++a  significant role, demonstrating that several published papers
++contained serious mistakes by constructing an example
++they had excluded! Using the routines developed earlier
++in the chapter we give a simpler account of the
++crucial computation.
++
++In the second application, the construction of abelian surfaces in
++$\P^4$ and the related Horrocks-Mumford bundles, computer algebra
++allows one to greatly shorten some of the original arguments made.
++As the reader will see, everything follows easily
++with computation, once a certain $2\times 5$ matrix of exterior 
++monomials, given by Horrocks and Mumford, has been written down.
++One might compare the computations here with the original paper of Horrocks and
++Mumford \cite{EA:HM} (for the cohomology) and the papers by 
++Manolache \cite{EA:nico} and Decker \cite{EA:cam} (for the
++syzygies) of the Horrocks-Mumford bundle. A great deal of effort, using
++representation theory, was necessary to derive results that can be
++computed in seconds using the \Mtwo programs here. Much more theoretical
++effort, however, is needed to derive classification results.
++
++Another application of the construction of the Beilinson
+ complex (in a slightly more general setting) is to compute
+ \ie{Chow form}s of varieties; see
+-\cite{EA:Eisenbud-Schreyer:ChowForms}. As for other applications,
+-perhaps the
++\cite{EA:Eisenbud-Schreyer:ChowForms}.
++
++Perhaps the
+ situation is similar to that in the beginning of the 1980's when it
+ became clear that syzygies could be computed by a machine. Though
+ syzygies had been used theoretically for many years it took quite a
+ while until the practical computation of syzygies lead to applications,
+ too, mostly through the greatly increased ability to study examples. 
+ 
+-A good project in this direction might be to extend and make
+-more precise the very useful criterion given in Proposition \ref{critsur}.
++A good open problem of this sort is to extend
++and make more precise the very useful criterion given in \ref{critsur}:
+ Can the reader find a necessary and sufficient condition
+ to replace the necessary condition for surjectivity given there?
+ How about a criterion for exactness?
+@@ -1374,14 +1442,14 @@
+ %  {\bf Remark 5.2.}
+ Every rank 2 vector bundle $\mathcal F$ on $\PP (W)$ is 
+ {\it {self-dual}},\index{bundle!self-dual} that is, it admits a symplectic structure. 
+-Indeed, the cano\-nical map 
++Indeed, the  map 
+ $$\mathcal F \otimes \mathcal F 
+-\rightarrow {\textstyle\bigwedge}^2 \mathcal F \cong \mathcal O_{\PP (W)} (c_1)
++\overset\wedge\longrightarrow {\textstyle\bigwedge}^2 \mathcal F \cong \mathcal O_{\PP (W)} (c_1)
+ $$ 
+ induces an isomorphism 
+ $\varphi: \mathcal F \overset{\cong}\to \mathcal F^{\ast} (c_1)$ 
+ with $\varphi = - \varphi^* (c_1)$ (here $c_1$ is the first Chern class
+-of $\mathcal F$). In particular there are canonical isomorphisms 
++of $\mathcal F$). In particular there are isomorphisms 
+ $$
+ (\H^j \mathcal F (i))^*\cong \H^{n-j} \mathcal F (-i-n-1-c_1)
+ $$
+@@ -1639,9 +1707,7 @@
+ \vskip0.2cm
+ ($\alpha_1$) $\alpha^d\circ\alpha = 0$, and
+ \vskip0.1cm
+-($\alpha_2$) $\alpha$ is a vector bundle monomorphism (equivalently,
+-$\alpha^d$ is an epimorphism)
+-
++($\alpha_2$) $\alpha$ is a vector bundle monomorphism ($\alpha^d$ is an epimorphism)
+ \vskip0.2cm
+ \noindent
+ can be rewritten in terms of linear algebra as follows. 
+@@ -1710,7 +1776,7 @@
+ Lemma \ref{hombd}).
+ 
+ \vskip0.1cm
+-<<<alpha = map(U ++ U, S^{-1}, transpose{{0,1,0,1,0,0}});>>>
++<<<alpha = map(U ++ U, S^{-1}, transpose{{0,-1,0,1,0,0}});>>>
+ <<<alphad = map(S^1, U ++ U, matrix{{0,1,0,0,0,1}} * (k2 ++ k2));>>>
+ \vskip0.1cm
+ 
+@@ -2347,9 +2413,9 @@
+ four general sections of $\mathcal G(1)$ is a surface of the desired type. Differentials which 
+ define a monad as above with a locally free homology  can be easily found.
+ By Lemma \ref{hombd} $\alpha$ corresponds to a pair of vectors $\alpha=(\alpha_1, \alpha_2)^t
+-\in V \oplus \bigwedge^2 V$ . It is a vector bundle monomorphism if and only if
+-the dual map $U^2\oplus U^3\overset{\alpha^t}\longrightarrow U^1$
+-is an epimorphism (see Remark \ref{dualitybd} for duality). Equivalently, 
++\in V \oplus \bigwedge^2 V$ . By dualizing (see Remark \ref{dualitybd}) we find that it 
++is a vector bundle monomorphism  if and only if  
++$U^2\oplus U^3\overset{\alpha^t}\longrightarrow U^1$ is an epimorphism. Equivalently, 
+ $\alpha_1$ is non-zero and $\alpha_2$ considered as a vector in 
+ $\bigwedge^2 (V/\langle \alpha_1 \rangle)$ is indecomposable (argue as in the proof of
+ Proposition \ref{critsur}). Taking the other monad conditions into account we see
+@@ -2545,7 +2611,7 @@
+ and with $\alpha^d = \alpha^*(-1)\circ(q\otimes\iota)$,  where $q$ is
+ a symplectic form on $B$, and where 
+ $\iota : U^2 \overset{\cong}\longrightarrow (U^2)^*(-1)$ is induced
+-by the pairing $U^2 \otimes U^2 \longrightarrow U^4\cong\mathcal O(-1)$.
++by the pairing $U^2 \otimes U^2 \overset\wedge\longrightarrow U^4\cong\mathcal O(-1)$.
+ By choosing appropriate bases of $A$ and $B$ we may suppose
+ that $\alpha$ is a $2\times 5$ matrix with entries in $\bigwedge^2 V$ and that
+ $\alpha^d = \alpha^t\cdot \begin{pmatrix} 0 & 1\\ -1 & 0\end{pmatrix}$.
+@@ -2754,5 +2820,3 @@
+ % % reftex-external-file-finders: (("tex" . "make FILE=%f find-tex") ("bib" . "make FILE=%f find-bib"))
+ % % TeX-master: "~/M2BUCH/ComputationsBook/chapters/exterior-alge"
+ % % End:
+-
+-
