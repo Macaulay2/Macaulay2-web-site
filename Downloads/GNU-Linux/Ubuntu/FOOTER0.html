@@ -20,10 +20,13 @@
   <tr> <td>U<!--U-->buntu 12.04</td> <td>precise</td> <td>it may also be neccessary to run the command "apt-get install -y -q liblapack3gf" as root</td> </tr>
   <tr> <td>U<!--U-->buntu 12.10</td> <td>quantal</td> </tr>
   <tr> <td>U<!--U-->buntu 13.04</td> <td>raring</td> </tr>
+  <tr> <td>U<!--U-->buntu 14.04</td> <td>trusty</td> </tr>
+  <tr> <td>U<!--U-->buntu 14.10</td> <td>utopic</td> </tr>
   <tr> <td>D<!--D-->ebian 4</td> <td>etch</td> </tr>
   <tr> <td>D<!--D-->ebian 5</td> <td>lenny</td> </tr>
   <tr> <td>D<!--D-->ebian 6</td> <td>squeeze</td> </tr>
   <tr> <td>D<!--D-->ebian 7</td> <td>wheezy</td> </tr>
+  <tr> <td>D<!--D-->ebian 8</td> <td>jessie</td> </tr>
   <tr> <td>R<!--R-->aspbian 7</td> <td>wheezy</td> </tr>
 </table>
 
@@ -64,6 +67,12 @@
   <li>
     Use the command "<tt>sudo emacs /etc/apt/sources.list</tt>" to edit the file and add that line.
   </li>
+  <li>
+    Use the command
+<pre>
+    sudo echo 'deb http://www.math.uiuc.edu/Macaulay2/Repositories/Ubuntu XXXX main' > /etc/apt/sources.list.d/macaulay2.list
+</pre>
+    (with XXXX replaced, as described above) to add the line to a separate file where apt-get can find it.
 </ul>
 
 <p>
@@ -76,7 +85,12 @@
   select the "Authentication" tab.  Click on the "Import Key File..." button,
   and select the previously downloaded public key file, <tt>Macaulay2-key</tt>.
   To add it to the key ring manually use the command "<tt>sudo apt-key add
-  Macaulay2-key</tt>".
+  Macaulay2-key</tt>".  Alternatively, the downloading and installation of
+  the key can be accomplished by the following single command
+<pre>
+    sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-key CD9C0E09B0C780943A1AD85553F8BD99F40DCB31
+</pre>
+
 </p>
 
 <p>
