@@ -1,0 +1,5 @@
+[Macaulay2]
+name=Macaulay2 Repository
+baseurl=http://macaulay2.com/Repositories/Scientific
+gpgcheck=0
+enabled=1

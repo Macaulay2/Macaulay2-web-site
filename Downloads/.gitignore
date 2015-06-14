@@ -5,3 +5,7 @@
 *.tar.gz
 *.zip
 *.tgz
+*.deb
+*.rpm
+*.dmg
+*.bz2

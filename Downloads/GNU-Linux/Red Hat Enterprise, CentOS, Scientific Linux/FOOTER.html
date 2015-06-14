@@ -1,0 +1,45 @@
+
+<p>
+  Here are sample commands for manually installing Macaulay2 from downloaded *.rpm
+  files.  (Replace "1.6" by the current version number, "x86_64" by your
+  architecture, and "RedHatEnterprise-4" by the issue.)
+</p>
+
+<pre>
+        sudo rpm -i -v Macaulay2-1.6-common.rpm
+        sudo rpm -i -v Macaulay2-1.6-x86_64-Linux-RedHatEnterprise-4.rpm
+</pre>
+
+<p>
+  Here are sample commands for manually uninstalling Macaulay2.  (Replace "1.6" by
+  the current version number.)
+</p>
+
+<pre>
+	sudo rpm -e -v Macaulay2-1.6
+	sudo rpm -e -v Macaulay2-common-1.6
+</pre>
+
+<p>
+  The commands above require root permission, because they install Macaulay2
+  under <tt>/usr</tt>.  But Macaulay2 can be installed anywhere by an ordinary
+  user, provided the packages containing the sharable libraries it uses have
+  already been installed, with a sequence of instructions something like this:
+<pre>
+	mkdir temp
+	cd temp
+	rpm2cpio /tmp/Macaulay2-1.8-1.x86_64-Linux-ScientificLinux-6.6.rpm | cpio -idm --no-absolute-filenames
+	rpm2cpio /tmp/Macaulay2-1.8-1.common.rpm | cpio -idm --no-absolute-filenames
+	mv usr ~/foo/bar/
+	cd ..
+	rmdir temp
+</pre>
+  Now start
+<pre>
+        ~/foo/bar/bin/M2
+</pre>
+and use the Macaulay2 command
+<pre>
+        setup()
+</pre>
+to record the location of M2 in your login startup files.
