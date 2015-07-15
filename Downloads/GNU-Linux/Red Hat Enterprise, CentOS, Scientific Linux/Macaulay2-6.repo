@@ -1,5 +1,5 @@
 [Macaulay2]
 name=Macaulay2 Repository
-baseurl=http://macaulay2.com/Repositories/Scientific
+baseurl=http://macaulay2.com/Repositories/Scientific/6
 gpgcheck=0
 enabled=1

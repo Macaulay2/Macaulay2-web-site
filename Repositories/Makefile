@@ -6,7 +6,7 @@
 .PHONY : debian cygwin always all index
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
-UBUNTU_RELEASES = maverick precise quantal raring trusty utopic
+UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid
 DEBIAN_RELEASES = etch lenny squeeze wheezy jessie
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
@@ -97,6 +97,7 @@ debian : always
 		    Ubuntu-raring) match="Ubuntu-13.04" ;;\
 		    Ubuntu-trusty) match="Ubuntu-14.04" ;;\
 		    Ubuntu-utopic) match="Ubuntu-14.10" ;;\
+		    Ubuntu-vivid) match="Ubuntu-15.04" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
@@ -127,8 +128,8 @@ debian : always
 			  then echo "missing signature file: $$p.sig" >&2 ;\
 			       exit 1 ;\
 			  fi ;\
-			  echo "    gpg --verify --quiet $$p.sig" >&2 ;\
-			  gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
+			  : echo "    gpg --verify --quiet $$p.sig" >&2 ;\
+			  : gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
 			  ln -sv $$p $$p.sig . 2>&1 | sed 's/^/    /' >&2 || exit 1;\
 			  ar x $$p control.tar.gz ;\
 			  tar xzf control.tar.gz control ;\
@@ -146,8 +147,8 @@ debian : always
 			  then echo "missing file: $$p" >&2 ;\
 			       exit 1;\
 			  fi ;\
-			  echo "    gpg --verify --quiet $$p.sig" >&2 ;\
-			  gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
+			  : echo "    gpg --verify --quiet $$p.sig" >&2 ;\
+			  : gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
 			  ln -sv $$p $$p.sig . 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
 			  ar x $$p control.tar.gz ;\
 			  tar xzf control.tar.gz control ;\

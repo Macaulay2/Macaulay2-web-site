@@ -1,3 +1,8 @@
 repository technique here:
 
 http://www.unixmen.com/setup-local-yum-repository-on-centos-rhel-scientific-linux-6-4/
+
+    createrepo -n xxx.rpm -n yyy.rpm .
+    tar cfz /tmp/repodata.tgz repodata
+    scp /tmp/repodata.tgz u00:to/Macaulay2/upload/.
+    etc.

@@ -3,7 +3,7 @@
 <p>
   Prepare for installing Macaulay 2 (with apt-get, gdebi-gtk, or the
   Synaptic Package Manager) by adding the following line to the file
-  /etc/apt/sources.list, suitably modified as described in the table below:
+  <tt>/etc/apt/sources.list</tt>, suitably modified as described in the table below:
 </p>
 
 <pre>
@@ -22,6 +22,10 @@
   <tr> <td>D<!--D-->ebian 7</td> <td>wheezy</td> </tr>
   <tr> <td>D<!--D-->ebian 8</td> <td>jessie</td> </tr>
 </table>
+
+<p>
+  (Double check that you have the right replacement for "XXXX" by observing that it appears already on many other lines in that file.)
+</p>
 
 <p>
   There are various ways to add that line to that file:
@@ -61,11 +65,12 @@
     Use the command "<tt>sudo emacs /etc/apt/sources.list</tt>" to edit the file and add that line.
   </li>
   <li>
-    Use the command
+    Use the following command, as root, (with XXXX replaced, as described
+    above) to add the line to a separate file where apt-get can find it.
 <pre>
-    sudo echo 'deb http://www.math.uiuc.edu/Macaulay2/Repositories/Debian XXXX main' > /etc/apt/sources.list.d/macaulay2.list
+    echo 'deb http://www.math.uiuc.edu/Macaulay2/Repositories/Debian XXXX main' >/etc/apt/sources.list.d/macaulay2.list
 </pre>
-    (with XXXX replaced, as described above) to add the line to a separate file where apt-get can find it.
+  </li>
 </ul>
 
 <p>
@@ -80,11 +85,10 @@
   To add it to the key ring manually use the command "<tt>sudo apt-key add
   Macaulay2-key</tt>".  Alternatively, the downloading and installation of
   the key can be accomplished by the following single command
+</p>
 <pre>
     sudo apt-key adv --keyserver hkp://keys.gnupg.net --recv-key CD9C0E09B0C780943A1AD85553F8BD99F40DCB31
 </pre>
-
-</p>
 
 <p>
   Now, using the "Synaptic Package Manager", reload the package lists from the
