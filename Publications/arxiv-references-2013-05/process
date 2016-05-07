@@ -1,6 +1,0 @@
-#! /bin/sh -x
-
-for T in html/*.html
-do sed -f process.sed -n <$T
-   exit 1
-done

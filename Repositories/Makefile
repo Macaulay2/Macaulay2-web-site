@@ -125,7 +125,7 @@ debian : always
 		  for p in $$DOTS/$(DOWNLOADDIR)/$$dist/*-$$ARCH-*$$match.deb ;\
 		  do if [ -f "$$p" ] ;\
 		     then \
-			  echo "    ====" archiitecture: $$ARCH >&2 ;\
+			  echo "    ====" architecture: $$ARCH >&2 ;\
 			  echo "    pwd: `pwd`" >&2 ;\
 			  if ! [ -f $$p.sig ] ;\
 			  then echo "missing signature file: $$p.sig" >&2 ;\

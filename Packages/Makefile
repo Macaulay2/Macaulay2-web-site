@@ -23,8 +23,9 @@ index-new index-local: README.html
 README.html: README.html.tmp
 	mv $< $@
 
-README.html.tmp: documented-packages README-2.html Makefile ../Makefile.include
+README.html.tmp: documented-packages README-2.html Makefile ../Makefile.include INTRO.html
 	(exec >$@ ;\
+	 cat INTRO.html ;\
 	 echo '<h2>Packages included with <i>Macaulay2</i> version $(DOCVERSION)</h2>' ;\
 	 echo ' <ul>' ;\
 	 cat documented-packages ;\
