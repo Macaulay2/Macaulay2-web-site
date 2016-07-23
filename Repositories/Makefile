@@ -17,7 +17,8 @@ SUFFIX =
 # Ubuntu repository is at http://us.archive.ubuntu.com/ubuntu/
 
 # SUFFIX=-beta
-all : index-new
+default: index-new
+all : debian-only index-new
 test-signature :
 	rm -f test-sig.*
 	echo hi there > test-sig.txt
@@ -55,7 +56,7 @@ debian-signature : always
 		 ( echo Origin: $$dist ;\
 		   echo Label: $$dist ;\
 		   echo Suite: $$release ;\
-		   echo Date: `date` ;\
+		   echo Date: `date --utc "+%a, %d %b %Y  %H:%M:%S UTC"` ;\
 		   echo Codename: $$release ;\
 		   echo Architectures: amd64 i386 powerpc sparc ;\
 		   echo Components: main ;\
@@ -74,7 +75,7 @@ debian-signature : always
 			done ;\
 		 )  > Release;\
 		 rm -f Release.gpg ;\
-	         gpg --armor --detach-sign -u Macaulay2 --output=Release.gpg Release ;\
+	         gpg --armor --digest-algo SHA512 --detach-sign -u Macaulay2 --output=Release.gpg Release ;\
 	       )\
             done ;\
 	done
@@ -105,7 +106,7 @@ debian : always
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
 		    Debian-wheezy) match="Debian-7.0" ;;\
-		    Debian-jessie) match="Debian-8.1" ;;\
+		    Debian-jessie) match="Debian-8.*" ;;\
 		    Raspbian-wheezy) match="Raspbian-7" ;;\
 		    *) echo unrecognized release: $$release >&2 ; exit 1 ;;\
 	       esac ;\
