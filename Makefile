@@ -22,7 +22,7 @@ DIRS = \
 all:
 all index-new: index-new-local
 all index index-new:
-	for dir in $(DIRS) ; do make -C $$dir $@ || exit 1 ; done
+	for dir in $(DIRS) ; do $(MAKE) -C $$dir $@ || exit 1 ; done
 local index-new-local:; index-new-html -l -t Style/trailer.html
 
 find-new:; find $(DIRS) -name icon.gif -ls

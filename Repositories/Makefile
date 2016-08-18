@@ -18,8 +18,9 @@ SUFFIX =
 
 # SUFFIX=-beta
 default: index-new
-all : debian-only index-new
-test-signature :
+debian-only : test-signature debian debian-signature
+all: default
+test-signature:
 	rm -f test-sig.*
 	echo hi there > test-sig.txt
 	sign-files test-sig.txt
@@ -28,7 +29,6 @@ index-repositories : cygwin debian debian-signature
 # links:
 # 	find . -type d | while read x ; do [ -a "$$x"/index.css ] || ln -v ../index.css "$$x" ; done
 # 	find . -type d | while read x ; do [ -a "$$x"/icon.gif ] || ln -v ../icon.gif "$$x" ; done
-debian-only : test-signature debian debian-signature
 index-new:
 	~/to/Macaulay2/Scripts/index-new-html -t ~/to/Macaulay2/Style/trailer.html
 #	~/to/Macaulay2/Scripts/index-new-html --shadow

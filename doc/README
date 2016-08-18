@@ -1,4 +1,4 @@
 A typical command for extracting new documentation:
 
-  tar xzf ../Downloads/Common/Macaulay2-1.9.1-common.tar.gz Macaulay2-1.9.1/share
+  tar xzf ../Downloads/Common/Macaulay2-1.9.1-common.tar.gz
   chmod -R g+w .

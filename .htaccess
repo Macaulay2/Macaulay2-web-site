@@ -1,10 +1,10 @@
 # remember to update these when new releases come out:
-Redirect /Macaulay2/current http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.1
-Redirect /Macaulay2/Schubert2 http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.1/share/doc/Macaulay2/Schubert2/html
-Redirect /Macaulay2/Documentation http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.1/share/doc/Macaulay2/Macaulay2Doc/html
-Redirect /Macaulay2/Documentation-dev http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.1/share/doc/Macaulay2/Macaulay2Doc/html
-Redirect /Macaulay2/share http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.1/share
-Redirect /Macaulay2/doc/Macaulay2/ http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.1/
+Redirect /Macaulay2/current http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2
+Redirect /Macaulay2/Schubert2 http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Schubert2/html
+Redirect /Macaulay2/Documentation http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Macaulay2Doc/html
+Redirect /Macaulay2/Documentation-dev http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Macaulay2Doc/html
+Redirect /Macaulay2/share http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share
+Redirect /Macaulay2/doc/Macaulay2/ http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/
 # remember to also update:
 #    DOCVERSION in Makefile.include
 #    links in Style/trailer.html

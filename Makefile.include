@@ -3,4 +3,4 @@
 export PATH := /home/html/www/Macaulay2/Scripts:/home/html/www/Macaulay2/bin:$(PATH)
 
 # most recent version of the documentation in ./doc:
-DOCVERSION = 1.9.1
+DOCVERSION = 1.9.2
