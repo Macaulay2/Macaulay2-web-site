@@ -11,6 +11,7 @@ all:
 	find . -name Macaulay2\*-ScientificLinux-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	find . -name Macaulay2\*-rhel-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	find . -name Macaulay2\*opensuse\* -exec mv -iv '{}' ../Downloads/GNU-Linux/openSUSE/. ';'
+	find . -name Macaulay2\*-ArchLinux-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Arch/. ';'
 	$(MAKE) -C ../Downloads index-new
 	$(MAKE) -C ../Downloads/Microsoft-Windows index-new-local
 	$(MAKE) -C ../Downloads/Microsoft-Windows/Cygwin index-new
