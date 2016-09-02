@@ -1,0 +1,467 @@
+Local cohomology of bivariate splines, by Hal Schenck and Mike Stillman, J. Pure Appl. Algebra 117/118 (1997) 535-548. 
+A spectral sequence for splines, by Hal Schenck, Adv. in Appl. Math. 19 (1997) 183-199. 
+A family of ideals of minimal regularity and the Hilbert series of C<sup>r</sup>(&Delta; hat), by Hal Schenck and Mike Stillman, Adv. in Appl. Math. 19 (1997) 169-182. 
+Homotopy types of complements of 2-arrangements in <b>R</b><sup>4</sup>, by Daniel Matei and Alexander I. Suciu, Topology 39 (2000) 61-88, <a href="http://arxiv.org/abs/math/9712251">arXiv:math/9712251</a>.
+How many squares in an infinite chess board can a knight reach in d moves?, by Mordechai Katzman, preprint.
+<a href="http://math.berkeley.edu/~bernd/papers/fourcounter.ps"> Four Counterexamples in Combinatorial Algebraic Geometry</a>, by Bernd Sturmfels, preprint, July 8, 1998.
+Fat points, inverse systems, and piecewise polynomial functions, Anthony V. Geramita and Henry K. Schenck, J. Algebra 204 (1998) 116-128. 
+Examples of non-trivial roots of unity at ideal points of hyperbolic 3-manifolds, by Nathan M. Dunfield, January, 1998, <a href="http://arxiv.org/abs/math/9801064">arXiv:math/9801064</a>.
+The Pfaffian Calabi-Yau, its Mirror, and their link to the Grassmannian G(2,7), by Einar Andreas Rodland, <a href="http://arxiv.org/abs/math/9801092">arXiv:math/9801092</a>.
+Varieties of sums of powers, by Kristian Ranestad and Frank-Olaf Schreyer, J. Reine Angew. Math. 525, 147-181 (2000), <a href="http://arxiv.org/abs/math/9801110">arXiv:math/9801110</a>.
+The Projective Geometry of the Gale Transform, by David Eisenbud and Sorin Popescu, July 23, 1998, <a href="http://arxiv.org/abs/math/9807127">arXiv:math/9807127</a>
+Computing global extension modules for coherent sheaves on a projective scheme, by Greg Smith, July, 1998, <a href="http://arxiv.org/abs/math/9807170">arXiv:math/9807170</a>
+On the divisor class group of double solids, by Stephan Endrass; <a href="http://arxiv.org/abs/math/9809158">arXiv:math/9809158</a>
+Cohomology rings and nilpotent quotients of real and complex arrangements, by Daniel Matei and Alexander I. Suciu, in "Arrangements - Tokyo 1998", Advanced Studies in Pure Math., vol. 27, Kinokuniya, Tokyo, 2000, pp. 185-215, <a href="http://arxiv.org/abs/math/9812087">arXiv:math/9812087</a>.
+Moduli of (1,7)-polarized abelian surfaces via syzygies, by Nicolae Manolache and Frank-Olaf Schreyer, Math. Nachr. 226 (2001) 177-203, <a href="http://arxiv.org/abs/math/9812121">arXiv:math/9812121</a>.
+Inbreeding depression in a zygotic algebra, by J. A. Vargas and R. F. del Castillo, Communications in Algebra, 27 (1999) 4425-4432.
+Ideals with a given Hilbert function, by Graham Evans, preprint, 1999.
+The moduli space of (1,11)-polarized abelian surfaces is unirational, by Mark Gross and Sorin Popescu, February 2, 1999, <a href="http://arxiv.org/abs/math/9902017">arXiv:math/9902017</a>.
+Standard bases with respect to the Newton filtration, by Stephan Endrass, <a href="http://arxiv.org/abs/math/9904071">arXiv:math/9904071</a>.
+Weighted Tango Bundles And Their Moduli Spaces, by Paolo Cascini, <a href="http://arxiv.org/abs/math/9904091">arXiv:math/9904091</a>.
+Real Schubert Calculus: Polynomial systems and a conjecture of Shapiro and Shapiro, preprint, April, 1999, by Frank Sottile, <a href="http://arxiv.org/abs/math/9904138">arXiv:math/9904138</a>.
+Enriques Surfaces and other Non-Pfaffian Subcanonical Subschemes of Codimension 3, by David Eisenbud, Sorin Popescu, and Charles Walter, <a href="http://arxiv.org/abs/math/9906171">arXiv:math/9906171</a>.
+Determinantal hypersurfaces, by Arnaud Beauville, (with an appendix by Frank-Olaf Schreyer with Macaulay2 code), dedicated to William Fulton on the occasion of his 60th birthday, Michigan Math. J. 48 (2000) 39-64, <a href="http://arxiv.org/abs/math/9910030">arXiv:math/9910030</a>.
+A smooth space of tetrahedra, by Eric Babson, Paul E. Gunnells, and Richard Scott, <a href="http://arxiv.org/abs/math/9910049">arXiv:math/9910049</a>.
+Constructing irreducible representations of finitely presented algebras, by Edward S. Letzter, to appear in J. Symbolic Computation, <a href="http://arxiv.org/abs/math/9910132">arXiv:math/9910132</a>.
+Quartic 3-fold: Pfaffians, vector bundles, and half-canonical curves, by A. Iliev and D. Markushevich, Michigan Math. J. 47 (2000) 385-394,  <a href="http://arxiv.org/abs/math/9910133">arXiv:math/9910133</a>.
+Geometry and algebra of prime Fano 3-folds of genus 12, by Frank-Olaf Schreyer, Compos. Math. 127 (2001) 297-319, <a href="http://arxiv.org/abs/math/9911044">arXiv:math/9911044</a>.
+Computation of maximal reachability submodules, by Wiland Schmale; <a href="http://arxiv.org/abs/math/9911211">arXiv:math/9911211</a>
+Hyperplane Arrangement Cohomology and Monomials in the Exterior Algebra, by David Eisenbud, Sorin Popescu, and Sergey Yuzvinsky, December 28, 1999, <a href="http://arxiv.org/abs/math/9912212">arXiv:math/9912212</a>.
+Translated tori in the characteristic varieties of complex hyperplane arrangements, by Alexander I. Suciu,  Topology and Appl. 118 (2002) 209-223, <a href="http://arxiv.org/abs/math/9912227">arXiv:math/9912227</a>.
+<a href="http://www.idealibrary.com/links/doi/10.1006/aama.1999.0680/pdf">Hardy-Weinberg theory for tetraploidy with mixed mating</a>, by <a href="mailto:javargas@rnet.com.mx">J. A. Vargas</a>, Advances in Applied Mathematics 24 (2000) 369-383.
+Non-general type surfaces in <b>P</b><sup>4</sup>: Some remarks on bounds and constructions, by Wolfram Decker and Frank-Olaf Schreyer. J. Symb. Comput. 29 (2000) 545-582.
+A rank two vector bundle associated to a three arrangement, and its Chern polynomial, Henry K. Schenck, Adv. Math. 149 (2000) 214-229.
+Cellular binomial ideals. Primary decomposition of binomial ideals, by Ignacio Ojeda Mart&iacute;nez de Castilla; Ram&oacute;n Piedra-S&aacute;nchez,  Journal of Symbolic Computation, 30 (2000) 383-400, <a href="http://www.ams.org/mathscinet-getitem?mr=2001g:13058">MR 2001g:13058</a>.
+<a href="http://www.reed.edu/~iswanson/annatril.pdf">Jacobian ideals of trilinear forms: an application of 1-genericity</a>, by A. Guerrieri and I. Swanson, Journal of Algebra, <b>226</b> (2000) 410-435.
+Possible resolutions for a given Hilbert function, by E. Graham Evans, Jr., and Benjamin P. Richert, preprint, 2000.
+Polynomial and rational solutions of holonomic systems, by Toshinori Oaku, Nobuki Takayama, and Harrison Tsai, January 12, 2000, <a href="http://arxiv.org/abs/math/0001064">arXiv:math/0001064</a>.
+Calabi-Yau Threefolds and Moduli of Abelian Surfaces I, by Mark Gross and Sorin Popescu, January 14, 2000, <a href="http://arxiv.org/abs/math/0001089">arXiv:math/0001089</a>.
+Cohomology on Toric Varieties and Local Cohomology with Monomial Supports, by David Eisenbud, Mircea Mustata, and Mike Stillman, to appear in Journal of Symbolic Computation, <a href="http://arxiv.org/abs/math/0001159">arXiv:math/0001159</a>.
+Deformation of singular lagrangian subvarieties, by Duco van Straten and Christian Sevenheck, <a href="http://arxiv.org/abs/math/0002083">arXiv:math/0002083</a>.
+Computer Algebra and Algebraic Geometry - Achievements and Perspectives, by Gert-Martin Greuel, to appear in Journal of Symbolic Computation, 2000, <a href="http://arxiv.org/abs/math/0002247">arXiv:math/0002247</a>.
+Macaulay 2 and the geometry of schemes, by Bernd Sturmfels and Gregory G. Smith, <a href="http://arxiv.org/abs/math/0003033">arXiv:math/0003033</a>.
+On the cohomology ring of the moduli space of Higgs bundles II: Relations in rank 2, by Tamas Hausel and <a href="mailto:thaddeus@math.columbia.edu">Michael Thaddeus</a>, <a href="http://arxiv.org/abs/math/0003094">arXiv:math/0003094</a>. "We find some very complicated relations in this cohomology ring, which we never would have been able to conjecture without the help of Macaulay."
+Sheaf Cohomolog and Free Resolutions over Exterior Algebras, by David Eisenbud, Frank-Olaf Schreyer; <a href="http://arxiv.org/abs/math/0005055">arXiv:math/0005055</a>
+Some conjectures about the Hilbert series of generic ideals in the exterior algebra, by Jan Snellman, Guillermo Moreno-Socias; <a href="http://arxiv.org/abs/math/0007089">arXiv:math/0007089</a>
+The Center Variety of Polynomial Differential Systems, by Abdul Salam Jarrah, Reinhard Laubenbacher, Valery Romanovski; <a href="http://arxiv.org/abs/math/0009061">arXiv:math/0009061</a>
+Rank jumps in Codimension 2 A-Hypergeometric Systems, by Laura Felicia Matusevich; <a href="http://arxiv.org/abs/math/0009148">arXiv:math/0009148</a>
+Syzygies of oriented matroids, by Isabella Novik, Alexander Postnikov, and Bernd Sturmfels, Duke Math. J. 111 (2002) 287-317, <a href="http://arxiv.org/abs/math/0009241">arXiv:math/0009241</a>.
+Bounding minimum distances of cyclic codes using algebraic geometry, by Nigel Boston, <a href="http://arxiv.org/abs/math/0009257">arXiv:math/0009257</a>.
+Hall invariants, homology of subgroups, and characteristic varieties, by Daniel Matei and Alexander I. Suciu, International Math. Research Notices, 2002, 465-503, <a href="http://arxiv.org/abs/math/0010046">arXiv:math/0010046</a>.
+Fundamental groups of line arrangements: Enumerative aspects, by Alexander I. Suciu, in Advances in Algebraic Geometry Motivated by Physics, edited by Emma Previato, Contemporary Math. vol. 276, Amer. Math. Soc., Providence, RI, 2001, 43-79, <a href="http://arxiv.org/abs/math/0010105">arXiv:math/0010105</a>.
+Annihilators of Ideals of Exterior Algebras, by Graham Denham, Sergey Yuzvinsky; <a href="http://arxiv.org/abs/math/0010168">arXiv:math/0010168</a>
+Elliptic functions and equations of modular curves, by Lev Borisov, Paul Gunnells, and Sorin Popescu, <a href="http://link.springer.de/link/service/journals/00208/bibs/1321003/13210553.htm">Math Ann 321 (2001) 553-568</a>, <a href="http://arxiv.org/abs/math/0010272">arXiv:math/0010272</a>.
+Geometrical properties of sections of Buchsbaum-Rim sheaves, by Igor Burban, and Hans-Georg Freiermuth, <a href="http://arxiv.org/abs/math/0010276">arXiv:math/0010276</a>.
+Subalgebras of bigraded Koszul algebras, by Stefan Blum; <a href="http://arxiv.org/abs/math/0011251">arXiv:math/0011251</a>
+The Inverse Gr&ouml;bner basis Problem in Codimension Two, by Amelia Taylor, <a href="http://arxiv.org/abs/math/0012044">arXiv:math/0012044</a>.
+The vertex ideal of a lattice, by Serkan Hosten and Diane Maclagan, <a href="http://arxiv.org/abs/math/0012197">arXiv:math/0012197</a>.
+Describing coherent sheaves on projective spaces via Koszul duality, by Gunnar Floystad, <a href="http://arxiv.org/abs/math/0012263">arXiv:math/0012263</a>.
+On a conjecture of Rose, by Hal Schenck and John P. Dalbec, J. Pure Appl. Algebra 165 (2001) 151-154. 
+<a href="http://www.math.sci.kobe-u.ac.jp/OpenXM/ascm2001/ascm2001/">The Design and Implementation of OpenXM-RFC 100 and 101</a>, by M. Maekawa, M. Noro, N. Takayama, Y. Tamura, K. Ohara, in: Computer Mathematics, Proceedings of the Fifth Asian Symposium (ASCM 2001), edited by Shirayanagi and Yokoyama, World Scientific, 102-111, 2001.
+<a href="http://loge.math.uni-sb.de/~agdecker/Forschung/publications.html#ende">Computational Algebraic Geometry Today</a>, <a href="http://loge.math.uni-sb.de/%7Eagdecker/Preprints/decker2001b.ps.gz">gzipped postscript</a>, <a href="http://loge.math.uni-sb.de/%7Eagdecker/Preprints/decker2001b.pdf.gz">gzipped pdf</a>, by W. Decker and F.-O. Schreyer, in: Ciliberto, Ciro (ed.) et al., Applications of algebraic geometry to coding theory, physics and computation. Proceedings of the NATO advanced research workshop, Eilat, Israel, February 25-March 1, 2001. Dordrecht: Kluwer Academic Publishers. NATO Sci. Ser. II, Math. Phys. Chem. 36, 65-119 (2001).
+<a href="http://etd.lsu.edu:8085/docs/available/etd-0713101-132954/unrestricted/guneridissert.pdf">Artin-Schreier families and 2-D cyclic codes</a>, by Cem Guneri, thesis, August, 2001, Louisiana State University.
+Genetic Associations under Mixed-Mating Systems: The Bennett-Binet Effect, by J. A. Vargas and R. F. del Castillo, <a href="http://imammb.oxfordjournals.org/cgi/content/abstract/18/4/327">Mathematical Medicine and Biology, 18 (2001) 327-341</a>.
+Constructibility of the set of polynomials with a fixed Bernstein-Sato polynomial: an algorithmic approach, by Anton Leykin, Effective methods in rings of differential operators, Journal of Symbolic Computation, 32 (2001) 663-675.
+Problems and progress: survey on fat points in P2, by Brian Harbourne, <a href="http://arxiv.org/abs/math/0101112">arXiv:math/0101112</a>.
+Algorithmic Determination of the Rational Cohomology of Complex Varieties via Differential Forms, by Uli Walther, <a href="http://arxiv.org/abs/math/0103013">arXiv:math/0103013</a>.
+Free divisors and duality for D-modules, by F. J. Castro-Jimenez and J. M. Ucha, <a href="http://arxiv.org/abs/math/0103085">arXiv:math/0103085</a>.
+Minimizing Polynomial Functions, by Pablo A. Parrilo and Bernd Sturmfels,  Algorithmic and quantitative real algebraic geometry, DIMACS Series in Discrete Mathematics and Theoretical Computer Science, 60 (2003) 83-99, AMS. ISBN: 0-8218-2863-0, <a href="http://arxiv.org/abs/math/0103170">arXiv:math/0103170</a>.
+The Coloring Ideal and Coloring Complex of a Graph, by Einar Steingrimsson, <a href="http://arxiv.org/abs/math/0104063">arXiv:math/0104063</a>.
+Sheaf Cohomology and Free Resolutions over Exterior Algebras, by David Eisenbud, Gunnar Floystad, Frank-Olaf Schreyer; <!-- old preprint: May, 2000, <a href="http://arxiv.org/abs/math/0005055">arXiv:math/0005055</a>; --> updated preprint: April, 2001, <a href="http://arxiv.org/abs/math/0104203">arXiv:math/0104203</a>.
+Algebraic unimodular counting, by Jes&uacute;s A. De Loera, Math. Program., Ser. B, 96 (2003) 183-203, <a href="http://arxiv.org/abs/math/0104286">arXiv:math/0104286</a>.
+Exceptional parameters for generic A-hypergeometric systems, by Laura Felicia Matusevich, <a href="http://arxiv.org/abs/math/0105030">arXiv:math/0105030</a>.
+Gomory Integer Programs, by Serkan Hosten and Rekha R. Thomas, <a href="http://arxiv.org/abs/math/0106031">arXiv:math/0106031</a>.
+Geometry of the moduli space of Higgs bundles, by Tamas Hausel, 1998 PhD thesis, <a href="http://arxiv.org/abs/math/0107040">arXiv:math/0107040</a>.
+Slopes of a Hypergeometric System Associated to a Monomial Curve, by F. J. Castro-Jimenez, N. Takayama, <a href="http://arxiv.org/abs/math/0107046">arXiv:math/0107046</a>.
+Geometric Syzygies of Canonical Curves of even Genus lying on a K3-Surface, by Hans-Christian v. Bothmer; <a href="http://arxiv.org/abs/math/0108078">arXiv:math/0108078</a>
+Lower central series and free resolutions of hyperplane arrangements, by Henry K. Schenck and Alexander I. Suciu,  Trans. Amer. Math. Soc. 354 (2002) 3409-3433, <a href="http://arxiv.org/abs/math/0109070">arXiv:math/0109070</a>.
+Local complete intersections in <b>P</b><sup>2</sup> and Koszul syzygies,  by David Cox and Hal Schenck, Proceedings of the A.M.S. 131 (2003) 2007-2014, <a href="http://arxiv.org/abs/math/0110097">arXiv:math/0110097</a>.
+Decomposable Ternary Cubics, by Jaydeep V. Chipalkatti, <a href="http://arxiv.org/abs/math/0110192">arXiv:math/0110192</a>.
+Canonical rings of surfaces whose canonical system has base points, by I. C. Bauer, F. Catanese, and R. Pignatelli, in Complex geometry, a Collection of papers dedicated to Hans Grauert, Springer, 2002, 117-153, <a href="http://arxiv.org/abs/math/0111029">arXiv:math/0111029</a>.
+Resultants and Chow forms via Exterior Syzygies, by David Eisenbud and Frank-Olaf Schreyer, <a href="http://arxiv.org/abs/math/0111040">arXiv:math/0111040</a>.
+A geometric construction of Tango bundle on <b>P</b><sup>5</sup>, by Daniele Faenzi, Kodai Math. J. 27 (2004) 1-6; <a href="http://arxiv.org/abs/math/0111207">arXiv:math/0111207</a>.
+Algebraic approach to time-delay data analysis for LISA, by S. V. Dhurandhar, K. Rajesh Nayak, and J-Y. Vinet, <a href="http://arxiv.org/abs/gr-qc/0112059">arXiv:gr-qc/0112059</a>.
+On Waring's problem for several homogeneous forms, by Enrico Carlini and Jaydeep Chipalkatti, <a href="http://arxiv.org/abs/math/0112110">arXiv:math/0112110</a>.
+<a href="http://www.reed.edu/~iswanson/hueblcone.pdf">Normal cones of monomial primes</a>, by R. Huebl and I. Swanson, preprint, 2002, to appear in Mathematics of Computation.
+<a href="http://www.reed.edu/~iswanson/mmone.pdf">The first Mayr-Meyer ideal</a>, by I. Swanson, preprint, 2002.
+<a href="http://www.reed.edu/~iswanson/annahankel.pdf">On the ideal of minors of matrices of linear forms</a>, by A. Guerrieri and I. Swanson, preprint, 2002.
+Cohomology vanishing and a problem in approximation theory, by Henry K. Schenck and Peter F. Stiller, Manuscripta Math. 107 (2002) 43-58. 
+Computing local cohomology in Macaulay 2, by Anton Leykin, in Local cohomology and its applications (Guanajuato, 1999), Lecture Notes in Pure and Appl. Math., 226, 195-205, Dekker, New York, 2002.
+D-modules for Macaulay 2, by Anton Leykin, Mathematical software (Beijing, 2002), 169-179, World Sci. Publ., River Edge, NJ, 2002.
+Shadows of blow-up algebras, by Paolo Aluffi; <a href="http://arxiv.org/abs/math/0201228">arXiv:math/0201228</a>
+Geometric Syzygies of Mukai Varieties and General Canonical Curves with Genus at most 8, by Hans-Christian v. Bothmer; <a href="http://arxiv.org/abs/math/0202133">arXiv:math/0202133</a>
+A Fitting Lemma for Z/2-graded modules, by David Eisenbud and Jerzy Weyman, <a href="http://arxiv.org/abs/math/0202227">arXiv:math/0202227</a>.
+On the cohomology of stable map spaces, by Kai Behrend and Anne O'Halloran, <a href="http://arxiv.org/abs/math/0202288">arXiv:math/0202288</a>.
+Analytic rigidity of K-trivial extremal contractions of smooth 3-folds, by Csilla Tam&#xe1;s; <a href="http://arxiv.org/abs/math/0204015">arXiv:math/0204015</a>
+A new proof of the nonrationality of cubic threefolds, by Tawanda Gwena, <a href="http://arxiv.org/abs/math/0204041">arXiv:math/0204041</a>.
+Computing characteristic classes of projective schemes, by Paolo Aluffi, <a href="http://arxiv.org/abs/math/0204230">arXiv:math/0204230</a>.
+Algorithmic proofs of two theorems of Stafford, by Anton Leykin, <a href="http://arxiv.org/abs/math/0204303">arXiv:math/0204303</a>.
+Implicitization of Surfaces in <b>P</b><sup>3</sup> in the Presence of Base Points, by L. Bus&eacute;, D. Cox, and C. D'Andrea,  J. Algebra Appl. 2 (2003), 189-214, <a href="http://arxiv.org/abs/math/0205251">arXiv:math/0205251</a>.
+Symmetric iterated Betti numbers, by Eric Babson, Isabella Novik, and Rekha R. Thomas, Journal of Combinatorial Theory, Series A, 105 (2004) 233-254, <a href="http://arxiv.org/abs/math/0206063">arXiv:math/0206063</a>.
+Effective Detection of Nonsplit Module Extensions, by Edward S. Letzter; <a href="http://arxiv.org/abs/math/0206141">arXiv:math/0206141</a>
+Grothendieck-Serre formula and bigraded Cohen-Macaulay Rees algebras, by A. V. Jayanthan, J. K. Verma; <a href="http://arxiv.org/abs/math/0206192">arXiv:math/0206192</a>
+Three applications of instanton numbers, by Elizabeth Gasparim and P. Ontaneda; preprint, with a slightly different title: <a href="http://arxiv.org/abs/math/0207074">arXiv:math/0207074</a>; Comm. Math. Phys. 270 (2007) 1-12.
+Test ideals in diagonal hypersurface rings II, by Moira A. McDermott; <a href="http://arxiv.org/abs/math/0207109">arXiv:math/0207109</a>
+Canonical projections of irregular algebraic surfaces, by Fabrizio Catanese and Frank Olaf Schreyer, in Algebraic geometry, 79-116, de Gruyter, Berlin, 2002, <a href="http://arxiv.org/abs/math/0207253">arXiv:math/0207253</a>, (Macaulay2 is not cited here, but several calculations were made with it).
+<a href="http://www.reed.edu/~iswanson/gasparim.ps">Computing instanton numbers of curve singularities</a>, by E. Gasparim and I. Swanson; preprint: August, 2002, <a href="http://arxiv.org/abs/math/0208069">arXiv:math/0208069</a>; J. Symbolic Comput. 40 (2005) 965-978.
+Geometry of the tetrahedron space, by Eric Babson, Paul E. Gunnells, Richard Scott; <a href="http://arxiv.org/abs/math/0208119">arXiv:math/0208119</a>
+Secant Varieties of Grassmann Varieties, by M. V.Catalisano, A. V. Geramita, and A. Gimigliano, <a href="http://arxiv.org/abs/math/0208166">arXiv:math/0208166</a>.
+The ring of arithmetical functions with unitary convolution: the [n]-truncation, by Jan Snellman, <a href="http://arxiv.org/abs/math/0208183">arXiv:math/0208183</a>.
+(Bi-)Cohen-Macaulay simplicial complexes and their associated coherent sheaves, by Gunnar Floystad and Jon Eivind Vatne, <a href="http://arxiv.org/abs/math/0209061">arXiv:math/0209061</a>.
+The first Mayr-Meyer ideal, by Irena Swanson; <a href="http://arxiv.org/abs/math/0209154">arXiv:math/0209154</a>
+<a href="http://www.reed.edu/~iswanson/minmm.pdf">The minimal components of the Mayr-Meyer ideals</a>, by I. Swanson, preprint, 2002, <a href="http://arxiv.org/abs/math/0209172">arXiv:math/0209172</a>.
+What is the Rees Algebra of a Module?, by David Eisenbud, Craig Huneke and Bernd Ulrich, to appear in the Proceedings of the American Mathematical Society, <a href="http://arxiv.org/abs/math/0209187">arXiv:math/0209187</a>.
+Unhiggsing the del Pezzo, by Bo Feng, Sebastian Franco, Amihay Hanany, and Yang-Hui He, <a href="http://arxiv.org/abs/hep-th/0209228">arXiv:hep-th/0209228</a>.
+A numerical characterization of the S_2-ification of a Rees algebra, by Catalin Ciuperca; <a href="http://arxiv.org/abs/math/0209293">arXiv:math/0209293</a>
+Notes on the behavior of the Ratliff-Rush filtration, by Maria Evelina Rossi, and Irena Swanson, <a href="http://arxiv.org/abs/math/0209308">arXiv:math/0209308</a>.
+On the embedded primes of the Mayr-Meyer ideals, by Irena Swanson, <a href="http://arxiv.org/abs/math/0209344">arXiv:math/0209344</a>.
+<a href="http://www.reed.edu/~iswanson/newmm.pdf">A new family of ideals with the doubly exponential ideal membership property</a>,  by I. Swanson, preprint, 2002, <a href="http://arxiv.org/abs/math/0209345">arXiv:math/0209345</a>.
+Bipartite graphs whose edge algebras are complete intersections, by M. Katzman, J. Algebra 220 (1999) 519-530, <a href="http://arxiv.org/abs/math/0209348">arXiv:math/0209348</a>.
+Improving the Sensitivity of LISA, by K. Rajesh Nayak, A. Pai, S. V. Dhurandhar, and J-Y. Vinet, Class. Quant. Grav. 20 (2003) 1217-1232, <a href="http://arxiv.org/abs/gr-qc/0210014">arXiv:gr-qc/0210014</a>.
+Todd classes of affine cones of Grassmannians, by Kazuhiko Kurano, Anurag K. Singh; <a href="http://arxiv.org/abs/math/0210130">arXiv:math/0210130</a>
+Box-shaped matrices and the defining ideal of certain blowup surfaces, by Huy Tai Ha; <a href="http://arxiv.org/abs/math/0210251">arXiv:math/0210251</a>
+Castelnuovo-Mumford regularity: Examples of curves and surfaces, by Marc Chardin and Clare D'Cruz, <a href="http://arxiv.org/abs/math/0210270">arXiv:math/0210270</a>.
+Irregular elliptic surfaces of degree 12 in the projective fourspace, by Hirotachi Abo and Kristian Ranestad, Math. Nachr. 278 (2005) 511-524, <a href="http://arxiv.org/abs/math/0210317">arXiv:math/0210317</a>.
+The maximal spectral radius of a digraph with (m+1)^2 - s edges, by Jan Snellman; <a href="http://arxiv.org/abs/math/0210365">arXiv:math/0210365</a>
+Castelnuovo-Mumford regularity by approximation, by Harm Derksen and Jessica Sidman, <a href="http://arxiv.org/abs/math/0211279">arXiv:math/0211279</a>.
+Symmetry groups, semidefinite programs, and sums of squares, by Karin Gatermann and Pablo A. Parrilo, <a href="http://arxiv.org/abs/math/0211450">arXiv:math/0211450</a>.
+Large Volume Perspective on Branes at Singularities, by Martijn Wijnholt, Adv. Theor. Math. Phys. 7 (2004) 1117-1153, <a href="http://arxiv.org/abs/hep-th/0212021">arXiv:hep-th/0212021</a>.
+Toric ideals, real toric varieties, and the moment map, by Frank Sottile, <a href="http://arxiv.org/abs/math/0212044">arXiv:math/0212044</a>.
+The Waring loci of ternary quartics, by Jaydeep Chipalkatti; <a href="http://arxiv.org/abs/math/0212169">arXiv:math/0212169</a>
+Computations with Frobenius powers, by Susan M. Hermiller, Irena Swanson; <a href="http://arxiv.org/abs/math/0212238">arXiv:math/0212238</a>
+<a href="http://www.math.cornell.edu/~chris/stablepaper.pdf">Minimal graded Betti numbers and stable ideals</a>, by Chris Francisco, Comm. Algebra 31 (2003), 4971-4987.
+Symbolic Model Checking Using Algebraic Geometry, Volker Ecke, University of Massachusetts, PhD Thesis, February, 2003.
+<a href="http://www.math.jussieu.fr/~chardin/publications/textes/18.cex.dvi">Castelnuovo-Mumford regularity: Examples of curves and surfaces</a> by Marc Chardin and Clare D'Cruz, Journal of Algebra 270 (2003) 347-360. 
+A resultant approach to detect intersecting curves in $\PP^3$, by Laurent Buse, Andre Galligo; <a href="http://arxiv.org/abs/math/0301088">arXiv:math/0301088</a>
+Trees, parking functions, syzygies, and deformations of monomial ideals, by Alexander Postnikov and Boris Shapiro, <a href="http://arxiv.org/abs/math/0301110">arXiv:math/0301110</a>.
+Linear systems on a special rational surface, by Hal Schenck, Mathematical Research Letters 11 (2004) 697-714, <a href="http://arxiv.org/abs/math/0301153">arXiv:math/0301153</a>
+Algebraic Geometry of Bayesian Networks, by Luis David Garcia, Michael Stillman and Bernd Sturmfels, <a href="http://arxiv.org/abs/math/0301255">arXiv:math/0301255</a>.
+Computing the Integer Programming Gap, by Serkan Hosten and Bernd Sturmfels, <a href="http://arxiv.org/abs/math/0301266">arXiv:math/0301266</a>.
+A note on the Intersection of Veronese Surfaces, by David Eisenbud, Klaus Hulek, Sorin Popescu; <a href="http://arxiv.org/abs/math/0302167">arXiv:math/0302167</a>
+Computing the tight closure in dimension two, by Holger Brenner, <a href="http://arxiv.org/abs/math/0303116">arXiv:math/0303116</a>.
+Methods for Computing Normalisations of Affine Rings, by Amelia Taylor, Advances in Algebra and Geometry (University of Hyderabad Conference 2001), 279-295,  Hindustan Book Agency, India, 2003, <a href="http://arxiv.org/abs/math/0304007">arXiv:math/0304007</a>.
+Geometric syzygies of elliptic normal curves and their secant varieties, by H.-Chr. Graf v. Bothmer and K. Hulek, Manuscripta Mathematica 113 () 35-68, <a href="http://arxiv.org/abs/math/0304331">arXiv:math/0304331</a>.
+Cryptanalysis of HFE, by Ilia Toli, <a href="http://arxiv.org/abs/cs/0305034">arXiv:cs/0305034</a>.
+<a href="http://www.degruyter.de/journals/crelle/2004/pdf/571_179.pdf">Multigraded Castelnuovo-Mumford regularity</a>, by Diane Maclagan and Gregory G. Smith, Journal f&uuml;r die Reine und Angewandte Mathematik 571 (2004) 179-212, <a href="http://arxiv.org/abs/math/0305214">arXiv:math/0305214</a>.
+Uniform bounds on multigraded regularity, by Diane Maclagan, Gregory G. Smith; <a href="http://arxiv.org/abs/math/0305215">arXiv:math/0305215</a>
+Nonvanishing cohomology and classes of Gorenstein rings, by David A. Jorgensen and Liana M. Sega, <a href="http://arxiv.org/abs/math/0306001">arXiv:math/0306001</a>.
+The equivariant Orlik-Solomon algebra, by Nicholas J. Proudfoot, <a href="http://arxiv.org/abs/math/0306013">arXiv:math/0306013</a>.
+A family of metrics on contact structures based on edge ideals, by Merc&#xe9; Llabr&#xe9;s, Francesc Rossell&#xf3;; <a href="http://arxiv.org/abs/cs/0306097">arXiv:cs/0306097</a>
+Some schemes related to the commuting variety, by Allen Knutson, J. Algebraic Geom. 14 (2005) 283-294, <a href="http://arxiv.org/abs/math/0306275">arXiv:math/0306275</a>.
+Elementary modifications and line configurations in <b>P</b><sup>2</sup>, by Henry K. Schenck, Commentarii Mathematici Helvetici 78 (2003) 447-462, <a href="http://arxiv.org/abs/math/0307035">arXiv:math/0307035</a>.
+<a href="http://www.hindawi.com/GetArticle.aspx?pii=S1073792804132017">Chen Lie algebras</a>, by Stefan Papadima and Alexander I. Suciu, International Mathematics Research Notices (2004) 1057-1086, <a href="http://arxiv.org/abs/math/0307087">arXiv:math/0307087</a>.
+Defining equations of subspace arrangements embedded in reflection arrangements, by Jessica Sidman, <a href="http://arxiv.org/abs/math/0307280">arXiv:math/0307280</a>.
+Short Rational Functions for Toric Algebra and Applications, by Jesus De Loera, David Haws, Raymond Hemmecke, Peter Huggins, Bernd Sturmfels, Ruriko Yoshida; <a href="http://arxiv.org/abs/math/0307350">arXiv:math/0307350</a>
+<a href="http://dx.doi.org/10.1016/j%2Ejalgebra%2E2004%2E02%2E032">Last syzygies of 1-generic spaces</a>, by Hans-Christian v. Bothmer, Journal of Algebra 278 (2004) 360-369, <a href="http://arxiv.org/abs/math/0307361">arXiv:math/0307361</a>.
+Mahler's Measure and the Dilogarithm (II), by David W. Boyd, Fernando Rodriguez-Villegas, and Nathan M. Dunfield, <a href="http://arxiv.org/abs/math/0308041">arXiv:math/0308041</a>.
+Toric initial ideals of &Delta;-normal configurations: Cohen-Macaulayness and degree bounds, by Edwin O'Shea and Rekha R. Thomas, Journal of Algebraic Combinatorics 21 (2005) 247-268, <a href="http://arxiv.org/abs/math/0308109">arXiv:math/0308109</a>.
+Hilbert functions of irreducible arithmetically Gorenstein schemes, by Nero Budur, Marta Casanellas, Elisa Gorla; <a href="http://arxiv.org/abs/math/0308208">arXiv:math/0308208</a>
+Rees Algebras of Conormal Modules, by Jooyoun Hong; <a href="http://arxiv.org/abs/math/0308272">arXiv:math/0308272</a>
+Markov bases of binary graph models, by Mike Develin, Seth Sullivant; <a href="http://arxiv.org/abs/math/0308280">arXiv:math/0308280</a>
+Bivariate hypergeometric D-modules, by Alicia Dickenstein, Laura Matusevich and Timur Sadykov, <a href="http://arxiv.org/abs/math/0310003">arXiv:math/0310003</a>, Advances in Mathematics, Vol. 196, Issue 1, 2005, 78-123.
+Exemples de surfaces canoniques de ${\mathbb P}^6$ et de solides de Calabi-Yau de ${\mathbb P}^7$, by Marie-Am&#xe9;lie Bertin; <a href="http://arxiv.org/abs/math/0310353">arXiv:math/0310353</a>
+Degree 1 Curves in the Dwork Pencil and the Mirror Quintic, by Anca Mustata; <a href="http://arxiv.org/abs/math/0311252">arXiv:math/0311252</a>
+Coincident root loci of binary forms, by L. M. Feher, A. Nemethi and R. Rimanyi, <a href="http://arxiv.org/abs/math/0311312">arXiv:math/0311312</a>.
+<a href="http://dx.doi.org/10.1016/j%2Ejtbi%2E2004%2E04%2E037">A Computational Algebra Approach to the Reverse Engineering of Gene Regulatory Networks</a>, by Reinhard Laubenbacher and Brandilyn Stigler, Journal of Theoretical Biology 229 (2004) 523-537, <a href="http://arxiv.org/abs/q-bio.QM/0312026">arXiv:q-bio.QM/0312026</a>.
+On the rank of a tropical matrix, by M. Develin, F. Santos, B. Sturmfels; <a href="http://arxiv.org/abs/math/0312114">arXiv:math/0312114</a>
+<a href="http://www.math.cornell.edu/~chris/acilpp.pdf">Almost complete intersections and the Lex-Plus-Powers Conjecture</a>, by Chris Francisco, J. Algebra 276 (2004), no. 2, 737-760.
+<a href="http://math.arizona.edu/~aprl/publications/dissertation/">On the projective geometry of curves of genus one, and an algorithm for the jacobian of such a curve</a>, by Alexander R. Perlis, Ph.D. Dissertation, University of Arizona, 2004.
+Symbolic powers of edge ideals, by Carlos E. N. Bahiano, Journal of Algebra 273 (2004) 517-537.
+Subspace arrangements defined by products of linear forms, by A. Bjorner, I. Peeva, and J. Sidman, J. Lond. Math. Soc. 71 (2005) 273-288, <a href="http://arxiv.org/abs/math/0401373">arXiv:math/0401373</a>
+Combinatorics of rank jumps in simplicial hypergeometric systems, by Laura Felicia Matusevich, Ezra Miller; <a href="http://arxiv.org/abs/math/0402071">arXiv:math/0402071</a>
+Canonical surfaces in P^4 and Gorenstein algebras in codimension 2, by Christian B&#xf6;hning; <a href="http://arxiv.org/abs/math/0402369">arXiv:math/0402369</a>
+Generic initial ideals of points and curves, by Aldo Conca and Jessica Sidman, <a href="http://arxiv.org/abs/math/0402418">arXiv:math/0402418</a>.
+Arithmetic degree and associated graded modules, by Natale Paolo Vinai, <a href="http://arxiv.org/abs/math/0402455">arXiv:math/0402455</a>.
+Atiyah Jones conjecture for blown-up surfaces, by Elizabeth Gasparim; <a href="http://arxiv.org/abs/math/0403138">arXiv:math/0403138</a>
+A quick and dirty irreducibility test for multivariate polynomials over <b>F</b><sub>q</sub>, by H.-Chr. Graf v. Bothmer and F. O. Schreyer,  Experimental Mathematics 14 (2005) 415-422, <a href="http://arxiv.org/abs/math/0404342">arXiv:math/0404342</a>.
+A new family of rational surfaces in <b>P</b><sup>4</sup>, by Hans-Christian Graf v. Bothmer, Cord Erdenberger and Katharina Ludwig, <a href="http://arxiv.org/abs/math/0404492">arXiv:math/0404492</a>, Journal of Symbolic Computation, Volume 39, Issue 1, January 2005, 51-60.
+Restricting linear syzygies: algebra and geometry, by David Eisenbud, Mark Green, Klaus Hulek, Sorin Popescu; <a href="http://arxiv.org/abs/math/0404516">arXiv:math/0404516</a>
+Small schemes and varieties of minimal degree, by David Eisenbud, Mark Green, Klaus Hulek and Sorin Popescu, <a href="http://arxiv.org/abs/math/0404517">arXiv:math/0404517</a>.
+Non-rational nodal quartic threefolds, by Ivan Cheltsov; <a href="http://arxiv.org/abs/math/0405150">arXiv:math/0405150</a>
+The line geometry of resonance varieties, by Michael Falk, <a href="http://arxiv.org/abs/math/0405210">arXiv:math/0405210</a>.
+A regularity result for a locus of Brill type, by Abdelmalek Abdesselam and Jaydeep Chipalkatti, <a href="http://arxiv.org/abs/math/0405236">arXiv:math/0405236</a>.
+Multigraded regularity: syzygies and fat points, by Jessica Sidman and Adam Van Tuyl, <a href="http://arxiv.org/abs/math/0405247">arXiv:math/0405247</a>.
+Symmetric measures via moments, by Alexey Koloydenko, <a href="http://arxiv.org/abs/math/0406173">arXiv:math/0406173</a>.
+Extended degree functions and monomial modules, by Uwe Nagel, Tim Roemer; <a href="http://arxiv.org/abs/math/0406409">arXiv:math/0406409</a>
+Phylogenetic invariants for stationary base composition, by Elizabeth S. Allman and John A. Rhodes, <a href="http://arxiv.org/abs/q-bio/0407035">arXiv:q-bio/0407035</a>.
+Multiplicities of the Most Singular Point on Schubert varieties on Gl(n)/B for n=5, 6, by Alexander Woo, <a href="http://arxiv.org/abs/math/0407158">arXiv:math/0407158</a>.
+Solving the Likelihood Equations, by Serkan Hosten, Amit Khetan and Bernd Sturmfels, <a href="http://arxiv.org/abs/math/0408270">arXiv:math/0408270</a>.
+Bernstein-Sato polynomials of arbitrary varieties, by Nero Budur, Mircea Mustata, Morihiko Saito; <a href="http://arxiv.org/abs/math/0408408">arXiv:math/0408408</a>
+A conjecture on the Poincar&eacute;-Betti series of modules of differential operators on a generic hyperplane arrangement, by Jan Snellman, <a href="http://arxiv.org/abs/math/0408437">arXiv:math/0408437</a>.
+Time-Delay Interferometry, by Massimo Tinto and Sanjeev V. Dhurandhar, <a href="http://arxiv.org/abs/gr-qc/0409034">arXiv:gr-qc/0409034</a>.
+Some Geometric Results arising from the Borel Fixed Property, by Jeaman Ahn, Juan C. Migliore; <a href="http://arxiv.org/abs/math/0409114">arXiv:math/0409114</a>
+Random Variables With Completely Independent Subcollections, by George Kirkup, J. Algebra (2007), <a href="http://arxiv.org/abs/math/0409237">arXiv:math/0409237</a>.
+A case study in bigraded commutative algebra, by David Cox, Alicia Dickenstein, and Hal Schenck,  to appear in "Syzygies and Hilbert Functions", edited by  I. Peeva, Lecture Notes in Pure and Applied Mathematics series, Vol. 254, CRC Press, 2007, <a href="http://arxiv.org/abs/math/0409462">arXiv:math/0409462</a>.
+Brauer loops and the commuting variety, by Jan de Gier, Bernard Nienhuis; <a href="http://arxiv.org/abs/math/0410392">arXiv:math/0410392</a>
+The Multiplicity Conjecture in low codimensions, by Juan C. Migliore, Uwe Nagel and Tim R&ouml;mer, <a href="http://arxiv.org/abs/math/0410497">arXiv:math/0410497</a>.
+Resolutions of small sets of fat points, by C. A. Francisco,  J. Pure Appl. Algebra 203 (2005), 220-236, <a href="http://arxiv.org/abs/math/0411020">arXiv:math/0411020</a>.
+Dualit&#xe9; et comparaison sur les complexes de de Rham logarithmiques par rapport aux diviseurs libres, by F.J. Calderon-Moreno, L. Narvaez-Macarro; <a href="http://arxiv.org/abs/math/0411045">arXiv:math/0411045</a>
+Construction of rational surfaces of degree 12 in projective fourspace (with an appendix by Kristian Ranestad), by Hirotachi Abo,  J. Algebraic Geom. 15 (2006), no. 2, 323-338, <a href="http://arxiv.org/abs/math/0411051">arXiv:math/0411051</a>.
+The 3-cuspidal quartic and braid monodromy of degree 4 coverings, by Fabrizio Catanese and Bronislaw Wajnryb, <a href="http://arxiv.org/abs/math/0411235">arXiv:math/0411235</a>.
+Rational curves of degree 10 on a general quintic threefold, by Ethan Cotterill, <a href="http://arxiv.org/abs/math/0412002">arXiv:math/0412002</a>.
+On the arithmetic of tight closure, by Holger Brenner and Mordechai Katzman, Journal of the AMS, to appear, <a href="http://arxiv.org/abs/math/0412033">arXiv:math/0412033</a>.
+<a href="http://dx.doi.org/10.1007/s00208-005-0704-9">Algebraic invariants for right-angled Artin groups</a>, by Stefan Papadima and Alexander I. Suciu, Mathematische Annalen 286 (2006) 161-186, <a href="http://arxiv.org/abs/math/0412520">arXiv:math/0412520</a>.
+Lex-plus-powers ideals, by C. A. Francisco and B. P. Richert,  preprint, February 2005, <a href="http://www.math.missouri.edu/~chrisf/lpp-revised-final.pdf">http://www.math.missouri.edu/~chrisf/lpp-revised-final.pdf</a>, to appear, Lect. Notes Pure Appl. Math.
+Multiplicity conjectures, by C. A. Francisco and H. Srinivasan, preprint, March 2005, to appear, Lect. Notes Pure Appl. Math, <a href="http://www.math.missouri.edu/~chrisf/multiplicity-final.pdf">http://www.math.missouri.edu/~chrisf/multiplicity-final.pdf</a>.
+Polytopes, toric varieties, and ideals, by Lisa Byrne, <a href="http://www.mtholyoke.edu/~jsidman/byrnePaper.pdf">http://www.mtholyoke.edu/~jsidman/byrnePaper.pdf</a>, Mount Holyoke REU paper, Summer, 2005.
+Selfatopes and their properties, Sarah Gilles, <a href="http://www.mtholyoke.edu/~jsidman/gillesPaper.pdf">http://www.mtholyoke.edu/~jsidman/gillesPaper.pdf</a>, Mount Holyoke REU paper, Summer, 2005.
+Algorithms for even-sided selfagons, by Frances Worek, <a href="http://www.mtholyoke.edu/~jsidman/worekPaper.pdf">http://www.mtholyoke.edu/~jsidman/worekPaper.pdf</a>, Mount Holyoke REU paper, Summer, 2005.
+Derivation modules of orthogonal duals of hyperplane arrangements,  by Joseph P. S. Kung and Hal Schenck, preprint, October 2005,  to appear in Journal of Algebraic Combinatorics, <a href="http://www.math.tamu.edu/~schenck/PD.pdf">http://www.math.tamu.edu/~schenck/PD.pdf</a>.
+NonGorenstein Unprojection, by Stavros Papadakis, preprint, November 2005.
+Degeneracy of two and three forms, by L. M. Feher, A. Nemethi, and R. Rimanyi, Canad. Math. Bull. 48 (2005) 547-560, <a href="http://www.unc.edu/~rimanyi/cikkek/formak6.ps.gz">http://www.unc.edu/~rimanyi/cikkek/formak6.ps.gz</a>.
+<a href="http://www.ams.org/distribution/jag/2005-14-01/S1056-3911-04-00385-6/S1056-3911-04-00385-6.pdf">Uniform bounds on multigraded regularity</a>, by Diane Maclagan and Gregory G. Smith, Journal of Algebraic Geometry 14 (2005) 137-164.
+The torsion index of E_8 and other groups, by B. Totaro, Duke Math. J. 129 (2005), 219-248.
+<a href="http://people.bath.ac.uk/masgks/Theses/logiudice.pdf">The unirationality of the moduli space of &eacute;tale double covers of genus five curves</a>, by Marco Lo Giudice, PhD thesis, Univ. of Milan.
+<a href="http://www.cambridge.org/uk/catalogue/catalogue.asp?isbn=0521688604">Integral Closure of Ideals, Rings, and Modules</a>, by Irena Swanson and Craig Huneke, Cambridge University Press,  London Mathematical Society Lecture Note Series 336, Cambridge, 2006, ISBN-13:9780521688604, ISBN-10:0521688604.
+Algebraic Statistics for Computational Biology, by L. Pachter and  B. Sturmfels, Cambridge University Press, 2005.
+Involutive Algorithms for Computing Groebner Bases, by Vladimir P. Gerdt, <a href="http://arxiv.org/abs/math/0501111">arXiv:math/0501111</a>.
+The generic Groebner walk, by K. Fukuda, A. N. Jensen, N. Lauritzen, R. Thomas; <a href="http://arxiv.org/abs/math/0501345">arXiv:math/0501345</a>
+Conjectures on the ring of commuting matrices, by Freyja Hreinsdottir, <a href="http://arxiv.org/abs/math/0501465">arXiv:math/0501465</a>.
+Syzygies, multigraded regularity and toric varieties,  by Milena Hering, Hal Schenck and Gregory G. Smith, Compositio Mathematica 142 (2006) 1499-1506, <a href="http://arxiv.org/abs/math/0502240">arXiv:math/0502240</a>.
+Secant Varieties of Toric Varieties, by D. Cox and J. Sidman, <a href="http://arxiv.org/abs/math/0502344">arXiv:math/0502344</a>.
+Minimizing Polynomials Over Semialgebraic Sets, by Jiawang Nie, James W. Demmel, and Victoria Powers, <a href="http://arxiv.org/abs/math/0502391">arXiv:math/0502391</a>.
+On the homotopy Lie algebra of an arrangement, by Graham Denham and Alexander I. Suciu, to appear in the Michigan Mathematical Journal, <a href="http://arxiv.org/abs/math/0502417">arXiv:math/0502417</a>.
+Resonance, linear syzygies, Chen groups, and the Bernstein-Gelfand-Gelfand correspondence, by Henry K. Schenck and Alexander I. Suciu, Transactions of the A.M.S. 358 (2006) 2269-2289, <a href="http://arxiv.org/abs/math/0502438">arXiv:math/0502438</a>.
+Moment angle complexes, monomial ideals, and Massey products, by Graham Denham and Alexander I. Suciu, preprint, December 2005, <a href="http://arxiv.org/abs/math/0502497">arXiv:math/0502497</a>.
+The bipartite Brill-Gordan locus and angular momentum, by Abdelmalek Abdesselam and Jaydeep Chipalkatti, <a href="http://arxiv.org/abs/math/0502542">arXiv:math/0502542</a>.
+Apolar schemes of algebraic forms, by Jaydeep Chipalkatti, <a href="http://arxiv.org/abs/math/0503106">arXiv:math/0503106</a>.
+Implicitization using approximation complexes, by Marc Chardin, <a href="http://arxiv.org/abs/math/0503180">arXiv:math/0503180</a>.
+On the componentwise linearity and the minimal free resolution of a tetrahedral curve, by C. A. Francisco, J. C. Migliore, and U. Nagel, J.  Algebra 299 (2006), no. 2, 535-569, <a href="http://arxiv.org/abs/math/0503278">arXiv:math/0503278</a>.
+Tropical Convexity via Cellular Resolutions, Florian Block and Josephine Yu, <a href="http://arxiv.org/abs/math/0503279">arXiv:math/0503279</a>.
+Fibrations of low genus, I., by Fabrizio Catanese and Roberto Pignatelli, to appear in Annales ENS after revision, <a href="http://arxiv.org/abs/math/0503294">arXiv:math/0503294</a>.
+On the Castelnuovo-Mumford regularity of ideals, in dimension 2, by Marc Chardin and Amadou Lamine Fall, <a href="http://arxiv.org/abs/math/0503740">arXiv:math/0503740</a>.
+Counting Monomials, by Mordechai Katzman, Journal of Algebraic Combinatorics, 22 (2005) 331-341, <a href="http://arxiv.org/abs/math/0504113">arXiv:math/0504113</a>.
+A presentation for the Chow ring of bar M<sub>0,2</sub>(<b>P</b><sup>1</sup>,2), by Jonathan A. Cox, <a href="http://arxiv.org/abs/math/0504575">arXiv:math/0504575</a>.
+A presentation for the Chow ring A<sup>*</sup>(bar M<sub>0,2</sub>(<b>P</b><sup>1</sup>,2)), by Jonathan A. Cox, <a href="http://arxiv.org/abs/math/0505112">arXiv:math/0505112</a>.
+The coherent component of the moduli of McKay quiver representations for abelian groups, by Alastair Craw, Diane Maclagan, and Rekha R. Thomas, <a href="http://arxiv.org/abs/math/0505115">arXiv:math/0505115</a>.
+Factoring the Adjoint and Maximal Cohen-Macaulay Modules over the Generic Determinant, by Ragnar-Olaf Buchweitz and Graham J. Leuschke, <a href="http://arxiv.org/abs/math/0505315">arXiv:math/0505315</a>.
+Endomorphism rings of finite global dimension, Graham J. Leuschke, <a href="http://arxiv.org/abs/math/0505323">arXiv:math/0505323</a>.
+Multigraded regularity: coarsenings and resolutions, by Jessica Sidman, Adam Van Tuyl, and Haohao Wang, <a href="http://arxiv.org/abs/math/0505421">arXiv:math/0505421</a>.
+Roots of Bernstein-Sato polynomials for monomial ideals: a positive characteristic approach, by Nero Budur, Mircea Mustata, Morihiko Saito; <a href="http://arxiv.org/abs/math/0505472">arXiv:math/0505472</a>
+Combinatorial description of the roots of the Bernstein-Sato polynomials for monomial ideals, by Nero Budur, Mircea Mustata, Morihiko Saito; <a href="http://arxiv.org/abs/math/0505473">arXiv:math/0505473</a>
+Experimental results for the Poincar&eacute; center problem, by Hans-Christian Graf v. Bothmer, including an appendix with M. Cremer,   <a href="http://arxiv.org/abs/math/0505547">arXiv:math/0505547</a>, to appear in NoDEA.
+New approaches to bounding the multiplicity of an ideal, by C. A. Francisco,  J. Algebra 299 (2006), no. 1, 309-328, <a href="http://arxiv.org/abs/math/0506024">arXiv:math/0506024</a>.
+Combinatorial secant varieties, by Bernd Sturmfels and Seth Sullivant, <a href="http://arxiv.org/abs/math/0506223">arXiv:math/0506223</a>.
+Relative Beilinson Monad and Direct Image for Families of Coherent Sheaves, by David Eisenbud and Frank-Olaf Schreyer, <a href="http://arxiv.org/abs/math/0506391">arXiv:math/0506391</a>.
+Notes on C-graded modules over an affine semigroup ring K[C], by Kohji Yanagawa; <a href="http://arxiv.org/abs/math/0506457">arXiv:math/0506457</a>
+Exceptional collections and D-branes probing toric singularities, by Christopher P. Herzog and Robert L. Karp, <a href="http://arxiv.org/abs/hep-th/0507175">arXiv:hep-th/0507175</a>.
+Monomial ideals via square-free monomial ideals, by Sara Faridi, <a href="http://arxiv.org/abs/math/0507238">arXiv:math/0507238</a>.
+Resolutions of De Concini-Procesi ideals indexed by hooks, Riccardo Biagioli, Sara Faridi, and Mercedes Rosas, <a href="http://arxiv.org/abs/math/0507611">arXiv:math/0507611</a>.
+Permutation branes and linear matrix factorisations, by H&aring;kon Enger, Andreas Recknagel, and Daniel Roggenkamp, <a href="http://arxiv.org/abs/hep-th/0508053">arXiv:hep-th/0508053</a>.
+A Modular Non-Rigid Calabi-Yau Threefold, by Edward Lee, to appear in "Mirror Symmetry V",  Proceedings of the BIRS Workshop on Calabi-Yau Varieties and Mirror Symmetry, December 6-11, 2003, <a href="http://arxiv.org/abs/math/0508127">arXiv:math/0508127</a>.
+The residuals of lex plus powers ideals and the Eisenbud-Green-Harris conjecture, by Benjamin P. Richert, Sindi Sabourin; <a href="http://arxiv.org/abs/math/0508334">arXiv:math/0508334</a>
+Computing all roots of the likelihood equations of seemingly unrelated regressions, by Mathias Drton, <a href="http://arxiv.org/abs/math/0508437">arXiv:math/0508437</a>.
+Exterior algebra methods for the construction of rational surfaces in projective fourspace, by Hirotachi Abo and Frank-Olaf Schreyer, to appear in the Proceedings Volume for Greuel's Birthday conference,  <a href="http://arxiv.org/abs/math/0508582">arXiv:math/0508582</a>, edited by Christoph Lossen, London Mathematical Society Lecture Note Series, 324, Cambridge University Press, Cambridge, 2006.
+Some families of componentwise linear monomial ideals, by C. A. Francisco and A. Van Tuyl, preprint, 2005, <a href="http://arxiv.org/abs/math/0508589">arXiv:math/0508589</a>, to appear, Nagoya Math. Journal.
+The Circuit Ideal of a Vector Configuration, by Tristram Bogart, Anders N. Jensen, and Rekha R. Thomas, <a href="http://arxiv.org/abs/math/0508628">arXiv:math/0508628</a>.
+An algorithmic approach to resolutions, by Edward L. Green, &#xd8;yvind Solberg; <a href="http://arxiv.org/abs/math/0509020">arXiv:math/0509020</a>
+Algebraic Factor Analysis: Tetrads, Pentads and Beyond, by Mathias Drton, Bernd Sturmfels, and Seth Sullivant, <a href="http://arxiv.org/abs/math/0509390">arXiv:math/0509390</a>.
+On ideals of minors of matrices with indeterminate entries, by Mordechai Katzman, <a href="http://arxiv.org/abs/math/0509657">arXiv:math/0509657</a>.
+Minimal Primes Over Permanental Ideals, by George Kirkup, <a href="http://arxiv.org/abs/math/0510025">arXiv:math/0510025</a>, to appear, Trans. Amer. Math. Soc.
+The Index of Reducibility of Parameter Ideals and Mostly Zero Finite Local Cohomology, by J. C. Liu and M. W. Rogers, <a href="http://arxiv.org/abs/math/0510322">arXiv:math/0510322</a>.
+Even sets of nodes on sextic surfaces, by Fabrizio Catanese and Fabio Tonoli, <a href="http://arxiv.org/abs/math/0510499">arXiv:math/0510499</a>
+Betti numbers and degree bounds for some linked zero schemes, by Leah Gold, Hal Schenck, and Hema Srinivasan, to appear in Canadian Mathematical Bulletin.  <a href="http://arxiv.org/abs/math/0510552">arXiv:math/0510552</a>.
+Sequentially Cohen-Macaulay edge ideals, by C. A. Francisco and A. Van Tuyl, <a href="http://arxiv.org/abs/math/0511022">arXiv:math/0511022</a>, to appear, Proc. Amer. Math. Soc..
+Vacuum Geometry and the Search for New Physics, by James Gray, Yang-Hui He, Vishnu Jejjala, Brent D. Nelson, Phys. Lett. B638 (2006) 253-257, <a href="http://arxiv.org/abs/hep-th/0511062">arXiv:hep-th/0511062</a>.
+A probabilistic algorithm for the secant defect of Grassmann varieties, by Barbara McGillivray, <a href="http://arxiv.org/abs/math/0511683">arXiv:math/0511683</a>.
+A Calabi-Yau threefold with Brauer group (Z/8Z)<sup>2</sup>, by Mark Gross and Simone Pavanelli, <a href="http://arxiv.org/abs/math/0512182">arXiv:math/0512182</a>.
+Level algebras with bad properties, Mats Boij and Fabrizio Zanello, <a href="http://arxiv.org/abs/math/0512198">arXiv:math/0512198</a>.
+Moment-angle complexes, monomial ideals, and Massey products, by Graham Denham and Alexander I. Suciu, <a href="http://arxiv.org/abs/math/0512497">arXiv:math/0512497</a>.
+Balanced normal cones and Fulton-MacPherson's intersection theory, by Allen Knutson, preprint, 2005, <a href="http://arxiv.org/abs/math/0512632">arXiv:math/0512632</a>.
+Cohomology of Tango bundle on <b>P</b><sup>5</sup>, by Daniele Faenzi, Boll. Un. Mat. It., to appear (some time after April 10, 2006).
+A probabilistic algorithm for the secant defect of Grassmann varieties, by Barbara McGillivray, Linear Algebra and its Applications, to appear, 2006.
+<a href="http://www.sciencedirect.com/science/journal/07477171">An improved term ordering for the ideal of commuting matrices</a>, by Freyja Hreinsd&oacute;ttir, Journal of Symbolic Computation 41 (2006) 999-1003.
+Computing the support of local cohomology modules, by Josep &Agrave;Alvarez Montaner and Anton Leykin, Journal of Symbolic Computation, 41 (2006) 1328-1344.
+Toric geometry of cuts and splits, by S. Sullivant and B. Sturmfels, Michigan Math. Journal, to appear.
+Algebraic factor analysis:  tetrads, pentads and beyond, by M. Drton, B. Sturmfels and S. Sullivant, Probability Theory and Related Fields, to appear.
+Quiver coefficients of Dynkin type, by Anders Skovsted Buch, <a href="http://math.rutgers.edu/~asbuch/papers/quivcoef.pdf">http://math.rutgers.edu/~asbuch/papers/quivcoef.pdf</a>.
+A Grothendieck Module with Applications to Rationality of the Poincar&eacute; Series, thesis, 2006, Indiana University, Bloomington.
+On the ideals and singularities of secant varieties of Segre varieties, by J.M. Landsberg and Jerzy Weyman, <a href="http://arxiv.org/abs/math/0601452">arXiv:math/0601452</a>.
+The homological index of a vector field on an isolated complete intersection singularity, by H.-Chr. Graf von Bothmer, W. Ebeling, and X. Gomez-Mont, <a href="http://arxiv.org/abs/math/0601640">arXiv:math/0601640</a>.
+On the Jacobian ideal of the binary discriminant, by Carlos D'Andrea and Jaydeep Chipalkatti (with an appendix by Abdelmalek Abdesselam), <a href="http://arxiv.org/abs/math/0601705">arXiv:math/0601705</a> *.
+The Horrocks-Mumford bundle restricted to planes, by Ada Boralevi, <a href="http://arxiv.org/abs/math/0602002">arXiv:math/0602002</a>.
+Higher-Order Deflation for Polynomial Systems with Isolated Singular Solutions, by Anton Leykin, Jan Verschelde, Ailing Zhao; <a href="http://arxiv.org/abs/math/0602031">arXiv:math/0602031</a>
+The pinched Veronese is Koszul, by Giulio Caviglia; <a href="http://arxiv.org/abs/math/0602487">arXiv:math/0602487</a>
+Further properties of a function of Ogg and Ligozat, by Carlos Castano-Bernard, <a href="http://arxiv.org/abs/math/0603016">arXiv:math/0603016</a>.
+Epistasis and Shapes of Fitness Landscapes, by Niko Beerenwinkel, Lior Pachter, Bernd Sturmfels; <a href="http://arxiv.org/abs/q-bio/0603034">arXiv:q-bio/0603034</a>
+Epistasis and Shapes of Fitness Landscapes, by Niko Beerenwinkel, Lior Pachter, Bernd Sturmfels; <a href="http://arxiv.org/abs/q-bio.PE/0603034">arXiv:q-bio.PE/0603034</a>
+On the Cox ring of Del Pezzo surfaces, by Ulrich Derenthal; <a href="http://arxiv.org/abs/math/0603111">arXiv:math/0603111</a>
+Multinets, resonance varieties, and pencils of plane curves, by Michael Falk and S. Yuzvinsky, to appear, Compositio Mathematica 143 (2007), <a href="http://arxiv.org/abs/math/0603155">arXiv:math/0603155</a>.
+Multinets, Resonance Varieties, and Pencils of Plane Curves, by Michael Falk and Sergey Yuzvinsky, <a href="http://arxiv.org/abs/math/0603166">arXiv:math/0603166</a>.
+Governing singularities of Schubert varieties, by Alexander Woo and Alexander Yong, preprint, March, 2006, <a href="http://arxiv.org/abs/math/0603273">arXiv:math/0603273</a>.
+Classification of rational surfaces of degree 11 and sectional genus 11 in <b>P</b><sup>4</sup>, by Hans-Christian Graf v. Bothmer and Kristian Ranestad, <a href="http://arxiv.org/abs/math/0603567">arXiv:math/0603567</a>.
+Derivation modules of orthogonal duals of hyperplane arrangements, by Joseph P.S. Kung, Hal Schenck; <a href="http://arxiv.org/abs/math/0604168">arXiv:math/0604168</a>
+Exploring the Vacuum Geometry of N=1 Gauge Theories, by James Gray, Yang-Hui He, Vishnu Jejjala, Brent D. Nelson, Nucl. Phys. B750 (2006) 1-27, <a href="http://arxiv.org/abs/hep-th/0604208">arXiv:hep-th/0604208</a>.
+Algebraic computation of some intersection D-modules, by F.J. Calderon-Moreno, L. Narvaez-Macarro; <a href="http://arxiv.org/abs/math/0604287">arXiv:math/0604287</a>
+Minimal Betti Numbers, by Christopher Dodd, Andrew Marks, Victor Meyerson, Ben Richert; <a href="http://arxiv.org/abs/math/0604479">arXiv:math/0604479</a>
+Reverse-engineering of polynomial dynamical systems, by Abdul Salam Jarrah, Reinhard Laubenbacher, Brandilyn Stigler, Michael Stillman; <a href="http://arxiv.org/abs/q-bio/0605032">arXiv:q-bio/0605032</a>
+Reverse-engineering of polynomial dynamical systems, by Abdul Salam Jarrah, Reinhard Laubenbacher, Brandilyn Stigler, and Michael Stillman, <a href="http://arxiv.org/abs/q-bio.QM/0605032">arXiv:q-bio.QM/0605032</a>.
+Reverse-engineering of polynomial dynamical systems, by Abdul Salam Jarrah, Reinhard Laubenbacher, Brandilyn Stigler, Michael Stillman; <a href="http://arxiv.org/abs/q-bio.QM/0605032">arXiv:q-bio.QM/0605032</a>
+The Casas-Alvero conjecture for infinitely many degrees, by Hans-Christian Graf v. Bothmer, Oliver Labs, Josef Schicho, and Christiaan van de Woestijne, <a href="http://arxiv.org/abs/math/0605090">arXiv:math/0605090</a>.
+An explicit construction of ruled surfaces, by Alberto Alzati, Fabio Tonoli; <a href="http://arxiv.org/abs/math/0605226">arXiv:math/0605226</a>
+Whiskers and sequentially Cohen-Macaulay graphs, by Christopher A. Francisco, Huy Tai Ha; <a href="http://arxiv.org/abs/math/0605487">arXiv:math/0605487</a>
+Tetrahedral curves via graphs and Alexander duality, by C. A. Francisco, preprint, 2006, <a href="http://arxiv.org/abs/math/0605588">arXiv:math/0605588</a>.
+Special Linear Series and Syzygies of Canonical Curves of Genus 9, by Michael Sagraloff; <a href="http://arxiv.org/abs/math/0605758">arXiv:math/0605758</a>
+On meromorphic functions defined by a differential system of order 1, II, by Tristan Torrelli; <a href="http://arxiv.org/abs/math/0605787">arXiv:math/0605787</a>
+ Algorithmic Algebraic Geometry and Flux Vacua, by James Gray, Yang-Hui He, Andr&eacute; Lukas, JHEP 0609 (2006) 031, <a href="http://arxiv.org/abs/hep-th/0606122">arXiv:hep-th/0606122</a>.
+Computing the support of local cohomology modules, by Josep &#xc0;lvarez Montaner, Anton Leykin; <a href="http://arxiv.org/abs/math/0606142">arXiv:math/0606142</a>
+Computing Groebner bases of ideals of few points in high dimensions, by Winfried Just, Brandilyn Stigler; <a href="http://arxiv.org/abs/math/0606189">arXiv:math/0606189</a>
+Minimal free resolutions and asymptotic behavior of multigraded regularity, by Huy Tai Ha, Brent Strunk; <a href="http://arxiv.org/abs/math/0606312">arXiv:math/0606312</a>
+Toric geometry of cuts and splits, by Bernd Sturmfels, Seth Sullivant; <a href="http://arxiv.org/abs/math/0606683">arXiv:math/0606683</a>
+Moduli Spaces of Curves with Linear Series and the Slope Conjecture, by Deepak Khosla, <a href="http://arxiv.org/abs/math/0608024">arXiv:math/0608024</a>.
+Counting BPS Operators in Gauge Theories: Quivers, Syzygies and Plethystics,  by Sergio Benvenuti, Bo Feng, Amihay Hanany, Yang-Hui He, <a href="http://arxiv.org/abs/hep-th/0608050">arXiv:hep-th/0608050</a>.
+Towards a general theory of unprojection, by Stavros Papadakis, <a href="http://arxiv.org/abs/math/0608158">arXiv:math/0608158</a>, to appear in J. of Mathematics of Kyoto Univ.
+Projective toric varieties as fine moduli spaces of quiver representations, by Alastair Craw, Gregory G. Smith; <a href="http://arxiv.org/abs/math/0608183">arXiv:math/0608183</a>
+Three Applications of Instanton Numbers, by Elizabeth Gasparim, Pedro Ontaneda; <a href="http://arxiv.org/abs/math-ph/0609042">arXiv:math-ph/0609042</a>
+The minimal resolutions of double points in P^1 x P^1 with ACM support, by Elena Guardo, Adam Van Tuyl; <a href="http://arxiv.org/abs/math/0609564">arXiv:math/0609564</a>
+Regularity and Normality of the Secant Variety to a Projective Curve, by Peter Vermeire; <a href="http://arxiv.org/abs/math/0610081">arXiv:math/0610081</a>
+The Landau-Ginzburg to Calabi-Yau Dictionary for D-Branes, by Paul S. Aspinwall, <a href="http://arxiv.org/abs/hep-th/0610209">arXiv:hep-th/0610209</a>.
+Groebner bases, monomial group actions, and the Cox rings of Del Pezzo surfaces, by Mike Stillman, Damiano Testa, Mauricio Velasco; <a href="http://arxiv.org/abs/math/0610261">arXiv:math/0610261</a>
+Three Counterexamples on Semigraphoids, by Raymond Hemmecke, Jason Morton, Anne Shiu, Bernd Sturmfels, Oliver Wienand; <a href="http://arxiv.org/abs/math/0610451">arXiv:math/0610451</a>
+Resonance varieties over fields of positive characteristic, by Michael Falk, International Mathematics Research Notices, to appear, <a href="http://arxiv.org/abs/math/0611008">arXiv:math/0611008</a>.
+On toric Calabi-Yau hypersurfaces fibered by weighted K3 hypersurfaces, by Joshua P. Mullet, <a href="http://arxiv.org/abs/math/0611338">arXiv:math/0611338</a>.
+On the projective dimension and the unmixed part of three cubics, by Bahman Engheta; <a href="http://arxiv.org/abs/math/0611552">arXiv:math/0611552</a>
+The Algebraic Degree of Semidefinite Programming, by J. Nie, K. Ranestad and B. Sturmfels, <a href="http://arxiv.org/abs/math/0611562">arXiv:math/0611562</a>.
+Prolongations and computational algebra, by Jessica Sidman and Seth Sullivant, <a href="http://arxiv.org/abs/math/0611696">arXiv:math/0611696</a>.
+The characteristic polynomial of a multiarrangement, by Takuro Abe, Hiroaki Terao, Max Wakefield; <a href="http://arxiv.org/abs/math/0611742">arXiv:math/0611742</a>
+Moduli of McKay quiver representations II: Groebner basis techniques, by Alastair Craw, Diane Maclagan, Rekha R. Thomas; <a href="http://arxiv.org/abs/math/0611840">arXiv:math/0611840</a>
+Low-dimensional Singularities with Free Divisors as Discriminants, by Ragnar-Olaf Buchweiz, Wolfgang Ebeling and Hans-Christian Graf v.   Bothmer, <a href="http://arxiv.org/abs/math/0612119">arXiv:math/0612119</a>.
+Mixed Hodge polynomials of character varieties, by Tamas Hausel, Fernando Rodriguez-Villegas, <a href="http://arxiv.org/abs/math/0612668">arXiv:math/0612668</a>.
+Whiskers and sequentially Cohen-Macaulay graphs, by C. A. Francisco and H. Tai Ha, preprint, 2006, <a href="http://arxiv.org/abs/math/065487">arXiv:math/065487</a>.
+Resolutions and subspace arrangements, by J. Sidman, preprint, October, 2005, <a href="http://www.mtholyoke.edu/~jsidman/papers/res.pdf">http://www.mtholyoke.edu/~jsidman/papers/res.pdf</a>, to appear in the book "Syzygies and Hilbert Functions," edited by Irena Peeva, available March 26, 2007.
+Scrollar syzygies of general canonical Curves with genus &lt; 8, by H.-Chr. Graf v. Bothmer, Trans. Amer. Math. Soc. 359 (2007), 465-488.
+<a href="http://www.biomedcentral.com/1471-2148/7/60/abstract">Analysis of epistatic interactions and fitness landscapes using a new geometric approach</a>, by Niko Beerenwinkel, Lior Pachter, Bernd Sturmfels, Santiago F. Elena, and Richard E. Lenski, BMC Evolutionary Biology 7:60 (2007).
+DMTCP: Transparent Checkpointing for Cluster Computations and the Desktop, by Jason Ansel, Kapil Arya, Gene Cooperman; <a href="http://arxiv.org/abs/cs/0701037">arXiv:cs/0701037</a>
+ Counting Gauge Invariants: the Plethystic Program, by Bo Feng , Amihay Hanany, Yang-Hui He, to appear in JHEP, <a href="http://arxiv.org/abs/hep-th/0701063">arXiv:hep-th/0701063</a>.
+Generalized local cohomology and regularity of Ext modules, by Marc Chardin, Kamran Divaani-Aazar; <a href="http://arxiv.org/abs/math/0701509">arXiv:math/0701509</a>
+Examples of Calabi-Yau 3-folds of $\mathbb{P}^7$ with $\rho=1$, by Marie-Am\&#x27; elie Bertin; <a href="http://arxiv.org/abs/math/0701511">arXiv:math/0701511</a>
+Parameter test ideals of Cohen Macaulay rings, by Mordechai Katzman; <a href="http://arxiv.org/abs/math/0701591">arXiv:math/0701591</a>
+Numerical obstructions to abelian surfaces in toric Fano 4-fold, by G.K. Sankaran; <a href="http://arxiv.org/abs/math/0701734">arXiv:math/0701734</a>
+Heterotic Compactification, An Algorithmic Approach, by Lara B. Anderson, Yang-Hui He, Andre Lukas, <a href="http://arxiv.org/abs/hep-th/0702210">arXiv:hep-th/0702210</a>.
+On special p-Borel ideals, by Achilleas Sinefakopoulos; <a href="http://arxiv.org/abs/math/0702628">arXiv:math/0702628</a>
+On Borel fixed ideals generated in one degree, by Achilleas Sinefakopoulos; <a href="http://arxiv.org/abs/math/0702629">arXiv:math/0702629</a>
+Counterexamples regarding Symmetric Tensors and Divided Powers, by Christian Lundkvist; <a href="http://arxiv.org/abs/math/0702733">arXiv:math/0702733</a>
+The strong Lefschetz property of the coinvariant ring of the Coxeter group of type H4, by Yasuhide Numata, Akihito Wachi; <a href="http://arxiv.org/abs/math/0703003">arXiv:math/0703003</a>
+A New Method for Finding Vacua in String Phenomenology, by James Gray, Yang-Hui He, Anton Ilderton, Andre Lukas; <a href="http://arxiv.org/abs/hep-th/0703249">arXiv:hep-th/0703249</a>
+Topological D-Branes and Commutative Algebra, by Paul S. Aspinwall, <a href="http://arxiv.org/abs/hep-th/0703279">arXiv:hep-th/0703279</a>.
+On the homology of two-dimensional elimination, by J. Hong, A. Simis, W. V. Vasconcelos; <a href="http://arxiv.org/abs/0704.0608">arXiv:0704.0608</a>
+Algebraic geometry of Gaussian Bayesian networks, by Seth Sullivant; <a href="http://arxiv.org/abs/0704.0918">arXiv:0704.0918</a>
+Tautological classes on moduli spaces of curves with linear series and a push-forward formula when $\rho=0$, by Deepak Khosla; <a href="http://arxiv.org/abs/0704.1340">arXiv:0704.1340</a>
+Gaussian conditional independence relations have no finite complete characterization, by Seth Sullivant; <a href="http://arxiv.org/abs/0704.2847">arXiv:0704.2847</a>
+Glicci simplicial complexes, by Uwe Nagel, Tim Roemer; <a href="http://arxiv.org/abs/0704.3283">arXiv:0704.3283</a>
+The Special McKay correspondence as an equivalence of derived categories, by Alastair Craw; <a href="http://arxiv.org/abs/0704.3627">arXiv:0704.3627</a>
+Computing the core of ideals in arbitrary characteristic, by Louiza Fouli; <a href="http://arxiv.org/abs/0705.1808">arXiv:0705.1808</a>
+Counting Chiral Operators in Quiver Gauge Theories, by Agostino Butti, Davide Forcella, Amihay Hanany, David Vegh, Alberto Zaffaroni; <a href="http://arxiv.org/abs/0705.2771">arXiv:0705.2771</a>
+Picard-Fuchs Differential Equations for Families of K3 Surfaces, by James P Smith; <a href="http://arxiv.org/abs/0705.3658">arXiv:0705.3658</a>
+The Label Algorithm For Irreducible Decomposition of Monomial Ideals, by Bjarke Hammersholt Roune; <a href="http://arxiv.org/abs/0705.4483">arXiv:0705.4483</a>
+The role of the cotangent bundle in resolving ideals of fat points in the plane, by Alessandro Gimigliano, Brian Harbourne, Monica Id&#xe0;; <a href="http://arxiv.org/abs/0706.2144">arXiv:0706.2144</a>
+Betti numbers for fat point ideals in the plane: a geometric approach, by Alessandro Gimigliano, Brian Harbourne, Monica Id&#xe0;; <a href="http://arxiv.org/abs/0706.2588">arXiv:0706.2588</a>
+Cohen-Macaulayness and computation of Newton graded toric rings, by Mathias Schulze, Uli Walther; <a href="http://arxiv.org/abs/0706.3545">arXiv:0706.3545</a>
+Generic initial ideals and fibre products, by Aldo Conca, Tim Roemer; <a href="http://arxiv.org/abs/0707.0678">arXiv:0707.0678</a>
+Weyl closure of hypergeometric systems, by Laura Felicia Matusevich; <a href="http://arxiv.org/abs/0707.1120">arXiv:0707.1120</a>
+Multiplicity Bounds for Quadratic Monomial Ideals, by Manoj Kummini; <a href="http://arxiv.org/abs/0707.1311">arXiv:0707.1311</a>
+Reducible family of height three level algebras, by Mats Boij, Anthony Iarrobino; <a href="http://arxiv.org/abs/0707.2148">arXiv:0707.2148</a>
+The Jacobian ideal of a hyperplane arrangement, by Max Wakefield, Masahiko Yoshinaga; <a href="http://arxiv.org/abs/0707.2672">arXiv:0707.2672</a>
+Classification of free actions on complete intersections of four quadrics, by Zheng Hua; <a href="http://arxiv.org/abs/0707.4339">arXiv:0707.4339</a>
+Some calculations on Type II<sub>1</sub> unprojection, by Stavros Papadakis, <a href="http://arxiv.org/abs/0708.0727">arXiv:0708.0727</a>
+Obstructions to Genericity in Study of Parametric Problems in Control Theory, by Viktor Levandovskyy, Eva Zerz; <a href="http://arxiv.org/abs/0708.2078">arXiv:0708.2078</a>
+Cohen-Macaulay, Shellable and unmixed clutters with a perfect matching of K&#xf6;nig type, by Susan Morey, Enrique Reyes, Rafael H. Villarreal; <a href="http://arxiv.org/abs/0708.3111">arXiv:0708.3111</a>
+Detecting Infinitely Many Semisimple Representations in a Fixed Finite Dimension, by Edward S. Letzter; <a href="http://arxiv.org/abs/0708.3190">arXiv:0708.3190</a>
+Implicitization of Bihomogeneous Parametrizations of Algebraic Surfaces via Linear Syzygies, by Laurent Bus&#xe9;, Marc Dohm; <a href="http://arxiv.org/abs/0708.4230">arXiv:0708.4230</a>
+Mirror symmetry and tropical geometry, by Janko Boehm; <a href="http://arxiv.org/abs/0708.4402">arXiv:0708.4402</a>
+Freeness of Conic-Line Arrangements in $\mathbb P^2$, by Hal Schenck, Stefan O. Tohaneanu; <a href="http://arxiv.org/abs/0709.1890">arXiv:0709.1890</a>
+Local holomorphic Euler characteristic and instanton decay, by E. Gasparim, T. K&ouml;ppe, and P. Majumdar, preprint: <a href="http://arxiv.org/abs/0709.2577 ">arXiv:0709.2577</a>, Pure Appl. Math. Q. 4 (2008) 161-179, Special Issue: In honor of Fedya Bogomolov, Part 1.
+A local version of Gotzmann&#x27;s Persistence, by Morgan Sherman; <a href="http://arxiv.org/abs/0710.0186">arXiv:0710.0186</a>
+Non-vanishing theorems for rank 2 bundles on P^3: a simple approach without the speciality lemma, by Paolo Valabrega, Mario Valenzano; <a href="http://arxiv.org/abs/0710.2242">arXiv:0710.2242</a>
+Finite Field Experiments (with an Appendix by Stefan Wiedmann), by Hans-Christian Graf v. Bothmer; <a href="http://arxiv.org/abs/0710.4268">arXiv:0710.4268</a>
+Numerical obstructions to abelian surfaces in toric Fano 4-folds, by G.K. Sankaran; <a href="http://arxiv.org/abs/0710.4284">arXiv:0710.4284</a>
+Castelnuovo-Mumford regularity and reduction number of smooth monomial curves, by Michael Hellus, L&#xea; Tu&#xe2;n Hoa, J&#xfc;rgen St&#xfc;ckrad; <a href="http://arxiv.org/abs/0710.4376">arXiv:0710.4376</a>
+Congruences of lines in $\mathbb{P}^5$, quadratic normality, and completely exceptional Monge-Amp&#xe8;re equations, by Pietro De Poi, Emilia Mezzetti; <a href="http://arxiv.org/abs/0710.5110">arXiv:0710.5110</a>
+Rational curves of degree 11 on a general quintic threefold, by Ethan Cotterill; <a href="http://arxiv.org/abs/0711.2758">arXiv:0711.2758</a>
+The Computation of the Logarithmic Cohomology for Plane Curves, by Francisco Jesus Castro-Jimenez, Nobuki Takayama; <a href="http://arxiv.org/abs/0712.0001">arXiv:0712.0001</a>
+Betti Numbers of Graded Modules and Cohomology of Vector Bundles, by David Eisenbud and Frank-Olaf Schreyer, <a href="http://arxiv.org/abs/0712.1843">arXiv:0712.1843</a>.
+Hypergeometric D-modules and twisted Gauss-Manin systems, by Mathias Schulze, Uli Walther; <a href="http://arxiv.org/abs/0712.2021">arXiv:0712.2021</a>
+A mathematical formalism for agent-based modeling, by Reinhard Laubenbacher, Abdul S. Jarrah, Henning Mortveit, S.S. Ravi; <a href="http://arxiv.org/abs/0801.0249">arXiv:0801.0249</a>
+The Goto numbers of parameter ideals, by William Heinzer, Irena Swanson; <a href="http://arxiv.org/abs/0801.0685">arXiv:0801.0685</a>
+Algebraic and combinatorial properties of ideals and algebras of uniform clutters of TDI systems, by Luis A. Dupont, Rafael H. Villarreal; <a href="http://arxiv.org/abs/0801.1478">arXiv:0801.1478</a>
+STRINGVACUA: A Mathematica Package for Studying Vacuum Configurations in String Phenomenology, by James Gray, Yang-Hui He, Anton Ilderton, Andr&#xe9; Lukas; <a href="http://arxiv.org/abs/0801.1508">arXiv:0801.1508</a>
+The Master Space of N=1 Gauge Theories, by Davide Forcella, Amihay Hanany, Yang-Hui He, Alberto Zaffaroni; <a href="http://arxiv.org/abs/0801.1585">arXiv:0801.1585</a>
+Numerical primary decomposition, by Anton Leykin; <a href="http://arxiv.org/abs/0801.3105">arXiv:0801.3105</a>
+Mastering the Master Space, by Davide Forcella, Amihay Hanany, Yang-Hui He, Alberto Zaffaroni; <a href="http://arxiv.org/abs/0801.3477">arXiv:0801.3477</a>
+The defining ideals of conjugacy classes of nilpotent matrices and a conjecture of Weyman, by Riccardo Biagioli, Sara Faridi, Mercedes Rosas; <a href="http://arxiv.org/abs/0803.0658">arXiv:0803.0658</a>
+Cohen-Macaulay admissible clutters, by Huy Tai Ha, Susan Morey, Rafael H. Villarreal; <a href="http://arxiv.org/abs/0803.1332">arXiv:0803.1332</a>
+On the algebraic geometry of polynomial dynamical systems, by Abdul S. Jarrah, Reinhard Laubenbacher; <a href="http://arxiv.org/abs/0803.1825">arXiv:0803.1825</a>
+Alternatives for Testing Total Dual Integrality, by Edwin O&#x27;Shea, Andras Sebo; <a href="http://arxiv.org/abs/0803.2065">arXiv:0803.2065</a>
+Combinatorics of binomial primary decomposition, by Alicia Dickenstein, Laura Felicia Matusevich, Ezra Miller; <a href="http://arxiv.org/abs/0803.3846">arXiv:0803.3846</a>
+Rationality of the moduli spaces of plane curves of   sufficiently large degree, by Christian B&ouml;hning, and Hans-Christian Graf v. Bothmer, <a href="http://arxiv.org/abs/0804.1503">arXiv:0804.1503</a>, with Macaulay 2 scripts at <a href="http://www.uni-math.gwdg.de/bothmer/rationality/">http://www.uni-math.gwdg.de/bothmer/rationality/</a>.
+Linearity conditions on the Jacobian ideal and logarithmic--meromorphic comparison for free divisors, by Luis Narvaez-Macarro; <a href="http://arxiv.org/abs/0804.2219">arXiv:0804.2219</a>
+Algebraic methods for detecting odd holes in a graph, by Christopher A. Francisco, Huy Tai Ha, Adam Van Tuyl; <a href="http://arxiv.org/abs/0806.1159">arXiv:0806.1159</a>
+Fibers of Generic Projections, by Roya Beheshti, David Eisenbud; <a href="http://arxiv.org/abs/0806.1928">arXiv:0806.1928</a>
+Syzygies of the secant variety of a curve, by Jessica Sidman, Peter Vermeire; <a href="http://arxiv.org/abs/0806.3056">arXiv:0806.3056</a>
+The Slice Algorithm For Irreducible Decomposition of Monomial Ideals, by Bjarke Hammersholt Roune; <a href="http://arxiv.org/abs/0806.3680">arXiv:0806.3680</a>
+The Semigroup of Betti Diagrams, by Daniel Erman; <a href="http://arxiv.org/abs/0806.4401">arXiv:0806.4401</a>
+On the symmetry of b-functions of linear free divisors, by Michel Granger, Mathias Schulze; <a href="http://arxiv.org/abs/0807.0560">arXiv:0807.0560</a>
+Feynman motives of banana graphs, by Paolo Aluffi, Matilde Marcolli; <a href="http://arxiv.org/abs/0807.1690">arXiv:0807.1690</a>
+The Five Points Pose Problem : A New and Accurate Solution Adapted to any Geometric Configuration, by Mahzad Kalantari, Franck Jung, JeanPierre Guedon, Nicolas Paparoditis; <a href="http://arxiv.org/abs/0807.2047">arXiv:0807.2047</a>
+Splittings of monomial ideals, by Christopher A. Francisco, Huy Tai Ha, Adam Van Tuyl; <a href="http://arxiv.org/abs/0807.2185">arXiv:0807.2185</a>
+Powers of Ideals and Fibers of Morphisms, by David Eisenbud, Joe Harris; <a href="http://arxiv.org/abs/0807.4243">arXiv:0807.4243</a>
+A-graded methods for monomial ideals, by Christine Berkesch, Laura Felicia Matusevich; <a href="http://arxiv.org/abs/0807.4306">arXiv:0807.4306</a>
+Matrix representations for toric parametrizations, by Nicol&aacute;s Botbol, Alicia Dickenstein, and Marc Dohm, <a href="http://arxiv.org/abs/0807.4802">arXiv:0807.4802</a>. 
+Efficient computation of resonance varieties via Grassmannians, by P. Lima-Filho, H. Schenck; <a href="http://arxiv.org/abs/0808.2027">arXiv:0808.2027</a>
+Piecewise polynomials on polyhedral complexes, by T. McDonald, H. Schenck; <a href="http://arxiv.org/abs/0808.2031">arXiv:0808.2031</a>
+How to Draw Tropical Planes, by Sven Herrmann, Anders Jensen, Michael Joswig, Bernd Sturmfels; <a href="http://arxiv.org/abs/0808.2383">arXiv:0808.2383</a>
+Newton Binomial Formulas in Schubert Calculus, by Jorge Cordovez, Letterio Gatto, Taise Santiago; <a href="http://arxiv.org/abs/0809.2528">arXiv:0809.2528</a>
+Properties of Koszul homology modules, by Uwe Nagel, Tony J. Puthenpurakal; <a href="http://arxiv.org/abs/0809.3853">arXiv:0809.3853</a>
+Secant varieties of Segre-Veronese varieties P^m x P^n embedded by O(1,2), by Hirotachi Abo, Maria Chiara Brambilla; <a href="http://arxiv.org/abs/0809.4837">arXiv:0809.4837</a>
+Postulation of general quartuple fat point schemes in P^3, by Edoardo Ballico, Maria Chiara Brambilla; <a href="http://arxiv.org/abs/0810.1372">arXiv:0810.1372</a>
+Linear systems in P^3 with low degrees and low multiplicities, by Marcin Dumnicki; <a href="http://arxiv.org/abs/0810.2117">arXiv:0810.2117</a>
+The $cl-core$ of an ideal, by Louiza Fouli, Janet Vassilev; <a href="http://arxiv.org/abs/0810.3033">arXiv:0810.3033</a>
+A survey on Cox rings, by Antonio Laface, Mauricio Velasco; <a href="http://arxiv.org/abs/0810.3730">arXiv:0810.3730</a>
+Computing inclusions of Schur modules, by Steven V Sam; <a href="http://arxiv.org/abs/0810.4666">arXiv:0810.4666</a>
+The curve of lines on a prime Fano threefold of genus 8, by Flaminio Flamini, Edoardo Sernesi; <a href="http://arxiv.org/abs/0811.0523">arXiv:0811.0523</a>
+(n-1)-st Koszul homology and the structure of monomial ideals, by Anna M. Bigatti, E. Saenz-de-Cabezon; <a href="http://arxiv.org/abs/0811.1013">arXiv:0811.1013</a>
+First Nonlinear Syzygies of Ideals Associated to Graphs, by Oscar Fernandez-Ramos, Philippe Gimenez; <a href="http://arxiv.org/abs/0811.1865">arXiv:0811.1865</a>
+AG Codes from Polyhedral Divisors, by Nathan Ilten, Hendrik S&#xfc;&#xdf;; <a href="http://arxiv.org/abs/0811.2696">arXiv:0811.2696</a>
+Koszul cohomology and applications to moduli, by Marian Aprodu, Gavril Farkas; <a href="http://arxiv.org/abs/0811.3117">arXiv:0811.3117</a>
+Zero-nonzero patterns for nilpotent matrices over finite fields, by Kevin N. Vander Meulen, Adam Van Tuyl; <a href="http://arxiv.org/abs/0812.0527">arXiv:0812.0527</a>
+Nef divisors on \bar M_{0,n} from GIT, by Valery Alexeev, David Swinarski; <a href="http://arxiv.org/abs/0812.0778">arXiv:0812.0778</a>
+Power operations for Morava E-theory of height 2 at the prime 2, by Charles Rezk; <a href="http://arxiv.org/abs/0812.1320">arXiv:0812.1320</a>
+Commuting birth-and-death processes, by Steven N. Evans, Bernd Sturmfels, Caroline Uhler; <a href="http://arxiv.org/abs/0812.2724">arXiv:0812.2724</a>
+A Clebsch-Gordan formula for SL_3 and applications to rationality, by Christian B&#xf6;hning, Hans-Christian Graf v. Bothmer; <a href="http://arxiv.org/abs/0812.3278">arXiv:0812.3278</a>
+Koszul obstructions for deformations of 0-schemes of regularity two, by Daniel Erman, Mauricio Velasco; <a href="http://arxiv.org/abs/0812.3342">arXiv:0812.3342</a>
+Growth in the minimal injective resolution of a local ring, by Lars Winther Christensen, Janet Striuli, Oana Veliche; <a href="http://arxiv.org/abs/0812.4672">arXiv:0812.4672</a>
+Socle degrees, Resolutions, and Frobenius powers, by Andrew R. Kustin, Bernd Ulrich; <a href="http://arxiv.org/abs/0812.4966">arXiv:0812.4966</a>
+The Orlik-Terao algebra and 2-formality, by Hal Schenck, Stefan Tohaneanu; <a href="http://arxiv.org/abs/0901.0253">arXiv:0901.0253</a>
+An algorithm for computing the integral closure, by Anurag K. Singh, Irena Swanson; <a href="http://arxiv.org/abs/0901.0871">arXiv:0901.0871</a>
+Geometry of genus 9 Fano 4-fold, by Han Frederic; <a href="http://arxiv.org/abs/0901.1054">arXiv:0901.1054</a>
+q,t-Fuss-Catalan numbers for finite reflection groups, by Christian Stump; <a href="http://arxiv.org/abs/0901.1574">arXiv:0901.1574</a>
+A Simple Introduction to Grobner Basis Methods in String Phenomenology, by James Gray; <a href="http://arxiv.org/abs/0901.1662">arXiv:0901.1662</a>
+Non-Defectivity of Grassmannians of planes, by Hirotachi Abo, Giorgio Ottaviani, Chris Peterson; <a href="http://arxiv.org/abs/0901.2601">arXiv:0901.2601</a>
+Real ideal and the duality of semidefinite programming for polynomial optimization, by Yoshiyuki Sekiguchi, Tomoyuki Takenawa, Hayato Waki; <a href="http://arxiv.org/abs/0901.2998">arXiv:0901.2998</a>
+Regularity, Depth and Arithmetic Rank of Bipartite Edge Ideals, by Manoj Kummini; <a href="http://arxiv.org/abs/0902.0437">arXiv:0902.0437</a>
+Cohomology of Coherent Sheaves and Series of Supernatural Bundles, by David Eisenbud, Frank-Olaf Schreyer; <a href="http://arxiv.org/abs/0902.1594">arXiv:0902.1594</a>
+A family of exceptional Stewart-Gough mechanisms of genus 7, by Florian Geiss, Frank-Olaf Schreyer; <a href="http://arxiv.org/abs/0902.2354">arXiv:0902.2354</a>
+Koszul homology and syzygies of Veronese subalgebras, by Winfried Bruns, Aldo Conca, Tim Roemer; <a href="http://arxiv.org/abs/0902.2431">arXiv:0902.2431</a>
+Frobenius maps on injective hulls and their applications to tight closure, by Mordechai Katzman; <a href="http://arxiv.org/abs/0902.3110">arXiv:0902.3110</a>
+A modular quintic Calabi-Yau threefold of level 55, by Edward Lee; <a href="http://arxiv.org/abs/0903.1140">arXiv:0903.1140</a>
+A convex polynomial that is not sos-convex, by Amir Ali Ahmadi, Pablo A. Parrilo; <a href="http://arxiv.org/abs/0903.1287">arXiv:0903.1287</a>
+Cohomology of Congruence Subgroups of SL_4(Z). III, by Avner Ash, Paul E. Gunnells, Mark McConnell; <a href="http://arxiv.org/abs/0903.3201">arXiv:0903.3201</a>
+Rationality of moduli spaces of plane curves of small degree, by Christian B&#xf6;hning, Hans-Christian Graf von Bothmer, Jakob Kr&#xf6;ker; <a href="http://arxiv.org/abs/0904.0890">arXiv:0904.0890</a>
+Vanishing of Tor Over Complete Intersections, by Olgur Celikbas; <a href="http://arxiv.org/abs/0904.1408">arXiv:0904.1408</a>
+Calabi-Yau Three-folds and Moduli of Abelian Surfaces II, by Mark Gross, Sorin Popescu; <a href="http://arxiv.org/abs/0904.3354">arXiv:0904.3354</a>
+Hyper-K&#xe4;hler fourfolds and Grassmann geometry, by Olivier Debarre, Claire Voisin; <a href="http://arxiv.org/abs/0904.3974">arXiv:0904.3974</a>
+Siphons in chemical reaction networks, by Anne Shiu, Bernd Sturmfels; <a href="http://arxiv.org/abs/0904.4529">arXiv:0904.4529</a>
+Computations of instanton invariants, by Thomas K&ouml;ppe, <a href="http://arxiv.org/abs/0905.2745">arXiv:0905.2745</a>.
+A New Solution to the Relative Orientation Problem using only 3 Points and the Vertical Direction, by Mahzad Kalantari, Amir Hashemi, Franck Jung, JeanPierre Guedon; <a href="http://arxiv.org/abs/0905.3964">arXiv:0905.3964</a>
+A non-finitely generated algebra of Frobenius maps, by Mordechai Katzman; <a href="http://arxiv.org/abs/0906.1083">arXiv:0906.1083</a>
+Equations of Almost Complete Intersections, by Jooyoun Hong, Aron Simis, Wolmer Vasconcelos; <a href="http://arxiv.org/abs/0906.1591">arXiv:0906.1591</a>
+Experimentation at the Frontiers of Reality in Schubert Calculus, by Christopher Hillar, Luis Garcia-Puente, Abraham Martin del Campo, James Ruffo, Zach Teitler, Stephen L. Johnson, Frank Sottile; <a href="http://arxiv.org/abs/0906.2497">arXiv:0906.2497</a>
+Multivariate Gaussians, Semidefinite Matrix Completion, and Convex Algebraic Geometry, by Bernd Sturmfels, Caroline Uhler; <a href="http://arxiv.org/abs/0906.3529">arXiv:0906.3529</a>
+Blow-ups of $\mathbb{P}^{n-3}$ at $n$ points and spinor varieties, by Bernd Sturmfels, Mauricio Velasco; <a href="http://arxiv.org/abs/0906.5096">arXiv:0906.5096</a>
+Critical points and resonance of hyperplane arrangements, by D. Cohen, G. Denham, M. Falk, A. Varchenko; <a href="http://arxiv.org/abs/0907.0896">arXiv:0907.0896</a>
+Bound on the projective dimension of three cubics, by Bahman Engheta; <a href="http://arxiv.org/abs/0907.1703">arXiv:0907.1703</a>
+Computing Multidimensional Persistence, by Gunnar Carlsson, Gurjeet Singh, Afra Zomorodian; <a href="http://arxiv.org/abs/0907.2423">arXiv:0907.2423</a>
+Quiver flag varieties and multigraded linear series, by Alastair Craw; <a href="http://arxiv.org/abs/0907.4659">arXiv:0907.4659</a>
+Minimal generators of the defining ideal of the Rees Algebra associated to monoid parametrizations, by Teresa Cortadellas Benitez, Carlos D&#x27;Andrea; <a href="http://arxiv.org/abs/0907.4669">arXiv:0907.4669</a>
+Depths of Powers of the Edge Ideal of a Tree, by Susan Morey; <a href="http://arxiv.org/abs/0908.0553">arXiv:0908.0553</a>
+Colorings of hypergraphs, perfect graphs, and associated primes of powers of monomial ideals, by Christopher A. Francisco, Huy Tai Ha, Adam Van Tuyl; <a href="http://arxiv.org/abs/0908.1505">arXiv:0908.1505</a>

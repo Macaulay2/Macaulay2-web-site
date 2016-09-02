@@ -1,0 +1,13 @@
+<a href="http://arxiv.org/abs/math.CO/0307350">arXiv:math.CO/0307350</a>. ---  this one didn't work out!
+<a href="http://arxiv.org/abs/math.AG/0308208">arXiv:math.AG/0308208</a>. ---  minor mention only
+<a href="http://arxiv.org/abs/math.AG/0311252">arXiv:math.AG/0311252</a>. ---  minor mention only
+<a href="http://arxiv.org/abs/math.CO/0312114">arXiv:math.CO/0312114</a>. ---  minor mention only
+<a href="http://arxiv.org/abs/math.AG/0403138">arXiv:math.AG/0403138</a>. ---  minor mention only
+<a href="http://arxiv.org/abs/math.AC/0406409">arXiv:math.AC/0406409</a>. ---  minor mention only
+<a href="http://arxiv.org/abs/math.AG/0501157">arXiv:math.AG/0501157</a>. ---  refers to a chapter of our book, not the program
+The generic Groebner walk, by K. Fukuda, A. N. Jensen, N. Lauritzen, R. Thomas, <a href="http://arxiv.org/abs/math.AC/0501345">arXiv:math.AC/0501345</a>. ---  minor ref
+M_15 is rationally connected, by Andrea Bruno, Alessandro Verra, <a href="http://arxiv.org/abs/math.AG/0501455">arXiv:math.AG/0501455</a>. --- refers to a chapter of our book, not the program
+<a href="http://arxiv.org/abs/math.AC/0502348">arXiv:math.AC/0502348</a>. ---  minor ref only
+<a href="http://arxiv.org/abs/math.AG/0505472">arXiv:math.AG/0505472</a>. ---  minor ref
+<a href="http://arxiv.org/abs/math.AC/0508334">arXiv:math.AC/0508334</a>. --- 
+<a href="http://arxiv.org/abs/math.AT/0509187">arXiv:math.AT/0509187</a>. ---  minor ref
