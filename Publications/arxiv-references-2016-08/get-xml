@@ -1,0 +1,24 @@
+#! /bin/bash
+
+while read century number arxiv section rest 
+do fn=$century-$number-$section
+   (
+      if [ ! -s  xml/$fn.xml ]
+      then if [ "$section" = . ]
+	   then url=http://export.arxiv.org/api/query?id_list=$number
+	   else url=http://export.arxiv.org/api/query?id_list=$section/$number
+	   fi
+	   (set -xv ; wget -L -U Macaulay2 -o tmp.log -O xml/$fn.tmp $url)
+	   if grep -q ERROR tmp.log
+	   then cat tmp.log >&2
+	        exit 1
+	   fi
+	   if ! [ -s xml/$fn.tmp ]
+	   then echo file has zero length: xml/$fn.tmp
+	        exit 1
+	   fi
+	   mv xml/$fn.tmp xml/$fn.xml
+      else : echo okay: xml/$fn.xml >&2
+      fi
+   ) || exit 1
+done
