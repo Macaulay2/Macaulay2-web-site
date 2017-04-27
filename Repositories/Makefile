@@ -6,7 +6,7 @@
 .PHONY : debian cygwin always all index
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
-UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily xenial yakkety
+UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily xenial yakkety zesty
 DEBIAN_RELEASES = etch lenny squeeze wheezy jessie
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
@@ -102,6 +102,7 @@ debian : always
 		    Ubuntu-wily) match="Ubuntu-15.10" ;;\
 		    Ubuntu-xenial) match="Ubuntu-16.04" ;;\
 		    Ubuntu-yakkety) match="Ubuntu-16.10" ;;\
+		    Ubuntu-zesty) match="Ubuntu-17.04" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\

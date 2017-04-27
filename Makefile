@@ -42,3 +42,10 @@ $(TARDIR) :; mkdir "$@"
 find-html:; find . -name doc -prune -false -o -not -name README.html -not -name index.html -not -name index-new.html -not -name README-*.html -not -name FOOTER.html  -name \*.html
 
 404.html: 404-pre.html; index-new-html -f "File not found" -t Style/trailer.html <$< >$@.tmp && mv $@.tmp $@
+all: mirror
+.PHONY : mirror
+mirror:
+	rsync -av . root@www2.macaulay2.com:/var/www/www2.macaulay2.com
+# Local Variables:
+# compile-command: "make "
+# End:
