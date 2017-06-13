@@ -1,3 +1,6 @@
+# the default target ("all") remakes all the index.html pages and then pushes
+# everything to our mirror at www2.macaulay2.com
+
 include Makefile.include
 
 DIRS = \

@@ -1,13 +1,14 @@
 # remember to update these when new releases come out:
-Redirect /Macaulay2/current http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2
-Redirect /Macaulay2/Schubert2 http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Schubert2/html
-Redirect /Macaulay2/Documentation http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Macaulay2Doc/html
-Redirect /Macaulay2/Documentation-dev http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share/doc/Macaulay2/Macaulay2Doc/html
-Redirect /Macaulay2/share http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/share
-Redirect /Macaulay2/doc/Macaulay2/ http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2/
-# remember to also update:
+Redirect /Macaulay2/current http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10
+Redirect /Macaulay2/Schubert2 http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Schubert2/html
+Redirect /Macaulay2/Documentation http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html
+Redirect /Macaulay2/Documentation-dev http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Macaulay2Doc/html
+Redirect /Macaulay2/share http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10/share
+Redirect /Macaulay2/doc/Macaulay2/ http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10/
+# remember also to update:
 #    DOCVERSION in Makefile.include
 #    links in Style/trailer.html
+# remember also to update Style/trailer.html
 
 ## this breaks everything:
 # Options +Includes
@@ -43,9 +44,13 @@ Redirect gone /Macaulay2/doc/Macaulay2-1.4
 Redirect gone /Macaulay2/doc/Macaulay2-1.5
 Redirect gone /Macaulay2/doc/Macaulay2-1.6.0.1-20131031-2
 Redirect gone /Macaulay2/doc/Macaulay2-1.6
-Redirect gone /Macaulay2/doc/Macaulay2-1.7
+Redirect /Macaulay2/doc/Macaulay2-1.7 http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.9.2
 Redirect gone /Macaulay2/doc/Macaulay2-1.8
 Redirect gone /Macaulay2/doc/Macaulay2-1.8.1
+Redirect gone /Macaulay2/doc/Macaulay2-1.8.2
+Redirect gone /Macaulay2/doc/Macaulay2-1.9
+Redirect gone /Macaulay2/doc/Macaulay2-1.9.1
+
 Redirect gone /Macaulay2/1.2.99
 Redirect gone /Macaulay2/Downloads/SourceCode/Macaulay2-0.8.60-porting-src.tar.gz
 Redirect gone /Macaulay2/Downloads/SourceCode/Macaulay2-0.8.99-porting-src.tar.gz
