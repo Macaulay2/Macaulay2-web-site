@@ -47,8 +47,9 @@ find-html:; find . -name doc -prune -false -o -not -name README.html -not -name 
 404.html: 404-pre.html; index-new-html -f "File not found" -t Style/trailer.html <$< >$@.tmp && mv $@.tmp $@
 all: mirror
 .PHONY : mirror
+
 mirror:
-	rsync -av . root@www2.macaulay2.com:/var/www/www2.macaulay2.com
+	rsync -a --delete . root@www2.macaulay2.com:/var/www/www2.macaulay2.com/Macaulay2/.
 # Local Variables:
 # compile-command: "make "
 # End:
