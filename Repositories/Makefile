@@ -7,7 +7,7 @@
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
 UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily xenial yakkety zesty
-DEBIAN_RELEASES = etch lenny squeeze wheezy jessie
+DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
 
@@ -108,6 +108,7 @@ debian : always
 		    Debian-squeeze) match="Debian-6.0" ;;\
 		    Debian-wheezy) match="Debian-7.0" ;;\
 		    Debian-jessie) match="Debian-8.*" ;;\
+		    Debian-stretch) match="Debian-9.*" ;;\
 		    Raspbian-wheezy) match="Raspbian-7" ;;\
 		    *) echo unrecognized release: $$release >&2 ; exit 1 ;;\
 	       esac ;\
