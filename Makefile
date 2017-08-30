@@ -4,6 +4,7 @@
 include Makefile.include
 
 DIRS = \
+	Book \
 	Citing \
 	Contributors \
 	Downloads \
@@ -15,6 +16,7 @@ DIRS = \
 	Packages \
 	PublicKeys \
 	Publications \
+	Resources \
 	Style \
 	Questions \
 	Repositories \
