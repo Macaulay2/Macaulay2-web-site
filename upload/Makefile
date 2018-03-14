@@ -1,3 +1,8 @@
+include ../Makefile.include
+
+index : ; index-new-html -l -t ../Style/trailer.html
+
+
 all:
 	sign-files *.rpm *.deb *.tar.gz *.dmg
 	find . -name Macaulay2\*common\* -exec mv -iv '{}' ../Downloads/Common/. ';'
