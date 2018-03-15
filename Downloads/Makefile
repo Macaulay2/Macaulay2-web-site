@@ -17,7 +17,6 @@ index-new: index-new-local
 	cd FreeBSD && index-new-html $(OPTIONS)
 	cd GNU-Linux && index-new-html $(OPTIONS)
 	cd MacOSX && index-new-html $(OPTIONS)
-	cd MacOSX/OldVersions && index-new-html $(OPTIONS)
 	cd Microsoft-Windows && index-new-html $(OPTIONS)
 	cd Copyright && make && index-new-html $(OPTIONS)
 	cd OtherSourceCode && index-new-html $(OPTIONS)
