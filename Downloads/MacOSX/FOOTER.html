@@ -1,29 +1,7 @@
-<h3>After downloading</h3>
-
-<p>
-  For Mac OS X 10.5 and later, remember to run the following command on the dmg
-  file you download with a browser before opening it, or else each time you open one of its html files
-  later with a browser, you will be warned by the browser with a pop-up dialogue box.
-</p>
-<pre>
-    xattr -d com.apple.quarantine Macaulay2*.dmg
-</pre>
-<p>
-  If the system responds "No such xattr: com.apple.quarantine", then
-  the file was not quarantined, and everything should be fine.
-</p>
-<p>
-  Alternatively, you could have used something like the following command to download the
-  file, without quarantine.
-</p>
-<pre>
-    curl http://www.math.uiuc.edu/Macaulay2/Downloads/MacOSX/Macaulay2-1.4-x86_64-MacOS-10.6.dmg -o Macaulay2-1.4-x86_64-MacOS-10.6.dmg
-</pre>
-
 <h3>Installation</h3>
 
 <p>
-  Next, mount the disk image by double-clicking on it. Then drag the <tt>Macaulay2</tt>
+  After downloading, mount the disk image by clicking on it in your browser or by ouble-clicking on it in a Finder window. Then drag the <tt>Macaulay2</tt>
   folder in it to somewhere else on your disk. One good location is your system
   <tt>Applications</tt> folder, at the top level on your main disk.
 </p>
@@ -49,7 +27,8 @@
   </li>
   <li>
     Use <tt>/usr/bin/emacs</tt>: the problem with it is that it is not X aware,
-    and thus must be run in a terminal window.
+    and thus must be run in a terminal window, and that is not good enough.  (Running
+    it in xterm, however, will be better than running in Mac OS X Terminal.)
   </li>
   <li>
     Compile emacs yourself from the source code available
