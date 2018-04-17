@@ -1,0 +1,6 @@
+remember to update the the redirections in .htaccess when new releases come out
+
+remember also to:
+   update DOCVERSION in Makefile.include
+   update links in Style/trailer.html
+   run 'make' in ./Scripts to make the javascript database of documentation for the random documentation function
