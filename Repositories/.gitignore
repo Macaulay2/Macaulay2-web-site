@@ -1,1 +1,12 @@
-/index.html
+index.html
+*.ini.sig
+*.ini
+*.hint
+*.xml
+*.gz
+*.bz2
+*.rpm
+*.deb
+Release*
+Sources*
+binary-*
