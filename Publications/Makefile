@@ -1,6 +1,5 @@
 include ../Makefile.include
-all: index-new
-index-new: README.html; index-new-html -t ../Style/trailer.html
+index: README.html; index-new-html -t ../Style/trailer.html
 README.html: README-top.html README-bottom.html papers.txt Makefile
 	(\
 		cat README-top.html ;\

@@ -3,7 +3,7 @@ include ../Makefile.include
 index : ; index-new-html -l -t ../Style/trailer.html
 
 
-all:
+install:
 	sign-files *.rpm *.deb *.tar.gz *.dmg
 	find . -name Macaulay2\*common\* -exec mv -iv '{}' ../Downloads/Common/. ';'
 	find . -name Macaulay2\*Linux-Generic\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Generic/. ';'
@@ -17,8 +17,8 @@ all:
 	find . -name Macaulay2\*-rhel-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	find . -name Macaulay2\*opensuse\* -exec mv -iv '{}' ../Downloads/GNU-Linux/openSUSE/. ';'
 	find . -name Macaulay2\*-ArchLinux-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Arch/. ';'
-	$(MAKE) -C ../Downloads index-new
-	$(MAKE) -C ../Downloads/Microsoft-Windows index-new-local
-	$(MAKE) -C ../Downloads/Microsoft-Windows/Cygwin index-new
+	$(MAKE) -C ../Downloads index
+	$(MAKE) -C ../Downloads/Microsoft-Windows index-local
+	$(MAKE) -C ../Downloads/Microsoft-Windows/Cygwin index
 	$(MAKE) -C ../Downloads/GNU-Linux/Debian all
-	$(MAKE) -C ../Downloads/MacOSX index-new-local
+	$(MAKE) -C ../Downloads/MacOSX index-local

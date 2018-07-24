@@ -1,6 +1,13 @@
 A typical command for extracting new documentation:
 
-  tar xzf ../upload/Macaulay2-1.11-common.tar.gz
+  tar xzf ../upload/Macaulay2-1.12-common.tar.gz
+
+      or
+
+  tar xzf ../Downloads/Common/Macaulay2-1.12-common.tar.gz
+
+      and then
+
   chmod -R g+w .
 
 See ../.htaccess for some instructions about adding doc for new releases and removing doc for old releases.

@@ -1,2 +1,3 @@
 include ../../Makefile.include
-index-new-local:; index-new-html -l -t `pwd`/../../Style/trailer.html
+index:; index-new-html -t `pwd`/../../Style/trailer.html
+index-local:; index-new-html -l -t `pwd`/../../Style/trailer.html

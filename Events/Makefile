@@ -1,4 +1,4 @@
-index-new all:
+index:
 	~/to/Macaulay2/Scripts/index-new-html -t ~/to/Macaulay2/Style/trailer.html
 	for i in * ;\
 	do if [ -d "$$i" ] ;\
@@ -7,5 +7,5 @@ index-new all:
 		); \
 	   fi ;\
 	done
-local:
+index-local:
 	~/to/Macaulay2/Scripts/index-new-html -l -t ~/to/Macaulay2/Style/trailer.html

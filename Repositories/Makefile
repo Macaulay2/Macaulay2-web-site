@@ -3,6 +3,8 @@
 #   eval `gpg-agent --daemon --pinentry-program /usr/bin/pinentry-curses`
 # and then to run "make" in a terminal window rather than in an emacs buffer.
 
+include ../Makefile.include
+
 .PHONY : debian cygwin always all index
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
@@ -17,7 +19,7 @@ SUFFIX =
 # Ubuntu repository is at http://us.archive.ubuntu.com/ubuntu/
 
 # SUFFIX=-beta
-default: index-new
+index:
 debian-only : test-signature debian debian-signature
 all: default
 test-signature:
@@ -29,12 +31,10 @@ index-repositories : cygwin debian debian-signature
 # links:
 # 	find . -type d | while read x ; do [ -a "$$x"/index.css ] || ln -v ../index.css "$$x" ; done
 # 	find . -type d | while read x ; do [ -a "$$x"/icon.gif ] || ln -v ../icon.gif "$$x" ; done
-index-new:
-	~/to/Macaulay2/Scripts/index-new-html -t ~/to/Macaulay2/Style/trailer.html
-#	~/to/Macaulay2/Scripts/index-new-html --shadow
+index:; index-new-html -t ~/to/Macaulay2/Style/trailer.html
 
-index-new-cygwin:
-	cd cygwin && ~/to/Macaulay2/Scripts/index-new-html -t ~/to/Macaulay2/Style/trailer.html
+index-cygwin:
+	cd cygwin && index-new-html -t ../Style/trailer.html
 
 always : 
 cygwin : always ; $(MAKE) -C cygwin
