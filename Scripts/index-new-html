@@ -73,7 +73,7 @@ function item () {
 
     if [ -f "$FILENAME".comment ]
     then echon " -- "
-	 cat "$FILENAME".comment
+	 echon $(cat "$FILENAME".comment)
     fi
 
     $SIZE && [ -f "$FILENAME" ] && echon ", "$(filesize "$FILENAME")" bytes"
