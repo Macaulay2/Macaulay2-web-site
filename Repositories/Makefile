@@ -19,7 +19,7 @@ SUFFIX =
 # Ubuntu repository is at http://us.archive.ubuntu.com/ubuntu/
 
 # SUFFIX=-beta
-index:
+default : debian-only index
 debian-only : test-signature debian debian-signature
 all: default
 test-signature:
@@ -27,7 +27,6 @@ test-signature:
 	echo hi there > test-sig.txt
 	sign-files test-sig.txt
 	rm -f test-sig.*
-index-repositories : cygwin debian debian-signature 
 # links:
 # 	find . -type d | while read x ; do [ -a "$$x"/index.css ] || ln -v ../index.css "$$x" ; done
 # 	find . -type d | while read x ; do [ -a "$$x"/icon.gif ] || ln -v ../icon.gif "$$x" ; done

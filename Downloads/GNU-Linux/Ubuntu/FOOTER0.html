@@ -23,6 +23,7 @@
   <tr> <td>U<!--U-->buntu 17.04</td> <td>zesty</td> </tr>
   <tr> <td>U<!--U-->buntu 17.10</td> <td>artful</td> </tr>
   <tr> <td>U<!--U-->buntu 18.04</td> <td>bionic</td> </tr>
+  <tr> <td>U<!--U-->buntu 18.10</td> <td>cosmic</td> </tr>
   <tr> <td>D<!--D-->ebian 7</td> <td>wheezy</td> </tr>
   <tr> <td>D<!--D-->ebian 8</td> <td>jessie</td> </tr>
   <tr> <td>D<!--D-->ebian 9</td> <td>stretch</td> </tr>
@@ -71,10 +72,14 @@
     Use the command "<tt>sudo emacs /etc/apt/sources.list</tt>" to edit the file and add that line.
   </li>
   <li>
-    Use the following command, as root, (with XXXX replaced, as described
+    Alternatively, use the following command, as root, (with XXXX replaced, as described
     above) to add the line to a separate file where apt-get can find it.
 <pre>
     echo 'deb http://www.math.uiuc.edu/Macaulay2/Repositories/Ubuntu XXXX main' >/etc/apt/sources.list.d/macaulay2.list
+</pre>
+    To get a command shell as root, the following command can be used:
+<pre>
+    sudo bash
 </pre>
   </li>
 </ul>

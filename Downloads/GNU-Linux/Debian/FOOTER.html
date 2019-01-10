@@ -63,10 +63,14 @@
     Use the command "<tt>sudo emacs /etc/apt/sources.list</tt>" to edit the file and add that line.
   </li>
   <li>
-    Use the following command, as root, (with XXXX replaced, as described
+    Alternatively, use the following command, as root, (with XXXX replaced, as described
     above) to add the line to a separate file where apt-get can find it.
 <pre>
     echo 'deb http://www.math.uiuc.edu/Macaulay2/Repositories/Debian XXXX main' >/etc/apt/sources.list.d/macaulay2.list
+</pre>
+    To get a command shell as root, the following command can be used:
+<pre>
+    sudo bash
 </pre>
   </li>
 </ul>
