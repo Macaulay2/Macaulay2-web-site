@@ -1,7 +1,7 @@
-<h2>Instructions for installing Macaulay 2 with root access</h2>
+<h2>Instructions for installing Macaulay2 with root access</h2>
 
 <p>
-  Prepare for installing Macaulay 2 (with apt-get, gdebi-gtk, or the
+  Prepare for installing Macaulay2 (with apt-get, gdebi-gtk, or the
   Synaptic Package Manager) by adding the following line to the file
   <tt>/etc/apt/sources.list</tt>, suitably modified as described in the table below:
 </p>
@@ -84,8 +84,15 @@
   the "Software Sources" window (or program), as mentioned above, but this time
   select the "Authentication" tab.  Click on the "Import Key File..." button,
   and select the previously downloaded public key file, <tt>Macaulay2-key</tt>.
-  To add it to the key ring manually use the command "<tt>sudo apt-key add
-  Macaulay2-key</tt>".  Alternatively, the downloading and installation of
+  To add it to the key ring manually use the command "<tt>sudo apt-key add Macaulay2-key</tt>".
+</p>
+
+<p>
+  Another source for the key is from <a href="http://keys.gnupg.net/pks/lookup?op=get&amp;search=0x53F8BD99F40DCB31">keys.gnupg.net</a>.
+</p>
+
+<p>
+  Alternatively, the downloading and installation of
   the key can be accomplished by the following single command
 </p>
 <pre>
@@ -104,14 +111,14 @@
 </p>
 
 <p>
-  Later upgrades to Macaulay 2 will become available to you almost
+  Later upgrades to Macaulay2 will become available to you almost
   automatically.  You can periodically run the Synaptic Package Manager and
   check for updates by clicking on "Reload" and then on "Mark all Upgrades".
   Alternatively, when an orange starburst icon is occasionally displayed in
   your task bar indicating that updates are available from Debian headquarters,
   you may click on the icon to activate the Update Manager, and then click on
   "Check" to download any new package information from the software channels,
-  including the Macaulay 2 repository.  If an update of Macaulay 2 is
+  including the Macaulay2 repository.  If an update of Macaulay2 is
   available, it will be displayed at the bottom of the list, after the
   Important Security Updates and the Recommended Updates, among the Other
   Updates.  Press "Install Updates" to have it installed, along with the
@@ -121,7 +128,7 @@
 </p>
 
 <p>
-  Another way to install Macaulay 2, after that line are added to
+  Another way to install Macaulay2, after that line is added to
   /etc/apt/sources.list, is with these command lines.
 </p>
 
@@ -148,13 +155,13 @@
 <!-- </p> -->
 
 <p>
-  The preferred way to run Macaulay 2 is with emacs, but the installation
+  The preferred way to run Macaulay2 is with emacs, but the installation
   procedure described above doesn't teach emacs how to do that.  So, after
-  Macaulay 2 is successfully installed as described above, the first thing you
-  should do is to run M2 and to issue the Macaulay 2
+  Macaulay2 is successfully installed as described above, the first thing you
+  should do is to run M2 and to issue the Macaulay2
   command <b>setupEmacs()</b>.  That will ensure that the next time you start
   emacs, it knows how to edit *.m2 files, and it knows that when you press the
-  f12 key, it should start Macaulay 2 running in an interactive buffer.
+  f12 key, it should start Macaulay2 running in an interactive buffer.
 </p>
 
 <p>
@@ -166,7 +173,7 @@
   independent files and having "common" in the name.
 </p>
 
-<h2>Instructions for installing Macaulay 2 without root access</h2>
+<h2>Instructions for installing Macaulay2 without root access</h2>
 
 <p>
   You may <a href="../InstallingFromTarFiles.txt">install from a tar file</a>,

@@ -1,4 +1,7 @@
 include ../Makefile.include
+
+I = ../doc/Macaulay2-$(DOCVERSION)/share/doc/Macaulay2/*
+
 index:
 
 packages: .
@@ -42,7 +45,6 @@ index:; index-new-html -t `pwd`/../Style/trailer.html
 
 index-local:; index-new-html -l -t `pwd`/../Style/trailer.html
 
-I = ../doc/Macaulay2-$(DOCVERSION)/share/doc/Macaulay2/*
 
 
 
