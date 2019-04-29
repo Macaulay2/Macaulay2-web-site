@@ -17,3 +17,20 @@ or just remove it.
   <i>Macaulay2</i> (with no internal space) instead of to <i>Macaulay 2</i>.
   You can help us find your preprints and papers that refer to it by doing the same.
 </p>
+<p>
+  If you wish to cite an existing <i>Macaulay2</i> package, you may use the package <i>PackageCitations</i>.  Here is
+  an example of its use:
+  <pre>
+    i3 : loadPackage "PackageCitations"
+
+    o3 = PackageCitations
+
+    i5 : cite "IntegralClosure"
+
+    o5 = @misc{IntegralClosureSource,
+            title = {{IntegralClosure: A \emph{Macaulay2} package. Version~1.0}},
+            author = {Amelia Taylor and David Eisenbud and Mike Stillman},
+            howpublished = {A \emph{Macaulay2} package available at \url{https://github.com/Macaulay2/M2/tree/master/M2/Macaulay2/packages}}
+         }
+</pre>
+</p>  
