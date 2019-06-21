@@ -1,9 +1,6 @@
-
-
 include ../Makefile.include
 
 index : ; index-new-html -l -t ../Style/trailer.html
-
 
 install:
 	sign-files *.rpm *.deb *.tar.gz *.dmg
@@ -15,8 +12,8 @@ install:
 	find . -name Macaulay2\*FreeBSD\* -exec mv -iv '{}' ../Downloads/FreeBSD/. ';'
 	find . -name Macaulay2\*Darwin\* -exec mv -iv '{}' ../Downloads/MacOSX/. ';'
 	find . -name Macaulay2\*Fedora\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Fedora/. ';'
-	find . -name Macaulay2\*-ScientificLinux-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
-	find . -name Macaulay2\*-rhel-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
+	find . -name Macaulay2\*-Linux-scientific-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
+	find . -name Macaulay2\*-Linux-rhel-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	find . -name Macaulay2\*opensuse\* -exec mv -iv '{}' ../Downloads/GNU-Linux/openSUSE/. ';'
 	find . -name Macaulay2\*-ArchLinux-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Arch/. ';'
 	$(MAKE) -C ../Downloads index
