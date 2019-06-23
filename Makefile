@@ -16,6 +16,7 @@ DIRS = \
 	PublicKeys \
 	Publications \
 	Resources \
+	Scripts \
 	Style \
 	Questions \
 	Repositories \

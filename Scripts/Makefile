@@ -1,6 +1,6 @@
 include ../Makefile.include
 
-all: citation-table.js randomize
+all: citation-table.js randomize documentation-table.js
 citation-table.js: ../Publications/papers.txt Makefile citation.awk
 	grep href <$< |sed -e "s/\\\\' *e/\\&eacute;/" -e "s/'/\\\\'/g" | awk -f citation.awk >$@
 randomize: documentation-table.js
