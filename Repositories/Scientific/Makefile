@@ -1,4 +1,5 @@
-# I'm manually hard linking the appropriate rpm files into 6/ or 7/ before running this:
+# I'm manually hard linking the appropriate rpm files into 6/ or 7/ before running this.
+# Also, use rpmsign --add-sign *.rpm to add signatures to the rpm files
 
 make-repos:
 	for i in 6 7 ;						\
