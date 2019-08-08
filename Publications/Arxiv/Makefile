@@ -40,10 +40,11 @@ search-results-url-fixed : search-results-url false-references additional-result
 	wc -l $@
 
 isSorted-old-references.keyed: old-references.keyed
-	 <$^ sort -b | uniq >$^-sorted && cmp $^ $^-sorted && rm $^-sorted
+	<$^ sort -b | uniq >$^-sorted && cmp $^ $^-sorted && rm $^-sorted
+	touch $@
 isSorted-new-references.keyed: new-references.keyed
-	 <$^ sort -b | uniq >$^-sorted && cmp $^ $^-sorted && rm $^-sorted
-
+	<$^ sort -b | uniq >$^-sorted && cmp $^ $^-sorted && rm $^-sorted
+	touch $@
 joined-references : old-references.keyed new-references.keyed isSorted-old-references.keyed isSorted-new-references.keyed
 	join --nocheck-order -v 1 -t "	" -o '1.2 1.3 1.4 1.5 1.6' old-references.keyed new-references.keyed > $@.tmp
 	join --nocheck-order -a 2 -t "	" -o '2.2 2.3 2.4 2.5 2.6' old-references.keyed new-references.keyed >>$@.tmp
