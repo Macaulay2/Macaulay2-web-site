@@ -14,3 +14,6 @@ documentation-table.js: always
 		awk -F : -f documentation.awk >$@.tmp)
 	mv $@.tmp $@
 always:
+
+index:
+	index-new-html -t ../Style/trailer.html
