@@ -6,7 +6,9 @@
 # create empty directory xml and populate it with hard links to the old results
 # create empty file "additional-results"
 
-# after running "make" successfully, redirect the link ../joined-references to this directory
+# after running "make" successfully, ensure that the link ../joined-references
+# points to this directory and run "make" there to list the results in the web
+# page
 
 all : joined-references
 
