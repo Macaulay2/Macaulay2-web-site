@@ -66,3 +66,6 @@ monthly-tallies : joined-references
 
 bak:; rsync -av --delete --delete-excluded --exclude html --exclude xml --exclude 'tmp.*' ../arxiv-references/. u00:tmp/backups/arxiv-references/.
 install:; rsync -av --delete --delete-excluded --exclude html --exclude xml --exclude 'tmp.*' ../arxiv-references/. u00:to/Macaulay2/Publications/arxiv-references/.
+
+tally-by-year: joined-references
+	<$^ sed 's=^\(..\).\(..\).*=\1\2=' | uniq -c
