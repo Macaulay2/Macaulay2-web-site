@@ -2,7 +2,7 @@
 # Also, use rpmsign --add-sign *.rpm to add signatures to the rpm files
 
 make-repos:
-	for i in 6 7 ;						\
+	for i in 6 7 8 ;					\
 	do ( set -x ;						\
 	     cd "$$i" ;						\
 	     find . -name \*.rpm > packages.tmp ;		\

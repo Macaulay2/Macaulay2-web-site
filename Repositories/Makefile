@@ -8,7 +8,8 @@ include ../Makefile.include
 .PHONY : debian cygwin always all index
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
-UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily xenial yakkety zesty artful bionic cosmic disco eoan
+UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily \
+		  xenial yakkety zesty artful bionic cosmic disco eoan focal
 DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch buster
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
@@ -107,6 +108,7 @@ debian : always
 		    Ubuntu-cosmic) match="Ubuntu-18.10" ;;\
 		    Ubuntu-disco) match="Ubuntu-19.04" ;;\
 		    Ubuntu-eoan) match="Ubuntu-19.10" ;;\
+		    Ubuntu-focal) match="Ubuntu-20.04" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
