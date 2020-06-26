@@ -1,0 +1,77 @@
+To learn more about most of these items, load the Sheafhom file shh.m2
+and use the help facility.  For instance, to learn about
+CombinatorialSheaf, type
+
+   help CombinatorialSheaf
+
+at a Macaulay 2 prompt.  Also, see the tutorial file.
+
+CLASSES
+
+CombinatorialSheaf
+CombinatorialSheafMap
+Cone
+Fan
+IctvSheaf
+Poset
+RankedPoset
+
+CREATING OBJECTS AND MAPS
+
+cone
+fan
+ictvSheaf
+pairingIH
+perversityMap
+poset
+quotientMapFromPairing
+rankedPoset
+
+FUNCTIONS FOR COMBINATORIAL SHEAVES AND MORPHISMS
+
+cokernelMap
+globalSections
+hypercoh
+hypercohomology
+kernelMap
+pairing
+stalk
+stalkCohomology
+stalkMap
+
+PERVERSITIES
+
+logPerversity
+middlePerversity
+sublogPerversity
+topPerversity
+zeroPerversity
+
+FUNCTIONS FOR POSETS
+
+doEdges
+doVertices
+openStar
+puncturedStar
+
+HOMOLOGICAL ALGEBRA
+
+flabbyTruncationMap
+kunneth
+pairingQuotientMap
+
+FUNCTIONS FOR CONES AND FANS
+
+perp
+perpAlgebra
+perpInclusion
+rank
+span
+
+LOWER-LEVEL FUNCTIONS
+
+distributeTensorOverExteriorAlgebraOfDirectSum
+globalSectionsWithEdgeMorphisms
+internalMap
+makeTensorObject
+totalExteriorPower

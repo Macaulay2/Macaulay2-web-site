@@ -1,0 +1,1473 @@
+;;; Here are some examples of how to use Sheafhom.
+
+;;; ---------- GETTING STARTED ----------
+
+;;; I'll assume you have copied into your current directory the files
+;;;    csparsez.lisp
+;;;    homolalg.lisp
+;;; or the compiled versions of these files.  (Compiling the files is
+;;; not strictly necessary, but it makes them run much faster; it will
+;;; be necessary if you do big computations.  See the main Web page
+;;; for how to compile the files.)
+
+;;; The file you're reading right now is the output of an interactive
+;;; session with Lisp.  You can read this file in one window, start up
+;;; Lisp in another window, and type in the commands as you go along.
+
+;;; As you've probably noticed, the semicolon is the comment
+;;; character: anything on a line to the right of a ; is ignored.
+;;; It's conventional to use ;;; for a paragraph of comments.
+
+;;; When we apply a function f to [say] two arguments x, y, we write
+;;; f(x,y) in mathematics.  In Lisp, however, one writes (f x y).
+;;; Once you're used to this convention, you'll find it makes things
+;;; much more flexible.  A call to a function is just like a piece of
+;;; data: it is a list with three elements, f, x, and y.  This puts f
+;;; on a more equal footing with x and y.
+
+;;; To start Lisp, you type something like    lisp    at the operating
+;;; system's prompt.  Lisp will then take over and be an `operating
+;;; system' in its own right.  There will be a Lisp prompt, typically
+;;;  *  or  >   You type commands at the Lisp prompt, using the syntax
+;;; (f x y ...), and Lisp prints out a response to each command.
+
+;;; If you make a mistake while entering a command, you will probably
+;;; end up in the debugger, a sub-system of Lisp which has a slightly
+;;; different prompt.  You can get back to a Lisp prompt by quitting
+;;; out of the debugger, either by choosing the `abort' option from
+;;; the menu of choices provided, or by typing something like  quit .
+
+;;; To stop the Lisp session for good, type    (quit)    or    (bye)
+;;; at a Lisp prompt.  Don't forget the parentheses.
+
+;;; Now let's start a Lisp session.
+
+littlewood:/w/mmcconn/lisp/sheafhom/jun97{41}: lisp
+; Loading #p"/w/mmcconn/init.lisp".
+;; Loading #p"/w/mmcconn/lisp/runtimPa.sparcf".
+;; Loading #p"/w/mmcconn/lisp/crosher2.sparcf".
+CMU Common Lisp 17f, running on littlewood
+Send bug reports and questions to your local CMU CL maintainer, or to
+cmucl-bugs@cs.cmu.edu.
+Loaded subsystems:
+    Python 1.0, target SPARCstation/Solaris 2
+    CLOS based on PCL version:  September 16 92 PCL (f)
+
+;;; Load the file "homolalg" with the following command.  The file
+;;; "csparsez" will be loaded automatically.  The * is CMU Common
+;;; Lisp's system prompt.
+
+* (load "homolalg")
+
+; Loading #p"/w/mmcconn/lisp/sheafhom/jun97/homolalg.sparcf".
+;; Loading #p"/w/mmcconn/lisp/sheafhom/jun97/csparsez.sparcf".
+T
+
+;;; ---------- LOW LEVEL COMMANDS ----------
+
+;;; Let's do a very elementary example involving a single
+;;; qvsp-morphism.  "qvsp" is an abbreviation for Q-vector space,
+;;; i.e. vector space over the rationals.
+
+;;; There is a family of functions called (user-input-<name> ...)
+;;; that prompts the user to input objects from the keyboard.  [A
+;;; programmer would use (make-<name> ...), which doesn't perform
+;;; interactive prompting.]  Almost every type of object has its own
+;;; user-input-<...> function: qvsp, chain-map, toric-variety, etc.
+
+;;; Let's ask Lisp to give us the documentation on the function
+;;; user-input-qvsp-morphism.  The command (doc 'thing) gives you the
+;;; on-line documentation on   thing  .  Don't forget the single quote
+;;; mark and the parentheses.
+
+* (doc 'user-input-qvsp-morphism)
+This function takes two arguments, so and ta, which are resp. the
+source and the target of a qvsp-morphism.  [To make these objects,
+call (make-qvsp <dim>).]  The function also takes an optional third
+argument mm.  The idea is that, if (dim so) is n and (dim ta) is m, the
+function will set up an m-by-n matrix of integers representing your
+morphism with respect to the standard bases.  There are basically three
+ways the matrix can be set up:
+(.) If mm is not provided or is nil, the system will create a new
+    matrix and prompt you interactively for its entries.
+(.) If mm is a matrix, the system will prompt you interactively for
+    its entries and write these into mm, destroying any previous
+    values.
+(.) If mm is a list, either nested [like '((5 6 7) (8 9 10))] or not
+    nested [like '(5 6 7 8)], then the matrix will be set up in the
+    same way that user-input-matrix handles these cases [see doc.]
+   See the documentation on qvsp-morphism, matrix, and
+user-input-matrix for more information.
+   Example: If you have vector spaces v and w defined, and you want
+to define a morphism from v to w, type (user-input-qvsp-morphism v w).
+   Example: If you want to define a qvsp-morphism without having
+defined the vector spaces first, try something like
+(user-input-qvsp-morphism (make-qvsp 5) (make-qvsp 3))
+This amounts to creating two qvsp's on the fly, and then setting up a 
+map between them given by a 3-by-5 matrix.
+   Example: If you want to create a qvsp-morphism as in the previous
+example, and the matrix you want it to have is
+1 1 1 1 1
+2 3 4 5 6
+0 1 9 8 7
+then type
+(user-input-qvsp-morphism (make-qvsp 5) (make-qvsp 3)
+     '((1 1 1 1 1) (2 3 4 5 6) (0 1 9 8 7)))
+or, perhaps more simply,
+(user-input-qvsp-morphism (make-qvsp 5) (make-qvsp 3)
+     '(1 1 1 1 1 2 3 4 5 6 0 1 9 8 7)).
+NIL
+
+;;; Well, that tells us that before we can define a qvsp-morphism f, we
+;;; have to use (make-qvsp ...) to define a qvsp [rational vector
+;;; space] for the source of f and a qvsp for the target.  We should
+;;; define a variable whose value is a qvsp.  To set a variable's
+;;; value, use
+;;;
+;;;    (setf <variable-name> (<your-function> ...))
+;;;
+;;; Lisp will warn you that it's making <variable-name> "special", but
+;;; don't worry about that.
+
+;;; We now create a qvsp.
+
+* (setf v4 (make-qvsp 4))
+Warning:  Declaring V4 special.
+
+#<(QVSP (DIM 4))>
+
+;;; This output tells that the value of v4 is a Q-vector space of
+;;; dimension 4.
+
+;;; By the way, all variable names and symbols in Lisp are
+;;; case-insensitive.  v4 and V4 are the same thing.
+
+;;; Sheafhom assumes v4 has a fixed basis e1, e2, e3, e4.  We now set
+;;; the value of f to be a morphism from v4 to v4 given by a specified
+;;; matrix in coordinates with respect to that basis.  We use the
+;;; first of the three methods labeled (.) in the documentation on
+;;; user-input-qvsp-morphism printed out above.
+
+* (setf f (user-input-qvsp-morphism v4 v4))
+Warning:  Declaring F special.
+
+Please enter your 4 by 4 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?-12 30 -30 12
+
+Row 1?-60 146 -138 56
+
+Row 2?-48 122 -126 50
+
+Row 3?72 -172 156 -64
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 4))>) (TO #<(QVSP (DIM 4))>)
+   (MATRIX 
+-12   30  -30  12 
+-60  146 -138  56 
+-48  122 -126  50 
+ 72 -172  156 -64 ))>
+
+;;; Let's do something with f.  What is its kernel?
+
+* (ker f)
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 4))>)
+   (MATRIX 
+2  3 
+1  2 
+1  0 
+2 -2 ))>
+
+;;; Notice that (ker f) is not just a vector space.  It is a kernel
+;;; morphism, an injection whose image is the subspace K' of v4 that we
+;;; usually call the kernel.  [A basis for the subspace K' is given by
+;;; the column vectors 2,1,1,2 and 3,2,0,-2.]  The source of the
+;;; morphism (ker f) is a space K of dimension 2, conceptually lying
+;;; outside of v4 but isomorphic to K' via the map (ker f).
+
+;;; Since the dimension of the kernel of f is 2, its rank had better
+;;; be 4 - 2 = 2.  Let's check:
+
+* (rank f)
+
+2
+
+;;; Here is the image of f.  Again, this is not a subspace I' of the
+;;; target space of f, but rather an injection from a new
+;;; two-dimensional space I into v4, where I is isomorphic to I' under
+;;; the image morphism.  A basis of I' is given by the column vectors
+;;; 1,3,5,-2 and 0,-2,1,4.
+
+* (im f)
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 4))>)
+   (MATRIX 
+ 1  0 
+ 3 -2 
+ 5  1 
+-2  4 ))>
+
+;;; Let's look at the cokernel.  This is a surjection from v4 onto a
+;;; new two-dimensional space C, which can be regarded as the quotient
+;;; space  v4/I' .
+
+* (coker f)
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 4))>) (TO #<(QVSP (DIM 2))>)
+   (MATRIX 
+-4  2 0  1 
+-1 -5 2 -3 ))>
+
+;;; For more on how Sheafhom approached ker and coker, see the
+;;; documentation on qvsp-morphism, especially the big diagram there.
+;;; Type (doc 'qvsp-morphism) at Lisp prompt.
+
+;;; Since (ker f) is injective, its own kernel is zero.  A zero
+;;; morphism is represented by a special type of qvsp-morphism called
+;;; a zero-qvsp-morphism.  No matrix is stored in a
+;;; zero-qvsp-morphism, which keeps us from wasting space by storing
+;;; large matrices of zeroes.
+
+* (ker (ker f))
+ 
+#<(ZERO-QVSP-MORPHISM (FROM #<ZERO-QVSP>) (TO #<(QVSP (DIM 2))>))>
+
+;;; By the way, this zero morphism was created and stored when
+;;; Sheafhom first computed (ker f).  This saves time in large
+;;; programs--in general, (ker f) may be used later in a context where
+;;; we have forgotten that it is a kernel, and it would be wasteful to
+;;; have to recompute (ker (ker f)).
+
+;;; In the same spirit, (rank f) was known as soon as we computed
+;;; (ker f), and (coker f) was created and stored when we first
+;;; computed (im f).  This happens automatically, and is transparent
+;;; to the user.
+
+;;; By eyeballing the matrix for (ker f) [taking 3 times the first
+;;; column minus 2 times the second], we see that the column vector with
+;;; coordinates 0,-1,3,10 should map to zero under f.  Let's test
+;;; this.  There is no such thing as a "vector" in Sheafhom--for in
+;;; category theory, objects do not have to have elements.  But there
+;;; is a canonical one-dimensional qvsp called *groundfield*, which we
+;;; imagine to be a copy of Q with a distinguished basis 1.  A vector
+;;; in V can be thought of as a morphism from *groundfield* to V; it's
+;;; understood that the element 1 in Q maps to the "element" of V that
+;;; you want.
+
+;;; By the way, for any morphism g in Sheafhom, (source g) or (sou g) gives
+;;; the source ["domain"] of g, and (target g) or (tar g) gives the target
+;;; space.  The vector 0,-1,3,10 lives in (source f).
+
+;;; We give the entries of the matrix for vector-incl as a third
+;;; argument to (user-input-qvsp-morphism ...).
+
+* (setf vector-incl (user-input-qvsp-morphism
+                      *groundfield*
+                      (source f)
+                      '(0 -1 3 10)))
+Warning:  Declaring VECTOR-INCL special.
+
+#<(QVSP-MORPHISM (FROM #<GROUNDFIELD>) (TO #<(QVSP (DIM 4))>)
+   (MATRIX 
+ 0 
+-1 
+ 3 
+10 ))>>
+
+;;; f sends 0,-1,3,10 to zero if and only if the composition of f with the
+;;; map vector-incl is zero.  Let's test this.
+
+* (compose f vector-incl)
+
+#<(ZERO-QVSP-MORPHISM (FROM #<GROUNDFIELD>) (TO #<(QVSP (DIM 4))>))>
+
+;;; Yes, the composition is zero.  Since it is zero, there should be a
+;;; canonical pullback morphism from *groundfield* to the kernel space
+;;; for f, namely the dotted arrow in the following diagram, where the
+;;; solid vertical arrow is vector-incl:
+;;; 
+;;;           .  .  .  .  .  .  .  .  *groundfield*
+;;;          .                              |
+;;;         .                               |
+;;;        V                                V
+;;; (source (ker f))   c____ker f____>  (source f)  ____f___> ...
+;;; 
+;;; Here is how to construct the dotted arrow.
+
+* (pullback-to-ker vector-incl f)
+
+#<(QVSP-MORPHISM (FROM #<GROUNDFIELD>) (TO #<(QVSP (DIM 2))>)
+   (MATRIX 
+ 3 
+-2 ))>
+
+;;; This shows that the vector 3,-2 in the source of (ker f) is the
+;;; one that maps under f to our given vector.  [After all, we got the
+;;; matrix for vector-incl by taking 3 times the first column of
+;;; the matrix for (ker f) plus -2 times the second.]
+
+;;; Let's check the work in a more categorical way, noting that * in
+;;; Lisp has value equal to the result of the preceding computation
+;;; [like " in Maple].
+
+* (compose (ker f) *)
+
+#<(QVSP-MORPHISM (FROM #<GROUNDFIELD>) (TO #<(QVSP (DIM 4))>)
+   (MATRIX 
+ 0 
+-1 
+ 3 
+10 ))>
+
+;;; This shows that, indeed, the composition of (ker f) and the dotted
+;;; arrow in the diagram above equals the solid arrow in the diagram.
+
+
+;;; ---------- ANTIPODAL MAP ON THE SPHERE ----------
+
+;;; Now we'll use the data types chain-cx [chain complex] and
+;;; chain-map to compute the homology of the 2-sphere, together with
+;;; the action of the antipodal map on the homology.  Like the last
+;;; example, this is not deep mathematics, but it offers a simple
+;;; illustration of what Sheafhom can do.
+
+;;; For any n, the n-sphere can be given a regular cell complex
+;;; structure with two n-cells glued together along an equator, where
+;;; the equator is an [n-1]-sphere with the cell structure defined by
+;;; induction.  In total, there are exactly two i-cells for each i =
+;;; 0,...,n.  We imagine each cell to be embedded in R^{i+1} as a
+;;; hemisphere in the standard way.  Give the first i-cell any
+;;; orientation, and give the second i-cell the orientation induced by
+;;; reflecting in the i-dimensional hyperplane spanned by the
+;;; [i-1]-dimensional equatorial sphere.  Since this reflection fixes
+;;; the [i-1]-sphere pointwise, the matrix of the cellular boundary
+;;; operator is
+;;; 
+;;;         [  1  1 ]
+;;;         [ -1 -1 ]
+;;; 
+;;; in all degrees.
+
+;;; Using these ideas, let's set up a chain-cx s2 which computes the
+;;; homology of the 2-sphere.  To learn how to set it up, we check the
+;;; documentation.
+
+* (doc 'user-input-chain-cx)
+The input should be a vector, each of whose entries is a qvsp.  To
+make a vector with entries a0, a1, ..., an, use (vector a0 a1 ... an).
+Example:
+  (user-input-chain-cx (vector (make-qvsp 4) (make-qvsp 6) (make-qvsp 4)))
+makes a chain-cx with objects of dimension 4, 6, and 4 in degrees 0,
+1, and 2 respectively.  The user will be prompted to enter the
+boundary morphisms interactively.
+NIL
+
+;;; I want s2 to have qvsp's a0, a1 and a2, each of dimension 2.
+;;; Accordingly, I call user-input-chain-cx, giving it as input a
+;;; vector of three expressions (make-qvsp 2).  The function will
+;;; prompt me to enter the cellular boundary operators.
+
+* (setf s2 (user-input-chain-cx
+             (vector (make-qvsp 2)
+                     (make-qvsp 2)
+                     (make-qvsp 2))))
+Warning:  Declaring S2 special.
+
+
+For the map from degree one to zero:
+Please enter your 2 by 2 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?1 1
+
+Row 1?-1 -1
+
+
+For the map from degree two to one:
+Please enter your 2 by 2 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?1 1
+
+Row 1?-1 -1
+
+As a check on your input, I have verified that the composition of any two
+consecutive maps is zero.
+#<(CHAIN-CX #(#<(QVSP (DIM 2))> #<(QVSP (DIM 2))> #<(QVSP (DIM 2))>))>
+
+;;; What is the homology of the 2-sphere?
+
+* (homology s2)
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<(GRADED-OBJECT
+       #(#<(QVSP (DIM 2))> #<(QVSP (DIM 1))> #<(QVSP (DIM 1))>))>)
+   (TO #<(GRADED-OBJECT #(#<(QVSP (DIM 1))> #<ZERO-QVSP> #<(QVSP (DIM 1))>))>)
+   (WITH-MAPS-OF-RANK #(1 0 1)))>
+
+;;; Uh, that's not very enlightening.  Why is homology a graded _morphism_?
+;;; Because homology is a _cokernel_, the cokernel of the map
+;;; [chains in degree i+1] --bdry--> [cycles in degree i].  If you want
+;;; the homology spaces, take the target of the homology map.
+
+* (target *)
+
+#<(GRADED-OBJECT #(#<(QVSP (DIM 1))> #<ZERO-QVSP> #<(QVSP (DIM 1))>))>
+
+;;; This says that H_0(2-sphere; Q) has dimension 1, H_1 has dim 0,
+;;; and H_2 has dimension 1.
+
+;;; If all you want are these dimensions [the Betti numbers], here are
+;;; two more ways to get the information.
+
+* (betti-numbers s2) ; easiest way to get Betti numbers
+
+#(1 0 1)
+
+* (term 2 (target (homology s2))) ; getting the 2nd term of a graded-object
+
+#<(QVSP (DIM 1))>
+
+;;; Now let's find the action of the antipodal map on this homology.  It
+;;; is easy to see that with our orientation conventions, the antipodal map
+;;; interchanges the two i-cells, multiplying the orientation of each by
+;;; (-1)^i.  Let's make a chain-map from s2 to s2 that does this.
+
+* (doc 'user-input-chain-map)
+The input should be two chain-cx's, which are to be the source and
+the target of the chain map.  You will be prompted to enter the maps
+between the chain-cx's in each degree.
+NIL
+
+* (setf s2-map (user-input-chain-map s2 s2))
+Warning:  Declaring S2-MAP special.
+
+For the map in degree zero:
+Please enter your 2 by 2 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?0 1
+
+Row 1?1 0
+
+For the map in degree one:
+Please enter your 2 by 2 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?0 -1
+
+Row 1?-1 0
+
+For the map in degree two:
+Please enter your 2 by 2 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?0 1
+
+Row 1?1 0
+As a check on your input, I have verified that all the squares in the
+chain map commute.
+#<(CHAIN-MAP
+   (FROM
+    #<(CHAIN-CX #(#<(QVSP (DIM 2))> #<(QVSP (DIM 2))> #<(QVSP (DIM 2))>))>)
+   (TO #<(CHAIN-CX #(#<(QVSP (DIM 2))> #<(QVSP (DIM 2))> #<(QVSP (DIM 2))>))>)
+   (WITH-MAPS-OF-RANK #(2 2 2)))>
+
+;;; The function (map-on-homology s2-map) will compute the chain-map from
+;;; (target (homology s2)) to itself that's induced by the antipodal map.
+
+* (map-on-homology s2-map)
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<(GRADED-OBJECT #(#<(QVSP (DIM 1))> #<ZERO-QVSP> #<(QVSP (DIM 1))>))>)
+   (TO #<(GRADED-OBJECT #(#<(QVSP (DIM 1))> #<ZERO-QVSP> #<(QVSP (DIM 1))>))>)
+   (WITH-MAPS-OF-RANK #(1 0 1)))>
+
+;;; To look at the qvsp-morphisms that form the "guts" of a chain-map, or
+;;; of any morphism in Sheafhom, use the function (mat ...).
+
+* (mat *)
+
+#(#<(ID-QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<(QVSP (DIM 1))>))>
+  #<(ZERO-QVSP-MORPHISM (FROM #<ZERO-QVSP>) (TO #<ZERO-QVSP>))>
+  #<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<(QVSP (DIM 1))>)
+     (MATRIX 
+-1 ))>)
+
+;;; This is a vector of three morphisms.  In degree 0, the map on homology
+;;; is by the scalar 1.  In degree 1, the map is zero, since it's between
+;;; two zero-dimensional spaces.  And in degree 2, the map is by the
+;;; scalar -1.
+
+;;; To get only the map on H_2 , do this.
+
+* (term 2 (map-on-homology s2-map))
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<(QVSP (DIM 1))>)
+   (MATRIX 
+-1 ))>
+
+;;; Note that the second call to (map-on-homology s2-map) did not require
+;;; any new computation; after the first call, the value is stored within
+;;; s2-map itself.
+
+;;; (homology ...) and (map-on-homology ...) are computed by diagram chases
+;;; in the spirit of the first part of this file.  For more information on
+;;; chain-cx's, chain-map's, and how the functions work, read the
+;;; documentation obtainable by typing (doc 'chain-cx) and
+;;; (doc 'chain-map).
+
+;;; ------------ REPRESENTATION THEORY ------------
+
+;;; Next, let's solve a problem in elementary representation theory.
+;;; Let G be the finite group S_3, the permutation group on three
+;;; elements.  Let `std' be the standard representation of G [a
+;;; two-dimensional representation whose definition is recalled
+;;; below].  Let std-cubed be the three-fold tensor product
+;;;   std tensor std tensor std    [*1]
+;;; and let wedge3-std-cubed be the third exterior power Wedge^3 of
+;;; [*1].  Problem: decompose wedge3-std-cubed as a direct sum of
+;;; irreducible representations of G.
+
+;;; Sheafhom is not really meant for problems like this, since it does
+;;; not have data types for groups or character tables.  Systems like
+;;; Cayley/Magma or GAP would be better.  Besides, it's easy to find the
+;;; character of [*1], and there are formulas for the character of
+;;; Wedge^3 of a known representation.  Nevertheless, this example shows
+;;; what Sheafhom can do with tensors and wedges.
+
+;;; Let g be the three-cycle (1 2 3) in G.  Let h be the two-cycle (1 2).
+
+;;; Conventions for variable names:
+;;;    -v       ...the vector space V on which a certain
+;;;                representation is defined
+;;;    -3       ...the morphism V --> V giving how g acts on V in this
+;;;                representation 
+;;;    -2       ...the morphism V --> V giving how h acts on V in this
+;;;                representation
+;;;    -squared ...the extensions of items from V to [V tensor V]
+;;;    -cubed   ...the extensions of previous items to
+;;;                [[V tensor V] tensor V]
+;;;    wedge3-  ...the extensions of previous items from a vector space
+;;;                 to Wedge^3 of that vector space
+
+;;; Let's set up a three-dimensional vector space perm-v for the
+;;; permutation representation.
+
+* (setf perm-v (make-qvsp 3))
+Warning:  Declaring PERM-V special.
+
+#<(QVSP (DIM 3))>
+
+;;; If perm-v has basis e1,e2,e3, then g = (1 2 3) acts by
+;;; e1 --> e2 --> e3 --> e1.  We set up the morphism
+;;; perm-3 : perm-v --> perm-v
+;;; that does this.
+
+* (setf perm-3 (user-input-qvsp-morphism perm-v perm-v))
+Warning:  Declaring PERM-3 special.
+
+Please enter your 3 by 3 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?0 0 1
+
+Row 1?1 0 0
+
+Row 2?0 1 0
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 3))>) (TO #<(QVSP (DIM 3))>)
+   (MATRIX 
+0 0 1 
+1 0 0 
+0 1 0 ))>
+
+;;; h = (1 2) acts by e1 --> e2 --> e1 with e3 fixed.  We set up a
+;;; morphism perm-2 that does this.
+
+* (setf perm-2 (user-input-qvsp-morphism perm-v perm-v))
+Warning:  Declaring PERM-2 special.
+
+Please enter your 3 by 3 integer matrix row by row.  After each
+entry, press <space>.  At the end of each row, press return.
+Row 0?0 1 0
+
+Row 1?1 0 0
+
+Row 2?0 0 1
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 3))>) (TO #<(QVSP (DIM 3))>)
+   (MATRIX 
+0 1 0 
+1 0 0 
+0 0 1 ))>
+
+;;; The line in perm-v spanned by the vector 1,1,1 is fixed pointwise
+;;; by every element of G; that is, it is a copy of the trivial
+;;; representation.  The standard representation `std' of G is by
+;;; definition the orthocomplement of the trivial representation in
+;;; perm-v.  This is a two-dimensional representation, and is
+;;; irreducible.
+
+;;; To construct std, we first define a space triv-v for the trivial
+;;; representation, and define its map triv-incl into perm-v.
+
+* (setf triv-v (make-qvsp 1))
+Warning:  Declaring TRIV-V special.
+
+#<(QVSP (DIM 1))>
+
+* (setf triv-incl (user-input-qvsp-morphism
+                    triv-v perm-v '(1 1 1)))
+Warning:  Declaring TRIV-INCL special.
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<(QVSP (DIM 3))>)
+   (MATRIX 
+1 
+1 
+1 ))>
+
+;;; The next function gives a pair (i . c) of two morphisms: i, which
+;;; is the image morphism for triv-incl, and c, an injection from a
+;;; new two-dimensional space into perm-v whose image subspace is
+;;; orthogonal to the image subspace of i.  [Notice that 1,1,1,
+;;; -1,1,0, and -1,0,1 are an orthogonal basis of perm-v.]
+
+* (image-and-complement *)
+
+(#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<(QVSP (DIM 3))>)
+    (MATRIX 
+1 
+1 
+1 ))>
+ . #<(QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 3))>)
+      (MATRIX 
+-1 -1 
+ 1  0 
+ 0  1 ))>)
+
+;;; We want the map c above; we will call it std-incl, since it
+;;; is an inclusion map whose image subspace is where the std
+;;; representation lives.  We extract the second element of the pair
+;;; (i . c) using the lucidly-named Lisp function (cdr ...).
+
+* (setf std-incl (cdr *))
+Warning:  Declaring STD-INCL special.
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 3))>)
+   (MATRIX 
+-1 -1 
+ 1  0 
+ 0  1 ))>
+
+;;; There is actually no such thing in Sheafhom as a subspace A of a
+;;; vector space B; instead, you define objects A and B, and an
+;;; injective map A --> B that embeds A in B the way you want.  In
+;;; that spirit, the std representation will be defined on the source
+;;; space for std-incl.  Let's name this space std-v.
+
+* (setf std-v (source *))
+Warning:  Declaring STD-V special.
+
+#<(QVSP (DIM 2))>
+
+;;;  We now pull the maps perm-3 and perm-2 back to std-v.  This means
+;;;  finding the dotted arrow making the following diagram commute:
+;;;
+;;;              std-incl
+;;;      std-v ------------> perm-v
+;;;       .                    |
+;;; std-3 .                    | perm-3
+;;;       .                    |
+;;;       V                    V
+;;;      std-v ------------> std-v
+;;;              std-incl
+;;;
+;;; and similarly for perm-2 and std-2.  The next command solves for
+;;; the dotted arrow std-3.  The (compose ...) in the command
+;;; gives the composition of the top and right-hand arrows, which is
+;;; a diagonal arrow std-v --> std-v.  (inclusion-of-subspaces ...)
+;;; solves for the dotted arrow in diagrams like
+;;;
+;;;    A
+;;;    . \
+;;;    .  \
+;;;    .   \
+;;;    V    V
+;;;    B -> C
+
+* (setf std-3 (inclusion-of-subspaces
+                (compose perm-3 std-incl)
+                std-incl))
+Warning:  Declaring STD-3 special.
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 2))>)
+   (MATRIX 
+-1 -1 
+ 1  0 ))>
+
+;;; Since std-3 is the representation of an element of order 3, it
+;;; should have order 3.  Just for fun, let's see if it does:
+
+* (compose std-3 std-3 std-3)
+
+#<(ID-QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 2))>))>
+
+;;; Yes, it does, because its third power is an identity morphism.
+
+;;; We find std-2 by a similar diagram chase.
+
+* (setf std-2 (inclusion-of-subspaces
+                (compose perm-2 std-incl)
+                std-incl))
+Warning:  Declaring STD-2 special.
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 2))>)
+   (MATRIX 
+-1 -1 
+ 0  1 ))>
+
+;;; Let's check that it has order 2.
+
+* (compose std-2 std-2)
+
+#<(ID-QVSP-MORPHISM (FROM #<(QVSP (DIM 2))>) (TO #<(QVSP (DIM 2))>))>
+
+;;; We have now set up the std representation and the actions of g and
+;;; h on it.  Next, we define the tensor product of this
+;;; representation with itself.  The underlying vector space is made
+;;; by a call to (make-tensor-object ...)
+
+* (setf std-v-squared (make-tensor-object std-v std-v))
+Warning:  Declaring STD-V-SQUARED special.
+
+#<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+   (SECOND-FACTOR #<(QVSP (DIM 2))>))>
+
+;;; g acts on this space as the tensor product of the map std-3 with
+;;; itself.  In general, we make the tensor product of two maps, say
+;;; phi and psi, using (make-tensor-morphism ...), which takes four
+;;; arguments.  The first two arguments are phi and psi themselves.
+;;; The third argument is the source space for the map phi-tensor-psi.
+;;; This source space must be created in advance, using
+;;; (make-tensor-object ...), since you can't have a morphism before
+;;; its source has been created.  Similarly, the fourth argument is
+;;; the target space for phi-tensor-psi.  In the present example, phi
+;;; = psi = std-3, and the third and fourth arguments are both
+;;; std-v-squared.
+
+* (setf std-3-squared (make-tensor-morphism std-3 std-3
+                                            std-v-squared std-v-squared))
+Warning:  Declaring STD-3-SQUARED special.
+
+#<(QVSP-MORPHISM
+   (FROM
+    #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (TO
+    #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (MATRIX 
+ 1  1  1 1 
+-1  0 -1 0 
+-1 -1  0 0 
+ 1  0  0 0 ))>
+
+;;; It is an amusing exercise to figure out how this matrix is related
+;;; to the matrix for std-3.
+
+;;; We do the same for std-2.
+
+* (setf std-2-squared (make-tensor-morphism std-2 std-2
+                                            std-v-squared std-v-squared))
+Warning:  Declaring STD-2-SQUARED special.
+
+#<(QVSP-MORPHISM
+   (FROM
+    #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (TO
+    #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (MATRIX 
+1  1  1  1 
+0 -1  0 -1 
+0  0 -1 -1 
+0  0  0  1 ))>
+
+;;; Next, we consider the tensor cube of `std'.  Sheafhom only takes
+;;; the tensor product of two things at a time, so we will realize the
+;;; tensor cube as the tensor product of std-v-squared and std-v,
+;;; which is shaped like [[std tensor std] tensor std].
+
+;;; (When we have to use the associativity of the tensor product, say
+;;; to relate [A tensor [B tensor C]] to [[A tensor B] tensor C], we
+;;; do it using the function tensor-associate-to-left, which gives the
+;;; canonical isomorphism between the two spaces.  We will not need to
+;;; do this in the present example.)
+
+* (setf std-v-cubed (make-tensor-object std-v-squared std-v))
+Warning:  Declaring STD-V-CUBED special.
+
+#<(TENSOR-QVSP
+   (FIRST-FACTOR
+    #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (SECOND-FACTOR #<(QVSP (DIM 2))>))>
+
+* (setf std-3-cubed
+    (make-tensor-morphism
+      std-3-squared std-3
+      std-v-cubed std-v-cubed))
+
+#<(QVSP-MORPHISM
+   (FROM
+    #<(TENSOR-QVSP
+       (FIRST-FACTOR
+        #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+           (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (TO
+    #<(TENSOR-QVSP
+       (FIRST-FACTOR
+        #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+           (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (MATRIX 
+-1 -1 -1 -1 -1 -1 -1 -1 
+ 1  0  1  0  1  0  1  0 
+ 1  1  0  0  1  1  0  0 
+-1  0  0  0 -1  0  0  0 
+ 1  1  1  1  0  0  0  0 
+-1  0 -1  0  0  0  0  0 
+-1 -1  0  0  0  0  0  0 
+ 1  0  0  0  0  0  0  0 ))>
+
+* (setf std-2-cubed
+    (make-tensor-morphism
+      std-2-squared std-2
+      std-v-cubed std-v-cubed))
+Warning:  Declaring STD-2-CUBED special.
+
+#<(QVSP-MORPHISM
+   (FROM
+    #<(TENSOR-QVSP
+       (FIRST-FACTOR
+        #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+           (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (TO
+    #<(TENSOR-QVSP
+       (FIRST-FACTOR
+        #<(TENSOR-QVSP (FIRST-FACTOR #<(QVSP (DIM 2))>)
+           (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+       (SECOND-FACTOR #<(QVSP (DIM 2))>))>)
+   (MATRIX 
+-1 -1 -1 -1 -1 -1 -1 -1 
+ 0  1  0  1  0  1  0  1 
+ 0  0  1  1  0  0  1  1 
+ 0  0  0 -1  0  0  0 -1 
+ 0  0  0  0  1  1  1  1 
+ 0  0  0  0  0 -1  0 -1 
+ 0  0  0  0  0  0 -1 -1 
+ 0  0  0  0  0  0  0  1 ))>
+
+;;; Remark: eyeballing the last two matrices, we see that their traces
+;;; are -1 and 0 respectively.  The trace of the 8-by-8 identity
+;;; matrix is 8.  Hence the character of the cube of std is
+;;;
+;;;  1  (..)  (...)
+;;;  --------------
+;;;  8    0    -1
+;;;
+;;; This makes sense, because the character of std is 2 0 -1,
+;;; and the character of a tensor product is just the product of the
+;;; characters.
+
+;;; Next, we need to learn how to make Wedge^3 of a space and how to
+;;; lift maps up to Wedge^3.  Here is how to make wedge-qvsp's.
+
+* (doc 'make-wedge-object)
+Arguments V, d.  Makes wedge^d(V).  Is only defined when V is a qvsp
+and d is a non-negative integer.
+   To make the whole exterior algebra of V, where the result is a
+graded-object indexed by i = 0,1,2,..., use the function
+make-exterior-algebra.
+NIL
+
+;;; We define the space on which the representation Wedge^3 of
+;;; std-v-cubed will live.
+
+* (setf wedge3-std-v-cubed (make-wedge-object std-v-cubed 3))
+Warning:  Declaring WEDGE3-STD-V-CUBED special.
+
+#<WEDGE-QVSP, third exterior power of #<(TENSOR-QVSP
+                                         (FIRST-FACTOR
+                                          #<(TENSOR-QVSP
+                                             (FIRST-FACTOR #<(QVSP (DIM 2))>)
+                                             (SECOND-FACTOR
+                                              #<(QVSP (DIM 2))>))>)
+                                         (SECOND-FACTOR #<(QVSP (DIM 2))>))>>
+
+;;; The dimension of this space should be 8-choose-3 = 56.  We check:
+
+* (dim *)
+
+56
+
+;;; Here is how to lift morphisms to the wedge product space.
+
+* (doc 'make-wedge-morphism)
+The arguments are f a so ta.  Here f is a qvsp-morphism, and a is a
+non-negative integer.  Output is the induced morphism wedge^a(sou f)
+--> wedge^a(tar f).  The latter two wedge-power spaces must be
+provided by the arguments so and ta.  If you need to make these
+objects, use make-wedge-object.
+  For more information, see the documentation for the type
+wedge-qvsp.  To lift f to the corresponding morphism on exterior
+algebras, use lift-morphism-to-exterior-algebra.
+NIL
+
+;;; We now lift the action of the three-cycle g up to the Wedge^3
+;;; space.
+
+* (setf wedge3-std-3-cubed
+    (make-wedge-morphism
+      std-3-cubed 3 wedge3-std-v-cubed wedge3-std-v-cubed))
+Warning:  Declaring WEDGE3-STD-3-CUBED special.
+
+#<(QVSP-MORPHISM
+   (FROM
+    #<WEDGE-QVSP, third exterior power of #<(TENSOR-QVSP
+                                             (FIRST-FACTOR
+                                              #<(TENSOR-QVSP
+                                                 (FIRST-FACTOR
+                                                  #<(QVSP (DIM 2))>)
+                                                 (SECOND-FACTOR
+                                                  #<(QVSP (DIM 2))>))>)
+                                             (SECOND-FACTOR
+                                              #<(QVSP (DIM 2))>))>>)
+   (TO
+    #<WEDGE-QVSP, third exterior power of #<(TENSOR-QVSP
+                                             (FIRST-FACTOR
+                                              #<(TENSOR-QVSP
+                                                 (FIRST-FACTOR
+                                                  #<(QVSP (DIM 2))>)
+                                                 (SECOND-FACTOR
+                                                  #<(QVSP (DIM 2))>))>)
+                                             (SECOND-FACTOR
+                                              #<(QVSP (DIM 2))>))>>)
+   (MATRIX [56 by 56, too big to print]))>
+
+;;; We lift the action of the two-cycle h to the Wedge^3 space.
+
+* (setf wedge3-std-2-cubed
+    (make-wedge-morphism
+      std-2-cubed 3 wedge3-std-v-cubed wedge3-std-v-cubed))
+Warning:  Declaring WEDGE3-STD-2-CUBED special.
+
+#<(QVSP-MORPHISM
+   (FROM
+    #<WEDGE-QVSP, third exterior power of #<(TENSOR-QVSP
+                                             (FIRST-FACTOR
+                                              #<(TENSOR-QVSP
+                                                 (FIRST-FACTOR
+                                                  #<(QVSP (DIM 2))>)
+                                                 (SECOND-FACTOR
+                                                  #<(QVSP (DIM 2))>))>)
+                                             (SECOND-FACTOR
+                                              #<(QVSP (DIM 2))>))>>)
+   (TO
+    #<WEDGE-QVSP, third exterior power of #<(TENSOR-QVSP
+                                             (FIRST-FACTOR
+                                              #<(TENSOR-QVSP
+                                                 (FIRST-FACTOR
+                                                  #<(QVSP (DIM 2))>)
+                                                 (SECOND-FACTOR
+                                                  #<(QVSP (DIM 2))>))>)
+                                             (SECOND-FACTOR
+                                              #<(QVSP (DIM 2))>))>>)
+   (MATRIX [56 by 56, too big to print]))>
+
+;;; Now we're basically done.  We can compute the character of
+;;; Wedge^3(std cubed) by taking the trace of the two previous
+;;; morphisms.  The slightly dorky name `math-trace' is used because
+;;; `trace' is taken by a very useful debugging utility that's built
+;;; into Lisp.
+
+* (math-trace wedge3-std-3-cubed)
+
+2
+
+* (math-trace wedge3-std-2-cubed)
+
+0
+
+;;; Thus the character of Wedge^3(std cubed) is
+;;;
+;;; 1  (..) (...)
+;;; -------------
+;;; 56   0    2
+;;;
+;;; The character table for G = S_3 is
+;;;
+;;; 1  (..) (...)
+;;; -------------
+;;; 1    1    1     trivial
+;;; 1   -1    1     sign
+;;; 2    0   -1     std
+;;;
+;;; By eye, we see that 10 times the first row + 10 times the second +
+;;; 18 times the third equals 56 0 2.
+;;;
+;;; CONCLUSION: As a representation of S_3, Wedge^3(std cubed)
+;;; decomposes as the directsum
+;;;
+;;;       10 trivial + 10 sign + 18 std.
+
+;;; Sheafhom could also use the projection formulas to identify the
+;;; isotypic subspaces of wedge3-std-v-cubed --that is, to find the
+;;; 10-dim'l subspace where the representation is trivial, etc.
+
+;;; ----------TORIC VARIETIES ----------
+
+;;; Here is a sample of what the toric variety programs have to do.
+;;; Let's compute the cohomology of a neighborhood of a
+;;; one-dimensional orbit S on a two-dimensional toric variety X,
+;;; where the orbit is associated to a ray generated by 1,0 in the fan.
+;;; The answer is trivial--it's the cohomology of C^* cross C, with
+;;; Betti numbers 1, 1, 0, 0, 0,....  But the exercise will show some
+;;; of what goes into computing the cohomology of a variety.
+
+;;; We start with a fixed vector space (the "ur-space") of dimension 2.
+;;; We will give the space the print-name `ur'; this is optional, but
+;;; it makes things look nicer when they print out.  As usual, symbols
+;;; are treated without regard to case: ur and UR are the same.
+
+* (setf ur (make-qvsp 2 :name 'ur))
+Warning:  Declaring UR special.
+
+#<UR>
+
+;;; We make the exterior algebra on ur.  This represents the
+;;; cohomology of C^* cross C^*, which is the complex torus (the "open
+;;; part") in the toric variety X.
+
+* (setf ur-algebra (make-exterior-algebra ur))
+Warning:  Declaring UR-ALGEBRA special.
+
+#<EXTERIOR-ALGEBRA on #<UR>>
+
+;;; To see what the algebra looks like, let's look at the objects in it,
+;;; using the (objects ...) form.
+
+* (objects *)
+
+#(#<WEDGE-QVSP, zeroeth exterior power of #<UR>>
+  #<WEDGE-QVSP, first exterior power of #<UR>>
+  #<WEDGE-QVSP, second exterior power of #<UR>>)
+
+;;; As expected, the exterior algebra is a graded-object with the i-th
+;;; exterior power of ur in degree i.  [A later version of Sheafhom
+;;; will include the multiplicative structure on this algebra.]
+
+;;; Taking the ray 1,0 in the fan means that the normal direction to S
+;;; in X is along the complex direction 1,0.  Let's make a map from
+;;; a 1-dimensional vector space to ur that sends 1 to 1,0.
+
+;;; We will give the 1-dimensional space the name N.  Note that N is
+;;; not a variable that stands for the source of normal-direction; if
+;;; you type N at a Lisp prompt, you'll get an "unbound variable"
+;;; error.  The N is only a name used at the time of printing.
+
+* (setf normal-direction
+    (user-input-qvsp-morphism
+      (make-qvsp 1 :name 'n)
+      ur
+      '(1 0)))
+
+#<(QVSP-MORPHISM (FROM #<N>) (TO #<UR>)
+   (MATRIX 
+1 
+0 ))>
+
+;;; We also need to define a subspace of ur that's complementary to the
+;;; normal direction.
+
+* (image-and-complement normal-direction)
+
+(#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<UR>)
+    (MATRIX 
+1 
+0 ))>
+ . #<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<UR>)
+      (MATRIX 
+0 
+1 ))>)
+
+;;; As we noted above, the function image-and-complement outputs an
+;;; ordered pair [a Lisp "dotted pair"].  The first member of the pair
+;;; is a morphism giving the image of normal-direction [we don't need
+;;; this here, since normal-direction is already the inclusion we
+;;; want].  The second member is a morphism giving an orthocomplement
+;;; with respect to the standard dot product.  We retrieve the second
+;;; member of the pair by using the Lisp function cdr.
+
+* (setf tangential-direction (cdr *))
+Warning:  Declaring TANGENTIAL-DIRECTION special.
+
+#<(QVSP-MORPHISM (FROM #<(QVSP (DIM 1))>) (TO #<UR>)
+   (MATRIX 
+0 
+1 ))>
+
+;;; Let's give the source of this morphism the name T, to match the
+;;; name N in normal-direction.  Notice that (name (source
+;;; tangential-direction)) returns the name of the vector space.
+;;; Whenever `(...)' is a form that returns a value, the Lisp
+;;; construct (setf (...) new-value) resets `(...)' so that it returns
+;;; the new value from then on.
+
+* (setf (name (source tangential-direction)) 't)
+
+T
+
+;;; Let's check the effect this had on the printing of
+;;; tangential-direction:
+
+* tangential-direction
+
+#<(QVSP-MORPHISM (FROM #<T>) (TO #<UR>)
+   (MATRIX 
+0 
+1 ))>
+
+;;; We now form the exterior algebras Wedge^*(T) and Wedge^*(N),
+;;; respectively.  The exterior algebras are implemented as
+;;; graded-object's.  We take the tensor product of these algebras;
+;;; this is another graded-object, called tan-tensor-normal-algebras.
+;;; Like ur-algebra, it represents the cohomology of C^*-cross-C^*,
+;;; but it is _split up_, according to the Kunneth formula, as the
+;;; cohomology of the direction tangential to the orbit S and the
+;;; cohomology of the direction normal to S.
+
+;;; Since ur is isomorphic to the direct sum of T and N,
+;;; tan-tensor-normal-algebras is isomorphic to ur-algebra.  However,
+;;; the isomorphism is non-trivial, and a major point of this exercise
+;;; is to get at this isomorphism.
+
+* (setf tan-tensor-normal-algebras
+    (make-tensor-object
+      (make-exterior-algebra (sou tangential-direction))
+      (make-exterior-algebra (sou normal-direction))))
+Warning:  Declaring TAN-TENSOR-NORMAL-ALGEBRAS special.
+
+#<(TENSOR-GRADED-OBJECT (FIRST-FACTOR #<EXTERIOR-ALGEBRA on #<T>>)
+   (SECOND-FACTOR #<EXTERIOR-ALGEBRA on #<N>>))>
+
+;;; A tensor product of graded-objects A_i and B_j is implemented in
+;;; Sheafhom as a graded-object whose k-th term is the direct sum
+;;; of A_i-tensor-B_j over all (i,j) with i + j = k.  Let's look at
+;;; this structure:
+
+* (objects *)
+
+#(#<(DIRECTSUM-QVSP (DIM 1)
+     (SUMMANDS
+      #(#<(TENSOR-QVSP
+           (FIRST-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<T>>)
+           (SECOND-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<N>>))>))
+     (INDICES #((0 . 0))))>
+  #<(DIRECTSUM-QVSP (DIM 2)
+     (SUMMANDS
+      #(#<(TENSOR-QVSP
+           (FIRST-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<T>>)
+           (SECOND-FACTOR #<WEDGE-QVSP, first exterior power of #<N>>))>
+        #<(TENSOR-QVSP
+           (FIRST-FACTOR #<WEDGE-QVSP, first exterior power of #<T>>)
+           (SECOND-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<N>>))>))
+     (INDICES #((0 . 1) (1 . 0))))>
+  #<(DIRECTSUM-QVSP (DIM 1)
+     (SUMMANDS
+      #(#<(TENSOR-QVSP
+           (FIRST-FACTOR #<WEDGE-QVSP, first exterior power of #<T>>)
+           (SECOND-FACTOR #<WEDGE-QVSP, first exterior power of #<N>>))>))
+     (INDICES #((1 . 1))))>)
+
+;;; This shows the terms of the tensor product in degrees k = 0, 1, 2.
+;;; Let's look at degree k = 1 separately.
+
+* (term 1 tan-tensor-normal-algebras)
+
+#<(DIRECTSUM-QVSP (DIM 2)
+   (SUMMANDS
+    #(#<(TENSOR-QVSP
+         (FIRST-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<T>>)
+         (SECOND-FACTOR #<WEDGE-QVSP, first exterior power of #<N>>))>
+      #<(TENSOR-QVSP (FIRST-FACTOR #<WEDGE-QVSP, first exterior power of #<T>>)
+         (SECOND-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<N>>))>))
+   (INDICES #((0 . 1) (1 . 0))))>
+
+;;; This is a directsum of two qvsp's, one indexed by (0 . 1) [meaning
+;;; (i,j) = (0,1)] and one by (1 . 0).  Let's look at those two summands,
+;;; using the function get-summand-indexed-by.  The single quote on
+;;; (0 . 1) comes in because that is a data object, not a function call.
+;;; The symbol ** means the result of the second-to-last computation
+;;; [like "" in Maple].  Ignore the T printed after the next two
+;;; commands.
+
+* (get-summand-indexed-by * '(0 . 1))
+
+#<(TENSOR-QVSP (FIRST-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<T>>)
+   (SECOND-FACTOR #<WEDGE-QVSP, first exterior power of #<N>>))>
+T
+
+* (get-summand-indexed-by ** '(1 . 0))
+
+#<(TENSOR-QVSP (FIRST-FACTOR #<WEDGE-QVSP, first exterior power of #<T>>)
+   (SECOND-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<N>>))>
+T
+
+;;; This shows the summands are indeed of the form
+;;; Wedge^i(T)-tensor-Wedge^j(N), for (i,j) = (0,1) and (1,0) resp.
+
+;;; Our next goal is to build the canonical isomorphism, called
+;;; 
+;;;    tensored-algebras-isom-to-ur-algebra            or [*] for short,
+;;; 
+;;; from tan-tensor-normal-algebras into ur-algebra.  Constructing [*]
+;;; will take several steps.  First, we form the direct sum of T and N.
+
+* (setf T-plus-N
+    (make-directsum-of-two
+      (sou tangential-direction)
+      (sou normal-direction)))
+Warning:  Declaring T-PLUS-N special.
+
+#<(DIRECTSUM-QVSP (DIM 2) (SUMMANDS #(#<T> #<N>)) (INDICES #(0 1)))>
+
+;;; This is a direct sum with two dummy indices, 0 and 1.  The 0-th summand
+;;; is T, and the 1-st is N.
+
+;;; We now set up an isomorphism from T-plus-N to ur.  We chose T in
+;;; such a way that T-plus-N would be isomorphic to ur, via the maps
+;;; tangential-  and normal-direction, and we use these two maps to
+;;; define the isomorphism.
+;;;    In this piece of Lisp code, the expression #'(lambda ... ) is a
+;;; function object.  It says that the restriction of the isomorphism to
+;;; T should be the map tangential-direction, and that the restriction
+;;; to N should be normal-direction.
+
+* (setf T-plus-N-isom-to-ur
+    (make-directsum-morphism-to-singleton
+      T-plus-N
+      ur
+      #'(lambda (i)
+          (if (= i 0)
+              tangential-direction
+            ;; if not...
+            normal-direction))))
+Warning:  Declaring T-PLUS-N-ISOM-TO-UR special.
+
+#<(QVSP-MORPHISM
+   (FROM #<(DIRECTSUM-QVSP (DIM 2) (SUMMANDS #(#<T> #<N>)) (INDICES #(0 1)))>)
+   (TO #<UR>)
+   (MATRIX 
+0 1 
+1 0 ))>
+
+;;; T-plus-N-isom-to-ur is a map T-plus-N ---> ur.  We now lift it to
+;;; the exterior algebras on these respective spaces.  The exterior
+;;; algebra on ur has already been defined [we called it ur-algebra],
+;;; but the first exterior algebra has not been defined yet, so we
+;;; must make it as we go along [see the fourth line of the next bit
+;;; of code].
+
+* (setf T-plus-N-algebra-isom-to-ur-algebra
+    (lift-morphism-to-exterior-algebra
+      T-plus-N-isom-to-ur ; the morphism we want to lift
+      (make-exterior-algebra T-plus-N) ; the source for the lift
+      ur-algebra ; the target for the lift
+      ))
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<EXTERIOR-ALGEBRA on #<(DIRECTSUM-QVSP (DIM 2) (SUMMANDS #(#<T> #<N>))
+                             (INDICES #(0 1)))>>)
+   (TO #<EXTERIOR-ALGEBRA on #<UR>>) (WITH-MAPS-OF-RANK #(1 2 1)))>
+
+;;; Notice what we've done.  The last map has as its source the
+;;; exterior algebra on T-plus-N.  We have already defined the tensor
+;;; product [exterior algebra on T]-tensor-[exterior algebra on N]
+;;; --called tan-tensor-normal-algebras.  Again, though, the
+;;; isomorphism
+;;;
+;;;    [exterior algebra on T]-tensor-[exterior algebra on N]   [**]
+;;;          --isom--> [exterior-algebra on T-plus-N]
+;;;
+;;; is non-trivial.  We have to realize [**] in order to realize the
+;;; Kunneth formula--because we want the source of the map [*] above
+;;; to be [exterior algebra on T]-tensor-[exterior algebra on N].
+;;;
+;;; We will compute [*] by composing two morphisms.  The one listed
+;;; first [but that "gets performed second"] is the map
+;;; T-plus-N-algebra-isom-to-ur-algebra.  The one listed second is
+;;; [**], obtained from Sheafhom's function
+;;; distribute-tensor-over-exterior-algebra-of-directsum.
+
+* (setf tensored-algebras-isom-to-ur-algebra ; this is the map [*]
+    (compose
+      T-plus-N-algebra-isom-to-ur-algebra
+      (distribute-tensor-over-exterior-algebra-of-directsum
+        tan-tensor-normal-algebras
+        (sou T-plus-N-algebra-isom-to-ur-algebra))))
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<(TENSOR-GRADED-OBJECT (FIRST-FACTOR #<EXTERIOR-ALGEBRA on #<T>>)
+       (SECOND-FACTOR #<EXTERIOR-ALGEBRA on #<N>>))>)
+   (TO #<EXTERIOR-ALGEBRA on #<UR>>) (WITH-MAPS-OF-RANK #(1 2 1)))>
+
+;;; What does this graded-morphism look like?  The next function will list
+;;; its components in degrees 0, 1 and 2 respectively.
+
+* (mat *)
+
+#(#<(ID-QVSP-MORPHISM
+     (FROM
+      #<(DIRECTSUM-QVSP (DIM 1)
+         (SUMMANDS
+          #(#<(TENSOR-QVSP
+               (FIRST-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<T>>)
+               (SECOND-FACTOR
+                #<WEDGE-QVSP, zeroeth exterior power of #<N>>))>))
+         (INDICES #((0 . 0))))>)
+     (TO #<WEDGE-QVSP, zeroeth exterior power of #<UR>>))>
+  #<(ID-QVSP-MORPHISM
+     (FROM
+      #<(DIRECTSUM-QVSP (DIM 2)
+         (SUMMANDS
+          #(#<(TENSOR-QVSP
+               (FIRST-FACTOR #<WEDGE-QVSP, zeroeth exterior power of #<T>>)
+               (SECOND-FACTOR #<WEDGE-QVSP, first exterior power of #<N>>))>
+            #<(TENSOR-QVSP
+               (FIRST-FACTOR #<WEDGE-QVSP, first exterior power of #<T>>)
+               (SECOND-FACTOR
+                #<WEDGE-QVSP, zeroeth exterior power of #<N>>))>))
+         (INDICES #((0 . 1) (1 . 0))))>)
+     (TO #<WEDGE-QVSP, first exterior power of #<UR>>))>
+  #<(QVSP-MORPHISM
+     (FROM
+      #<(DIRECTSUM-QVSP (DIM 1)
+         (SUMMANDS
+          #(#<(TENSOR-QVSP
+               (FIRST-FACTOR #<WEDGE-QVSP, first exterior power of #<T>>)
+               (SECOND-FACTOR #<WEDGE-QVSP, first exterior power of #<N>>))>))
+         (INDICES #((1 . 1))))>)
+     (TO #<WEDGE-QVSP, second exterior power of #<UR>>)
+     (MATRIX 
+-1 ))>)
+
+;;; The last of these three entries [the k = 2 term] is a map between
+;;; one-dimensional vector spaces given by -1.  The sign change shows
+;;; that we have to be sensitive to orientation questions: we chose to
+;;; put T before N in the direct sum T-plus-N, and the isomorphism
+;;; T-plus-N ---> ur has matrix
+;;;   (0 1)
+;;;   (1 0)
+;;; of determinant -1.
+
+;;; To get the cohomology of C^* cross C [which is a neighborhood of
+;;; the orbit S], we must truncate the Wedge^*(N) factor of
+;;; Wedge^*(T)-tensor-Wedge^*(N), replacing the terms of Wedge^*(N)
+;;; with 0's in all degrees > 0.  This is Deligne's construction of
+;;; intersection homology, applied to the special case of ordinary
+;;; cohomology ["perversity zero"].
+
+;;; The functions (from1 ...) and (from2 ...) remove the first
+;;; [resp. second] factors of a tensor product.  Hence Wedge^*(N) can
+;;; be recovered from Wedge^*(T)-tensor-Wedge^*(N)
+;;; [ = tan-tensor-normal-algebras ] as (from2 tan-tensor-normal-algebras).
+
+;;; We now define trN to be the truncation of Wedge^*(N), and trN-map
+;;; the inclusion map from trN into Wedge^*(N).
+
+* (setf trN (truncation-zeroes-high
+              (from2 tan-tensor-normal-algebras)
+              0))
+Warning:  Declaring TRN special.
+
+#<(GRADED-OBJECT #(#<WEDGE-QVSP, zeroeth exterior power of #<N>> #<ZERO-QVSP>))>
+
+* (setf trN-map
+    (morphism-from-truncation-zeroes-high
+      trN
+      (from2 tan-tensor-normal-algebras)
+      0))
+Warning:  Declaring TRN-MAP special.
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<(GRADED-OBJECT
+       #(#<WEDGE-QVSP, zeroeth exterior power of #<N>> #<ZERO-QVSP>))>)
+   (TO #<EXTERIOR-ALGEBRA on #<N>>) (WITH-MAPS-OF-RANK #(1 0)))>
+
+;;; We don't just want Wedge^*(T) tensor trN, even though this is the
+;;; cohomology of C^* cross C.  Rather, we want this space together
+;;; with its map phi to Wedge^*(ur).  This is so that all the cohomology
+;;; can be referred back to Wedge^*(ur) by a restriction map (this is
+;;; how a sheaf behaves).  We can get the map by calling the following
+;;; functions.
+
+* (setf phi0
+    ;; tensor the identity morphism on Wedge^*(T) with the
+    ;; truncation morphism trN-map
+    (make-tensor-morphism
+      (make-id-morphism
+        (from1 tan-tensor-normal-algebras) ; = Wedge^*(T)
+        (from1 tan-tensor-normal-algebras)) ; to itself
+      trN-map
+      (make-tensor-object
+        (from1 tan-tensor-normal-algebras)
+        trN)
+      tan-tensor-normal-algebras))
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<(TENSOR-GRADED-OBJECT (FIRST-FACTOR #<EXTERIOR-ALGEBRA on #<T>>)
+       (SECOND-FACTOR
+        #<(GRADED-OBJECT
+           #(#<WEDGE-QVSP, zeroeth exterior power of #<N>> #<ZERO-QVSP>))>))>)
+   (TO
+    #<(TENSOR-GRADED-OBJECT (FIRST-FACTOR #<EXTERIOR-ALGEBRA on #<T>>)
+       (SECOND-FACTOR #<EXTERIOR-ALGEBRA on #<N>>))>)
+   (WITH-MAPS-OF-RANK #(1 1 0)))>
+
+* (setf phi
+    (compose
+      tensored-algebras-isom-to-ur-algebra ; this is [*]
+      phi0))
+Warning:  Declaring PHI special.
+
+#<(GRADED-MORPHISM
+   (FROM
+    #<(TENSOR-GRADED-OBJECT (FIRST-FACTOR #<EXTERIOR-ALGEBRA on #<T>>)
+       (SECOND-FACTOR
+        #<(GRADED-OBJECT
+           #(#<WEDGE-QVSP, zeroeth exterior power of #<N>> #<ZERO-QVSP>))>))>)
+   (TO #<EXTERIOR-ALGEBRA on #<UR>>) (WITH-MAPS-OF-RANK #(1 1 0)))>
+
+;;; Needless to say, Sheafhom's toric-variety code does these
+;;; calculations automatically.  This is only an illustration of some
+;;; of the issues one has to face.  Operations like these have to be
+;;; done recursively as we dive deeper and deeper into the
+;;; singularities of the variety.  They require a spectral sequence
+;;; [see the documentation on spec-seq-page and next-page].  See the
+;;; separate example file on toric varieties, for which you will need
+;;; the source code in sheaf.lisp and toric1.lisp.
+
+;;; If you have questions about these examples, type (doc 'yourtopic)
+;;; at a Lisp prompt, or send me e-mail.
+
+;;;                                      --Mark McConnell
+;;;                                      mmcconn@math.okstate.edu
+
+* (quit)
+littlewood:/w/mmcconn/lisp/sheafhom/jun97{42}: logout

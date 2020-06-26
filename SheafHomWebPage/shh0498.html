@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<base HREF=http://www.math.okstate.edu/~mmcconn/shh.html></base>
+<title>Sheafhom, programs for homological algebra and algebraic topology
+</title>
+</head>
+
+<body>
+<IMG ALIGN=MIDDLE SRC="crossmE4.gif">
+<h1>
+Sheafhom
+</h1>
+
+<P>
+
+Sheafhom is a set of programs I'm developing for work in homological
+algebra and algebraic topology.  It allows you to use
+finite-dimensional rational vector spaces and their morphisms
+(i.e. linear maps).  The system supports tensor products, direct sums,
+and wedge products, as well as partially-ordered sets.  A data
+structure called a <CODE>sheaf</CODE> represents sheaves (like the
+intersection homology sheaves) on certain topological spaces.  This
+includes the spaces given by regular cell complexes and simplicial
+complexes.
+
+<P>
+
+The main application so far is to toric varieties.  The machine can
+find the rational intersection cohomology (<i>IH</i>) of
+<i>n</i>-dimensional toric varieties, for any <i>n</i> and in any
+perversity.  This includes the ordinary cohomology <i>H</i>^* and
+homology <i>H</i>_* as special cases.  The varieties should be defined
+over the complex numbers.  They should be normal, but they do not need
+to be smooth or projective.  The <i>IH</i> is computed by a direct
+approach that constructs explicit cycles on the space, modeling
+Deligne's construction of intersection homology.  Slight modifications
+to the code allow it to compute <i>IH</I> with integer coefficients,
+though this has not been put on the Web page yet.
+
+<P>
+
+This work has been partially supported by the National Science
+Foundation (DMS-9401460 and 9704535).
+
+<P>
+
+Applications I hope to develop in the future include
+<UL>
+  <LI> Finding the canonical map between the <i>IH</i> groups for two
+      different perversities on a given toric variety.
+  <LI> Finding the canonical intersection product on <i>IH</I> of
+      toric varieties.  This includes the cup product on cohomology.
+  <LI> Finding the induced maps on <i>IH</i> for maps between toric
+      varieties, when these are well defined.
+  <LI> In locally symmetric spaces Gamma\G/K, where G is the Lie group
+      SL(<I>n</I>,R) and Gamma is an arithmetic subgroup,
+      separating out the part of the cohomology that does not come
+      from the Borel-Serre boundary, using a recent spectral sequence
+      of Ash and McConnell.
+  <LI> Computing Hecke operators on locally symmetric spaces, using
+      techniques of Ash-Rudolph, of MacPherson-McConnell, or of Paul
+      Gunnells.
+  <LI> Including <B>Z</B>-modules and torsion, which are currently not
+      supported.
+</UL>
+
+<P>
+
+Here is the Web page for the <A HREF="shh0596.html">first version of
+Sheafhom</A>, dated May 11, 1996.  This computes the ordinary homology
+of toric varieties, using an algorithm that is simpler than for
+intersection homology.  The algorithm comes from a paper of <A
+HREF="mailto:totaro@math.uchicago.edu">Burt Totaro</A>.  It uses a
+spectral sequence that collapses at <i>E</i>^2 because of purity
+conditions; in effect, it doesn't use spectral sequences at all.
+
+<P>
+
+The current version of Sheafhom is written in Common Lisp.  To use it,
+you will have to have a Common Lisp interpreter or compiler, one which
+includes CLOS (the object-oriented extension of Common Lisp).
+Currently I use <A HREF="http://www.cons.org/cmucl/">Carnegie-Mellon
+University Common Lisp</A> (CMU CL), a free version available for
+several platforms, including Suns and Linux machines; it goes far to
+help the programmer produce excellent compiled code.  Other
+high-quality Common Lisps, including free demos and versions for
+Windows, are available from <A HREF="http://www.franz.com">Franz</A>
+or <A HREF="http://www.harlequin.com">Harlequin</A>.
+
+<P>
+
+<HR> <P>
+
+<h3> Learning about Sheafhom </h3>
+
+<h4> Mathematical Description </h4>
+
+Here is an eight-page <A HREF="shh0797/blurb96.ps"> description of
+Sheafhom in Postscript</A>.  It is out of date, since the spectral
+sequences have now been replaced with complexes of flabby sheaves (see
+below), but the earlier parts may still be of interest.  The <A
+HREF="shh0797/blurb96.tex"> TeX version</A>, with its <A
+HREF="shh0797/shh11296.eps">accompanying figure
+<code>shh11296.eps</code></A>, is also available.
+
+<h4> Tutorials </h4>
+
+Two tutorials give examples of how to interact with Sheafhom.  I've
+tried to get you started, even if you have no experience with Lisp.
+The first file covers <A HREF="shh0797/example4.txt"> homological
+algebra</A>, showing how to work in Sheafhom with linear maps, chain
+complexes, chain maps, wedges, tensors, and direct sums.  The second
+shows <A HREF="shh0498/toric_ex3i.lisp">how to compute the rational
+(co)homology and intersection homology of a toric variety</A> without
+having to write any programs.  You can read the tutorial files in one
+window and use another to type in the commands they describe.
+
+<h4> The Sheafhom encyclopedia </h4>
+
+The <A HREF="shh0797/shhentmp.html">Sheafhom encyclopedia</A>
+describes every class of data object in Sheafhom, as well as every
+function.  It is out of date now, but may help the user get a feeling
+for the program.  Click here for the <A
+HREF="shh0797/shhentmp.html">postscript version</A> or <A
+HREF="shh0797/shhentmp.html">Latex version</A> of the encyclopedia.
+
+<P>
+
+<HR> <P>
+
+<h3> Versions of Sheafhom </h3>
+
+<UL>
+  <LI> May 11, 1996.  First version on the Web.  The
+      "Totaro" version (see above).  Not compatible with the
+      later versions.
+  <LI> November 1996.  First version to treat <i>IH</i> of toric
+      varieties in an arbitrary perversity.  Correct but slow.
+  <LI> December 3, 1996.  The previous version, with improved
+      documentation.
+  <LI> February 6, 1997.  Here the main linear-algebra engines were
+      converted to sparse matrices.  The toric variety code was improved.
+  <LI> February 26, 1997.  The same as February 6, with minor
+      speed-ups.
+  <LI> July 4, 1997.  Orders of magnitude faster than the previous
+      versions.  The implementation of sparse matrices is much more
+      space-efficient; the LLL code seems to perform well.  There are
+      many shortcuts in the toric variety code.
+  <LI> October 1997.  Some bugs fixed, others discovered.  Added code
+      to compute the cup product on ordinary cohomology.  (An
+      extension of the current code to compute products in any
+      perversity should be ready soon.)
+  <LI> April 1998.  A major paradigm shift: spectral sequences were
+      removed and replaced with complexes of flabby sheaves.  This
+      puts the code in line with the literature on derived
+      categories.  Not compatible with the previous versions.
+  <LI> July 4, 1998.  Same as the previous version, but a lot faster.
+</UL>
+
+<P>
+
+<HR> <P>
+
+<h3> Speed </h3>
+
+The toric variety code in the May 1996 (Totaro) version is quite fast.
+In the last example in the tutorial, the four-dimensional singular
+variety based on the cross polytope, the program finds the ordinary
+homology Betti numbers in 7 seconds on a SparcServer 1000.  The
+current code is slower, since its algorithm is more general.  It
+computes the middle-perversity <I>IH</I> of the same variety in 20
+minutes.  On a Pentium running at 166 MHz with 64M of RAM, the same
+computation took about 7 minutes.
+
+<P>
+
+I thank <A
+HREF="http://www.mathe.uni-konstanz.de/~barthel/ich.html">Gottfried
+Barthel</A> for his support and his constructive comments about
+earlier versions of Sheafhom.  I am grateful to <A
+HREF="http://www.math.uiuc.edu/~dan/">Dan Grayson</A> for helping me
+find better approaches to the project, both in the mathematics and the
+programming.
+
+<HR> <P>
+
+<h3> Obtaining the Code; Installation </h3>
+
+Feel free to download Sheafhom.  Currently you need the following four
+source files:
+<UL>
+  <LI> <A HREF="shh0498/csparsez.lisp"><code>csparsez.lisp</code></A>,
+      which contains the foundational algorithms for
+      arbitrary-precision integer matrices, based on the integer LLL
+      algorithm
+  <LI> <A HREF="shh0498/homolalg.lisp"><code>homolalg.lisp</code></A>,
+      which contains the core routines for rational
+      vector spaces, graded objects, direct sums, tensors, exterior
+      powers, etc.
+  <LI> <A HREF="shh0498/sheaf.lisp"><code>sheaf.lisp</code></A>,
+      which covers ranked posets and the "cellular sheaves" based on them
+  <LI> <A HREF="shh0498/toric3i.lisp"><code>toric3i.lisp</code></A>, which
+      contains the toric variety routines.
+</UL>
+
+You can download the source files and type <code>(load
+"toric3i")</code> at a Lisp prompt.  All four files will load
+automatically.  They will be in interpreted mode, which is convenient
+for trying out Sheafhom or for running the first tutorial.
+
+<P>
+
+It is better to compile the code, though, since it is very slow in
+interpreted mode.  To compile it, get to a Lisp prompt and give the
+command<BR> <code>(compile-file "</code><var>filename</var><code>"
+:error-output nil :load t)</code><BR> for each "<var>filename</var>"
+in turn, in the order <code> "csparsez", "homolalg", "sheaf",
+"toric3i"</code>.  Each file may take a few minutes.  Once the code has
+been compiled on your machine, you don't have to compile it again;
+typing <code>(load "toric3i")</code> in a later Lisp session will bring
+up the compiled version.
+
+<P>
+
+There is quite a bit of on-line documentation.  Typing <code>(doc
+'</code><var>thing</var><code>)</code> or <code>(help
+'</code><var>thing</var><code>)</code> at a Lisp prompt should tell
+you about <var>thing</var>.  The same documentation can be read in the
+source code.
+
+<P>
+
+<HR> <P>
+
+Please <A HREF="mailto:mmcconn@math.okstate.edu">send me e-mail</A> if
+you have any questions.  Or call (405) 744-8220.
+
+<P>
+
+<A HREF="index.html">Back to my home page.</A>
+
+
+<hr>
+<address>mmcconn@math.okstate.edu</address>
+<!-- hhmts start -->
+Last modified: Mon Aug  3 11:12:01 CDT 1998
+<!-- hhmts end -->
+</body>
+</html>

@@ -1,0 +1,617 @@
+\documentstyle{amsppt}
+\input epsf
+\magnification=1200
+\pagewidth{6.5truein} \pageheight{8.9truein}
+
+\redefine\le{\leqslant} \redefine\ge{\geqslant}
+
+\def\yawn #1{\nobreak\par\nobreak
+\vskip #1 plus .1 in \penalty 200}
+%%% This puts at least #1 units of space in your output.  #1 should be in
+%%% braces {}.  Follow it with \noindent in your input file.
+
+\define\R{\Bbb R} \define\Z{\Bbb Z} \define\Q{\Bbb Q} \redefine\P{\Bbb P}
+\define\cal{\Cal} \define\F{{\Bbb F}} \define\C{\Bbb C} \define\N{\Bbb N}
+\define\SL{\operatorname{SL}} \define\SP{\operatorname{Sp}}
+\define\GL{\operatorname{GL}}
+\define\op{\operatorname}
+\define\bs{\backslash}
+\define\im{\operatorname{im}}
+\define\coker{\operatorname{coker}}
+
+\define\shh{{\smc Sheafhom}}
+
+\NoBlackBoxes
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\document
+
+\heading Description of Sheafhom---Mark McConnell \endheading
+
+\subheading{(1). Description}  \shh\ is a package of programs whose basic elements include:
+\roster
+\item"$\diamond$" finite-dimensional vector spaces over~$\Q$.
+\item"$\diamond$" morphisms of finite-dimensional vector spaces
+over~$\Q$ (i.e.~linear maps).
+\item"$\diamond$" chain complexes $A_0\overset d_0 \to\leftarrow
+A_1\overset d_1 \to\leftarrow\cdots\leftarrow A_n$, where the $A_i$
+and $d_i$ are in the category of $\Q$-vector spaces---or, recursively,
+in any category~$\cal A$ defined by the rules on this list.
+\item"$\diamond$" graded objects, which are vectors $(A_0, \dots,
+A_n)$ of $\cal A$-objects.
+\item"$\diamond$" morphisms of chain complexes (i.e.~chain maps),
+and of graded objects.
+\item"$\diamond$" partially ordered sets, which we use to implement
+finite regular cell complexes (including simplicial complexes).
+\item"$\diamond$" sheaves of $\cal A$-objects on regular cell
+complexes.
+\item"$\diamond$" ``infinite-dimensional chain complexes'' $(C_*, \partial_*)$,
+modeling the singular chain complex $C_*(X;\Q)$ on a space~$X$.
+These contain chains which represent sections of a sheaf.  A complex
+$C_*$ will grow as the program runs.
+\item"$\diamond$" spectral sequence pages.  If a page $E^1_{pq}$ is
+given, the system computes $E^2_{pq}$, $E^3_{pq}$, \dots $E^\infty_{pq}$,
+constructing the differentials $d_{pq}^2$, $d_{pq}^3$, \dots as it
+goes along.
+\item"$\diamond$" operations like kernel, image, direct sum, tensor
+product, and exterior power, defined (where appropriate) on  the above
+categories, and behaving functorially on their morphisms.
+\endroster
+All these items are implemented and working, except for some
+chain complex functions.
+
+As an example, take objects $A$, $B$ and $C$, and morphisms $f$ and
+$g$, in some category $\cal A$, with $gf=0$.
+
+\smallskip
+\epsfxsize= 1.5in
+\qquad\qquad\qquad\qquad\qquad\qquad\quad\epsfbox[0 0 153
+90]{shh11296.eps}
+\smallskip
+
+\noindent The homology object $H = (\ker g)/(\im f)$ at $B$ can be
+computed as follows:
+
+{\tt k := ker(g):}
+
+{\tt j := pullback-to-ker(f,g):}
+
+{\tt H := target(coker(j)):}
+
+\noindent The first line defines an injective morphism $k$ from $K$, a
+kernel object, to $B$.  The $K$ is constructed automatically and
+stored with~$k$, though it is usually hidden from the user.  The
+second line constructs the unique pullback morphism $j : A \to K$ such
+that $kj=f$.  Then $\coker j$ is a surjection $K \twoheadrightarrow H$
+whose target space~$H$ is, by definition, the homology object we want.
+This is of course only an illustration. \shh's operation {\tt
+homology(...)} does this process directly.  One point of the programs
+is to free the user from low-level details.
+
+The same three lines of code give different results according to the
+category one is in.  If $A$, $B$ and $C$ are vector spaces, then $H$
+is ordinary homology.  If they are graded objects, $H$ might be one row of
+the $E^1$ term of a spectral sequence.
+
+Everything in the programs works functorially.  For example, if {\tt
+homology(...)} is given a morphism $f$ of chain complexes, it returns
+$f_*$, the induced morphism on the homology graded objects.
+
+Many identities can be used.  For instance, if $A$ and $B$ are vector
+spaces, and\footnote{$\bigwedge\nolimits_i A$ denotes $\bigwedge\nolimits^i A$.  We
+lower the index because \shh\ uses chain complexes, not cochain
+complexes.} $C = \bigwedge\nolimits_* A \otimes \bigwedge\nolimits_* B$ and $D =
+\bigwedge\nolimits_*(A\oplus B)$, then
+
+\smallskip\noindent
+(1.1) {\tt
+$\qquad\qquad$ f := distribute-tensor-over-exterior-algebra(C,D):}
+
+\smallskip\noindent
+sets $f$ equal to the canonical isomorphism $C \overset
+\sim\to\longrightarrow D$.  To ``use'' the identity, compose $f$ or
+$f^{-1}$ with other maps.
+
+Every morphism of vector spaces carries within it a matrix
+representing the map with respect to standard coordinates.  The
+matrices are created automatically and are normally hidden from the
+user.  A major goal of the programs is to free users from matrix
+manipulation and to allow them to think categorically.
+
+\subheading{(2). Deligne's construction of intersection homology for
+toric varieties} Let $X$ be a toric variety (over~$\C$, complete,
+normal, not necessarily smooth or projective).  Since the local normal
+structure of~$X$ is relatively simple, \shh\ can compute the
+intersection homology of~$X$ directly from first principles, i.e.~from
+Deligne's construction.
+
+You can only say what your language allows you to say.  \shh\ provides
+part of the standard mathematical vocabulary, and allows one to
+express deep ideas in something like standard mathematical language.
+
+A toric variety $X$ of dimension~$n$ is characterized by having a
+$(\C^*)^n$ action with a single dense orbit~$S^{n1}$.  The orbits
+under this action partition $X$ into strata $S^{ij} \cong (\C^*)^i$
+for $i=0,\dots,n$.  (The~$j$ is a dummy variable indexing the strata
+of dimension~$i$.)  The open set $U^{ij} = \bigcup_{\overline{S^{i_1 j_1}}
+\supseteq S^{ij}} S^{i_1 j_1}$ is a neighborhood of $S^{ij}$ in $X$,
+and is homeomorphic to a product $S^{ij} \times c^{ij}$, where
+$c^{ij}$ is the {\sl normal cone\/} for~$S^{ij}$.  (The topology of
+toric varieties is special in two ways.  (a)~For most spaces, only a
+small subset of $U^{ij}$ near $S^{ij}$ would have a local product
+structure.  (b)~Usually there is monodromy, meaning $U^{ij}$ would
+only be a bundle with fiber $c^{ij}$.)
+
+Let $IH_k(\dots)$ denote the intersection homology $IH^{\bar
+p}_k(\dots; \Q)$ for arbitrary perversity~$\bar p$.  This includes
+ordinary cohomology and homology as special cases.
+
+Fix $V = \Q^n$.  To each $S^{ij}$ is associated a rational subspace
+$T^{ij} \subseteq V$ of dimension~$i$, representing the tangential
+directions along $S^{ij}$ (the orthocomplements of the corresponding
+cones in the fan for~$X$).  If $S^{ij} \subseteq \overline{S^{i_1
+j_1}}$, then $T^{ij} \subseteq T^{i_1 j_1}$.  A basic fact is that
+$IH_k(S^{ij}) \cong \bigwedge\nolimits_k T^{ij}$.  
+
+\def\oc{\overset\circ\to c}  \def\oU{\overset\circ\to U}
+
+Let $\oc^{ij}$ be $c^{ij}$ with its vertex deleted.  Let $\oU^{ij} =
+S^{ij} \times \oc^{ij}$, a deleted neighborhood of $S^{ij}$.  
+The main idea of Deligne's construction is to compute
+$IH_*(\oU^{ij})$, $IH_*(U^{ij})$, and $IH_*(U^{ij}, \oU^{ij})$
+simultaneously by descending induction on~$i$.  By a K\"unneth
+formula,
+$$
+\align
+IH_k(\oU^{ij})
+  &= \bigoplus_{k_1 + k_2 = k} IH_{k_1}(S^{ij}) \otimes
+                                 IH_{k_2}(\oc^{ij}) \\
+  &\cong \bigoplus_{k_1 + k_2 = k} \left( \bigwedge\nolimits_{k_1} T^{ij} \right)
+                                      \otimes  IH_{k_2}(\oc^{ij}),
+\endalign
+$$
+There are similar product formulas for $IH_*(U^{ij})$ (replace
+$\oc^{ij}$ with $c^{ij}$), and for $IH_*(U^{ij},
+\oU^{ij})$ (replace $\oc^{ij}$ with $(c^{ij}, \oc^{ij})$).  The
+central task is to compute $IH_*$ of $\oc^{ij}$, of $c^{ij}$, and of
+$c^{ij}$ relative to $\oc^{ij}$.
+
+We first set up the initial step ($i=n$) of the induction.  Since the top
+stratum $S^{n1}$ is smooth, we have $T^{n1}=V$, $c^{n1} = \{\text{point}\}$,
+and $\oc^{n1} = \varnothing$.  We set up graded objects $N_*^{n1}$
+and $N_{*,\text{rel}}^{n1}$, both having $\Q$ in degree~0 and 0 in degrees~1
+through~$n$; these represent $IH_*(c^{n1})$ and $IH_*(c^{n1},
+\oc^{n1})$ respectively.  We create an ``infinite-dimensional chain
+complex'' $(C_*, \partial_*)$, initially with $C_k =
+\bigwedge\nolimits_k V$ for $0\le k \le 
+n$, $C_k = 0$ for $n < k \le 2n$, and all differentials $\partial_k =
+0$; this stands for a part of the intersection
+chain complex $IC_*^{\bar p}(X)$ which represents the classes of
+$IH_*((\C^*)^n) \cong \bigwedge\nolimits_*V$.  (As the computation
+progresses, $C_*$ will grow larger.)  To $S^{n1}$ we attach 
+$$
+\gathered
+\text{the {\sl section }}
+  \zeta_*^{n1} : IH_*(U^{n1}) \cong \left( \bigwedge\nolimits_* T^{n1} \right) \otimes N^{n1}_*
+    \hookrightarrow C_* \\
+\text{the {\sl local (relative) section }}
+  \zeta_{*,\text{rel}}^{n1} : IH_*(U^{n1}, \oU^{n1}) \cong \left(
+\bigwedge\nolimits_* T^{n1} \right) \otimes
+                    N^{n1}_{*,\text{rel}}
+    \hookrightarrow C_*
+\endgathered
+\tag 2.1
+$$
+The injections $\hookrightarrow$ at this initial stage are essentially just
+isomorphisms $\bigwedge\nolimits_k V \otimes \Q \cong \bigwedge\nolimits_k V$.
+
+At the $i$-th step, assume by induction that for each $i_1 j_1$ with
+$i_1 > i$ we
+have computed graded objects $N^{i_1 j_1}_{*}$ and $N^{i_1
+j_1}_{*,\text{rel}}$ and injections to $C_*$ as follows:
+$$
+\gather
+\text{{\sl sections }}
+  \zeta_*^{i_1 j_1} : IH_*(U^{i_1 j_1}) \cong \left(
+\bigwedge\nolimits_* T^{i_1 j_1} \right)
+\otimes N^{i_1 j_1}_* 
+    \hookrightarrow C_* \tag {2.2} \\
+\text{{\sl local (relative) sections }}
+  \zeta_{*,\text{rel}}^{i_1 j_1} : IH_*(U^{i_1 j_1}, \oU^{i_1 j_1})
+\cong \left( \bigwedge\nolimits_* T^{i_1 j_1} \right) \otimes
+                    N^{i_1 j_1}_{*,\text{rel}}
+    \hookrightarrow C_* \tag{2.3}
+\endgather
+$$
+Consider a given stratum $S^{ij}$.  The sets $U^{i_1 j_1}$ for which
+$i_1 > i$ and $\overline{S^{i_1 j_1}} \supset S^{ij}$ form an open cover of $\oU^{ij}$.  We now
+explain how \shh's spectral sequence code finds $IH_*(\oc^{ij})$ and
+$IH_*(\oU^{ij})$.
+
+In~(2.3), the left-hand tensor factors are all related to
+$\bigwedge\nolimits_*(T^{ij})$, because $T^{ij} \subset T^{i_1 j_1}$.  We rewrite
+the left side of~(2.3) in each case as
+$$
+\left( \bigwedge\nolimits_* T^{i_1 j_1} \right) \otimes N^{i_1 j_1}_{*,\text{rel}}
+\cong
+\left( \bigwedge\nolimits_* T^{ij} \right) \otimes
+  \undersetbrace := N^{\prime i_1 j_1}_{*, \text{rel}}
+      \to {[\left( \bigwedge\nolimits_* T^{\prime i_1 j_1} \right)
+              \otimes N^{i_1 j_1}_{*, \text{rel}}]}
+$$
+where $T^{\prime i_1 j_1}$ is the orthocomplement of $T^{ij}$ in
+$T^{i_1 j_1}$.  This uses~(1.1).  Keeping track of these tensors
+and wedges is the most frustrating part of doing the computation by
+hand, and it
+accounts for much of the computer's run time.
+
+We assemble the $N^{\prime i_1 j_1}_{*,\text{rel}}$ into the $E^1$
+page of a spectral sequence, with each row containing the terms for a
+given~$i_1$, and with a map $\zeta^{E^1} : E^1 \to C_*$ obtained
+from the $\zeta^{ij}_{*, \text{rel}}$'s.  For each element $\alpha$ in
+the $i_1$-th row of the
+$E^1$ page, we compute $\zeta^{E^1}(\alpha)$, which is a chain in
+$C_*$, and take the boundary $\partial \zeta^{E^1}(\alpha)$, which is
+a cycle in $C_{*-1}$.  This cycle pulls back under $\zeta^{E^1}$ to a
+(possibly zero) class $\beta$ in the $(i_1+1)$-st row of $E^1$.  The
+map $\alpha \mapsto \beta$ is the $d^1$ differential in $E^1$, and
+taking homology with respect to $d^1$ gives the $E^2$ page of the
+spectral sequence.  We repeat this process inductively (using the same
+code!) with $E^r$ replacing $E^1$ for $r=2, 3, \dots$; here $\beta$
+will lie in the $(i_1+r)$-th row.  We construct the $d^2$ differential
+and the page $E^3$, construct $d^3$ and $E^4$, etc.  Keeping track of
+the correct row for~$\beta$ (the filtration level) happens
+automatically, because of how $C_*$ and $\partial_*$ are constructed;
+no programming effort is required.  The spectral sequence converges
+after finitely many steps to $IH_*(\oc^{ij})$, and provides an
+appropriate injection $IH_*(\oc^{ij}) \hookrightarrow C_*$.  We use
+the tensor product to compute $IH_*(\oU^{ij}) \cong \left(
+\bigwedge\nolimits_* T^{ij}\right) \otimes [IH_*(\oc^{ij})]
+\hookrightarrow C_*$.
+
+Once we have $IH_*(\oc^{ij})$, doing Deligne's construction is
+straightforward.  The section $IH_*(U^{ij})$ is
+$\left(\bigwedge\nolimits_* T^{ij} \right) \otimes [\op{tr}_{\le d}
+IH_*(\oc^{ij})]$, where $\op{tr}_{\le d}$ is the truncation operator
+which keeps only degrees $\le d$ (this $d$ depends on~$i$ and~$\bar
+p$).  The map $\zeta_*^{ij} : IH(U^{ij}) \hookrightarrow C_*$ is
+induced by the one for $IH_*(\oU^{ij})$.  The local relative section
+$IH_*(U^{ij}, \oU^{ij})$ is $\left( \bigwedge\nolimits_* T^{ij}
+\right) \otimes [\op{tr}_{> d} IH_*(\oc^{ij})[1]]$; we keep only
+degrees~$>d$ in the second factor, and shift them one degree up (which
+is what the~[1] means).  If $\alpha \in IH_k(\oc^{ij})$ is a class (for
+$k>d$) represented by a geometric cycle~$z \in C_k$, we adjoin to
+$C_{k+1}$ a new formal chain $\frak c \alpha$ representing a cone with
+base~$z$ and vertex on $S^{ij}$, and we extend the definition of $
+\partial_{k+1}$ by setting $
+\partial(\frak c \alpha) = z$.  We define
+$\zeta_{*,\text{rel}}^{ij} : IH_*(U^{ij}, \oU^{ij}) \hookrightarrow
+C_*$ using $\zeta_{*,\text{rel}}^{ij}(\alpha[1]) = \frak c \alpha$ in
+the right-hand tensor factor.
+
+By this induction, we compute $IH_*^{\bar p}$ of the $U^{ij}$ and
+$(U^{ij}, \oU^{ij})$ for all~$i$.  Finding the global $IH_*^{\bar
+p}(X)$ calls for just one more spectral sequence involving all the
+$IH_*^{\bar p}(U^{ij}, \oU^{ij})$.
+
+The sections and local relative sections are stored in a data
+structure called a {\tt sheaf}.  The {\tt sheaf} also includes the
+perversity~$\bar p$ and a partially ordered set embodying the face
+relations among the $S^{ij}$.
+
+\subheading{(3).  ``Non-rational toric varieties''} If the method
+in~(2) is carried out over~$\R$, the rationality of the $T^{ij}$ is
+never used.  We can use any family of subspaces $T^{ij}\subseteq
+\R^n$, rational or not, satisfying inclusions $T^{ij} \subseteq T^{i_1
+j_1}$ coming from an appropriate partially ordered set.  In
+particular, the method defines ``intersection homology Betti numbers''
+(the $h$-vector) for the fictitious toric varieties coming from
+non-rational convex polytopes (see~(4)).
+
+\subheading{(4).  Intersection Products and Convex Polytopes} In
+this section only, let $IH_*$ denote the middle-perversity intersection
+homology $IH^{\bar m}_*$, and assume $H^*$, $H_*$ and $IH_*$ all have
+coefficients in~$\C$.
+
+Let $\Delta_0$ be a simplicial convex polytope of dimension~$n$---that
+is, a convex polytope whose codimension-one faces are simplices.  Let
+$f_i$ be the number of $i$-dimensional faces of $\Delta_0$, and call
+$(f_0, \dots, f_{n-1}) \in \N^n$ the {\sl $f$-vector\/} of~$\Delta_0$.
+Peter McMullen gave a characterization of the set of $f$-vectors of
+simplicial polytopes, which was proved by Lou Billera and Carl Lee
+(sufficiency of McMullen's conditions) \cite{Bi-L} and by Richard
+Stanley (necessity) \cite{St1}.
+
+Assume $\Delta_0$ is rational and has the origin in its interior.
+Then $\Delta_0$ defines a fan~$\Sigma$, from which we get a toric
+variety $X$.  This is a projective variety, so it has a Lefschetz
+class $\omega \in H^2(X)$ given by a generic hyperplane section.
+$H^k(X) = 0$ when $k$ is odd.
+
+The {\sl $h$-vector\/} $(h_0, h_1, \dots)$ of $\Delta_0$ is defined by
+$h_i = \dim H^{2i}(X)$.  It depends only on the combinatorial type
+of $\Delta_0$.  Characterizing the set of $h$-vectors is equivalent to
+characterizing the set of $f$-vectors.
+
+Since $\Delta_0$ is simplicial, $X$ is smooth except for finite quotient
+singularities.  The key step in Stanley's proof is to use the
+following facts:
+\roster
+\item $H^*(X)$ is a graded ring under the usual intersection
+product, where the $i$-th graded piece is $H^{2i}$;
+\item $H^*(X)$ is generated as a
+$\C$-algebra by $H^2$;
+\item $H^*(X)/(\omega)$ is a graded ring, where $(\omega)$ is the
+ideal generated by the Lefschetz class;
+\item $H^*(X)/(\omega)$ is generated by the image mod~$(\omega)$
+of~$H^2$.
+\endroster
+
+Now let $\Delta$ be any rational convex polytope, not necessarily
+simplicial.  Currently there is no satisfactory generalization of the
+previous story for rational $\Delta$.  Instead of the $f$-vector, one
+considers the {\sl flag vector\/} $(f_{i_1 \dots i_k})$ of $\Delta$,
+where $f_{i_1 \dots i_k}$ is the number of sets $\{\sigma_1, \dots,
+\sigma_k\}$ of faces of $\Delta$ for which $\dim \sigma_{j} = i_j$ and
+$\sigma_j \subset \overline{\sigma_{j+1}}$.  It is a difficult problem
+to characterize the set of flag vectors.  (When $\Delta$ is
+simplicial, the $f$-vector determines the flag vector, but not in
+general.)
+
+One can still associate a fan~$\Sigma$ and a toric variety $X$ to
+$\Delta$, but $X$ will in general be singular (with more than just
+finite quotient singularities).  $X$ is still projective, so there is
+a Lefschetz class $\omega\in H^2(X)$.
+
+The ordinary cohomology Betti numbers of $X$ are not combinatorial
+invariants of $\Delta$, so the $h$-vector as given above is not well
+defined~\cite{M0}.  However, the intersection homology Betti numbers
+{\sl are\/} combinatorial invariants, and we redefine the $h$-vector
+to be $h_i = IH_{2i}(X)$.  (The definitions agree when $\Delta$ is
+simplicial.  For all~$\Delta$, $IH_k(X) = 0$ for odd~$k$.)  The
+$h$-vector does not determine the flag vector.  However,
+characterizing the set of $h$-vectors would give new and important
+information about polytopes.
+
+(As mentioned in~(3), section~(2) defines an $h$-vector even when
+$\Delta$ is not rational.  It will have $h_i \ge 0$, but we do not
+know whether it satisfies Poincar\'e duality (the generalized
+Dehn-Somerville equations) or the Lefschetz inequalities $h_0 \le h_1
+\le \dots \le h_{\lfloor n/2 \rfloor}$.  We do not even know if this
+``$IH_k$'' is zero for odd~$k$.)
+
+Properties~(1)--(4) have analogues~($1'$)--($4'$) in which $H^*$ is
+replaced by $IH_*$.  A priori these analogues may be true or false.
+One could characterize the set of $h$-vectors if one could
+prove~($3'$)--($4'$).  
+
+The candidate for the $i$-th graded piece in $IH_*$ would be
+$IH_{2n-2i}$.  In general, there is a canonical intersection product
+$$
+IH_i(X) \times IH_j(X) \to H_{i+j-2n}(X). \tag 4.1
+$$
+There is also a canonical map $IH_k(X) \to H_k(X)$.  However, (4.1)
+does not pull back to $IH_*(X)$, even for toric varieties in dimension
+$n=3$.  This means $IH_*(X)$ is not a
+ring: ($1'$)~is false, and ($2'$)~does not make sense.  (Frances
+Kirwan has announced that $IH^{\bar m}_*$ of toric varieties {\sl
+is\/} a ring, if one uses a different
+product coming from the theory of symplectic quotients.)
+
+To understand~($3'$), recall that there is an intersection product
+$H^i(X) \times IH_j(X) \to IH_{j-i}(X)$.  Thus it makes sense to mod
+$IH_*$ out by the submodule $(\omega) = \omega\cdot IH_*$.  The
+quotient $IH_*(X)/(\omega)$ is trivially a ring for $n\le 3$, but the
+cases $n\ge 4$ are open.  Even if ($3'$) and ($4'$) are false, it
+would be important to study why they fail.  I propose to investigate
+these questions---whether $IH_*/(\omega)$ is a ring, and, if so,
+whether it is generated by its first graded piece.  I believe this is
+a field where computing examples will pay a high mathematical
+dividend.
+
+One reason for computing $IH^{\bar p}_*(X)$ by explicit cycles, as
+in~(2), is that it will be possible to work out the intersection
+product~(4.1) explicitly.  In the sections over the smooth
+part~(2.1), the product is just the wedge product in
+$\bigwedge\nolimits_* V$, up to a duality.  Whenever a new $\frak c
+\alpha$ is adjoined to $C_*$, we may assume $\frak c \alpha$ is in
+general position with respect to pre-existing chains, and we can work
+out its intersection with them.  Let $\mu : X \to \Delta^*$ be the
+moment map, with $\Delta^*$ the dual polytope for $\Delta$.  For each
+$\frak c \alpha$, we will have to choose a PL subset of $\Delta^*$
+representing $\mu(\frak c \alpha)$.  Then $\frak c \alpha \cap \frak c
+\beta$ will be zero if $\mu(\frak c \alpha)$ and $\mu(\frak c \beta)$
+are disjoint; otherwise, we can compute $\frak c \alpha \cap \frak c
+\beta$, which lies in $\mu^{-1}(\mu(\frak c \alpha) \cap \mu(\frak c
+\beta))$, by induction.  The PL subsets of $\Delta^*$ can be expressed
+in combinatorial terms with reference to a barycentric subdivision of
+$\Delta^*$.  A major programming goal for \shh\ is to write this code.
+
+\subheading{(5). Relation to other work} I have not heard of another
+computer algebra system which deals with homological algebra and
+sheaves the way \shh\ does.  Many systems deal with tensors and
+differential forms, but in a fixed vector space.  One very interesting
+system is EAT (Effective Algebraic Topology), written by a group led
+by Francis Sergeraert---see {\tt
+http://www-fourier.ujf-grenoble.fr/${\sim}$sergerar/} \quad This deals with
+chain complexes and spectral sequences, and computes homotopy and
+homology groups of finite simplicial complexes, loop spaces, and other
+objects.
+
+For the middle perversity~$\bar m$, the {\sl purity\/} condition
+implies that our spectral sequences collapse at $E^2$ (up to some
+indexing issues).  The middle perversity Betti numbers $\dim IH^{\bar
+m}_k(X)$ are known via a beautiful recursive formula discovered
+independently by Bernstein, Khovanskii and MacPherson (whose proof was
+first published in~\cite{F}); this depends on the Decomposition
+Theorem, which is another expression of purity.  Nevertheless, I have
+not incorporated purity results into the \shh\ toric variety code.  It
+is important for~(4) to represent $IH^{\bar p}_*(X)$ by explicit
+cycles, so I have preferred a direct computation of it.  Of course,
+purity considerations will be critical in interpreting our results,
+and they could help speed up the code.
+
+One can invert the induction in~(2), forgetting the normal cones and
+using the $S^{ij}$ alone for ascending~$i$.  This gives a spectral
+sequence for $H_*(X)$, first written down by Burt Totaro~\cite{T}.  A
+form of purity implies this spectral sequence collapses at $E^2$.  A
+version of \shh\ from May 1996 computes $H_*(X)$ using this algorithm.
+It does not work with other perversities.
+
+Jonathan Fine, encouraged by Gil Kalai, has recently created a
+combinatorial scheme that takes~$\Delta$ and produces numbers $\tilde
+h_i$.  These equal the $h_i$ in many cases, but not always; an example
+of Marge Bayer in dimension five even shows some $\tilde h_i$ can be
+negative.  Fine's scheme has elements which seem to stand for classes
+in $\bigwedge\nolimits_k T^{ij}$, in $N^{ij}_{*,\text{rel}}$, and for
+the $\frak c \alpha$, all relative to middle perversity.  I will run
+my spectral sequence code on Bayer's example and others, analyzing
+each page $E^r$ and comparing it to the elements of Fine's scheme.  I
+suspect that Fine's $\tilde h_i$ are sums and differences of the
+dimensions of the terms in the $E^1$ and $E^2$ pages, but that they
+miss the $E^\infty$ pages.
+
+It is important to understand the intersection product on the ordinary
+cohomology $H^*(X)$, as well as on $IH_*(X)$, because of the
+importance of intersection theory in algebraic geometry.  For example,
+there are close relations between $H^*(X)$, the Chow group, and the
+``operational'' Chow ring \cite{F-M-S-S} \cite{T}.
+
+In this thesis, David Yavin defined a chain complex that computes
+$IH^{\bar p}_*$ of toric varieties.  It used objects like the $T^{ij}$
+and $c^{ij}$, with a mixture of finite- and infinite-dimensional
+complexes.  My work is independent of Yavin's.
+
+\subheading{(6). Other applications} The class of spaces which can
+be handled by a ``direct Deligne's construction'' as in~(2) is
+probably small.  (Perhaps one could handle Schubert varieties and
+other spherical varieties this way, after careful study of the
+geometry of the links.)  I now briefly mention other applications in
+which $X$ is any finite regular cell complex (e.g.~simplicial
+complex).
+
+\comment
+Sections~1 and~2 provide examples using cell complexes.  Gunnells and
+I have used \shh, along with Gunnells' algorithm~(1.5), to try to
+compute Hecke operators.  The ease with which \shh\ expresses
+pullbacks and homology has been very helpful.
+\endcomment
+
+MacPherson has recently found an elementary interpretation of perverse
+sheaves for regular cell complexes~$X$.  Over each cell in~$X$ one
+puts a stalk, which is a finite-dimensional $\Q$-vector space.  There
+is a perversity function $\delta : \N \to \Z$ satisfying certain
+conditions.  If $\tau, \sigma$ are a $j$-cell and an $i$-cell with one
+lying in the other's boundary, and if $\delta(j) + 1 = \delta(i)$,
+then there is a map from the stalk on~$\sigma$ to the stalk on~$\tau$;
+the aggregate of these maps must satisfy certain axioms.  If
+$\delta(k) := -k$ this gives an ordinary sheaf, but for other $\delta$
+it gives perverse sheaves.  A book presenting the theory has been
+begun by Mark Goresky, MacPherson, Maxim Vybornov, and myself.  \shh\
+could easily include these perverse sheaves.
+
+\subheading{(7). Availability} A working version of \shh, written in
+Common Lisp and its object-oriented extension CLOS, is available on
+the Web at
+
+\noindent {\tt
+http://www.math.okstate.edu/${\sim}$mmcconn/shh.html}\newline There is
+enough documentation so that people who don't know Lisp, but have
+access to a Lisp compiler with CLOS, can get started using the
+programs.
+
+\subheading{(8). Computational Issues} I intend to make \shh\ widely
+available to mathematicians.  Sadly, though, Common Lisp is not a
+widely-used computer language today.  If I translate \shh\ into
+another language, the language will have to support object-oriented
+programming, since the current version is heavily object-oriented.  I
+could translate \shh\ into C++, building on LiDIA, an efficient system
+of integer- and matrix-crunching routines.  \shh\ would then become a
+stand-alone system.  I could also incorporate it into Magma, or the
+nascent Macaulay~II.  The choice will be made soon.  I would like to
+write a Maple version, since that may have the widest audience, but
+one wonders if it would run too slowly.
+
+Currently \shh\ implements linear maps over~$\Q$ as matrices~$A$
+over~$\Z$.  I could implement them as pairs $(A,d)$ representing
+$\frac 1 d \cdot A$ with $d\ge 1$ and $A$ over~$\Z$, but so far there
+has been no need; the~$d$ can usually be absorbed into the choice of
+basis of $A$'s domain or target space.  The main linear algebra
+routines are based on the integer~LLL algorithm.  Currently I use
+arbitrary-precision integers; this is relatively slow, but robust and
+elegant.  \shh\ could be adapted to include vector spaces over finite
+fields.  One could add $\Z$-modules, though that would introduce the
+complications of torsion.
+
+It will be essential to add sparse matrices to \shh.  Since~1987 I
+have written several sparse integer matrix routines for different
+purposes; I will use an improved version of one of these.
+
+Let $\Delta$ be the 4-dimensional hypercube with vertices $(\pm1,
+\pm1, \pm1, \pm1)$, and let $X$ be the associated toric variety.  $X$
+has 81 different strata.  The version of \shh\ using Totaro's
+algorithm~(5) computes the ordinary homology Betti numbers (1, 0, 1,
+0, 4, 11, 12, 0, 1) of $X$ in 6--7 seconds on a {\smc Sparc}station~1000.
+Up-to-date timing data for the algorithm in~(2) is available on the
+Web page mentioned in~(7).
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\Refs
+
+\widestnumber\key{F-M-S-S}
+
+\ref \key Bi-L
+\by L. Billera, C. Lee
+\paper A proof of the sufficiency of McMullen's conditions for
+$f$-vectors of simplicial convex polytopes
+\jour J. Combin. Thy. Ser. A
+\vol 31 \yr 1981 \pages 237--255
+\endref
+
+\ref \key F
+\by K.-H. Fieseler
+\paper Rational intersection cohomology of projective toric varieties
+\jour J.~Reine Angew. Math.
+\vol 413 \yr 1991 \pages 88--98
+\endref
+
+\ref \key F-M-S-S
+\by W. Fulton, R. MacPherson, F. Sottile, B. Sturmfels
+\paper Intersection theory on spherical varieties
+\jour J.~Algebraic Geom. \vol 4 \yr 1995 \pages 181-193
+\endref
+
+\ref \key M0
+\by M. McConnell
+\paper The rational homology of toric varieties is not a combinatorial
+invariant
+\jour Proc.~AMS \vol 105 \yr 1989 \pages 986--991
+\endref
+
+\ref \key St1
+\by R. Stanley
+\paper The number of faces of a simplicial convex polytope
+\jour Adv. in Math. \vol 35 \yr 1980 \pages 236--238
+\endref
+
+\ref \key St2
+\bysame
+\paper Generalized $H$-vectors, intersection cohomology of toric
+varieties, and related results
+\inbook Commutative Algebra and Combinatorics (Kyoto 1985)
+\bookinfo Adv. Stud. in Pure Math. {\bf 11}, North Holland,
+Amsterdam, New York
+\yr 1987 \pages 187--213
+\endref
+
+\ref \key T
+\by B. Totaro
+\paper Chow groups, Chow cohomology, and linear varieties
+\paperinfo to appear in {\sl J. Algebraic Geom}
+\endref
+
+\endRefs
+
+\enddocument

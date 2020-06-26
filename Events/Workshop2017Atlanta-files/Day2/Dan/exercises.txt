@@ -1,0 +1,38 @@
+Exercise 1: Implement stacks as linked lists, where null is the empty linked
+    list, and the sequence (x,y) serves to hold the first element, x, and the
+    remainder of the list, y.  See
+
+        https://en.wikipedia.org/wiki/Stack_(abstract_data_type)
+
+Exercise 2: Implement queues using a mutable list to store the entries,
+    cyclically; see
+
+        https://en.wikipedia.org/wiki/Queue_(abstract_data_type)#Queue_implementation
+
+    for the idea.  Be sure to amortize the cost of adding elements to the
+    mutable list by at least doubling the length of the list each time the list
+    is lengthened.
+
+Exercise 3: Write code to add a border of asterisks to a net.  For example,
+	  from "abc" we get this:
+
+	  *****
+	  *abc*
+	  *****
+
+Exercise 4: Implement a new type of list of length 2, where the first entry is an
+    integer called the priority of the second entry, which can be anything.
+    Define comparison x?y for such objects to compare the corresponding
+    priorities.
+
+Exercise 5: implement priority queues.  See
+
+	https://en.wikipedia.org/wiki/Priority_queue
+
+Exercise 6: implement red black trees, as a way of maintaining lists of objects
+    in sorted order.  Follow, for example, the functional approach here:
+
+	https://course.ccs.neu.edu/cs5010/Inheritance/jfp99redblack.pdf
+	https://github.com/bmeurer/ocaml-rbtrees
+
+    Use the comparison operator x?y for comparison.

@@ -1,0 +1,201 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html>
+<head>
+<base HREF=http://www.math.okstate.edu/~mmcconn/shh.html></base>
+<title>Sheafhom: combinatorial sheaves and algebraic topology
+</title>
+</head>
+
+<body>
+<IMG ALIGN=MIDDLE SRC="shh0898/flabbyp2.gif">
+<h1>
+Sheafhom
+</h1>
+
+<P>
+
+Sheafhom is a set of tools for computation in the category of
+combinatorial sheaves.  It is intended for research involving
+complexes of sheaves and the derived category.  In principle, it can
+be used for any space topologically equivalent to a ranked poset; this
+includes the constructible derived category on arbitrary simplicial
+complexes and regular cell complexes.
+
+<P>
+
+Sheafhom's main application so far is to toric varieties.  The machine
+constructs the intersection cohomology complexes of sheaves (the
+<i>IC</i> sheaves) on an <i>n</i>-dimensional toric variety <i>X</i>,
+for any <i>n</i> and in any perversity.  By taking hypercohomology, it
+finds the rational intersection cohomology (<i>IH</i>) of <i>X</i>.
+This includes the ordinary cohomology <i>H</i>^* and homology
+<i>H</i>_* as special cases.  It computes the canonical maps between
+<i>IC</i> sheaves, and the canonical intersection pairings, as well as
+the corresponding maps and pairings on <i>IH</i>; as special cases,
+this includes the cup product on cohomology, and the <i>H</i>^*-module
+structure (cap product) on <i>IH</i> in any perversity.
+
+<P>
+
+Finally, Sheafhom provides some tools (such as kernel and cokernel)
+for work in the derived category.  This means working with the
+<i>IC</i> and other sheaves themselves, not just their
+hypercohomology.  For instance, one can do some computations in the
+category of perverse sheaves on <i>X</i>.
+
+<P>
+
+The toric varieties should be defined over the complex numbers.  They
+should be normal, but they do not need to be smooth or projective.
+They do not need to be complete (though the fan for <i>X</i> should at
+least be connected in codimension one).  For technical reasons, we use
+rational coefficients, though most of our algorithms are defined over
+the integers.
+
+<P>
+
+Applications I hope to develop in the future include
+<UL>
+  <LI> Finding the induced maps on <i>IH</i> for maps between toric
+      varieties, when these are well defined.
+  <LI> Computing push-forwards <i>Rf</i>_*.  Computing the direct sum
+      structure provided by the Decomposition Theorem.
+  <LI> Supporting arbitrary finite simplicial complexes and regular
+      cell complexes.
+  <LI> In locally symmetric spaces Gamma\G/K, where G is the Lie group
+      SL(<I>n</I>,R) and Gamma is an arithmetic subgroup,
+      separating out the part of the cohomology that does not come
+      from the Borel-Serre boundary.  One should take the constant
+      sheaf on the Borel-Serre compactification and push it forward to
+      the well-rounded retract, using a retraction defined
+      in the latest paper of Ash-McConnell. 
+  <LI> Computing Hecke operators on locally symmetric spaces, using
+      techniques of Ash-Rudolph, MacPherson-McConnell, Gunnells, and/or
+      Gunnells-McConnell.
+</UL> 
+
+<P>
+
+This work has been partially supported by the National Science
+Foundation (DMS-9401460 and 9704535).  I thank <A
+HREF="http://www.mathe.uni-konstanz.de/~barthel/ich.html">Gottfried
+Barthel</A> for his support and his constructive comments about early
+versions of Sheafhom.  I thank <A
+HREF="http://www.math.uiuc.edu/~dan/">Dan Grayson</A> for help with
+both the mathematics and the programming.  <P>
+
+<HR> <P>
+
+<h3> Versions of Sheafhom </h3>
+
+<P>
+
+The present version of Sheafhom is written in <A
+HREF="http://www.math.uiuc.edu/Macaulay2/">Macaulay 2</A>.  This
+provides an elegant mathematical language which is convenient for both
+the programmer and the user.
+
+<P>
+
+The previous versions of Sheafhom were written in Common Lisp.  See
+the home page of the <A
+HREF="http://www.math.okstate.edu/~mmcconn/shh0498.html">most recent
+Lisp version</A> for more information.
+
+<P>
+
+<h4> Speed and Memory </h4>
+
+<P>
+
+Over the years, the Lisp version of Sheafhom has become relatively
+fast.  For one substantial benchmark, the four-dimensional singular
+variety based on the cross polytope, the program computes the
+middle-perversity <I>IH</I> Betti numbers on a SparcServer 1000 in 20
+minutes.  On a Pentium running at 166 MHz with 64M of RAM, the same
+computation takes about 7 minutes.
+
+<P>
+
+In the Lisp version, the whole Sheafhom system is compiled.  Macaulay
+2, by constrast, is largely an interpreted system, and hence is
+substantially slower for Sheafhom.  The four-dimensional benchmark
+above takes about 6-7 hours on the SparcServer 1000, and well over
+64M of memory.  Improving this performance is an ongoing project.
+
+<P>
+
+The Lisp version currently supports only the <i>IC</i> sheaves and
+their hypercohomology, not the canonical maps and pairings.
+
+<P>
+
+<HR> <P>
+
+<h3> Learning about Sheafhom </h3>
+
+<P>
+
+<h4> Tutorial </h4>
+
+This <A HREF="shh0898/demo01.txt">tutorial</A> shows how to use
+Sheafhom to enter fans defining toric varieties, compute <i>IC</i>
+sheaves and <i>IH</i> groups, and compute the canonical maps and
+intersection pairings.  It discusses operational Chow cohomology, the
+lack of a ring structure on middle-perversity <i>IH</i>, and combinatorial
+invariants.  There is an introduction to computing in the category of
+perverse sheaves.
+
+<P>
+
+<h4> Index of Functions </h4>
+
+<P>
+
+Here is a <A HREF="shh0898/funcList.txt">list of the main
+functions</A> in the Macaulay 2 version of Sheafhom.  You can learn
+about function <code>suchAndSuch</code> by downloading Sheafhom and
+typing<P><code>help suchAndSuch</code><P>at a Macaulay 2 prompt, or by
+reading the documentation in the source code.
+
+<P>
+
+<HR> <P>
+
+<h3> Obtaining the Code </h3>
+
+<P>
+
+<A HREF="http://www.math.uiuc.edu/Macaulay2/">Macaulay 2</A> can be
+downloaded from this Web site.  It is a free program, and is easy to
+install.  The Web site provides excellent documentation.
+
+<P>
+
+Sheafhom is contained in the file <A HREF="shh0898/shh.m2">shh.m2</A>.
+Check the date at the top of the file to see if you have the current
+version.  Put this into the directory where you run Macaulay 2, and
+load it by typing<P><code>load "shh.m2"</code><P>at a Macaulay 2
+prompt.
+
+<P>
+
+<HR> <P>
+
+Please <A HREF="mailto:mmcconn@math.okstate.edu">send me e-mail</A> if
+you have any questions.  Or call (405) 744-8220.
+
+<P>
+
+<A HREF="index.html">Back to my home page.</A>
+
+
+<hr>
+<address>mmcconn@math.okstate.edu</address>
+<!-- hhmts start -->
+Last modified: Mon Aug  3 18:31:09 CDT 1998
+<!-- hhmts end -->
+</body>
+</html>
+
+

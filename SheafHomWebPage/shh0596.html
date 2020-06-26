@@ -1,0 +1,114 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<html> <head>
+<base HREF=http://www.math.okstate.edu/~mmcconn/shh0596.html></base>
+<title>Sheafhom, programs for homological algebra and algebraic topology
+</title>
+</head>
+
+<body>
+<h1> Sheafhom (first Web version, May 11, 1996) </h1>
+
+Sheafhom is a set of programs I'm developing for homological algebra
+and algebraic topology.  It allows you to work with finite-dimensional
+rational vector spaces, chain complexes, and their morphisms
+(i.e. linear maps).  The system supports tensor products, direct sums,
+and wedge products.  The main application so far is to toric
+varieties: the machine can find the rational homology of (complete,
+normal, possibly singular) toric varieties in any dimension, using an
+algorithm of Burt Totaro (see the source code for the reference).
+Applications I hope to develop in the future include
+<UL>
+  <LI> Finding intersection (co)homology of toric varieties.
+  <LI> Finding maps on homology between toric varieties.  Finding the
+      canonical intersection 
+      product on (intersection) (co)homology.
+  <LI> In locally symmetric spaces Gamma\G/K, where G is a Lie group
+      like SL(<I>n</I>,R) and Gamma is an arithmetic subgroup,
+      separating out the part of the cohomology that does not come
+      from the Borel-Serre boundary, using a recent spectral sequence
+      of Ash and McConnell.
+  <LI> Computing Hecke operators on locally symmetric spaces, using
+      techniques of Ash, of MacPherson and McConnell, or of Paul
+      Gunnells.
+</UL>
+
+<P>
+
+Here is a three-page <A HREF="shh0596.ps"> abstract about Sheafhom
+</A> in Postscript.
+
+<P>
+
+The current version of Sheafhom is written in Lisp.  You will have to
+have a Lisp interpreter or compiler on your machine (though a version
+of Sheafhom without Lisp is a possibility for the future).  For now,
+I've prepared two files that give examples of how to interact with
+Sheafhom.  In them I've tried to explain everything you need to know,
+even if you have no experience with Lisp.  The first example file
+covers <A HREF="example1.txt"> homological algebra</A>, showing how to
+work in Sheafhom with linear maps, chain complexes, chain maps,
+wedges, tensors, and direct sums.  The second file shows you <A
+HREF="toric_ex.lisp"> how to compute the rational homology of a toric
+variety</A> without having to program anything.
+
+<P>
+
+<HR> <P>
+
+<h2> Obtaining the Code; Installation </h2>
+
+Feel free to download Sheafhom.  Start with the following source files:
+<UL>
+  <LI> <A HREF="homolalg.lisp"><code>homolalg.lisp</code></A>, which contains the
+      core routines for linear algebra and homology
+  <LI> <A HREF="plainzmat.lisp"><code>plainzmat.lisp</code></A>, which contains
+      the foundational algorithms for integer matrices, mostly based on
+      Smith normal form.
+  <LI> <A HREF="sheaf.lisp"><code>sheaf.lisp</code></A>, which covers ranked posets
+      and the "cellular sheaves" based on them
+  <LI> <A HREF="toric0.lisp"><code>toric0.lisp</code></A>, which
+      contains the main toric variety routines in their current version.
+</UL>
+
+There is quite a bit of documentation within the source code.  The
+sample files will tell you how to get at some of it.
+
+<P> <HR> <p>
+
+If you're running Carngie Mellon University Common Lisp on a big
+Sparc, you may be able to use the compiled versions directly.
+<UL>
+  <LI> <A HREF="homolalg.sparcf"><code>homolalg.sparcf</code></A>
+  <LI> <A HREF="plainzmat.sparcf"><code>plainzmat.sparcf</code></A>
+  <LI> <A HREF="sheaf.sparcf"><code>sheaf.sparcf</code></A>
+  <LI> <A HREF="toric0.sparcf"><code>toric0.sparcf</code></A>
+</UL>
+Just type <code>(load "toric0")</code> at a Lisp prompt, and Sheafhom
+should start up.  [You may get a bunch of warning messages;
+unless they're "errors", they can be ignored.]
+
+<P>
+
+If you're not running that particular Lisp, you can just download the
+source files and type <code>(load "toric0")</code> at a Lisp prompt.
+All four files will load automatically.  They will be in interpreted
+mode, which is slow but convenient.
+
+<P>
+
+To compile the code yourself, get to a Lisp prompt and give the
+command <code>(compile-file "</code><i>filename</i><code>"
+:error-output nil :load t)</code> for each file in turn, in the order
+<code> plainzmat, homolalg, sheaf, toric0 </code>.
+
+<P>
+
+<A HREF="index.html">Back to my home page.</A>
+
+
+<hr>
+<address>mmcconn@math.okstate.edu</address>
+<!-- hhmts start -->
+Last modified: Wed Jul 16 16:13:19 CDT 1997
+<!-- hhmts end -->
+</body> </html>

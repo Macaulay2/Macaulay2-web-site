@@ -1,0 +1,41 @@
+show language doc on web
+
+basic data types
+     showStructure
+     functions and function closures
+     symbols and symbol closures
+     strings and nets
+     basic lists of various types
+     mutable lists
+     hash tables, hash codes, buckets (debug Core)
+     === vs. ==
+     sets (sets of ideals aren't really possible -- a new data type is needed)
+     how to choose good keys for hash tables and option tables
+          x.c versus x#"c" in hash tables
+     mutable hash tables
+     mathematical objects
+        peek inside some polynomials, rings, modules, and ideals
+        where do method functions get stored?
+     cache tables
+
+good coding style
+     short code is good
+         avoid redundant parentheses and redundant "return"
+	 avoid duplication of code
+	    e.g.:
+	       flatten entries gens gb I
+	       invent an abbreviation, such as
+		  GroebnerBasis _* := G -> flatten gens G
+     indentation
+     our preferred order for arguments
+     	 symmetricPower(k,M); symmetricPower_k M
+     avoid order N algorithms (e.g., mutable list growth)
+     "for" versus "scan" and "apply" ?  (just for lists)
+     see also https://github.com/Macaulay2/M2/wiki/Package-Writing-Style-Guide
+
+inheritance, parent, class, ancestor, method functions
+
+new types of things
+     give a brief example
+     	  how about a type of list with no enclosing brackets for the nets?
+
