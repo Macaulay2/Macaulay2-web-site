@@ -94,10 +94,11 @@
 <h3>Problems</h3>
 
 <ul>
-  <li>Under Mac OS X, version 10.15, "Catalina", it appears that my signing and notarization of the file above is not properly done or
-    not properly taken into account, so if you can't run <i>Macaulay2</i>, or you find that your browser doesn't open the HTML documentation
-    pages, then run the following command:
-<pre>        xattr -rc /Applications/Macaulay2-1.15</pre>    
+  <li>Under Mac OS X, version 10.15, "Catalina", if you can't run <i>Macaulay2</i>, or you find that your browser doesn't open the HTML documentation
+    pages, then run the following command, after replacing 1.16 by the current version:
+    <pre>        xattr -rc /Applications/Macaulay2-1.16</pre>
+    or this one:
+    <pre>        xattr -rd com.apple.quarantine /Applications/Macaulay2-1.16</pre>
   </li>
 </ul>
 
