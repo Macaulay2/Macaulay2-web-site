@@ -5,7 +5,7 @@
 
 include ../Makefile.include
 
-.PHONY : debian cygwin always all index
+.PHONY : debian always all index
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
 UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily \
@@ -33,11 +33,7 @@ test-signature:
 # 	find . -type d | while read x ; do [ -a "$$x"/icon.gif ] || ln -v ../icon.gif "$$x" ; done
 index:; index-new-html -t ~/to/Macaulay2/Style/trailer.html
 
-index-cygwin:
-	cd cygwin && index-new-html -t ../Style/trailer.html
-
 always : 
-cygwin : always ; $(MAKE) -C cygwin
 
 debian-signature : always
 	 @ for dist in $(FLAVORS) ; \
