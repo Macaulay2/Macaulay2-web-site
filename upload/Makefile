@@ -16,7 +16,7 @@ install:
 	find . -name Macaulay2\*-Linux-scientific-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	find . -name Macaulay2\*-Linux-rhel-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/"Red Hat Enterprise, CentOS, Scientific Linux"/. ';'
 	find . -name Macaulay2\*opensuse\* -exec mv -iv '{}' ../Downloads/GNU-Linux/openSUSE/. ';'
-	find . -name Macaulay2\*-ArchLinux-\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Arch/. ';'
+	find . -name Macaulay2\*-ArchLinux\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Arch/. ';'
 	$(MAKE) -C ../Downloads index
 	$(MAKE) -C ../Downloads/Microsoft-Windows index-local
 	$(MAKE) -C ../Downloads/Microsoft-Windows/Cygwin index
