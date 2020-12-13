@@ -9,7 +9,7 @@ include ../Makefile.include
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
 UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily \
-		  xenial yakkety zesty artful bionic cosmic disco eoan focal
+		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy
 DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch buster
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
@@ -105,6 +105,7 @@ debian : always
 		    Ubuntu-disco) match="Ubuntu-19.04" ;;\
 		    Ubuntu-eoan) match="Ubuntu-19.10" ;;\
 		    Ubuntu-focal) match="Ubuntu-20.04" ;;\
+		    Ubuntu-groovy) match="Ubuntu-20.10" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
