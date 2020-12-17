@@ -4,7 +4,11 @@
   After downloading, mount the disk image by clicking on it in your browser or by double-clicking on it in a Finder window. Then drag the <tt>Macaulay2</tt>
   folder in it to somewhere else on your disk. One good location is your system
   <tt>Applications</tt> folder, at the top level on your main disk.
+
+  Downloaded executable files are put into "quarantine" by Mac OS, so we must release the files from quarantine with
+  the following command (where "1.xxx" is replaced by the number of the version you downloaded.
 </p>
+<pre>        xattr -rc /Applications/Macaulay2-1.xxx</pre>
 
 <h3>Getting emacs</h3>
 
@@ -59,9 +63,9 @@
 
 <p>
   First run the '<tt>setup</tt>' command in <i>Macaulay2</i> this way, replacing the 
-  path <tt>/Applications/Macaulay2-1.13</tt> appropriately:
+  path <tt>/Applications/Macaulay2-1.xxx</tt> appropriately:
 </p>
-<pre>    /Applications/Macaulay2-1.13/bin/M2
+<pre>    /Applications/Macaulay2-1.xxx/bin/M2
           setup()  -- Type these lines inside <i>Macaulay2</i>.
                    -- Answer any questions.
           exit</pre>
@@ -90,17 +94,6 @@
 <p>
   See also <a href="http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2/share/doc/Macaulay2/Macaulay2Doc/html/_setting_spup_spthe_sp__Macaulay2_spemacs_spinterface.html">setting up the Macaulay2 emacs interface</a>.
 </p>
-
-<h3>Problems</h3>
-
-<ul>
-  <li>Under Mac OS X, version 10.15, "Catalina", if you can't run <i>Macaulay2</i>, or you find that your browser doesn't open the HTML documentation
-    pages, then run the following command, after replacing 1.16 by the current version:
-    <pre>        xattr -rc /Applications/Macaulay2-1.16</pre>
-    or this one:
-    <pre>        xattr -rd com.apple.quarantine /Applications/Macaulay2-1.16</pre>
-  </li>
-</ul>
 
 <h3>Try it out</h3>
 
