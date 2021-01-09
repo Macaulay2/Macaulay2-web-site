@@ -11,7 +11,8 @@ A typical command for extracting new documentation:
   chmod -R g+w Macaulay2-1.13
 
 See ../.htaccess for some instructions about adding doc for new releases and removing doc for old releases.
-We never just remove doc for old releases, we also mark it gone.
+We never just remove doc for old releases, we also mark it gone. NOPE, .htaccess is no longer referred to,
+as nginx is the http server not.
 
 Also fix the symbolic link in this directory.  (Is it still in use?)
 

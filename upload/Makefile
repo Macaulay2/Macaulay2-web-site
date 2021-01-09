@@ -6,7 +6,7 @@ install:
 	sign-files *.rpm *.deb *.tar.gz *.dmg
 	find . -name Macaulay2\*common\* -exec mv -iv '{}' ../Downloads/Common/. ';'
 	find . -name Macaulay2\*Linux-Generic\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Generic/. ';'
-	find . -name Macaulay2\*MacOS\* -exec mv -iv '{}' ../Downloads/MacOSX/. ';'
+	find . -name Macaulay2\*macOS\* -exec mv -iv '{}' ../Downloads/MacOSX/. ';'
 	find . -name Macaulay2\*Ubuntu\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Ubuntu/. ';'
 	find . -name Macaulay2\*Debian\* -exec mv -iv '{}' ../Downloads/GNU-Linux/Debian/. ';'
 	find . -name Macaulay2\*FreeBSD\* -exec mv -iv '{}' ../Downloads/FreeBSD/. ';'
