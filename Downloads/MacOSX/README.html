@@ -2,7 +2,67 @@
 
  -->
 
-<h3>Downloading a disk image</h3>
+There are now two ways to install <i>Macaulay2</i> under Mac OS X:
+<ul>
+  <li>installing using <b>brew</b></li>
+  <li>downloading a disk image</li>
+</ul>
+
+We describe both of them below.
+
+<hr>
+
+<h2>Installing using brew</h2>
+
+<p>
+  Mahrud Sayrafi has created
+  a <a href="https://github.com/Macaulay2/homebrew-tap">homebrew tap</a>
+  containing a binary distribution of <i>Macaulay2</i>, which makes
+  installation of <i>Macaulay2</i> easy, once you've installed "brew" according
+  to the instructions at <a href="https://brew.sh/">homebrew</a>.  Here are the
+  steps.
+</p>
+
+<ul>
+  <li>In case you have previously installed "flint" using "brew", perhaps as
+    part of the process of compiling <i>Macaulay2</i> from source code, remove
+    it with the following command.  (<i>Macaulay2</i> needs version 2.6.3 of
+    flint, but "brew" installs version 2.7.0 by default.)
+    <pre>
+      brew remove flint
+    </pre>
+  </li>
+  <li>
+    Now install <i>Macaulay2</i> with this command.
+    <pre>
+      brew install Macaulay2/tap/M2
+    </pre>
+  </li>
+</ul>
+
+<p>
+  You will now find the program <tt>M2</tt> in the
+  directory <tt>/usr/local/bin</tt> (if you've installed homebrew
+  in <tt>/usr/local</tt>, as they recommend), and it can be run with the
+  command <tt>/usr/local/bin/M2</tt>.  You may need to use this long form once
+  to evaluate <tt>setup()</tt>, in case the command <tt>M2</tt> runs a
+  previously installed version; the settings take effect the next time you 
+  log in.  (If you don't want <tt>/usr/local/bin</tt> added to your PATH
+  by <tt>setup</tt>, then run the alternative command
+  <tt>$(brew --prefix M2)/bin/M2</tt> instead.)
+  The result will be that something like <tt>/usr/local/opt/macaulay2/bin</tt>
+  is added to your PATH.)
+</p>
+
+<p>
+  If there are any problems with this procedure, please check the "issues" at
+  <a href="https://github.com/Macaulay2/homebrew-tap/issues">homebrew-tap/issues</a>,
+  and create a new one if you don't see a discussion of the problem you're having.
+</p>
+
+<hr>
+
+<h2>Downloading a disk image</h2>
 
 <p>
   Here are the downloadable disk images and their corresponding signature files (see <a href="../../PublicKeys/">PublicKeys</a>);
