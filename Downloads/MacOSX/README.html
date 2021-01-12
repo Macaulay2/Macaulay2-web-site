@@ -19,26 +19,13 @@ We describe both of them below.
   a <a href="https://github.com/Macaulay2/homebrew-tap">homebrew tap</a>
   containing a binary distribution of <i>Macaulay2</i>, which makes
   installation of <i>Macaulay2</i> easy, once you've installed "brew" according
-  to the instructions at <a href="https://brew.sh/">homebrew</a>.  Here are the
-  steps.
+  to the instructions at <a href="https://brew.sh/">homebrew</a>.
+  Install <i>Macaulay2</i> with the following command.
 </p>
 
-<ul>
-  <li>In case you have previously installed "flint" using "brew", perhaps as
-    part of the process of compiling <i>Macaulay2</i> from source code, remove
-    it with the following command.  (<i>Macaulay2</i> needs version 2.6.3 of
-    flint, but "brew" installs version 2.7.0 by default.)
-    <pre>
-      brew remove flint
-    </pre>
-  </li>
-  <li>
-    Now install <i>Macaulay2</i> with this command.
-    <pre>
-      brew install Macaulay2/tap/M2
-    </pre>
-  </li>
-</ul>
+<pre>
+  brew install Macaulay2/tap/M2
+</pre>
 
 <p>
   You will now find the program <tt>M2</tt> in the
@@ -49,7 +36,7 @@ We describe both of them below.
   previously installed version; the settings take effect the next time you 
   log in.  (If you don't want <tt>/usr/local/bin</tt> added to your PATH
   by <tt>setup</tt>, then run the alternative command
-  <tt>$(brew --prefix M2)/bin/M2</tt> instead.)
+  <tt>$(brew --prefix M2)/bin/M2</tt> instead.
   The result will be that something like <tt>/usr/local/opt/macaulay2/bin</tt>
   is added to your PATH.)
 </p>
