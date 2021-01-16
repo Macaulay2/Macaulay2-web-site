@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.4204%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.4204&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ki/k5FDWny885aRUzU8fGg3r4vY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4204v1</id>
+    <updated>2014-09-15T10:49:53Z</updated>
+    <published>2014-09-15T10:49:53Z</published>
+    <title>On 81 symplectic resolutions of a 4-dimensional quotient by a group of
+  order 32</title>
+    <summary>  We establish a general layout for resolving quotient singularities via
+constructing the total coordinate, or Cox ring, of their resolutions. In
+particular we describe the total coordinate ring of symplectic resolutions of a
+quotient singularity studied by Bellamy and Schedler. We infer the geometric
+structure of all such resolutions and their flops.
+</summary>
+    <author>
+      <name>Maria Donten-Bury</name>
+    </author>
+    <author>
+      <name>Jarosław A. Wiśniewski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.4204v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.4204v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.01266%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.01266&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cIsJCkS7IljbgN2+yAWKzzIhkLg</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.01266v1</id>
+    <updated>2015-01-06T19:16:35Z</updated>
+    <published>2015-01-06T19:16:35Z</published>
+    <title>The Quadrifocal Variety</title>
+    <summary>  Multi-view Geometry is reviewed from an Algebraic Geometry perspective and
+multi-focal tensors are constructed as equivariant projections of the
+Grassmannian. A connection to the principal minor assignment problem is made by
+considering several flatlander cameras. The ideal of the quadrifocal variety is
+computed up to degree 6 using the representations of
+$\operatorname{GL}(3)^{\times 4}$ in the polynomial ring on the space of $3
+\times 3 \times 3 \times 3$ tensors. Further analysis gives a lower bound for
+the number of minimal generators. We conjecture that the ideal of the
+quadrifocal variety is minimally generated in degree at most 6.
+</summary>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 page</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.01266v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.01266v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13Pxx, 14Qxx, Secondary 15A69, 15A72, 68T45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

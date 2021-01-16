@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1305.1719%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1305.1719&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VgyLMDgn+wkUYdChQwCJkiJsFDc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1305.1719v1</id>
+    <updated>2013-05-08T05:43:32Z</updated>
+    <published>2013-05-08T05:43:32Z</published>
+    <title>Local cohomology with support in ideals of maximal minors and
+  sub-maximal Pfaffians</title>
+    <summary>  We compute the GL-equivariant description of the local cohomology modules
+with support in the ideal of maximal minors of a generic matrix, as well as of
+those with support in the ideal of 2n x 2n Pfaffians of a (2n+1)x(2n+1) generic
+skew-symmetric matrix. As an application, we characterize the Cohen-Macaulay
+modules of covariants for the action of the special linear group SL(G) on G^m.
+The main tool we develop is a method for computing certain Ext modules based on
+the geometric technique for computing syzygies and on Matlis duality.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <author>
+      <name>Jerzy Weyman</name>
+    </author>
+    <author>
+      <name>Emily E. Witt</name>
+    </author>
+    <link href="http://arxiv.org/abs/1305.1719v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1305.1719v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

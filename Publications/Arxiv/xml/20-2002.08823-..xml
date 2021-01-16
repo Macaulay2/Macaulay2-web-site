@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.08823%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.08823&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jeCNzTO8qZolpRRW1gryAUQtupE</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.08823v2</id>
+    <updated>2020-04-11T10:57:14Z</updated>
+    <published>2020-02-20T16:00:30Z</published>
+    <title>Algebraic reliability of multi-state $k$-out-of-$n$ systems</title>
+    <summary>  In this paper we review different definitions that multi-state $k$-out-of-$n$
+systems have received along the literature and study them in a unified way
+using the algebra of monomial ideals. We thus obtain formulas and algorithms to
+compute their reliability and bounds for it.
+</summary>
+    <author>
+      <name>Patricia Pascual-Ortigosa</name>
+    </author>
+    <author>
+      <name>Eduardo Sáenz-de-Cabezón</name>
+    </author>
+    <author>
+      <name>Henry P. Wynn</name>
+    </author>
+    <link href="http://arxiv.org/abs/2002.08823v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.08823v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

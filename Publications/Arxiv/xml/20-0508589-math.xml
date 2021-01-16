@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0508589%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0508589&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qq7X+Jdyap/07Dnn/mBY9iMeEnw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508589v2</id>
+    <updated>2006-11-16T16:42:56Z</updated>
+    <published>2005-08-30T18:45:49Z</published>
+    <title>Some families of componentwise linear monomial ideals</title>
+    <summary>  Let R=k[x_1,...,x_n] be a polynomial ring over a field k. Let J={j_1,...,j_t}
+be a subset of [n]={1,...,n}, and let m_J denote the ideal
+(x_{j_1},...,x_{j_t}) of R. Given subsets J_1,...,J_s of [n] and positive
+integers a_1,...,a_s, we study ideals of the form I=m_{J_1}^{a_1} \cap ... \cap
+m_{J_s}^{a_s}. These ideals arise naturally, for example, in the study of fat
+points, tetrahedral curves, and Alexander duality of squarefree monomial
+ideals. Our main focus is determining when ideals of this form are
+componentwise linear. Using polymatroidality, we prove that I is always
+componentwise linear when s &lt;= 3 or when J_i \cup J_j = [n] for all i \neq j.
+When s &gt;= 4, we give examples to show that I may or may not be componentwise
+linear. We apply these results to ideals of small sets of general fat points in
+multiprojective space, and we extend work of Fatabbi, Lorenzini, Valla, and the
+first author by computing the graded Betti numbers in the s=2 case. Since
+componentwise linear ideals satisfy the Multiplicity Conjecture of Herzog,
+Huneke, and Srinivasan when char(k)=0, our work also yields new cases in which
+this conjecture holds.
+</summary>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages; final version (minor changes from version 1), to appear in
+  Nagoya Math. J</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0508589v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0508589v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

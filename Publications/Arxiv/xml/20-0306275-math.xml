@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0306275%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0306275&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LSoM+HgRBtW/gjMWltikVLBvz5c</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0306275v1</id>
+    <updated>2003-06-18T19:26:49Z</updated>
+    <published>2003-06-18T19:26:49Z</published>
+    <title>Some schemes related to the commuting variety</title>
+    <summary>  The_commuting variety_ is the pairs of NxN matrices (X,Y) such that XY = YX.
+We introduce the_diagonal commutator scheme_, {(X,Y) : XY-YX is diagonal},
+which we prove to be a reduced complete intersection, one component of which is
+the commuting variety. (We conjecture there to be only one other component.)
+  The diagonal commutator scheme has a flat degeneration to the scheme {(X,Y) :
+XY lower triangular, YX upper triangular}, which is again a reduced complete
+intersection, this time with n! components (one for each permutation). The
+degrees of these components give interesting invariants of permutations.
+</summary>
+    <author>
+      <name>Allen Knutson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Algebraic Geom. 14 (2005) 283-294</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0306275v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0306275v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M10 15A27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

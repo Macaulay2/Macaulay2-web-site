@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2004.02637%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2004.02637&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DPnjH/+CoNeIaKPGnchQoWhpKz0</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2004.02637v2</id>
+    <updated>2020-04-22T12:59:17Z</updated>
+    <published>2020-04-06T12:58:19Z</published>
+    <title>New explicit constructions of surfaces of general type</title>
+    <summary>  We discover a simple construction of a four-dimensional family of smooth
+surfaces of general type with $p_g(S)=q(S)=0$, $K^2_S=3$ with cyclic
+fundamental group $C_{14}$. We use a degeneration of the surfaces in this
+family to find (complicated) explicit equations of six new pairs of fake
+projective planes. Our methods for finding new fake projective planes involve
+nontrivial computer calculations which we hope will be applicable in other
+settings.
+</summary>
+    <author>
+      <name>Lev Borisov</name>
+    </author>
+    <author>
+      <name>Enrico Fatighenti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, supplementary data files available at L.B.'s home page;
+  references added to this version</arxiv:comment>
+    <link href="http://arxiv.org/abs/2004.02637v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.02637v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J29 14J29 14J29, 14Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.05192%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.05192&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GLZ5XHo5brBL8Zpu7M3zHal5VAM</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.05192v1</id>
+    <updated>2016-12-15T19:03:37Z</updated>
+    <published>2016-12-15T19:03:37Z</published>
+    <title>Tropical Chow Hypersurfaces</title>
+    <summary>  Given a projective variety X of codimension k+1 in P^n the Chow hypersurface
+Z_X is the hypersurface of the Grassmannian Gr(k, n) parametrizing projective
+linear spaces that intersect X. We introduce the tropical Chow hypersurface
+Trop(Z_X). This object only depends on the tropical variety Trop(X) and we
+provide an explicit way to obtain Trop(Z_X) from Trop(X). We also give a
+geometric description of Trop(Z_X). We conjecture that, as in the classical
+case, Trop(X) can be reconstructed from Trop(Z_X) and prove it for the case
+when X is a curve in P^3. This suggests that the tropical Chow hypersurface can
+be used to construct a tropical Chow variety.
+</summary>
+    <author>
+      <name>Paolo Tripoli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.05192v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.05192v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

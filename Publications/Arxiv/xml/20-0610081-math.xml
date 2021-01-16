@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0610081%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0610081&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/D2qNESBsxSQVYloyARMb8N/sLL4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0610081v3</id>
+    <updated>2007-10-23T18:28:19Z</updated>
+    <published>2006-10-02T16:52:51Z</published>
+    <title>Regularity and Normality of the Secant Variety to a Projective Curve</title>
+    <summary>  For a smooth curve of genus $g$ embedded by a line bundle of degree at least
+$2g+3$ we show that the ideal sheaf of the secant variety is 5-regular. This
+bound is sharp with respect to both the degree of the embedding and the bound
+on the regularity. Further, we show that the secant variety is projectively
+normal for the generic embedding of degree at least $2g+3$.
+  We also give a conjectural description of the resolutions of the ideals of
+higher secant varieties.
+</summary>
+    <author>
+      <name>Peter Vermeire</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Version to appear in Journal of Algebra; evidence for main
+  conjectures added</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0610081v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0610081v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05, 14D20, 14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

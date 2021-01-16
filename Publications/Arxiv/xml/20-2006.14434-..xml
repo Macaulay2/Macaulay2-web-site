@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.14434%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.14434&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SD6W4dRA6P1tU5S1ij4s3+KKC5o</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14434v1</id>
+    <updated>2020-06-25T14:16:03Z</updated>
+    <published>2020-06-25T14:16:03Z</published>
+    <title>Resolutions of Initial Ideals of Closed Determinantal Facet Ideals</title>
+    <summary>  We study resolutions of initial ideals of closed determinantal facet ideals
+with respect to standard lexicographic order. We show that the multigraded
+Betti numbers of these ideals are always $0$ or $1$, regardless of the
+characteristic of the field. In addition, we show that the standard graded
+Betti numbers of closed determinantal facet ideals and their initial ideals
+coincide when generators of the ideal come from maximal minors of a generic
+$n\times m$ matrix with $n&gt;2$. Next, we give lower bounds on the Betti numbers
+of certain classes of ideals of initial terms of the generators of
+determinantal facet ideals with respect to arbitrary term orders. We give an
+explicit minimal free resolution of the initial ideal of the ideal of maximal
+minors with respect to standard lexicographic order. We show that the Betti
+numbers of a certain closed determinantal facet ideal and its initial ideal
+coincide, verifying a conjecture of Ene, Herzog, and Hibi in a new case. We
+give explicit differentials for the linear strand of the initial ideal with
+respect to standard lexicographic order of an arbitrary closed determinantal
+facet ideal.
+</summary>
+    <author>
+      <name>Ayah Almousa</name>
+    </author>
+    <author>
+      <name>Keller VandeBogert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.14434v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.14434v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

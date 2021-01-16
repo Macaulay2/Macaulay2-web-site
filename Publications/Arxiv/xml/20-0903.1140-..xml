@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0903.1140%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0903.1140&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/phMTzrzMxU0M8rIKFZL64Kwrmx4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0903.1140v1</id>
+    <updated>2009-03-06T15:03:30Z</updated>
+    <published>2009-03-06T15:03:30Z</published>
+    <title>A modular quintic Calabi-Yau threefold of level 55</title>
+    <summary>  In this note we search the parameter space of Horrocks-Mumford quintic
+threefolds and locate a Calabi-Yau threefold which is modular, in the sense
+that the L-function of its middle-dimensional cohomology is associated to a
+classical modular form of weight 4 and level 55.
+</summary>
+    <author>
+      <name>Edward Lee</name>
+    </author>
+    <link href="http://arxiv.org/abs/0903.1140v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0903.1140v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32; 14J15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

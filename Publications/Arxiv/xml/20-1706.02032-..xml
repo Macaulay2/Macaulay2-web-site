@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.02032%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.02032&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/035+T7xpQiGGlZecm8UrZs7Qo2E</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.02032v1</id>
+    <updated>2017-06-07T02:41:11Z</updated>
+    <published>2017-06-07T02:41:11Z</published>
+    <title>Local Euler Obstruction and Chern-Mather classes of Determinantal
+  Varieties</title>
+    <summary>  For $m\geq n$, Let $K$ be an algebraic closed base field, and define
+$\tau_{m,n,k}$ to be the set of $m\times n$ matrices over $K$ with kernel
+dimension $\geq k$. This is a projective subvariety of $\mathbb{P}^{mn-1}$, and
+is usually called determinantal variety. In most cases $\tau_{m,n,k}$ is
+singular with singular locus $\tau_{m,n,k+1}$. In this paper we compute the
+local Euler obstruction of $\tau_{m,n,k}$, and we prove that the characteristic
+cycle of the intersection cohomology complex of $\tau_{m,n,k}$ is irreducible.
+We also give an explicit formula for the Chern-Mather class of $\tau_{m,n,k}$
+as a class in projective space. The irreducibility of the intersection
+cohomology characteristic cycle follows from the explicit computation of the
+local Euler obstruction, a study of the `Tjurina transforms' of determinantal
+varieties, and the Kashiwara-Dubson's microlocal index theorem.
+  Our explicit formulas are based on calculations of degrees of certain Chern
+classes of the universal bundles over the Grassmannian. We use The Schubert 2
+package in Macaulay2 to exhibit examples of the Chern-Mather class and the
+class of the characteristic cycle of $\tau_{m,n,k}$ for some small values of
+$m,n,k$.
+  Over the complex numbers, the local Euler obstruction of $\tau_{m,n,k}$ was
+recently computed by N.~Grulha, T.~Gaffney and M.~Ruas by methods in complex
+geometry.
+</summary>
+    <author>
+      <name>Xiping Zhang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1706.02032v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.02032v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

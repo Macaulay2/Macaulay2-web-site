@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1702.05480%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1702.05480&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QMU8zRLEcAh5O2Z6GIQJasau2rU</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1702.05480v1</id>
+    <updated>2017-02-17T14:54:35Z</updated>
+    <published>2017-02-17T14:54:35Z</published>
+    <title>Computing toric degenerations of flag varieties</title>
+    <summary>  We compute toric degenerations arising from the tropicalization of the full
+flag varieties $\mathcal{F}\ell_4$ and $\mathcal{F}\ell_5$ embedded in a
+product of Grassmannians. For $\mathcal{F}\ell_4$ and $\mathcal{F}\ell_5$ we
+compare toric degenerations arising from string polytopes and the FFLV polytope
+with those obtained from the tropicalization of the flag varieties. We also
+present a general procedure to find toric degenerations in the cases where the
+initial ideal arising from a cone of the tropicalization of a variety is not
+prime.
+</summary>
+    <author>
+      <name>Lara Bossinger</name>
+    </author>
+    <author>
+      <name>Sara Lamboglia</name>
+    </author>
+    <author>
+      <name>Kalina Mincheva</name>
+    </author>
+    <author>
+      <name>Fatemeh Mohammadi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1702.05480v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.05480v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 14D06, 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

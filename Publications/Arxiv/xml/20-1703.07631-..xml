@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1703.07631%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1703.07631&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JJlxxpsou7ZKkd9WYznv/hg/1Dk</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1703.07631v1</id>
+    <updated>2017-03-22T13:06:01Z</updated>
+    <published>2017-03-22T13:06:01Z</published>
+    <title>Virtual Resolutions for a Product of Projective Spaces</title>
+    <summary>  Syzygies capture intricate geometric properties of a subvariety in projective
+space. However, when the ambient space is a product of projective spaces or a
+more general smooth projective toric variety, minimal free resolutions over the
+Cox ring are too long and contain many geometrically superfluous summands. In
+this paper, we construct some much shorter free complexes that better encode
+the geometry.
+</summary>
+    <author>
+      <name>Christine Berkesch Zamaere</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Gregory G. Smith</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1703.07631v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1703.07631v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

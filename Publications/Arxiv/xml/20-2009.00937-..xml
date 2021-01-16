@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.00937%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.00937&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/23CsOFJmSMeUGXQcZk9+GJDnaIU</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.00937v2</id>
+    <updated>2020-09-14T16:26:11Z</updated>
+    <published>2020-09-02T10:34:53Z</published>
+    <title>Linear relations with disjoint supports and average sizes of kernels</title>
+    <summary>  We study the effects of imposing linear relations within modules of matrices
+on average sizes of kernels. The relations that we consider can be described
+combinatorially in terms of partial colourings of grids. The cells of these
+grids correspond to positions in matrices and each defining relation involves
+all cells of a given colour. We prove that imposing such relations arising from
+"admissible" partial colourings has no effect on average sizes of kernels over
+finite quotients of discrete valuation rings. This vastly generalises the known
+fact that average sizes of kernels of general square and traceless matrices of
+the same size coincide over such rings. As a group-theoretic application, we
+explicitly determine zeta functions enumerating conjugacy classes of finite
+$p$-groups derived from free class-$3$-nilpotent groups for $p \geqslant 5$.
+</summary>
+    <author>
+      <name>Angela Carnevale</name>
+    </author>
+    <author>
+      <name>Tobias Rossmann</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">49 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2009.00937v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.00937v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A15, 11M41, 20E45, 20D15, 15B33" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

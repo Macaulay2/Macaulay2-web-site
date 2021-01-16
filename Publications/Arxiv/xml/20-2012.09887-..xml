@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.09887%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.09887&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xnNA/WsQyhBqASiQuXmpzQgx0wo</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.09887v1</id>
+    <updated>2020-12-17T19:11:04Z</updated>
+    <published>2020-12-17T19:11:04Z</published>
+    <title>Chow rings of stacks of prestable curves</title>
+    <summary>  We study the Chow ring of the moduli stack of prestable curves and define the
+notion of tautological classes on this stack. We extend formulas for
+intersection products and functoriality of tautological classes under natural
+morphisms from the case of the tautological ring of the moduli space of stable
+curves. In genus 0, we show that the Chow ring of the stack of prestable curves
+coincides with the tautological ring and give a complete description in terms
+of (additive) generators and relations. This generalizes earlier results by
+Keel and Kontsevich-Manin for the spaces of stable curves. Our argument uses
+the boundary stratification of the moduli stack together with the study of the
+first higher Chow groups of the strata, in particular providing a new proof of
+the results of Kontsevich and Manin.
+</summary>
+    <author>
+      <name>Younghan Bae</name>
+    </author>
+    <author>
+      <name>Johannes Schmitt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">111 pages. Comments are very welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.09887v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.09887v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10, 14C15 (Primary) 14C17, 14F42 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

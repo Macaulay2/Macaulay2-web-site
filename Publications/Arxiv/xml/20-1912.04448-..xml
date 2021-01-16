@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.04448%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.04448&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+jdUWXIQEA0PqYNywNUkacUT8VI</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.04448v1</id>
+    <updated>2019-12-10T01:54:44Z</updated>
+    <published>2019-12-10T01:54:44Z</published>
+    <title>Symbolic powers and free resolutions of generalized star configurations
+  of hypersurfaces</title>
+    <summary>  As a generalization of the ideals of star configurations of hypersurfaces, we
+consider the $a$-fold product ideal $I_a(f_1^{m_1}\cdots f_s^{m_s})$ when
+${f_1,\dots,f_s}$ is a sequence of generic forms and $1\le a\le
+m_1+\cdots+m_s$. Firstly, we show that this ideal has complete intersection
+quotients when these forms are of the same degree and essentially linear. Then
+we study its symbolic powers while focusing on the uniform case with
+$m_1=\cdots=m_s$. For large $a$, we describe its resurgence and symbolic
+defect. And for general $a$, we also investigate the corresponding invariants
+for meeting-at-the-minimal-components version of symbolic powers.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Yi-Huang Shen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1912.04448v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.04448v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13A50, 13D02, 14N20, 52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

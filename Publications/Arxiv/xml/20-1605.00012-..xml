@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.00012%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.00012&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/caAq4e8UL3AVTRBVmeaf+NrRIxc</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00012v1</id>
+    <updated>2016-04-29T20:00:37Z</updated>
+    <published>2016-04-29T20:00:37Z</published>
+    <title>How many hypersurfaces does it take to cut out a Segre class?</title>
+    <summary>  We prove an identity of Segre classes for zero-schemes of compatible sections
+of two vector bundles. Applications include bounds on the number of equations
+needed to cut out a scheme with the same Segre class as a given subscheme of
+(for example) a projective variety, and a `Segre-Bertini' theorem controlling
+the behavior of Segre classes of singularity subschemes of hypersurfaces under
+general hyperplane sections.
+  These results interpolate between an observation of Samuel concerning
+multiplicities along components of a subscheme and facts concerning the
+integral closure of corresponding ideals. The Segre-Bertini theorem has
+applications to characteristic classes of singular varieties. The main results
+are motivated by the problem of computing Segre classes explicitly and
+applications of Segre classes to enumerative geometry.
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.00012v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00012v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

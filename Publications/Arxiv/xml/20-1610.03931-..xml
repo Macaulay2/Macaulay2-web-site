@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.03931%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.03931&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wt33n8px4JWmrbhBMCIWFZm7CzA</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.03931v1</id>
+    <updated>2016-10-13T04:03:19Z</updated>
+    <published>2016-10-13T04:03:19Z</published>
+    <title>Blowup algebras of rational normal scrolls</title>
+    <summary>  We investigate the algebraic relations among the minors of a $2 \times c$
+matrix with $d$ catalecticant blocks, which define a $d$-fold rational normal
+scroll $\mathcal{S}\subseteq \mathbb{P}^{c+d- 1}$. We determine the equations
+of the blowup of $\mathbb{P}^{c+d-1}$ along $\mathcal{S}$ and of the variety
+parametrized by these minors, or equivalently the relations of the Rees ring
+and special fiber ring of the homogeneous ideal of $\mathcal{S}$. Moreover, we
+prove that these blowup algebras are defined by squarefree Gr\"obner bases of
+quadrics and are Koszul.
+</summary>
+    <author>
+      <name>Alessio Sammartano</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages. Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.03931v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.03931v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13A30, 13C40, Secondary: 05A19, 05E40, 05E45, 13D02, 13F55,&#10;  13P10, 14M12, 14J40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

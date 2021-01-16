@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0405210%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0405210&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AQZrXHta11l2+PcuVcbg3K0dU10</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0405210v2</id>
+    <updated>2004-09-27T23:11:05Z</updated>
+    <published>2004-05-12T05:54:45Z</published>
+    <title>The line geometry of resonance varieties</title>
+    <summary>  Let R^1(A,R) be the degree-one resonance variety over a field R of a
+hyperplane arrangement A. We give a geometric description of R^1(A,R) in terms
+of projective line complexes. The projective image of R^1(A,R) is a union of
+ruled varieties, parametrized by neighborly partitions of subarrangements of A.
+The underlying line complexes are intersections of special Schubert varieties,
+easily described in terms of the corresponding partition. We generalize the
+definition and decomposition of R^1(A,R) to arbitrary commutative rings, and
+point out the anomalies that arise. In general the decomposition is
+parametrized by neighborly graphs, which need not induce neighborly partitions
+of subarrangements of A.
+  We use this approach to show that the resonance variety of the Hessian
+arrangement over a field of characteristic three has a nonlinear component, a
+cubic threefold with interesting line structure. This answers a question of A.
+Suciu. We show that Suciu's deleted B_3 arrangement has resonance components
+over Z_2 that intersect nontrivially. We also exhibit resonant weights over Z_4
+supported on the deleted B_3, which has no neighborly partitions. The modular
+resonant weights on the deleted B_3 exponentiate to points on the complex torus
+which lie on, and determine, the translated 1-torus in the first characteristic
+variety.
+</summary>
+    <author>
+      <name>Michael Falk</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, three figures. Revision includes expanded intro. section,
+  streamlined treatment of neighborly graphs, sufficient condition for
+  existence of generic points</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0405210v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0405210v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 16S99, 14J26, 05B35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.07382%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.07382&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AztBJFrilophPos8VJOXDjcHWsA</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.07382v1</id>
+    <updated>2020-03-16T18:05:39Z</updated>
+    <published>2020-03-16T18:05:39Z</published>
+    <title>Slack Ideals in Macaulay2</title>
+    <summary>  Recently Gouveia, Thomas and the authors introduced the slack realization
+space, a new model for the realization space of a polytope. It represents each
+polytope by its slack matrix, the matrix obtained by evaluating each facet
+inequality at each vertex. Unlike the classical model, the slack model
+naturally mods out projective transformations. It is inherently algebraic,
+arising as the positive part of a variety of a saturated determinantal ideal,
+and provides a new computational tool to study classical realizability problems
+for polytopes. We introduce the package SlackIdeals for Macaulay2, that
+provides methods for creating and manipulating slack matrices and slack ideals
+of convex polytopes and matroids. Slack ideals are often difficult to compute.
+To improve the power of the slack model, we develop two strategies to simplify
+computations: we scale as many entries of the slack matrix as possible to one;
+we then obtain a reduced slack model combining the slack variety with the more
+compact Grassmannian realization space model. This allows us to study slack
+ideals that were previously out of computational reach. As applications, we
+show that the well-known Perles polytope does not admit rational realizations
+and prove the non-realizability of a large simplicial sphere.
+</summary>
+    <author>
+      <name>Antonio Macchia</name>
+    </author>
+    <author>
+      <name>Amy Wiebe</name>
+    </author>
+    <link href="http://arxiv.org/abs/2003.07382v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.07382v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

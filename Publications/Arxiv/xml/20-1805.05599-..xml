@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.05599%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.05599&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4pSLLsX9AZs1pd3b3TzdH1eUxVU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.05599v1</id>
+    <updated>2018-05-15T07:11:08Z</updated>
+    <published>2018-05-15T07:11:08Z</published>
+    <title>Resolution of the symmetric algebra of a finite base locus</title>
+    <summary>  We provide a locally free resolution of the projectivized symmetric algebra
+of the ideal sheaf of a zero-dimensional scheme defined by n + 1 equations in
+an n-dimensional variety. The resolution is given in terms of the resolution of
+the ideal itself and of the Eagon-Northcott complex of the Koszul hull.
+</summary>
+    <author>
+      <name>Rémi Bignalet-Cazalet</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMB</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/1805.05599v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.05599v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

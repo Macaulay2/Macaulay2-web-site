@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0804.1509%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0804.1509&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/URlWDdIYhmM8HwNsXfbcci/BLnc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0804.1509v1</id>
+    <updated>2008-04-09T15:22:19Z</updated>
+    <published>2008-04-09T15:22:19Z</published>
+    <title>The rationality of the moduli space of curves of genus 3 after P.
+  Katsylo</title>
+    <summary>  This article is a survey of P. Katsylo's proof that the moduli space of
+smooth projective complex curves of genus 3 is rational. We hope to make the
+argument more comprehensible and transparent by emphasizing the underlying
+geometry in the proof and its key structural features.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0804.1509v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0804.1509v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E08; 14M20; 14L24" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

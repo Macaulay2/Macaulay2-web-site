@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.06228%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.06228&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KVeMzplOLhDWPxo5k8SqigPjuJI</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06228v2</id>
+    <updated>2015-12-03T13:02:27Z</updated>
+    <published>2015-11-19T16:11:14Z</published>
+    <title>Equivariant formality of homogeneous spaces</title>
+    <summary>  Let $G$ be a compact connected Lie group and $K$ a connected Lie subgroup. In
+this paper, we continue the attempt of characterizing equivariant formality of
+the isotropy action of $K$ on $G/K$ explored in \cite{Sh}, \cite{ShTa} and
+\cite{Ca}. We introduce an analogue of equivariant formality in $K$-theory
+called rational $K$-theoretic equivariant formality (RKEF) and show that it is
+equivalent to equivariant formality in the usual sense. Using RKEF, we give a
+more uniform proof of the main results in \cite{Go} and \cite{GoNo} that the
+isotropy actions on (generalized) symmetric spaces are equivariantly formal,
+without appealing to the classification theorem of those spaces. We also give a
+representation theoretic condition which is equivalent to $G/K$ being formal
+and the isotropy action being equivariantly formal, and show how it provides a
+uniform proof of the fact that, if $(G, K)$ is an equal rank pair,
+cohomlogically surjective pair or (generalized) symmetric pair, $G/K$ is formal
+and the isotropy action is equivariantly formal.
+</summary>
+    <author>
+      <name>Jeffrey D. Carlson</name>
+    </author>
+    <author>
+      <name>Chi-Kwong Fok</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages. Preliminary version. Lemma 2.3 in the first version is
+  corrected. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1511.06228v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.06228v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55N15, 19L47" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0803.1825%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0803.1825&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YlUDuW0QU0RfmSoIv2s9NpNhvlw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0803.1825v1</id>
+    <updated>2008-03-12T19:24:41Z</updated>
+    <published>2008-03-12T19:24:41Z</published>
+    <title>On the algebraic geometry of polynomial dynamical systems</title>
+    <summary>  This paper focuses on polynomial dynamical systems over finite fields. These
+systems appear in a variety of contexts, in computer science, engineering, and
+computational biology, for instance as models of intracellular biochemical
+networks. It is shown that several problems relating to their structure and
+dynamics, as well as control theory, can be formulated and solved in the
+language of algebraic geometry.
+</summary>
+    <author>
+      <name>Abdul S. Jarrah</name>
+    </author>
+    <author>
+      <name>Reinhard Laubenbacher</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in "Emerging applications of algebraic geometry," M.
+  Putinar and S. Sullivant (eds.), IMA Volume Series, Springer Verlag</arxiv:comment>
+    <link href="http://arxiv.org/abs/0803.1825v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0803.1825v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="12Y05; 13P10, 37N25, 68W30, 93C55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

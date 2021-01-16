@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0212238%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0212238&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3GriZ7tfuGkDdeesgSVF3B6k10k</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0212238v3</id>
+    <updated>2003-06-13T04:50:04Z</updated>
+    <published>2002-12-17T18:46:06Z</published>
+    <title>Computations with Frobenius powers</title>
+    <summary>  It is an open question whether tight closure commutes with localization in
+quotients of a polynomial ring in finitely many variables over a field. Katzman
+showed that tight closure of ideals in these rings commutes with localization
+at one element if for all ideals I and J in a polynomial ring there is a linear
+upper bound in q on the degree in the least variable of reduced Groebner bases
+in reverse lexicographic ordering of the ideals of the form J + I^{[q]}.
+Katzman conjectured that this property would always be satisfied. In this paper
+we prove several cases of Katzman's conjecture. We also provide an experimental
+analysis (with proofs) of asymptotic properties of Groebner bases connected
+with Katzman's conjectures.
+</summary>
+    <author>
+      <name>Susan M. Hermiller</name>
+    </author>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, incorporated changes in Section 2, due to discussions with
+  Aldo Conca and Enrico Sbarra</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0212238v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0212238v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10; 13A35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

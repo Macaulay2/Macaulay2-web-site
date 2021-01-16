@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.07582%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.07582&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W3Bb352xgWj7+ImDE4q81vFQV2g</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.07582v2</id>
+    <updated>2018-10-18T15:51:09Z</updated>
+    <published>2018-10-17T14:35:42Z</published>
+    <title>A note on linear resolution and polymatroidal ideals</title>
+    <summary>  Let $R=K[x_1,...,x_n]$ be the polynomial ring in $n$ variables over a field
+$K$ and $I$ be a monomial ideal generated in degree $d$. Bandari and Herzog
+conjectured that a monomial ideal $I$ is polymatroidal if and only if all its
+monomial localizations have a linear resolution. In this paper we give an
+affirmative answer to the conjecture in the following cases: $(i)$ ${\rm
+height}(I)=n-1$; $(ii)$ $I$ contains at least $n-3$ pure powers of the
+variables $x_1^d,...,x_{n-3}^d$; $(iii)$ $I$ is a monomial ideal in at most
+four variables.
+</summary>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Dler Naderi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages. Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.07582v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.07582v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

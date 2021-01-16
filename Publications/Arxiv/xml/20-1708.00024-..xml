@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1708.00024%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1708.00024&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ULhhmkMhpMdYJIgZNFTEqFhJ0Qs</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1708.00024v1</id>
+    <updated>2017-07-31T18:08:44Z</updated>
+    <published>2017-07-31T18:08:44Z</published>
+    <title>The Euclidean distance degree of smooth complex projective varieties</title>
+    <summary>  We obtain several formulas for the Euclidean distance degree (ED degree) of
+an arbitrary nonsingular variety in projective space: in terms of Chern and
+Segre classes, Milnor classes, Chern-Schwartz-MacPherson classes, and an
+extremely simple formula equating the Euclidean distance degree of X with the
+Euler characteristic of an open subset of X.
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+    </author>
+    <author>
+      <name>Corey Harris</name>
+    </author>
+    <link href="http://arxiv.org/abs/1708.00024v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.00024v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

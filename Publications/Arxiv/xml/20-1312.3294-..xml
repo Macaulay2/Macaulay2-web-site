@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1312.3294%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1312.3294&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//SZ+qtN6vB3OffPqL00O0DpeGiM</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1312.3294v2</id>
+    <updated>2014-02-06T03:35:27Z</updated>
+    <published>2013-12-11T20:00:53Z</published>
+    <title>Lattice-Supported Splines on Polytopal Complexes</title>
+    <summary>  We study the module $C^r(\mathcal{P})$ of piecewise polynomial functions of
+smoothness $r$ on a pure $n$-dimensional polytopal complex
+$\mathcal{P}\subset\mathbb{R}^n$, via an analysis of certain subcomplexes
+$\mathcal{P}_W$ obtained from the intersection lattice of the interior
+codimension one faces of $\mathcal{P}$. We obtain two main results: first, we
+show that in sufficiently high degree, the vector space $C^r_k(\mathcal{P})$ of
+splines of degree $\leq k$ has a basis consisting of splines supported on the
+$\mathcal{P}_W$ for $k\gg0$. We call such splines lattice-supported. This shows
+that an analog of the notion of a star-supported basis for $C^r_k(\Delta)$
+studied by Alfeld-Schumaker in the simplicial case holds. Second, we provide a
+pair of conjectures, one involving lattice-supported splines, bounding how
+large $k$ must be so that $\mbox{dim}_\mathbb{R} C^r_k(\mathcal{P})$ agrees
+with the formula given by McDonald-Schenck. A family of examples shows that the
+latter conjecture is tight. The proposed bounds generalize known and
+conjectured bounds in the simplicial case.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.aam.2013.12.002</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.aam.2013.12.002" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 11 figures. v2 (updated from published version): More
+  examples added, as well as new results for the graded case. Index of
+  summation in Definition 4.1 changed, theorems and proofs updated to reflect
+  this</arxiv:comment>
+    <link href="http://arxiv.org/abs/1312.3294v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.3294v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

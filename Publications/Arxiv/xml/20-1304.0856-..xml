@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.0856%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.0856&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Pjj85Ak2Uhy3BrMeChBhl1N7m0E</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.0856v1</id>
+    <updated>2013-04-03T07:06:12Z</updated>
+    <published>2013-04-03T07:06:12Z</published>
+    <title>Representations of rational Cherednik algebras of G(m,r,n) in positive
+  characteristic</title>
+    <summary>  We study lowest-weight irreducible representations of rational Cherednik
+algebras attached to the complex reflection groups G(m,r,n) in characteristic
+p. Our approach is mostly from the perspective of commutative algebra. By
+studying the kernel of the contravariant bilinear form on Verma modules, we
+obtain formulas for Hilbert series of irreducible representations in a number
+of cases, and present conjectures in other cases. We observe that the form of
+the Hilbert series of the irreducible representations and the generators of the
+kernel tend to be determined by the value of n modulo p, and are related to
+special classes of subspace arrangements. Perhaps the most novel (conjectural)
+discovery from the commutative algebra perspective is that the kernel can be
+given the structure of a "matrix regular sequence" in some instances, which we
+prove in some small cases.
+</summary>
+    <author>
+      <name>Sheela Devadas</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.0856v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.0856v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50, 14N20, 16S99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

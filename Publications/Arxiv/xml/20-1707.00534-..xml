@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1707.00534%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1707.00534&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qJQVc1rsuGUsbg2UKhQbetzpke8</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1707.00534v2</id>
+    <updated>2017-07-18T17:51:20Z</updated>
+    <published>2017-07-03T13:26:14Z</published>
+    <title>Intersections of two Grassmannians in $\mathbf{P}^9$</title>
+    <summary>  We study the intersection of two copies of $\mathrm{Gr}(2,5)$ embedded in
+$\mathbf{P}^9$, and the intersection of the two projectively dual Grassmannians
+in the dual projective space. These intersections are deformation equivalent,
+derived equivalent Calabi-Yau threefolds. We prove that generically they are
+not birational. As a consequence, we obtain a counterexample to the birational
+Torelli problem for Calabi-Yau threefolds. We also show that these threefolds
+give a new pair of varieties whose classes in the Grothendieck ring of
+varieties are not equal, but whose difference is annihilated by a power of the
+class of the affine line. Our proof of non-birationality involves a detailed
+study of the moduli stack of Calabi-Yau threefolds of the above type, which may
+be of independent interest.
+</summary>
+    <author>
+      <name>Lev A. Borisov</name>
+    </author>
+    <author>
+      <name>Andrei Caldararu</name>
+    </author>
+    <author>
+      <name>Alexander Perry</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, minor changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.00534v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.00534v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

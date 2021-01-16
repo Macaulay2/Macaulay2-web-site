@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1510.04532%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1510.04532&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PAArg2MICfuR5XdPIADRwGaiwCk</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1510.04532v2</id>
+    <updated>2016-02-22T10:55:03Z</updated>
+    <published>2015-10-15T13:39:06Z</published>
+    <title>Internally Perfect Matroids</title>
+    <summary>  In 1977 Stanley proved that the $h$-vector of a matroid is an
+$\mathcal{O}$-sequence and conjectured that it is a pure
+$\mathcal{O}$-sequence. In the subsequent years the validity of this conjecture
+has been shown for a variety of classes of matroids, though the general case is
+still open. In this paper we use Las Vergnas' internal order to introduce a new
+class of matroids which we call internally perfect. We prove that these
+matroids satisfy Stanley's Conjecture and compare them to other classes of
+matroids for which the conjecture is known to hold. We also prove that, up to a
+certain restriction on deletions, every minor of an internally perfect ordered
+matroid is internally perfect.
+</summary>
+    <author>
+      <name>Aaron Dall</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 4 figures; added a proof that internally active elements of
+  a basis of a matroid are always in the initial basis</arxiv:comment>
+    <link href="http://arxiv.org/abs/1510.04532v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1510.04532v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B35 (Primary), 06B23 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

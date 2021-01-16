@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1901.10014%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1901.10014&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PE8ZufnzksOqWpIcc5HJvPCb5uc</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1901.10014v2</id>
+    <updated>2019-02-24T21:44:30Z</updated>
+    <published>2019-01-28T21:58:56Z</published>
+    <title>Type D quiver representation varieties, double Grassmannians, and
+  symmetric varieties</title>
+    <summary>  Consider the following three families of varieties: (1) orbit closures in
+type $D$ quiver representation varieties, for the action of the base change
+group by conjugation; (2) $B$-orbit closures in double Grassmannians $Gr_a(k^n)
+\times Gr_b(k^n)$, where $B\leq GL(n)$ is a Borel subgroup acting diagonally;
+(3) $B$-orbit closures in symmetric varieties of the form $GL(n)/K$, where $K
+=GL(a)\times GL(b)$ and $n = a+b$. We construct nice embeddings of homogeneous
+fiber bundles over type $D$ representation varieties into symmetric varieties
+$GL(n)/K$. This completes a circle of links allowing translation of results
+about singularities of orbit closures, combinatorics of orbit closure
+containment, and torus equivariant $K$-theory between these three families.
+</summary>
+    <author>
+      <name>Ryan Kinser</name>
+    </author>
+    <author>
+      <name>Jenna Rajchgot</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages. v2: expositional improvements throughout, and some
+  technical corrections regarding homogeneous fiber bundles</arxiv:comment>
+    <link href="http://arxiv.org/abs/1901.10014v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1901.10014v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

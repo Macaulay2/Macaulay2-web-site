@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1206.6940%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1206.6940&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LbuwNxUov1eVZm7CirrahMru/vI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1206.6940v1</id>
+    <updated>2012-06-29T05:15:19Z</updated>
+    <published>2012-06-29T05:15:19Z</published>
+    <title>Practical Groebner Basis Computation</title>
+    <summary>  We report on our experiences exploring state of the art Groebner basis
+computation. We investigate signature based algorithms in detail. We also
+introduce new practical data structures and computational techniques for use in
+both signature based Groebner basis algorithms and more traditional variations
+of the classic Buchberger algorithm. Our conclusions are based on experiments
+using our new freely available open source standalone C++ library.
+</summary>
+    <author>
+      <name>Bjarke Hammersholt Roune</name>
+    </author>
+    <author>
+      <name>Michael Stillman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Full online version including appendices, 17 pages; Proceedings of
+  the International Symposium on Symbolic and Algebraic Computation (ISSAC)
+  2012</arxiv:comment>
+    <link href="http://arxiv.org/abs/1206.6940v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1206.6940v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

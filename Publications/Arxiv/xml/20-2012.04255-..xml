@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.04255%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.04255&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/f3YcE/y/U74feTjgobYr/Y9drBA</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.04255v1</id>
+    <updated>2020-12-08T07:36:42Z</updated>
+    <published>2020-12-08T07:36:42Z</published>
+    <title>Polyhedral Homotopies in Cox Coordinates</title>
+    <summary>  We introduce the Cox homotopy algorithm for solving a sparse system of
+polynomial equations on a compact toric variety $X_\Sigma$. The algorithm lends
+its name from a construction, described by Cox, of $X_\Sigma$ as a GIT quotient
+$X_\Sigma = (\mathbb{C}^k \setminus Z) // G$ of a quasi-affine variety by the
+action of a reductive group. Our algorithm tracks paths in the total coordinate
+space $\mathbb{C}^k$ of $X_\Sigma$ and can be seen as a homogeneous version of
+the standard polyhedral homotopy, which works on the dense torus of $X_\Sigma$.
+It furthermore generalizes the commonly used path tracking algorithms in
+(multi)projective spaces in that it tracks a set of homogeneous coordinates
+contained in the $G$-orbit corresponding to each solution. The Cox homotopy
+combines the advantages of polyhedral homotopies and (multi)homogeneous
+homotopies, tracking only mixed volume many solutions and providing an elegant
+way to deal with solutions on or near the special divisors of $X_\Sigma$. In
+addition, the strategy may help to understand the deficiency of the root count
+for certain families of systems with respect to the BKK bound.
+</summary>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Simon Telen</name>
+    </author>
+    <author>
+      <name>Elise Walker</name>
+    </author>
+    <author>
+      <name>Thomas Yahl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.04255v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.04255v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

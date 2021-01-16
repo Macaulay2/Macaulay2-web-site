@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1112.1449%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1112.1449&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RB+YSzmpi1+vXFWCzJmtYko6LCE</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1112.1449v1</id>
+    <updated>2011-12-07T00:20:42Z</updated>
+    <published>2011-12-07T00:20:42Z</published>
+    <title>Derived Representation Schemes and Cyclic Homology</title>
+    <summary>  We describe the derived functor $ \DRep_V(A) $ of the classical
+representation scheme $ \Rep_V(A) $, parametrizing the representations of an
+associative $k$-algebra $A$ on a finite-dimensional vector space $V$. We
+construct the characteristic maps $ \Tr_V(A)_n:\, \HC_n(A) \to
+\H_n[\DRep_V(A)]\,$, extending the canonical trace $ \Tr_V(A):\, \HC_0(A) \to
+k[\Rep_V(A)]\,$ to the higher cyclic homology of the algebra $A$, and describe
+a related derived version of the representation functor introduced recently by
+M. Van den Bergh. We study various operations on the homology of $ \DRep_V(A) $
+induced by known operations on cyclic and Hochschild homology of $A$.
+</summary>
+    <author>
+      <name>Yuri Berest</name>
+    </author>
+    <author>
+      <name>George Khachatryan</name>
+    </author>
+    <author>
+      <name>Ajay Ramadoss</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">55 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1112.1449v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1112.1449v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0803.3846%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0803.3846&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dE/Cesd/HlWN1RqPluKI5vB9D1I</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0803.3846v1</id>
+    <updated>2008-03-27T00:51:30Z</updated>
+    <published>2008-03-27T00:51:30Z</published>
+    <title>Combinatorics of binomial primary decomposition</title>
+    <summary>  An explicit lattice point realization is provided for the primary components
+of an arbitrary binomial ideal in characteristic zero. This decomposition is
+derived from a characteristic-free combinatorial description of certain primary
+components of binomial ideals in affine semigroup rings, namely those that are
+associated to faces of the semigroup. These results are intimately connected to
+hypergeometric differential equations in several variables.
+</summary>
+    <author>
+      <name>Alicia Dickenstein</name>
+    </author>
+    <author>
+      <name>Laura Felicia Matusevich</name>
+    </author>
+    <author>
+      <name>Ezra Miller</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper was split off from math.AG/0610353 whose version 3 is now
+  shorter</arxiv:comment>
+    <link href="http://arxiv.org/abs/0803.3846v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0803.3846v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F99; 52B20; 20M25; 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0903.3201%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0903.3201&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8d6L5Buvl3roCvtHrayw4PZOark</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0903.3201v2</id>
+    <updated>2009-08-02T21:47:19Z</updated>
+    <published>2009-03-18T16:54:55Z</published>
+    <title>Cohomology of Congruence Subgroups of SL_4(Z). III</title>
+    <summary>  In two previous papers [AGM1, AGM2] we computed cohomology groups
+H^5(\Gamma_0 (N); C) for a range of levels N, where \Gamma_0 (N) is the
+congruence subgroup of SL_4 (\Z) consisting of all matrices with bottom row
+congruent to (0,0,0,*) mod N. In this note we update this earlier work by
+carrying it out for prime levels up to N = 211. This requires new methods in
+sparse matrix reduction, which are the main focus of the paper. Our
+computations involve matrices with up to 20 million non-zero entries. We also
+make two conjectures concerning the contributions to H^5(\Gamma_0 (N); C) for
+N prime coming from Eisenstein series and Siegel modular forms.
+</summary>
+    <author>
+      <name>Avner Ash</name>
+    </author>
+    <author>
+      <name>Paul E. Gunnells</name>
+    </author>
+    <author>
+      <name>Mark McConnell</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">incorporates referees' comments</arxiv:comment>
+    <link href="http://arxiv.org/abs/0903.3201v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0903.3201v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F75, 65F05, 65F50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

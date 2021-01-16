@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1405.0998%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1405.0998&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gWLHN4fU87BfSfvmX9S9pqcXXmE</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1405.0998v3</id>
+    <updated>2014-05-21T05:30:32Z</updated>
+    <published>2014-05-05T19:13:01Z</published>
+    <title>Logarithmic bundles of deformed Weyl arrangements of type $A_2$</title>
+    <summary>  We consider deformations of the Weyl arrangement of type $A_2$, which include
+the extended Shi and Catalan arrangements. These last ones are well-known to be
+free. We study their sheaves of logarithmic vector fields in all other cases,
+and show that they are Steiner bundles. Also, we determine explicitly their
+unstable lines. As a corollary, some counter-examples to the shift isomorphism
+problem are given.
+</summary>
+    <author>
+      <name>Takuro Abe</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMAP</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniele Faenzi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMAP</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Jean Vallès</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMAP</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1405.0998v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1405.0998v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

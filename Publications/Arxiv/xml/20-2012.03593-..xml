@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.03593%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.03593&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jvcoHbvzB6+DIR+eZ/HpP0Agh78</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.03593v1</id>
+    <updated>2020-12-07T11:29:21Z</updated>
+    <published>2020-12-07T11:29:21Z</published>
+    <title>Algebraic geometry of discrete interventional models</title>
+    <summary>  We investigate the algebra and geometry of general interventions in discrete
+DAG models. To this end, we develop the formalism to study these models as
+subvarieties of multiprojective space and introduce a theory for modeling soft
+interventions in the more general family of staged tree models. We then
+consider the problem of finding their defining equations, and we derive a
+combinatorial criterion for identifying interventional staged tree models for
+which the defining ideal is toric. This criterion, when combined with a new
+characterization of decomposable DAG models in terms of their associated staged
+trees, specializes to a graphical criterion in the case of discrete
+interventional DAG models.
+</summary>
+    <author>
+      <name>Eliana Duarte</name>
+    </author>
+    <author>
+      <name>Liam Solus</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.03593v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.03593v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62R01, 62A09, 13P10, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

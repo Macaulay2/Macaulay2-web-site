@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0912.0920%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0912.0920&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RlSjHzbm0QhS2cJrK6eWyDeGT3M</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0912.0920v2</id>
+    <updated>2010-12-17T19:07:06Z</updated>
+    <published>2009-12-04T19:35:56Z</published>
+    <title>Certified numerical homotopy tracking</title>
+    <summary>  Given a homotopy connecting two polynomial systems we provide a rigorous
+algorithm for tracking a regular homotopy path connecting an approximate zero
+of the start system to an approximate zero of the target system. Our method
+uses recent results on the complexity of homotopy continuation rooted in the
+alpha theory of Smale. Experimental results obtained with the implementation in
+the numerical algebraic geometry package of Macaulay2 demonstrate the
+practicality of the algorithm. In particular, we confirm the theoretical
+results for random linear homotopies and illustrate the plausibility of a
+conjecture by Shub and Smale on a good initial pair.
+</summary>
+    <author>
+      <name>Carlos Beltrán</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/0912.0920v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0912.0920v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H20, 14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

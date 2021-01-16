@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1205.0661%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1205.0661&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LlJnqCwc8WLdYL3M5GIGv+UaqbQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1205.0661v3</id>
+    <updated>2012-11-26T23:24:18Z</updated>
+    <published>2012-05-03T09:38:12Z</published>
+    <title>Syzygies of torsion bundles and the geometry of the level l modular
+  variety over M_g</title>
+    <summary>  We formulate, and in some cases prove, three statements concerning the purity
+or, more generally the naturality of the resolution of various rings one can
+attach to a generic curve of genus g and a torsion point of order l in its
+Jacobian. These statements can be viewed an analogues of Green's Conjecture and
+we verify them computationally for bounded genus. We then compute the
+cohomology class of the corresponding non-vanishing locus in the moduli space
+R_{g,l} of twisted level l curves of genus g and use this to derive results
+about the birational geometry of R_{g, l}. For instance, we prove that R_{g,3}
+is a variety of general type when g&gt;11 and the Kodaira dimension of R_{11,3} is
+greater than or equal to 19. In the last section we explain probabilistically
+the unexpected failure of the Prym-Green conjecture in genus 8 and level 2.
+</summary>
+    <author>
+      <name>Alessandro Chiodo</name>
+    </author>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Gavril Farkas</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages, final version. To appear in Inventiones Math</arxiv:comment>
+    <link href="http://arxiv.org/abs/1205.0661v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1205.0661v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

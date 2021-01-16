@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.05861%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.05861&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UPexB5npJHvPoPafmUlwQdzrYk8</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.05861v2</id>
+    <updated>2015-01-26T09:18:08Z</updated>
+    <published>2015-01-23T16:35:05Z</published>
+    <title>QuiversToricVarieties: a package to construct quivers of sections on
+  complete toric varieties</title>
+    <summary>  Given a collection of line bundles on a complete toric variety, the Macaulay2
+package QuiversToricVarieties contains functions to construct its quiver of
+sections and check whether the collection is strong exceptional. It contains a
+database of full strong exceptional collections of line bundles for smooth Fano
+toric varieties of dimension less than or equal to 4.
+</summary>
+    <author>
+      <name>Nathan Prabhu-Naik</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.05861v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.05861v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14-04" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

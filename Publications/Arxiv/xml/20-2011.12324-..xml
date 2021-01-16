@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.12324%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.12324&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ch1da6JzzxyPsXz6JeYoD9fshFo</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12324v1</id>
+    <updated>2020-11-24T19:02:50Z</updated>
+    <published>2020-11-24T19:02:50Z</published>
+    <title>DG Structure on Length 3 Trimming Complexes and Applications to Tor
+  Algebras</title>
+    <summary>  In this paper, we consider the iterated trimming complex associated to data
+yielding a complex of length $3$. We compute an explicit algebra structure in
+this complex in terms of the algebra structures of the associated input data.
+Moreover, it is shown that many of these products become trivial after
+descending to homology. We apply these results to the problem of realizability
+for Tor-algebras of grade $3$ perfect ideals, and show that under mild
+hypotheses, the process of "trimming" an ideal preserves Tor-algebra class. In
+particular, we construct new classes of ideals in arbitrary regular local rings
+defining rings realizing Tor-algebra classes $G(r)$ and $H(p,q)$ for a
+prescribed set of homological data.
+</summary>
+    <author>
+      <name>Keller VandeBogert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.12324v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.12324v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

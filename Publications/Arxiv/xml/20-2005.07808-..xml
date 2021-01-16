@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.07808%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.07808&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AiLNEt/3lsixyRwcWIR3yuNE8c0</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.07808v1</id>
+    <updated>2020-05-15T22:24:14Z</updated>
+    <published>2020-05-15T22:24:14Z</published>
+    <title>When are multidegrees positive?</title>
+    <summary>  Let $k$ be an arbitrary field, $P = P_k^{m_1} \times_k \cdots \times_k
+P_k^{m_p}$ be a multiprojective space over $k$, and $X \subseteq P$ be a closed
+subscheme of $P$. We provide necessary and sufficient conditions for the
+positivity of the multidegrees of $X$. As a consequence of our methods, we show
+that when $X$ is irreducible, the support of multidegrees forms a discrete
+algebraic polymatroid. In algebraic terms, we characterize the positivity of
+the mixed multiplicities of a standard multigraded algebra over an Artinian
+local ring, and we apply this to the positivity of mixed multiplicities of
+ideals. Furthermore, we use our results to recover several results in the
+literature in the context of combinatorial algebraic geometry.
+</summary>
+    <author>
+      <name>Federico Castillo</name>
+    </author>
+    <author>
+      <name>Yairon Cid-Ruiz</name>
+    </author>
+    <author>
+      <name>Binglin Li</name>
+    </author>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <author>
+      <name>Naizhen Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is a generalized and expanded version of arXiv:1612.00154</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.07808v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.07808v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

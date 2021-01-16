@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.06193%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.06193&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PXIJHYdb5eNTeFMq52MOyqy3vfM</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.06193v2</id>
+    <updated>2017-11-25T15:38:10Z</updated>
+    <published>2017-11-16T16:57:06Z</published>
+    <title>On the Hilbert function of general fat points in $\mathbb{P}^1 \times
+  \mathbb{P}^1$</title>
+    <summary>  We study the bi-graded Hilbert function of ideals of general fat points with
+same multiplicity in $\mathbb{P}^1\times\mathbb{P}^1$. Our first tool is the
+multiprojective-affine-projective method introduced by the second author in
+previous works with A.V. Geramita and A. Gimigliano where they solved the case
+of double points. In this way, we compute the Hilbert function when the
+smallest entry of the bi-degree is at most the multiplicity of the points. Our
+second tool is the differential Horace method introduced by J. Alexander and A.
+Hirschowitz to study the Hilbert function of sets of fat points in standard
+projective spaces. In this way, we compute the entire bi-graded Hilbert
+function in the case of triple points.
+</summary>
+    <author>
+      <name>Enrico Carlini</name>
+    </author>
+    <author>
+      <name>Maria Virginia Catalisano</name>
+    </author>
+    <author>
+      <name>Alessandro Oneto</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages; minor changes (Remark 1.7 added and Example 3.13 improved)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1711.06193v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.06193v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C20, 15A69 (primary) 13A02, 13D02, 14N15 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

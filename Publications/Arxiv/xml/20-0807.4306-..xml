@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0807.4306%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0807.4306&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/N9lHpTnysByy7eprBUIFEtg5Vag</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0807.4306v2</id>
+    <updated>2009-03-04T22:36:34Z</updated>
+    <published>2008-07-28T19:06:09Z</published>
+    <title>A-graded methods for monomial ideals</title>
+    <summary>  We use \ZZ^d-gradings to study d-dimensional monomial ideals. The Koszul
+functor is employed to interpret the quasidegrees of local cohomology in terms
+of the geometry of distractions and to explicitly compute the multiplicities of
+exponents. These multigraded techniques originate from the study of
+hypergeometric systems of differential equations.
+</summary>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <author>
+      <name>Laura Felicia Matusevich</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Reorganized version with new introduction, Section 2 simplified,
+  corrections made to Section 4</arxiv:comment>
+    <link href="http://arxiv.org/abs/0807.4306v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0807.4306v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45, 16E45 (Primary) 13F55, 13C14, 13D07 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

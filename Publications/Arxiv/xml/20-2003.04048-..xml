@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.04048%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.04048&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8FUB0Or4sZLN1L+ZQzw0vYX00Uo</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.04048v2</id>
+    <updated>2020-05-02T08:35:45Z</updated>
+    <published>2020-03-09T11:36:22Z</published>
+    <title>Algebraic polytopes in Normaliz</title>
+    <summary>  We describe the implementation of algebraic polyhedra in Normaliz. In
+addition to convex hull computation/vertex enumeration, it is possible to
+compute triangulations, volumes, lattice points, face lattices and automorphism
+groups. The arithmetic is based on the package e-antic by V.~Delecroix.
+</summary>
+    <author>
+      <name>Winfried Bruns</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Extended abstract for the ICMS at Braunschweig, July 2020. Minor
+  changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.04048v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.04048v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

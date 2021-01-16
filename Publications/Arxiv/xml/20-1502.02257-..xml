@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.02257%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.02257&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PtpzwzqH/tDNCeDB6azzGitWK4o</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.02257v2</id>
+    <updated>2015-02-10T03:17:48Z</updated>
+    <published>2015-02-08T14:56:18Z</published>
+    <title>ACM bundles on cubic threefolds</title>
+    <summary>  We study ACM bundles on cubic threefolds by using derived category
+techniques. We prove that the moduli space of stable Ulrich bundles of any rank
+is always non-empty by showing that it is birational to a moduli space of
+semistable torsion sheaves on the projective plane endowed with the action of a
+Clifford algebra. We describe this birational isomorphism via wall-crossing in
+the space of Bridgeland stability conditions, in the example of instanton
+sheaves of minimal charge.
+</summary>
+    <author>
+      <name>Martí Lahoz</name>
+    </author>
+    <author>
+      <name>Emanuele Macrì</name>
+    </author>
+    <author>
+      <name>Paolo Stellari</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages. The previous version contained a typo in the name of the
+  first author, which has been corrected. This paper consists of the first
+  three sections of the previous version of arXiv:1303.6998 which was split
+  into two different papers. Final version to appear in Algebraic Geometry</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.02257v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.02257v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

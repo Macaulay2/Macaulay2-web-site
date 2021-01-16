@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.02090%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.02090&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cvu9zbdFN87hpl3N8DGpH10jDQk</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02090v1</id>
+    <updated>2018-06-06T09:41:40Z</updated>
+    <published>2018-06-06T09:41:40Z</published>
+    <title>Toric degenerations: a bridge between representation theory, tropical
+  geometry and cluster algebras</title>
+    <summary>  In this thesis we study toric degenerations of projective varieties. We
+compare different constructions to understand how and why they are related as s
+first step towards developing a global framework. In focus are toric
+degenerations obtained from representation theory, tropical geometry and
+cluster algebras. Often those rely on valuations and the theory of
+Newton-Okounkov bodies. Toric degenerations can be seen as a combinatorial
+shadow of the original objects. The goal is therefore to understand why the
+different theories are so closely related, by understanding the toric
+degenerations they yield first. We choose Grassmannians, flag varieties and
+Schubert varieties as starting point as here many different constructions are
+applicable. One of our main results gives a sufficient condition for when toric
+degenerations obtained using full-rank valuations, independent of how these are
+constructed, can be realized using tropical geometry.
+</summary>
+    <author>
+      <name>Lara Bossinger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is a preliminary version of my submitted Phd thesis. Any
+  comments are very welcome and greatly appreciated! (136 pages, incl.
+  appendices and 36 figures)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.02090v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.02090v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0604168%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0604168&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xWivR2BJRYKY/LlwpV+VuMzrh04</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0604168v1</id>
+    <updated>2006-04-07T15:15:27Z</updated>
+    <published>2006-04-07T15:15:27Z</published>
+    <title>Derivation modules of orthogonal duals of hyperplane arrangements</title>
+    <summary>  Let A be an n by d matrix having full rank n. An orthogonal dual A^{\perp} of
+A is a (d-n) by d matrix of rank (d-n) such that every row of A^{\perp} is
+orthogonal (under the usual dot product) to every row of A. We define the
+orthogonal dual for arrangements by identifying an essential (central)
+arrangement of d hyperplanes in n-dimensional space with the n by d matrix of
+coefficients of the homogeneous linear forms for which the hyperplanes are
+kernels. If n is at least 5, we show that if the matroid (or the intersection
+lattice) of an n-dimensional essential arrangement A contains a modular copoint
+whose complement spans, then the derivation module of the orthogonally dual
+arrangement \A^{\perp} has projective dimension at least [n(n+2)/4] - 3,([ ]
+denotes ceiling).
+</summary>
+    <author>
+      <name>Joseph P. S. Kung</name>
+    </author>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages 2 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Algebraic Combinatorics, 24, (2006), 253-262</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0604168v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0604168v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C35 (Primary) 05B35 05C99 13D05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

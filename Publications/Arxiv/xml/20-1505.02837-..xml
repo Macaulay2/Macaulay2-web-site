@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1505.02837%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1505.02837&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IONzgMCJBS2278UTjyUP6F7XeQU</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1505.02837v1</id>
+    <updated>2015-05-11T23:57:49Z</updated>
+    <published>2015-05-11T23:57:49Z</published>
+    <title>Independence complexes of well-covered circulant graphs</title>
+    <summary>  We study the independence complexes of families of well-covered circulant
+graphs discovered by Boros-Gurvich-Milani\v{c}, Brown-Hoshino, and Moussi.
+Because these graphs are well-covered, their independence complexes are pure
+simplicial complexes. We determine when these pure complexes have extra
+combinatorial (e.g. vertex decomposable, shellable) or topological (e.g.
+Cohen-Macaulay, Buchsbaum) structure. We also provide a table of all
+well-covered circulant graphs on 16 or less vertices, and for each such graph,
+determine if it is vertex decomposable, shellable, Cohen-Macaulay, and/or
+Buchsbaum. A highlight of this search is an example of a graph whose
+independence complex is shellable but not vertex decomposable.
+</summary>
+    <author>
+      <name>Jonathan Earl</name>
+    </author>
+    <author>
+      <name>Kevin N. Vander Meulen</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1505.02837v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1505.02837v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C75, 05E45, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

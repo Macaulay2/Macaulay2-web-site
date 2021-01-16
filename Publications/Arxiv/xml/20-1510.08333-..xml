@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1510.08333%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1510.08333&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/05KnQfZOFt6V72KbkUwNjKEVKsk</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1510.08333v1</id>
+    <updated>2015-10-28T15:00:22Z</updated>
+    <published>2015-10-28T15:00:22Z</published>
+    <title>Quantum Mirror Symmetry for Borcea-Voisin Threefolds</title>
+    <summary>  Borcea-Voisin threefolds provided some of the first examples of mirror pairs
+in the Hodge-theoretic sense, but their mirror symmetry at the quantum level
+have not previously been shown. We prove a Givental-style quantum mirror
+theorem for certain Borcea-Voisin threefolds: by means of certain birational
+models, we show that their Gromov-Witten J-functions are related by a mirror
+map to solutions of the multi-parameter Picard-Fuchs equations coming from the
+variation of Hodge structures of their mirror partners.
+</summary>
+    <author>
+      <name>Andrew Schaug</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1510.08333v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1510.08333v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

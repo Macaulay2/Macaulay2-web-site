@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1702.00519%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1702.00519&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PAJZueGbqbar+JkiM8NXWjEU9d4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1702.00519v1</id>
+    <updated>2017-02-02T01:35:48Z</updated>
+    <published>2017-02-02T01:35:48Z</published>
+    <title>Generalized Newton Complementary Duals of Monomial Ideals</title>
+    <summary>  Given a monomial ideal in a polynomial ring over a field, we define the
+generalized Newton complementary dual of the given ideal. We show good
+properties of such duals including linear quotients and isomorphisms between
+the special fiber rings. We construct the cellular free resolutions of duals of
+strongly stable ideals generated in the same degree. When the base ideal is
+generated in degree two, we provide an explicit description of cellular free
+resolution of the dual of a compatible generalized stable ideal.
+</summary>
+    <author>
+      <name>Katie Ansaldi</name>
+    </author>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Yi-Huang Shen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1702.00519v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.00519v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13D02, Secondary 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

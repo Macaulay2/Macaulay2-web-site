@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.07239%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.07239&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W5t0v1dN+PgStCBadzeaVRHwr+A</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.07239v3</id>
+    <updated>2018-01-08T10:30:34Z</updated>
+    <published>2017-11-20T10:11:57Z</published>
+    <title>Differential symmetric signature in high dimension</title>
+    <summary>  We study the differential symmetric signature, an invariant of rings of
+finite type over a field, introduced in a previous work by the authors in an
+attempt to find a characteristic-free analogue of the F-signature. We compute
+the differential symmetric signature for invariant rings $k[x_1,\dots,x_n]^G$
+where $G$ is a finite small subgroup of $\mathrm{Gl}(n,k)$ and for hypersurface
+rings $k[x_1,\dots,x_n]/(f)$ of dimension $\geq3$ with an isolated singularity.
+In the first case, we obtain the value $1/|G|$, which coincides with the
+F-signature and generalizes a previous result of the authors for the
+two-dimensional case. In the second case, following an argument by Bruns, we
+obtain the value $0$, providing an example of a ring where differential
+symmetric signature and F-signature are different.
+</summary>
+    <author>
+      <name>Holger Brenner</name>
+    </author>
+    <author>
+      <name>Alessio Caminata</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Former Lemma 3.5 contained a mistake and has been removed. Main
+  results are unaffected</arxiv:comment>
+    <link href="http://arxiv.org/abs/1711.07239v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.07239v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50, 13D40, 13N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

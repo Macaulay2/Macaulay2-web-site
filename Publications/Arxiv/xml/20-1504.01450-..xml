@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.01450%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.01450&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gjLdnQFND62ha9WofZPHt6dkJTI</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.01450v1</id>
+    <updated>2015-04-07T01:20:24Z</updated>
+    <published>2015-04-07T01:20:24Z</published>
+    <title>Edge ideals and DG algebra resolutions</title>
+    <summary>  Let $R= S/I$ where $S=k[T_1, \ldots, T_n]$ and $I$ is a homogeneous ideal in
+$S$. The acyclic closure $R \langle Y \rangle $ of $k$ over $R$ is a DG algebra
+resolution obtained by means of Tate's process of adjoining variables to kill
+cycles. In a similar way one can obtain the minimal model $S[X]$, a DG algebra
+resolution of $R$ over $S$. By a theorem of Avramov there is a tight connection
+between these two resolutions. In this paper we study these two resolutions
+when $I$ is the edge ideal of a path or a cycle. We determine the behavior of
+the deviations $\varepsilon_i(R)$, which are the number of variables in
+$R\langle Y \rangle$ in homological degree $i$. We apply our results to the
+study of the $k$-algebra structure of the Koszul homology of $R$.
+</summary>
+    <author>
+      <name>Adam Boocher</name>
+    </author>
+    <author>
+      <name>Alessio D'Alì</name>
+    </author>
+    <author>
+      <name>Eloísa Grifo</name>
+    </author>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <author>
+      <name>Alessio Sammartano</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.4418/2015.70.1.16</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.4418/2015.70.1.16" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Le Matematiche, Vol. 70, pp 215-237 (2015)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1504.01450v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.01450v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 16E45, Secondary: 16S37, 13D02, 05C38" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

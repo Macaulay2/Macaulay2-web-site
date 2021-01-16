@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1312.3777%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1312.3777&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eZl71gpzG9K64L0sFJhJonDnFvg</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1312.3777v1</id>
+    <updated>2013-12-13T11:23:48Z</updated>
+    <published>2013-12-13T11:23:48Z</published>
+    <title>Algebraic matroids with graph symmetry</title>
+    <summary>  This paper studies the properties of two kinds of matroids: (a) algebraic
+matroids and (b) finite and infinite matroids whose ground set have some
+canonical symmetry, for example row and column symmetry and transposition
+symmetry.
+  For (a) algebraic matroids, we expose cryptomorphisms making them accessible
+to techniques from commutative algebra. This allows us to introduce for each
+circuit in an algebraic matroid an invariant called circuit polynomial,
+generalizing the minimal poly- nomial in classical Galois theory, and studying
+the matroid structure with multivariate methods.
+  For (b) matroids with symmetries we introduce combinatorial invariants
+capturing structural properties of the rank function and its limit behavior,
+and obtain proofs which are purely combinatorial and do not assume algebraicity
+of the matroid; these imply and generalize known results in some specific cases
+where the matroid is also algebraic. These results are motivated by, and
+readily applicable to framework rigidity, low-rank matrix completion and
+determinantal varieties, which lie in the intersection of (a) and (b) where
+additional results can be derived. We study the corresponding matroids and
+their associated invariants, and for selected cases, we characterize the
+matroidal structure and the circuit polynomials completely.
+</summary>
+    <author>
+      <name>Franz J. Király</name>
+    </author>
+    <author>
+      <name>Zvi Rosen</name>
+    </author>
+    <author>
+      <name>Louis Theran</name>
+    </author>
+    <link href="http://arxiv.org/abs/1312.3777v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.3777v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

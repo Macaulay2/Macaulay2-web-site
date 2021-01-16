@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1211.1648%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1211.1648&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ejQ+hzy6LZa8ezYFr9qStlssSMw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1211.1648v1</id>
+    <updated>2012-11-07T19:48:01Z</updated>
+    <published>2012-11-07T19:48:01Z</published>
+    <title>Syzygies and singularities of tensor product surfaces of bidegree (2,1)</title>
+    <summary>  Let U be a basepoint free four-dimensional subspace of the space of sections
+of O(2,1) on P^1 x P^1. The sections corresponding to U determine a regular map
+p_U: P^1 x P^1 --&gt; P^3. We study the associated bigraded ideal I_U in
+k[s,t;u,v] from the standpoint of commutative algebra, proving that there are
+exactly six numerical types of possible bigraded minimal free resolution. These
+resolutions play a key role in determining the implicit equation of the image
+p_U(P^1 x P^1), via work of Buse-Jouanolou, Buse-Chardin, Botbol and
+Botbol-Dickenstein-Dohm on the approximation complex. In four of the six cases
+I_U has a linear first syzygy; remarkably from this we obtain all differentials
+in the minimal free resolution. In particular this allows us to describe the
+implicit equation and singular locus of the image.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Javid Validashti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1211.1648v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1211.1648v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65D17, 13D02, 41A15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

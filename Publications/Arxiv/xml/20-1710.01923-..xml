@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.01923%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.01923&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gqzaRPLTxg541E1n6VjXHc4PhSU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01923v1</id>
+    <updated>2017-10-05T08:58:45Z</updated>
+    <published>2017-10-05T08:58:45Z</published>
+    <title>Focal schemes to families of secant spaces to canonical curves</title>
+    <summary>  This article is a generalisation of results of Ciliberto and Sernesi. For a
+general canonically embedded curve $C$ of genus $g\geq 5$, let $d\le g-1$ be an
+integer such that the Brill--Noether number $\rho(g,d,1)=g-2(g-d+1)\geq 1$. We
+study the family of $d$-secant $\mathbb{P}^{d-2}$'s to $C$ induced by the
+smooth locus of the Brill--Noether locus $W^1_d(C)$. Using the theory of foci
+and a structure theorem for the rank one locus of special $1$-generic matrices
+by Eisenbud and Harris, we prove a Torelli-type theorem for general curves by
+reconstructing the curve from its Brill--Noether loci $W^1_d(C)$ of dimension
+at least $1$.
+</summary>
+    <author>
+      <name>Michael Hoff</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, to appear in: "Algorithmic and Experimental Methods in
+  Algebra, Geometry, and Number Theory", DFG, SPP 1489</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.01923v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01923v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H51, 14M12, 14C34" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

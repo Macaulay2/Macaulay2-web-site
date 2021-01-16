@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.08947%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.08947&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dwY3M3zRwTNPgd3EhgLBCox/UKA</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.08947v1</id>
+    <updated>2016-10-27T19:28:19Z</updated>
+    <published>2016-10-27T19:28:19Z</published>
+    <title>Affine cubic surfaces and character varieties of knots</title>
+    <summary>  It is known that the fundamental group homomorphism $\pi_1(T^2) \to
+\pi_1(S^3\setminus K)$ induced by the inclusion of the boundary torus into the
+complement of a knot $K$ in $S^3$ is a complete knot invariant. Many classical
+invariants of knots arise from the natural (restriction) map induced by the
+above homomorphism on the $\mathrm{SL}_2$-character varieties of the
+corresponding fundamental groups. In our earlier work [BS16], we proposed a
+conjecture that the classical restriction map admits a canonical 2-parameter
+deformation into a smooth cubic surface. In this paper, we show that (modulo
+some mild technical conditions) our conjecture follows from a known conjecture
+of Brumfiel and Hilden [BH95] on the algebraic structure of the peripheral
+system of a knot. We then confirm the Brumfiel-Hilden conjecture for an
+infinite class of knots, including all torus knots, 2-bridge knots, and certain
+pretzel knots. We also show the class of knots for which the Brumfiel-Hilden
+conjecture holds is closed under taking connect sums and certain knot
+coverings.
+</summary>
+    <author>
+      <name>Yuri Berest</name>
+    </author>
+    <author>
+      <name>Peter Samuelson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.08947v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.08947v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

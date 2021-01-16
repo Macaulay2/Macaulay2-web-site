@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.4785%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.4785&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VCSXlO51xg3BOh7kv9lWwjbSgUI</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.4785v2</id>
+    <updated>2014-03-06T10:46:19Z</updated>
+    <published>2014-02-19T19:59:04Z</published>
+    <title>Extremal transitions from nested reflexive polytopes</title>
+    <summary>  Using an inclusion of one reflexive polytope into another is a well-known
+strategy for connecting the moduli spaces of two Calabi-Yau families. In this
+paper we look at the question of when an inclusion of reflexive polytopes
+determines a torically-defined extremal transition between smooth Calabi-Yau
+hypersurface families. We show this is always possible for reflexive polytopes
+in dimensions two and three. However, in dimension four and higher,
+obstructions can occur. This leads to a smooth projective family of Calabi-Yau
+threefolds that is birational to one of Batyrev's hypersurface families, but
+topologically distinct from all such families.
+</summary>
+    <author>
+      <name>Karl Fredrickson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Major change in this version: reworking of section 2 to prove full
+  result in the case of three dimensional reflexive polytopes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1402.4785v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.4785v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32, 14M10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

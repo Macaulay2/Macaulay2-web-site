@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2008.09731%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2008.09731&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ukp6KvUSB94u0pwmR58ltWgkYmk</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2008.09731v1</id>
+    <updated>2020-08-22T02:04:12Z</updated>
+    <published>2020-08-22T02:04:12Z</published>
+    <title>A journey from the octonionic $\mathbb P^2$ to a fake $\mathbb P^2$</title>
+    <summary>  We discover a family of surfaces of general type with $K^2=3$ and $p=q=0$ as
+free $C_{13}$ quotients of special linear cuts of the octonionic projective
+plane $\mathbb O \mathbb P^2$. A special member of the family has $3$
+singularities of type $A_2$, and is a quotient of a fake projective plane. We
+use the techniques of \cite{BF20} to define this fake projective plane by
+explicit equations in its bicanonical embedding.
+</summary>
+    <author>
+      <name>Lev Borisov</name>
+    </author>
+    <author>
+      <name>Anders Buch</name>
+    </author>
+    <author>
+      <name>Enrico Fatighenti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages + ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/2008.09731v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2008.09731v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J29, 14Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

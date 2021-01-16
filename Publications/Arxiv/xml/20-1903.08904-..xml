@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.08904%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.08904&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Zvj8zNKiXs6X1A+7vm1aLyde9AE</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.08904v1</id>
+    <updated>2019-03-21T10:08:59Z</updated>
+    <published>2019-03-21T10:08:59Z</published>
+    <title>Scattering Equations: From Projective Spaces to Tropical Grassmannians</title>
+    <summary>  We introduce a natural generalization of the scattering equations, which
+connect the space of Mandelstam invariants to that of points on
+${\mathbb{CP}^1}$, to higher-dimensional projective spaces $\mathbb{CP}^{k-1}$.
+The standard, $k=2$ Mandelstam invariants, $s_{ab}$, are generalized to
+completely symmetric tensors $\textsf{s}_{a_1a_2\ldots a_k}$ subject to a
+`massless' condition $\textsf{s}_{a_1a_2\cdots a_{k-2}\,b\,b}=0$ and to
+`momentum conservation'. The scattering equations are obtained by constructing
+a potential function and computing its critical points. We mainly concentrate
+on the $k=3$ case: study solutions and define the generalization of biadjoint
+scalar amplitudes. We compute all `biadjoint amplitudes' for $(k,n)=(3,6)$ and
+find a direct connection to the tropical Grassmannian. This leads to the notion
+of $k=3$ Feynman diagrams. We also find a concrete realization of the new
+kinematic spaces, which coincides with the spinor-helicity formalism for $k=2$,
+and provides analytic solutions analogous to the MHV ones.
+</summary>
+    <author>
+      <name>Freddy Cachazo</name>
+    </author>
+    <author>
+      <name>Nick Early</name>
+    </author>
+    <author>
+      <name>Alfredo Guevara</name>
+    </author>
+    <author>
+      <name>Sebastian Mizera</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 + 5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.08904v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.08904v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

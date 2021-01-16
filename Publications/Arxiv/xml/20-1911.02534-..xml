@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.02534%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.02534&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IJk9bUXv83Q7/A6GcFr6K4ThTxk</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.02534v1</id>
+    <updated>2019-11-06T18:14:02Z</updated>
+    <published>2019-11-06T18:14:02Z</published>
+    <title>Variety Membership Testing, Algebraic Natural Proofs, and Geometric
+  Complexity Theory</title>
+    <summary>  We study the variety membership testing problem in the case when the variety
+is given as an orbit closure and the ambient space is the set of all 3-tensors.
+The first variety that we consider is the slice rank variety, which consists of
+all 3-tensors of slice rank at most $r$. We show that the membership testing
+problem for the slice rank variety is $\NP$-hard. While the slice rank variety
+is a union of orbit closures, we define another variety, the minrank variety,
+expressible as a single orbit closure. Our next result is the $\NP$-hardness of
+membership testing in the minrank variety, hence we establish the
+$\NP$-hardness of the orbit closure containment problem for 3-tensors.
+  Algebraic natural proofs were recently introduced by Forbes, Shpilka and Volk
+and independently by Grochow, Kumar, Saks and Saraf. Bl\"aser et al. gave a
+version of an algebraic natural proof barrier for the matrix completion problem
+which relies on $\coNP \subseteq \exists \BPP$. It implied that constructing
+equations for the corresponding variety should be hard. We generalize their
+approach to work with any family of varieties for which the membership problem
+is $\NP$-hard and for which we can efficiently generate a dense subset.
+Therefore, a similar barrier holds for the slice rank and the minrank
+varieties, too. This allows us to set up the slice rank and the minrank
+varieties as a test-bed for geometric complexity theory (GCT). We determine the
+stabilizers of the tensors that generate the orbit closures of the two
+varieties and prove that these tensors are almost characterized by their
+symmetries. We prove several nontrivial equations for both the varieties using
+different GCT methods. Many equations also work in the regime where membership
+testing in the slice rank or minrank varieties is $\NP$-hard. We view this as a
+promising sign that the GCT approach might indeed be successful.
+</summary>
+    <author>
+      <name>Markus Bläser</name>
+    </author>
+    <author>
+      <name>Christian Ikenmeyer</name>
+    </author>
+    <author>
+      <name>Vladimir Lysikov</name>
+    </author>
+    <author>
+      <name>Anurag Pandey</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1911.02534v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.02534v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

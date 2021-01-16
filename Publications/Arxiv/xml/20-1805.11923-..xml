@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.11923%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.11923&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JZjOJbs2lt0uYEySVNGMOe/AUgs</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.11923v2</id>
+    <updated>2018-07-03T10:43:53Z</updated>
+    <published>2018-05-30T12:46:17Z</published>
+    <title>Square-free Groebner degenerations</title>
+    <summary>  Let I be a homogeneous ideal of a polynomial ring S. We prove that if the
+initial ideal J of I, w.r.t. a term order on S, is square-free, then the
+extremal Betti numbers of S/I and of S/J coincide. In particular,
+depth(S/I)=depth(S/J) and reg(S/I)=reg(S/J).
+</summary>
+    <author>
+      <name>Aldo Conca</name>
+    </author>
+    <author>
+      <name>Matteo Varbaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Statement of Conjecture 3.12 fixed; added Example 3.15; Section 4,
+  previously entitled "Questions", modified and turned into "Questions and
+  answers"; minor changes throughout</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.11923v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.11923v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D10, 13D45, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

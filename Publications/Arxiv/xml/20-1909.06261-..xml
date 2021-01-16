@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.06261%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.06261&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EQ0MWmZ5jjPNGyhvfhW5gwdu0mg</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.06261v1</id>
+    <updated>2019-09-13T14:38:20Z</updated>
+    <published>2019-09-13T14:38:20Z</published>
+    <title>On the eigenpoints of cubic surfaces</title>
+    <summary>  We show that the eigenschemes of $4 \times 4 \times 4$ symmetric tensors are
+parametrized by a linear subvariety of the Grassmannian
+$\operatorname{Gr}(3,\mathbb{P}^{14})$. We also study the decomposition of the
+eigenscheme into the subscheme associated to the zero eigenvalue and its
+complement. In particular, we categorize the possible degrees and dimensions.
+</summary>
+    <author>
+      <name>Türkü Özlüm Celik</name>
+    </author>
+    <author>
+      <name>Francesco Galuppi</name>
+    </author>
+    <author>
+      <name>Avinash Kulkarni</name>
+    </author>
+    <author>
+      <name>Miruna-Stefana Sorea</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.06261v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.06261v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A18, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

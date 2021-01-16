@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.02867%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.02867&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HAjS0xYc7b4vpXsCofjitNwI1j4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02867v1</id>
+    <updated>2018-07-08T18:55:54Z</updated>
+    <published>2018-07-08T18:55:54Z</published>
+    <title>Hodge numbers and Hodge structures for Calabi-Yau categories of
+  dimension three</title>
+    <summary>  Let $\mathcal{A}$ be a smooth proper C-linear triangulated category
+Calabi-Yau of dimension 3 endowed with a (non-trivial) rank function. Using the
+homological unit of $\mathcal{A}$ with respect to the given rank function, we
+define Hodge numbers for $\mathcal{A}$. If the classes of unitary objects
+generate the complexified numerical K-theory of $\mathcal{A}$ (hypothesis
+satisfied for many examples of smooth proper Calabi-Yau categories of dimension
+3), it is proved that these numbers are independent of the chosen rank function
+: they are intrinsic invariants of the triangulated category $\mathcal{A}$. In
+the special case where $\mathcal{A}$ is a semi-orthogonal component of the
+derived category of a smooth complex projective variety and the homological
+unit of $\mathcal{A}$ is $\mathbb{C} \oplus \mathbb{C}[3]$ (that is
+$\mathcal{A}$ is strict Calabi-Yau with respect to the rank function), we
+define a Hodge structure on the Hochschild homology of $\mathcal{A}$. The
+dimensions of the Hodge spaces of this structure are the Hodge numbers
+aforementioned. Finally, we give some numerical applications toward the
+Homological Mirror Symmetry conjecture for cubic sevenfolds and double quartic
+fivefolds.
+</summary>
+    <author>
+      <name>Roland Abuaf</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.02867v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.02867v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

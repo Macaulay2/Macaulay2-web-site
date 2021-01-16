@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.09815%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.09815&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4P4tZgFVzOxZo9bcQ1dKHQxJKXg</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.09815v1</id>
+    <updated>2020-12-17T18:33:32Z</updated>
+    <published>2020-12-17T18:33:32Z</published>
+    <title>The characteristic 2 anisotropicity of simplicial spheres</title>
+    <summary>  Assume D is a simplicial sphere, and k_1 is a field. We say that D is
+generically anisotropic over k_1 if, for a certain purely transcendental field
+extension k of k_1, a certain Artinian reduction A of the Stanley-Reisner ring
+k[D] has the following property: All nonzero homogeneous elements u of A of
+degree less or equal to (dim D +1)/2 have nonzero square. We prove, using
+suitable differential operators, that, if the field k_1 has characteristic 2,
+then every simplicial sphere D is generically anisotropic over k_1. As an
+application, we give a second proof of a recent result of Adiprasito, known as
+McMullen's g-conjecture for simplicial spheres. We also prove that the
+simplicial spheres of dimension 1 are generically anisotropic over any field
+k_1.
+</summary>
+    <author>
+      <name>Stavros Argyrios Papadakis</name>
+    </author>
+    <author>
+      <name>Vasiliki Petrotou</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.09815v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.09815v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13F55, Secondary 05E40, 05E45, 11R58" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

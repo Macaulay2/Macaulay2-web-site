@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.12379%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.12379&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vr51QUzPlC/v48M1bXscEYXSIlY</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.12379v1</id>
+    <updated>2020-03-27T12:43:04Z</updated>
+    <published>2020-03-27T12:43:04Z</published>
+    <title>Cohen-Macaulay edge-weighted edge ideals of very well-covered graphs</title>
+    <summary>  We characterize unmixed and Cohen-Macaulay edge-weighted edge ideals of very
+well-covered graphs. We also provide examples of oriented graphs which have
+unmixed and non-Cohen-Macaulay vertex-weighted edge ideals, while the edge
+ideal of their underlying graph is Cohen-Macaulay. This disproves a conjecture
+posed by Pitones, Reyes and Toledo.
+</summary>
+    <author>
+      <name>Seyed Amin Seyed Fakhari</name>
+    </author>
+    <author>
+      <name>Kosuke Shibata</name>
+    </author>
+    <author>
+      <name>Naoki Terai</name>
+    </author>
+    <author>
+      <name>Siamak Yassemi</name>
+    </author>
+    <link href="http://arxiv.org/abs/2003.12379v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.12379v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

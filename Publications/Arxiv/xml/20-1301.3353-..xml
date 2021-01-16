@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.3353%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.3353&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/axo4HbBcmOzyBsRZQ9bMroK3PJY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3353v1</id>
+    <updated>2013-01-15T14:16:16Z</updated>
+    <published>2013-01-15T14:16:16Z</published>
+    <title>BRST cohomology of the sum of two pure spinors</title>
+    <summary>  We study the zero mode cohomology of the sum of two pure spinors. The
+knowledge of this cohomology allows us to better understand the structure of
+the massless vertex operator of the Type IIB pure spinor superstring.
+</summary>
+    <author>
+      <name>Andrei Mikhailov</name>
+    </author>
+    <author>
+      <name>Renjun Xu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX, 41 pp</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.3353v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.3353v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="83E50 (Primary) 13D02, 81T70 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.07411%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.07411&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NIcUPvdHrj/XxL2jpAySukY++jg</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.07411v1</id>
+    <updated>2017-05-21T08:11:44Z</updated>
+    <published>2017-05-21T08:11:44Z</published>
+    <title>Algebraic Aspects of Conditional Independence and Graphical Models</title>
+    <summary>  This chapter of the forthcoming Handbook of Graphical Models contains an
+overview of basic theorems and techniques from algebraic geometry and how they
+can be applied to the study of conditional independence and graphical models.
+It also introduces binomial ideals and some ideas from real algebraic geometry.
+When random variables are discrete or Gaussian, tools from computational
+algebraic geometry can be used to understand implications between conditional
+independence statements. This is accomplished by computing primary
+decompositions of conditional independence ideals. As examples the chapter
+presents in detail the graphical model of a four cycle and the intersection
+axiom, a certain implication of conditional independence statements. Another
+important problem in the area is to determine all constraints on a graphical
+model, for example, equations determined by trek separation. The full set of
+equality constraints can be determined by computing the model's vanishing
+ideal. The chapter illustrates these techniques and ideas with examples from
+the literature and provides references for further reading.
+</summary>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Johannes Rauh</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.07411v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.07411v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62-00, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.06333%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.06333&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qb+j9OHlmxd72pAp9KDO1kNFl1g</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06333v2</id>
+    <updated>2018-03-16T03:01:41Z</updated>
+    <published>2018-02-18T05:15:29Z</published>
+    <title>Explicit equations of a fake projective plane</title>
+    <summary>  Fake projective planes are smooth complex surfaces of general type with Betti
+numbers equal to those of the usual projective plane. They come in complex
+conjugate pairs and have been classified as quotients of the two-dimensional
+ball by explicitly written arithmetic subgroups. In this paper we find
+equations of a projective model of a conjugate pair of fake projective planes
+by studying the geometry of the quotient of such surface by an order seven
+automorphism.
+</summary>
+    <author>
+      <name>Lev A. Borisov</name>
+    </author>
+    <author>
+      <name>JongHae Keum</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is a full version of "Research announcement: equations of a fake
+  projective plane", arXiv:1710.04501. Typos in Table 1 in the v1 are corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.06333v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.06333v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J29, 14F05, 32Q40, 32N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

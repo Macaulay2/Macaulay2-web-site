@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0807.0560%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0807.0560&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OAMXcCEOWEFDxCCbQCUB6/gP3Dc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0807.0560v2</id>
+    <updated>2008-07-25T15:00:27Z</updated>
+    <published>2008-07-03T13:32:02Z</published>
+    <title>On the symmetry of b-functions of linear free divisors</title>
+    <summary>  We introduce the concept of a prehomogeneous determinant as a nonreduced
+version of a linear free divisor. Both are special cases of prehomogeneous
+vector spaces. We show that the roots of the $b$-function are symmetric about
+-1 for reductive prehomogeneous determinants and for regular special linear
+free divisors. For general prehomogeneous determinants, we describe conditions
+under which this symmetry still holds. Combined with Kashiwara's theorem on the
+roots of b-functions, our symmetry result shows that -1 is the only integer
+root of the b-function. This gives a positive answer to a problem posed by
+Castro-Jimenez and Ucha-Enriquez in the above cases. We study the condition of
+(strong) Euler homogeneity in terms of the action of the stabilizers on the
+normal spaces. As an application of our results, we show that the logarithmic
+comparison theorem holds for Koszul free reductive linear free divisors exactly
+if they are (strongly) Euler homogeneous.
+</summary>
+    <author>
+      <name>Michel Granger</name>
+    </author>
+    <author>
+      <name>Mathias Schulze</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 4 figures, 1 table</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Publ. RIMS 46,3 (2010), 479-506</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0807.0560v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0807.0560v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11S90, 14F40, 17B66" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

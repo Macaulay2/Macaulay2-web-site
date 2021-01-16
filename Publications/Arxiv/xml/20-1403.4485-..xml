@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.4485%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.4485&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/URJ/nVKdYLrr1JnBTn3JlbhoXXE</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.4485v1</id>
+    <updated>2014-03-18T14:50:15Z</updated>
+    <published>2014-03-18T14:50:15Z</published>
+    <title>Maximal syzygies in equivariant cohomology</title>
+    <summary>  Let T be a torus of rank r and X a compact orientable T-manifold. The
+equivariant cohomology H_T^*(X;Q) is a finitely generated module over the
+polynomial ring R = H^*(BT;Q). By a result of Allday, Puppe and the author, if
+H_T^*(X;Q) is a syzygy of order m &gt;= r/2, then it is already free over R. In
+this note we show that this bound is sharp. Our examples, called 'big polygon
+spaces', are intersections of real quadrics and related to polygon spaces,
+which appear as their fixed point sets. They are also the first examples of
+compact orientable T-manifolds for which the equivariant Poincare pairing is
+perfect although H_T^*(X;Q) is not free over R.
+</summary>
+    <author>
+      <name>Matthias Franz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.4485v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.4485v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55N91 (Primary) 13D02, 57P10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0010130%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0010130&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dztLheKSmZAO53VzwC6y0PpaBx8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010130v1</id>
+    <updated>2000-10-12T22:39:37Z</updated>
+    <published>2000-10-12T22:39:37Z</published>
+    <title>Algorithms for the Toric Hilbert Scheme</title>
+    <summary>  The toric Hilbert scheme parametrizes all algebras isomorphic to a given
+semigroup algebra as a multigraded vectorspace. All components of the scheme
+are toric varieties, and among them, there is a fairly well understood coherent
+component. However, it is unknown whether toric Hilbert schemes are always
+connected. In this chapter we illustrate the use of Macaulay 2 for exploring
+the structure of toric Hilbert schemes. In the process we will encounter
+algorithms from commutative algebra, algebraic geometry, polyhedral theory and
+geometric combinatorics.
+</summary>
+    <author>
+      <name>Michael Stillman</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Cornell U.</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rekha R. Thomas</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">U. of Washington</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is a chapter for the forthcoming book "Computations in Algebraic
+  Geometry using Macaulay 2" edited by D. Eisenbud, D. Grayson, M. Stillman and
+  B. Sturmfels</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0010130v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0010130v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q, 13P, 5E" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

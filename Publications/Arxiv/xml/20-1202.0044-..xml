@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1202.0044%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1202.0044&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TmNCgqS7xovKvgm8zGfRwJLCQJ8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1202.0044v2</id>
+    <updated>2012-07-18T13:19:24Z</updated>
+    <published>2012-01-31T22:33:59Z</published>
+    <title>Balanced vertex decomposable simplicial complexes and their h-vectors</title>
+    <summary>  Given any finite simplicial complex \Delta, we show how to construct a new
+simplicial complex \Delta_{\chi} that is balanced and vertex decomposable.
+Moreover, we show that the h-vector of the simplicial complex \Delta_{\chi} is
+precisely the f-vector, denoted f(\Delta), of the original complex \Delta. We
+deduce this result by relating f(\Delta) with the graded Betti numbers of the
+Alexander dual of \Delta_{\chi}. Our construction generalizes the "whiskering"
+construction of Villarreal, and Cook and Nagel. As a corollary of our work, we
+add a new equivalent statement to a theorem of Bj\"orner, Frankl, and Stanley
+that classifies the f-vectors of simplicial complexes. We also prove a special
+case of a conjecture of Cook and Nagel, and Constantinescu and Varbaro on the
+h-vectors of flag complexes.
+</summary>
+    <author>
+      <name>Jennifer Biermann</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages; revised version is shorter; the material of Section 4 has
+  been re-ordered</arxiv:comment>
+    <link href="http://arxiv.org/abs/1202.0044v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1202.0044v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E45, 05A15, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

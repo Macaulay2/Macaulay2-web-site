@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.4503%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.4503&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NVx9/zNXq6ttYCNyw3w+A/lvNrU</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4503v3</id>
+    <updated>2012-12-16T09:34:08Z</updated>
+    <published>2011-07-22T12:49:21Z</published>
+    <title>On the Koszul property of toric face rings</title>
+    <summary>  Toric face rings is a generalization of the concepts of affine monoid rings
+and Stanley-Reisner rings. We consider several properties which imply
+Koszulness for toric face rings over a field $k$. Generalizing works of Laudal,
+Sletsj\o{}e and Herzog et al., graded Betti numbers of $k$ over the toric face
+rings are computed, and a characterization of Koszul toric face rings is
+provided. We investigate a conjecture suggested by R\"{o}mer about the
+sufficient condition for the Koszul property. The conjecture is inspired by
+Fr\"{o}berg's theorem on the Koszulness of quadratic squarefree monomial
+ideals. Finally, it is proved that initially Koszul toric face rings are affine
+monoid rings.
+</summary>
+    <author>
+      <name>Dang Hop Nguyen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor changes. Be accepted for publication in Journal of Commutative
+  Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1107.4503v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.4503v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

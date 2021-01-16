@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.00283%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.00283&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wYgNqlLJJEbTWEVBjNUHvzKuzPM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.00283v2</id>
+    <updated>2016-04-21T03:03:54Z</updated>
+    <published>2015-12-01T15:06:04Z</published>
+    <title>Pontryagin algebras of some moment-angle-complexes</title>
+    <summary>  We consider the problem of describing the Pontryagin algebra (loop homology)
+of moment-angle complexes and manifolds. The moment-angle complex Z_K is a cell
+complex built of products of polydiscs and tori parametrised by simplices in a
+finite simplicial complex K. It has a natural torus action and plays an
+important role in toric topology. In the case when K is a triangulation of a
+sphere, Z_K is a topological manifold, which has interesting geometric
+structures.
+  Generators of the Pontryagin algebra H_*(\Omega Z_K) when K is a flag complex
+have been described in the work of Grbic, Panov, Theriault and Wu. Describing
+relations is often a difficult problem, even when K has a few vertices. Here we
+describe these relations in the case when K is the boundary of a pentagon or a
+hexagon. In this case, it is known that Z_K is a connected sum of products of
+spheres with two spheres in each product. Therefore H_*(\Omega Z_K) is a
+one-relator algebra and we describe this one relation explicitly, therefore
+giving a new homotopy-theoretical proof of McGavran's result. An interesting
+feature of our relation is that it includes iterated Whitehead products which
+vanish under the Hurewicz homomorphism. Therefore, the form of this relation
+cannot be deduced solely from the result of McGavran.
+</summary>
+    <author>
+      <name>Yakov Veryovkin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.00283v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.00283v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

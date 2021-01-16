@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0901.1054%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0901.1054&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8sOo6p2sNj6H9jSgw8d1WQgkDWY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0901.1054v2</id>
+    <updated>2009-01-11T22:49:06Z</updated>
+    <published>2009-01-08T20:52:09Z</published>
+    <title>Geometry of genus 9 Fano 4-fold</title>
+    <summary>  References to the works of Iliev-Ranestad and Kuznetsov added.
+  -----
+  In a first part we detail the construction, on a general Fano 4-fold of genus
+9, of a canonical set of four stable vector bundles of rank 2, and prove that
+they are rigid. Those results were already known by Iliev-Ranestad and
+Kuznetsov with different purposes.
+  In a second part we show that its variety of lines is an hyperplane section
+of P1xP1xP1xP1. Then we compute the Chow ring of a general Fano 4-fold, which
+appears to have a rich structure in codimension 2.
+  The 4-bundles gives embeddings in a Grassmannian G(2,6), and the link with
+the order one congruence discovered by E. Mezzeti and P de Poi is done. We will
+also describe in this part the normalization of the non quadraticaly normal
+variety they constructed, and also its variety of plane cubics and detail the
+zak duality in this case.
+</summary>
+    <author>
+      <name>Han Frederic</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0901.1054v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0901.1054v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60, 14F05, 14J45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

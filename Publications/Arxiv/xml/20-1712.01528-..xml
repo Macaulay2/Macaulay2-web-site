@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.01528%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.01528&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/axlJcZ5m9fZ0gWl8ZMBIt9fm+/E</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.01528v1</id>
+    <updated>2017-12-05T08:59:54Z</updated>
+    <published>2017-12-05T08:59:54Z</published>
+    <title>A Horrocks' theorem for reflexive sheaves</title>
+    <summary>  In this paper, we define $m$-tail reflexive sheaves as reflexive sheaves on
+projective spaces with the simplest possible cohomology. We prove that the rank
+of any $m$-tail reflexive sheaf $\mathcal{E}$ on $\mathcal{P}^n$ is greater or
+equal to $ nm-m$. We completely describe $m$-tail reflexive sheaves on
+$\mathcal{P}^n$ of minimal rank and we construct huge families of $m$-tail
+reflexive sheaves of higher rank.
+</summary>
+    <author>
+      <name>Laura Costa</name>
+    </author>
+    <author>
+      <name>Simone Marchesi</name>
+    </author>
+    <author>
+      <name>Rosa Maria Miró-Roig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">to appear in Journal of Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.01528v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.01528v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05, 14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

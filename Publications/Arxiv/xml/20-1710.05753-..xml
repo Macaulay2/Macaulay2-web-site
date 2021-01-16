@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.05753%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.05753&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tGKNTGRXEeAG00UAgvj6OZkIOnk</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.05753v1</id>
+    <updated>2017-10-13T07:21:09Z</updated>
+    <published>2017-10-13T07:21:09Z</published>
+    <title>Rationality questions and motives of cubic fourfolds</title>
+    <summary>  In this note we propose an approach to some questions about the birational
+geometry of smooth cubic fourfolds through the theory of Chow motives. Let $X
+\subset \mathbb{P}^5$ be such a cubic hypersurface. We prove that, assuming the
+Hodge conjecture for the product $S \times S$, where $S$ is a complex surface,
+and the finite dimensionality of the Chow motive $h(S)$, there are at most a
+countable number of decomposable integral polarized Hodge structures, arising
+from the fibers of a family $f : \mathcal{S} \to B$ of smooth projective
+surfaces. According to the results in [ABB] this is related to a conjecture
+proving the irrationality of a very general $X$. We introduce the
+transcendental part $t(X)$ of the motive of $X$ and prove that it is isomorphic
+to the (twisted) transcendental part $h^{tr}_2(F(X))$ in a suitable
+Chow-K\"unneth decomposition for the motive of the Fano variety of lines
+$F(X)$. If $X$ is special, in the sense of B.Hassett, and $F(X) \simeq
+S^{[2]}$, with $S$ a K3 surface associated to $X$, then we show that
+$t(X)\simeq t_2(S)(1)$. Then we relate the existence of an isomorphism between
+the transcendental motive $t(X)$ and the (twisted) transcendental motive of a
+K3 surface with the conjectures by Hasset and Kuznetsov on the rationality of a
+special cubic fourfold. Finally we give examples of cubic fourfolds such that
+the motive $t(X)$ is finite dimensional and of abelian type.
+</summary>
+    <author>
+      <name>Michele Bolognesi</name>
+    </author>
+    <author>
+      <name>Claudio Pedrini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">46 pages. arXiv admin note: text overlap with arXiv:1701.05743</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.05753v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.05753v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

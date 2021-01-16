@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0908.2609%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0908.2609&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rkftGvEFf6XrTZMaM7gAd5Zqdnc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0908.2609v2</id>
+    <updated>2010-01-24T16:55:04Z</updated>
+    <published>2009-08-18T18:29:05Z</published>
+    <title>Laurent polynomials and Eulerian numbers</title>
+    <summary>  Duistermaat and van der Kallen show that there is no nontrivial complex
+Laurent polynomial all of whose powers have a zero constant term. Inspired by
+this, Sturmfels posed two questions: Do the constant terms of a generic Laurent
+polynomial form a regular sequence? If so, then what is the degree of the
+associated zero-dimensional ideal? In this note, we prove that the Eulerian
+numbers provide the answer to the second question. The proof involves
+reinterpreting the problem in terms of toric geometry.
+</summary>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Gregory G. Smith</name>
+    </author>
+    <author>
+      <name>Anthony Várilly-Alvarado</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jcta.2010.02.006</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages; gave a new proof of Lemma 3; made minor corrections and
+  improvements to exposition</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Combinatorial Theory, Series A 118 (2011) 396-402</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0908.2609v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0908.2609v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jcta.2010.02.006" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A10, 14N15, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

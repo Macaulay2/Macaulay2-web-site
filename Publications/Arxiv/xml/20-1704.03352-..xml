@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1704.03352%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1704.03352&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HzgSFFUHhqXTBtZvWFTaV5GGoA0</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1704.03352v1</id>
+    <updated>2017-04-11T15:21:34Z</updated>
+    <published>2017-04-11T15:21:34Z</published>
+    <title>Ulrich bundles on intersections of two 4-dimensional quadrics</title>
+    <summary>  In this paper, we investigate the existence of Ulrich bundles on a smooth
+complete intersection of two $4$-dimensional quadrics in $\mathbb P^5$ by two
+completely different methods. First, we find good ACM curves and use Serre
+correspondence in order to construct Ulrich bundles, which is analogous to the
+construction on a cubic threefold by Casanellas-Hartshorne-Geiss-Schreyer.
+Next, we use Bondal-Orlov's semiorthogonal decomposition of the derived
+category of coherent sheaves to analyze Ulrich bundles. Using these methods, we
+prove that any smooth intersection of two 4-dimensional quadrics in $\mathbb
+P^5$ carries an Ulrich bundle of rank $r$ for every $r \ge 2$. Moreover, we
+provide a description of the moduli space of stable Ulrich bundles.
+</summary>
+    <author>
+      <name>Yonghwa Cho</name>
+    </author>
+    <author>
+      <name>Yeongrak Kim</name>
+    </author>
+    <author>
+      <name>Kyoung-Seog Lee</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1704.03352v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.03352v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

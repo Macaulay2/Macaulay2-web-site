@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0304353%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0304353&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/t2MxqbApxQ0VJ+Gkbi6BaBp7GU0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0304353v2</id>
+    <updated>2003-04-25T15:40:53Z</updated>
+    <published>2003-04-23T15:59:57Z</published>
+    <title>Computations with moduli of perverse point sheaves</title>
+    <summary>  Given a birational modification $X \to Y$ of complex projective varieties
+with fiber dimension 1 and rational singularities, consider the main component
+of Bridgeland's moduli space $W \to Y$ of perverse point sheaves on $X/Y$. We
+give criteria for the normalization of $W$ to coincide with the transform
+(flip/flop) $X^+ \to Y$ of $X \to Y$. First, this holds if the exceptional loci
+of $X \to Y$ and $W \to Y$ have codimension $&gt;1$. Second, if the ideal sheaf of
+$X \times_Y X^+$ is flat over $X^+$ then there is at least a morphism $X^+ \to
+W$. We illustrate the results using a number of examples, including surface
+modifications and standard Francia flips.
+</summary>
+    <author>
+      <name>Dan Abramovich</name>
+    </author>
+    <author>
+      <name>Jiun C. Chen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, sum horrifik tipos correctid</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0304353v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0304353v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E30 ; 14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

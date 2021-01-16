@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.0032%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.0032&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ASe91AXTg/yxZYWf6jCSUNrhUHs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.0032v2</id>
+    <updated>2014-02-06T02:20:05Z</updated>
+    <published>2011-07-30T00:48:40Z</published>
+    <title>An untwisted cube of resolutions for knot Floer homology</title>
+    <summary>  Ozsvath and Szabo gave a combinatorial description of knot Floer homology
+based on a cube of resolutions, which uses maps with twisted coefficients. We
+study the t=1 specialization of their construction. The associated spectral
+sequence converges to knot Floer homology, and we conjecture that its E_1 page
+is isomorphic to the HOMFLY-PT chain complex of Khovanov and Rozansky. At the
+level of each E_1 summand, this conjecture can be stated in terms of an
+isomorphism between certain Tor groups. As evidence for the conjecture, we
+prove that such an isomorphism exists in degree zero.
+</summary>
+    <author>
+      <name>Ciprian Manolescu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 10 figures; a few minor changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.0032v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.0032v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="57M25 (Primary), 57R58 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

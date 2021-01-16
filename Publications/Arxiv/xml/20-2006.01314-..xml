@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.01314%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.01314&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JQel/sjQ6qQJ03iA6HTVmqASIu4</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.01314v1</id>
+    <updated>2020-06-01T23:30:53Z</updated>
+    <published>2020-06-01T23:30:53Z</published>
+    <title>Geometric interpretation of toroidal compactifications of moduli of
+  points in the line and cubic surfaces</title>
+    <summary>  It is known that some GIT compactifications associated to moduli spaces of
+either points in the projective line or cubic surfaces are isomorphic to
+Baily-Borel compactifications of appropriate ball quotients. In this paper, we
+show that their respective toroidal compactifications are isomorphic to moduli
+spaces of stable pairs as defined in the context of the MMP. Moreover, we give
+a precise mixed-Hodge-theoretic interpretation of this isomorphism for the case
+of eight labeled points in the projective line.
+</summary>
+    <author>
+      <name>Patricio Gallardo</name>
+    </author>
+    <author>
+      <name>Matt Kerr</name>
+    </author>
+    <author>
+      <name>Luca Schaffler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.01314v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.01314v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J10, 14D06, 14E05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

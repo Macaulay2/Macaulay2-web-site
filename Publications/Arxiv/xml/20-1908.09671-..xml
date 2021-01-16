@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1908.09671%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1908.09671&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pZTGwODxxjc7o9ZosKUrQOBje3A</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1908.09671v1</id>
+    <updated>2019-08-26T13:29:53Z</updated>
+    <published>2019-08-26T13:29:53Z</published>
+    <title>Secant varieties of toric varieties arising from simplicial complexes</title>
+    <summary>  Motivated by the study of the secant variety of the Segre-Veronese variety we
+propose a general framework to analyze properties of the secant varieties of
+toric embeddings of affine spaces defined by simplicial complexes. We prove
+that every such secant is toric, which gives a way to use combinatorial tools
+to study singularities. We focus on the Segre-Veronese variety for which we
+completely classify their secants that give Gorenstein or $\mathbb
+Q$-Gorenstein varieties. We conclude providing the explicit description of the
+singular locus.
+</summary>
+    <author>
+      <name>M. Azeem Khadam</name>
+    </author>
+    <author>
+      <name>Mateusz Michałek</name>
+    </author>
+    <author>
+      <name>Piotr Zwiernik</name>
+    </author>
+    <link href="http://arxiv.org/abs/1908.09671v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1908.09671v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E07, 14M25," scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

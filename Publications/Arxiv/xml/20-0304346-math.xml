@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0304346%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0304346&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/J7uJwGGQFygEgAEwFMhYWA22ASs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0304346v2</id>
+    <updated>2005-02-23T21:08:51Z</updated>
+    <published>2003-04-23T01:10:39Z</published>
+    <title>The envelope of lines meeting a fixed line that are tangent to two
+  spheres</title>
+    <summary>  We study the set of lines that meet a fixed line and are tangent to two
+spheres and classify the configurations consisting of a single line and three
+spheres for which there are infinitely many lines tangent to the three spheres
+that also meet the given line. All such configurations are degenerate. The path
+to this result involves the interplay of some beautiful and intricate geometry
+of real surfaces in 3-space, complex algebraic geometry, explicit computation
+and graphics.
+</summary>
+    <author>
+      <name>Gábor Megyesi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UMIST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Texas A&amp;M University</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 13 .eps pictures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Discrete and Computational Geometry, 33, Number 4, (2005)
+  617--644.</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0304346v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0304346v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68U05, 51N20, 14N10, 14Q15; ACM I.3.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

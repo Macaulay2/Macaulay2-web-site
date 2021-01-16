@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.03154%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.03154&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/se1S8mXJlSFyqZEL0/TC+bre13c</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.03154v1</id>
+    <updated>2020-06-04T22:18:32Z</updated>
+    <published>2020-06-04T22:18:32Z</published>
+    <title>Decomposable sparse polynomial systems</title>
+    <summary>  The Macaulay2 package DecomposableSparseSystems implements methods for
+studying and numerically solving decomposable sparse polynomial systems. We
+describe the structure of decomposable sparse systems and explain how the
+methods in this package may be used to exploit this structure, with examples.
+</summary>
+    <author>
+      <name>Taylor Brysiewicz</name>
+    </author>
+    <author>
+      <name>Jose Israel Rodriguez</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Thomas Yahl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, software available at
+  https://www.math.tamu.edu/~thomasjyahl/research/DSS/DSSsite.html</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.03154v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.03154v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 65H10, 65H20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

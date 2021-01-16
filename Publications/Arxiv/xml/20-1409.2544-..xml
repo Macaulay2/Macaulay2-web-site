@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.2544%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.2544&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/InMoF5dzsLRpcbQaqgMpaKs2NJA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.2544v1</id>
+    <updated>2014-09-08T22:53:53Z</updated>
+    <published>2014-09-08T22:53:53Z</published>
+    <title>The neural ring: using algebraic geometry to analyze neural codes</title>
+    <summary>  Neurons in the brain represent external stimuli via neural codes. These codes
+often arise from stimulus-response maps, associating to each neuron a convex
+receptive field. An important problem confronted by the brain is to infer
+properties of a represented stimulus space without knowledge of the receptive
+fields, using only the intrinsic structure of the neural code. How does the
+brain do this? To address this question, it is important to determine what
+stimulus space features can - in principle - be extracted from neural codes.
+This motivates us to define the neural ring and a related neural ideal,
+algebraic objects that encode the full combinatorial data of a neural code. We
+find that these objects can be expressed in a "canonical form" that directly
+translates to a minimal description of the receptive field structure intrinsic
+to the neural code. We consider the algebraic properties of homomorphisms
+between neural rings, which naturally relate to maps between neural codes. We
+show that maps between two neural codes are in bijection with ring
+homomorphisms between the respective neural rings, and define the notion of
+neural ring homomorphism, a special restricted class of ring homomorphisms
+which preserve neuron structure. We also find connections to Stanley-Reisner
+rings, and use ideas similar to those in the theory of monomial ideals to
+obtain an algorithm for computing the canonical form associated to any neural
+code, providing the groundwork for inferring stimulus space features from
+neural activity alone.
+</summary>
+    <author>
+      <name>Nora Youngs</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Doctoral dissertation, Univ Nebraska 2014. arXiv admin note: text
+  overlap with arXiv:1212.5188 by other authors</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.2544v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.2544v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

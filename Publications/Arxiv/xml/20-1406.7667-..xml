@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.7667%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.7667&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lNJ4/wJiQ2JcYLuqdW5g4rROed0</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7667v1</id>
+    <updated>2014-06-30T10:58:21Z</updated>
+    <published>2014-06-30T10:58:21Z</published>
+    <title>On isomorphisms between Siegel modular threefolds</title>
+    <summary>  An isomorphism between two Siegel modular threefolds which parametrize
+different moduli spaces has been recently constructed, showing, as a
+consequence, that the moduli space of principally polarized abelian varieties
+with level 2 structure, as a modular variety, has a self-morphism of degree 8.
+In this paper we will see that this is in fact a special case of a more general
+result using techniques from the theory of Siegel modular forms. It will be
+shown that for particular congruence subgroups of level 4 is it possible to
+construct an isomorphism between two Siegel modular threefolds implying
+moreover that the modular variety associated each group has a self-morphism of
+degree 8. The action of the Fricke involution will also be examined, extending
+the result to some subgroups contained in the Hecke group of level 4 and
+computing the ring of modular forms with respect to the latter group. The
+construction does not generalize directly for higher genera, the genus 3 case
+will be treated in details.
+</summary>
+    <author>
+      <name>Sara Perna</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1406.7667v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.7667v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

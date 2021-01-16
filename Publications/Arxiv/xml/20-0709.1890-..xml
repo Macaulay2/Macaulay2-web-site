@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0709.1890%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0709.1890&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fMNGIqZXFyQ7502ZOalX7yHZaDU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0709.1890v1</id>
+    <updated>2007-09-12T14:40:58Z</updated>
+    <published>2007-09-12T14:40:58Z</published>
+    <title>Freeness of Conic-Line Arrangements in $\mathbb P^2$</title>
+    <summary>  Let ${\mathcal C}= \bigcup_{i=1}^n C_i \subseteq \mathbb{P}^2$ be a
+collection of smooth rational plane curves. We prove that the addition-deletion
+operation used in the study of hyperplane arrangements has an extension which
+works for a large class of arrangements of smooth rational curves, giving an
+inductive tool for understanding the freeness of the module $\Omega^1({\mathcal
+C})$ of logarithmic differential forms with pole along ${\mathcal C}$. We also
+show that the analog of Terao's conjecture (freeness of $\Omega^1({\mathcal
+C})$ is combinatorially determined if ${\mathcal C}$ is a union of lines) is
+false in this setting.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Stefan O. Tohaneanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 9 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Commentarii Mathematici Helvetici, 84 (2009) 235-258</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0709.1890v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0709.1890v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B30, 14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

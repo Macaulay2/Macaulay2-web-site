@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1206.5956%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1206.5956&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Y0SrIKOyMLf4U1GKTcgjnA08VMQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1206.5956v1</id>
+    <updated>2012-06-26T11:27:56Z</updated>
+    <published>2012-06-26T11:27:56Z</published>
+    <title>Cohomology of wheels on toric varieties</title>
+    <summary>  We describe explicitly the cohomology of the total complex of certain
+diagrams of invertible sheaves on normal toric varieties. These diagrams,
+called wheels, arise in the study of toric singularities associated to dimer
+models. Our main tool describes the generators in a family of syzygy modules
+associated to the wheel in terms of walks in a family of graphs.
+</summary>
+    <author>
+      <name>Alastair Craw</name>
+    </author>
+    <author>
+      <name>Alexander Quintero Velez</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 5 figures. arXiv admin note: substantial text overlap with
+  arXiv:1111.6018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1206.5956v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1206.5956v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

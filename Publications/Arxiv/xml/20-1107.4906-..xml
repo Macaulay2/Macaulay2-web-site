@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.4906%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.4906&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/w0+EHOmTefNdRijaFhIUq9EG/VA</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4906v2</id>
+    <updated>2012-02-22T03:23:00Z</updated>
+    <published>2011-07-25T11:48:30Z</published>
+    <title>Symbolic powers versus regular powers of ideals of general points in P^1
+  x P^1</title>
+    <summary>  Recent work of Ein-Lazarsfeld-Smith and Hochster-Huneke raised the problem of
+which symbolic powers of an ideal are contained in a given ordinary power of
+the ideal. Bocci-Harbourne developed methods to address this problem, which
+involve asymptotic numerical characters of symbolic powers of the ideals. Most
+of the work done up to now has been done for ideals defining 0-dimensional
+subschemes of projective space. Here we focus on certain subschemes given by a
+union of lines in ${\bf P}^3$ which can also be viewed as points in ${\bf
+P}^1\times {\bf P}^1$. We also obtain results on the closely related problem,
+studied by Hochster and by Li-Swanson, of determining situations for which each
+symbolic power of an ideal is an ordinary power.
+</summary>
+    <author>
+      <name>Elena Guardo</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages; some material taken out of the previous version and put in
+  a new paper (1202.4370) in expanded form</arxiv:comment>
+    <link href="http://arxiv.org/abs/1107.4906v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.4906v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 13A15, 14C20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

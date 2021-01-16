@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.07213%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.07213&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ie3aVduDHXlXaqbMnpTfILKErts</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.07213v1</id>
+    <updated>2020-06-12T14:15:43Z</updated>
+    <published>2020-06-12T14:15:43Z</published>
+    <title>The Hessian map</title>
+    <summary>  In this paper we study the Hessian map $h_{d,r}$ which associates to any
+hypersurface of degree $d$ in ${\mathbb P}^r$ its Hessian hypersurface. We
+study general properties of this map and we prove that: $h_{d,1}$ is birational
+onto its image if $d\geq 5$; we study in detail the maps $h_{3,1}$, $h_{4,1}$
+and $h_{3,2}$; we study the restriction of the Hessian map to the locus of
+hypersurfaces of degree $d$ with Waring rank $r+2$ in ${\mathbb P}^r$, proving
+that this restriction is injective as soon as $r\geq 2$ and $d\geq 3$, which
+implies that $h_{3,3}$ is birational onto its image; we prove that the
+differential of the Hessian map is of maximal rank on the generic hypersurfaces
+of degree $d$ with Waring rank $r+2$ in ${\mathbb P}^r$, as soon as $r\geq 2$
+and $d\geq 3$.
+</summary>
+    <author>
+      <name>Ciro Ciliberto</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.07213v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.07213v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05, 14N05, 14J70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

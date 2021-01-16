@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1211.3398%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1211.3398&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dLTs7vt1e/AJe5If5Z/awpsz8nQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1211.3398v1</id>
+    <updated>2012-11-14T19:58:49Z</updated>
+    <published>2012-11-14T19:58:49Z</published>
+    <title>Elementary Algebra Related to the SAT Problem</title>
+    <summary>  This paper deals with elementary algebraic properties of ideals in
+$\mathbb{Z}_2[x_1,..., x_n]$ that contains the field polynomials $x_i^2 + x_i$
+for $i = 1, ..., n$ without introducing the concept of Gr\"obner bases.
+</summary>
+    <author>
+      <name>Samuel Lundqvist</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1211.3398v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1211.3398v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

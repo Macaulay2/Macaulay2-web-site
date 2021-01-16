@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1308.0179%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1308.0179&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Qoujq+FRJPeSKWvkI2+rNeXX5mo</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1308.0179v3</id>
+    <updated>2013-08-11T19:52:47Z</updated>
+    <published>2013-08-01T12:50:41Z</published>
+    <title>Infinite Free Resolutions over Monomial Rings in Two Variables</title>
+    <summary>  Let M in k[x,y] be a monomial ideal M=(m_1,m_2,...,m_r), where the m_i are a
+minimal generating set of M. We construct an explicit free resolution of k over
+S=k[x,y]/M for all monomial ideals M, and provide recursive formulas for the
+Betti numbers. In particular, if M is any monomial ideal (excepting five
+degenerate cases,) the total Betti numbers \beta_i^S(k) are given by
+\beta_0^S(k)=1, \beta_1^S(k)=2, and
+\beta_i^S(k)=\beta_{i-1}(k)+(r-1)\beta_{i-2}^S(k), where r is the number of
+minimal generators of M.
+  This specializes to the classic example S=k[x,y]/(x^2,xy), which has
+\beta_i^S(k)=F_{i+1}, where F_{i+1} is the (i+1)st Fibonacci number.
+  Macaulay2 code producing these resolutions is available at:
+http://cs.hood.edu/~whieldon/pages/research.html
+</summary>
+    <author>
+      <name>Gwyneth R. Whieldon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1308.0179v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1308.0179v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

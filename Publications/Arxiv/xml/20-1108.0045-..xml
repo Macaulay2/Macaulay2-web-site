@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.0045%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.0045&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QW7TzZZ1B86zS87pMA38ian0/V4</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.0045v1</id>
+    <updated>2011-07-30T06:43:14Z</updated>
+    <published>2011-07-30T06:43:14Z</published>
+    <title>Generic Initial ideals of Singular Curves in Graded Lexicographic Order</title>
+    <summary>  In this paper, we are interested in the generic initial ideals of
+\textit{singular} projective curves with respect to the graded lexicographic
+order. Let $C$ be a \textit{singular} irreducible projective curve of degree
+$d\geq 5$ with the arithmetic genus $\rho_a(C)$ in $\p^r$ where $r\ge 3$. If
+$M(I_C)$ is the regularity of the lexicographic generic initial ideal of $I_C$
+in a polynomial ring $k[x_0,..., x_r]$ then we prove that $M(I_C)$ is
+$1+\binom{d-1}{2}-\rho_a(C)$ which is obtained from the monomial $$ x_{r-3}
+x_{r-1}\,^{\binom{d-1}{2}-\rho_a(C)}, $$ provided that $\dim\Tan_p(C)=2$ for
+every singular point $p \in C$. This number is equal to one plus the number of
+non-isomorphic points under a generic projection of $C$ into $\p^2$. %if
+$\deg(C)=3,4$ then $M(I_C)= \deg(C)$ by the direct computation. Our result
+generalizes the work of J. Ahn for \textit{smooth} projective curves and that
+of A. Conca and J. Sidman \cite{CS} for \textit{smooth} complete intersection
+curves in $\p^3$. The case of singular curves was motivated by \cite[Example
+4.3]{CS} due to A. Conca and J. Sidman. We also provide some illuminating
+examples of our results via calculations done with {\it Macaulay 2} and \texttt
+{Singular} \cite{DGPS, GS}.
+</summary>
+    <author>
+      <name>Jeaman Ahn</name>
+    </author>
+    <author>
+      <name>Sijong Kwak</name>
+    </author>
+    <author>
+      <name>YeongSeok Song</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.0045v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.0045v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

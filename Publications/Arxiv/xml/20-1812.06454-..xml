@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.06454%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.06454&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/86Gwj//4F6we5UR/4zx8//wPqrs</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.06454v1</id>
+    <updated>2018-12-16T12:35:26Z</updated>
+    <published>2018-12-16T12:35:26Z</published>
+    <title>Scattering amplitudes in YM and GR as minimal model brackets and their
+  recursive characterization</title>
+    <summary>  Attached to both Yang-Mills and General Relativity about Minkowski spacetime
+are distinguished gauge independent objects known as the on-shell tree
+scattering amplitudes. We reinterpret and rigorously construct them as
+$L_\infty$ minimal model brackets. This is based on formulating YM and GR as
+differential graded Lie algebras. Their minimal model brackets are then given
+by a sum of trivalent (cubic) Feynman tree graphs. The amplitudes are gauge
+independent when all internal lines are off-shell, not merely up to $L_\infty$
+isomorphism, and we include a homological algebra proof of this fact. Using the
+homological perturbation lemma, we construct homotopies (propagators) that are
+optimal in bringing out the factorization of the residues of the amplitudes.
+Using a variant of Hartogs extension for singular varieties, we give a rigorous
+account of a recursive characterization of the amplitudes via their residues
+independent of their original definition in terms of Feynman graphs (this does
+neither involve so-called BCFW shifts nor conditions at infinity under such
+shifts). Roughly, the amplitude with $N$ legs is the unique section of a sheaf
+on a variety of $N$ complex momenta whose residues along a finite list of
+irreducible codimension one subvarieties (prime divisors) factor into
+amplitudes with less than $N$ legs. The sheaf is a direct sum of rank one
+sheaves labeled by helicity signs. To emphasize that amplitudes are robust
+objects, we give a succinct list of properties that suffice for a dgLa so as to
+produce the YM and GR amplitudes respectively.
+</summary>
+    <author>
+      <name>Andrea Nützi</name>
+    </author>
+    <author>
+      <name>Michael Reiterer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">51 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.06454v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.06454v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

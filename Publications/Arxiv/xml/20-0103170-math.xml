@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0103170%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0103170&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3bT38t/wu7rYjCTXRrBBetUb+2Q</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0103170v1</id>
+    <updated>2001-03-26T18:41:38Z</updated>
+    <published>2001-03-26T18:41:38Z</published>
+    <title>Minimizing Polynomial Functions</title>
+    <summary>  We compare algorithms for global optimization of polynomial functions in many
+variables. It is demonstrated that existing algebraic methods (Gr\"obner bases,
+resultants, homotopy methods) are dramatically outperformed by a relaxation
+technique, due to N.Z. Shor and the first author, which involves sums of
+squares and semidefinite programming. This opens up the possibility of using
+semidefinite programming relaxations arising from the Positivstellensatz for a
+wide range of computational problems in real algebraic geometry.
+  This paper was presented at the Workshop on Algorithmic and Quantitative
+Aspects of Real Algebraic Geometry in Mathematics and Computer Science, held at
+DIMACS, Rutgers University, March 12-16, 2001.
+</summary>
+    <author>
+      <name>Pablo A. Parrilo</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper was presented at the Workshop on Algorithmic and
+  Quantitative Aspects of Real Algebraic Geometry in Mathematics and Computer
+  Science, held at DIMACS, Rutgers University, March 12-16, 2001</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Algorithmic and quantitative real algebraic geometry, DIMACS
+  Series in Discrete Mathematics and Theoretical Computer Science, Vol. 60, pp.
+  83--99, AMS, 2003. ISBN: 0-8218-2863-0.</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0103170v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0103170v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13J30, 90C22, 13P10, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1006.0408%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1006.0408&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8snDzU8Aqz/gPzTM2q8EC5Ul0gE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1006.0408v5</id>
+    <updated>2010-09-09T16:24:07Z</updated>
+    <published>2010-06-02T14:39:31Z</published>
+    <title>A Mathematical Framework for Agent Based Models of Complex Biological
+  Networks</title>
+    <summary>  Agent-based modeling and simulation is a useful method to study biological
+phenomena in a wide range of fields, from molecular biology to ecology. Since
+there is currently no agreed-upon standard way to specify such models it is not
+always easy to use published models. Also, since model descriptions are not
+usually given in mathematical terms, it is difficult to bring mathematical
+analysis tools to bear, so that models are typically studied through
+simulation. In order to address this issue, Grimm et al. proposed a protocol
+for model specification, the so-called ODD protocol, which provides a standard
+way to describe models. This paper proposes an addition to the ODD protocol
+which allows the description of an agent-based model as a dynamical system,
+which provides access to computational and theoretical tools for its analysis.
+The mathematical framework is that of algebraic models, that is, time-discrete
+dynamical systems with algebraic structure. It is shown by way of several
+examples how this mathematical specification can help with model analysis.
+</summary>
+    <author>
+      <name>Franziska Hinkelmann</name>
+    </author>
+    <author>
+      <name>David Murrugarra</name>
+    </author>
+    <author>
+      <name>Abdul Salam Jarrah</name>
+    </author>
+    <author>
+      <name>Reinhard Laubenbacher</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/S11538-010-9582-8</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/S11538-010-9582-8" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in Bulletin of Mathematical Biology</arxiv:comment>
+    <link href="http://arxiv.org/abs/1006.0408v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1006.0408v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.bio-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

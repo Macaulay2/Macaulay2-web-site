@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1905.12136%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1905.12136&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aaM1gBtL0MeUUY74QBM8AVKIX38</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1905.12136v2</id>
+    <updated>2019-07-15T20:15:45Z</updated>
+    <published>2019-05-28T23:35:57Z</published>
+    <title>On the generalized Hamming weights of certain Reed-Muller-type codes</title>
+    <summary>  There is a nice combinatorial formula of P. Beelen and M. Datta for the
+$r$-th generalized Hamming weight of an affine cartesian code. Using this
+combinatorial formula we give an easy to evaluate formula to compute the $r$-th
+generalized Hamming weight for a family of affine cartesian codes. If
+$\mathbb{X}$ is a set of projective points over a finite field we determine the
+basic parameters and the generalized Hamming weights of the Veronese type codes
+on $\mathbb{X}$ and their dual codes in terms of the basic parameters and the
+generalized Hamming weights of the corresponding projective Reed--Muller-type
+codes on $\mathbb{X}$ and their dual codes.
+</summary>
+    <author>
+      <name>Manuel Gonzalez-Sarabia</name>
+    </author>
+    <author>
+      <name>Delio Jaramillo</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">An. \c{S}tiin\c{t}. Univ. "Ovidius'' Constan\c{t}a Ser. Mat., to
+  appear</arxiv:comment>
+    <link href="http://arxiv.org/abs/1905.12136v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1905.12136v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 94B27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

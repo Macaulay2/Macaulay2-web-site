@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.00835%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.00835&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/c/ZSD6IWpEhZ73FyHtRQOAezlGw</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.00835v3</id>
+    <updated>2016-01-11T16:14:28Z</updated>
+    <published>2015-12-02T20:38:19Z</published>
+    <title>Hodge Theory and Deformations of Affine Cones of Subcanonical Projective
+  Varieties</title>
+    <summary>  We investigate the relation between the Hodge theory of a smooth subcanonical
+$n$-dimensional projective variety $X$ and the deformation theory of the affine
+cone $A_X$ over $X$. We start by identifying $H^{n-1,1}_{\mathrm{prim}}(X)$ as
+a distinguished graded component of the module of first order deformations of
+$A_X$, and later on we show how to identify the whole primitive cohomology of
+$X$ as a distinguished graded component of the Hochschild cohomology module of
+the punctured affine cone over $X$. In the particular case of a projective
+smooth hypersurface $X$ we recover Griffiths' isomorphism between the primitive
+cohomology of $X$ and certain distinguished graded components of the Milnor
+algebra of a polynomial defining $X$. The main result of the article can be
+effectively exploited to compute Hodge numbers of smooth subcanonical
+projective varieties. We provide a few example computation, as well a SINGULAR
+code, for Fano and Calabi-Yau threefolds.
+</summary>
+    <author>
+      <name>Carmelo Di Natale</name>
+    </author>
+    <author>
+      <name>Enrico Fatighenti</name>
+    </author>
+    <author>
+      <name>Domenico Fiorenza</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">A heinous (n-p+1,q) vs. (n-p,q+1) typo spotted in the statement of
+  Theorem 3.3 and Corollary 3.14. Now corrected. We apologize for having not
+  spotted this before. This is the (hopefully) final version of this preprint,
+  at least for a long while</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.00835v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.00835v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

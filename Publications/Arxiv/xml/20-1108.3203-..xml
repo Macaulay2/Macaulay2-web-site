@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.3203%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.3203&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FkCoa/fhL39imDNVm/du/j9rp2Y</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.3203v1</id>
+    <updated>2011-08-16T11:01:06Z</updated>
+    <published>2011-08-16T11:01:06Z</published>
+    <title>Minimal Graded Free Resolutions for Monomial Curves Defined by
+  Arithmetic Sequences</title>
+    <summary>  Let $\mm=(m_0,...,m_n)$ be an arithmetic sequence, i.e., a sequence of
+integers $m_0&lt;...&lt;m_n$ with no common factor that minimally generate the
+numerical semigroup $\sum_{i=0}^{n}m_i\N$ and such that
+$m_i-m_{i-1}=m_{i+1}-m_i$ for all $i\in\{1,...,n-1\}$. The homogeneous
+coordinate ring $\Gamma_\mm$ of the affine monomial curve parametrically
+defined by $X_0=t^{m_0},...,X_n=t^{m_n}$ is a graded $R$-module where $R$ is
+the polynomial ring $k[X_0,...,X_n]$ with the grading obtained by setting
+$\deg{X_i}:=m_i$. In this paper, we construct an explicit minimal graded free
+resolution for $\Gamma_\mm$ and show that its Betti numbers depend only on the
+value of $m_0$ modulo $n$. As a consequence, we prove a conjecture of Herzog
+and Srinivasan on the eventual periodicity of the Betti numbers of semigroup
+rings under translation for the monomial curves defined by an arithmetic
+sequence.
+</summary>
+    <author>
+      <name>Philippe Gimenez</name>
+    </author>
+    <author>
+      <name>Indranath Sengupta</name>
+    </author>
+    <author>
+      <name>Hema Srinivasan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 PAGES</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.3203v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.3203v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13A02, 13C40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.08435%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.08435&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KOte4xUMJRR58GZZq+dlbqRxgdM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.08435v1</id>
+    <updated>2016-04-28T14:32:05Z</updated>
+    <published>2016-04-28T14:32:05Z</published>
+    <title>Hilbert-Kunz functions of surface rings of type ADE</title>
+    <summary>  In this thesis we compute the Hilbert-Kunz functions of two-dimensional rings
+of type ADE by using representations of their indecomposable, maximal
+Cohen-Macaulay modules in terms of matrix factorizations, and as first syzygy
+modules of homogeneous ideals. For these computations we need to compute the
+Hilbert-series of the involved first syzygy modules as well as the fact that
+the surface rings of type ADE defined over the complex numbers are the rings of
+invariants of C[x,y] under actions defined by the finite subgroups of SL2(C).
+  Finally, we will show that the developed tools can be used to compute
+Hilbert-Kunz functions of two-dimensional rings of type ADE with respect to
+other (monomial) ideals than the maximal. Moreover, Hilbert-Kunz functions of
+two-dimensional Fermat rings can be computed by the same method.
+  There is also a paper, named "The Hilbert-Kunz functions of two-dimensional
+rings of type ADE", which gives a survey of main ideas and results.
+  Moreover, the main theorem from Monskys paper "The Hilbert-Kunz multiplicity
+of an irreducible trinomial" will be generalized to a non-standard graded
+situation. This result will be used to study the behavior of the Hilbert-Kunz
+multiplicity in degenerations of the hypersurface rings defnied by those
+specific trinomials.
+  Once more I want to thank my supervisor Holger Brenner for his guidance and
+friendship during the years.
+</summary>
+    <author>
+      <name>Daniel Brinkmann</name>
+    </author>
+    <link href="http://arxiv.org/abs/1604.08435v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.08435v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35, 13A50, 13C14, 13D02, 13D40, 14J17, 14J60, 20G05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

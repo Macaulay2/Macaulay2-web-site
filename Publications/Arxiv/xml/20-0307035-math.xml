@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0307035%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0307035&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XUV5WMooRYARs0azFxGB5eyGxEw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0307035v1</id>
+    <updated>2003-07-02T17:32:27Z</updated>
+    <published>2003-07-02T17:32:27Z</published>
+    <title>Elementary modifications and line configurations in P^2</title>
+    <summary>  Associated to an arrangement of projective hyperplanes A is the module D(A),
+which consists of derivations tangent to A. We study D(A) when A is a
+configuration of lines in the projective plane. In this setting, we relate the
+deletion/restriction construction used in the study of hyperplane arrangements
+to elementary modifications of bundles. This allows us to obtain bounds on the
+Castelnuovo-Mumford regularity of D(A). We also give simple combinatorial
+conditions for the associated bundle to be stable, and describe its jump lines.
+These regularity bounds and stability considerations impose constraints on
+Terao's conjecture.
+</summary>
+    <author>
+      <name>Henry K. Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, 3 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Comment. Math. Helv. 78 (2003) 447-462</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0307035v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0307035v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14N20, Secondary 14J60,52C30,14F05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

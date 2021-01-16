@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1808.02535%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1808.02535&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RQXKwCV+QvwhQk0kw8/1nM6Tf48</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1808.02535v2</id>
+    <updated>2018-08-13T19:26:16Z</updated>
+    <published>2018-08-07T19:50:08Z</published>
+    <title>Ideal points of character varieties, algebraic non-integral
+  representations, and undetected closed essential surfaces in 3-manifolds</title>
+    <summary>  Closed essential surfaces in a three-manifold can be detected by ideal points
+of the character variety or by algebraic non-integral representations. We give
+examples of closed essential surfaces not detected in either of these ways. For
+ideal points, we use Chesebro's module-theoretic interpretation of
+Culler-Shalen theory. As a corollary, we construct an infinite family of closed
+hyperbolic Haken 3-manifolds with no algebraic non-integral representations
+into PSL(2, C), resolving a question of Shanuel and Zhang.
+</summary>
+    <author>
+      <name>Alex Casella</name>
+    </author>
+    <author>
+      <name>Charles Katerba</name>
+    </author>
+    <author>
+      <name>Stephan Tillmann</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 1 figure. Version 2 includes internally referenced ancillary
+  files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1808.02535v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1808.02535v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="57M27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

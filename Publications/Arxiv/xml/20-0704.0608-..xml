@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0704.0608%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0704.0608&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7cfV1JR5nPIbmveEQd4oOUNdUFg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0704.0608v1</id>
+    <updated>2007-04-04T16:23:44Z</updated>
+    <published>2007-04-04T16:23:44Z</published>
+    <title>On the homology of two-dimensional elimination</title>
+    <summary>  We study birational maps with empty base locus defined by almost complete
+intersection ideals. Birationality is shown to be expressed by the equality of
+two Chern numbers. We provide a relatively effective method of their
+calculation in terms of certain Hilbert coefficients. In dimension two the
+structure of the irreducible ideals leads naturally to the calculation of
+Sylvester determinants via a computer-assisted method. For degree at most 5 we
+produce the full set of defining equations of the base ideal. The results
+answer affirmatively some questions raised by D. Cox.
+</summary>
+    <author>
+      <name>J. Hong</name>
+    </author>
+    <author>
+      <name>A. Simis</name>
+    </author>
+    <author>
+      <name>W. V. Vasconcelos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0704.0608v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0704.0608v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10;13F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

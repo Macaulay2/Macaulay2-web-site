@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.02397%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.02397&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9XQQ6oD+ZcJF3/SiZ9yxLHq9dFs</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.02397v1</id>
+    <updated>2020-03-05T02:03:38Z</updated>
+    <published>2020-03-05T02:03:38Z</published>
+    <title>Projective Duality, Unexpected Hypersurfaces and Logarithmic Derivations
+  of Hyperplane Arrangements</title>
+    <summary>  Several papers have been written studying unexpected hypersurfaces. We say a
+finite set of points Z admits unexpected hypersurfaces if a general union of
+fat linear subspaces imposes less that the expected number of conditions on the
+ideal of Z. In this paper, we introduce the concept of a very unexpected
+hypersurface. This is a stronger condition which takes into account an
+explanation for some hypersurfaces previously considered unexpected. We then
+develop a duality theory to relate the study of very unexpected hypersurfaces
+to the derivations of dual hyperplane arrangements. This allows us to
+generalize results in the plane of Cook, Harbourne, Migliore, Nagel Faenzi, and
+Vall\'{e}s to higher dimensions. In particular, we give a criterion to
+determine if a set Z admits very unexpected hypersurfaces in the case Z is
+invariant under the action of an irreducible reflection group on the ambient
+projective space. Our approach has new applications even in the projective
+plane where we are able to place strong conditions on sets of points Z which
+admit certain types of unexpected curves. We close relating Terao's Freeness
+Conjecture for line arrangements to a conjecture due to G. Dirac on
+configurations of points in the real plane.
+</summary>
+    <author>
+      <name>Bill Trok</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.02397v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.02397v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N02 (primary) 13A02, 52C02 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

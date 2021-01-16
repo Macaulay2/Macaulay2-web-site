@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1207.6638%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1207.6638&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rh+y+yyDcqqV0BFK12qtX/VnKEA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1207.6638v1</id>
+    <updated>2012-07-27T20:00:09Z</updated>
+    <published>2012-07-27T20:00:09Z</published>
+    <title>Euler characteristics of general linear sections and polynomial Chern
+  classes</title>
+    <summary>  We obtain a precise relation between the Chern-Schwartz-MacPherson class of a
+subvariety of projective space and the Euler characteristics of its general
+linear sections. In the case of a hypersurface, this leads to simple proofs of
+formulas of Dimca-Papadima and Huh for the degrees of the polar map of a
+homogeneous polynomial, extending these formula to any algebraically closed
+field of characteristic~0, and proving a conjecture of Dolgachev on
+'homaloidal' polynomials in the same context. We generalize these formulas to
+subschemes of higher codimension in projective space.
+  We also describe a simple approach to a theory of `polynomial Chern classes'
+for varieties endowed with a morphism to projective space, recovering
+properties analogous to the Deligne-Grothendieck axioms from basic properties
+of the Euler characteristic. We prove that the polynomial Chern class defines
+homomorphisms from suitable relative Grothendieck rings of varieties to Z[t].
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1207.6638v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1207.6638v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17, 14E07, 32S22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

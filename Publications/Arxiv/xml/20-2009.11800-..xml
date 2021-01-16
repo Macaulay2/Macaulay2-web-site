@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.11800%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.11800&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pJyGrA2aOMcymvgOqc0VT6WZIww</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.11800v2</id>
+    <updated>2020-10-03T16:01:36Z</updated>
+    <published>2020-09-24T16:44:25Z</published>
+    <title>Constructing non-proxy small test modules for the complete intersection
+  property</title>
+    <summary>  A local ring $R$ is regular if and only if every finitely generated
+$R$-module has finite projective dimension. Moreover, the residue field $k$ is
+a test module: $R$ is regular if and only if $k$ has finite projective
+dimension. This characterization can be extended to the bounded derived
+category $\mathsf{D}^f(R)$, which contains only small objects if and only if
+$R$ is regular.
+  Recent results of Pollitz, completing work initiated by
+Dwyer-Greenlees-Iyengar, yield an analogous characterization for complete
+intersections: $R$ is a complete intersection if and only if every object in
+$\mathsf{D}^f(R)$ is proxy small. In this paper, we study a return to the world
+of $R$-modules, and search for finitely generated $R$-modules that are not
+proxy small whenever $R$ is not a complete intersection. We give an algorithm
+to construct such modules in certain settings, including over equipresented
+rings and Stanley-Reisner rings.
+</summary>
+    <author>
+      <name>Benjamin Briggs</name>
+    </author>
+    <author>
+      <name>Eloísa Grifo</name>
+    </author>
+    <author>
+      <name>Josh Pollitz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome. Changes in v2: added Example 4.4 and corrected
+  small typos</arxiv:comment>
+    <link href="http://arxiv.org/abs/2009.11800v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.11800v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D09, 13D07 (primary), 18G55, 18E30 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

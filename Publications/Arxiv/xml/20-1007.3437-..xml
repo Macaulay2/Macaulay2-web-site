@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1007.3437%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1007.3437&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JR7lVjqFiKNz7Fyqe48DFA6M7g8</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1007.3437v3</id>
+    <updated>2011-10-06T17:41:56Z</updated>
+    <published>2010-07-20T14:43:31Z</published>
+    <title>The implicit equation of a multigraded hypersurface</title>
+    <summary>  In this article we analyze the implicitization problem of the image of a
+rational map $\phi: X --&gt; P^n$, with $T$ a toric variety of dimension $n-1$
+defined by its Cox ring $R$. Let $I:=(f_0,...,f_n)$ be $n+1$ homogeneous
+elements of $R$. We blow-up the base locus of $\phi$, $V(I)$, and we
+approximate the Rees algebra $Rees_R(I)$ of this blow-up by the symmetric
+algebra $Sym_R(I)$. We provide under suitable assumptions, resolutions $\Z.$
+for $Sym_R(I)$ graded by the torus-invariant divisor group of $X$, $Cl(X)$,
+such that the determinant of a graded strand, $\det((\Z.)_\mu)$, gives a
+multiple of the implicit equation, for suitable $\mu\in Cl(X)$. Indeed, we
+compute a region in $Cl(X)$ which depends on the regularity of $Sym_R(I)$ where
+to choose $\mu$. We also give a geometrical interpretation of the possible
+other factors appearing in $\det((\Z.)_\mu)$. A very detailed description is
+given when $X$ is a multiprojective space.
+</summary>
+    <author>
+      <name>Nicolás Botbol</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 2 figures. To appear in Journal of Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1007.3437v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1007.3437v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

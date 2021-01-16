@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.06319%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.06319&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jD/+1ik4Kk8WACYSJssFE6JP0F8</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.06319v2</id>
+    <updated>2017-06-22T15:24:20Z</updated>
+    <published>2017-06-20T08:49:23Z</published>
+    <title>Solving Multivariate Polynomial Systems and an Invariant from
+  Commutative Algebra</title>
+    <summary>  The security of several post-quantum cryptosystems is based on the assumption
+that solving a system of multivariate (quadratic) polynomial equations
+$p_1=\dots=p_m=0$ over a finite field is hard. Such a system can be solved by
+computing a lexicographic Gr\"obner basis of the ideal $(p_1,\dots,p_m)$. The
+most efficient algorithms for computing Gr\"obner bases, such as $F_4$ and
+$F_5$, transform the problem into several instances of Gaussian elimination.
+The computational complexity of these algorithms is not completely understood,
+especially when the polynomials $p_1,\dots,p_m$ are non-homogeneous. In this
+paper, we prove that this complexity is bounded by a function of the
+Castelnuovo-Mumford regularity of the ideal $(p_1^h,\dots,p_m^h)$ obtained by
+homogenizing the input polynomials. This allows us to bound the complexity of
+solving a system of polynomial equations when the associated ideal is
+zero-dimensional, a common situation in cryptography. More precisely, we show
+that the degree of the polynomials involved in the computation a Gr\"obner
+basis of a zero-dimensional ideal grows at most linearly in the number of
+variables. In combination with some theorems in commutative algebra, our
+results also allow us to bound the complexity of some instances of the MinRank
+Problem.
+</summary>
+    <author>
+      <name>Alessio Caminata</name>
+    </author>
+    <author>
+      <name>Elisa Gorla</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Expandend section 5; added references</arxiv:comment>
+    <link href="http://arxiv.org/abs/1706.06319v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.06319v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="94A60, 13P10, 13P15, 13P25, 68W40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

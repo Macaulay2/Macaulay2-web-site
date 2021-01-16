@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.7999%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.7999&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/x4L7aFsvNrNdfUztry4yYgDzv6k</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.7999v1</id>
+    <updated>2013-04-30T13:52:10Z</updated>
+    <published>2013-04-30T13:52:10Z</published>
+    <title>Partially ordered sets in Macaulay2</title>
+    <summary>  We introduce the package Posets for Macaulay2. This package provides a data
+structure and the necessary methods for working with partially ordered sets,
+also called posets. In particular, the package implements methods to enumerate
+many commonly studied classes of posets, perform operations on posets, and
+calculate various invariants associated to posets.
+</summary>
+    <author>
+      <name>David Cook II</name>
+    </author>
+    <author>
+      <name>Sonja Mapes</name>
+    </author>
+    <author>
+      <name>Gwyneth Whieldon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.7999v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.7999v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="06A06, 06A11" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0908.1505%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0908.1505&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zF5ZvKnpglDVKnNbEfrwcus9zyo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0908.1505v2</id>
+    <updated>2010-11-02T15:42:08Z</updated>
+    <published>2009-08-11T14:07:06Z</published>
+    <title>Colorings of hypergraphs, perfect graphs, and associated primes of
+  powers of monomial ideals</title>
+    <summary>  There is a natural one-to-one correspondence between squarefree monomial
+ideals and finite simple hypergraphs via the cover ideal construction. Let H be
+a finite simple hypergraph, and let J = J(H) be its cover ideal in a polynomial
+ring R. We give an explicit description of all associated primes of R/J^s, for
+any power J^s of J, in terms of the coloring properties of hypergraphs arising
+from H. We also give an algebraic method for determining the chromatic number
+of H, proving that it is equivalent to a monomial ideal membership problem
+involving powers of J. Our work yields two new purely algebraic
+characterizations of perfect graphs, independent of the Strong Perfect Graph
+Theorem; the first characterization is in terms of the sets Ass(R/J^s), while
+the second characterization is in terms of the saturated chain condition for
+associated primes.
+</summary>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages; v2 contains relatively minor changes in presentation and
+  updated references. To appear in J. Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/0908.1505v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0908.1505v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 05C17, 05C38, 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

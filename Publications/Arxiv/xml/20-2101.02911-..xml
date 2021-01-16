@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.02911%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.02911&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ux1Hny2IBesU1zq9CPa/Ocr64os</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.02911v1</id>
+    <updated>2021-01-08T08:37:01Z</updated>
+    <published>2021-01-08T08:37:01Z</published>
+    <title>A sharp bound for the Real Waring rank of monomials</title>
+    <summary>  In this paper we consider the real Waring rank of monomials. We give a sharp
+upper bound for it by establishing a way in which one can take a structured
+apolar set for any given monomial. This bound recovers all known cases for the
+real rank of monomials as well. Some examples and computations are also
+presented in the end of the paper.
+</summary>
+    <author>
+      <name>Kangjin Han</name>
+    </author>
+    <author>
+      <name>Hyunsuk Moon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 1 Table included</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.02911v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.02911v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P99, 12D05, 13P10, 14A25, 15A21, 14N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

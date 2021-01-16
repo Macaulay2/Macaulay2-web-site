@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.10969%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.10969&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lQy/MRgikd6GGVzKaKEQ+lccyOk</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.10969v2</id>
+    <updated>2019-10-19T20:28:09Z</updated>
+    <published>2019-09-24T14:52:02Z</published>
+    <title>A new N=1 AdS4 Vacuum of Maximal Supergravity</title>
+    <summary>  The recent comprehensive numerical study of critical points of the scalar
+potential of four-dimensional N=8, SO(8) gauged supergravity using Machine
+Learning software has led to a discovery of a new N=1 vacuum with a
+triality-invariant SO(3) symmetry. Guided by the numerical data for that point,
+we obtain a consistent SO(3)xZ2-invariant truncation of the N=8 theory to an
+N=1 supergravity with three chiral multiplets. Critical points of the truncated
+scalar potential include both the N=1 point as well as two new
+non-supersymmetric and perturbatively unstable points not found by previous
+searches. Studying the structure of the submanifold of SO(3)xZ2-invariant
+supergravity scalars, we find that it has a simple interpretation as a
+submanifold of the 14-dimensional Z2^3-invariant scalar manifold
+(SU(1,1)/U(1))^7, for which we find a rather remarkable superpotential whose
+structure matches the single bit error correcting (7, 4) Hamming code. This
+14-dimensional scalar manifold contains approximately one quarter of the known
+critical points. We also show that there exists a smooth supersymmetric domain
+wall which interpolates between the new N=1 AdS4 solution and the maximally
+supersymmetric AdS4 vacuum. Using holography, this result indicates the
+existence of an N=1 RG flow from the ABJM SCFT to a new strongly interacting
+conformal fixed point in the IR.
+</summary>
+    <author>
+      <name>Nikolay Bobev</name>
+    </author>
+    <author>
+      <name>Thomas Fischbacher</name>
+    </author>
+    <author>
+      <name>Krzysztof Pilch</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.10969v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.10969v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="83E50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

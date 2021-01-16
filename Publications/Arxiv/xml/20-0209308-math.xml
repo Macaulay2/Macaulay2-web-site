@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0209308%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0209308&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/O+rtp/otrsORx8NJshau73FqMlA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0209308v1</id>
+    <updated>2002-09-23T18:29:31Z</updated>
+    <published>2002-09-23T18:29:31Z</published>
+    <title>Notes on the behavior of the Ratliff-Rush filtration</title>
+    <summary>  We establish new classes of Ratliff-Rush closed ideals and some pathological
+behavior of the Ratliff-Rush closure. In particular, Ratliff-Rush closure does
+not behave well under passage modulo superficial elements, taking powers of
+ideals, associated primes, leading term ideals, and the minimal number of
+generators. In contrast, the reduction number of the Ratliff-Rush filtration
+behaves better: it preserves some information on the reduction number of the
+ideal.
+</summary>
+    <author>
+      <name>Maria Evelina Rossi</name>
+    </author>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <link href="http://arxiv.org/abs/math/0209308v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0209308v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13B22, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

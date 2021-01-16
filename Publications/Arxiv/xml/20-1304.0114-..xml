@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.0114%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.0114&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HgSlZQQ9ULZaaFkX14ScRU2enGs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.0114v2</id>
+    <updated>2013-04-19T18:12:20Z</updated>
+    <published>2013-03-30T15:10:34Z</published>
+    <title>The universal enveloping algebra of the Witt algebra is not noetherian</title>
+    <summary>  This work is prompted by the long standing question of whether it is possible
+for the universal enveloping algebra of an infinite dimensional Lie algebra to
+be noetherian. To address this problem, we answer a 23-year-old question of
+Carolyn Dean and Lance Small; namely, we prove that the universal enveloping
+algebra of the Witt (or centerless Virasoro) algebra is not noetherian. To show
+this, we prove our main result: the universal enveloping algebra of the
+positive part of the Witt algebra is not noetherian. We employ
+algebro-geometric techniques from the first author's classification of
+(noncommutative) birationally commutative projective surfaces.
+  As a consequence of our main result, we also show that the enveloping
+algebras of many other infinite dimensional Lie algebras are not noetherian.
+These Lie algebras include the Virasoro algebra and all infinite dimensional
+Z-graded simple Lie algebras of polynomial growth.
+</summary>
+    <author>
+      <name>Susan J. Sierra</name>
+    </author>
+    <author>
+      <name>Chelsea Walton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Version 2: 15 pages. Expanded Abstract and Introduction. Added
+  Section 5</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.0114v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.0114v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

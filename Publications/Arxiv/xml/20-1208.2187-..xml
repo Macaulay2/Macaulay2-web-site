@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.2187%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.2187&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/InaxiVQZfETu3VyDAc9AsYK8pBQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.2187v2</id>
+    <updated>2013-03-11T22:42:58Z</updated>
+    <published>2012-08-10T14:25:11Z</published>
+    <title>The lex-plus-power inequality for local cohomology modules</title>
+    <summary>  We prove an inequality between Hilbert functions of local cohomology modules
+supported in the homogeneous maximal ideal of standard graded algebras over a
+field, within the framework of embeddings of posets of Hilbert functions. As a
+main application, we prove an analogue for local cohomology of Evans'
+Lex-Plus-Power Conjecture for Betti numbers. This results implies some cases of
+the classical Lex-Plus-Power Conjecture, namely an inequality between extremal
+Betti numbers. In particular, for the classes of ideals for which the
+Eisenbud-Green-Harris Conjecture is currently known, the projective dimension
+and the Castelnuovo-Mumford regularity of a graded ideal do not decrease by
+passing to the corresponding Lex-Plus-Power ideal.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Enrico Sbarra</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.2187v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.2187v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13d02 13d45 14b15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

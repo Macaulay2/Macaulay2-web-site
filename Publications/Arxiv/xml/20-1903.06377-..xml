@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.06377%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.06377&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Pqd9OEJmH/nCsaPQnqSJiCDzoBI</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.06377v1</id>
+    <updated>2019-03-15T06:10:05Z</updated>
+    <published>2019-03-15T06:10:05Z</published>
+    <title>The Hilbert scheme of a pair of linear spaces</title>
+    <summary>  Let $H(c,d,n)$ be the component of the Hilbert scheme whose general point
+parameterizes a $c$-plane union a $d$-plane in $\mathbf{P}^n$. We show that
+$H(c,d,n)$ is non-singular and isomorphic to successive blow ups of
+$\mathbf{G}(c,n) \times \mathbf{G}(d,n)$ or $\text{Sym}^{2}\mathbf{G}(d,n)$. We
+also show that $H(c,d,n)$ has exactly one borel fixed point, describe the
+finitely many orbits under the $\text{PGL}_n$ action and describe the effective
+and ample cones. Using this, we prove that $H(n-3,n-3,n)$ and $H(1,n-2,n)$ are
+Mori dream spaces. In the case of $H(1,n-2,n)$, we show that the full Hilbert
+scheme contains only one more component and we give a complete description of
+its singularities. We end by describing the singularities of some Hilbert
+schemes parameterizing more than two linear spaces.
+</summary>
+    <author>
+      <name>Ritvik Ramkumar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 1 figure; comments are always welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.06377v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.06377v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D10, 14D22, 14E05, 14E30, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

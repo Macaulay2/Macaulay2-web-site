@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1506.00298%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1506.00298&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rwtLR45HZ0qVYgp80eqrgXKz8TY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1506.00298v1</id>
+    <updated>2015-05-31T22:29:31Z</updated>
+    <published>2015-05-31T22:29:31Z</published>
+    <title>Chow ring of the moduli space of stable sheaves supported on quartic
+  curves</title>
+    <summary>  Motivated by the computation of the BPS-invariants on a local Calabi-Yau
+threefold suggested by S. Katz, we compute the Chow ring and the cohomology
+ring of the moduli space of stable sheaves of Hilbert polynomial $4m+1$ on the
+projective plane. As a byproduct, we obtain the total Chern class and Euler
+characteristics of all line bundles, which provide a numerical data for the
+strange duality on the plane.
+</summary>
+    <author>
+      <name>Kiryong Chung</name>
+    </author>
+    <author>
+      <name>Han-Bom Moon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1506.00298v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1506.00298v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

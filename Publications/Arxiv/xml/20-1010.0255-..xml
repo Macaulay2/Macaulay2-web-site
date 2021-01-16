@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1010.0255%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1010.0255&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fPXQH1pjgt3F8rUMznZ5UPd49eQ</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1010.0255v1</id>
+    <updated>2010-10-01T20:06:09Z</updated>
+    <published>2010-10-01T20:06:09Z</published>
+    <title>Stabilizing the Complex Structure in Heterotic Calabi-Yau Vacua</title>
+    <summary>  In this paper, we show that the presence of gauge fields in heterotic
+Calabi-Yau compacitifications causes the stabilisation of some, or all, of the
+complex structure moduli of the Calabi-Yau manifold while maintaining a
+Minkowski vacuum. Certain deformations of the Calabi-Yau complex structure,
+with all other moduli held fixed, can lead to the gauge bundle becoming
+non-holomorphic and, hence, non-supersymmetric. This leads to an F-term
+potential which stabilizes the corresponding complex structure moduli. We use
+10- and 4-dimensional field theory arguments as well as a derivation based
+purely on algebraic geometry to show that this picture is indeed correct. An
+explicit example is presented in which a large subset of complex structure
+moduli is fixed. We demonstrate that this type of theory can serve as the
+hidden sector in heterotic vacua and can co-exist with realistic particle
+physics.
+</summary>
+    <author>
+      <name>Lara B. Anderson</name>
+    </author>
+    <author>
+      <name>James Gray</name>
+    </author>
+    <author>
+      <name>Andre Lukas</name>
+    </author>
+    <author>
+      <name>Burt Ovrut</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP02(2011)088</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP02(2011)088" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, Latex</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1102:088,2011</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1010.0255v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1010.0255v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

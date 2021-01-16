@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1907.04288%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1907.04288&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/I+LKK4A8z13RaOuifufc1Wv8giM</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1907.04288v2</id>
+    <updated>2019-07-16T22:01:16Z</updated>
+    <published>2019-07-09T16:50:28Z</published>
+    <title>Betti numbers of symmetric shifted ideals</title>
+    <summary>  We introduce a new class of monomial ideals which we call symmetric shifted
+ideals. Symmetric shifted ideals are fixed by the natural action of the
+symmetric group and, within the class of monomial ideals fixed by this action,
+they can be considered as an analogue of stable monomial ideals within the
+class of monomial ideals. We show that a symmetric shifted ideal has linear
+quotients and compute its (equivariant) graded Betti numbers. As an application
+of this result, we obtain several consequences for graded Betti numbers of
+symbolic powers of defining ideals of star configurations.
+</summary>
+    <author>
+      <name>Jennifer Biermann</name>
+    </author>
+    <author>
+      <name>Hernán De Alba</name>
+    </author>
+    <author>
+      <name>Federico Galetto</name>
+    </author>
+    <author>
+      <name>Satoshi Murai</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <author>
+      <name>Augustine O'Keefe</name>
+    </author>
+    <author>
+      <name>Tim Römer</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Corrected typo in references</arxiv:comment>
+    <link href="http://arxiv.org/abs/1907.04288v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1907.04288v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02 (Primary) 13A15, 13A50 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

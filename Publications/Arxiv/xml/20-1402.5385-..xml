@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.5385%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.5385&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7MzxfQ6VPCOviYpImhNC8GCPCuk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.5385v1</id>
+    <updated>2014-02-21T19:18:52Z</updated>
+    <published>2014-02-21T19:18:52Z</published>
+    <title>Invariant deformation theory of affine schemes with reductive group
+  action</title>
+    <summary>  We develop an invariant deformation theory, in a form accessible to practice,
+for affine schemes $W$ equipped with an action of a reductive algebraic group
+$G$. Given the defining equations of a $G$-invariant subscheme $X \subset W$,
+we device an algorithm to compute the universal deformation of $X$ in terms of
+generators and relations up to a given order. In many situations, our algorithm
+even computes an algebraization of the universal deformation. As an
+application, we determine new families of examples of the invariant Hilbert
+scheme of Alexeev and Brion, where $G$ is a classical group acting on a
+classical representation, and describe their singularities.
+</summary>
+    <author>
+      <name>Christian Lehn</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ronan Terpereau</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1402.5385v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.5385v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

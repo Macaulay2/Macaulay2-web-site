@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.6376%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.6376&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nmJS6LUbPFeFbM1SqnD1VEy4neA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.6376v1</id>
+    <updated>2013-04-23T18:50:14Z</updated>
+    <published>2013-04-23T18:50:14Z</published>
+    <title>Sharp bounds for higher linear syzygies and classifications of
+  projective varieties</title>
+    <summary>  In the present paper, we consider upper bounds of higher linear syzygies i.e.
+graded Betti numbers in the first linear strand of the minimal free resolutions
+of projective varieties in arbitrary characteristic. For this purpose, we first
+remind `Partial Elimination Ideals (PEIs)' theory and introduce a new framework
+in which one can study the syzygies of embedded projective schemes well using
+PEIs theory and the reduction method via inner projections.
+  Next we establish fundamental inequalities which govern the relations between
+the graded Betti numbers in the first linear strand of an algebraic set $X$ and
+those of its inner projection $X_q$. Using these results, we obtain some
+natural sharp upper bounds for higher linear syzygies of any nondegenerate
+projective variety in terms of the codimension with respect to its own
+embedding and classify what the extremal case and next-to-extremal case are.
+This is a generalization of Castelnuovo and Fano's results on the number of
+quadrics containing a given variety and another characterization of varieties
+of minimal degree and del Pezzo varieties from the viewpoint of `syzygies'.
+Note that our method could be also applied to get similar results for more
+general categories (e.g. connected in codimension one algebraic sets).
+</summary>
+    <author>
+      <name>Kangjin Han</name>
+    </author>
+    <author>
+      <name>Sijong Kwak</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 7 figures, comments are welcomed</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.6376v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.6376v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14N05, 13D02, 14N25, Secondary 51N35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

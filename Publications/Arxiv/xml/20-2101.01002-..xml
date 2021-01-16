@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.01002%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.01002&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vLEFh3xW9v+G/M6UHsZzkQvHExw</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.01002v1</id>
+    <updated>2021-01-04T14:25:30Z</updated>
+    <published>2021-01-04T14:25:30Z</published>
+    <title>Noetherian Operators in Macaulay2</title>
+    <summary>  A primary ideal in a polynomial ring can be described by the variety it
+defines and a finite set of Noetherian operators, which are differential
+operators with polynomial coefficients. We implement both symbolic and
+numerical algorithms to produce such a description in various scenarios as well
+as routines for studying affine schemes through the prism of Noetherian
+operators and Macaulay dual spaces.
+</summary>
+    <author>
+      <name>Justin Chen</name>
+    </author>
+    <author>
+      <name>Yairon Cid-Ruiz</name>
+    </author>
+    <author>
+      <name>Marc Härkönen</name>
+    </author>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages, source code distributed with Macaulay2 since version 1.17</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.01002v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.01002v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14-04, 14Q15, 13N05, 65L80, 65D05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

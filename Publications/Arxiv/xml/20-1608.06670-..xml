@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1608.06670%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1608.06670&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8wQAz3SybzxflTL1gAEkpjVnzG8</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1608.06670v1</id>
+    <updated>2016-08-23T23:42:37Z</updated>
+    <published>2016-08-23T23:42:37Z</published>
+    <title>Asymptotic stabilization of Betti diagrams of generic initial systems</title>
+    <summary>  Several authors investigating the asymptotic behaviour of the Betti diagrams
+of the graded system obtained by taking powers of an ideal have shown that the
+shape of the nonzero entries in the diagrams stabilizes when $I$ is a
+homogeneous ideal with generators of the same degree. In this paper, we study
+the Betti diagrams of graded systems of ideals built by taking the initial
+ideals or generic initial ideals of powers, and discuss the stabilization of
+additional collections of Betti diagrams. Our main result shows that when I has
+generators of the same degree, the entries in the Betti diagrams of the reverse
+lexicographic generic initial system are given asymptotically by polynomials
+and that the shape of the diagrams stabilizes.
+</summary>
+    <author>
+      <name>Sarah Mayes-Tang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.06670v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.06670v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

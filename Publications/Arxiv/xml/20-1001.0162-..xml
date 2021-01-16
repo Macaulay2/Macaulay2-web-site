@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1001.0162%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1001.0162&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xvkhownO6rT1MTsxwttzjuowAMk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0162v2</id>
+    <updated>2011-08-18T21:55:15Z</updated>
+    <published>2009-12-31T17:50:07Z</published>
+    <title>Families of determinantal schemes</title>
+    <summary>  Given integers a_0 \le a_1 \le ... \le a_{t+c-2} and b_1 \le ... \le b_t, we
+denote by W(b;a) \subset Hilb^p(\PP^{n}) the locus of good determinantal
+schemes X \subset \PP^{n} of codimension c defined by the maximal minors of a t
+x (t+c-1) homogeneous matrix with entries homogeneous polynomials of degree
+a_j-b_i. The goal of this short note is to extend and complete the results
+given by the authors in [10] and determine under weakened numerical assumptions
+the dimension of W(b;a), as well as whether the closure of W(b;a) is a
+generically smooth irreducible component of the Hilbert scheme Hilb^p(\PP^{n}).
+</summary>
+    <author>
+      <name>Jan O. Kleppe</name>
+    </author>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The non-emptiness of W(b;a) is restated as (2.2) in this version; the
+  codimension c=2 case in (2.5)-(2.6) is reconsidered, and c &gt; 2 (c &gt; 3) is now
+  an assumption in (2.16)-(2.17). 13 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Proc. Amer. Math. Soc. 139 (2011), 3831-3843</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1001.0162v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1001.0162v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14C05, 14H10, 14J10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

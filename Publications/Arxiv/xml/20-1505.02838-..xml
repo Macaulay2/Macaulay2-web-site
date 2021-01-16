@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1505.02838%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1505.02838&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XgQrvVxsuX38SMeERWNeHP8JL6w</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1505.02838v1</id>
+    <updated>2015-05-12T00:01:21Z</updated>
+    <published>2015-05-12T00:01:21Z</published>
+    <title>Shellability, vertex decomposability, and lexicographical products of
+  graphs</title>
+    <summary>  We investigate when the independence complex of $G[H]$, the lexicographical
+product of two graphs $G$ and $H$, is either vertex decomposable or shellable.
+As an application, we construct an infinite family of graphs with the property
+that every graph in this family has the property that the independence complex
+of each graph is shellable, but not vertex decomposable.
+</summary>
+    <author>
+      <name>Kevin N. Vander Meulen</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1505.02838v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1505.02838v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E45, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

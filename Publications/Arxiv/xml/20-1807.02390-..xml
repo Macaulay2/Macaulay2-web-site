@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.02390%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.02390&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3dKUcpyCwOCBlNv5/hS5Z6VhEuk</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02390v1</id>
+    <updated>2018-07-06T13:06:11Z</updated>
+    <published>2018-07-06T13:06:11Z</published>
+    <title>On the identification of $k$-inductively pierced codes using toric
+  ideals</title>
+    <summary>  Neural codes are binary codes in $\{0,1\}^n$; here we focus on the ones which
+represent the firing patterns of a type of neurons called place cells. There is
+much interest in determining which neural codes can be realized by a collection
+of convex sets. However, drawing representations of these convex sets,
+particularly as the number of neurons in a code increases, can be very
+difficult. Nevertheless, for a class of codes that are said to be
+$k$-inductively pierced for $k=0,1,2$ there is an algorithm for drawing Euler
+diagrams. Here we use the toric ideal of a code to show sufficient conditions
+for a code to be 1- or 2-inductively pierced, so that we may use the existing
+algorithm to draw realizations of such codes.
+</summary>
+    <author>
+      <name>Molly Hoch</name>
+    </author>
+    <author>
+      <name>Samuel Muthiah</name>
+    </author>
+    <author>
+      <name>Nida Obatake</name>
+    </author>
+    <link href="http://arxiv.org/abs/1807.02390v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.02390v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

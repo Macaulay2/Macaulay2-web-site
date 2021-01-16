@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0801.0685%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0801.0685&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ByjUh1mY/vRLX4qNO8rlledC4oc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0801.0685v1</id>
+    <updated>2008-01-04T18:36:22Z</updated>
+    <published>2008-01-04T18:36:22Z</published>
+    <title>The Goto numbers of parameter ideals</title>
+    <summary>  Let Q be a parameter ideal of a Noetherian local ring (R,m). The Goto number
+g(Q) of Q is the largest integer g such that Q:m^g is integral over Q. We
+examine the values of g(Q) as Q varies over the parameter ideals of R. We
+concentrate mainly on the case where dim R = 1, and many of our results concern
+parameter ideals of a numerical semigroup ring.
+</summary>
+    <author>
+      <name>William Heinzer</name>
+    </author>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages; the project started in a working group at AIM in December
+  2006</arxiv:comment>
+    <link href="http://arxiv.org/abs/0801.0685v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0801.0685v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

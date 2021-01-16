@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1006.3653%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1006.3653&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TQEuiQe/3G4VWAhpnRMY4ikohao</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1006.3653v3</id>
+    <updated>2013-01-08T19:38:39Z</updated>
+    <published>2010-06-18T09:44:43Z</published>
+    <title>Components of Gröbner strata in the Hilbert scheme of points</title>
+    <summary>  We fix the lexicographic order $\prec$ on the polynomial ring
+$S=k[x_{1},...,x_{n}]$ over a ring $k$. We define $\Hi^{\prec\Delta}_{S/k}$,
+the moduli space of reduced Gr\"obner bases with a given finite standard set
+$\Delta$, and its open subscheme $\Hi^{\prec\Delta,\et}_{S/k}$, the moduli
+space of families of $#\Delta$ points whose attached ideal has the standard set
+$\Delta$. We determine the number of irreducible and connected components of
+the latter scheme; we show that it is equidimensional over ${\rm Spec}\,k$; and
+we determine its relative dimension over ${\rm Spec} k$. We show that analogous
+statements do not hold for the scheme $\Hi^{\prec\Delta}_{S/k}$. Our results
+prove a version of a conjecture by Bernd Sturmfels.
+</summary>
+    <author>
+      <name>Mathias Lederer</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1112/plms/pdt018</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1112/plms/pdt018" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">49 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1006.3653v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1006.3653v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14N10, 13P10, 13B25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

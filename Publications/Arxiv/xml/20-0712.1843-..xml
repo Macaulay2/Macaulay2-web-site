@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0712.1843%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0712.1843&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JOFdJxRGbdqNBzrIH6r+asvbKD0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0712.1843v3</id>
+    <updated>2008-07-12T21:06:47Z</updated>
+    <published>2007-12-11T23:06:46Z</published>
+    <title>Betti Numbers of Graded Modules and Cohomology of Vector Bundles</title>
+    <summary>  Mats Boij and Jonas Soederberg (math.AC/0611081) have conjectured that the
+Betti table of a Cohen-Macaulay module over a polynomial ring can be decomposed
+in a certain way as a positive linear combination of Betti tables of modules
+with pure resolutions. We prove, over any field, a strengthened form of their
+conjecture. Applications include a proof of the Multiplicity Conjecture of
+Huneke and Srinivasan and a proof of the convexity of a fan naturally
+associated to the Young lattice.
+  We also characterize the rational cone of all cohomology tables of vector
+bundles on projective spaces in terms of the cohomology tables of
+"supernatural" bundles. This characterization is dual, in a certain sense, to
+our characterization of Betti tables.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This version incorporates many corrections and many expository
+  improvements of the original. It is to appear in the Journal of the American
+  Mathematical Society</arxiv:comment>
+    <link href="http://arxiv.org/abs/0712.1843v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0712.1843v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02; 13D25; 14F05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

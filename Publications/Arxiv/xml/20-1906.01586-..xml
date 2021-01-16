@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.01586%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.01586&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0j78geP/bE8Vdve8KXsFsmz57ZY</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.01586v1</id>
+    <updated>2019-06-04T17:00:12Z</updated>
+    <published>2019-06-04T17:00:12Z</published>
+    <title>Phylogenetic Networks</title>
+    <summary>  Phylogenetics is the study of the evolutionary relationships between
+organisms. One of the main challenges in the field is to take biological data
+for a group of organisms and to infer an evolutionary tree, a graph that
+represents these relationships. Developing practical and efficient methods for
+inferring phylogenetic trees has lead to a number of interesting mathematical
+questions across a variety of fields. However, due to hybridization and gene
+flow, a phylogenetic network may be a better representation of the evolutionary
+history of some groups of organisms. In this chapter, we introduce some of the
+basic concepts in phylogenetics, and present related undergraduate research
+projects on phylogenetic networks that touch on areas of graph theory and
+abstract algebra. In the first section, we describe several open research
+questions related to the combinatorics of phylogenetic networks. In the second,
+we describe problems related to understanding phylogenetic statistical models
+as algebraic varieties.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Colby Long</name>
+    </author>
+    <author>
+      <name>Joseph Rusinko</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 8 figures. Chapter submitted for "Foundations for
+  Undergraduate Research in Mathematics" edited by Pamela Harris, Erik Insko,
+  and Aaron Wooton</arxiv:comment>
+    <link href="http://arxiv.org/abs/1906.01586v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.01586v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1104.1937%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1104.1937&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/j9vKQqp6/k0jQFSG5sPTlhXGxSs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1104.1937v3</id>
+    <updated>2012-02-13T15:17:27Z</updated>
+    <published>2011-04-11T13:21:18Z</published>
+    <title>An algorithm for computing compatibly Frobenius split subvarieties</title>
+    <summary>  Let $R$ be a ring of prime characteristic $p$, and let $F^e_* R$ denote $R$
+viewed as an $R$-module via the $e$th iterated Frobenius map. Given a
+surjective map $\phi : F^e_* R \to R$ (for example a Frobenius splitting), we
+exhibit an algorithm which produces all the $\phi$-compatible ideals.
+  We also explore a variant of this algorithm under the hypothesis that $\phi$
+is not necessarily a Frobenius splitting (or even surjective). This algorithm,
+and the original, have been implemented in Macaulay2.
+</summary>
+    <author>
+      <name>Mordechai Katzman</name>
+    </author>
+    <author>
+      <name>Karl Schwede</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, many statements clarified and numerous other substantial
+  improvements to the exposition (thanks to the referees). To appear in the
+  Journal of Symbolic Computation</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Symbolic Computation, Vol 47, (2012), no. 8, 996-1008</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1104.1937v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1104.1937v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B05, 13A35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

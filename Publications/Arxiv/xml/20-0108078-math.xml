@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0108078%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0108078&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cj5MDpbyGXmzQjVKy5BWimXxopw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0108078v1</id>
+    <updated>2001-08-10T18:59:28Z</updated>
+    <published>2001-08-10T18:59:28Z</published>
+    <title>Geometric Syzygies of Canonical Curves of even Genus lying on a
+  K3-Surface</title>
+    <summary>  Based on a recent result of Voisin [2001] we describe the last nonzero syzygy
+space in the linear strand of a canonical curve C of even genus g=2k lying on a
+K3 surface, as the ambient space of a k-2-uple embedded P^{k+1}. Furthermore
+the geometric syzygies constructed by Green and Lazarsfeld [1984] from
+g^1_{k+1}'s form a non degenerate configuration of finitely many rational
+normal curves on this P^{k+1}. This proves a natural generalization of Green's
+conjecture [1984], namely that the geometric syzygies should span the space of
+all syzygies, in this case.
+</summary>
+    <author>
+      <name>Hans-Christian v. Bothmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages; 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0108078v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0108078v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C20; 14H99; 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

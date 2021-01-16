@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.4299%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.4299&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fcZbLnWg8kUpdm+WQDn3dkVIGvU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.4299v2</id>
+    <updated>2012-07-16T07:45:09Z</updated>
+    <published>2011-10-19T14:47:10Z</published>
+    <title>Parallel algorithms for normalization</title>
+    <summary>  Given a reduced affine algebra A over a perfect field K, we present parallel
+algorithms to compute the normalization \bar{A} of A. Our starting point is the
+algorithm of Greuel, Laplagne, and Seelisch, which is an improvement of de
+Jong's algorithm. First, we propose to stratify the singular locus Sing(A) in a
+way which is compatible with normalization, apply a local version of the
+normalization algorithm at each stratum, and find \bar{A} by putting the local
+results together. Second, in the case where K = Q is the field of rationals, we
+propose modular versions of the global and local-to-global algorithms. We have
+implemented our algorithms in the computer algebra system SINGULAR and compare
+their performance with that of the algorithm of Greuel, Laplagne, and Seelisch.
+In the case where K = Q, we also discuss the use of modular computations of
+Groebner bases, radicals, and primary decompositions. We point out that in most
+examples, the new algorithms outperform the algorithm of Greuel, Laplagne, and
+Seelisch by far, even if we do not run them in parallel.
+</summary>
+    <author>
+      <name>Janko Boehm</name>
+    </author>
+    <author>
+      <name>Wolfram Decker</name>
+    </author>
+    <author>
+      <name>Santiago Laplagne</name>
+    </author>
+    <author>
+      <name>Gerhard Pfister</name>
+    </author>
+    <author>
+      <name>Andreas Steenpass</name>
+    </author>
+    <author>
+      <name>Stefan Steidel</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jsc.2012.07.002</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Symbolic Computation 51, 99-114 (2013)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1110.4299v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.4299v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jsc.2012.07.002" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10 (Primary) 68W10, 14B99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

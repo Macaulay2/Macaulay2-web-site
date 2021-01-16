@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.06896%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.06896&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2IXHe5Esm9ReGIAteChpv4hl8GY</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.06896v1</id>
+    <updated>2019-12-14T18:11:26Z</updated>
+    <published>2019-12-14T18:11:26Z</published>
+    <title>Analysis of the Conradi-Kahle Algorithm for Detecting Binomiality on
+  Biological Models</title>
+    <summary>  We analyze the Conradi-Kahle Algorithm for detecting binomiality. We present
+experiments using two implementations of the algorithm in Macaulay2 and Maple
+on biological models and assess the performance of the algorithm on these
+models. We compare the two implementations with each other and with Gr\"obner
+bases computations up to their performance on these biological models.
+</summary>
+    <author>
+      <name>Alexandru Iosif</name>
+    </author>
+    <author>
+      <name>Hamid Rahkooy</name>
+    </author>
+    <link href="http://arxiv.org/abs/1912.06896v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.06896v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

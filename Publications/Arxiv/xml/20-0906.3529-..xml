@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0906.3529%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0906.3529&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//jB7HUGbGQrZQ0f+QnzCFQVogVc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0906.3529v1</id>
+    <updated>2009-06-18T21:06:51Z</updated>
+    <published>2009-06-18T21:06:51Z</published>
+    <title>Multivariate Gaussians, Semidefinite Matrix Completion, and Convex
+  Algebraic Geometry</title>
+    <summary>  We study multivariate normal models that are described by linear constraints
+on the inverse of the covariance matrix. Maximum likelihood estimation for such
+models leads to the problem of maximizing the determinant function over a
+spectrahedron, and to the problem of characterizing the image of the positive
+definite cone under an arbitrary linear projection. These problems at the
+interface of statistics and optimization are here examined from the perspective
+of convex algebraic geometry.
+</summary>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Caroline Uhler</name>
+    </author>
+    <link href="http://arxiv.org/abs/0906.3529v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0906.3529v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62H12; 14Q10; 90C25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

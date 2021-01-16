@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1005.5558%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1005.5558&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7/SRTPe5ntqFWeKyu9B/5VLXbIk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1005.5558v4</id>
+    <updated>2011-03-01T13:34:08Z</updated>
+    <published>2010-05-30T19:47:00Z</published>
+    <title>Geometric transitions between Calabi-Yau threefolds related to
+  Kustin-Miller unprojections</title>
+    <summary>  We study Kustin-Miller unprojections between Calabi-Yau threefolds or more
+precisely the geometric transitions they induce. We use them to connect many
+families of Calabi-Yau threefolds with Picard number one to the web of Calabi
+Yau complete intersections. This enables us to find explicit description of a
+few known families of Calabi-Yau threefolds in terms of equations. Moreover we
+find two new examples of Calabi-Yau threefolds with Picard group of rank one,
+described by Pfaffian equations in weighted projective spaces.
+</summary>
+    <author>
+      <name>Michal Kapustka</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.geomphys.2011.02.022</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.geomphys.2011.02.022" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">to appear in Journal of Geometry and Physics</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J.Geom.Phys.61:1309-1318,2011</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1005.5558v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1005.5558v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32 (Primary), 14J81 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

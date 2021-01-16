@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.07463%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.07463&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RI43bEmTZ8pD25HZgNGxEoLe79o</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.07463v1</id>
+    <updated>2015-04-28T13:22:18Z</updated>
+    <published>2015-04-28T13:22:18Z</published>
+    <title>Cox rings of some symplectic resolutions of quotient singularities</title>
+    <summary>  We investigate Cox rings of symplectic resolutions of quotients of
+$\mathbb{C}^{2n}$ by finite symplectic group actions. We propose a finite
+generating set of the Cox ring of a symplectic resolution and prove that under
+a condition concerning monomial valuations it is sufficient. Also, three
+4-dimensional examples are described in detail. Generators of the (expected)
+Cox rings of symplectic resolutions are computed and in one case a resolution
+is constructed as a GIT quotient of the spectrum of the Cox ring.
+</summary>
+    <author>
+      <name>Maria Donten-Bury</name>
+    </author>
+    <author>
+      <name>Maksymilian Grab</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.07463v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.07463v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

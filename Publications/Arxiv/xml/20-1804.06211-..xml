@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.06211%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.06211&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WqCyBXq8YfxUxxJK8ym+0nl5EmU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.06211v1</id>
+    <updated>2018-04-17T13:01:00Z</updated>
+    <published>2018-04-17T13:01:00Z</published>
+    <title>A construction of equivariant bundles on the space of symmetric forms</title>
+    <summary>  We construct stable vector bundles on the space of symmetric forms of degree
+d in n+1 variables which are equivariant for the action of SL_{n+1}(C), and
+admit an equivariant free resolution of length 2. For n=1, we obtain new
+examples of stable vector bundles of rank d-1 on P^d, which are moreover
+equivariant for SL_2(C). The presentation matrix of these bundles attains
+Westwick's upper bound for the dimension of vector spaces of matrices of
+constant rank and fixed size.
+</summary>
+    <author>
+      <name>Ada Boralevi</name>
+    </author>
+    <author>
+      <name>Daniele Faenzi</name>
+    </author>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Ancillary file containing M2 package available at
+  http://www.paololella.it/EN/Publications_files/SLnEquivariantMatrices.m2</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.06211v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.06211v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.10267%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.10267&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cNB/5zJ57fRAwfcE7nFHASXuHGo</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.10267v1</id>
+    <updated>2018-12-26T09:28:22Z</updated>
+    <published>2018-12-26T09:28:22Z</published>
+    <title>The Hitchhiker guide to: Secant Varieties and Tensor Decomposition</title>
+    <summary>  We consider here the problem, which is quite classical in Algebraic geometry,
+of studying the secant varieties of a projective variety $X$. The case we
+concentrate on is when $X$ is a Veronese variety, a Grassmannian or a Segre
+variety. Not only these varieties are among the ones that have been most
+classically studied, but a strong motivation in taking them into consideration
+is the fact that they parameterize, respectively, symmetric, skew-symmetric and
+general tensors, which are decomposable, and their secant varieties give a
+stratification of tensors via tensor rank. We collect here most of the known
+results and the open problems on this fascinating subject.
+</summary>
+    <author>
+      <name>Alessandra Bernardi</name>
+    </author>
+    <author>
+      <name>Enrico Carlini</name>
+    </author>
+    <author>
+      <name>Maria Virginia Catalisano</name>
+    </author>
+    <author>
+      <name>Alessandro Gimigliano</name>
+    </author>
+    <author>
+      <name>Alessandro Oneto</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.3390/math6120314</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.3390/math6120314" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper belongs to the special issue "Decomposability of Tensors",
+  ed. Prof. Luca Chiantini</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Mathematics 2018, 6(12), 314</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1812.10267v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.10267v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D40, 14A05, 14A10, 14A15, 14C20, 14M12, 14M15, 14M99, 14N05,&#10;  15A69, 15A75" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

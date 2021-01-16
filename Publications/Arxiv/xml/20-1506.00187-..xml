@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1506.00187%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1506.00187&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7M/YprqkQme+7SVvcfZ7rcJB8UY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1506.00187v2</id>
+    <updated>2015-06-19T17:30:47Z</updated>
+    <published>2015-05-31T02:55:13Z</published>
+    <title>Four Dimensional Polytopes of Minimum Positive Semidefinite Rank</title>
+    <summary>  The positive semidefinite (psd) rank of a polytope is the size of the
+smallest psd cone that admits an affine slice that projects linearly onto the
+polytope. The psd rank of a d-polytope is at least d+1, and when equality holds
+we say that the polytope is psd-minimal. In this paper we develop new tools for
+the study of psd-minimality and use them to give a complete classification of
+psd-minimal 4-polytopes. The main tools introduced are trinomial obstructions,
+a new algebraic obstruction for psd-minimality, and the slack ideal of a
+polytope, which encodes the space of realizations of a polytope up to
+projective equivalence.
+  Our central result is that there are 31 combinatorial classes of psd-minimal
+4-polytopes. We provide combinatorial information and an explicit psd-minimal
+realization in each class. For 11 of these classes, every polytope in them is
+psd-minimal, and these are precisely the combinatorial classes of the known
+projectively unique 4-polytopes. We give a complete characterization of
+psd-minimality in the remaining classes, encountering in the process
+counterexamples to some open conjectures.
+</summary>
+    <author>
+      <name>João Gouveia</name>
+    </author>
+    <author>
+      <name>Kanstanstin Pashkovich</name>
+    </author>
+    <author>
+      <name>Richard Z. Robinson</name>
+    </author>
+    <author>
+      <name>Rekha R. Thomas</name>
+    </author>
+    <link href="http://arxiv.org/abs/1506.00187v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1506.00187v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

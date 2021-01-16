@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.08761%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.08761&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AqFH3WAt0NYp2y8mpI4ZMfpY2Ps</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.08761v1</id>
+    <updated>2017-05-24T13:49:08Z</updated>
+    <published>2017-05-24T13:49:08Z</published>
+    <title>Inflectionary Invariants for Plane Curve Singularities</title>
+    <summary>  Let $k$ be an algebraically closed field of characteristic $0$, and let $f
+\in k[[x,y]]$ be the germ of an isolated plane curve singularity. This paper is
+devoted to studying the role of the singularity germ $f$ in the analysis of
+inflectionary behavior of curves specializing to a curve with a singularity cut
+out by $f$. We introduce a numerical function $m \mapsto
+\operatorname{AD}^m(f)$, an invariant canonically associated to the isomorphism
+class of the singularity germ $f$, which arises as an error term in the problem
+of enumerating $m^{\mathrm{th}}$-order inflection points in a $1$-parameter
+family of curves acquiring a singular member with singularity given by $f = 0$.
+For an ordinary nodal singularity $f = xy$, we explicitly compute
+$\operatorname{AD}^m(f) = {{m+1} \choose 4}$, and we deduce as a corollary that
+$\operatorname{AD}^m(f) \geq \mu_f \cdot {{m+1} \choose 4}$ for an arbitrary
+$f$, where $\mu_f$ is the Milnor number of $f$. The numerical function $m
+\mapsto \operatorname{AD}^m(f) -\mu_f \cdot {{m+1} \choose 4}$ is thus also an
+invariant of the singularity type, and it measures the extent to which the
+singularity counts as an $m^{\mathrm{th}}$-order inflection point. Our main
+results can be applied to address a broad range of enumerative questions
+concerning inflection points in families of curves.
+</summary>
+    <author>
+      <name>Anand Patel</name>
+    </author>
+    <author>
+      <name>Ashvin Swaminathan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.08761v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.08761v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B05, 14C17, 14C20, 14C21, 14H20, 14N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

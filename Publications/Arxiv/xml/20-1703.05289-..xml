@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1703.05289%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1703.05289&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/D0xCsllBXo4gyMXuL6hVfd4zc5A</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05289v1</id>
+    <updated>2017-03-15T17:44:37Z</updated>
+    <published>2017-03-15T17:44:37Z</published>
+    <title>A clever elimination strategy for efficient minimal solvers</title>
+    <summary>  We present a new insight into the systematic generation of minimal solvers in
+computer vision, which leads to smaller and faster solvers. Many minimal
+problem formulations are coupled sets of linear and polynomial equations where
+image measurements enter the linear equations only. We show that it is useful
+to solve such systems by first eliminating all the unknowns that do not appear
+in the linear equations and then extending solutions to the rest of unknowns.
+This can be generalized to fully non-linear systems by linearization via
+lifting. We demonstrate that this approach leads to more efficient solvers in
+three problems of partially calibrated relative camera pose computation with
+unknown focal length and/or radial distortion. Our approach also generates new
+interesting constraints on the fundamental matrices of partially calibrated
+cameras, which were not known before.
+</summary>
+    <author>
+      <name>Zuzana Kukelova</name>
+    </author>
+    <author>
+      <name>Joe Kileel</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Tomas Pajdla</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 7 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">IEEE Conference on Computer Vision and Pattern Recognition 2017
+  (CVPR 2017)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1703.05289v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1703.05289v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

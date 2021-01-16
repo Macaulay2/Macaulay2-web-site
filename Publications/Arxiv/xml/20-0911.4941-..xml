@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0911.4941%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0911.4941&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GZryZVaLF2UoAsBXFzfeqeHwnhE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0911.4941v1</id>
+    <updated>2009-11-25T20:09:10Z</updated>
+    <published>2009-11-25T20:09:10Z</published>
+    <title>Frobenius splitting, point-counting, and degeneration</title>
+    <summary>  Let f be a polynomial of degree n in ZZ[x_1,..,x_n], typically reducible but
+squarefree. From the hypersurface {f=0} one may construct a number of other
+subschemes {Y} by extracting prime components, taking intersections, taking
+unions, and iterating this procedure.
+  We prove that if the number of solutions to f=0 in \FF_p^n is not a multiple
+of p, then all these intersections in \AA^n_{\FF_p} just described are reduced.
+(If this holds for infinitely many p, then it holds over \QQ as well.) More
+specifically, there is a_Frobenius splitting_ on \AA^n_{\FF_p} compatibly
+splitting all these subschemes {Y}.
+  We determine when a Gr\"obner degeneration f_0=0 of such a hypersurface f=0
+is again such a hypersurface. Under this condition, we prove that compatibly
+split subschemes degenerate to compatibly split subschemes, and stay reduced.
+  Our results are strongest in the case that f's lexicographically first term
+is \prod_{i=1}^n x_i. Then for all large p, there is a Frobenius splitting that
+compatibly splits f's hypersurface and all the associated {Y}. The Gr\"obner
+degeneration Y' of each such Y is a reduced union of coordinate spaces (a
+Stanley-Reisner scheme), and we give a result to help compute its Gr\"obner
+basis. We exhibit an f whose associated {Y} include Fulton's matrix Schubert
+varieties, and recover much more easily the Gr\"obner basis theorem of
+[Knutson-Miller '05]. We show that in Bott-Samelson coordinates on an opposite
+Bruhat cell X^v_\circ in G/B, the f defining the complement of the big cell
+also has initial term \prod_{i=1}^n x_i, and hence the Kazhdan-Lusztig
+subvarieties {X^v_{w\circ}} degenerate to Stanley-Reisner schemes. This
+recovers, in a weak form, the main result of [Knutson '08].
+</summary>
+    <author>
+      <name>Allen Knutson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0911.4941v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0911.4941v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15; 14G05; 13P10; 14D06" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.12893%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.12893&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/U+Bd6mBwI5Mvm6vcUZPAABsZr84</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.12893v1</id>
+    <updated>2020-07-25T09:31:10Z</updated>
+    <published>2020-07-25T09:31:10Z</published>
+    <title>Combinatorial Methods for Minkowski Tensors of Polytopes</title>
+    <summary>  In this paper we use a generating function approach to record and calculate
+entries of the Minkowski tensors of a polytope. We focus on ''surface
+tensors'', extending the methods used in arXiv:1807.10258 for moments of the
+uniform distribution which correspond to volume tensors. In this context we
+also extend the definition of the adjoint polynomial to the boundary complex of
+a polytope with simplicial facets. In the case of simplicial polytopes we give
+an explicit formulation for these surface tensors.
+</summary>
+    <author>
+      <name>Niklas Livchitz</name>
+    </author>
+    <author>
+      <name>Büşra Sert</name>
+    </author>
+    <author>
+      <name>Amy Wiebe</name>
+    </author>
+    <link href="http://arxiv.org/abs/2007.12893v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.12893v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B11, 52B45, 05A15, 28A75" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

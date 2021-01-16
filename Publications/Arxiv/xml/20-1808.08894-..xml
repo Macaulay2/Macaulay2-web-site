@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1808.08894%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1808.08894&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0p3ZDunVPnZIwmM3ruSSNU04NKg</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1808.08894v1</id>
+    <updated>2018-08-27T15:47:53Z</updated>
+    <published>2018-08-27T15:47:53Z</published>
+    <title>Configuration space in a product</title>
+    <summary>  Given a finite graph G and a topological space Z, the graphical configuration
+space Conf(G, Z) is the space of functions V(G) -&gt; Z so that adjacent vertices
+map to distinct points. We provide a homotopy decomposition of Conf(G, X x Y)
+in terms of the graphical configuration spaces in X and Y individually. By way
+of application, we prove a stabilization result for homology of configuration
+space in X x C^p as p goes to infinity. We also compute the homology of
+Conf(K_3,T)/T, the space of ordered triples of distinct points in a torus T of
+rank r, where configurations are considered up to translation. In Section 2, we
+give an algorithm for computing homology of configuration space in a product of
+simplicial complexes. The method is applied to products of some sans-serif
+capital letters in Example 2.12.
+</summary>
+    <author>
+      <name>John D. Wiltshire-Gordon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1808.08894v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1808.08894v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55P10, 18G10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

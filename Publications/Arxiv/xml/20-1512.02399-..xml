@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.02399%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.02399&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Q/CAfiyFnlAyv+8eK2Qt3EQoPog</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.02399v2</id>
+    <updated>2016-01-28T21:23:03Z</updated>
+    <published>2015-12-08T10:59:28Z</published>
+    <title>General Bourgin--Yang theorems</title>
+    <summary>  Let $G$ be either a cyclic group of order $p^k$, a $p$-torus ($p$ a prime),
+or a torus. We estimate the dimension of $f^{-1}(A)$ for any $G$-equivariant
+map $f \colon X \to Y$ and any closed $G$-invariant subset $A\subseteq Y$ in
+terms of connectivity of $X$ and dimension of $Y$, thus obtaining Bourgin--Yang
+type theorems for a wide class of spaces. We also discuss a general
+(independent of the choice of $G$) approach to this sort of problems.
+</summary>
+    <author>
+      <name>Zbigniew Błaszczyk</name>
+    </author>
+    <author>
+      <name>Wacław Marzantowicz</name>
+    </author>
+    <author>
+      <name>Mahender Singh</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Major revision. Virtually every section, including the introduction,
+  has been expanded and/or rewritten. 21 pages, comments still welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.02399v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.02399v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55M20, 57S10, 55N91" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

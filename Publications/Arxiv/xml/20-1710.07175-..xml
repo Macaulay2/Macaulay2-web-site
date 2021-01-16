@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.07175%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.07175&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gcwbzi6ETAi09azo8+qKrAkn8Kk</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.07175v2</id>
+    <updated>2018-05-24T13:40:43Z</updated>
+    <published>2017-10-19T15:17:12Z</published>
+    <title>The Geometry of Gaussoids</title>
+    <summary>  A gaussoid is a combinatorial structure that encodes independence in
+probability and statistics, just like matroids encode independence in linear
+algebra. The gaussoid axioms of Lnenicka and Mat\'us are equivalent to
+compatibility with certain quadratic relations among principal and
+almost-principal minors of a symmetric matrix. We develop the geometric theory
+of gaussoids, based on the Lagrangian Grassmannian and its symmetries. We
+introduce oriented gaussoids and valuated gaussoids, thus connecting to real
+and tropical geometry. We classify small realizable and non-realizable
+gaussoids. Positive gaussoids are as nice as positroids: they are all
+realizable via graphical models.
+</summary>
+    <author>
+      <name>Tobias Boege</name>
+    </author>
+    <author>
+      <name>Alessio D'Alì</name>
+    </author>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 4 figures, v2: Prop. 6.4 and Thm. 8.4 added, various small
+  improvements, 34 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.07175v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.07175v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

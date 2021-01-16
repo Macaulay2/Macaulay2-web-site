@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9910030%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9910030&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VpC5hz386EHeedUhL3Thq3reG28</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9910030v2</id>
+    <updated>2000-05-02T09:52:57Z</updated>
+    <published>1999-10-06T10:12:50Z</published>
+    <title>Determinantal hypersurfaces</title>
+    <summary>  Let X be a smooth hypersurface in projective space. We discuss in this paper
+when X can be defined by an equation det M = 0 (resp. pf M = 0), where M is a
+matrix (resp. a skew-symmetric matrix) with homogeneous entries. Standard
+homological algebra methods show that this is equivalent to produce a line
+bundle (resp. a rank 2 vector bundle) E of a certain type on X . We discuss a
+number of applications for hypersurfaces of small dimension. An Appendix by
+F.-O. Schreyer proves (using Macaulay 2) that a general form of degree d in P^3
+(resp. P^4) can be written as the pfaffian of a skew-symmetric (2d)x(2d) matrix
+with linear entries in the expected range, that is d &lt; 16 (resp. d &lt; 6).
+</summary>
+    <author>
+      <name>A. Beauville</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, Plain TeX, with a new Appendix by F.-O. Schreyer</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9910030v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9910030v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

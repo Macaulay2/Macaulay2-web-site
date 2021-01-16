@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.04743%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.04743&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mv+U5TZxA5/Wyn63aCJNKaOXuFw</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.04743v2</id>
+    <updated>2016-01-07T02:42:02Z</updated>
+    <published>2015-11-15T18:10:51Z</published>
+    <title>Local algebra and string theory</title>
+    <summary>  The $\beta\gamma$ system on the cone of pure spinors is an integral part of
+the string theory developed by N. Berkovits. This $\beta\gamma$ system offer a
+number of questions for pure mathematicians: what is a precise definition of
+the space of states of the theory? Is there a mathematical explanations for
+various dualities (or pairings) predicted by physicists? Can a formula for
+partition function be written? To help me to answer these questions I use local
+algebra in an essential way.
+</summary>
+    <author>
+      <name>M. V. Movshev</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Mistakes related to manipulations with limits are fixed, numerous
+  typo are corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/1511.04743v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.04743v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

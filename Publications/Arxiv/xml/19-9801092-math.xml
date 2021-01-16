@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9801092%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9801092&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Eh5gf3y0M5rqjlPiloMyFemjf20</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9801092v1</id>
+    <updated>1998-01-20T19:40:01Z</updated>
+    <published>1998-01-20T19:40:01Z</published>
+    <title>The Pfaffian Calabi-Yau, its Mirror, and their link to the Grassmannian
+  G(2,7)</title>
+    <summary>  The rank 4 locus of a general skew-symmetric 7x7 matrix gives the pfaffian
+variety in P^20 which is not defined as a complete intersection. Intersecting
+this with a general P^6 gives a Calabi-Yau manifold. An orbifold construction
+seems to give the 1-parameter mirror-family of this. However, corresponding to
+two points in the 1-parameter family of complex structures, both with maximally
+unipotent monodromy, are two different mirror-maps: one corresponding to the
+general pfaffian section, the other to a general intersection of G(2,7) in P^20
+with a P^13. Apparently, the pfaffian and G(2,7) sections constitute different
+parts of the A-model (Kahler structure related) moduli space, and, thus,
+represent different parts of the same conformal field theory moduli space.
+</summary>
+    <author>
+      <name>Einar Andreas Rodland</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX2e, 13 pages; full PhD-thesis will be made available from
+  http://www.math.uio.no/~einara/papers.html in early 1998</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9801092v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9801092v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J30 (primary), 14N10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dhep-th%2F0702210%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=hep-th/0702210&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2h2EzPIyhXatyxs5HWToaAkzU9U</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0702210v2</id>
+    <updated>2007-05-23T21:05:29Z</updated>
+    <published>2007-02-27T13:22:20Z</published>
+    <title>Heterotic Compactification, An Algorithmic Approach</title>
+    <summary>  We approach string phenomenology from the perspective of computational
+algebraic geometry, by providing new and efficient techniques for proving
+stability and calculating particle spectra in heterotic compactifications. This
+is done in the context of complete intersection Calabi-Yau manifolds in a
+single projective space where we classify positive monad bundles. Using a
+combination of analytic methods and computer algebra we prove stability for all
+such bundles and compute the complete particle spectrum, including gauge
+singlets. In particular, we find that the number of anti-generations vanishes
+for all our bundles and that the spectrum is manifestly moduli-dependent.
+</summary>
+    <author>
+      <name>Lara B. Anderson</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Andre Lukas</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1088/1126-6708/2007/07/049</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages, Latex</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 0707:049,2007</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/hep-th/0702210v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/hep-th/0702210v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1088/1126-6708/2007/07/049" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

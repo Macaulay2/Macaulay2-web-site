@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1506.06702%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1506.06702&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hsQiIR4D/whrLVALZkViprkjS6I</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1506.06702v1</id>
+    <updated>2015-06-22T17:52:14Z</updated>
+    <published>2015-06-22T17:52:14Z</published>
+    <title>Extremal Positive Semidefinite Matrices for Weakly Bipartite Graphs</title>
+    <summary>  For a graph $G$ with $p$ vertices the cone of concentration matrices consists
+of all real positive semidefinite $p\times p$ matrices with zeros in the
+off-diagonal entries corresponding to nonedges of $G$. The extremal rays of
+this cone and their associated ranks have applications to matrix completion
+problems, maximum likelihood estimation in Gaussian graphical models in
+statistics, and Gauss elimination for sparse matrices. For a weakly bipartite
+graph $G$, we show that the normal vectors to the facets of the $(\pm1)$-cut
+polytope of $G$ specify the off-diagonal entries of extremal matrices in
+$\mathcal{K}_G$. We also prove that the constant term of the linear equation of
+each facet-supporting hyperplane is the rank of its corresponding extremal
+matrix in $\mathcal{K}_G$. Furthermore, we show that if $G$ is series-parallel
+then this gives a complete characterization of all possible extremal ranks of
+$\mathcal{K}_G$, consequently solving the sparsity order problem for
+series-parallel graphs.
+</summary>
+    <author>
+      <name>Liam Solus</name>
+    </author>
+    <author>
+      <name>Caroline Uhler</name>
+    </author>
+    <author>
+      <name>Ruriko Yoshida</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1506.06702v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1506.06702v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

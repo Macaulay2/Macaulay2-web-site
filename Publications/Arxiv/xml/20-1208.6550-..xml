@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.6550%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.6550&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DA/0MYcWz67YC6xrV6QIXudn8g0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.6550v3</id>
+    <updated>2013-01-08T19:11:45Z</updated>
+    <published>2012-08-31T16:54:48Z</published>
+    <title>Graphical models in Macaulay2</title>
+    <summary>  The Macaulay2 package GraphicalModels contains algorithms for the algebraic
+study of graphical models associated to undirected, directed and mixed graphs,
+and associated collections of conditional independence statements. Among the
+algorithms implemented are procedures for computing the vanishing ideal of
+graphical models, for generating conditional independence ideals of families of
+independence statements associated to graphs, and for checking for identifiable
+parameters in Gaussian mixed graph models. These procedures can be used to
+study fundamental problems about graphical models.
+</summary>
+    <author>
+      <name>Luis David García-Puente</name>
+    </author>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Several changes to address referee comments and suggestions. We will
+  eventually include this package in the standard distribution of Macaulay2.
+  But until then, the associated Macaulay2 file can be found at
+  http://www.shsu.edu/~ldg005/papers.html</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.6550v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.6550v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25 (Primary) 62-04, 14Q15, 68W30 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

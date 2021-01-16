@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0306001%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0306001&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SeNBOUfDlvsx7oDkT3gsUIj5U9g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0306001v2</id>
+    <updated>2003-06-02T20:54:36Z</updated>
+    <published>2003-05-30T20:03:28Z</published>
+    <title>Nonvanishing cohomology and classes of Gorenstein rings</title>
+    <summary>  We give counterexamples to the following conjecture of Auslander: given a
+finitely generated module $M$ over an Artin algebra $\Lambda$, there exists a
+positive integer $n_M$ such that for all finitely generated $\Lambda$-modules
+$N$, if $\Ext_{\Lambda}^i(M,N)=0$ for all $i\gg 0$, then
+$\Ext_{\Lambda}^i(M,N)=0$ for all $i\geq n_M$. Some of our examples moreover
+yield homologically defined classes of commutative local rings strictly between
+the class of local complete intersections and the class of local Gorenstein
+rings.
+</summary>
+    <author>
+      <name>David A. Jorgensen</name>
+    </author>
+    <author>
+      <name>Liana M. Sega</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0306001v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0306001v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D03" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

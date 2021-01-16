@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.09326%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.09326&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/p+lXPdbSURwWLXk/cbnLit1yLv0</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.09326v1</id>
+    <updated>2018-05-23T18:00:00Z</updated>
+    <published>2018-05-23T18:00:00Z</published>
+    <title>Traintracks Through Calabi-Yaus: Amplitudes Beyond Elliptic
+  Polylogarithms</title>
+    <summary>  We describe a family of finite, four-dimensional, $L$-loop Feynman integrals
+that involve weight-$(L+1)$ hyperlogarithms integrated over $(L-1)$-dimensional
+elliptically fibered varieties we conjecture to be Calabi-Yau. At three loops,
+we identify the relevant K3 explicitly; and we provide strong evidence that the
+four-loop integral involves a Calabi-Yau threefold. These integrals are
+necessary for the representation of amplitudes in many theories---from massless
+$\varphi^4$ theory to integrable theories including maximally supersymmetric
+Yang-Mills theory in the planar limit---a fact we demonstrate.
+</summary>
+    <author>
+      <name>Jacob L. Bourjaily</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Andrew J. McLeod</name>
+    </author>
+    <author>
+      <name>Matt von Hippel</name>
+    </author>
+    <author>
+      <name>Matthias Wilhelm</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4+2 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.09326v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.09326v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

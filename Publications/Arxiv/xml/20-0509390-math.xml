@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0509390%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0509390&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GVYMGFH3QmAfThjfiUN7X2+hR/U</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0509390v2</id>
+    <updated>2006-11-03T14:04:19Z</updated>
+    <published>2005-09-17T17:00:14Z</published>
+    <title>Algebraic Factor Analysis: Tetrads, Pentads and Beyond</title>
+    <summary>  Factor analysis refers to a statistical model in which observed variables are
+conditionally independent given fewer hidden variables, known as factors, and
+all the random variables follow a multivariate normal distribution. The
+parameter space of a factor analysis model is a subset of the cone of positive
+definite matrices. This parameter space is studied from the perspective of
+computational algebraic geometry. Gr\"obner bases and resultants are applied to
+compute the ideal of all polynomial functions that vanish on the parameter
+space. These polynomials, known as model invariants, arise from rank conditions
+on a symmetric matrix under elimination of the diagonal entries of the matrix.
+Besides revealing the geometry of the factor analysis model, the model
+invariants also furnish useful statistics for testing goodness-of-fit.
+</summary>
+    <author>
+      <name>Mathias Drton</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s00440-006-0033-2</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Probability Theory and Related Fields 2007, Vol. 138, No. 3/4,
+  463-493</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0509390v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0509390v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s00440-006-0033-2" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

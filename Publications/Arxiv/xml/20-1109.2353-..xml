@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1109.2353%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1109.2353&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e1gpac5oEWLoiOUjtL91NDf43cE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1109.2353v2</id>
+    <updated>2011-11-10T01:17:08Z</updated>
+    <published>2011-09-11T20:38:42Z</published>
+    <title>Parameterized affine codes</title>
+    <summary>  Let K be a finite field and let X* be an affine algebraic toric set
+parameterized by monomials. We give an algebraic method, using Groebner bases,
+to compute the length and the dimension of C_X*(d), the parameterized affine
+code of degree d on the set X*. If Y is the projective closure of X*, it is
+shown that C_X^*(d) has the same basic parameters that C_Y(d), the
+parameterized projective code on the set Y. If X* is an affine torus, we
+compute the basic parameters of C_X*(d). We show how to compute the vanishing
+ideals of X* and Y.
+</summary>
+    <author>
+      <name>Hiram H. Lopez</name>
+    </author>
+    <author>
+      <name>Eliseo Sarmiento</name>
+    </author>
+    <author>
+      <name>Maria Vaz Pinto</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Studia Sci. Math. Hungar., to appear</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Studia Sci. Math. Hungar. 49 (2012), no. 3, 406--418</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1109.2353v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1109.2353v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 14G50, 94B27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

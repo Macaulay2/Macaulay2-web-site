@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1201.0499%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1201.0499&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LBnbS6k5u3mWpXfbWWeElcy/inU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1201.0499v1</id>
+    <updated>2012-01-02T17:10:49Z</updated>
+    <published>2012-01-02T17:10:49Z</published>
+    <title>Evaluating polynomials in several variables and their derivatives on a
+  GPU computing processor</title>
+    <summary>  In order to obtain more accurate solutions of polynomial systems with
+numerical continuation methods we use multiprecision arithmetic. Our goal is to
+offset the overhead of double double arithmetic accelerating the path trackers
+and in particular Newton's method with a general purpose graphics processing
+unit. In this paper we describe algorithms for the massively parallel
+evaluation and differentiation of sparse polynomials in several variables. We
+report on our implementation of the algorithmic differentiation of products of
+variables on the NVIDIA Tesla C2050 Computing Processor using the NVIDIA CUDA
+compiler tools.
+</summary>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <author>
+      <name>Genady Yoffe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Key words and phrases: algorithmic differentiation, compute unified
+  device architecture (CUDA), graphics processing unit (GPU), massively
+  parallel polynomial evaluation, Speelpenning product</arxiv:comment>
+    <link href="http://arxiv.org/abs/1201.0499v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1201.0499v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

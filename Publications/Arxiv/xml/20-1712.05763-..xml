@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.05763%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.05763&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/m14nkoFduzSSDRoiz2SbjJn/ItY</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.05763v2</id>
+    <updated>2018-01-15T20:56:48Z</updated>
+    <published>2017-12-15T17:33:37Z</published>
+    <title>Differential operators and hyperelliptic curves over finite fields</title>
+    <summary>  Boix, De Stefani and Vanzo have characterized ordinary/supersingular elliptic
+curves over $\mathbb{F}_p$ in terms of the level of the defining cubic
+homogenous polynomial. We extend their study to arbitrary genus, in particular
+we prove that every ordinary hyperelliptic curve $\mathcal{C}$ of genus $g\geq
+2$ has level $2$. We provide a good number of examples and raise a conjecture.
+</summary>
+    <author>
+      <name>Iván Blanco-Chacón</name>
+    </author>
+    <author>
+      <name>Alberto F. Boix</name>
+    </author>
+    <author>
+      <name>Stiofáin Fordham</name>
+    </author>
+    <author>
+      <name>Emrah Sercan Yilmaz</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.ffa.2018.02.007</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.ffa.2018.02.007" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, comments are welcome. This version: errata corrected, main
+  results unchanged</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Finite Fields and their Applications, volume 51 (2018), 351-370</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1712.05763v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.05763v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35 (Primary), 13N10, 14B05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

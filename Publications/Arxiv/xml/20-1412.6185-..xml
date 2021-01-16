@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1412.6185%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1412.6185&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JV/3FggBB1nGS9/Zq9GVGPxdI7s</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1412.6185v1</id>
+    <updated>2014-12-18T23:58:29Z</updated>
+    <published>2014-12-18T23:58:29Z</published>
+    <title>Exponential Varieties</title>
+    <summary>  Exponential varieties arise from exponential families in statistics. These
+real algebraic varieties have strong positivity and convexity properties,
+generalizing those of toric varieties and their moment maps. Another special
+class, including Gaussian graphical models, are varieties of inverses of
+symmetric matrices satisfying linear constraints. We develop a general theory
+of exponential varieties, with focus on those defined by hyperbolic polynomials
+and their integral representations on the hyperbolicity cone. We compare the
+multidegrees and ML degrees of the gradient map for such polynomials.
+</summary>
+    <author>
+      <name>Mateusz Michałek</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Caroline Uhler</name>
+    </author>
+    <author>
+      <name>Piotr Zwiernik</name>
+    </author>
+    <link href="http://arxiv.org/abs/1412.6185v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1412.6185v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

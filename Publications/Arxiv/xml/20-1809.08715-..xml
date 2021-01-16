@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.08715%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.08715&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Yip7k5TSS+tusPC5FSubW7VoVo4</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.08715v2</id>
+    <updated>2018-12-11T21:38:48Z</updated>
+    <published>2018-09-24T01:17:40Z</published>
+    <title>The Hochschild cohomology ring of a global quotient orbifold</title>
+    <summary>  We study the cup product on the Hochschild cohomology of the stack quotient
+[X/G] of a smooth quasi-projective variety X by a finite group G. More
+specifically, we construct a G-equivariant sheaf of graded algebras on X whose
+G-invariant global sections recover the associated graded algebra of the
+Hochschild cohomology of [X/G], under a natural filtration. This sheaf is an
+algebra over the polyvector fields T^{poly}_X on X, and is generated as a
+T^{poly}_X-algebra by the sum of the determinants det(N_{X^g}) of the normal
+bundles of the fixed loci in X. We employ our understanding of Hochschild
+cohomology to conclude that the analog of Kontsevich's formality theorem, for
+the cup product, does not hold for Deligne--Mumford stacks in general. We
+discuss relationships with orbifold cohomology, extending Ruan's cohomological
+conjectures. This employs a trivialization of the determinants in the case of a
+symplectic group action on a symplectic variety X, which requires (for the cup
+product) a nontrivial normalization missing in previous literature.
+</summary>
+    <author>
+      <name>Cris Negron</name>
+    </author>
+    <author>
+      <name>Travis Schedler</name>
+    </author>
+    <author>
+      <name>Pieter Belmans</name>
+    </author>
+    <author>
+      <name>Pavel Etingof</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, updated references, appendices by Belmans, Etingof, and the
+  authors</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.08715v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.08715v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

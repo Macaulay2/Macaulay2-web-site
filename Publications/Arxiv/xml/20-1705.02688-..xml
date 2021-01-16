@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.02688%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.02688&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4ov10j0fSq6wyqkUnlzcp56469E</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.02688v1</id>
+    <updated>2017-05-07T19:48:48Z</updated>
+    <published>2017-05-07T19:48:48Z</published>
+    <title>Koszul property for the moment map of some classical representations</title>
+    <summary>  This work concerns the moment map $\mu$ associated with the standard
+representation of a classical Lie algebra. For applications to deformation
+quantization it is desirable that $S/(\mu)$, the coordinate algebra of the zero
+fibre of $\mu$, be Koszul. The main result is that this algebra is not Koszul
+for the standard representation of $\mathfrak{sl}_{n}$, and of
+$\mathfrak{sp}_{n}$. This is deduced from a computation of the Betti numbers of
+$S/(\mu)$ as an $S$-module, which are of interest also from the point of view
+of commutative algebra.
+</summary>
+    <author>
+      <name>Aldo Conca</name>
+    </author>
+    <author>
+      <name>Hans-Christian Herbig</name>
+    </author>
+    <author>
+      <name>Srikanth B. Iyengar</name>
+    </author>
+    <link href="http://arxiv.org/abs/1705.02688v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.02688v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 16S37, 53D20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

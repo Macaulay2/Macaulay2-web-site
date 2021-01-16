@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0202288%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0202288&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nCnzSHwsbBAClxVqRUMltDpNZCE</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0202288v1</id>
+    <updated>2002-02-27T07:28:29Z</updated>
+    <published>2002-02-27T07:28:29Z</published>
+    <title>On the cohomology of stable map spaces</title>
+    <summary>  We describe an approach to calculating the cohomology rings of stable map
+spaces. The method we use is due to Akildiz-Carrell and employs a C^*-action
+and a vector field which is equivariant with respect to this C^*-action. We
+give an explicit description of the big Bialynicky-Birula cell of the
+C^*-action on Mbar_00(P^n,d) as a vector bundle on Mbar_0d. This is used to
+calculate explicitly the cohomology ring of Mbar_00(P^n,d) in the cases d=2 and
+d=3. Of particular interest is the case as n approaches infinity.
+</summary>
+    <author>
+      <name>Kai Behrend</name>
+    </author>
+    <author>
+      <name>Anne O'Halloran</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">63 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0202288v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0202288v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

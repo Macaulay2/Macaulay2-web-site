@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.06568%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.06568&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TGwkRmND5YFZfP+9F5o7vNS35Fc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.06568v1</id>
+    <updated>2017-04-28T04:17:27Z</updated>
+    <published>2017-04-28T04:17:27Z</published>
+    <title>Locating and counting equilibria of the Kuramoto model with rank one
+  coupling</title>
+    <summary>  The Kuramoto model describes synchronization behavior among coupled
+oscillators and enjoys successful application in a wide variety of fields. Many
+of these applications seek phase-coherent solutions, i.e., equilibria of the
+model. Historically, research has focused on situations where the number of
+oscillators, n, is extremely large and can be treated as being infinite. More
+recently, however, applications have arisen in areas such as electrical
+engineering with more modest values of n. For these, the equilibria can be
+located by solving a system of polynomial equations utilizing techniques from
+algebraic geometry. Typical methods for solving such systems locate all complex
+solutions even though only the real solutions, corresponding to equilibria of
+the model, are of physical interest. In this paper, we develop an algorithm to
+locate only all equilibria of the model, thereby shortening computation time by
+several orders of magnitude in certain situations. This is accomplished by
+choosing specific equilibria representatives and the consequent algebraic
+decoupling of the system. We compare this solving approach to other
+computational algebraic geometric methods. Furthermore, analyzing this approach
+allows us to prove, asymptotically, that the maximum number of equilibria grows
+at the same rate as the number of complex solutions of a corresponding
+polynomial system. Finally, we conjecture an upper bound on the maximum number
+of equilibria for any number of oscillators which generalizes the known cases
+and is obtained on a range of explicitly provided natural frequencies.
+</summary>
+    <author>
+      <name>Owen Coss</name>
+    </author>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Hoon Hong</name>
+    </author>
+    <author>
+      <name>Daniel K. Molzahn</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Keywords: Kuramoto model, equilibria, univariate solving, homotopy
+  continuation, numerical algebraic geometry</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.06568v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.06568v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H10, 68W30, 14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

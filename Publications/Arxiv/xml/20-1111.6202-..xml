@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1111.6202%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1111.6202&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4ynMTLh6ISSfKtSaNgXCcvk6gmM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1111.6202v2</id>
+    <updated>2013-02-01T04:55:51Z</updated>
+    <published>2011-11-26T23:42:42Z</published>
+    <title>Tangential varieties of Segre-Veronese varieties</title>
+    <summary>  We determine the minimal generators of the ideal of the tangential variety of
+a Segre-Veronese variety, as well as the decomposition into irreducible
+GL-representations of its homogeneous coordinate ring. In the special case of a
+Segre variety, our results confirm a conjecture of Landsberg and Weyman.
+</summary>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">we generalize the results from the previous version to the
+  Segre-Veronese case</arxiv:comment>
+    <link href="http://arxiv.org/abs/1111.6202v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1111.6202v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L30, 15A69, 15A72" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

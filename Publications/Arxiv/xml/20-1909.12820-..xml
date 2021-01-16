@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.12820%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.12820&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QEv21jURfUL0fx9m6wMDup7CbCk</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.12820v1</id>
+    <updated>2019-09-27T17:47:40Z</updated>
+    <published>2019-09-27T17:47:40Z</published>
+    <title>Splittings of Toric Ideals</title>
+    <summary>  Let $I \subseteq R = \mathbb{K}[x_1,\ldots,x_n]$ be a toric ideal, i.e., a
+binomial prime ideal. We investigate when the ideal $I$ can be "split" into the
+sum of two smaller toric ideals. For a general toric ideal $I$, we give a
+sufficient condition for this splitting in terms of the integer matrix that
+defines $I$. When $I = I_G$ is the toric ideal of a finite simple graph $G$, we
+give additional splittings of $I_G$ related to subgraphs of $G$. When there
+exists a splitting $I = I_1+I_2$ of the toric ideal, we show that in some cases
+we can describe the (multi-)graded Betti numbers of $I$ in terms of the
+(multi-)graded Betti numbers of $I_1$ and $I_2$.
+</summary>
+    <author>
+      <name>Giuseppe Favacchio</name>
+    </author>
+    <author>
+      <name>Johannes Hofscheier</name>
+    </author>
+    <author>
+      <name>Graham Keiper</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.12820v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.12820v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13P10, 14M25, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

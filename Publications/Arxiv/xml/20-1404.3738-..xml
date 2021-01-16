@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1404.3738%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1404.3738&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/o3A5R+8TRcQM2ifNjD5gV/6h5Sk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1404.3738v1</id>
+    <updated>2014-04-14T20:00:37Z</updated>
+    <published>2014-04-14T20:00:37Z</published>
+    <title>The ADHM-like Constructions for Instantons on CP^2 and Three Dimensional
+  Gauge Theories</title>
+    <summary>  We study the moduli spaces of self-dual instantons on CP^2 in a simple group
+G. When G is a classical group, these instanton solutions can be realised using
+ADHM-like constructions which can be naturally embedded into certain three
+dimensional quiver gauge theories with 4 supercharges. The topological data for
+such instanton bundles and their relations to the quiver gauge theories are
+described. Based on such gauge theory constructions, we compute the Hilbert
+series of the moduli spaces of instantons that correspond to various
+configurations. The results turn out to be equal to the Hilbert series of their
+counterparts on C^2 upon an appropriate mapping. We check the former against
+the Hilbert series derived from the blowup formula for the Hirzebruch surface
+F_1 and find an agreement. The connection between the moduli spaces of
+instantons on such two spaces is explained in detail.
+</summary>
+    <author>
+      <name>Noppadol Mekareeya</name>
+    </author>
+    <author>
+      <name>Diego Rodriguez-Gomez</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1404.3738v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1404.3738v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

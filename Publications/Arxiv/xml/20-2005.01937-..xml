@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.01937%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.01937&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Aoa93p/goqc+tq9PQpK26vppwyE</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.01937v1</id>
+    <updated>2020-05-05T04:06:25Z</updated>
+    <published>2020-05-05T04:06:25Z</published>
+    <title>Log-concavity of matroid h-vectors and mixed Eulerian numbers</title>
+    <summary>  For any matroid $M$, we compute the Tutte polynomial $T_M(x,y)$ using the
+mixed intersection numbers of certain tautological classes in the combinatorial
+Chow ring $A^\bullet(M)$ arising from Grassmannians. Using mixed Hodge-Riemann
+relations, we deduce a strengthening of the log-concavity of the h-vector of a
+matroid complex, improving on an old conjecture of Dawson whose proof was
+announced recently by Ardila, Denham and Huh.
+</summary>
+    <author>
+      <name>Andrew Berget</name>
+    </author>
+    <author>
+      <name>Hunter Spink</name>
+    </author>
+    <author>
+      <name>Dennis Tseng</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.01937v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.01937v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

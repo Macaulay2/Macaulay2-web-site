@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.0363%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.0363&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DuNFjNYoyc95k1mGQT5V4lfzlvY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.0363v1</id>
+    <updated>2014-03-03T10:07:24Z</updated>
+    <published>2014-03-03T10:07:24Z</published>
+    <title>Combinatorial results on (1,2,1,2)-avoiding $GL(p,\mathbb{C}) \times
+  GL(q,\mathbb{C})$-orbit closures on $GL(p+q, \mathbb{C})/B$</title>
+    <summary>  Using recent results of the second author which explicitly identify the
+"$(1,2,1,2)$-avoiding" $GL(p,\mathbb{C}) \times GL(q,\mathbb{C})$-orbit
+closures on the flag manifold $GL(p+q,\mathbb{C})/B$ as certain Richardson
+varieties, we give combinatorial criteria for determining smoothness, lci-ness,
+and Gorensteinness of such orbit closures. (In the case of smoothness, this
+gives a new proof of a theorem of W.M. McGovern.) Going a step further, we also
+describe a straightforward way to compute the singular locus, the non-lci
+locus, and the non-Gorenstein locus of any such orbit closure.
+  We then describe a manifestly positive combinatorial formula for the
+Kazhdan-Lusztig-Vogan polynomial $P_{\tau,\gamma}(q)$ in the case where
+$\gamma$ corresponds to the trivial local system on a $(1,2,1,2)$-avoiding
+orbit closure $Q$ and $\tau$ corresponds to the trivial local system on any
+orbit $Q'$ contained in ${Q}$. This combines the aforementioned result
+of the second author, results of A. Knutson, the first author, and A. Yong, and
+a formula of Lascoux and Sch\"{u}tzenberger which computes the ordinary (type
+$A$) Kazhdan-Lusztig polynomial $P_{x,w}(q)$ whenever $w \in S_n$ is
+cograssmannian.
+</summary>
+    <author>
+      <name>Alexander Woo</name>
+    </author>
+    <author>
+      <name>Benjamin J. Wyser</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages, 18 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.0363v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.0363v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

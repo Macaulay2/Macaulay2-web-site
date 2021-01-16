@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.07445%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.07445&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eV8LbEnaK/J4rmnn+mUEQM0fPuo</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.07445v1</id>
+    <updated>2017-10-20T08:03:55Z</updated>
+    <published>2017-10-20T08:03:55Z</published>
+    <title>Univariate Contraction and Multivariate Desingularization of Ore Ideals</title>
+    <summary>  Ore operators with polynomial coefficients form a common algebraic
+abstraction for representing D-finite functions. They form the Ore ring
+$K(x)[D_x]$, where $K$ is the constant field. Suppose $K$ is the quotient field
+of some principal ideal domain $R$. The ring $R[x][D_x]$ consists of elements
+in $K(x)[D_x]$ without "denominator".
+  Given $L \in K(x)[D_x]$, it generates a left ideal $I$ in $K(x)[D_x]$. We
+call $I \cap R[x][D_x]$ the univariate contraction of $I$.
+  When $L$ is a linear ordinary differential or difference operator, we design
+a contraction algorithm for $L$ by using desingularized operators as proposed
+by Chen, Jaroschek, Kauers and Singer. When $L$ is an ordinary differential
+operator and $R = K$, our algorithm is more elementary than known algorithms.
+In other cases, our results are new.
+  We propose the notion of completely desingularized operators, study their
+properties, and design an algorithm for computing them. Completely
+desingularized operators have interesting applications such as certifying
+integer sequences and checking special cases of a conjecture of Krattenthaler.
+  A D-finite system is a finite set of linear homogeneous partial differential
+equations in several variables, whose solution space is of finite dimension.
+For such systems, we give the notion of a singularity in terms of the
+polynomials appearing in them. We show that a point is a singularity of the
+system unless it admits a basis of power series solutions in which the starting
+monomials are as small as possible with respect to some term order. Then a
+singularity is apparent if the system admits a full basis of power series
+solutions, the starting terms of which are not as small as possible. We prove
+that apparent singularities in the multivariate case can be removed like in the
+univariate case by adding suitable additional solutions to the original system.
+</summary>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.07445v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.07445v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

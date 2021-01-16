@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.5936%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.5936&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/o9sjWBLzSK1hYWTqV0xHFPran7U</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5936v2</id>
+    <updated>2014-06-26T16:02:58Z</updated>
+    <published>2014-06-23T15:05:42Z</published>
+    <title>The Markov basis of $K_{3,N}$</title>
+    <summary>  This document explains how to obtain a Markov basis of the graphical model of
+the complete bipartite graph $K_{3,N}$ with binary nodes. The computations
+illustrate the theory developed in arXiv:1404.6392 that explains how to compute
+Markov bases of toric fiber products.
+</summary>
+    <author>
+      <name>Johannes Rauh</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages. An HTML version of this document is available at
+  http://markov-bases.de/models/K3N/K3N.html</arxiv:comment>
+    <link href="http://arxiv.org/abs/1406.5936v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.5936v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11P21, 13P10, 52B20, 90C10, 13E15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

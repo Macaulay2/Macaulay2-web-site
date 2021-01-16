@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.07160%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.07160&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/U3mgTRtZECzriMChPKAAbjhDFg4</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.07160v1</id>
+    <updated>2016-06-23T01:54:55Z</updated>
+    <published>2016-06-23T01:54:55Z</published>
+    <title>Distinguishing Convergence on Phylogenetic Networks</title>
+    <summary>  We compare the phylogenetic tensors for various trees and networks for two,
+three and four taxa. If the probability spaces between one tree or network and
+another are not identical then there will be phylogenetic tensors that could
+have arisen on one but not the other. We call these two trees or networks
+distinguishable from each other. We show that for the binary symmetric model
+there are no two-taxon trees and networks that are distinguishable from each
+other, however there are three-taxon trees and networks that are
+distinguishable from each other.
+  We compare the time parameters for the phylogenetic tensors for various taxon
+label permutations on a given tree or network. If the time parameters on one
+taxon label permutation in terms of the other taxon label permutation are all
+non-negative then we say that the two taxon label permutations are not network
+identifiable from each other. We show that some taxon label permutations are
+network identifiable from each other.
+  We show that some four-taxon networks satisfy the four-point condition. Of
+the two "shapes" of four-taxon rooted trees, one is defined by the cluster,
+b,c,d, labelling taxa alphabetically from left to right. The network with this
+shape and convergence between the two taxa with the root as their most recent
+common ancestor satisfies the four-point condition.
+  The phylogenetic tensors contain polynomial equations that cannot be easily
+solved for four-taxon or higher trees or networks. We show how methods from
+algebraic geometry, such as Gr\"obner bases, can be used to solve the
+polynomial equations. We show that some four-taxon trees and networks can be
+distinguished from each other.
+</summary>
+    <author>
+      <name>Jonathan Mitchell</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">PhD Thesis</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.07160v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.07160v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

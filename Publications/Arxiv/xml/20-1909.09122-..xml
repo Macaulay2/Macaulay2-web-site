@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.09122%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.09122&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vWxJ3sIT0gqbLQYNpMAP/v+S/a8</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.09122v1</id>
+    <updated>2019-09-19T17:51:20Z</updated>
+    <published>2019-09-19T17:51:20Z</published>
+    <title>Bi-graded Koszul modules, K3 carpets, and Green's conjecture</title>
+    <summary>  We extend the theory of Koszul modules to the bi-graded case, and prove a
+vanishing theorem that allows us to show that the Canonical Ribbon Conjecture
+of Bayer and Eisenbud holds over a field of characteristic zero or at least
+equal to the Clifford index. Our results confirm a conjecture of Eisenbud and
+Schreyer regarding the characteristics where the generic statement of Green's
+conjecture holds. They also recover and extend to positive characteristics
+results due to Aprodu and Voisin asserting that Green's Conjecture holds for
+generic curves of each gonality.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.09122v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.09122v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

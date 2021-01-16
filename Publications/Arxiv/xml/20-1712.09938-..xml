@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.09938%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.09938&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SGmYbvtFL/PxIyE5x5ldTypZ4Dg</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.09938v1</id>
+    <updated>2017-12-28T17:15:03Z</updated>
+    <published>2017-12-28T17:15:03Z</published>
+    <title>Homological invariants of determinantal thickenings</title>
+    <summary>  The study of homological invariants such as Tor, Ext and local cohomology
+modules constitutes an important direction in commutative algebra. Explicit
+descriptions of these invariants are notoriously difficult to find and often
+involve combining an array of techniques from other fields of mathematics. In
+recent years tools from algebraic geometry and representation theory have been
+successfully employed in order to shed some light on the structure of
+homological invariants associated with determinantal rings. The goal of this
+notes is to survey some of these results, focusing on examples in an attempt to
+clarify some of the more technical statements.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">appeared in honorary volume dedicated to Prof. Dorin Popescu</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Bull. Math. Soc. Sci. Math. Roumanie, Volume 60 (108), no. 4,
+  pages 425-446 (2017)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1712.09938v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.09938v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D07, 14M12, 13D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1507.04331%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1507.04331&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/p4385lZIughb3nK+NSFcQil7TUU</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1507.04331v1</id>
+    <updated>2015-07-15T19:12:52Z</updated>
+    <published>2015-07-15T19:12:52Z</published>
+    <title>Numerical algebraic geometry for model selection</title>
+    <summary>  Researchers working with mathematical models are often confronted by the
+related problems of parameter estimation, model validation, and model
+selection. These are all optimization problems, well-known to be challenging
+due to non-linearity, non-convexity and multiple local optima. Furthermore, the
+challenges are compounded when only partial data is available. Here, we
+consider polynomial models (e.g., mass-action chemical reaction networks at
+steady state) and describe a framework for their analysis based on optimization
+using numerical algebraic geometry. Specifically, we use probability-one
+polynomial homotopy continuation methods to compute all critical points of the
+objective function, then filter to recover the global optima. Our approach
+exploits the geometric structures relating models and data, and we demonstrate
+its utility on examples from cell signaling, synthetic biology, and
+epidemiology.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Brent Davis</name>
+    </author>
+    <author>
+      <name>Kenneth L. Ho</name>
+    </author>
+    <author>
+      <name>Daniel J. Bates</name>
+    </author>
+    <author>
+      <name>Heather A. Harrington</name>
+    </author>
+    <link href="http://arxiv.org/abs/1507.04331v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1507.04331v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

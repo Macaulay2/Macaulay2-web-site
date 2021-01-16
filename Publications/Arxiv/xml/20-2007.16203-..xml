@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.16203%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.16203&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+ICRH2qeYQ0jo4THXj5lhXEyst4</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.16203v1</id>
+    <updated>2020-07-31T17:56:09Z</updated>
+    <published>2020-07-31T17:56:09Z</published>
+    <title>Distinguishing secant from cactus varieties</title>
+    <summary>  In this paper we study homogeneous polynomials and vector subspaces of a
+polynomial ring that are divisible by a large power of a linear form. We
+compute their cactus and border cactus ranks. We show that for $d\geq 5$, the
+component of the cactus variety $\kappa_{14}(\nu_d(\mathbb{P}^6))$ other than
+the secant variety $\sigma_{14}(\nu_d(\mathbb{P}^6))$ consists of degree $d$
+polynomials divisible by $(d-3)$-th power of a linear form. For $d\geq 6$ we
+present an algorithm for deciding whether a point in the cactus variety
+$\kappa_{14}(\nu_d(\mathbb{P}^6))$ belongs to the secant variety
+$\sigma_{14}(\nu_d(\mathbb{P}^6))$. Analogously, we show that for $d\geq 5$,
+the component of the Grassmann cactus variety
+$\kappa_{8,3}(\nu_d(\mathbb{P}^4))$ other than the Grassmann secant variety
+$\sigma_{8,3}(\nu_d(\mathbb{P}^4))$ consists of subspaces divisible by
+$(d-2)$-th power of a linear form. Finally, for $d\geq 5$ we present an
+algorithm for deciding whether a point in the Grassmann cactus variety
+$\kappa_{8,3}(\nu_d(\mathbb{P}^4))$ belongs to the Grassmann secant variety
+$\sigma_{8,3}(\nu_d(\mathbb{P}^4))$.
+</summary>
+    <author>
+      <name>Maciej Gałązka</name>
+    </author>
+    <author>
+      <name>Tomasz Mańdziuk</name>
+    </author>
+    <author>
+      <name>Filip Rupniewski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">37 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.16203v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.16203v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N07 (Primary) 14C05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

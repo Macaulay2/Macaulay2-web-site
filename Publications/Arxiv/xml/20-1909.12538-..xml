@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.12538%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.12538&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L736uplS6qZejBPFhSbCDltv4cI</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.12538v1</id>
+    <updated>2019-09-27T07:46:31Z</updated>
+    <published>2019-09-27T07:46:31Z</published>
+    <title>Ranks and Singularities of Cubic Surfaces</title>
+    <summary>  We explore the connection between the rank of a polynomial and the
+singularities of its vanishing locus. We first describe the singularity of
+generic polynomials of fixed rank. We then focus on cubic surfaces. Cubic
+surfaces with isolated singularities are known to fall into 22 singularity
+types. We compute the rank of a cubic surface of each singularity type. This
+enables us to find the possible singular loci of a cubic surface of fixed rank.
+Finally, we study connections to the Hessian discriminant. We show that a
+singular cubic surface lies on the Hessian discriminant unless all
+singularities are ordinary double points, and we show that the Hessian
+discriminant is the closure of the rank six cubic surfaces.
+</summary>
+    <author>
+      <name>Anna Seigal</name>
+    </author>
+    <author>
+      <name>Eunice Sukarto</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.12538v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.12538v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J17, 14Q10, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

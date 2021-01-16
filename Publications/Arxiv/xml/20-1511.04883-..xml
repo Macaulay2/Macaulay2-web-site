@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.04883%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.04883&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uqeIU1znb7EGqu2Q2b/uezSozik</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.04883v1</id>
+    <updated>2015-11-16T09:42:33Z</updated>
+    <published>2015-11-16T09:42:33Z</published>
+    <title>A non-Golod ring with a trivial product on its Koszul homology</title>
+    <summary>  We present a monomial ideal $\mathfrak{a} \subset S$ such that
+$S/\mathfrak{a}$ is not Golod, even though the product on its Koszul homology
+is trivial. This constitutes a counterexample to a well-known theorem by
+Berglund and J\"ollenbeck (the error can be traced to a mistake in an earlier
+article by J\"ollenbeck). As far as we know, this is the first example of any
+ring (monomial or not) with a trivial products on its Koszul homology which is
+not Golod.
+  On the positive side, we show that if $R$ is a monomial ring such that the
+$r$-ary Massey product vanish for all $r \leq \max(2, \mathrm{reg} R-2)$, then
+$R$ is Golod. In particular, if $R$ is the Stanley-Reisner ring of a simplicial
+complex of dimension at most $3$, then $R$ is Golod if and only if the product
+on its Koszul homology is trivial.
+  Moreover, we show that if $\Delta$ is a triangulation of a $\Bbbk$-orientable
+manifold whose Stanley-Reisner ring is Golod, then $\Delta$ is $2$-neighborly.
+This extends a recent result of Iriye and Kishimoto.
+</summary>
+    <author>
+      <name>Lukas Katthän</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1511.04883v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.04883v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 05E40, Secondary: 13D02, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

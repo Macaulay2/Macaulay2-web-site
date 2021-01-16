@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.02194%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.02194&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Vhkfd4t4mDuNPwC38S03252PZS0</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.02194v1</id>
+    <updated>2019-04-03T18:34:34Z</updated>
+    <published>2019-04-03T18:34:34Z</published>
+    <title>Projecting Fanos in the mirror</title>
+    <summary>  In the paper "Birational geometry via moduli spaces" by I. Cheltsov, L.
+Katzarkov, and V. Przyjalkowski a new structure connecting toric degenerations
+of smooth Fano threefolds by projections was introduced; using Mirror Symmetry
+these connections were transferred to the side of Landau--Ginzburg models. In
+the paper mentioned above a nice way to connect of Picard rank one Fano
+threefolds was found. We apply this approach to all smooth Fano threefolds,
+connecting their degenerations by toric basic links. In particular, we find a
+lot of Gorenstein toric degenerations of smooth Fano threefolds we need. We
+implement mutations in the picture as well. It turns out that appropriate
+chosen toric degenerations of the Fanos are given by toric basic links from a
+few roots. We interpret the relations we found in terms of Mirror Symmetry.
+</summary>
+    <author>
+      <name>Alexander Kasprzyk</name>
+    </author>
+    <author>
+      <name>Ludmil Katzarkov</name>
+    </author>
+    <author>
+      <name>Victor Przyjalkowski</name>
+    </author>
+    <author>
+      <name>Dmitrijs Sakovics</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">87 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.02194v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.02194v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

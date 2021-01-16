@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.05998%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.05998&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iqPkU4skU6hvIomZrO04s2wRXyc</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.05998v1</id>
+    <updated>2019-12-12T14:42:41Z</updated>
+    <published>2019-12-12T14:42:41Z</published>
+    <title>Examples relating to Green's conjecture in low characteristics and
+  genera</title>
+    <summary>  We exhibit approximately fifty Betti diagrams of free resolutions of rings of
+smooth, connected canonical curves of genera $9$-$14$ in prime characteristics
+between $2$ and $11$. Generic Green's conjecture is verified for genera $9$ and
+$10$ for characteristics $2$, $5$, $7$, and $11$.
+</summary>
+    <author>
+      <name>Topik Teguh Estu</name>
+    </author>
+    <author>
+      <name>Mee Seong Im</name>
+    </author>
+    <author>
+      <name>Benjamin Manning</name>
+    </author>
+    <author>
+      <name>Zachary Michaels</name>
+    </author>
+    <author>
+      <name>Joseph Pasko</name>
+    </author>
+    <author>
+      <name>William Rulla</name>
+    </author>
+    <author>
+      <name>Nishan Wijesinghe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.05998v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.05998v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1910.01671%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1910.01671&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HxxuCmeHlKX/BKBtDuOj/JpE45k</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01671v1</id>
+    <updated>2019-10-03T18:22:30Z</updated>
+    <published>2019-10-03T18:22:30Z</published>
+    <title>Pure and Spurious Critical Points: a Geometric Study of Linear Networks</title>
+    <summary>  The critical locus of the loss function of a neural network is determined by
+the geometry of the functional space and by the parameterization of this space
+by the network's weights. We introduce a natural distinction between pure
+critical points, which only depend on the functional space, and spurious
+critical points, which arise from the parameterization. We apply this
+perspective to revisit and extend the literature on the loss function of linear
+neural networks. For this type of network, the functional space is either the
+set of all linear maps from input to output space, or a determinantal variety,
+i.e., a set of linear maps with bounded rank. We use geometric properties of
+determinantal varieties to derive new results on the landscape of linear
+networks with different loss functions and different parameterizations.
+</summary>
+    <author>
+      <name>Matthew Trager</name>
+    </author>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Joan Bruna</name>
+    </author>
+    <link href="http://arxiv.org/abs/1910.01671v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1910.01671v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

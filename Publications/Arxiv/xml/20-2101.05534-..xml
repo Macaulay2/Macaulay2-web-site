@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.05534%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.05534&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VmJyBEOOVi5AFTXylVRKZFPyP+I</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.05534v1</id>
+    <updated>2021-01-14T10:16:15Z</updated>
+    <published>2021-01-14T10:16:15Z</published>
+    <title>Vertex decomposability of complexes associated to forests</title>
+    <summary>  In this article, we discuss the vertex decomposability of three well-studied
+simplicial complexes associated to forests. In particular, we show that the
+bounded degree complex of a forest and the complex of directed trees of a
+multidiforest are vertex decomposable. We then prove that the non-cover complex
+of a forest is either contractible or homotopy equivalent to a sphere. Finally,
+we provide a complete characterization of forests whose non-cover complexes are
+vertex decomposable.
+</summary>
+    <author>
+      <name>Anurag Singh</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.05534v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.05534v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C05, 05E45, 55P10, 55U10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

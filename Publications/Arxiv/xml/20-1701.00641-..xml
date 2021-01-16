@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.00641%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.00641&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Hb4MgPGULJDwTXRlcmMx4jrJbKw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.00641v1</id>
+    <updated>2017-01-03T10:40:15Z</updated>
+    <published>2017-01-03T10:40:15Z</published>
+    <title>3d supersymmetric gauge theories and Hilbert series</title>
+    <summary>  The Hilbert series is a generating function that enumerates gauge invariant
+chiral operators of a supersymmetric field theory with four supercharges and an
+R-symmetry. In this article I review how counting dressed 't Hooft monopole
+operators leads to a formula for the Hilbert series of a 3d $\mathcal{N}\geq 2$
+gauge theory, which captures precious information about the chiral ring and the
+moduli space of supersymmetric vacua of the theory.
+</summary>
+    <author>
+      <name>Stefano Cremonesi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Conference paper for String-Math 2016, College de France, Paris. 27
+  pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.00641v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.00641v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

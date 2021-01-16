@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.07976%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.07976&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZBHTrzwXyBMLu81ktDAsLFZU+e8</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.07976v2</id>
+    <updated>2018-03-04T14:04:40Z</updated>
+    <published>2018-02-22T10:46:47Z</published>
+    <title>Algorithmic Boundedness-From-Below Conditions for Generic Scalar
+  Potentials</title>
+    <summary>  Checking that a scalar potential is bounded from below (BFB) is an ubiquitous
+and notoriously difficult task in many models with extended scalar sectors.
+Exact analytic BFB conditions are known only in simple cases. In this work, we
+present a novel approach to algorithmically establish the BFB conditions for
+any polynomial scalar potential. The method relies on elements of multivariate
+algebra, in particular, on resultants and on the spectral theory of tensors,
+which is being developed by the mathematical community. We give first a
+pedagogical introduction to this approach, illustrate it with elementary
+examples, and then present the working Mathematica implementation publicly
+available at GitHub. Due to the rapidly increasing complexity of the problem,
+we have not yet produced ready-to-use analytical BFB conditions for new
+multi-scalar cases. But we are confident that the present implementation can be
+dramatically improved and may eventually lead to such results.
+</summary>
+    <author>
+      <name>Igor P. Ivanov</name>
+    </author>
+    <author>
+      <name>Marcel Köpke</name>
+    </author>
+    <author>
+      <name>Margarete Muhlleitner</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1140/epjc/s10052-018-5893-y</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1140/epjc/s10052-018-5893-y" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 2 figures; v2: added references</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Eur. Phys. J. C (2018) 78:413</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1802.07976v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.07976v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

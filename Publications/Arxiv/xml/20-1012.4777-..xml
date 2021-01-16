@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1012.4777%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1012.4777&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/h/HNs0yKD31/iOA6MSgfYLqG1mE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1012.4777v2</id>
+    <updated>2011-08-26T08:57:32Z</updated>
+    <published>2010-12-21T19:54:11Z</published>
+    <title>Generating stable modular graphs</title>
+    <summary>  We present the program Boundary, whose source files are available at
+http://people.sissa.it/~maggiolo/boundary/. Given two natural numbers g and n
+satisfying 2g+n-2&gt;0, the program generates all genus g stable graphs with n
+unordered marked points. Each such graph determines the topological type of a
+nodal stable curve of arithmetic genus g with n unordered marked points. Our
+motivation comes from the fact that the boundary of the moduli space of stable
+genus g, n-pointed curves can be stratified by taking loci of curves of a fixed
+topological type.
+</summary>
+    <author>
+      <name>Stefano Maggiolo</name>
+    </author>
+    <author>
+      <name>Nicola Pagani</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jsc.2011.05.008</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jsc.2011.05.008" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 3 figures. Final version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Symbolic Computation 46 (2011), pp. 1087-1097</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1012.4777v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1012.4777v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

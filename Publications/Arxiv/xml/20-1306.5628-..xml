@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.5628%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.5628&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MfQKwnEAmZqTvV4N9ykJGeylkjk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.5628v2</id>
+    <updated>2014-01-29T15:54:11Z</updated>
+    <published>2013-06-24T13:43:07Z</published>
+    <title>Calabi--Yau threefolds in $\mathbb{P}^6$</title>
+    <summary>  We study the geometry of $3$-codimensional smooth subvarieties of the complex
+projective space. In particular, we classify all quasi-Buchsbaum Calabi--Yau
+threefolds in projective $6$-space. Moreover, we prove that this classification
+includes all Calabi--Yau threefolds contained in a possibly singular
+5-dimensional quadric as well as all Calabi--Yau threefolds of degree at most
+$14$ in $\mathbb{P}^6$.
+</summary>
+    <author>
+      <name>Grzegorz Kapustka</name>
+    </author>
+    <author>
+      <name>Michal Kapustka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">In Section 3 we added a new result on the classification of
+  quasi-Buchsbaum Calabi--Yau threefolds in $\mathbb{P}^6$. This generalizes
+  the results of the previous Section 3. The abstract and the introduction are
+  adapted. We moreover improved the presentation, corrected the notation, added
+  precise references and added some assumptions (f.e. nondegeneracy of the
+  studied Calabi-Yau threefolds)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.5628v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.5628v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

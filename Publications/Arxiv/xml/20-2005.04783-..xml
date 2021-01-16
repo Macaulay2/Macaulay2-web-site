@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.04783%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.04783&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VIjOwVecYlW6F5FTHUIbjGAzgok</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.04783v1</id>
+    <updated>2020-05-10T21:09:19Z</updated>
+    <published>2020-05-10T21:09:19Z</published>
+    <title>Numerical equality tests for rational maps and signatures of curves</title>
+    <summary>  We apply numerical algebraic geometry to the invariant-theoretic problem of
+detecting symmetries between two plane algebraic curves. We describe an
+efficient equality test which determines, with "probability-one", whether or
+not two rational maps have the same image up to Zariski closure. The
+application to invariant theory is based on the construction of suitable
+signature maps associated to a group acting linearly on the respective curves.
+We consider two versions of this construction: differential and joint signature
+maps. In our examples and computational experiments, we focus on the complex
+Euclidean group, and introduce an algebraic joint signature that we prove
+determines equivalences of curves under this action. We demonstrate that the
+test is efficient and use it to empirically compare the sensitivity of
+differential and joint signatures to noise.
+</summary>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Michael Ruddy</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.04783v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.04783v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H50, 65H20, 14Q05, 14Lxx, 53A55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

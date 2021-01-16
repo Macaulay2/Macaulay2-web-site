@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.00375%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.00375&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aCHH25B9CX5WhPc/kUlAErVSIbo</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.00375v1</id>
+    <updated>2015-09-01T16:17:27Z</updated>
+    <published>2015-09-01T16:17:27Z</published>
+    <title>A hybrid symbolic-numerical approach to the center-focus problem</title>
+    <summary>  We propose a new hybrid symbolic-numerical approach to the center-focus
+problem. The method allowed us to obtain center conditions for a
+three-dimensional system of differential equations, which was previously not
+possible using traditional, purely symbolic computational techniques.
+</summary>
+    <author>
+      <name>Adam Mahdi</name>
+    </author>
+    <author>
+      <name>Claudio Pessoa</name>
+    </author>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <link href="http://arxiv.org/abs/1509.00375v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.00375v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

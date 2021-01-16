@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1307.5132%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1307.5132&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zbYKyD5sTJwrLIRm/03+Rcegefk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1307.5132v2</id>
+    <updated>2014-07-03T13:03:49Z</updated>
+    <published>2013-07-19T05:55:57Z</published>
+    <title>Every matrix is a product of Toeplitz matrices</title>
+    <summary>  We show that every n-by-n matrix is generically a product of [n/2] + 1
+Toeplitz matrices and always a product of at most 2n+5 Toeplitz matrices. The
+same result holds true if the word "Toeplitz" is replaced by "Hankel", and the
+generic bound [n/2] + 1 is sharp. We will see that these decompositions into
+Toeplitz or Hankel factors are unusual: We may not in general replace the
+subspace of Toeplitz or Hankel matrices by an arbitrary (2n-1)-dimensional
+subspace of n-by-n matrices. Furthermore such decompositions do not exist if we
+require the factors to be symmetric Toeplitz, persymmetric Hankel, or circulant
+matrices, even if we allow an infinite number of factors. Lastly, we discuss
+how the Toeplitz and Hankel decompositions of a generic matrix may be computed
+by either (i) solving a system of linear and quadratic equations if the number
+of factors is required to be [n/2] + 1, or (ii) Gaussian elimination in O(n^3)
+time if the number of factors is allowed to be 2n.
+</summary>
+    <author>
+      <name>Ke Ye</name>
+    </author>
+    <author>
+      <name>Lek-Heng Lim</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1307.5132v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1307.5132v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15B05, 14A10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

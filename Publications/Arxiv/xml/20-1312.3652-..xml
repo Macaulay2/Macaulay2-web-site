@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1312.3652%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1312.3652&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bmyW5I5hM5zffT7r8iWSe1fxA14</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1312.3652v1</id>
+    <updated>2013-12-12T21:18:33Z</updated>
+    <published>2013-12-12T21:18:33Z</published>
+    <title>Chen ranks and resonance</title>
+    <summary>  The Chen groups of a group $G$ are the lower central series quotients of the
+maximal metabelian quotient of $G$. Under certain conditions, we relate the
+ranks of the Chen groups to the first resonance variety of $G$, a jump locus
+for the cohomology of $G$. In the case where $G$ is the fundamental group of
+the complement of a complex hyperplane arrangement, our results positively
+resolve Suciu's Chen ranks conjecture. We obtain explicit formulas for the Chen
+ranks of a number of groups of broad interest, including pure Artin groups
+associated to Coxeter groups, and the group of basis-conjugating automorphisms
+of a finitely generated free group.
+</summary>
+    <author>
+      <name>Daniel C. Cohen</name>
+    </author>
+    <author>
+      <name>Henry K. Schenck</name>
+    </author>
+    <link href="http://arxiv.org/abs/1312.3652v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.3652v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20F14, 14M12, 20F36, 52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

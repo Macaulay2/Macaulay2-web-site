@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.03569%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.03569&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GiUqSpLruyCWKtgN3L6lBMIUfKg</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.03569v1</id>
+    <updated>2019-11-08T22:43:31Z</updated>
+    <published>2019-11-08T22:43:31Z</published>
+    <title>The matroid stratification of the Hilbert scheme of k points in P^1</title>
+    <summary>  Given a homogeneous ideal $I$ in a polynomial ring over a field, one may
+record, for each degree $d$ and for each polynomial $f\in I_d$, the set of
+monomials in $f$ with nonzero coefficients. These sets form a sequence of
+matroids indexed by $d$, collectively called the tropicalization of $I$.
+Tropicalizing ideals induces a "matroid stratification" on any (multi-)graded
+Hilbert scheme. Very little is known about the structure of these
+stratifications; our motivation in studying them is to understand torus orbits
+in the Hilbert scheme of points $(\mathbb{A}^2)^{[n]}.$
+  In this paper, we explore many examples of matroid strata, and give a
+convenient way of visualizing them. We focus on the special case of principal
+ideals in $K[x,y],$ i.e. collections of points in $\mathbb{P}^1$. In this case,
+we find that the matroid strata in $(\mathbb{P}^1)^{[k]}$ (of which there are
+infinitely many, so they are not Zariski-locally closed) are exactly cut out by
+the Schur polynomials in $k$ variables. We find certain minimal strata
+(rational curves) in $(\mathbb{P}^1)^{[k]}$ that are in natural bijection with
+binary necklaces with $k$ black beads and any number of white beads, if we are
+over a field containing appropriate roots of unity. We then give an
+application: by intersecting these special principal ideals with monomial
+ideals, we find corresponding strata in $(\mathbb{A}^2)^{[n]}$. This proves the
+existence of certain new edges in the $T$-graph of $(\mathbb{A}^2)^{[n]};$
+classifying this graph is a longstanding open problem studied by
+Altmann-Sturmfels, Hering-Maclagan, and others.
+</summary>
+    <author>
+      <name>Rob Silversmith</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 9 figures, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1911.03569v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.03569v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05 (Primary), 05E40, 05B35 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

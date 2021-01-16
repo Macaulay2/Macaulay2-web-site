@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.3078%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.3078&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xVeNUW0npNPNJS3D35Gdbt0dO0M</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3078v1</id>
+    <updated>2013-01-14T17:57:18Z</updated>
+    <published>2013-01-14T17:57:18Z</published>
+    <title>Fano schemes of generic intersections and machine learning</title>
+    <summary>  We investigate Fano schemes of conditionally generic intersections, i.e. of
+hypersurfaces in projective space chosen generically up to additional
+conditions. Via a correspondence between generic properties of algebraic
+varieties and events in probability spaces that occur with probability one, we
+use the obtained results on Fano schemes to solve a problem in machine
+learning.
+</summary>
+    <author>
+      <name>Franz Király</name>
+    </author>
+    <author>
+      <name>Paul Larsen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, comments very welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.3078v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.3078v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J40, 14J70, 14M15, 62M10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

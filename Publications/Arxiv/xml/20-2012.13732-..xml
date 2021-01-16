@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.13732%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.13732&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1ItFdkZgz2V8oH6pdgyX1JoFss4</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.13732v1</id>
+    <updated>2020-12-26T13:13:40Z</updated>
+    <published>2020-12-26T13:13:40Z</published>
+    <title>An equivariant Hochster's formula for $S_n$-invariant monomial
+  ideals</title>
+    <summary>  Let $R=\Bbbk[x_1,\dots,x_n]$ be a polynomial ring over a field $\Bbbk$ and
+let $I\subset R$ be a monomial ideal preserved by the natural action of the
+symmetric group $\mathfrak S_n$ on $R$. We give a combinatorial method to
+determine the $\mathfrak S_n$-module structure of $\mathrm{Tor}_i(I,\Bbbk)$.
+Our formula shows that $\mathrm{Tor}_i(I,\Bbbk)$ is built from induced
+representations of tensor products of Specht modules associated to hook
+partitions, and their multiplicities are determined by topological Betti
+numbers of certain simplicial complexes. This result can be viewed as an
+$\mathfrak S_n$-equivariant analogue of Hochster's formula for Betti numbers of
+monomial ideals. We apply our results to determine extremal Betti numbers of
+$\mathfrak S_n$-invariant monomial ideals, and in particular recover formulas
+for their Castelnuovo--Mumford regularity and projective dimension. We also
+give a concrete recipe for how the Betti numbers change as we increase the
+number of variables, and in characteristic zero (or $&gt;n$) we compute the
+$\mathfrak S_n$-invariant part of $\mathrm{Tor}_i(I,\Bbbk)$ in terms of
+$\mathrm{Tor}$ groups of the unsymmetrization of $I$.
+</summary>
+    <author>
+      <name>Satoshi Murai</name>
+    </author>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.13732v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.13732v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

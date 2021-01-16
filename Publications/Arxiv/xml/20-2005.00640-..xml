@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.00640%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.00640&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yRIgYsYonwhvEa9nRl8uMNPdyYc</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.00640v1</id>
+    <updated>2020-05-01T22:36:02Z</updated>
+    <published>2020-05-01T22:36:02Z</published>
+    <title>An Algebraic Approach to Projective Uniqueness with an Application to
+  Order Polytopes</title>
+    <summary>  A combinatorial polytope $P$ is said to be projectively unique if it has a
+single realization up to projective transformations. Projective uniqueness is a
+geometrically compelling property but is difficult to verify. In this paper, we
+merge two approaches to projective uniqueness in the literature. One is
+primarily geometric and is due to McMullen, who showed that certain natural
+operations on polytopes preserve projective uniqueness. The other is more
+algebraic and is due to Gouveia, Macchia, Thomas, and Wiebe. They use certain
+ideals associated to a polytope to verify a property called graphicality that
+implies projective uniqueness. In this paper, we show that that McMullen's
+operations preserve not only projective uniquness but also graphicality. As an
+application, we show that large families of order polytopes are graphic and
+thus projectively unique.
+</summary>
+    <author>
+      <name>Tristram Bogart</name>
+    </author>
+    <author>
+      <name>João Gouveia</name>
+    </author>
+    <author>
+      <name>Juan Camilo Torres</name>
+    </author>
+    <link href="http://arxiv.org/abs/2005.00640v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.00640v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

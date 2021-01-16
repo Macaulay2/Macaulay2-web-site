@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.7590%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.7590&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fJl5Zttax7j6xMZ4AXekAfEkW4E</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7590v1</id>
+    <updated>2014-06-30T03:06:07Z</updated>
+    <published>2014-06-30T03:06:07Z</published>
+    <title>A survey on the Lyubeznik numbers</title>
+    <summary>  The Lyubeznik numbers are invariants of a local ring containing a field that
+capture ring-theoretic properties, but also have numerous connections to
+geometry and topology. We discuss basic properties of these integer-valued
+invariants, as well as describe some significant results and recent
+developments (including certain generalizations) in the area.
+</summary>
+    <author>
+      <name>Luis Núñez-Betancourt</name>
+    </author>
+    <author>
+      <name>Emily E. Witt</name>
+    </author>
+    <author>
+      <name>Wenliang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome. Workshop: "Taller de Vinculaci\'on: Matem\'aticos
+  Mexicanos J\'ovenes en el Mundo."</arxiv:comment>
+    <link href="http://arxiv.org/abs/1406.7590v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.7590v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45, 13N10, 13H99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

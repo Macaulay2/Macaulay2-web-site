@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.07496%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.07496&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GbgxX1g6lDhhp8NovUEapaV26tU</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.07496v2</id>
+    <updated>2017-07-01T06:47:00Z</updated>
+    <published>2017-06-22T21:22:02Z</published>
+    <title>Some algebraic aspects of mesoprimary decomposition</title>
+    <summary>  Recent results of Kahle and Miller give a method of constructing primary
+decompositions of binomial ideals by first constructing "mesoprimary
+decompositions" determined by their underlying monoid congruences. Monoid
+congruences (and therefore, binomial ideals) can present many subtle behaviors
+that must be carefully accounted for in order to produce general results, and
+this makes the theory complicated. In this paper, we examine their results in
+the presence of a positive $A$-grading, where certain pathologies are avoided
+and the theory becomes more accessible. Our approach is algebraic: while key
+notions for mesoprimary decomposition are developed first from a combinatorial
+point of view, here we state definitions and results in algebraic terms, which
+are moreover significantly simplified due to our (slightly) restricted setting.
+In the case of toral components (which are well-behaved with respect to the
+$A$-grading), we are able to obtain further simplifications under additional
+assumptions. We also provide counterexamples to two open questions, identifying
+(i) a binomial ideal whose hull is not binomial, answering a question of
+Eisenbud and Sturmfels, and (ii) a binomial ideal $I$ for which
+$I_\text{toral}$ is not binomial, answering a question of Dickenstein, Miller
+and the first author.
+</summary>
+    <author>
+      <name>Laura Felicia Matusevich</name>
+    </author>
+    <author>
+      <name>Christopher O'Neill</name>
+    </author>
+    <link href="http://arxiv.org/abs/1706.07496v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.07496v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

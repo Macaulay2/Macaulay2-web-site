@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1407.0585%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1407.0585&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7BkXfhQfbvO9tUQ6BhES1CXd0jA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0585v1</id>
+    <updated>2014-07-02T14:31:12Z</updated>
+    <published>2014-07-02T14:31:12Z</published>
+    <title>Gap vectors of real projective varieties</title>
+    <summary>  Let $X\subseteq \mathbb{P}^m$ be a totally real, non-degenerate, projective
+variety and let $\Gamma\subseteq X(\mathbb{R})$ be a generic set of points. Let
+$P$ be the cone of nonnegative quadratic forms on $X$ and let $\Sigma$ be the
+cone of sums of squares of linear forms. We examine the dimensions of the faces
+$P(\Gamma)$ and $\Sigma(\Gamma)$ consisting of forms in $P$ and $\Sigma$, which
+vanish on $\Gamma$. As the cardinality of the set $\Gamma$ varies in
+$1,\dots,\rm{codim}(X)$, the difference between the dimensions of $P(\Gamma)$
+and $\Sigma(\Gamma)$ defines a numerical invariant of $X$, which we call the
+gap vector of X. In this article we begin a systematic study of its fundamental
+properties. Our main result is a formula relating the components of the gap
+vector of $X$ and the quadratic deficiencies of $X$ and its generic
+projections. The quadratic deficiency is a fundamental numerical invariant of
+projective varieties introduced by F. L. Zak. The relationship between
+quadratic deficiency and gap vectors allows us to effectively compute the gap
+vectors of concrete varieties as well as to prove several general properties.
+We prove that gap vectors are weakly increasing, obtain upper bounds for their
+rate of growth and prove that these upper bounds are eventually achieved for
+all varieties. Moreover, we give a characterization of the varieties with the
+simplest gap vectors: We prove that the gap vector vanishes identically
+precisely for varieties of minimal degree, and characterize the varieties whose
+gap vector equals $(0,\dots, 0,1)$. In particular, our results give a new proof
+of the theorem of Blekherman, Smith and Velasco saying that there are
+nonnegative quadratic forms which are not sums of squares on every variety,
+which is not of minimal degree. Finally, we determine the gap vector of all
+Veronese embeddings of $\mathbb{P}^2$, generalizing work of the first three
+authors.
+</summary>
+    <author>
+      <name>Grigoriy Blekherman</name>
+    </author>
+    <author>
+      <name>Sadik Iliman</name>
+    </author>
+    <author>
+      <name>Martina Juhnke-Kubitzke</name>
+    </author>
+    <author>
+      <name>Mauricio Velasco</name>
+    </author>
+    <link href="http://arxiv.org/abs/1407.0585v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1407.0585v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P99, 14M99, 52A99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

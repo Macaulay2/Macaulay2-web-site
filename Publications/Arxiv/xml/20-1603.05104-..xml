@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1603.05104%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1603.05104&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jPFwU+ung1ex2b5o2dQNuDWXKHU</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1603.05104v1</id>
+    <updated>2016-03-16T13:58:33Z</updated>
+    <published>2016-03-16T13:58:33Z</published>
+    <title>Liftability of singularities and their Frobenius morphism modulo $p^2$</title>
+    <summary>  We investigate the $W_2(k)$-liftability of singular schemes. We prove
+constructibility of the locus of $W_2(k)$-liftable schemes in a flat family $X
+\to S$. Moreover, we construct an explicit $W_2(k)$-lifting of a Frobenius
+split scheme $X$ over a perfect field $k$, reproving Bhatt's existential
+result. Furthermore, we study existence of liftings of the Frobenius morphism.
+In particular, we prove that in dimension $n \geq 4$ ordinary double points do
+not admit a $W_2(k)$-lifting compatible with Frobenius, and that canonical
+surface singularities are Frobenius liftable. Combined with Bhatt's results,
+the latter result implies that the crystalline cohomology groups over $k$ of
+surfaces with canonical singularities are not finite dimensional. As a
+corollary of our results, we provide a thorough comparison between the notions
+of $W_2(k)$-liftability, Frobenius liftability and classical $F$-singularity
+types.
+</summary>
+    <author>
+      <name>Maciej Zdanowicz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1603.05104v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.05104v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D15, 14B07, 14G17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

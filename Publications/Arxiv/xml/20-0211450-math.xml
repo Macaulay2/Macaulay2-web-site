@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0211450%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0211450&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BHCsw2JBvG+8OeELX+ljlsAaCvA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0211450v1</id>
+    <updated>2002-11-28T15:21:09Z</updated>
+    <published>2002-11-28T15:21:09Z</published>
+    <title>Symmetry groups, semidefinite programs, and sums of squares</title>
+    <summary>  We investigate the representation of symmetric polynomials as a sum of
+squares. Since this task is solved using semidefinite programming tools we
+explore the geometric, algebraic, and computational implications of the
+presence of discrete symmetries in semidefinite programs. It is shown that
+symmetry exploitation allows a significant reduction in both matrix size and
+number of decision variables. This result is applied to semidefinite programs
+arising from the computation of sum of squares decompositions for multivariate
+polynomials. The results, reinterpreted from an invariant-theoretic viewpoint,
+provide a novel representation of a class of nonnegative symmetric polynomials.
+The main theorem states that an invariant sum of squares polynomial is a sum of
+inner products of pairs of matrices, whose entries are invariant polynomials.
+In these pairs, one of the matrices is computed based on the real irreducible
+representations of the group, and the other is a sum of squares matrix. The
+reduction techniques enable the numerical solution of large-scale instances,
+otherwise computationally infeasible to solve.
+</summary>
+    <author>
+      <name>Karin Gatermann</name>
+    </author>
+    <author>
+      <name>Pablo A. Parrilo</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jpaa.2003.12.011</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages, submitted</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Pure and Appl. Algebra, Vol. 192, No. 1-3, pp. 95-128,
+  2004</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0211450v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0211450v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jpaa.2003.12.011" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P99 ; 26C05 ; 13A50 ; 68W30 ; 90C22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

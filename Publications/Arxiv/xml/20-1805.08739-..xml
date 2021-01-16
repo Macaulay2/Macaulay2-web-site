@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.08739%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.08739&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cJN50SSoKFqQABMBtrrcdYCDVbk</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.08739v2</id>
+    <updated>2018-05-28T17:16:25Z</updated>
+    <published>2018-05-22T16:59:55Z</published>
+    <title>A New Subadditivity Formula for Test Ideals</title>
+    <summary>  We exhibit a new subadditivity formula for test ideals on singular varieties
+using an argument similar to those of Demailly-Ein-Lazarsfeld and Hara-Yoshida.
+Any subadditivity formula for singular varieties must have a correction term
+that measures the singularities of that variety. Whereas earlier subadditivity
+formulas accomplished this by multiplying by the Jacobian ideal, our approach
+is to use the formalism of Cartier algebras. We also show that our
+subadditivity containment is sharper than ones shown previously by Takagi and
+Eisenstein. The first of these results follows from a Noether normalization
+technique due to Hochster and Huneke. The second of these results is obtained
+using ideas of Takagi and Eisenstein to show that the adjoint ideal
+$\mathscr{J}_X(A, Z) $ reduces mod $p$ to Takagi's adjoint test ideal, even
+when the ambient space is singular, provided that $A$ is regular at the generic
+point of $X$. One difficulty of using this new subadditivity formula in
+practice is the computational complexity of computing its correction term.
+Thus, we discuss a combinatorial construction of the relevant Cartier algebra
+in the toric setting.
+</summary>
+    <author>
+      <name>Daniel Smolkin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages, 2 figures. Improved the proof of theorem 3.11, strengthened
+  Proposition 7.2, and corrected minor typos</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.08739v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.08739v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

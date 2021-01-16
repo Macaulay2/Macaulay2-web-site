@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.04995%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.04995&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BbqbmTqVQEVvMe6YKdpePLj+11M</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.04995v2</id>
+    <updated>2016-10-18T19:59:30Z</updated>
+    <published>2016-10-17T07:58:51Z</published>
+    <title>Conic bundles with nontrivial unramified Brauer group over threefolds</title>
+    <summary>  We derive a formula for the unramified Brauer group of a general class of
+rationally connected fourfolds birational to conic bundles over smooth
+threefolds. We produce new examples of conic bundles over P^3 where this
+formula applies and which have nontrivial unramified Brauer group. The
+construction uses the theory of contact surfaces and, at least implicitly,
+matrix factorizations and symmetric arithmetic Cohen--Macaulay sheaves, as well
+as the geometry of special arrangements of rational curves in P^2. We also
+prove the existence of universally CH_0-trivial resolutions for the general
+class of conic bundle fourfolds we consider. Using the degeneration method, we
+thus produce new families of rationally connected fourfolds whose very general
+member is not stably rational.
+</summary>
+    <author>
+      <name>Asher Auel</name>
+    </author>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf v. Bothmer</name>
+    </author>
+    <author>
+      <name>Alena Pirutka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages, Macaulay 2 code used for verification of parts of the paper
+  available at http://www.math.uni-hamburg.de/home/bothmer/M2/conicBundles/</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.04995v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.04995v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11E04, 14C35, 14D06, 14E08, 14F22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.08851%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.08851&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IeGJ1eFdjDTI5GoDNVakJIcTvOw</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.08851v1</id>
+    <updated>2019-11-20T12:11:16Z</updated>
+    <published>2019-11-20T12:11:16Z</published>
+    <title>Discriminants of Toric Varieties</title>
+    <summary>  We study the subvariety of singular sections, the discriminant, of a base
+point free linear system $|L|$ on a smooth toric variety $X$. On one hand we
+describe pairs $(X,L)$ for which the discriminant is of low dimension.
+Precisely, we collect some bounds on this dimension and classify those pairs
+whose dimension differs the bound less than or equal to two. On the other hand
+we study the degree of the discriminant for some relevant families on polarized
+toric varieties, describing their minimal values and the region of the ample
+cone where this minimal is attained.
+</summary>
+    <author>
+      <name>Roberto Muñoz</name>
+    </author>
+    <author>
+      <name>Álvaro Nolla de Celis</name>
+    </author>
+    <link href="http://arxiv.org/abs/1911.08851v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.08851v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

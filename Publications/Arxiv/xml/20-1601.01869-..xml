@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1601.01869%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1601.01869&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ilLmGWoRUfAOHp64YM1g3V8TQac</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1601.01869v1</id>
+    <updated>2016-01-08T13:39:53Z</updated>
+    <published>2016-01-08T13:39:53Z</published>
+    <title>On the number of Waring decompositions for a generic polynomial vector</title>
+    <summary>  We prove that a general polynomial vector $(f_1, f_2, f_3)$ in three
+homogeneous variables of degrees $(3,3,4)$ has a unique Waring decomposition of
+rank 7. This is the first new case we are aware, and likely the last one, after
+five examples known since 19th century and the binary case. We prove that there
+are no identifiable cases among pairs $(f_1, f_2)$ in three homogeneous
+variables of degree $(a, a+1)$, unless $a=2$, and we give a lower bound on the
+number of decompositions. The new example was discovered with Numerical
+Algebraic Geometry, while its proof needs Nonabelian Apolarity.
+</summary>
+    <author>
+      <name>Elena Angelini</name>
+    </author>
+    <author>
+      <name>Francesco Galuppi</name>
+    </author>
+    <author>
+      <name>Massimiliano Mella</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, a Macaulay2 code as ancillary file</arxiv:comment>
+    <link href="http://arxiv.org/abs/1601.01869v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.01869v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A21, 14N05, 14Q15, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

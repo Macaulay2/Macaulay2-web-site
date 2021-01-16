@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.09649%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.09649&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wHUhcyC6HZgtJAqcnjerl+hYSfU</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.09649v3</id>
+    <updated>2019-07-21T13:36:45Z</updated>
+    <published>2019-04-21T19:25:54Z</published>
+    <title>Monodromy in weight hypergraphs and its applications to torus actions</title>
+    <summary>  In this paper, we present a necessary condition for a non-singular projective
+variety with an effective algebraic torus action of positive complexity with
+isolated fixed points to be a toric variety. The method is based on the
+monodromy map on the weight hypergraph associated with the torus action. The
+introduced notion of a weight hypergraph generalises the GKM-graph in the case
+of a torus action satisfying all axioms from the definition of a GKM-manifold,
+except $2$-linear independence of weights at fixed points. We apply this method
+to the generalised Buchstaber-Ray varieties $BR_{i,j}\subset BF_{i}\times
+\mathbb{P}^{j}$, $i,j\geq 0$, as well as the Ray's varieties $R_{i,j}\subset
+BF_{i}\times BF_{j}$ and give a full list of toric varieties among them. The
+importance of the varieties $R_{i,j}$ is due to the problem of representatives
+in the unitary bordism ring in the family of quasitoric TTS- and TNS-manifolds.
+Also in this paper the automorphism group $Aut H_{i,j}$ is computed for the
+Milnor hypersurface $H_{i,j}\subset \mathbb{P}^{i}\times \mathbb{P}^{j}$. As a
+corollary, any effective action of $(S^{1})^{k}$ on the Milnor hypersurface
+$H_{i,j}$ preserving the natural complex structure has $k\leqslant \max{\lbrace
+i,j\rbrace}$.
+</summary>
+    <author>
+      <name>Grigory Solomadin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 2 figures. Former Proposition 6.18 corrected. Added
+  condition of cluttering hypergraphs. Abstract rewritten. Typos corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.09649v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.09649v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

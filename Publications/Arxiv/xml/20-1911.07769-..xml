@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.07769%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.07769&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gR74LXwmYge/PTtTImvnrq/6qwk</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.07769v1</id>
+    <updated>2019-11-18T17:02:13Z</updated>
+    <published>2019-11-18T17:02:13Z</published>
+    <title>Catalecticant intersections and confinement of decompositions of forms</title>
+    <summary>  We introduce the notion of confinement of decompositions for forms or vector
+of forms. The confinement, when it holds, lowers the number of parameters that
+one needs to consider, in order to find all the possible decompositions of a
+given set of data. With the technique of confinement, we obtain here two
+results. First, we give a new, short proof of a result by London that $3$
+general plane cubics have $2$ simultaneous Waring decompositions of rank $6$.
+Then we compute, with the software Bertini, that $4$ general plane quartics
+have $18$ different decompositions of rank $10$ (a result which was not known
+before).
+</summary>
+    <author>
+      <name>Elena Angelini</name>
+    </author>
+    <author>
+      <name>Cristiano Bocci</name>
+    </author>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <link href="http://arxiv.org/abs/1911.07769v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.07769v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.0903%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.0903&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yHYdZorAgUimppGCXGX5LjCiZZs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.0903v1</id>
+    <updated>2013-04-03T10:25:44Z</updated>
+    <published>2013-04-03T10:25:44Z</published>
+    <title>A simple counterexample to the Jordan-Hölder property for derived
+  categories</title>
+    <summary>  A counterexample to the Jordan-H\"older property for semiorthogonal
+decompositions of derived categories of smooth projective varieties was
+constructed by B\"ohning, Graf von Bothmer and Sosna. In this short note we
+present a simpler example by realizing Bondal's quiver in the derived category
+of a blowup of the projective space.
+</summary>
+    <author>
+      <name>Alexander Kuznetsov</name>
+    </author>
+    <link href="http://arxiv.org/abs/1304.0903v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.0903v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.05377%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.05377&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1m0EFJd0N3E/X6zt7RnsKyOFzVQ</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.05377v1</id>
+    <updated>2018-09-14T12:39:44Z</updated>
+    <published>2018-09-14T12:39:44Z</published>
+    <title>Regularity, matchings and Cameron-Walker graphs</title>
+    <summary>  Let $G$ be a simple graph and let $\nu(G)$ be the matching number of $G$. It
+is well-known that $\reg I(G) \leqslant \nu(G)+1$. In this paper we show that
+$\reg I(G) = \nu(G)+1$ if and only if every connected component of $G$ is
+either a pentagon or a Cameron-Walker graph.
+</summary>
+    <author>
+      <name>Tran Nam Trung</name>
+    </author>
+    <link href="http://arxiv.org/abs/1809.05377v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.05377v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

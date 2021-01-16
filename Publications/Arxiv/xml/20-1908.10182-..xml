@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1908.10182%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1908.10182&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jclBV13+ELbUSv/j7GvD6L8yqYs</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1908.10182v1</id>
+    <updated>2019-08-27T13:26:40Z</updated>
+    <published>2019-08-27T13:26:40Z</published>
+    <title>Game Values of Strong Placement Games</title>
+    <summary>  The legal positions of a strong placement game, such as Domineering, form a
+simplicial complex called the legal complex. In this paper, we use the legal
+complex to study the game values taken on by the class of strong placement
+games using the legal complex. We show that many interesting values are
+possible, including all numbers and nimbers. We further consider how structures
+of the legal complex influence which values are possible.
+</summary>
+    <author>
+      <name>Svenja Huntemann</name>
+    </author>
+    <link href="http://arxiv.org/abs/1908.10182v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1908.10182v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

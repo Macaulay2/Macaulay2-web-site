@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.4383%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.4383&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QbQM7abWPlAHVOjdveXupwvDvk0</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.4383v2</id>
+    <updated>2013-05-21T20:24:21Z</updated>
+    <published>2011-07-21T21:18:34Z</published>
+    <title>The QuillenSuslin Package for Macaulay2</title>
+    <summary>  A supplemental paper detailing the QuillenSuslin package for Macaulay2. The
+QuillenSuslin package for Macaulay2 provides the ability to compute a free
+basis for a projective module over a polynomial ring with coefficients in Q, Z
+or Z/p for a prime integer p. A brief description of the underlying algorithm
+and the related tools are given.
+</summary>
+    <author>
+      <name>Brett Barwick</name>
+    </author>
+    <author>
+      <name>Branden Stone</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages. The current version has some minor edits and added
+  references</arxiv:comment>
+    <link href="http://arxiv.org/abs/1107.4383v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.4383v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="(Primary) 13P99, (Secondary) 13C10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

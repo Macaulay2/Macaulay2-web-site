@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.00697%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.00697&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/96WVz2U7QZ75hLMt9qhbOsqkiQw</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00697v1</id>
+    <updated>2016-07-03T22:54:11Z</updated>
+    <published>2016-07-03T22:54:11Z</published>
+    <title>Neural ideals and stimulus space visualization</title>
+    <summary>  A neural code $\mathcal{C}$ is a collection of binary vectors of a given
+length n that record the co-firing patterns of a set of neurons. Our focus is
+on neural codes arising from place cells, neurons that respond to geographic
+stimulus. In this setting, the stimulus space can be visualized as subset of
+$\mathbb{R}^2$ covered by a collection $\mathcal{U}$ of convex sets such that
+the arrangement $\mathcal{U}$ forms an Euler diagram for $\mathcal{C}$. There
+are some methods to determine whether such a convex realization $\mathcal{U}$
+exists; however, these methods do not describe how to draw a realization. In
+this work, we look at the problem of algorithmically drawing Euler diagrams for
+neural codes using two polynomial ideals: the neural ideal, a pseudo-monomial
+ideal; and the neural toric ideal, a binomial ideal. In particular, we study
+how these objects are related to the theory of piercings in information
+visualization, and we show how minimal generating sets of the ideals reveal
+whether or not a code is $0$, $1$, or $2$-inductively pierced.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Nida Kazi Obatake</name>
+    </author>
+    <author>
+      <name>Nora Youngs</name>
+    </author>
+    <link href="http://arxiv.org/abs/1607.00697v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.00697v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

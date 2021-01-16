@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.04039%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.04039&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rbZvTTmCCC96PrFQgWNLNdXLq1o</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.04039v2</id>
+    <updated>2015-05-09T05:38:37Z</updated>
+    <published>2015-01-16T16:48:30Z</published>
+    <title>On the geometry of real or complex supersolvable line arrangements</title>
+    <summary>  Given a rank 3 real arrangement $\mathcal A$ of $n$ lines in the projective
+plane, the Dirac-Motzkin conjecture (proved by Green and Tao in 2013) states
+that for $n$ sufficiently large, the number of simple intersection points of
+$\mathcal A$ is greater than or equal to $n/2$. With a much simpler proof we
+show that if $\mathcal A$ is supersolvable, then the conjecture is true for any
+$n$ (a small improvement of original conjecture). The Slope problem (proved by
+Ungar in 1982) states that $n$ non-collinear points in the real plane determine
+at least $n-1$ slopes; we show that this is equivalent to providing a lower
+bound on the multiplicity of a modular point in any (real) supersolvable
+arrangement. In the second part we find connections between the number of
+simple points of a supersolvable line arrangement, over any field of
+characteristic 0, and the degree of the reduced Jacobian scheme of the
+arrangement. Over the complex numbers even though the Sylvester-Gallai theorem
+fails to be true, we conjecture that the supersolvable version of the
+Dirac-Motzkin conjecture is true.
+</summary>
+    <author>
+      <name>Benjamin Anzis</name>
+    </author>
+    <author>
+      <name>Stefan Tohaneanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.04039v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.04039v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C30 (Primary), 52C35, 05B35, 06C10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

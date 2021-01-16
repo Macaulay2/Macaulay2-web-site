@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.01701%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.01701&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cWILG3bN0LxVu3ncRetqP5jO7UU</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.01701v1</id>
+    <updated>2016-04-06T17:36:24Z</updated>
+    <published>2016-04-06T17:36:24Z</published>
+    <title>Cohomology of automorphism groups of free groups with twisted
+  coefficients</title>
+    <summary>  We compute the groups $H^*(\mathrm{Aut}(F_n); M)$ and $H^*(\mathrm{Out}(F_n);
+M)$ in a stable range, where $M$ is obtained by applying a Schur functor to
+$H_\mathbb{Q}$ or $H^*_\mathbb{Q}$, respectively the first rational homology
+and cohomology of $F_n$. For reasons which are not conceptually clear, taking
+coefficients in $H_\mathbb{Q}$ and its related modules behaves in a far less
+trivial way than taking coefficients in $H^*_\mathbb{Q}$ and its related
+modules. The answer may be described in terms of stable multiplicities of
+irreducibles in the plethysm $\mathrm{Sym}^k \circ \mathrm{Sym}^l$ of symmetric
+powers.
+  We also compute the stable integral cohomology groups of $\mathrm{Aut}(F_n)$
+with coefficients in $H$ or $H^*$, respectively the first integral homology and
+cohomology of $F_n$, and compute the stable cohomology with coefficients in
+Schur functors of $H$ or $H^*$ modulo small primes.
+</summary>
+    <author>
+      <name>Oscar Randal-Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages. Supersedes arXiv:1012.1433</arxiv:comment>
+    <link href="http://arxiv.org/abs/1604.01701v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.01701v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20F28, 20J06, 57R20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

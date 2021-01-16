@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.02723%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.02723&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/n1fffVIOmP+M+Ah6hpNhP+3cux0</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.02723v1</id>
+    <updated>2017-06-08T18:14:10Z</updated>
+    <published>2017-06-08T18:14:10Z</published>
+    <title>On the Chiral Ring and Vacua of ${\cal N}=1$ Adjoint SQCD</title>
+    <summary>  We analyze classical and quantum chiral ring relations of four dimensional
+${\cal N} = 1$ adjoint SQCD with superpotential turned on for the adjoint
+field. In particular, for the mass deformed theory we obtain the complete on
+shell vacuum expectation value for various gauge invariant chiral operators and
+find non-trivial gaugino condensations. When approaching to massless limit
+nontrivial flat directions in the moduli space of vacua appear, where the
+Coulomb branch can be naturally classified and the Higgs branch receives
+quantum corrections. We argue that the solution of the chiral ring is in
+one-to-one correspondence with supersymmetric vacua, provided that an
+additional Konishi anomaly equation is included.
+</summary>
+    <author>
+      <name>Ke Ye</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1706.02723v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.02723v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0209293%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0209293&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HORGWOl1VOw8JSrQqQZoxv+stfQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0209293v1</id>
+    <updated>2002-09-23T07:45:36Z</updated>
+    <published>2002-09-23T07:45:36Z</published>
+    <title>A numerical characterization of the S_2-ification of a Rees algebra</title>
+    <summary>  Let A be a local ring with maximal ideal m. For an arbitrary ideal I of A, we
+define the generalized Hilbert coefficients j_k(I) \in Z^{k+1} (k=0,1,...,dim
+A). When the ideal I is m-primary, j_k(I)=(0,...,0,(-1)^k e_k(I)), where e_k(I)
+is the classical k-th Hilbert coefficient of I. Using these coefficients, we
+give a numerical characterization of the homogeneous components of the
+S_2-ification of S=A[It,t^{-1}].
+</summary>
+    <author>
+      <name>Catalin Ciuperca</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, to be published in J. Pure Appl. Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0209293v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0209293v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H15; 13D40; 13A30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

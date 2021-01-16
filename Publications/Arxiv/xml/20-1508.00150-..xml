@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.00150%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.00150&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/O/T79VApeLGUy8bWfN4Nb2p0aRs</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.00150v1</id>
+    <updated>2015-08-01T17:20:44Z</updated>
+    <published>2015-08-01T17:20:44Z</published>
+    <title>What makes a neural code convex?</title>
+    <summary>  Neural codes allow the brain to represent, process, and store information
+about the world. Combinatorial codes, comprised of binary patterns of neural
+activity, encode information via the collective behavior of populations of
+neurons. A code is called convex if its codewords correspond to regions defined
+by an arrangement of convex open sets in Euclidean space. Convex codes have
+been observed experimentally in many brain areas, including sensory cortices
+and the hippocampus, where neurons exhibit convex receptive fields. What makes
+a neural code convex? That is, how can we tell from the intrinsic structure of
+a code if there exists a corresponding arrangement of convex open sets? Using
+tools from combinatorics and commutative algebra, we uncover a variety of
+signatures of convex and non-convex codes. In many cases, these features are
+sufficient to determine convexity, and reveal bounds on the minimal dimension
+of the underlying Euclidean space.
+</summary>
+    <author>
+      <name>Carina Curto</name>
+    </author>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Jack Jeffries</name>
+    </author>
+    <author>
+      <name>Katherine Morrison</name>
+    </author>
+    <author>
+      <name>Mohamed Omar</name>
+    </author>
+    <author>
+      <name>Zvi Rosen</name>
+    </author>
+    <author>
+      <name>Anne Shiu</name>
+    </author>
+    <author>
+      <name>Nora Youngs</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 9 figures, and 7 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.00150v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.00150v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

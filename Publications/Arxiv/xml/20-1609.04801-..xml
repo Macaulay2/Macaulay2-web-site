@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.04801%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.04801&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9zkjkzzaoUWwL4+mQLXceJz+XX0</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.04801v3</id>
+    <updated>2017-03-16T14:52:22Z</updated>
+    <published>2016-09-15T19:53:01Z</published>
+    <title>Bernstein-Sato polynomials for projective hypersurfaces with weighted
+  homogeneous isolated singularities</title>
+    <summary>  We present a quite efficient method to compute the roots of Bernstein-Sato
+polynomials of homogeneous polynomials in the case where their associated
+projective hypersurfaces have only weighted homogeneous isolated singularities
+(so that their local Bernstein-Sato polynomials are uniquely determined by
+weights) and a certain condition is satisfied. In the three variable case, the
+last condition holds except for polynomials of quite special type (that is,
+extremely degenerated ones) as far as calculated. The computation of roots is
+reduced to that of the Hilbert series of the graded Milnor algebras, which can
+be done instantly by computers (unless the degree is huge) although it takes
+much longer to get the Bernstein-Sato polynomial itself (that is, with
+multiplicities) using a computer program in general. For the proof of the
+formula, we prove the $E_2$-degeneration of the pole order spectral sequence.
+</summary>
+    <author>
+      <name>Morihiko Saito</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.04801v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.04801v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

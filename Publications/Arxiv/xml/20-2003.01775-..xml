@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.01775%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.01775&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EW4uj0Udk345yE7GwO575m1l3IM</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.01775v3</id>
+    <updated>2020-04-17T07:45:03Z</updated>
+    <published>2020-03-03T20:23:29Z</published>
+    <title>Computing A1-Euler numbers with Macaulay2</title>
+    <summary>  We use Macaulay2 for several enriched counts in GW(k). First, we compute the
+count of lines on a general cubic surface using Macaulay2 over Fp in GW(Fp) for
+p a prime number and over the rational numbers Q in GW(Q). This gives a new
+proof for the fact that the count of lines on a cubic surface is 3+12h in GW(k)
+where h denotes the hyperbolic form. Then, we compute the count of lines in P3
+meeting 4 general lines, the count of lines on a quadratic surface meeting one
+general line and the count of singular elements in a pencil of degree
+d-surfaces. Finally, we provide code to compute the EKL-form and compute
+several A1-Milnor numbers.
+</summary>
+    <author>
+      <name>Sabrina Pauli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Submitted to Research in the Mathematical Sciences: Special Issue
+  'S.I. : Arithmetic Topology - PIMS 2019'</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.01775v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.01775v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N15, 14G27(Primary) 14F42, 14-04 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

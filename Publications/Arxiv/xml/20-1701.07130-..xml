@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.07130%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.07130&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bPp1UArG+1zCMh+e4x5V9o2cWpw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.07130v1</id>
+    <updated>2017-01-25T01:38:03Z</updated>
+    <published>2017-01-25T01:38:03Z</published>
+    <title>Random Monomial Ideals</title>
+    <summary>  Inspired by the study of random graphs and simplicial complexes, and
+motivated by the need to understand average behavior of ideals, we propose and
+study probabilistic models of random monomial ideals. We prove theorems about
+the probability distributions, expectations and thresholds for events involving
+monomial ideals with given Hilbert function, Krull dimension, first graded
+Betti numbers, and present several experimentally-backed conjectures about
+regularity, projective dimension, strong genericity, and Cohen-Macaulayness of
+random monomial ideals.
+</summary>
+    <author>
+      <name>Jesus A. De Loera</name>
+    </author>
+    <author>
+      <name>Sonja Petrovic</name>
+    </author>
+    <author>
+      <name>Lily Silverstein</name>
+    </author>
+    <author>
+      <name>Despina Stasi</name>
+    </author>
+    <author>
+      <name>Dane Wilburne</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.07130v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.07130v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1102.0878%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1102.0878&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Nd4X0r8FqN0aFirLnvMScwth8yY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1102.0878v3</id>
+    <updated>2011-05-04T20:57:04Z</updated>
+    <published>2011-02-04T11:18:22Z</published>
+    <title>Stable Ulrich bundles</title>
+    <summary>  The existence of stable ACM vector bundles of high rank on algebraic
+varieties is a challenging problem. In this paper, we study stable Ulrich
+bundles (that is, stable ACM bundles whose corresponding module has the maximum
+number of generators) on nonsingular cubic surfaces $X \subset \mathbb{P}^3.$
+We give necessary and sufficient conditions on the first Chern class $D$ for
+the existence of stable Ulrich bundles on $X$ of rank $r$ and $c_1=D$. When
+such bundles exist, we prove that that the corresponding moduli space of stable
+bundles is smooth and irreducible of dimension $D^2-2r^2+1$ and consists
+entirely of stable Ulrich bundles (see Theorem 1.1). As a consequence, we are
+also able to prove the existence of stable Ulrich bundles of any rank on
+nonsingular cubic threefolds in $\mathbb{P}^4$.
+</summary>
+    <author>
+      <name>Marta Casanellas</name>
+    </author>
+    <author>
+      <name>Robin Hartshorne</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Section 5 and Appendix modified</arxiv:comment>
+    <link href="http://arxiv.org/abs/1102.0878v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1102.0878v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60, 13C14 (Primary), 14D20, 14F05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

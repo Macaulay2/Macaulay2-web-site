@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.00025%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.00025&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/H40dLpEoVFcaZQsQsGpV2wTm3Vw</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.00025v2</id>
+    <updated>2016-07-28T06:29:50Z</updated>
+    <published>2016-06-30T20:17:41Z</published>
+    <title>Reduction of some homological conjectures to excellent unique
+  factorization domains</title>
+    <summary>  In this article, applying the quasi-Gorenstein analogous of the Ulrich's
+deformation of certain Gorenstein rings we show that some homological
+conjectures, including the Monomial Conjecture, Big Cohen-Macaulay Algebra
+Conjecture as well as the Small Cohen-Macaulay Conjecture reduce to the
+excellent unique factorization domains. Some other reductions of the Monomial
+Conjecture are also proved. We, moreover, show that certain almost complete
+intersections adhere the Monomial Conjecture.
+</summary>
+    <author>
+      <name>Ehsan Tavanfar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1607.00025v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.00025v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D22, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

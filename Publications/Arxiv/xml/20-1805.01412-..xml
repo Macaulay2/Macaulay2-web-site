@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.01412%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.01412&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//J5527Zo58gf84pHDCWMDpKxNRk</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.01412v1</id>
+    <updated>2018-05-03T16:33:59Z</updated>
+    <published>2018-05-03T16:33:59Z</published>
+    <title>Upper bounds for the regularity of powers of edge ideals of graphs</title>
+    <summary>  Let $G$ be a finite simple graph and $I(G)$ denote the corresponding edge
+ideal. In this paper, we obtain an upper bound for $\reg(I(G)^q)$ in terms of
+certain invariants associated with $G$. We also prove a weaker version of a
+conjecture by Alilooee, Banerjee, Bayerslan and H\`a on an upper bound for the
+regularity of $I(G)^q$ and we prove the conjectured upper bound for the class
+of vertex decomposable graphs.
+</summary>
+    <author>
+      <name>A. V. Jayanthan</name>
+    </author>
+    <author>
+      <name>S. Selvaraja</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 Pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.01412v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.01412v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13F20, 05C25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

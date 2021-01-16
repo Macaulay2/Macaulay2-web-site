@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.09357%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.09357&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/E1zArY5TyM0MPtg60iEZ4BDoR/A</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09357v1</id>
+    <updated>2019-03-22T04:58:15Z</updated>
+    <published>2019-03-22T04:58:15Z</published>
+    <title>Constructing symplectomorphisms between symplectic torus quotients</title>
+    <summary>  We identify a family of torus representations such that the corresponding
+singular symplectic quotients at the $0$-level of the moment map are graded
+regularly symplectomorphic to symplectic quotients associated to
+representations of the circle. For a subfamily of these torus representations,
+we give an explicit description of each symplectic quotient as a Poisson
+differential space with global chart as well as a complete classification of
+the graded regular diffeomorphism and symplectomorphism classes. Finally, we
+give explicit examples to indicate that symplectic quotients in this class may
+have graded isomorphic algebras of real regular functions and graded Poisson
+isomorphic complex symplectic quotients yet not be graded regularly
+diffeomorphic nor graded regularly symplectomorphic.
+</summary>
+    <author>
+      <name>Hans-Christian Herbig</name>
+    </author>
+    <author>
+      <name>Ethan Lawler</name>
+    </author>
+    <author>
+      <name>Christopher Seaton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.09357v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.09357v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 53D20, Secondary 13A50, 14L30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

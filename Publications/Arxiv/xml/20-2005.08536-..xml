@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.08536%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.08536&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5hKJuwgj/6AhK9HIkUBmljECK2U</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.08536v1</id>
+    <updated>2020-05-18T08:48:41Z</updated>
+    <published>2020-05-18T08:48:41Z</published>
+    <title>An Algebraic Model For Quorum Systems</title>
+    <summary>  Quorum systems are a key mathematical abstraction in distributed
+fault-tolerant computing for capturing trust assumptions. A quorum system is a
+collection of subsets of all processes, called quorums, with the property that
+each pair of quorums have a non-empty intersection. They can be found at the
+core of many reliable distributed systems, such as cloud computing platforms,
+distributed storage systems and blockchains. In this paper we give a new
+interpretation of quorum systems, starting with classical majority-based quorum
+systems and extending this to Byzantine quorum systems. We propose an algebraic
+representation of the theory underlying quorum systems making use of
+multivariate polynomial ideals, incorporating properties of these systems, and
+studying their algebraic varieties. To achieve this goal we will exploit
+properties of Boolean Groebner bases. The nice nature of Boolean Groebner bases
+allows us to avoid part of the combinatorial computations required to check
+consistency and availability of quorum systems. Our results provide a novel
+approach to test quorum systems properties from both algebraic and algorithmic
+perspectives.
+</summary>
+    <author>
+      <name>Alex Pellegrini</name>
+    </author>
+    <author>
+      <name>Luca Zanolini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 3 algorithms</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.08536v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.08536v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

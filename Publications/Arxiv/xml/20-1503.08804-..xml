@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1503.08804%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1503.08804&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SdC02S94QOFqKOQUQ3GohDtWuv4</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1503.08804v2</id>
+    <updated>2015-05-19T17:12:09Z</updated>
+    <published>2015-03-30T19:21:33Z</published>
+    <title>Random Sampling in Computational Algebra: Helly Numbers and Violator
+  Spaces</title>
+    <summary>  This paper transfers a randomized algorithm originally used in geometric
+optimization to computational commutative algebra. We show that Clarkson's
+sampling algorithm can be applied to two problems in computational algebra:
+solving large-scale polynomial systems, for which we utilize a Helly-type
+result for algebraic varieties, and finding small generating sets of graded
+ideals. The cornerstone of our work is showing that the theory of violator
+spaces of G\"artner et al.\ applies to these polynomial ideal problems. The
+resulting algorithms have expected runtime linear in the number of input
+polynomials, making the method particularly interesting for handling systems
+with very large numbers of polynomials, but whose rank in the vector space of
+polynomials is small (e.g., when the number of variables is constant).
+</summary>
+    <author>
+      <name>Jesús A. De Loera</name>
+    </author>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <author>
+      <name>Despina Stasi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages; corrected Example 3.2; added some references; results
+  unchanged</arxiv:comment>
+    <link href="http://arxiv.org/abs/1503.08804v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1503.08804v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

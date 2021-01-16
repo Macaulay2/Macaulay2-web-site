@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.02025%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.02025&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VM4ZL5U17I4go3Z+GeNJ9c644z4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.02025v2</id>
+    <updated>2018-07-17T11:29:39Z</updated>
+    <published>2018-02-06T16:06:43Z</published>
+    <title>On some local cohomology spectral sequences</title>
+    <summary>  We introduce a formalism to produce several families of spectral sequences
+involving the derived functors of the limit and colimit functors over a finite
+partially ordered set. The first type of spectral sequences involves the left
+derived functors of the colimit of the direct system that we obtain applying a
+family of functors to a single module. For the second type we follow a
+completely different strategy as we start with the inverse system that we
+obtain by applying a covariant functor to an inverse system. The spectral
+sequences involve the right derived functors of the corresponding limit. We
+also have a version for contravariant functors. In all the introduced spectral
+sequences we provide sufficient conditions to ensure their degeneration at
+their second page. As a consequence we obtain some decomposition theorems that
+greatly generalize the well-known decomposition formula for local cohomology
+modules given by Hochster.
+</summary>
+    <author>
+      <name>Josep Àlvarez Montaner</name>
+    </author>
+    <author>
+      <name>Alberto F. Boix</name>
+    </author>
+    <author>
+      <name>Santiago Zarzuela</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">63 pages, comments are welcome. To appear in International
+  Mathematics Research Notices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.02025v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.02025v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45 (Primary), 13A35, 13F55, 14N20, 18G40 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

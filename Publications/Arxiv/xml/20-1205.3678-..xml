@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1205.3678%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1205.3678&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/B8570t7vhv2gy4NwBaThvLHAX7o</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1205.3678v2</id>
+    <updated>2012-06-10T15:07:35Z</updated>
+    <published>2012-05-16T13:51:35Z</published>
+    <title>Edge Ideals of Weighted Graphs</title>
+    <summary>  We study weighted graphs and their "edge ideals" which are ideals in
+polynomial rings that are defined in terms of the graphs. We provide
+combinatorial descriptions of m-irreducible decompositions for the edge ideal
+of a weighted graph in terms of the combinatorics of "weighted vertex covers".
+We use these, for instance, to say when these ideals are m-unmixed. We
+explicitly describe which weighted cycles, suspensions, and trees are unmixed
+and which ones are Cohen-Macaulay, and we prove that all weighted complete
+graphs are Cohen-Macaulay.
+</summary>
+    <author>
+      <name>Chelsey Paulsen</name>
+    </author>
+    <author>
+      <name>Sean Sather-Wagstaff</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S0219498812502234</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, uses xypic, v.2 includes new Remark 3.7, Theorem 5.7, and
+  Remark 5.8; and the proof of Theorem 5.10 has been modified</arxiv:comment>
+    <link href="http://arxiv.org/abs/1205.3678v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1205.3678v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1142/S0219498812502234" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C22, 05E40, 13F55, 13H10 (Primary) 05C05, 05C38, 05C69, 13C05&#10;  (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

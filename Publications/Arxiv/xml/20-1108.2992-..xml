@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.2992%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.2992&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aZ2otMk7hTXzZq+aHEEaZLwQ7lo</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.2992v1</id>
+    <updated>2011-08-15T13:40:01Z</updated>
+    <published>2011-08-15T13:40:01Z</published>
+    <title>The Algebraic Boundary of SO(2)-Orbitopes</title>
+    <summary>  Let $X\subset\A^{2r}$ be a real curve embedded into an even-dimensional
+affine space. In the main result of this paper, we characterise when the r-th
+secant variety to $X$ is an irreducible component of the algebraic boundary of
+the convex hull of the real points $X(\R)$ of $X$. This fact is then applied to
+4-dimensional SO(2)-orbitopes and to the so called Barvinok-Novik orbitopes to
+study when they are basic closed as semi-algebraic sets. In the case of
+4-dimensional SO(2)-orbitopes, we find all irreducible components of their
+algebraic boundary.
+</summary>
+    <author>
+      <name>Rainer Sinn</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.2992v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.2992v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 14P05, 52A99, Secondary: 90C22, 22E47, 14Q05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

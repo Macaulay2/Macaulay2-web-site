@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.01947%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.01947&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wN5TSfkGC4uFEt+JAq6S2p/qxWc</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.01947v1</id>
+    <updated>2016-07-07T10:14:55Z</updated>
+    <published>2016-07-07T10:14:55Z</published>
+    <title>Global parameter test ideals</title>
+    <summary>  This paper shows the existence of ideals whose localizations and completions
+at prime ideals are parameter test ideals of the localized and completed rings.
+We do this for Cohen-Macaulay localizations (resp., completions) of non-local
+rings, for generalized Cohen-Macaulay rings, and for non-local rings with
+isolated non Cohen-Macaulay points, each being an isolated non $F$-rational
+point. The tools used to prove this results are constructive in nature and as a
+consequence our results yield algorithms for the computation of these global
+parameter test ideals.
+  Finally, we illustrate the power of our methods by analyzing the HSL numbers
+of local cohomology modules with support at any prime ideal.
+</summary>
+    <author>
+      <name>Mordechai Katzman</name>
+    </author>
+    <author>
+      <name>Serena Murru</name>
+    </author>
+    <author>
+      <name>Juan D. Velez</name>
+    </author>
+    <author>
+      <name>Wenliang Zhang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1607.01947v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.01947v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45, 13A35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

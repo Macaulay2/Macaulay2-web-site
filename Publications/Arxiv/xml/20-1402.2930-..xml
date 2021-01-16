@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.2930%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.2930&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ap6ILRJggE7Ocz/Ck6dgP9OrAhQ</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.2930v1</id>
+    <updated>2014-02-12T18:52:38Z</updated>
+    <published>2014-02-12T18:52:38Z</published>
+    <title>An Algorithm to Compute the Topological Euler Characteristic,
+  Chern-Schwartz-MacPherson Class and Segre Class of Projective Varieties</title>
+    <summary>  Let $V$ be a closed subscheme of a projective space $\mathbb{P}^n$. We give
+an algorithm to compute the Chern-Schwartz-MacPherson class, Euler
+characteristic and Segre class of $ V$. The algorithm can be implemented using
+either symbolic or numerical methods. The algorithm is based on a new method
+for calculating the projective degrees of a rational map defined by a
+homogeneous ideal. Using this result and known formulas for the
+Chern-Schwartz-MacPherson class of a projective hypersurface and the Segre
+class of a projective variety in terms of the projective degrees of certain
+rational maps we give algorithms to compute the Chern-Schwartz-MacPherson class
+and Segre class of a projective variety. Since the Euler characteristic of $V$
+is the degree of the zero dimensional component of the
+Chern-Schwartz-MacPherson class of $V$ our algorithm also computes the Euler
+characteristic $\chi(V)$. Relationships between the algorithm developed here
+and other existing algorithms are discussed. The algorithm is tested on several
+examples and performs favourably compared to current algorithms for computing
+Chern-Schwartz-MacPherson classes, Segre classes and Euler characteristics.
+</summary>
+    <author>
+      <name>Martin Helmer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1402.2930v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.2930v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx, 68W30, 14C17, 13P15, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="F.2.2; I.1.2; I.1.1" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

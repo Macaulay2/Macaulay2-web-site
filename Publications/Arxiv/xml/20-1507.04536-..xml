@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1507.04536%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1507.04536&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/V8taCir0n9EaKrWmwZy3kWaMTcg</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1507.04536v1</id>
+    <updated>2015-07-16T12:07:03Z</updated>
+    <published>2015-07-16T12:07:03Z</published>
+    <title>On convex polyhedron semigroups</title>
+    <summary>  Let $\mathbf{F}$ be bounded convex polyhedron of $\R^3_{\geq}$ and $\psi_k$
+the homothety with center the origin and radius $k$. The convex polyhedron
+semigroup associated to $\mathbf{F}$ is the semigroup
+$\cup_{k\in\N}\psi_k(\mathbf{F})\cap \N^3$. In this work, we use topological
+and discrete geometrical tools to study this class of semigroups. We give
+conditions to know when one of these semigroups is finitely generated, we
+characterize the Cohen-Macaulay and Buchsbaum properties, and we provide a
+family of Gorenstein affine semigroups.
+</summary>
+    <author>
+      <name>Juan Ignacio García-García</name>
+    </author>
+    <author>
+      <name>Alberto Vigneron-Tenorio</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1507.04536v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1507.04536v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B10 (Secondary), 20M14 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

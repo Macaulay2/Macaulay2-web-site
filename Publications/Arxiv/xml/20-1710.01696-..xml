@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.01696%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.01696&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wBeJ7r+EYyJkqznMZQERI5ZnfEU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.01696v1</id>
+    <updated>2017-10-04T16:56:57Z</updated>
+    <published>2017-10-04T16:56:57Z</published>
+    <title>Maximum likelihood estimation of the Latent Class Model through model
+  boundary decomposition</title>
+    <summary>  The Expectation-Maximization (EM) algorithm is routinely used for the maximum
+likelihood estimation in the latent class analysis. However, the EM algorithm
+comes with no guarantees of reaching the global optimum. We study the geometry
+of the latent class model in order to understand the behavior of the maximum
+likelihood estimator. In particular, we characterize the boundary
+stratification of the binary latent class model with a binary hidden variable.
+For small models, such as for three binary observed variables, we show that
+this stratification allows exact computation of the maximum likelihood
+estimator. In this case we use simulations to study the maximum likelihood
+estimation attraction basins of the various strata. Our theoretical study is
+complemented with a careful analysis of the EM fixed point ideal which provides
+an alternative method of studying the boundary stratification and maximizing
+the likelihood function. In particular, we compute the minimal primes of this
+ideal in the case of a binary latent class model with a binary or ternary
+hidden random variable.
+</summary>
+    <author>
+      <name>Elizabeth S. Allman</name>
+    </author>
+    <author>
+      <name>Hector Baños Cervantes</name>
+    </author>
+    <author>
+      <name>Robin Evans</name>
+    </author>
+    <author>
+      <name>Serkan Hoşten</name>
+    </author>
+    <author>
+      <name>Kaie Kubjas</name>
+    </author>
+    <author>
+      <name>Daniel Lemke</name>
+    </author>
+    <author>
+      <name>John A. Rhodes</name>
+    </author>
+    <author>
+      <name>Piotr Zwiernik</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.01696v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.01696v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62H17, 15A69, 14P10, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

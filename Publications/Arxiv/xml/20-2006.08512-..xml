@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.08512%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.08512&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2MF0UI05tRBUPFVd6INhUJNXhzU</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.08512v2</id>
+    <updated>2020-06-22T17:34:58Z</updated>
+    <published>2020-06-15T16:13:11Z</published>
+    <title>Hilbert Series of simple thin polyominoes</title>
+    <summary>  Let P be a simple thin polyomino, roughly speaking a polyomino that has no
+holes and does not contain a square tetromino as a subpolyomino. In this paper,
+we determine the reduced Hilbert series $h(t)/(1-t)^d$ of K[P] by proving that
+$h(t)$ is the rook polynomial of P. As an application, we characterize the
+Gorenstein simple thin polyominoes.
+</summary>
+    <author>
+      <name>Giancarlo Rinaldo</name>
+    </author>
+    <author>
+      <name>Francesco Romeo</name>
+    </author>
+    <link href="http://arxiv.org/abs/2006.08512v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.08512v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D40, 05B50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

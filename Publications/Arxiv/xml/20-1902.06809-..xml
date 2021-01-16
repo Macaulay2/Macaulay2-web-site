@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1902.06809%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1902.06809&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/y7wMT19eh7Jju3YXHRW9qxzA56Q</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1902.06809v1</id>
+    <updated>2019-02-18T21:50:04Z</updated>
+    <published>2019-02-18T21:50:04Z</published>
+    <title>Classification of Schubert Galois groups in Gr(4,9)</title>
+    <summary>  We classify Schubert problems in the Grassmannian of 4-planes in
+9-dimensional space by their Galois groups. Of the 31,806 essential Schubert
+problems in this Grassmannian, only 149 have Galois group that does not contain
+the alternating group. We identify the Galois groups of these 149---each is an
+imprimitive permutation group. These 149 fall into two families according to
+their geometry. This study suggests a possible classification of Schubert
+problems whose Galois group is not the full symmetric group, and it begins to
+establish the inverse Galois problem for Schubert calculus.
+</summary>
+    <author>
+      <name>Abraham Martin del Campo</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Robert Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1902.06809v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1902.06809v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N15, 12F10, 12F12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

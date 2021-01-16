@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1202.0510%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1202.0510&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/d0G6NItI3pMWNotgqKV3IFJ+i2I</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1202.0510v2</id>
+    <updated>2012-07-12T17:23:20Z</updated>
+    <published>2012-02-02T18:37:27Z</published>
+    <title>Toric Degenerations of Low Degree Fano Threefolds</title>
+    <summary>  For fixed degree $d\leq 12$, we study the Hilbert scheme of degree $d$ smooth
+Fano threefolds in their anticanonical embeddings. We use this to classify all
+possible degenerations of these varieties to toric Fano varieties with at most
+canonical Gorenstein singularities.
+</summary>
+    <author>
+      <name>Jan Arthur Christophersen</name>
+    </author>
+    <author>
+      <name>Nathan Owen Ilten</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 2 figures; v2 simplified exposition by using rolling
+  factors format where applicable</arxiv:comment>
+    <link href="http://arxiv.org/abs/1202.0510v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1202.0510v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J45, 13F55, 14D15, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

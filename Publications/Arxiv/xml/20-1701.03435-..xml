@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.03435%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.03435&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nXJmWI6SgGqGB8DK3/xn3R0XXxc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03435v1</id>
+    <updated>2017-01-12T17:52:50Z</updated>
+    <published>2017-01-12T17:52:50Z</published>
+    <title>Khovanskii bases of Cox-Nagata rings and tropical geometry</title>
+    <summary>  The Cox ring of a del Pezzo surface of degree 3 has a distinguished set of 27
+minimal generators. We investigate conditions under which the initial forms of
+these generators generate the initial algebra of this Cox ring. Sturmfels and
+Xu provide a classification in the case of degree 4 del Pezzo surfaces by
+subdividing the tropical Grassmannian $\operatorname{TGr}(2,\mathbb{Q}^5)$.
+After providing the necessary background on Cox-Nagata rings and Khovanskii
+bases, we review the classification obtained by Sturmfels and Xu. Then we
+describe our classification problem in the degree 3 case and its connections to
+tropical geometry. In particular, we show that two natural candidates,
+$\operatorname{TGr}(3,\mathbb{Q}^6)$ and the Naruki fan, are insufficient to
+carry out the classification.
+</summary>
+    <author>
+      <name>Martha Bernal</name>
+    </author>
+    <author>
+      <name>Daniel Corey</name>
+    </author>
+    <author>
+      <name>Maria Donten-Bury</name>
+    </author>
+    <author>
+      <name>Naoki Fujita</name>
+    </author>
+    <author>
+      <name>Georg Merz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.03435v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.03435v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

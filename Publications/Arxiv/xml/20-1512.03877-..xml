@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.03877%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.03877&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7/zP6zh14rG03xG8HkUv/9M2IQY</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.03877v2</id>
+    <updated>2016-08-03T14:28:45Z</updated>
+    <published>2015-12-12T06:00:07Z</published>
+    <title>Rank reduction of conformal blocks</title>
+    <summary>  Let $X$ be a smooth, pointed Riemann surface of genus zero, and $G$ a simple,
+simply-connected complex algebraic group. Associated to a finite number of
+weights of $G$ and a level is a vector space called the space of conformal
+blocks, and a vector bundle of conformal blocks over $\bar{\text{M}}_{0,n}$. We
+show that, assuming the weights are on a face of the multiplicative eigenvalue
+polytope, the space of conformal blocks is isomorphic to a product of conformal
+blocks over groups of lower rank. If the weights are on a degree zero wall,
+then we also show that there is an isomorphism of conformal blocks bundles,
+giving an explicit relation between the associated nef divisors. The methods of
+the proof are geometric, and use the identification of conformal blocks with
+spaces of generalized theta functions, and the moduli stacks of parahoric
+bundles recently studied by Balaji and Seshadri.
+</summary>
+    <author>
+      <name>Michael Schuster</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 11 figures. Changes include corrections and added details
+  to proofs, and improved exposition. Length change is due to change in
+  formatting</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.03877v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.03877v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

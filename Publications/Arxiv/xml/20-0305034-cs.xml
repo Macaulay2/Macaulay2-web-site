@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dcs%2F0305034%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=cs/0305034&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AJc2CrSqv03y9F7TjlbKAJvvG2s</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0305034v3</id>
+    <updated>2003-06-26T23:07:09Z</updated>
+    <published>2003-05-17T19:41:32Z</published>
+    <title>Cryptanalysis of HFE</title>
+    <summary>  I transform the trapdoor problem of HFE into a linear algebra problem.
+</summary>
+    <author>
+      <name>Ilia Toli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages. Minor changes expected</arxiv:comment>
+    <link href="http://arxiv.org/abs/cs/0305034v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/cs/0305034v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="E.3" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1905.04826%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1905.04826&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e1ssqxJqzZdP7NB0sGHuLhWeg2w</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1905.04826v1</id>
+    <updated>2019-05-13T01:56:04Z</updated>
+    <published>2019-05-13T01:56:04Z</published>
+    <title>Componentwise linearity of projective varieties with almost maximal
+  degree</title>
+    <summary>  The degree of a projective subscheme has an upper bound in term of the
+codimension and the reduction number. If a projective variety has an almost
+maximal degree, that is, the degree equals to the upper bound minus one, then
+its Betti table has been described explicitly. We build on this work by showing
+that for most of such varieties, the defining ideals are componentwise linear
+and in particular the componentwise linearity is suitable for classifying the
+Betti tables of such varieties. As an application, we compute the Betti table
+of all varieties with almost maximal degree and componentwise linear
+resolution.
+</summary>
+    <author>
+      <name>Doan Trung Cuong</name>
+    </author>
+    <author>
+      <name>Sijong Kwak</name>
+    </author>
+    <link href="http://arxiv.org/abs/1905.04826v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1905.04826v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

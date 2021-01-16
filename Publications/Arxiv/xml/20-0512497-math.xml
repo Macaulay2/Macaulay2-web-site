@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0512497%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0512497&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hv9fGXWdKBKFfdfPjWbUYX+ibLM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0512497v4</id>
+    <updated>2007-05-08T00:51:47Z</updated>
+    <published>2005-12-21T16:26:42Z</published>
+    <title>Moment-angle complexes, monomial ideals, and Massey products</title>
+    <summary>  Associated to every finite simplicial complex K there is a "moment-angle"
+finite CW-complex, Z_K; if K is a triangulation of a sphere, Z_K is a smooth,
+compact manifold. Building on work of Buchstaber, Panov, and Baskakov, we study
+the cohomology ring, the homotopy groups, and the triple Massey products of a
+moment-angle complex, relating these topological invariants to the algebraic
+combinatorics of the underlying simplicial complex. Applications to the study
+of non-formal manifolds and subspace arrangements are given.
+</summary>
+    <author>
+      <name>Graham Denham</name>
+    </author>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages. Published version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Pure and Applied Mathematics Quarterly, 3(1) 2007, (Robert
+  MacPherson special issue, part 3), 25--60</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0512497v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0512497v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 55S30 Primary; 16E05, 32Q55, 55P62, 57R19 Secondary" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

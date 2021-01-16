@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1811.09843%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1811.09843&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xLaDZeA6UPtEWVE/UYvMKR+X2GU</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09843v1</id>
+    <updated>2018-11-24T14:24:23Z</updated>
+    <published>2018-11-24T14:24:23Z</published>
+    <title>Singularities in mixed characteristic. The perfectoid approach</title>
+    <summary>  The homological conjectures, which date back to Peskine, Szpiro and Hochster
+in the late sixties, make fundamental predictions about syzygies and
+intersection problems in commutative algebra. They were settled long ago in the
+presence of a base field and led to tight closure theory, a powerful tool to
+investigate singularities in characteristic p. Recently, perfectoid techniques
+coming from p-adic Hodge theory have allowed us to get rid of any base field;
+this solves the direct summand conjecture and establishes the existence and
+weak functoriality of big Cohen-Macaulay algebras, which solve in turn the
+homological conjectures in general. This also opens the way to the study of
+singularities in mixed characteristic. We sketch a broad outline of this story,
+taking lastly a glimpse at ongoing work by L. Ma and K. Schwede, which shows
+how such a study could build a bridge between singularity theory in char. p and
+in char. 0.
+</summary>
+    <author>
+      <name>Yves Andreé</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">expanded version of the author's Takagi lectures, Tokyo, 2018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1811.09843v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1811.09843v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D22, 13H05, 14G20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

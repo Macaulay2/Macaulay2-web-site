@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.15331%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.15331&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Rn3Pyabaozj9B7Q59eKGdyx8Dz4</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.15331v2</id>
+    <updated>2020-11-19T04:24:19Z</updated>
+    <published>2020-10-29T03:02:46Z</published>
+    <title>The InvariantRing package for Macaulay2</title>
+    <summary>  We describe a significant update to the existing InvariantRing package for
+Macaulay2. In addition to expanding and improving the methods of the existing
+package for actions of finite groups, the updated package adds functionality
+for computing invariants of diagonal actions of tori and finite abelian groups
+as well as invariants of arbitrary linearly reductive group actions. The
+implementation of the package has been completely overhauled with the aim of
+serving as a unified resource for invariant theory computations in Macaulay2.
+</summary>
+    <author>
+      <name>Luigi Ferraro</name>
+    </author>
+    <author>
+      <name>Federico Galetto</name>
+    </author>
+    <author>
+      <name>Francesca Gandini</name>
+    </author>
+    <author>
+      <name>Hang Huang</name>
+    </author>
+    <author>
+      <name>Matthew Mastroeni</name>
+    </author>
+    <author>
+      <name>Xianglong Ni</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, submitted to Journal of Software for Algebra and Geometry.
+  v2: Added a link to the GitHub repository for the package</arxiv:comment>
+    <link href="http://arxiv.org/abs/2010.15331v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.15331v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P, 13-04, 13A50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

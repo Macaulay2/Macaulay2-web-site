@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.6947%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.6947&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/joi228H1zVHYAb9e6TSUlO2qr9E</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.6947v3</id>
+    <updated>2014-12-20T00:26:46Z</updated>
+    <published>2014-10-25T18:15:03Z</published>
+    <title>Degeneracy of the Characteristic Variety</title>
+    <summary>  The characteristic variety plays an important role in the analysis of the
+solution space of partial differential equations and exterior differential
+systems. This article studies the linear span of this variety, measuring its
+dimension via an integrable extension of the original system. In the PDE case
+with locally constant characteristic variety, this extension yields a recursive
+version of Guillemin normal form, inducing a sequence of foliations on integral
+manifolds.
+</summary>
+    <author>
+      <name>Abraham D. Smith</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">See also "Constructing Involutive Tableaux with Guillemin Normal
+  Form" arxiv:1410.7593 for some details. Version 2: No content changes; just
+  fixed PDF font rendering for the arXiv and updated reference links. Version
+  3: Added two sections with examples</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.6947v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.6947v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="58A15, 35A27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

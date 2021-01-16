@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1112.0487%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1112.0487&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7ERR7j0vBMQxFZF68elNh+UOud0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1112.0487v1</id>
+    <updated>2011-12-02T15:50:10Z</updated>
+    <published>2011-12-02T15:50:10Z</published>
+    <title>New Derived Symmetries of some Hyperkaehler Varieties</title>
+    <summary>  We construct new autoequivalences of the derived categories of the Hilbert
+scheme of n points on a K3 surface and the variety of lines on a smooth cubic
+4-fold. The second example and n=2 in the first use the theory of spherical
+functors; to deal with n&gt;2 in the first example we develop a theory of
+P-functors. We conjecture that the same construction yields an autoequivalence
+for any moduli space of sheaves on a K3 surface.
+  In an appendix we give a cohomology and base change criterion which is
+well-known to experts, but not well-documented.
+</summary>
+    <author>
+      <name>Nicolas Addington</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">52 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1112.0487v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1112.0487v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

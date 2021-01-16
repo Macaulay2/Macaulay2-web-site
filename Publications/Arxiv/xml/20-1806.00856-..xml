@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.00856%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.00856&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zDTdzPjXgoEHyxf8No+INBg9O98</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00856v1</id>
+    <updated>2018-06-03T19:31:41Z</updated>
+    <published>2018-06-03T19:31:41Z</published>
+    <title>Torsion of a finite base locus</title>
+    <summary>  We interpret geometrically the torsion of the symmetric algebra of the ideal
+sheaf of a zero-dimensional scheme Z defined by $n+1$ equations in an
+$n$-dimensional variety. This leads us to generalise a formula of A.Dimca and
+S.Papadima in positive characteristic for a rational transformation with finite
+base locus. Among other applications, we construct an explicit example of a
+homaloidal curve of degree $5$ in characteristic $3$, answering negatively a
+question of A.V.D\'oria, S.H.Hassanzadeh and A.Simis.
+</summary>
+    <author>
+      <name>Rémi Bignalet-Cazalet</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.00856v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.00856v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14E05, 14B05, 14H20," scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

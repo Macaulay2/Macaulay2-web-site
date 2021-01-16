@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2008.12077%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2008.12077&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VtjoPI55h4zVCS4gnhDtM0Bydw8</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2008.12077v1</id>
+    <updated>2020-08-27T12:15:39Z</updated>
+    <published>2020-08-27T12:15:39Z</published>
+    <title>Unirational moduli spaces of some elliptic K3 surfaces</title>
+    <summary>  We show that the moduli space of $U\oplus \langle -2k \rangle$-polarized K3
+surfaces is unirational for $k \le 50$ and $k \notin \{11,35,42,48\}$, and for
+other several values of $k$ up to $k=97$. Our proof is based on a systematic
+study of the projective models of elliptic K3 surfaces in $\mathbb{P}^n$ for
+$3\le n \le 5$ containing either the union of two rational curves or the union
+of a rational and an elliptic curve intersecting at one point.
+</summary>
+    <author>
+      <name>Mauro Fortuna</name>
+    </author>
+    <author>
+      <name>Michael Hoff</name>
+    </author>
+    <author>
+      <name>Giacomo Mezzedimi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2008.12077v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2008.12077v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J15, 14J28 (Primary) 14J27, 14Q10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

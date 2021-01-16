@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.06785%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.06785&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/I4L+i3JiRGwgW2Dtt951F1hGqc0</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.06785v1</id>
+    <updated>2020-11-13T06:52:26Z</updated>
+    <published>2020-11-13T06:52:26Z</published>
+    <title>On the first non-trivial strand of syzygies of projective schemes and
+  Condition ${ ND}(l)$</title>
+    <summary>  Let $X\subset\mathbb{P}^{n+e}$ be any $n$-dimensional closed subscheme. In
+this paper, we are mainly interested in two notions related to syzygies: one is
+the property $\mathbf{N}_{d,p}~(d\ge 2, ~p\geq 1)$, which means that $X$ is
+$d$-regular up to $p$-th step in the minimal free resolution and the other is a
+new notion $\mathrm{ND}(l)$ which generalizes the classical "being
+nondegenerate" to the condition that requires a general finite linear section
+not to be contained in any hypersurface of degree $l$.
+  First, we introduce condition $\mathrm{ND}(l)$ and consider examples and
+basic properties deduced from the notion. Next we prove sharp upper bounds on
+the graded Betti numbers of the first non-trivial strand of syzygies, which
+generalize results in the quadratic case to higher degree case, and provide
+characterizations for the extremal cases. Further, after regarding some
+consequences of property $\mathbf{N}_{d,p}$, we characterize the resolution of
+$X$ to be $d$-linear arithemetically Cohen-Macaulay as having property
+$\mathbf{N}_{d,e}$ and condition $\mathrm{ND}(d-1)$ at the same time. From this
+result, we obtain a syzygetic rigidity theorem which suggests a natural
+generalization of syzygetic rigidity on $2$-regularity due to
+Eisenbud-Green-Hulek-Popescu to a general $d$-regularity.
+</summary>
+    <author>
+      <name>Jeaman Ahn</name>
+    </author>
+    <author>
+      <name>Kangjin Han</name>
+    </author>
+    <author>
+      <name>Sijong Kwak</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.06785v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.06785v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05, 13D02 (Primary) 51N35 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1608.05512%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1608.05512&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zM/SxuVe7RzhTmFwyu8o9l9v1ug</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1608.05512v1</id>
+    <updated>2016-08-19T07:05:15Z</updated>
+    <published>2016-08-19T07:05:15Z</published>
+    <title>Critical Points for Two-view Triangulation</title>
+    <summary>  Two-view triangulation is a problem of minimizing a quadratic polynomial
+under an equality constraint. We derive a polynomial that encodes the local
+minimizers of this problem using the theory of Lagrange multipliers. This
+offers a simpler derivation of the critical points that are given in
+Hartley-Sturm [6].
+</summary>
+    <author>
+      <name>Hon-Leung Lee</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.05512v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.05512v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

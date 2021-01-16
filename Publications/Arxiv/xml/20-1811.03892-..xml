@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1811.03892%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1811.03892&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AGb2OmwIm/1f0ksCZ5X6s21a+yM</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1811.03892v1</id>
+    <updated>2018-11-09T13:32:47Z</updated>
+    <published>2018-11-09T13:32:47Z</published>
+    <title>Graded Betti numbers of balanced simplicial complexes</title>
+    <summary>  We prove upper bounds for the graded Betti numbers of Stanley-Reisner rings
+of balanced simplicial complexes. Along the way we show bounds for
+Cohen-Macaulay graded rings $S/I$, where $S$ is a polynomial ring and
+$I\subseteq S$ is an homogeneous ideal containing a certain number of
+generators in degree 2, including the squares of the variables. Using similar
+techniques we provide upper bounds for the number of linear syzygies for
+Stanley-Reisner of balanced normal pseudomanifolds. Moreover, we compute
+explicitly the graded Betti numbers of cross-polytopal stacked spheres, and
+show that they only depend on the dimension and the number of vertices, rather
+than also the combinatorial type.
+</summary>
+    <author>
+      <name>Martina Juhnke-Kubitzke</name>
+    </author>
+    <author>
+      <name>Lorenzo Venturello</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1811.03892v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1811.03892v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E45, 05E40, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

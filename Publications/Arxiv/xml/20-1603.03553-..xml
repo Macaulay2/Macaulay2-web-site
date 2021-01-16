@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1603.03553%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1603.03553&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xyG1hyIMAwqA7Bbcg0w2PwB7OLU</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1603.03553v1</id>
+    <updated>2016-03-11T07:55:20Z</updated>
+    <published>2016-03-11T07:55:20Z</published>
+    <title>On a projective bundle formula</title>
+    <summary>  For a vector bundle $\mathscr{E}\to X$ with $X$ a smooth variety over a field
+we prove a formula for the proper pushforward
+$\pi_*:A^*\mathbb{P}(\mathscr{E})\to A^*X$, where
+$\pi:\mathbb{P}(\mathscr{E})\to X$ denotes the associated projective bundle of
+\emph{lines} in $\mathscr{E}$. Our formula is relative in the sense that it
+depends on the rank of $\mathscr{E}$ while being independent of the dimension
+of $X$. As applications, we apply the formula to compute the pushforward to $X$
+of the Chern class of a fibration $Y\to X$, whose fibers are degree $d$
+projective hypersurfaces with $d$ arbitrary, and then derive a `relative
+B\'{e}zout-type formula' for the intersection of
+$\text{dim}(\mathbb{P}(\mathscr{E}))$ divisors in $\mathbb{P}(\mathscr{E})$ in
+terms of invariants of $X$.
+</summary>
+    <author>
+      <name>James Fullwood</name>
+    </author>
+    <author>
+      <name>Martin Helmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">No figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1603.03553v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.03553v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

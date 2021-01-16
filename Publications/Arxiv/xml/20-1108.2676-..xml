@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.2676%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.2676&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AATkpVwt5xTf1qgTdHKceUyMwTs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.2676v2</id>
+    <updated>2012-02-15T13:45:42Z</updated>
+    <published>2011-08-12T17:57:31Z</published>
+    <title>On the polar degree of projective hypersurfaces</title>
+    <summary>  Given a hypersurface in the complex projective $n$-space we prove several
+known formulas for the degree of its polar map by purely algebro-geometric
+methods. Furthermore, we give formulas for the degree of its polar map in terms
+of the degrees of the polar maps of its components. As an application, we
+classify the plane curves with polar map of low degree, including a very simple
+proof of I. Dolgachev's classification of homaloidal plane curves.
+</summary>
+    <author>
+      <name>Thiago Fassarella</name>
+    </author>
+    <author>
+      <name>Nivaldo Medeiros</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1112/jlms/jds005</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1112/jlms/jds005" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 2 figures. Fixed minor typos. Final version, to appear in
+  J. London Math. Soc</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.2676v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.2676v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1411.5724%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1411.5724&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/D/ql5Ah1m9NkHTCgGU1DmJyARkY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1411.5724v1</id>
+    <updated>2014-11-20T23:36:01Z</updated>
+    <published>2014-11-20T23:36:01Z</published>
+    <title>Tate Resolutions for Products of Projective Spaces</title>
+    <summary>  We describe the Tate resolution of a coherent sheaf or complex of coherent
+sheaves on a product of projective spaces. Such a resolution makes explicit all
+the cohomology of all twists of the sheaf, including, for example, the
+multigraded module of twisted global sections, and also the Beilinson monads of
+all twists. Although the Tate resolution is highly infinite, any finite number
+of components can be computed efficiently, starting either from a Beilinson
+monad or from a multigraded module.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1411.5724v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.5724v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99, 14F05, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

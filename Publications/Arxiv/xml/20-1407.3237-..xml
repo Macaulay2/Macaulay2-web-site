@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1407.3237%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1407.3237&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zhBi8ppwtGmeNSCZ+7MxkL1sh7k</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1407.3237v1</id>
+    <updated>2014-07-11T18:03:10Z</updated>
+    <published>2014-07-11T18:03:10Z</published>
+    <title>Logarithmic vector fields for quasihomogeneous curve configurations in
+  P^2</title>
+    <summary>  Let A be a union of smooth plane curves C_i, such that each singular point of
+A is quasihomogeneous. We prove that if C is a smooth curve such that each
+singular point of A U C is also quasihomogeneous, then there is an elementary
+modification of rank two bundles, which relates the O_{P^2} module Der(log A)
+of vector fields on P^2 tangent to A to the module Der(log A U C). This yields
+an inductive tool for studying the splitting of the bundles Der(log A) and
+Der(log A U C), depending on the geometry of the divisor A|_C on C.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Hiroaki Terao</name>
+    </author>
+    <author>
+      <name>Masahiko Yoshinaga</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1407.3237v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1407.3237v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 52C35, Secondary 14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

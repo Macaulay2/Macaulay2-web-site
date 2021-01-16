@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.11045%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.11045&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tNcDCJqY+u8SMWI+9wGzexzGs24</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.11045v1</id>
+    <updated>2019-11-25T16:57:04Z</updated>
+    <published>2019-11-25T16:57:04Z</published>
+    <title>Explicit Pieri Inclusions</title>
+    <summary>  By the Pieri rule, the tensor product of an exterior power and a
+finite-dimensional irreducible representation of a general linear group has a
+multiplicity-free decomposition. The embeddings of the constituents are called
+Pieri inclusions and were first studied by Weyman in his thesis and described
+explicitly by Olver. More recently, these maps have appeared in the work of
+Eisenbud, Fl{\o}stad, and Weyman and of Sam and Weyman to compute pure free
+resolutions for classical groups.
+  In this paper, we give a new closed form, non-recursive description of Pieri
+inclusions. For partitions with a bounded number of distinct parts, the
+resulting algorithm has polynomial time complexity whereas the previously known
+algorithm has exponential time complexity.
+</summary>
+    <author>
+      <name>Markus Hunziker</name>
+    </author>
+    <author>
+      <name>John Miller</name>
+    </author>
+    <author>
+      <name>Mark Sepanski</name>
+    </author>
+    <link href="http://arxiv.org/abs/1911.11045v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.11045v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.0262%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.0262&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+qfT5GKSKhjfNWNKGFpSUzaJ0yk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.0262v1</id>
+    <updated>2014-10-01T15:49:03Z</updated>
+    <published>2014-10-01T15:49:03Z</published>
+    <title>Type $ C$ Brauer loop schemes and loop model with
+  boundaries</title>
+    <summary>  In this paper we study the Brauer loop model on a strip and the associated
+quantum Knizhnik--Zamolodchikov (qKZ) equation. We show that the minimal degree
+solution of the Brauer qKZ equation with one of four different possible
+boundary conditions, gives the multidegrees of the irreducible components of
+generalizations of the Brauer loop scheme of [KZJ '07] with one of four kinds
+of symplectic-type symmetry. This is accomplished by studying these irreducible
+components, which are indexed by link patterns, and describing the geometric
+action of Brauer generators on them. We also provide recurrence relations for
+the multidegrees and compute the sum rule (multidegree of the whole schemes).
+</summary>
+    <author>
+      <name>Anita Ponsaing</name>
+    </author>
+    <author>
+      <name>Paul Zinn-Justin</name>
+    </author>
+    <link href="http://arxiv.org/abs/1410.0262v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.0262v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

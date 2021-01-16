@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.04136%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.04136&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sFgRcu1VmUxiLfeDZ+RTh1kOuis</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.04136v1</id>
+    <updated>2019-06-10T17:12:31Z</updated>
+    <published>2019-06-10T17:12:31Z</published>
+    <title>Linear resolutions over Koszul complexes and Koszul homology algebras</title>
+    <summary>  Let $R$ be a standard graded commutative algebra over a field $k$, let $K$ be
+its Koszul complex viewed as a differential graded $k$-algebra, and let $H$ be
+the homology algebra of $K$. This paper studies the interplay between
+homological properties of the three algebras $R$, $K$, and $H$. In particular,
+we introduce two definitions of Koszulness that extend the familiar property
+originally introduced by Priddy; one which applies to $K$ (and, more generally,
+to any connected differential graded $k$-algebra) and the other, called
+strand-Koszulness, which applies to $H$. The main theoretical result is a
+complete description of how these Koszul properties of $R$, $K$, and $H$ are
+related to each other. This result shows that strand-Koszulness of $H$ is
+stronger than Koszulness of $R$, and we include examples of classes of algebras
+which have Koszul homology algebras that are strand Koszul.
+</summary>
+    <author>
+      <name>John Myers</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1906.04136v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.04136v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13D02. Secondary 16E05, 16E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

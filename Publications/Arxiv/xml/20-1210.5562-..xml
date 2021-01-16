@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.5562%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.5562&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L/WCTQ6mT7gq2M/w69/3tCTJ0/Q</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.5562v1</id>
+    <updated>2012-10-19T23:13:28Z</updated>
+    <published>2012-10-19T23:13:28Z</published>
+    <title>Poset Embeddings of Hilbert functions and Betti numbers</title>
+    <summary>  We study inequalities between graded Betti numbers of ideals in a standard
+graded algebra over a field and their images under embedding maps, defined
+earlier by us in [arXiv:1009.4488]. We show that if graded Betti numbers do not
+decrease when we replace ideals in an algebra by their embedded versions, then
+the same behaviour is carried over to ring extensions. As a corollary we give
+alternative inductive proofs of earlier results of Bigatti, Hulett, Pardue,
+Mermin-Peeva-Stillman and Murai. We extend a hypersurface restriction theorem
+of Herzog-Popescu to the situation of embeddings. We show that we can obtain
+the Betti table of an ideal in the extension ring from the Betti table of its
+embedded version by a sequence of consecutive cancellations. We further show
+that the lex-plus-powers conjecture of Evans reduces to the Artinian situation.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <link href="http://arxiv.org/abs/1210.5562v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.5562v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1708.07390%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1708.07390&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SxJmz8RI85RMYbMHkSwdZ7jYfQ0</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1708.07390v1</id>
+    <updated>2017-08-24T13:22:59Z</updated>
+    <published>2017-08-24T13:22:59Z</published>
+    <title>Stratifying multiparameter persistent homology</title>
+    <summary>  A fundamental tool in topological data analysis is persistent homology, which
+allows extraction of information from complex datasets in a robust way.
+Persistent homology assigns a module over a principal ideal domain to a
+one-parameter family of spaces obtained from the data. In applications data
+often depend on several parameters, and in this case one is interested in
+studying the persistent homology of a multiparameter family of spaces
+associated to the data. While the theory of persistent homology for
+one-parameter families is well-understood, the situation for multiparameter
+families is more delicate. Following Carlsson and Zomorodian we recast the
+problem in the setting of multigraded algebra, and we propose multigraded
+Hilbert series, multigraded associated primes and local cohomology as
+invariants for studying multiparameter persistent homology. Multigraded
+associated primes provide a stratification of the region where a multigraded
+module does not vanish, while multigraded Hilbert series and local cohomology
+give a measure of the size of components of the module supported on different
+strata. These invariants generalize in a suitable sense the invariant for the
+one-parameter case.
+</summary>
+    <author>
+      <name>Heather A. Harrington</name>
+    </author>
+    <author>
+      <name>Nina Otter</name>
+    </author>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Ulrike Tillmann</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages, 6 figures, Macaulay2 code in appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/1708.07390v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.07390v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55B55, 68U05, 68Q17, 13P25 (primary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

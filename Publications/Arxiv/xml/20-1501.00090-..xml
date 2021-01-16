@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.00090%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.00090&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/axrn7ZVcRqVXoMgdhctd63STGdM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00090v1</id>
+    <updated>2014-12-31T08:00:01Z</updated>
+    <published>2014-12-31T08:00:01Z</published>
+    <title>Homotopy techniques for tensor decomposition and perfect identifiability</title>
+    <summary>  Let T be a general complex tensor of format $(n_1,...,n_d)$. When the
+fraction $\prod_in_i/[1+\sum_i(n_i-1)]$ is an integer, and a natural inequality
+(called balancedness) is satisfied, it is expected that T has finitely many
+minimal decomposition as a sum of decomposable tensors. We show how homotopy
+techniques allow us to find all the decompositions of T, starting from a given
+one. In particular this gives a guess, true with high probability, about the
+total number of these decompositions. This guess matches exactly with all cases
+previously known, and predicts several unknown cases. Some surprising
+experiments yielded two new cases of generic identifiability: formats (3,4,5)
+and (2,2,2,3) which have a unique decomposition as the sum of 6 and 4
+decomposable tensors, respectively. We conjecture that these two cases together
+with the classically known matrix pencils are the only cases where generic
+identifiability holds, i.e., the only identifiable cases. Building on the
+computational experiments, we also use basic tools from algebraic geometry to
+prove these two new cases are indeed generically identifiable.
+</summary>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Andrew J. Sommese</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, two Macaulay2 codes as ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.00090v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.00090v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q15, 15A21, 15A69, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

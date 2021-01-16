@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.04930%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.04930&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UmLzr/1IMFzT+TbJW2TOhJlYCcI</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.04930v1</id>
+    <updated>2017-01-18T03:05:22Z</updated>
+    <published>2017-01-18T03:05:22Z</published>
+    <title>Exterior Differential Systems, from Elementary to Advanced</title>
+    <summary>  This monograph was developed to support a series of lectures at the Institute
+of Mathematics at the Polish Academy of Sciences in September 2016, as part of
+a Workshop on the Geometry of Lagrangian Grassmannians and Nonlinear PDEs.
+  The goal is to cut the shortest-possible expository path from the common,
+elementary concepts of geometry (linear algebra, vector bundles, and algebraic
+ideals) to the advanced theorems about the characteristic variety. Hopefully,
+these lectures lower the barrier to advanced topics in exterior differential
+systems by exposing the audience to elementary versions of several key results
+regarding the characteristic variety, and to outline how these results could be
+used to push the frontiers of the subject. These key results are:
+  1) The incidence correspondence of the characteristic variety, 2) Guillemin
+normal form and Quillen's thesis, 3) The Integrability of Characteristics
+(Guillemin, Quillen, Sternberg, Gabber), 4) Yang's Hyperbolicity Criterion.
+\end{enumerate}
+  To accomplish this, the subject of exterior differential systems is
+reinterpreted as the study of smooth sub-bundles of the Grassmann bundle over a
+smooth manifold. These notes intentionally obscure the role of exterior
+differential forms in computation, instead focusing on tableaux as subspaces of
+homomorphisms and on symbols as varieties of endomorphisms. Techniques
+involving differential ideals or PDE analysis are hardly mentioned. Instead,
+Guillemin normal form (a generalization of Jordan decomposition from a single
+endomorphism to a variety of endomorphisms) is the primary computational tool.
+</summary>
+    <author>
+      <name>Abraham D. Smith</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Some proofs here also appeared in an early draft of 1410.7593</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.04930v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.04930v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="58A15 (Primary), 35A27, 35A30 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

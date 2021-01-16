@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1103.5380%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1103.5380&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/42SOS+trEzZuw2O0ItkqyyTnqqo</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1103.5380v3</id>
+    <updated>2011-08-19T19:39:25Z</updated>
+    <published>2011-03-28T14:44:53Z</published>
+    <title>Non-commutative crepant resolutions: scenes from categorical geometry</title>
+    <summary>  Non-commutative crepant resolutions are algebraic objects defined by Van den
+Bergh to realize an equivalence of derived categories in birational geometry.
+They are motivated by tilting theory, the McKay correspondence, and the minimal
+model program, and have applications to string theory and representation
+theory. In this expository article I situate Van den Bergh's definition within
+these contexts and describe some of the current research in the area.
+</summary>
+    <author>
+      <name>Graham J. Leuschke</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">57 pages; final version, to appear in "Progress in Commutative
+  Algebra: Ring Theory, Homology, and Decompositions" (Sean Sather-Wagstaff,
+  Christopher Francisco, Lee Klingler, and Janet Vassilev, eds.), De Gruyter.
+  Incorporates many small bugfixes and adjustments addressing comments from the
+  referee and others</arxiv:comment>
+    <link href="http://arxiv.org/abs/1103.5380v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1103.5380v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13-02, 14A22, 14E15, 16S38, Secondary: 13C14, 13D09" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

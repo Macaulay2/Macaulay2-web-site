@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1211.1472%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1211.1472&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BF5bG+eshGE2jDg0f+IoAU+/vh0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1211.1472v1</id>
+    <updated>2012-11-07T07:14:46Z</updated>
+    <published>2012-11-07T07:14:46Z</published>
+    <title>Schémas de Hilbert invariants et théorie classique des invariants</title>
+    <summary>  Let W be an affine variety equipped with an action of a reductive group G.
+The invariant Hilbert scheme is a moduli space which classifies the G-stable
+closed subschemes of W such that the affine algebra is the direct sum of simple
+G-modules with previously fixed finite multiplicities. In this thesis, we first
+study the invariant Hilbert scheme, denoted H. It parametrizes the GL(V)-stable
+closed subschemes Z of W=n1 V \oplus n2 V^* such that k[Z] is isomorphic to the
+regular representation of GL(V) as GL(V)-module. If dim(V)&lt;3, we show that H is
+a smooth variety, so that the Hilbert-Chow morphism \gamma: H -&gt; W//G is a
+resolution of singularities of the quotient W//G. However, if dim(V)=3, we show
+that H is singular. When dim(V)&lt;3, we describe H by equations and also as the
+total space of a homogeneous vector bundle over the product of two
+Grassmannians. Then we consider the symplectic setting by letting n1=n2 and
+replacing W by the zero fiber of the moment map \mu: W -&gt; End(V). We study the
+invariant Hilbert scheme H' which parametrizes the subschemes included in
+\mu^{-1}(0). We show that H' is always reducible, but that its main component
+Hp' is smooth if dim(V)&lt;3. In this case, the Hilbert-Chow morphism is a
+resolution of singularities (sometimes a symplectic one) of the quotient
+\mu^{-1}(0)//G. When dim(V)=3, we describe Hp' as the total space of a
+homogeneous vector bundle over a flag variety. Finally, we get similar results
+when we replace GL(V) by some other classical group (SL(V), SO(V), O(V), Sp(V))
+acting first on W=nV, then on the zero fiber of the moment map.
+</summary>
+    <author>
+      <name>Ronan Terpereau</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IF</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">author's PhD's thesis, 128 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1211.1472v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1211.1472v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

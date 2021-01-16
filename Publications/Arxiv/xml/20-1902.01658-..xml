@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1902.01658%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1902.01658&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5I/DXTjfXFl2DEcz8h3hsupBkVU</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1902.01658v1</id>
+    <updated>2019-02-05T12:20:55Z</updated>
+    <published>2019-02-05T12:20:55Z</published>
+    <title>A desingularization of Kontsevich's compactification of twisted cubics
+  in $V_5$</title>
+    <summary>  By definition, the del Pezzo $3$-fold $V_5$ is the intersection of
+$\mathrm{Gr}(2,5)$ with three hyperplanes in $\mathbb{P}^9$ under the Pl\"ucker
+embedding. Rational curves in $V_5$ have been studied in various contents of
+Fano geometry. In this paper, we propose an explicit birational relation of the
+Kontsevich and Simpson compactifications of twisted cubic curves in $V_5$. As a
+direct corollary, we obtain a desingularized model of Kontsevich
+compactification which induces the intersection cohomology group of
+Kontsevich's space.
+</summary>
+    <author>
+      <name>Kiryong Chung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1902.01658v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1902.01658v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

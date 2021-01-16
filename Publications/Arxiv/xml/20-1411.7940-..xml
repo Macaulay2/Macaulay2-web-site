@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1411.7940%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1411.7940&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pp76Rvy7rqgAeDxNwiuxtNk3zKM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1411.7940v2</id>
+    <updated>2015-04-06T12:59:46Z</updated>
+    <published>2014-11-28T16:50:21Z</published>
+    <title>Gotzmann's persistence theorem for finite modules</title>
+    <summary>  We prove a generalization of Gotzmann's persistence theorem in the case of
+modules with constant Hilbert polynomial. As a consequence, we show that the
+defining equations that give the embedding of a Quot scheme of points into a
+Grassmannian are given by a single Fitting ideal.
+</summary>
+    <author>
+      <name>Gustav Sædén Ståhl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages; restructured the paper and clarified some proofs</arxiv:comment>
+    <link href="http://arxiv.org/abs/1411.7940v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.7940v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D40, 14C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

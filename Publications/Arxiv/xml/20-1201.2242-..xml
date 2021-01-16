@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1201.2242%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1201.2242&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/el0fA9H+0FAh49rz66hILnmAIzQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2242v3</id>
+    <updated>2012-11-21T05:26:58Z</updated>
+    <published>2012-01-11T05:02:44Z</published>
+    <title>Numerical Algorithms for Dual Bases of Positive-Dimensional Ideals</title>
+    <summary>  An ideal of a local polynomial ring can be described by calculating a
+standard basis with respect to a local monomial ordering. However standard
+basis algorithms are not numerically stable. Instead we can describe the ideal
+numerically by finding the space of dual functionals that annihilate it,
+reducing the problem to one of linear algebra. There are several known
+algorithms for finding the truncated dual up to any specified degree, which is
+useful for describing zero-dimensional ideals. We present a stopping criterion
+for positive-dimensional cases based on homogenization that guarantees all
+generators of the initial monomial ideal are found. This has applications for
+calculating Hilbert functions.
+</summary>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1201.2242v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1201.2242v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

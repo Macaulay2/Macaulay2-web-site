@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0807.1690%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0807.1690&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/snOii77YIKz3J+habQjO0g4FWNA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0807.1690v2</id>
+    <updated>2008-07-16T16:29:20Z</updated>
+    <published>2008-07-10T16:03:35Z</published>
+    <title>Feynman motives of banana graphs</title>
+    <summary>  We consider the infinite family of Feynman graphs known as the "banana
+graphs" and compute explicitly the classes of the corresponding graph
+hypersurfaces in the Grothendieck ring of varieties as well as their
+Chern-Schwartz-MacPherson classes, using the classical Cremona transformation
+and the dual graph, and a blowup formula for characteristic classes. We outline
+the interesting similarities between these operations and we give formulae for
+cones obtained by simple operations on graphs. We formulate a positivity
+conjecture for characteristic classes of graph hypersurfaces and discuss
+briefly the effect of passing to noncommutative spacetime.
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">FSU</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Matilde Marcolli</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">MPI</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages, LaTeX, 9 eps figures (v2: small corrections)</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Commun. Number Theory Phys. 3 (2009), no. 1, 1-57</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0807.1690v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0807.1690v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

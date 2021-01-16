@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0204015%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0204015&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9R0qFXVOzSakNYKHTH4t+SyYSCU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0204015v1</id>
+    <updated>2002-04-01T20:31:10Z</updated>
+    <published>2002-04-01T20:31:10Z</published>
+    <title>Analytic rigidity of K-trivial extremal contractions of smooth 3-folds</title>
+    <summary>  We discuss the problem of classifying birational extremal contractions of
+smooth threefolds where the canonical bundle is trivial along the curves
+contracted, in the case when a divisor is contracted to a point. We prove the
+analytic rigidity of the contraction in the case this divisor is normal of
+degree &gt;= 5 (i.e. we show that the analytic structure of the contraction is
+completely determined by the isomorphism class of the exceptional locus and its
+normal bundle in X). This was previously known only in the case of smooth
+exceptional locus.
+</summary>
+    <author>
+      <name>Csilla Tamás</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0204015v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0204015v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05, 14E30, 14J30, 14B10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

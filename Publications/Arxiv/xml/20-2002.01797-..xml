@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.01797%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.01797&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ynneXN1Hq5NFWks8ErSVx4e/o/U</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.01797v1</id>
+    <updated>2020-02-05T14:07:26Z</updated>
+    <published>2020-02-05T14:07:26Z</published>
+    <title>The $\partial$-equation for $(p,q)$-forms on a non-reduced analytic
+  space</title>
+    <summary>  On any pure $n$-dimensional, possibly non-reduced, analytic space $X$ we
+introduce the sheaves $\mathscr{E}_X^{p,q}$ of smooth $(p,q)$-forms and certain
+extensions $\mathscr{A}_X^{p,q}$ of them such that the corresponding Dolbeault
+complex is exact, i.e., the $\partial$-equation is locally solvable in
+$\mathscr{A}_X$. The sheaves $\mathscr{A}_X^{p,q}$ are modules over the smooth
+forms, in particular, they are fine sheaves. We also introduce certain sheaves
+$\mathscr{B}_X^{n-p,n-q}$ of currents on $X$ that are dual to
+$\mathscr{A}_X^{p,q}$ in the sense of Serre duality. More precisely, we show
+that the compactly supported Dolbeault cohomology of $\mathscr{B}^{n-p,n-q}(X)$
+in a natural way is the dual of the Dolbeault cohomology of
+$\mathscr{A}^{p,q}(X)$.
+</summary>
+    <author>
+      <name>Mats Andersson</name>
+    </author>
+    <author>
+      <name>Richard Lärkäng</name>
+    </author>
+    <author>
+      <name>Mattias Lennartsson</name>
+    </author>
+    <author>
+      <name>Håkan Samuelsson Kalm</name>
+    </author>
+    <link href="http://arxiv.org/abs/2002.01797v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.01797v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

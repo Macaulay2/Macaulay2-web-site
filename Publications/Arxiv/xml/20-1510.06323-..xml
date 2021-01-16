@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1510.06323%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1510.06323&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7Bilj2odXHaCdEOKlyUa/Re1Dh8</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1510.06323v2</id>
+    <updated>2016-01-26T21:57:09Z</updated>
+    <published>2015-10-21T16:19:22Z</published>
+    <title>On the ampleness of the cotangent bundles of complete intersections</title>
+    <summary>  Based on a geometric interpretation of Brotbek's symmetric differential
+forms, for the intersection family $\mathcal{X}$ of generalized Fermat-type
+hypersurfaces in $\mathbb{P}_{\mathbb{K}}^N$ defined over any field $\mathbb
+K$, we reconstruct explicit symmetric differential forms by applying Cramer's
+rule, skipping cohomology arguments, and we further exhibit unveiled families
+of lower degree symmetric differential forms on all possible intersections of
+$\mathcal{X}$ with coordinate hyperplanes.
+  Thereafter, we develop what we call the `moving coefficients method' to prove
+a conjecture made by Olivier Debarre: for generic $c\geqslant N/2$
+hypersurfaces $H_1,\dots,H_c\subset \mathbb{P}_{\mathbb C}^N$ of degrees
+$d_1,\dots,d_c$ sufficiently large, the intersection $X:=H_1 \cap \cdots \cap
+H_c $ has ample cotangent bundle $\Omega_X$, and concerning effectiveness, the
+lower bound $ d_1,\dots,d_c\geqslant N^{N^2} $ works.
+  Lastly, thanks to known results about the Fujita Conjecture, we establish the
+very-ampleness of $\mathsf{Sym}^{\kappa}\,\Omega_X$ for all $\kappa\geqslant
+64\, \Big( \sum_{i=1}^c\, d_i \Big)^2 $.
+</summary>
+    <author>
+      <name>Song-Yan Xie</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LM-Orsay</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">We modify the effective degree estimates so that they are also valid
+  for the Algorithm in our recent paper arXiv:1601.05133</arxiv:comment>
+    <link href="http://arxiv.org/abs/1510.06323v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1510.06323v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

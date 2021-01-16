@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.13514%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.13514&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HYS03gBGpQIkIW2SBjNYoLpVTP0</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.13514v1</id>
+    <updated>2020-06-24T06:51:48Z</updated>
+    <published>2020-06-24T06:51:48Z</published>
+    <title>Algebraic sets defined by the commutator matrix</title>
+    <summary>  In this paper we study algebraic sets of pairs of matrices defined by the
+vanishing of either the diagonal of their commutator matrix or its
+anti-diagonal. We find a system of parameters for the coordinate rings of these
+two sets and their intersection and show that they are complete intersections.
+Moreover, we prove that these algebraic sets are $F$-pure over a field of
+positive prime characteristic and the algebraic set of pairs of matrices with
+the zero diagonal commutator is $F$-regular.
+</summary>
+    <author>
+      <name>Zhibek Kadyrsizova</name>
+    </author>
+    <author>
+      <name>Madi Yerlanov</name>
+    </author>
+    <link href="http://arxiv.org/abs/2006.13514v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.13514v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

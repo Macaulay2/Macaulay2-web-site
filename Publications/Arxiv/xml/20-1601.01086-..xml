@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1601.01086%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1601.01086&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3eqRfS077dAGoDF8KMaAm3Lti8k</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1601.01086v2</id>
+    <updated>2016-04-06T09:53:35Z</updated>
+    <published>2016-01-06T06:06:41Z</published>
+    <title>Regularity of Binomial Edge Ideals of Certain Block Graphs</title>
+    <summary>  We obtain an improved lower bound for the regularity of the binomial edge
+ideals of trees. We prove an upper bound for the regularity of the binomial
+edge ideals of certain subclass of block-graphs. As a consequence we obtain
+sharp upper and lower bounds for the regularity of binomial edge ideals of a
+class of trees called lobsters. We also obtain precise expressions for the
+regularities of binomial edge ideals of certain classes of trees and block
+graphs.
+</summary>
+    <author>
+      <name>A. V. Jayanthan</name>
+    </author>
+    <author>
+      <name>N. Narayanan</name>
+    </author>
+    <author>
+      <name>B. V. Raghavendra Rao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 Pages. Included some improved results on regularity. Comments are
+  most welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1601.01086v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.01086v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

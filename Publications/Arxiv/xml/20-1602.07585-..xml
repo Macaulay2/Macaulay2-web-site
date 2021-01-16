@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.07585%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.07585&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Siu07qOWL6xJ6Izw/tDBcTRzga0</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07585v1</id>
+    <updated>2016-02-24T16:35:59Z</updated>
+    <published>2016-02-24T16:35:59Z</published>
+    <title>Mapping toric varieties into low dimensional spaces</title>
+    <summary>  A smooth $d$-dimensional projective variety $X$ can always be embedded into
+$2d+1$-dimensional space. In contrast, a singular variety may require an
+arbitrary large ambient space. If we relax our requirement and ask only that
+the map is injective, then any $d$-dimensional projective variety can be mapped
+injectively to $2d+1$-dimensional projective space. A natural question then
+arises: what is the minimal $m$ such that a projective variety can be mapped
+injectively to $m$-dimensional projective space? In this paper we investigate
+this question for normal toric varieties, with our most complete results being
+for Segre-Veronese varieties. In particular, we find that in most cases the
+optimal $m$ can be reached by performing linear projections from the defining
+embedding.
+</summary>
+    <author>
+      <name>Emilie Dufresne</name>
+    </author>
+    <author>
+      <name>Jack Jeffries</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.07585v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.07585v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50, 13D45, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

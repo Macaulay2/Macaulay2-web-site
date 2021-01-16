@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1808.09727%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1808.09727&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tkUJJyBS8GGyI7IT276QRbQeBMA</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1808.09727v1</id>
+    <updated>2018-08-29T11:08:14Z</updated>
+    <published>2018-08-29T11:08:14Z</published>
+    <title>Towards Massively Parallel Computations in Algebraic Geometry</title>
+    <summary>  Introducing parallelism and exploring its use is still a fundamental
+challenge for the computer algebra community. In high performance numerical
+simulation, on the other hand, transparent environments for distributed
+computing which follow the principle of separating coordination and computation
+have been a success story for many years. In this paper, we explore the
+potential of using this principle in the context of computer algebra. More
+precisely, we combine two well-established systems: The mathematics we are
+interested in is implemented in the computer algebra system Singular, whose
+focus is on polynomial computations, while the coordination is left to the
+workflow management system GPI-Space, which relies on Petri nets as its
+mathematical modeling language, and has been successfully used for coordinating
+the parallel execution (autoparallelization) of academic codes as well as for
+commercial software in application areas such as seismic data processing. The
+result of our efforts is a major step towards a framework for massively
+parallel computations in the application areas of Singular, specifically in
+commutative algebra and algebraic geometry. As a first test case for this
+framework, we have modeled and implemented a hybrid smoothness test for
+algebraic varieties which combines ideas from Hironaka's celebrated
+desingularization proof with the classical Jacobian criterion. Applying our
+implementation to two examples originating from current research in algebraic
+geometry, one of which cannot be handled by other means, we illustrate the
+behavior of the smoothness test within our framework, and investigate how the
+computations scale up to 256 cores.
+</summary>
+    <author>
+      <name>Janko Boehm</name>
+    </author>
+    <author>
+      <name>Wolfram Decker</name>
+    </author>
+    <author>
+      <name>Anne Frühbis-Krüger</name>
+    </author>
+    <author>
+      <name>Franz-Josef Pfreundt</name>
+    </author>
+    <author>
+      <name>Mirko Rahn</name>
+    </author>
+    <author>
+      <name>Lukas Ristau</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages, 5 figures, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1808.09727v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1808.09727v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W10 (Primary), 68W30, 14B05, 14Q99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

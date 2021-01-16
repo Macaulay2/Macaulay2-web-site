@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.08912%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.08912&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sxo70rp9F8uLIe5fonIn581Fb4c</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.08912v1</id>
+    <updated>2018-03-23T17:53:11Z</updated>
+    <published>2018-03-23T17:53:11Z</published>
+    <title>Projective duals to algebraic and tropical hypersurfaces</title>
+    <summary>  We study a tropical analogue of the projective dual variety of a
+hypersurface. When $X$ is a curve in $\mathbb{P}^2$ or a surface in
+$\mathbb{P}^3$, we provide an explicit description of $\text{Trop}(X^*)$ in
+terms of $\text{Trop}(X)$, as long as $\text{Trop}(X)$ is smooth and satisfies
+a mild genericity condition. As a consequence, when $X$ is a curve we describe
+the transformation of Newton polygons under projective duality, and recover
+classical formulas for the degree of a dual plane curve. For higher dimensional
+hypersurfaces $X$, we give a partial description of $\text{Trop}(X^*)$.
+</summary>
+    <author>
+      <name>Nathan Ilten</name>
+    </author>
+    <author>
+      <name>Yoav Len</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">46 pages, 13 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1803.08912v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.08912v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05, 14J70, 14M99, 14N20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

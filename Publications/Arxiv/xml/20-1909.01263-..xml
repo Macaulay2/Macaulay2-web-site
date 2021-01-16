@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.01263%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.01263&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/T9RKZyfXeTttp8YJThrNtFDtP70</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.01263v1</id>
+    <updated>2019-09-03T15:53:55Z</updated>
+    <published>2019-09-03T15:53:55Z</published>
+    <title>Trisecant Flops, their associated K3 surfaces and the rationality of
+  some Fano fourfolds</title>
+    <summary>  We prove the rationality of some Fano fourfolds via Mori Theory and the
+Minimal Model Program. This shows a connection between some admissible cubic
+fourfolds and some birational models of their associated K3 surfaces, pointing
+out that the rationality of admissible cubic fourfolds may be closely related
+to the construction of special projections of the associated K3 surfaces. We
+give several explicit examples of our construction, one of which relates the
+Fano divisor $\mathcal{C}_{14}$ of cubic fourfolds with a divisor of rational
+Gushel-Mukai fourfolds inside the moduli space.
+</summary>
+    <author>
+      <name>Francesco Russo</name>
+    </author>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">First draft; comments are very welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.01263v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.01263v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

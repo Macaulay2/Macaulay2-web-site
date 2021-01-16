@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.09830%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.09830&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rT3ljVoRdHcNnkua77apGnw/XIw</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.09830v1</id>
+    <updated>2017-10-26T17:49:52Z</updated>
+    <published>2017-10-26T17:49:52Z</published>
+    <title>Computations over Local Rings in Macaulay2</title>
+    <summary>  Local rings are ubiquitous in algebraic geometry. Not only are they naturally
+meaningful in a geometric sense, but also they are extremely useful as many
+problems can be attacked by first reducing to the local case and taking
+advantage of their nice properties. Any localization of a ring $R$, for
+instance, is flat over $R$. Similarly, when studying finitely generated modules
+over local rings, projectivity, flatness, and freeness are all equivalent.
+  We introduce the packages PruneComplex, Localization and LocalRings for
+Macaulay2. The first package consists of methods for pruning chain complexes
+over polynomial rings and their localization at prime ideals. The second
+package contains the implementation of such local rings. Lastly, the third
+package implements various computations for local rings, including syzygies,
+minimal free resolutions, length, minimal generators and presentation, and the
+Hilbert--Samuel function.
+  The main tools and procedures in this paper involve homological methods. In
+particular, many results depend on computing the minimal free resolution of
+modules over local rings.
+</summary>
+    <author>
+      <name>Mahrud Sayrafi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Undergraduate Thesis. 23 pages. Source code:
+  https://www.ocf.berkeley.edu/~mahrud/thesis/</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.09830v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.09830v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

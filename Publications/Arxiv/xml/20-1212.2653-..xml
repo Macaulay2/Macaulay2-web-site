@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1212.2653%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1212.2653&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iWH52dS6Kil7aAbdzIwbk7Dd6Mw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2653v1</id>
+    <updated>2012-12-11T21:29:47Z</updated>
+    <published>2012-12-11T21:29:47Z</published>
+    <title>On the Eisenbud-Green-Harris Conjecture</title>
+    <summary>  It has been conjectured by Eisenbud, Green and Harris that if $I$ is a
+homogeneous ideal in $k[x_1,...,x_n]$ containing a regular sequence
+$f_1,...,f_n$ of degrees $\deg(f_i)=a_i$, where $2\leq a_1\leq ... \leq a_n$,
+then there is a homogeneous ideal $J$ containing $x_1^{a_1},...,x_n^{a_n}$ with
+the same Hilbert function. In this paper we prove the Eisenbud-Green-Harris
+conjecture when $f_i$ splits into linear factors for all $i$.
+</summary>
+    <author>
+      <name>Abed Abedelfatah</name>
+    </author>
+    <link href="http://arxiv.org/abs/1212.2653v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.2653v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

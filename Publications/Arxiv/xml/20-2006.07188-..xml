@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.07188%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.07188&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GKgZ0WGvJduSRB5yR/6+jBs/2tA</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.07188v1</id>
+    <updated>2020-06-11T17:04:51Z</updated>
+    <published>2020-06-11T17:04:51Z</published>
+    <title>Binomial edge ideals and bounds for their regularity</title>
+    <summary>  Let $G$ be a simple graph on $n$ vertices and $J_G$ denote the corresponding
+binomial edge ideal in $S = K[x_1, \ldots, x_n, y_1,\ldots, y_n].$ We prove
+that the Castelnuovo-Mumford regularity of $J_G$ is bounded above by $c(G)+1$
+when $G$ is a quasi-block graph or semi-block graph. We give another proof of
+Saeedi Madani-Kiani regularity upper bound conjecture for chordal graphs. We
+obtain the regularity of binomial edge ideals of Jahangir graphs. Later, we
+establish a sufficient condition for Hibi-Matsuda conjecture to be true.
+</summary>
+    <author>
+      <name>Arvind Kumar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted for publication in Journal of Algebraic Combinatorics</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.07188v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.07188v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

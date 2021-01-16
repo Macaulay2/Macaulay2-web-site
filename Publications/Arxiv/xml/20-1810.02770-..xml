@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.02770%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.02770&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/94cqEnrW9oMfv/wMVoo+ReUyDKI</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.02770v2</id>
+    <updated>2018-10-19T22:39:29Z</updated>
+    <published>2018-10-05T16:00:18Z</published>
+    <title>The TestIdeals package for Macaulay2</title>
+    <summary>  This note describes a \emph{Macaulay2} package for computations in prime
+characteristic commutative algebra. This includes Frobenius powers and roots,
+$p^{-e}$-linear and $p^{e}$-linear maps, singularities defined in terms of
+these maps, different types of test ideals and modules, and ideals compatible
+with a given $p^{-e}$-linear map.
+</summary>
+    <author>
+      <name>Alberto F. Boix</name>
+    </author>
+    <author>
+      <name>Daniel J. Hernández</name>
+    </author>
+    <author>
+      <name>Zhibek Kadyrsizova</name>
+    </author>
+    <author>
+      <name>Mordechai Katzman</name>
+    </author>
+    <author>
+      <name>Sara Malec</name>
+    </author>
+    <author>
+      <name>Marcus Robinson</name>
+    </author>
+    <author>
+      <name>Karl Schwede</name>
+    </author>
+    <author>
+      <name>Daniel Smolkin</name>
+    </author>
+    <author>
+      <name>Pedro Teixeira</name>
+    </author>
+    <author>
+      <name>Emily E. Witt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, subsection 4.5 added, typos corrected, comments welcome.
+  The latest version of the package is available here:
+  https://github.com/kschwede/Workshop-2017-Berkeley/tree/master/Fsing/TestIdealsPackage</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.02770v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.02770v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35, 14F18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

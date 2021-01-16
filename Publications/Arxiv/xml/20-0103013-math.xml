@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0103013%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0103013&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VnyWzl6cOZXN2PE8WMrlNJdK3Tk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0103013v1</id>
+    <updated>2001-03-02T21:12:34Z</updated>
+    <published>2001-03-02T21:12:34Z</published>
+    <title>Algorithmic Determination of the Rational Cohomology of Complex
+  Varieties via Differential Forms</title>
+    <summary>  We give algorithms for the computation of the algebraic de Rham cohomology of
+open and closed algebraic sets inside projective space or other smooth complex
+toric varieties. The methods, which are based on Gr\"obner basis computations
+in rings of differential operators, can also be used to compute the cohomology
+of intersections of smooth closed and open subsets, and in certain situations
+the cup-product structure.
+  We give some examples which were carried out with the help of \Mtwo.
+</summary>
+    <author>
+      <name>Uli Walther</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">amslatex, 22 pages. Uses diagrams.sty</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0103013v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0103013v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q15, 14F40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

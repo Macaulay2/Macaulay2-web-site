@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1910.11854%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1910.11854&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IddqtSX5peZ5FdDjKa5IpYpjAB4</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1910.11854v2</id>
+    <updated>2019-11-01T17:24:51Z</updated>
+    <published>2019-10-25T17:25:15Z</published>
+    <title>Birational geometry of blow-ups of projective spaces along points and
+  lines</title>
+    <summary>  Consider the blow-up $X$ of $\mathbb{P}^3$ at 6 points in very general
+position and the 15 lines through the 6 points. We construct an infinite-order
+pseudo-automorphism $\phi_X$ on $X$, induced by the complete linear system of a
+divisor of degree 13. The effective cone of $X$ has infinitely many extremal
+rays and hence, $X$ is not a Mori Dream Space. The threefold $X$ has a unique
+anticanonical section which is a Jacobian K3 Kummer surface $S$ of Picard
+number 17. The restriction of $\phi_X$ on $S$ realizes one of Keum's 192
+infinite-order automorphisms of Jacobian K3 Kummer surfaces. In general, we
+show the blow-up of $\mathbb{P}^n$ ($n\geq 3$) at $(n+3)$ very general points
+and certain 9 lines through them is not Mori Dream, with infinitely many
+extremal effective divisors. As an application, for $n\geq 7$, the blow-up of
+$\overline{M}_{0,n}$ at a very general point has infinitely many extremal
+effective divisors.
+</summary>
+    <author>
+      <name>Zhuang He</name>
+    </author>
+    <author>
+      <name>Lei Yang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages. Minor changes. Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1910.11854v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1910.11854v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E30, 14E07, 14J28, 14J50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

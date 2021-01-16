@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1308.2915%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1308.2915&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uW61lAxTBlQD1Nd2Ho9BhnBHmfg</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1308.2915v1</id>
+    <updated>2013-08-13T17:02:57Z</updated>
+    <published>2013-08-13T17:02:57Z</published>
+    <title>A Strange Family of Calabi-Yau 3-folds</title>
+    <summary>  We study the predictions of mirror symmetry for the 1-parameter family of
+Calabi-Yau 3-folds $\tilde{X}$ with hodge numbers $h^{11}=31,h^{21}=1$
+constructed in \cite{BN}. We calculate the Picard-Fuchs differential equation
+associated to this family, and use it to predict the instanton numbers on the
+hypothetical mirror. These exhibit a strange vanishing in odd degrees. We also
+calculate the monodromy action on $H^3(\tilde{X},\QQ)$ and find that it
+strangely predicts a positive Euler characteristic for its mirror. From a
+degenerate fiber of our family we construct a new rigid Calabi-Yau 3-fold. In
+an appendix we prove the expansion of the conifold period conjectured in
+\cite{ES} to hold for all 1-parameter families.
+</summary>
+    <author>
+      <name>Patrick Devlin</name>
+    </author>
+    <author>
+      <name>Howard J. Nuer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1308.2915v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1308.2915v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

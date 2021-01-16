@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.02618%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.02618&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oeiiCO/1f7f21kDDdxirzDHN+Wg</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.02618v1</id>
+    <updated>2016-04-09T23:16:04Z</updated>
+    <published>2016-04-09T23:16:04Z</published>
+    <title>Chordal networks of polynomial ideals</title>
+    <summary>  We introduce a novel representation of structured polynomial ideals, which we
+refer to as chordal networks. The sparsity structure of a polynomial ideal is
+often described by a graph that captures the interactions among the variables.
+Chordal networks provide a computationally convenient decomposition of the
+polynomial ideal into simpler (triangular) polynomial sets, while preserving
+its underlying graphical structure. We show that many interesting families of
+polynomial ideals admit compact chordal network representations (of size linear
+in the number of variables), even though the number of components could be
+exponentially large. Chordal networks can be computed for arbitrary polynomial
+systems using a refinement of the chordal elimination algorithm from
+\cite{Cifuentes2014}. Furthermore, they can be effectively used to obtain
+several properties of the variety, such as its dimension, cardinality and
+equidimensional components, as well as an efficient probabilistic test for
+radical ideal membership. We apply our methods to examples from algebraic
+statistics and vector addition systems; for these instances, algorithms based
+on chordal networks outperform existing techniques by orders of magnitude.
+</summary>
+    <author>
+      <name>Diego Cifuentes</name>
+    </author>
+    <author>
+      <name>Pablo A. Parrilo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, 13 figures, 5 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1604.02618v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.02618v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W30 (Primary) 13P15, 14Q99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

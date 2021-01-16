@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.08897%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.08897&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qtnG3EBG4PRN6lvMDhyXZOyfbek</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.08897v1</id>
+    <updated>2015-09-29T19:26:48Z</updated>
+    <published>2015-09-29T19:26:48Z</published>
+    <title>Scattering Equations and Global Duality of Residues</title>
+    <summary>  We examine the polynomial form of the scattering equations by means of
+computational algebraic geometry. The scattering equations are the backbone of
+the Cachazo-He-Yuan (CHY) representation of the S-matrix. We explain how the
+Bezoutian matrix facilitates the calculation of amplitudes in the CHY
+formalism, without explicitly solving the scattering equations or summing over
+the individual residues. Since for $n$-particle scattering, the size of
+Bezoutian matrix grows only as $(n-3)\times(n-3)$, our algorithm is very
+efficient for analytic and numeric amplitude computations.
+</summary>
+    <author>
+      <name>Mads Sogaard</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevD.93.105009</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevD.93.105009" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys. Rev. D 93, 105009 (2016)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1509.08897v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.08897v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

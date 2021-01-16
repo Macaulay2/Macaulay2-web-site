@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0608024%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0608024&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CfsVq6Q9SQ35JxQM3Uq4GHBa0/U</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0608024v1</id>
+    <updated>2006-08-01T18:02:54Z</updated>
+    <published>2006-08-01T18:02:54Z</published>
+    <title>Moduli spaces of curves with linear series and the slope conjecture</title>
+    <summary>  We describe the moduli space G^r_d of triples consisting of a curve C, a line
+bundle L on C of degree d, and a linear system V on L of dimension r. This
+moduli space extends over a partial compactification {\tilde M_g} of M_g inside
+{\bar M_g}. For the proper map h : G^r_d --&gt; \tilde M_g, we compute the
+push-forward on Chow 1-cocyles in the case where h has relative dimension zero.
+As a consequence we obtain another counterexample to the Harris-Morrison slope
+conjecture as well as an infinite sequence of potential counterexamples.
+</summary>
+    <author>
+      <name>Deepak Khosla</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0608024v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0608024v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10; 14H51" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

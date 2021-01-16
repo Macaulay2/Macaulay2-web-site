@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.03573%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.03573&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nvK+KzFT9cd4rwESTTL6OiDhi8g</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.03573v2</id>
+    <updated>2019-03-12T22:25:01Z</updated>
+    <published>2019-03-08T17:31:26Z</published>
+    <title>Packing properties of cubic squarefree monomial ideals</title>
+    <summary>  Let $I$ be an ideal in a Noetherian ring $R$. The $n^{\text{th}}$ symbolic
+power of $I$ is defined as $$I^{(n)}=\displaystyle\bigcap_{p\in
+Ass(R)}(I^nR_p\cap R).$$ The symbolic powers, in general, are not equal to the
+ordinary powers. Therefore, one interesting question here is for what classes
+of ideals ordinary and symbolic powers coincide? The answer to this question
+for squarefree monomial ideals may be packing property. In this paper, we study
+the equality between symbolic and ordinary powers for some classes of cubic
+squarefree monomial ideals.
+</summary>
+    <author>
+      <name>Ali Alilooee</name>
+    </author>
+    <author>
+      <name>Arindam Banerjee</name>
+    </author>
+    <link href="http://arxiv.org/abs/1903.03573v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.03573v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

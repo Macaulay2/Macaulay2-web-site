@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1707.09843%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1707.09843&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9xpZU5B2GMltadIeqCB4S1UZBdI</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1707.09843v1</id>
+    <updated>2017-07-31T13:36:55Z</updated>
+    <published>2017-07-31T13:36:55Z</published>
+    <title>Results on the Hilbert coefficients and reduction numbers</title>
+    <summary>  Let $(R,\frak{m})$ be a $d$-dimensional Cohen-Macaulay local ring, $I$ an
+$\frak{m}$-primary ideal and $J$ a minimal reduction of $I$. In this paper we
+study the independence of reduction ideals and the behavior of the higher
+Hilbert coefficients. In addition, we give some examples in this regards.
+</summary>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Dler Naderi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.09843v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.09843v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13D40, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

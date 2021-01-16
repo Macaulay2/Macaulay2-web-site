@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.5314%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.5314&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Su/zksKxintekzQ2/P+ggYHNutI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.5314v1</id>
+    <updated>2013-04-19T05:45:54Z</updated>
+    <published>2013-04-19T05:45:54Z</published>
+    <title>Derived Representation Schemes and Noncommutative Geometry</title>
+    <summary>  Some 15 years ago M. Kontsevich and A. Rosenberg [KR] proposed a heuristic
+principle according to which the family of schemes ${Rep_n(A)}$ parametrizing
+the finite-dimensional represen- tations of a noncommutative algebra A should
+be thought of as a substitute or "approximation" for Spec(A). The idea is that
+every property or noncommutative geometric structure on A should induce a
+corresponding geometric property or structure on $Rep_n(A)$ for all n. In
+recent years, many interesting structures in noncommutative geometry have
+originated from this idea. In practice, however, if an associative algebra A
+possesses a property of geometric nature (e.g., A is a NC complete
+intersection, Cohen-Macaulay, Calabi-Yau, etc.), it often happens that, for
+some n, the scheme $Rep_n(A)$ fails to have the corresponding property in the
+usual algebro-geometric sense. The reason for this seems to be that the
+representation functor $Rep_n$ is not "exact" and should be replaced by its
+derived functor $DRep_n$ (in the sense of non-abelian homological algebra). The
+higher homology of $DRep_n(A)$, which we call representation homology,
+obstructs $Rep_n(A)$ from having the desired property and thus measures the
+failure of the Kontsevich-Rosenberg "approximation." In this paper, which is
+mostly a survey, we prove several results confirming this intuition. We also
+give a number of examples and explicit computations illustrating the theory
+developed in [BKR] and [BR].
+</summary>
+    <author>
+      <name>Yuri Berest</name>
+    </author>
+    <author>
+      <name>Giovanni Felder</name>
+    </author>
+    <author>
+      <name>Ajay Ramadoss</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages. Comments welcome. arXiv admin note: substantial text
+  overlap with arXiv:1112.1449</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.5314v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.5314v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

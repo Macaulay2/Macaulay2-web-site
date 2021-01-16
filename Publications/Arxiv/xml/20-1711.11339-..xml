@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.11339%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.11339&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4KI+vzpyQK7A3o1D21/FKEj50Q0</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.11339v3</id>
+    <updated>2018-06-21T12:47:57Z</updated>
+    <published>2017-11-30T12:24:31Z</published>
+    <title>Radially-Distorted Conjugate Translations</title>
+    <summary>  This paper introduces the first minimal solvers that jointly solve for
+affine-rectification and radial lens distortion from coplanar repeated
+patterns. Even with imagery from moderately distorted lenses, plane
+rectification using the pinhole camera model is inaccurate or invalid. The
+proposed solvers incorporate lens distortion into the camera model and extend
+accurate rectification to wide-angle imagery, which is now common from consumer
+cameras. The solvers are derived from constraints induced by the conjugate
+translations of an imaged scene plane, which are integrated with the division
+model for radial lens distortion. The hidden-variable trick with ideal
+saturation is used to reformulate the constraints so that the solvers generated
+by the Grobner-basis method are stable, small and fast.
+  Rectification and lens distortion are recovered from either one conjugately
+translated affine-covariant feature or two independently translated
+similarity-covariant features. The proposed solvers are used in a \RANSAC-based
+estimator, which gives accurate rectifications after few iterations. The
+proposed solvers are evaluated against the state-of-the-art and demonstrate
+significantly better rectifications on noisy measurements. Qualitative results
+on diverse imagery demonstrate high-accuracy undistortions and rectifications.
+The source code is publicly available at https://github.com/prittjam/repeats.
+</summary>
+    <author>
+      <name>James Pritts</name>
+    </author>
+    <author>
+      <name>Zuzana Kukelova</name>
+    </author>
+    <author>
+      <name>Viktor Larsson</name>
+    </author>
+    <author>
+      <name>Ondrej Chum</name>
+    </author>
+    <link href="http://arxiv.org/abs/1711.11339v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.11339v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

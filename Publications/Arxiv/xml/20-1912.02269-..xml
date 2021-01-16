@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.02269%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.02269&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EmDp8COI1f32L6ev3BEZxNACYvM</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02269v1</id>
+    <updated>2019-12-04T22:00:23Z</updated>
+    <published>2019-12-04T22:00:23Z</published>
+    <title>A Computational Approach to Classifying Low Rank Modular Categories</title>
+    <summary>  This paper introduces a computational approach to classifying low rank
+modular categories up to their modular data. The modular data of a modular
+category is a pair of matrices, $(S,T)$. Virtually all the numerical
+information of the category is contained within or derived from the modular
+data. The modular data satisfy a variety of criteria that Bruillard, Ng,
+Rowell, and Wang call the admissibility criteria. Of note is the Galois group
+of the $S$ matrix is an abelian group that acts faithfully on the columns of
+the eigenvalue matrix, $s = (\frac{S_{ij}}{S_{0j}})$. This gives an injection
+from Gal$(\mathbb{Q}(S),\mathbb{Q}) \to $ Sym$_r$, where $r$ is the rank of the
+category. Our approach begins by listing all the possible abelian subgroups of
+Sym$_6$ and building all the possible modular data for each group. We run each
+set of modular data through a series of Gr\"obner basis calculations until we
+either find a contradiction or solve for the modular data.
+</summary>
+    <author>
+      <name>Daniel Creamer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 1 figure, 8 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.02269v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.02269v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

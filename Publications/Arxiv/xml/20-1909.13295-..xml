@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.13295%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.13295&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5QUm3IUuPLmUeKhX6qWVO9xYI24</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.13295v1</id>
+    <updated>2019-09-29T14:50:46Z</updated>
+    <published>2019-09-29T14:50:46Z</published>
+    <title>Unmixed and Cohen--Macaulay weighted oriented König graphs</title>
+    <summary>  Let $D$ be a weighted oriented graph, whose underlying graph is $G$, and let
+$I(D)$ be its edge ideal. If $G$ has no $3$-, $5$-, or $7$-cycles, or $G$ is
+K\"{o}nig, we characterize when $I(D)$ is unmixed. If $G$ has no $3$- or
+$5$-cycles, or $G$ is K\"onig, we characterize when $I(D)$ is Cohen--Macaulay.
+We prove that $I(D)$ is unmixed if and only if $I(D)$ is Cohen--Macaulay when
+$G$ has girth greater than $7$ or $G$ is K\"onig and has no $4$-cycles.
+</summary>
+    <author>
+      <name>Yuriko Pitones</name>
+    </author>
+    <author>
+      <name>Enrique Reyes</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <link href="http://arxiv.org/abs/1909.13295v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.13295v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 05C22, 05E40, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0505421%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0505421&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YdZNyRsrvA2uovNd0FFoE+NQCIM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505421v2</id>
+    <updated>2005-10-01T19:07:08Z</updated>
+    <published>2005-05-19T15:14:21Z</published>
+    <title>Multigraded regularity: coarsenings and resolutions</title>
+    <summary>  Let S = k[x_1,...,x_n] be a Z^r-graded ring with deg (x_i) = a_i \in Z^r for
+each i and suppose that M is a finitely generated Z^r-graded S-module. In this
+paper we describe how to find finite subsets of Z^r containing the multidegrees
+of the minimal multigraded syzygies of M. To find such a set, we first coarsen
+the grading of M so that we can view M as a Z-graded S-module. We use a
+generalized notion of Castelnuovo-Mumford regularity, which was introduced by
+D. Maclagan and G. Smith, to associate to M a number which we call the
+regularity number of M. The minimal degrees of the multigraded minimal syzygies
+are bounded in terms of this invariant.
+</summary>
+    <author>
+      <name>Jessica Sidman</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <author>
+      <name>Haohao Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 1 figure; small corrections made; final version; to
+  appear in J. of Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0505421v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0505421v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

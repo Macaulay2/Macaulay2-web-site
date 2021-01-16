@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0608183%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0608183&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IvdfsvAYD+FYYRAIKPUO7DVao54</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0608183v2</id>
+    <updated>2007-03-17T19:03:01Z</updated>
+    <published>2006-08-07T22:23:28Z</published>
+    <title>Projective toric varieties as fine moduli spaces of quiver
+  representations</title>
+    <summary>  This paper proves that every projective toric variety is the fine moduli
+space for stable representations of an appropriate bound quiver. To accomplish
+this, we study the quiver $Q$ with relations $R$ corresponding to the
+finite-dimensional algebra $\bigl(\bigoplus_{i=0}^{r} L_i \bigr)$ where
+$\mathcal{L} := (\mathscr{O}_X,L_1, ...c, L_r)$ is a list of line bundles on a
+projective toric variety $X$. The quiver $Q$ defines a smooth projective toric
+variety, called the multilinear series $|\mathcal{L}|$, and a map $X \to
+|\mathcal{L}|$. We provide necessary and sufficient conditions for the induced
+map to be a closed embedding. As a consequence, we obtain a new geometric
+quotient construction of projective toric varieties. Under slightly stronger
+hypotheses on $\mathcal{L}$, the closed embedding identifies $X$ with the fine
+moduli space of stable representations for the bound quiver $(Q,R)$.
+</summary>
+    <author>
+      <name>Alastair Craw</name>
+    </author>
+    <author>
+      <name>Gregory G. Smith</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1353/ajm.0.0027</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">revised version: improved exposition, corrected typos and other minor
+  changes</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">American Journal of Mathematics 130 (2008) 1509-1534</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0608183v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0608183v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1353/ajm.0.0027" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

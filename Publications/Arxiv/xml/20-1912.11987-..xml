@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.11987%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.11987&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5zrooRmjlNta5WMSnjySJbR2R7g</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.11987v1</id>
+    <updated>2019-12-15T18:03:00Z</updated>
+    <published>2019-12-15T18:03:00Z</published>
+    <title>Necessary and Sufficient Polynomial Constraints on Compatible Triplets
+  of Essential Matrices</title>
+    <summary>  The essential matrix incorporates relative rotation and translation
+parameters of two calibrated cameras. The well-known algebraic characterization
+of essential matrices, i.e. necessary and sufficient conditions under which an
+arbitrary matrix (of rank two) becomes essential, consists of a unique matrix
+equation of degree three. Based on this equation, a number of efficient
+algorithmic solutions to different relative pose estimation problems have been
+proposed. In three views, a possible way to describe the geometry of three
+calibrated cameras comes from considering compatible triplets of essential
+matrices. The compatibility is meant the correspondence of a triplet to a
+certain configuration of calibrated cameras. The main goal of this paper is to
+give an algebraic characterization of compatible triplets of essential
+matrices. Specifically, we propose necessary and sufficient polynomial
+constraints on a triplet of real rank-two essential matrices that ensure its
+compatibility. The constraints are given in the form of six cubic matrix
+equations, one quartic and one sextic scalar equations. An important advantage
+of the proposed constraints is their sufficiency even in the case of cameras
+with collinear centers. The applications of the constraints may include
+relative camera pose estimation in three and more views, averaging of essential
+matrices for incremental structure from motion, multiview camera
+auto-calibration, etc.
+</summary>
+    <author>
+      <name>E. V. Martyushev</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.11987v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.11987v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

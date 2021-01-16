@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.01144%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.01144&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2mCSXP1lq7pIcV20RV0Fje5z4xs</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.01144v1</id>
+    <updated>2015-02-04T10:12:50Z</updated>
+    <published>2015-02-04T10:12:50Z</published>
+    <title>On the dynamical degrees of reflections on cubic fourfolds</title>
+    <summary>  We compute the dynamical degrees of certain compositions of reflections in
+points on a smooth cubic fourfold. Our interest in these computations stems
+from the irrationality problem for cubic fourfolds. Namely, we hope that they
+will provide numerical evidence for potential restrictions on tuples of
+dynamical degrees realisable on general cubic fourfolds which can be violated
+on the projective four-space.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <author>
+      <name>Pawel Sosna</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s40879-015-0037-5</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s40879-015-0037-5" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.01144v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.01144v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E07, 14J35, 37F10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

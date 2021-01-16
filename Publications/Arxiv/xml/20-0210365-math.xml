@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0210365%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0210365&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oCUOANUJNqcsYvgh585aWrzwpnM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210365v4</id>
+    <updated>2003-03-11T12:13:23Z</updated>
+    <published>2002-10-23T12:06:00Z</published>
+    <title>The maximal spectral radius of a digraph with (m+1)^2 - s edges</title>
+    <summary>  It is known that the spectral radius of a digraph with k edges is \le
+sqrt{k}, and that this inequality is strict except when k is a perfect square.
+For k=m^2 + \ell, \ell fixed, m large, Friedland showed that the optimal
+digraph is obtained from the complete digraph on m vertices by adding one extra
+vertex, and a corresponding loop, and then connecting it to the first \lfloor
+\ell/2\rfloor vertices by pairs of directed edges (this is for odd \ell, for
+even \ell we add one extra edge to the new vertex).
+  Using a combinatorial reciprocity theorem by Gessel, and a classification by
+Backelin on the digraphs on s edges having a maximal number of walks of length
+two, we obtain the following result: for fixed 0&lt; s \neq 4, k=(m+1)^2 - s, m
+large, the maximal spectral radius of a digraph with k edges is obtained by the
+digraph which is constructed from the complete digraph on m+1 vertices by
+removing the loop at the last vertex together with \lfloor s/2 \rfloor pairs of
+directed edges that connect to the last vertex (if s is even, remove an extra
+edge connecting to the last vertex).
+</summary>
+    <author>
+      <name>Jan Snellman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 9 eps figures. To be presented at the conference FPSAC03.
+  Submitted to Electronic Journal of Linear Algebra. Keywords: Spectral radius,
+  digraphs, 0-1 matrices, Perron-Frobenius theorem, number of walks</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Electronic Journal of Linear Algebra, vol 10 (2003), pp 179-189</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0210365v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0210365v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C50; 05C20, 05C38" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

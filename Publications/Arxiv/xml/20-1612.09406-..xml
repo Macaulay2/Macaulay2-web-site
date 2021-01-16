@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.09406%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.09406&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jcPazFLhW+XeUG8AIgszrDrfWz4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.09406v1</id>
+    <updated>2016-12-30T06:55:56Z</updated>
+    <published>2016-12-30T06:55:56Z</published>
+    <title>On derived categories of nonminimal Enriques surfaces</title>
+    <summary>  By Orlov's formula, the derived category of blow up must contain the original
+variety as a semiorthogonal component. This arises an interesting question:
+does there exist a variety $X$ such that $\operatorname{D}^{\sf b}(X)$ does not
+admit an exceptional collection of maximal length, but $\operatorname{D}^{\sf
+b}(\operatorname{Bl}_{x} X)$ admits such a collection? We give such an example
+where $X$ is a minimal Enriques surface.
+</summary>
+    <author>
+      <name>Yonghwa Cho</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.09406v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.09406v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

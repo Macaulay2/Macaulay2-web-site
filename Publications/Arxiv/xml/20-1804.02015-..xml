@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.02015%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.02015&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5JoPeVFTdOEZihFK/nVZ1lumsEA</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.02015v1</id>
+    <updated>2018-04-05T18:25:30Z</updated>
+    <published>2018-04-05T18:25:30Z</published>
+    <title>The equations defining the graph of a certain rational map</title>
+    <summary>  Consider the rational map $\phi: \mathbb{P}^{n-1}_{\mathbf k}
+\stackrel{[f_0:\cdots: f_n]}{\longrightarrow} \mathbb{P}^{n}_{\mathbf k}$
+defined by homogeneous polynomials $f_0,\dots,f_n$ of the same degree $d$ in a
+polynomial ring $R={\mathbf k}[x_1,\dots,x_n]$. Suppose the ideal
+$I=(f_0,\dots,f_n)$ is a height two perfect ideal satisfying $\mu(I_p)\leq\dim
+R_p$ for $p\in \operatorname{Spec} (R) \setminus V(x_1,\dots, x_n)$. We study
+the equations defining the graph of $\phi$ whose coordinate ring is the Rees
+algebra $R[It]$. We provide new methods to construct these equations using work
+of Buchsbaum and Eisenbud. Furthermore, for certain classes of ideals, we show
+that our construction is general. These classes of examples are interesting, in
+that, there are no known methods to compute the defining ideal of the Rees
+algebra of such ideals. These new methods also give rise to effective criteria
+to check that $\phi$ is birational onto its image.
+</summary>
+    <author>
+      <name>Youngsu Kim</name>
+    </author>
+    <author>
+      <name>Vivek Mukundan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1804.02015v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.02015v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13D02, 13H15, 14A10, 14E05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

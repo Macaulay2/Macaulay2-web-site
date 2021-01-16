@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1009.1643%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1009.1643&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6gOLXeR+ZJvY9oLQbNRbcz21xFA</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1009.1643v2</id>
+    <updated>2010-09-22T16:27:50Z</updated>
+    <published>2010-09-08T20:27:20Z</published>
+    <title>E7(7) constraints on counterterms in N=8 supergravity</title>
+    <summary>  We prove by explicit computation that 6-point matrix elements of D^4R^4 and
+D^6R^4 in N=8 supergravity have non-vanishing single-soft scalar limits, and
+therefore these operators violate the continuous E7(7) symmetry. The soft
+limits precisely match automorphism constraints. Together with previous results
+for R^4, this provides a direct proof that no E7(7)-invariant candidate
+counterterm exists below 7-loop order. At 7-loops, we characterize the infinite
+tower of independent supersymmetric operators D^4R^6, R^8, phi^2 R^8,... with
+n&gt;4 fields and prove that they all violate E7(7) symmetry. This means that the
+4-graviton amplitude determines whether or not the theory is finite at 7-loop
+order. We show that the corresponding candidate counterterm D^8R^4 has a
+non-linear supersymmetrization such that its single- and double-soft scalar
+limits are compatible with E7(7) up to and including 6-points. At loop orders
+7, 8, 9 we provide an exhaustive account of all independent candidate
+counterterms with up to 16, 14, 12 fields, respectively, together with their
+potential single-soft scalar limits.
+</summary>
+    <author>
+      <name>Niklas Beisert</name>
+    </author>
+    <author>
+      <name>Henriette Elvang</name>
+    </author>
+    <author>
+      <name>Daniel Z. Freedman</name>
+    </author>
+    <author>
+      <name>Michael Kiermaier</name>
+    </author>
+    <author>
+      <name>Alejandro Morales</name>
+    </author>
+    <author>
+      <name>Stephan Stieberger</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.physletb.2010.09.069</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.physletb.2010.09.069" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 1 table. Reference added, minor clarifications in abstract,
+  typos corrected</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys.Lett.B694:265-271,2010</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1009.1643v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1009.1643v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

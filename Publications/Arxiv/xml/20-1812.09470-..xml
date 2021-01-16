@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.09470%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.09470&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Sq8K91z3Ub0n3JqB/5xBOSghFF8</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09470v1</id>
+    <updated>2018-12-22T07:29:57Z</updated>
+    <published>2018-12-22T07:29:57Z</published>
+    <title>Ideals of the Multiview Variety</title>
+    <summary>  The multiview variety of an arrangement of cameras is the Zariski closure of
+the images of world points in the cameras. The prime vanishing ideal of this
+complex projective variety is called the multiview ideal. We show that the
+bifocal and trifocal polynomials from the cameras generate the multiview ideal
+when the foci are distinct. In the computer vision literature, many sets of
+(determinantal) polynomials have been proposed to describe the multiview
+variety. While the ideals of these polynomials are all contained in the
+multiview ideal, we show that none of them coincide with the multiview ideal.
+We establish precise algebraic relationships between the multiview ideal and
+these various determinantal ideals. When the camera foci are non-coplanar, we
+prove that the ideal of bifocal polynomials saturate to give the multiview
+ideal. Finally, we prove that all the ideals we consider coincide when
+dehomogenized to cut out the space of finite images.
+</summary>
+    <author>
+      <name>Sameer Agarwal</name>
+    </author>
+    <author>
+      <name>Andrew Pryhuber</name>
+    </author>
+    <author>
+      <name>Rekha Thomas</name>
+    </author>
+    <link href="http://arxiv.org/abs/1812.09470v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.09470v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

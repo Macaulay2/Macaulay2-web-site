@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0204230%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0204230&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VgDW2ccbTVDzz0lxeHKYRDNy/6s</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0204230v1</id>
+    <updated>2002-04-18T13:08:03Z</updated>
+    <published>2002-04-18T13:08:03Z</published>
+    <title>Computing characteristic classes of projective schemes</title>
+    <summary>  We discuss an algorithm computing the push-forward to projective space of
+several classes associated to a (possibly singular, reducible, nonreduced)
+projective scheme. For example, the algorithm yields the topological Euler
+characteristic of the support of a projective scheme $S$, given the homogeneous
+ideal of $S$. The algorithm has been implemented in Macaulay2.
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Florida State University and Max-Planck-Institut, Bonn</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/S0747-7171(02)00089-5</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages. Code available at
+  http://www.math.fsu.edu/~aluffi/CSM/CSM.html</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Symbolic Comput. 35 (2003), no. 1, 3-19</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0204230v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0204230v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/S0747-7171(02)00089-5" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17, 57R20, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

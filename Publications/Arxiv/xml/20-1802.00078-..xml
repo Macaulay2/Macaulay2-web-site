@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.00078%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.00078&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ebvh4BMqL4c3Gy1YYGYtFO6Vp58</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.00078v2</id>
+    <updated>2018-04-09T15:07:41Z</updated>
+    <published>2018-01-31T21:44:50Z</published>
+    <title>Mayer-Vietoris sequences and equivariant K-theory rings of toric
+  varieties</title>
+    <summary>  We apply a Mayer-Vietoris sequence argument to identify the Atiyah-Segal
+equivariant complex K-theory rings of certain toric varieties with rings of
+integral piecewise Laurent polynomials on the associated fans. We provide
+necessary and sufficient conditions for this identification to hold for toric
+varieties of complex dimension 2, including smooth and singular cases. We prove
+that it always holds for smooth toric varieties, regardless of whether or not
+the fan is polytopal or complete. Finally, we introduce the notion of fans with
+"distant singular cones," and prove that the identification holds for them. The
+identification has already been made by Hararda, Holm, Ray and Williams in the
+case of divisive weighted projective spaces, in addition to enlarging the class
+of toric varieties for which the identification holds, this work provides an
+example in which the identification fails. We make every effort to ensure that
+our work is rich in examples.
+</summary>
+    <author>
+      <name>Tara S. Holm</name>
+    </author>
+    <author>
+      <name>Gareth Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 3 figures, two appendices. For v2, we have added additional
+  reference and further details about connections to existing work in this area</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.00078v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.00078v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="19L47 (Primary), 55N15, 55N91, 14M25, 57R18 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1009.0220%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1009.0220&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pMeEA82Fy94dyZVVSI+P+tger78</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1009.0220v2</id>
+    <updated>2011-06-13T19:11:45Z</updated>
+    <published>2010-09-01T16:37:54Z</published>
+    <title>Lower and upper bounds for nef cones</title>
+    <summary>  The nef cone of a projective variety Y is an important and often elusive
+invariant. In this paper we construct two polyhedral lower bounds and one
+polyhedral upper bound for the nef cone of Y using an embedding of Y into a
+toric variety. The lower bounds generalize the combinatorial description of the
+nef cone of a Mori dream space, while the upper bound generalizes the
+F-conjecture for the nef cone of the moduli space \bar{M}_{0,n} to a wide class
+of varieties.
+</summary>
+    <author>
+      <name>Angela Gibney</name>
+    </author>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, 4 figures. Final version to appear in IMRN</arxiv:comment>
+    <link href="http://arxiv.org/abs/1009.0220v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1009.0220v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 14Q99, 14E30, 14T05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

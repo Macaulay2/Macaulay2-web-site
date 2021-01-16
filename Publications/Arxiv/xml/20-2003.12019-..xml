@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.12019%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.12019&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VCbfpSBidbyfImYFX6wA0bM2qeE</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.12019v1</id>
+    <updated>2020-03-26T16:36:42Z</updated>
+    <published>2020-03-26T16:36:42Z</published>
+    <title>Linear Pullback components of the space of codimension one foliations</title>
+    <summary>  The space of holomorphic foliations of codimension one and degree $d\geq 2$
+in $\mathbb{P}^n$ ($n\geq 3$) has an irreducible component whose general
+element can be written as a pullback $F^*\mathcal{F}$, where $\mathcal{F}$ is a
+general foliation of degree $d$ in $\mathbb{P}^2$ and
+$F:\mathbb{P}^n\dashrightarrow \mathbb{P}^2$ is a general rational linear map.
+We give a polynomial formula for the degrees of such components.
+</summary>
+    <author>
+      <name>V. Ferrer</name>
+    </author>
+    <author>
+      <name>I. Vainsencher</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s00574-020-00206-9</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s00574-020-00206-9" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is a pre-print of an article published in Bulletin of the
+  Brazilian Mathematical Society, New Series (206). The final authenticated
+  version is available online at: https://doi.org/10.1007/s00574-020-00206-9</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.12019v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.12019v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

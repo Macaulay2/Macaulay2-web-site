@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.09551%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.09551&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/t2E9lfN1vciSnGC808Rrux7e33k</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.09551v2</id>
+    <updated>2016-10-27T21:47:07Z</updated>
+    <published>2016-09-29T23:57:53Z</published>
+    <title>Cotangent Bundle to the Flag Variety - I</title>
+    <summary>  We show that there is a ${SL_n}$-stable closed subset of an affine Schubert
+variety in the infinite dimensional Flag variety (associated to the Kac-Moody
+group ${\widehat{SL_n}}$) which is a natural compactification of the cotangent
+bundle to the finite-dimensional Flag variety ${{SL_n/B}}$.
+</summary>
+    <author>
+      <name>V. Lakshmibai</name>
+    </author>
+    <author>
+      <name>C. S. Seshadri</name>
+    </author>
+    <author>
+      <name>R. Singh</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages. arXiv admin note: text overlap with arXiv:1505.00038</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.09551v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.09551v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20G20 (primary), 20G44 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

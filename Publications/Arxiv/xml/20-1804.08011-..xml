@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.08011%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.08011&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/utNsz5STsIuYDDGwg19gCiYSK94</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.08011v1</id>
+    <updated>2018-04-21T19:17:54Z</updated>
+    <published>2018-04-21T19:17:54Z</published>
+    <title>Equations and Syzygies of K3 Carpets and Unions of Scrolls</title>
+    <summary>  We describe the equations and Gr\"obner bases of some degenerate K3 surfaces
+associated to rational normal scrolls. These K3 surfaces are members of a class
+of interesting singular projective varieties we call correspondence scrolls.
+The ideals of these surfaces are nested in a simple way that allows us to
+analyze them inductively. We describe explicit Gr\"obner bases and syzygies for
+these objects over the integers and this lets us treat them in all
+characteristics simultaneously.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1804.08011v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.08011v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 14H99, Secondary: 13D02, 14H51" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

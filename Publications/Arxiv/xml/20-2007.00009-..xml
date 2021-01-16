@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.00009%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.00009&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/swNp0iP4uyO8K9rA/uLRIygobJU</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.00009v1</id>
+    <updated>2020-06-30T18:00:01Z</updated>
+    <published>2020-06-30T18:00:01Z</published>
+    <title>Machine Learning and Algebraic Approaches towards Complete Matter
+  Spectra in 4d F-theory</title>
+    <summary>  Motivated by engineering vector-like (Higgs) pairs in the spectrum of 4d
+F-theory compactifications, we combine machine learning and algebraic geometry
+techniques to analyze line bundle cohomologies on families of holomorphic
+curves. To quantify jumps of these cohomologies, we first generate 1.8 million
+pairs of line bundles and curves embedded in $dP_3$, for which we compute the
+cohomologies. A white-box machine learning approach trained on this data
+provides intuition for jumps due to curve splittings, which we use to construct
+additional vector-like Higgs-pairs in an F-Theory toy model. We also find that,
+in order to explain quantitatively the full dataset, further tools from
+algebraic geometry, in particular Brill--Noether theory, are required. Using
+these ingredients, we introduce a diagrammatic way to express cohomology jumps
+across the parameter space of each family of matter curves, which reflects a
+stratification of the F-theory complex structure moduli space in terms of the
+vector-like spectrum. Furthermore, these insights provide an algorithmically
+efficient way to estimate the possible cohomology dimensions across the entire
+parameter space.
+</summary>
+    <author>
+      <name>Martin Bies</name>
+    </author>
+    <author>
+      <name>Mirjam Cvetic</name>
+    </author>
+    <author>
+      <name>Ron Donagi</name>
+    </author>
+    <author>
+      <name>Ling Lin</name>
+    </author>
+    <author>
+      <name>Muyang Liu</name>
+    </author>
+    <author>
+      <name>Fabian Ruehle</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages + appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.00009v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.00009v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.1262%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.1262&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7qGX5Rs5AjSpPuMqBbXlvlyOcZM</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.1262v1</id>
+    <updated>2014-08-06T12:38:16Z</updated>
+    <published>2014-08-06T12:38:16Z</published>
+    <title>Theta rank, levelness, and matroid minors</title>
+    <summary>  The Theta rank of a finite point configuration $V$ is the maximal degree
+necessary for a sum-of-squares representation of a non-negative linear function
+on $V$. This is an important invariant for polynomial optimization that is in
+general hard to determine. We study the Theta rank and levelness, a related
+discrete-geometric invariant, for matroid base configurations. It is shown that
+the class of matroids with bounded Theta rank or levelness is closed under
+taking minors. This allows for a characterization of matroids with bounded
+Theta rank or levelness in terms of forbidden minors.
+  We give the complete (finite) list of excluded minors for Theta-$1$ matroids
+which generalizes the well-known series-parallel graphs. Moreover, the class of
+Theta-$1$ matroids can be characterized in terms of the degree of generation of
+the vanishing ideal and in terms of the psd rank for the associated matroid
+base polytope.
+  We further give an excluded minor characterization for $k$-level graphs and
+we investigate the excluded minors for graphs of Theta rank $2$.
+</summary>
+    <author>
+      <name>Francesco Grande</name>
+    </author>
+    <author>
+      <name>Raman Sanyal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.1262v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.1262v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B35, 52A27, 14P05, 05C83" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

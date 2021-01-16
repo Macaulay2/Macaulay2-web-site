@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.5239%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.5239&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8Y5J9hpO9Nn3ex5Y+M6AG9MLa4A</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.5239v1</id>
+    <updated>2011-10-24T14:04:26Z</updated>
+    <published>2011-10-24T14:04:26Z</published>
+    <title>Laplace Equations and the Weak Lefschetz Property</title>
+    <summary>  We prove that r independent homogeneous polynomials of the same degree d
+become dependent when restricted to any hyperplane if and only if their inverse
+system parameterizes a variety whose (d-1)-osculating spaces have dimension
+smaller than expected. This gives an equivalence between an algebraic notion
+(called Weak Lefschetz Property) and a differential geometric notion,
+concerning varieties which satisfy certain Laplace equations. In the toric
+case, some relevant examples are classified and as byproduct we provide
+counterexamples to Ilardi's conjecture.
+</summary>
+    <author>
+      <name>Emilia Mezzetti</name>
+    </author>
+    <author>
+      <name>Rosa M. Miro'-Roig</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1110.5239v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.5239v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10, 14M25, 14N05, 14N15, 53A20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

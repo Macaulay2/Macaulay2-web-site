@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.06075%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.06075&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0O/K/Srg9M90Z0g+IwH67t61/jw</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.06075v3</id>
+    <updated>2016-02-12T19:23:35Z</updated>
+    <published>2015-09-20T23:41:03Z</published>
+    <title>Inferring phylogenetic networks with maximum pseudolikelihood under
+  incomplete lineage sorting</title>
+    <summary>  Phylogenetic networks are necessary to represent the tree of life expanded by
+edges to represent events such as horizontal gene transfers, hybridizations or
+gene flow. Not all species follow the paradigm of vertical inheritance of their
+genetic material. While a great deal of research has flourished into the
+inference of phylogenetic trees, statistical methods to infer phylogenetic
+networks are still limited and under development. The main disadvantage of
+existing methods is a lack of scalability. Here, we present a statistical
+method to infer phylogenetic networks from multi-locus genetic data in a
+pseudolikelihood framework. Our model accounts for incomplete lineage sorting
+through the coalescent model, and for horizontal inheritance of genes through
+reticulation nodes in the network. Computation of the pseudolikelihood is fast
+and simple, and it avoids the burdensome calculation of the full likelihood
+which can be intractable with many species. Moreover, estimation at the
+quartet-level has the added computational benefit that it is easily
+parallelizable. Simulation studies comparing our method to a full likelihood
+approach show that our pseudolikelihood approach is much faster without
+compromising accuracy. We applied our method to reconstruct the evolutionary
+relationships among swordtails and platyfishes ($Xiphophorus$: Poeciliidae),
+which is characterized by widespread hybridizations.
+</summary>
+    <author>
+      <name>Claudia Solís-Lemus</name>
+    </author>
+    <author>
+      <name>Cécile Ané</name>
+    </author>
+    <link href="http://arxiv.org/abs/1509.06075v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.06075v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

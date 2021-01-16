@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0307350%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0307350&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yy543/dn4/RnDQbRSPbogP/TYHk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0307350v1</id>
+    <updated>2003-07-26T23:59:05Z</updated>
+    <published>2003-07-26T23:59:05Z</published>
+    <title>Short Rational Functions for Toric Algebra and Applications</title>
+    <summary>  We encode the binomials belonging to the toric ideal $I_A$ associated with an
+integral $d \times n$ matrix $A$ using a short sum of rational functions as
+introduced by Barvinok \cite{bar,newbar}. Under the assumption that $d,n$ are
+fixed, this representation allows us to compute the Graver basis and the
+reduced Gr\"obner basis of the ideal $I_A$, with respect to any term order, in
+time polynomial in the size of the input. We also derive a polynomial time
+algorithm for normal form computation which replaces in this new encoding the
+usual reductions typical of the division algorithm. We describe other
+applications, such as the computation of Hilbert series of normal semigroup
+rings, and we indicate further connections to integer programming and
+statistics.
+</summary>
+    <author>
+      <name>Jesus De Loera</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Davis</arxiv:affiliation>
+    </author>
+    <author>
+      <name>David Haws</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Davis</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Raymond Hemmecke</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Davis</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Peter Huggins</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Davis</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Ruriko Yoshida</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UC Davis</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, using elsart.sty and elsart.cls</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0307350v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0307350v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A15 (primary), 13P10 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

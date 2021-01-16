@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1503.01419%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1503.01419&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/w8ywGt7W3iWsrJa9L2UoNCrSI+A</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1503.01419v1</id>
+    <updated>2015-03-04T19:01:14Z</updated>
+    <published>2015-03-04T19:01:14Z</published>
+    <title>An algorithm for constructing certain differential operators in positive
+  characteristic</title>
+    <summary>  Given a non-zero polynomial $f$ in a polynomial ring $R$ with coefficients in
+a finite field of prime characteristic $p$, we present an algorithm to compute
+a differential operator $\delta$ which raises $1/f$ to its $p$th power. For
+some specific families of polynomials, we also study the level of such a
+differential operator $\delta$, i.e., the least integer $e$ such that $\delta$
+is $R^{p^e}$-linear. In particular, we obtain a characterization of
+supersingular elliptic curves in terms of the level of the associated
+differential operator.
+</summary>
+    <author>
+      <name>Alberto F. Boix</name>
+    </author>
+    <author>
+      <name>Alessandro De Stefani</name>
+    </author>
+    <author>
+      <name>Davide Vanzo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1503.01419v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1503.01419v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13A35, Secondary 13N10, 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

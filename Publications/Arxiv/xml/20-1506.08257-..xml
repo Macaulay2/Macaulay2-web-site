@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1506.08257%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1506.08257&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UfEtthQdmOIA1234Kyo/wPTTbkk</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1506.08257v1</id>
+    <updated>2015-06-27T04:27:37Z</updated>
+    <published>2015-06-27T04:27:37Z</published>
+    <title>Eigenschemes and the Jordan canonical foem</title>
+    <summary>  In this paper, we are concerned with a certain ideal that can be associated
+with any complex valued square matrix. The ideal is shown to encode information
+about the eigenvectors and the generalized eigenvectors of the matrix. One of
+the goals of the paper is to describe a primary decomposition of the ideal (or
+equivalently a decomposition of the scheme associated with the ideal, which we
+call the eigenscheme, into irreducible components). These primary components
+are shown to encode information about the Jordan structure of the matrix. We
+describe how the eigenscheme can be interpreted as the zero locus of a global
+section of the tangent bundle on projective space. This interpretation allows
+one to see eigenvectors and generalized eigenvectors of matrices from an
+alternative viewpoint.
+</summary>
+    <author>
+      <name>Hirotachi Abo</name>
+    </author>
+    <author>
+      <name>David Eklund</name>
+    </author>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Chris Peterson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1506.08257v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1506.08257v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 15A18, Secondary 13C40, 13P10, 14M12, 15A21, 15A22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

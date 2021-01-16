@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.02300%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.02300&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/m0PHghJgT/Df9wNW/Wu3QlXm+2k</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.02300v1</id>
+    <updated>2016-02-06T20:01:18Z</updated>
+    <published>2016-02-06T20:01:18Z</published>
+    <title>Line arrangements and configurations of points with an unusual geometric
+  property</title>
+    <summary>  The SHGH conjecture proposes a solution to the question of how many
+conditions a general union of fat points imposes on the complete linear system
+of curves in $\mathbb P^2$ of fixed degree $d$, and it is known to be true in
+many cases. We propose a new problem, namely to understand the number of
+conditions imposed by a general union of fat points on the incomplete linear
+system defined by the condition of passing through a given finite set of points
+$Z$ (not general). Motivated by work of Di Gennaro-Ilardi-Vall\`es and
+Faenzi-Vall\`es, we give a careful analysis for the case where there is a
+single general fat point, which has multiplicity $d-1$. There is an expected
+number of conditions imposed by this fat point, and we study those $Z$ for
+which this expected value is not achieved. We show, for instance, that if $Z$
+is in linear general position then such unexpected curves do not exist. We give
+criteria for the occurrence of such unexpected curves and describe the range of
+values of $d$ for which they occur. We also exhibit examples where the
+unexpected curve is even irreducible. Furthermore, we relate properties of $Z$
+to properties of the arrangement of lines dual to the points of $Z$. In
+particular, we obtain a new interpretation of the splitting type of a line
+arrangement. Finally, we use our results to establish a Lefschetz-like
+criterion for Terao's conjecture on the freeness of line arrangements.
+</summary>
+    <author>
+      <name>David Cook II</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Juan Migliore</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.02300v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.02300v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20 (primary), 05E40, 14C20, 14F05 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

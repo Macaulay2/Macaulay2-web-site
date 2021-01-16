@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.5373%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.5373&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hQ554CgJpE7ZE8o73Fm4KVnWRzs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.5373v1</id>
+    <updated>2013-03-21T19:23:04Z</updated>
+    <published>2013-03-21T19:23:04Z</published>
+    <title>Zero-generic initial ideals</title>
+    <summary>  Given a homogeneous ideal I of a polynomial ring A=K[X_1,...,X_n] and a
+monomial order, we construct a new monomial ideal of A associated with I. We
+call it the zero-generic initial ideal of I with respect to the order and
+denote it with gin_0(I), or with Gin_0(I) whenever the order is the
+reverse-lexicographic order. When the characteristic of K is zero, a
+zero-generic initial ideal is the usual generic initial ideal. We show that
+Gin_0(I) is endowed with many interesting properties, some of which are easily
+seen, e.g., it is a strongly stable monomial ideal in any characteristic, and
+has the same Hilbert series as I; some other properties are less obvious: it
+shares with I the same Castelnuovo-Mumford regularity, projective dimension and
+extremal Betti numbers. Quite surprisingly, gin_0(I) also satisfies Green's
+Crystallization Principle, which is known to fail in positive characteristic.
+Thus, zero-generic initial ideals can be used as formal analogues of generic
+initial ideals computed in characteristic 0. As an example of how zero-generic
+initial ideals can be used theoretically, we also provide a simple
+characteristic-free proof of a well-known upper bound for the
+Castelnuovo-Mumford regularity of homogeneous ideals.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Enrico Sbarra</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1303.5373v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.5373v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13P10, 13D02, 13D45, Secondary 13A2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

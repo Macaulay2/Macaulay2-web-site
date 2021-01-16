@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9812087%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9812087&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jRgYHDhtHqPhDKqrIRhcjCLqQTk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9812087v3</id>
+    <updated>1999-04-03T20:56:59Z</updated>
+    <published>1998-12-15T22:30:06Z</published>
+    <title>Cohomology rings and nilpotent quotients of real and complex
+  arrangements</title>
+    <summary>  For an arrangement with complement X and fundamental group G, we relate the
+truncated cohomology ring, H^{&lt;=2}(X), to the second nilpotent quotient, G/G_3.
+We define invariants of G/G_3 by counting normal subgroups of a fixed prime
+index p, according to their abelianization. We show how to compute this
+distribution from the resonance varieties of the Orlik-Solomon algebra mod p.
+As an application, we establish the cohomology classification of 2-arrangements
+of n&lt;=6 planes in R^4.
+</summary>
+    <author>
+      <name>Daniel Matei</name>
+    </author>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX2e, 22 pages, to appear in Singularities and Arrangements,
+  Sapporo-Tokyo 1998, Advanced Studies in Pure Mathematics</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Arrangements--Tokyo 1998, 185-215, Advanced Studies in Pure
+  Mathematics, vol. 27, Kinokuniya, Tokyo, 2000</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/9812087v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9812087v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B30, 57M05 (Primary); 20F14, 20J05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

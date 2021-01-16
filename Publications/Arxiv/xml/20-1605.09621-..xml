@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.09621%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.09621&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1Zx4gOxwxDbFMyXOXQL8zMPrzUM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.09621v3</id>
+    <updated>2016-07-27T07:09:55Z</updated>
+    <published>2016-05-31T13:24:31Z</published>
+    <title>Betti splittings for powers of sums of ideals</title>
+    <summary>  Let $A$ and $B$ be standard graded polynomial rings over a field $k$ and $I$
+and $J$ be non-zero, proper homogeneous ideals contained in $A$ and $B$,
+respectively. Denote by $P$ the sum of $I$ and $J$ in $R=A\otimes_k B$. Under
+reasonable conditions on $k, I$ and $J$, we provide exact formulas and describe
+the asymptotic behavior of the depth and the regularity of the powers of $P$ in
+terms of the data of $I$ and $J$. Thereby, we strengthen previous work of H.T.
+H\`a, N.V. Trung and T.N. Trung. Our main technical result says that, under the
+aforementioned conditions, for all $s\ge 0$ and all $n\ge 1$, the simple
+decomposition $I^sP^n=I^{s+1}P^{n-1}+I^sJ^n$ yields a Betti splitting for
+$I^sP^n$. A decomposition of an ideal $L$ as a sum of two subideals is called a
+Betti splitting if the minimal free resolution of $L$ is completely determined
+by those of the summands and their intersection.
+</summary>
+    <author>
+      <name>Hop D. Nguyen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper contains no error to the author's knowledge. The author
+  has integrated it to arXiv:1607.07380 [math.AC] and does not intend to
+  publish it on its own</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.09621v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.09621v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

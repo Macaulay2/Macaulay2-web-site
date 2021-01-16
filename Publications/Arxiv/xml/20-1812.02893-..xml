@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.02893%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.02893&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/i0Dx3WliA+osGhnC3lbQ5Au03S4</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.02893v1</id>
+    <updated>2018-12-07T03:45:27Z</updated>
+    <published>2018-12-07T03:45:27Z</published>
+    <title>The Calabi-Yau Landscape: from Geometry, to Physics, to Machine-Learning</title>
+    <summary>  We present a pedagogical introduction to the recent advances in the
+computational geometry, physical implications, and data science of Calabi-Yau
+manifolds. Aimed at the beginning research student and using Calabi-Yau spaces
+as an exciting play-ground, we intend to teach some mathematics to the budding
+physicist, some physics to the budding mathematician, and some machine-learning
+to both. Based on various lecture series, colloquia and seminars given by the
+author in the past year, this writing is a very preliminary draft of a book to
+appear with Springer, by whose kind permission we post to ArXiv for comments
+and suggestions.
+</summary>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">#pages = #irreps(Monster), 44 figures, book to appear with Springer</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.02893v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.02893v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0001089%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0001089&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7vvr/cSP5Kh+OEOyVDPkIQSY8xs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0001089v1</id>
+    <updated>2000-01-14T23:03:19Z</updated>
+    <published>2000-01-14T23:03:19Z</published>
+    <title>Calabi-Yau Threefolds and Moduli of Abelian Surfaces I</title>
+    <summary>  We describe birational models and decide the rationality/unirationality of
+moduli spaces AA_{d} (and AA^{lev}_{d}) of (1,d)-polarized abelian surfaces
+(with canonical level structure, respectively) for small values of d.
+  The projective lines identified in the rational/unirational moduli spaces
+correspond to pencils of abelian surfaces traced on nodal threefolds living
+naturally in the corresponding ambient projective spaces, and whose small
+resolutions are new Calabi-Yau threefolds with Euler characteristic zero.
+</summary>
+    <author>
+      <name>Mark Gross</name>
+    </author>
+    <author>
+      <name>Sorin Popescu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">56 pages, 2 figures, plain TeX, uses diagrams.tex and epsf.tex</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0001089v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0001089v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

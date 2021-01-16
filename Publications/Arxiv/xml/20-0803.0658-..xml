@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0803.0658%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0803.0658&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8u2vO7KcHOdsNKlSVjQvaN0g2AA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0803.0658v1</id>
+    <updated>2008-03-05T14:13:32Z</updated>
+    <published>2008-03-05T14:13:32Z</published>
+    <title>The defining ideals of conjugacy classes of nilpotent matrices and a
+  conjecture of Weyman</title>
+    <summary>  Tanisaki introduced generating sets for the defining ideals of the schematic
+intersections of the closure of conjugacy classes of nilpotent matrices with
+the set of diagonal matrices. These ideals are naturally labeled by integer
+partitions. Given such a partition $\lambda$, we define several methods to
+produce a reduced generating set for the associated ideal $I_{\lambda}$. For
+particular shapes we find nice generating sets. By comparing our sets with some
+generating sets of $I_{\lambda}$ arising from a work of Weyman, we find a
+counterexample to a related conjecture of Weyman.
+</summary>
+    <author>
+      <name>Riccardo Biagioli</name>
+    </author>
+    <author>
+      <name>Sara Faridi</name>
+    </author>
+    <author>
+      <name>Mercedes Rosas</name>
+    </author>
+    <link href="http://arxiv.org/abs/0803.0658v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0803.0658v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D, 05E" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.07257%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.07257&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XBKaSA7/hsjCBdFNg80JxK2j320</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.07257v2</id>
+    <updated>2016-06-27T14:06:40Z</updated>
+    <published>2016-06-23T10:13:45Z</published>
+    <title>Prehomogeneous tensor spaces</title>
+    <summary>  We refine the classification of prehomogeneous vector spaces, provided by
+Sato-Kimura, in the case of tensor spaces, presenting a quick way to check
+whether a given tensor space is prehomogeneous or not.
+</summary>
+    <author>
+      <name>Federico Venturelli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.07257v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.07257v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L30, 14M17, 15A21, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

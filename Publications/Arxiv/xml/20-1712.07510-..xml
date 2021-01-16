@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.07510%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.07510&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W6d3TqIL7T8K7tPQgubGqf7fQZs</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.07510v1</id>
+    <updated>2017-12-20T15:00:22Z</updated>
+    <published>2017-12-20T15:00:22Z</published>
+    <title>Cristal and Azurite: new tools for integration-by-parts reductions</title>
+    <summary>  Scattering amplitudes computed at a fixed loop order, along with any other
+object computed in perturbative quantum field theory, can be expressed as a
+linear combination of a finite basis of loop integrals. To compute loop
+amplitudes in practice, such a basis of integrals must be determined. We
+discuss Azurite (A ZURich-bred method for finding master InTEgrals), a publicly
+available package for finding bases of loop integrals. We also discuss Cristal
+(Complete Reduction of IntegralS Through All Loops), a future package that
+produces the complete integration-by-parts reductions.
+</summary>
+    <author>
+      <name>Alessandro Georgoudis</name>
+    </author>
+    <author>
+      <name>Kasper J. Larsen</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, 3 figures. Contribution to the proceedings of RADCOR 2017,
+  25-29 September 2017, St. Gilgen, Austria</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.07510v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.07510v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

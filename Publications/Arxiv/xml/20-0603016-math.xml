@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0603016%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0603016&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EGfobBesChAL8JJ2nmBzvVEvxFE</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0603016v1</id>
+    <updated>2006-03-01T10:07:59Z</updated>
+    <published>2006-03-01T10:07:59Z</published>
+    <title>Further properties of a function of Ogg and Ligozat</title>
+    <summary>  Certain identities of Ramanujan may be succinctly expressed in terms of the
+rational function w_N(g) = w_N(f) - 1/w_N(f) on the modular curve X_0(N), where
+f is a certain modular unit on the Nebentypus cover X_\chi(N) introduced by Ogg
+and Ligozat for N prime congruent to 1 (mod 4) and w_N is the Fricke
+involution. These correspond to levels N = 5, 13, where the genus of X_0(N) is
+zero. In this paper we produce some analogs of these identities for each w_N(g)
+such that X_0(N) has genus 1, 2, and also for each h = g + w_N(g) such that the
+Atkin-Lehner quotient X_0+(N) has genus 1, 2. We also found that if n is the
+degree of the field of definition F of the non-trivial zeros of the latter,
+then the degree of the normal closure of F over Q is the n-th solution of
+Singmaster's Problem.
+</summary>
+    <author>
+      <name>Carlos Castano-Bernard</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0603016v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0603016v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11G16; 11R04" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

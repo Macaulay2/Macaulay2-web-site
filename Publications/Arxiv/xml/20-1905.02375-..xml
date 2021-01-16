@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1905.02375%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1905.02375&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EoHqbiGtUFKf8XHoVpuiYkckngA</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1905.02375v1</id>
+    <updated>2019-05-07T06:42:58Z</updated>
+    <published>2019-05-07T06:42:58Z</published>
+    <title>The (ir)regularity of Tor and Ext</title>
+    <summary>  We investigate the asymptotic behaviour of Castelnuovo-Mumford regularity of
+Ext and Tor, with respect to the homological degree, over complete intersection
+rings. We derive from a theorem of Gulliksen a linearity result for the
+regularity of Ext modules in high homological degrees. We show a similar result
+for Tor, under the additional hypothesis that high enough Tor modules are
+supported in dimension at most one; we then provide examples showing that the
+behaviour could be pretty hectic when the latter condition is not satisfied.
+</summary>
+    <author>
+      <name>Marc Chardin</name>
+    </author>
+    <author>
+      <name>Dipankar Ghosh</name>
+    </author>
+    <author>
+      <name>Navid Nemati</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, Comments and suggestions are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1905.02375v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1905.02375v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D07, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

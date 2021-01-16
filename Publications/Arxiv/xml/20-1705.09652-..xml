@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.09652%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.09652&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eQByRFz+Jsi5WKcgTj/xWrg+8dQ</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.09652v1</id>
+    <updated>2017-05-26T17:22:03Z</updated>
+    <published>2017-05-26T17:22:03Z</published>
+    <title>The border support rank of two-by-two matrix multiplication is seven</title>
+    <summary>  We show that the border support rank of the tensor corresponding to
+two-by-two matrix multiplication is seven over the complex numbers. We do this
+by constructing two polynomials that vanish on all complex tensors with format
+four-by-four-by-four and border rank at most six, but that do not vanish
+simultaneously on any tensor with the same support as the two-by-two matrix
+multiplication tensor. This extends the work of Hauenstein, Ikenmeyer, and
+Landsberg. We also give two proofs that the support rank of the two-by-two
+matrix multiplication tensor is seven over any field: one proof using a result
+of De Groote saying that the decomposition of this tensor is unique up to
+sandwiching, and another proof via the substitution method. These results
+answer a question asked by Cohn and Umans. Studying the border support rank of
+the matrix multiplication tensor is relevant for the design of matrix
+multiplication algorithms, because upper bounds on the border support rank of
+the matrix multiplication tensor lead to upper bounds on the computational
+complexity of matrix multiplication, via a construction of Cohn and Umans.
+Moreover, support rank has applications in quantum communication complexity.
+</summary>
+    <author>
+      <name>Markus Bläser</name>
+    </author>
+    <author>
+      <name>Matthias Christandl</name>
+    </author>
+    <author>
+      <name>Jeroen Zuiddam</name>
+    </author>
+    <link href="http://arxiv.org/abs/1705.09652v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.09652v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68Q17, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="G.1.3" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

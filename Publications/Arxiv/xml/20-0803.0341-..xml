@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0803.0341%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0803.0341&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BbyAE8C/r8J8kzsIXr0tOU00EZg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0803.0341v2</id>
+    <updated>2008-06-23T21:34:53Z</updated>
+    <published>2008-03-03T22:47:19Z</published>
+    <title>Hilbert schemes of 8 points</title>
+    <summary>  The Hilbert scheme H^d_n of n points in A^d contains an irreducible component
+R^d_n which generically represents n distinct points in A^d. We show that when
+n is at most 8, the Hilbert scheme H^d_n is reducible if and only if n = 8 and
+d &gt;= 4. In the simplest case of reducibility, the component R^4_8 \subset H^4_8
+is defined by a single explicit equation which serves as a criterion for
+deciding whether a given ideal is a limit of distinct points.
+  To understand the components of the Hilbert scheme, we study the closed
+subschemes of H_n^d which parametrize those ideals which are homogeneous and
+have a fixed Hilbert function. These subschemes are a special case of
+multigraded Hilbert schemes, and we describe their components when the colength
+is at most 8. In particular, we show that the scheme corresponding to the
+Hilbert function (1,3,2,1) is the minimal reducible example.
+</summary>
+    <author>
+      <name>Dustin A. Cartwright</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Mauricio Velasco</name>
+    </author>
+    <author>
+      <name>Bianca Viray</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.2140/ant.2009.3.763</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages; Rewrote introduction and reorganized parts of the paper,
+  some minor errors have been fixed</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Algebra and Number Theory, 3 (2009), 763-795</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0803.0341v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0803.0341v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.2140/ant.2009.3.763" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05 (Primary) 13E10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

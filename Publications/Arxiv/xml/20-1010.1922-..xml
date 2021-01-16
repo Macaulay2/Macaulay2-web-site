@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1010.1922%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1010.1922&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bf6q65MlxP2d7RHJSuffq/jn7LY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1010.1922v3</id>
+    <updated>2010-11-26T19:04:51Z</updated>
+    <published>2010-10-10T14:21:40Z</published>
+    <title>Moment-angle complexes and polyhedral products for convex polytopes</title>
+    <summary>  Let P be a convex polytope not simple in general. In the focus of this paper
+lies a simplicial complex K_P which carries complete information about the
+combinatorial type of P. In the case when P is simple, K_P is the same as dP*,
+where P* is a polar dual polytope. Using the canonical embedding of a polytope
+P into nonnegative orthant, we introduce a moment-angle space Z_P for a
+polytope P. It is known, that in the case when P is simple the space Z_P is
+homeomorphic to the polyhedral product (D^2,S^1)^{K_P}. When P is not simple,
+we prove that the space Z_P is homotopically equivalent to the space
+(D^2,S^1)^{K_P}. This allows to introduce bigraded Betti numbers for any convex
+polytope. A Stanley-Reisner ring of a polytope P can be defined as a
+Stanley-Reisner ring of a simplicial complex K_P. All these considerations lead
+to a natural question: which simplicial complexes arise as K_P for some
+polytope P? We have proceeded in this direction by introducing a notion of a
+polytopic simplicial complex. It has the following property: link of each
+simplex in a polytopic complex is either contractible, or retractible to a
+subcomplex, homeomorphic to a sphere. The complex K_P is a polytopic simplicial
+complex for any polytope P. Links of so called face simplices in a polytopic
+complex are polytopic complexes as well. This fact is sufficient enough to
+connect face polynomial of a simplicial complex K_P to the face polynomial of a
+polytope P, giving a series of inequalities on certain combinatorial
+characteristics of P. Two of these inequalities are equalities for each P and
+represent Euler-Poincare formula and one of Bayer-Billera relations for flag
+f-numbers. In the case when P is simple all inequalities turn out to be
+classical Dehn-Sommerville relations.
+</summary>
+    <author>
+      <name>A. A. Ayzenberg</name>
+    </author>
+    <author>
+      <name>V. M. Buchstaber</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 5 figures. A few typos were removed in the third version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Proc. Steklov Inst. Math. 275(1), 2011, 15-46</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1010.1922v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1010.1922v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E45 (primary) 18A30, 52B05 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

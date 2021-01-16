@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.1674%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.1674&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wX74DIgGUP2IMwnbDHep5aJi0IY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.1674v1</id>
+    <updated>2014-08-07T18:24:29Z</updated>
+    <published>2014-08-07T18:24:29Z</published>
+    <title>Path Ideals of Weighted Graphs</title>
+    <summary>  We introduce and study the weighted $r$-path ideal of a weighted graph
+$G_\omega$, which is a common generalization of Conca and De Negri's $r$-path
+ideal for unweighted graphs and Paulsen and Sather-Wagstaff's edge ideal of the
+weighted graph. Over a field, we explicitly describe primary decompositions of
+these ideals, and we characterize Cohen-Macaulayness of these ideals for trees
+(with arbitrary $r$) and complete graphs (for $r=2$).
+</summary>
+    <author>
+      <name>Bethany Kubik</name>
+    </author>
+    <author>
+      <name>Sean Sather-Wagstaff</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.1674v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.1674v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 05C22, 05E40, 13F55, 13H10, Secondary 05C05, 05C69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

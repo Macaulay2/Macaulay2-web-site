@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0311312%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0311312&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wdER1uY6maEhVwUlIDZFsB403oo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0311312v1</id>
+    <updated>2003-11-18T16:17:15Z</updated>
+    <published>2003-11-18T16:17:15Z</published>
+    <title>Coincident root loci of binary forms</title>
+    <summary>  Coincident root loci are subvarieties of $S^d(C^2)$--the space of binary
+forms of degree $d$--labelled by partitions of $d$. Given a partition
+$\lambda$, let $X_\lambda$ be the set of forms with root multiplicity
+corresponding to $\lambda$. There is a natural action of $GL_2(C)$ on
+$S^d(C^2)$ and the coincident root loci are invariant under this action. We
+calculate their equivariant Poincar\'e duals generalizing formulas of Hilbert
+and Kirwan. In the second part we apply these results to present the cohomology
+ring of the corresponding moduli spaces (stable points$/G$, semistable
+points$/G$, link of the singularity) using geometrically defined relations.
+</summary>
+    <author>
+      <name>L. M. Feher</name>
+    </author>
+    <author>
+      <name>A. Nemethi</name>
+    </author>
+    <author>
+      <name>R. Rimanyi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0311312v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0311312v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N10; 57R45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

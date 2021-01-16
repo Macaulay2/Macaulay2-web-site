@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.07832%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.07832&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/i5fmxpHIOhaXRDV8/rUZPVdrVIw</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.07832v1</id>
+    <updated>2019-04-16T17:26:02Z</updated>
+    <published>2019-04-16T17:26:02Z</published>
+    <title>Toric degenerations of flag varieties from matching field tableaux</title>
+    <summary>  We present families of tableaux which interpolate between the classical
+semi-standard Young tableaux and matching field tableaux. Algebraically, this
+corresponds to SAGBI bases of Pl\"ucker algebras. We show that each such family
+of tableaux leads to a toric ideal, that can be realized as initial of the
+Pl\"ucker ideal, hence a toric degeneration for the flag variety.
+</summary>
+    <author>
+      <name>Oliver Clarke</name>
+    </author>
+    <author>
+      <name>Fatemeh Mohammadi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1904.07832v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.07832v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

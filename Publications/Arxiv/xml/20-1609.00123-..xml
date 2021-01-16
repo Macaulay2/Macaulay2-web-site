@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.00123%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.00123&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CZXJG/wlT0NBFJGYbn6v52yhhOs</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.00123v1</id>
+    <updated>2016-09-01T06:50:58Z</updated>
+    <published>2016-09-01T06:50:58Z</published>
+    <title>Effective criteria for specific identifiability of tensors and forms</title>
+    <summary>  In applications where the tensor rank decomposition arises, one often relies
+on its identifiability properties for interpreting the individual rank-$1$
+terms appearing in the decomposition. Several criteria for identifiability have
+been proposed in the literature, however few results exist on how frequently
+they are satisfied. We propose to call a criterion effective if it is satisfied
+on a dense, open subset of the smallest semi-algebraic set enclosing the set of
+rank-$r$ tensors. We analyze the effectiveness of Kruskal's criterion when it
+is combined with reshaping. It is proved that this criterion is effective for
+both real and complex tensors in its entire range of applicability, which is
+usually much smaller than the smallest typical rank. Our proof explains when
+reshaping-based algorithms for computing tensor rank decompositions may be
+expected to recover the decomposition. Specializing the analysis to symmetric
+tensors or forms reveals that the reshaped Kruskal criterion may even be
+effective up to the smallest typical rank for some third, fourth and sixth
+order symmetric tensors of small dimension as well as for binary forms of
+degree at least three. We extended this result to $4 \times 4 \times 4 \times
+4$ symmetric tensors by analyzing the Hilbert function, resulting in a
+criterion for symmetric identifiability that is effective up to symmetric rank
+$8$, which is optimal.
+</summary>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Nick Vannieuwenhoven</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 2 Macaulay2 codes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.00123v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.00123v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 15A72, 14N20, 14N05, 14Q15, 14Q20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

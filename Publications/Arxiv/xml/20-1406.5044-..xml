@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.5044%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.5044&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Lu+dRcE/OwvkY2SqgFV/8Boq39E</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5044v1</id>
+    <updated>2014-06-19T13:44:19Z</updated>
+    <published>2014-06-19T13:44:19Z</published>
+    <title>Massive Nonplanar Two-Loop Maximal Unitarity</title>
+    <summary>  We explore maximal unitarity for nonplanar two-loop integrals with up to four
+massive external legs. In this framework, the amplitude is reduced to a basis
+of master integrals whose coefficients are extracted from maximal cuts. The
+hepta-cut of the nonplanar double box defines a nodal algebraic curve
+associated with a multiply pinched genus-3 Riemann surface. All possible
+configurations of external masses are covered by two distinct topological
+pictures in which the curve decomposes into either six or eight Riemann
+spheres. The procedure relies on consistency equations based on vanishing of
+integrals of total derivatives and Levi-Civita contractions. Our analysis
+indicates that these constraints are governed by the global structure of the
+maximal cut. Lastly, we present an algorithm for computing generalized cuts of
+massive integrals with higher powers of propagators based on the Bezoutian
+matrix method.
+</summary>
+    <author>
+      <name>Mads Sogaard</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">54 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1406.5044v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.5044v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

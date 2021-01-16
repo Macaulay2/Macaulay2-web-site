@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1507.03286%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1507.03286&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lqYJScC4eUAG8hdqaL4rDMY7kTk</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1507.03286v1</id>
+    <updated>2015-07-12T22:57:45Z</updated>
+    <published>2015-07-12T22:57:45Z</published>
+    <title>Minimum distance of linear codes and the $α$-invariant</title>
+    <summary>  The simple interpretation of the minimum distance of a linear code obtained
+by De Boer and Pellikaan, and later refined by the second author, is further
+developed through the study of various finitely generated graded modules. We
+use the methods of commutative/homological algebra to find connections between
+the minimum distance and the $\alpha$-invariant of such modules.
+</summary>
+    <author>
+      <name>Mehdi Garrousian</name>
+    </author>
+    <author>
+      <name>Stefan Tohaneanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1507.03286v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1507.03286v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W30 (Primary) 16W70, 52C35, 11T71 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

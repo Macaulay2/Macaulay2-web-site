@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.01970%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.01970&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hsQDyUuCHlgF5Pexn6m7w9vxWiM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.01970v1</id>
+    <updated>2016-04-07T12:12:45Z</updated>
+    <published>2016-04-07T12:12:45Z</published>
+    <title>Four generated 4-instantons</title>
+    <summary>  We show that there exist mathematical 4-instanton bundles F on the projective
+3-space such that F(2) is globally generated (by four global sections). This is
+equivalent to the existence of elliptic space curves of degree 8 defined by
+quartic equations. There is a (possibly incomplete) intersection theoretic
+argument for the existence of such curves in D'Almeida [Bull. Soc. Math. France
+128 (2000), 577-584] and another argument, using results of Mori [Nagoya Math.
+J. 96 (1984), 127-132], in Chiodera and Ellia [Rend. Istit. Univ. Trieste 44
+(2012), 413-422]. Our argument is quite different. We prove directly the former
+fact, using the method of Hartshorne and Hirschowitz [Ann. Scient. Ec. Norm.
+Sup. (4) 15 (1982), 365-390] and the geometry of five lines in the projective
+3-space.
+</summary>
+    <author>
+      <name>Cristian Anghel</name>
+    </author>
+    <author>
+      <name>Iustin Coanda</name>
+    </author>
+    <author>
+      <name>Nicolae Manolache</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1604.01970v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.01970v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 14J60, Secondary: 14H50, 14N20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0209344%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0209344&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1v4HCHO8tMu6uu3TA4mEpoM67Eg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0209344v1</id>
+    <updated>2002-09-25T16:43:49Z</updated>
+    <published>2002-09-25T16:43:49Z</published>
+    <title>On the embedded primes of the Mayr-Meyer ideals</title>
+    <summary>  This paper investigates the doubly exponential ideal membership property of
+the Mayr-Meyer ideals from the point of view of their associated primes. A
+doubly-exponential upper bound on the set of associated primes is proved.
+  In the paper a new family of ideals emerges which also has the doubly
+exponential ideal membership property. More on the new family can be found in
+author's paper "A new family of ideals with the doubly exponential ideal
+membership property".
+</summary>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <link href="http://arxiv.org/abs/math/0209344v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0209344v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C13, 13P05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1104.2728%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1104.2728&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WZHoyp7GdtY/77xJqL9D6ee7lfI</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1104.2728v2</id>
+    <updated>2012-04-25T15:19:53Z</updated>
+    <published>2011-04-14T11:23:59Z</published>
+    <title>The Variety of Polar Simplices</title>
+    <summary>  A collection of n distinct hyperplanes L_i ={l_i=0} in P^{n-1}, the
+n-1-dimensional projective space over an algebraically closed field of
+characteristic not equal to 2, is a polar simplex of a quadric Q={q=0}, if each
+L_i is the polar hyperplane of the point p_i, the intersection point of the L_j
+with j different from i, equivalently, if q= l_1^2+...+l_n^2 for suitable
+choices of the linear forms l_i. In this paper we study the closure VPS(Q,n) in
+Hilb_n(P^{n-1}) of the variety of sums of powers presenting Q from a global
+viewpoint: VPS(Q,n) is a smooth Fano variety of index 2 and Picard number 1
+when n&lt;6, and VPS(Q,n) is singular when n&gt;= 6.
+</summary>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, a revised presentation</arxiv:comment>
+    <link href="http://arxiv.org/abs/1104.2728v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1104.2728v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J45, 14M" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

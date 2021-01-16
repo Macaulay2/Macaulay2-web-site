@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.09492%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.09492&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//F6sgg3Ewa+NdloeVcq7LfunoAk</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.09492v1</id>
+    <updated>2016-05-31T04:26:08Z</updated>
+    <published>2016-05-31T04:26:08Z</published>
+    <title>Stabilization of the cohomology of thickenings</title>
+    <summary>  For a local complete intersection subvariety $X=V({\mathcal I})$ in ${\mathbb
+P}^n$ over a field of characteristic zero, we show that, in cohomological
+degrees smaller than the codimension of the singular locus of $X$, the
+cohomology of vector bundles on the formal completion of ${\mathbb P}^n$ along
+$X$ can be effectively computed as the cohomology on any sufficiently high
+thickening $X_t=V({\mathcal I^t})$; the main ingredient here is a positivity
+result for the normal bundle of $X$. Furthermore, we show that the Kodaira
+vanishing theorem holds for all thickenings $X_t$ in the same range of
+cohomological degrees; this extends the known version of Kodaira vanishing on
+$X$, and the main new ingredient is a version of the Kodaira-Akizuki-Nakano
+vanishing theorem for $X$, formulated in terms of the cotangent complex.
+</summary>
+    <author>
+      <name>Bhargav Bhatt</name>
+    </author>
+    <author>
+      <name>Manuel Blickle</name>
+    </author>
+    <author>
+      <name>Gennady Lyubeznik</name>
+    </author>
+    <author>
+      <name>Anurag K. Singh</name>
+    </author>
+    <author>
+      <name>Wenliang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.09492v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.09492v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

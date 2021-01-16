@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.1082%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.1082&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KNl5AHA+ZU06xwjO+KyS5Vf2RnM</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.1082v2</id>
+    <updated>2012-09-07T19:25:08Z</updated>
+    <published>2011-07-06T10:09:34Z</published>
+    <title>F-signature of pairs and the asymptotic behavior of Frobenius splittings</title>
+    <summary>  We generalize $F$-signature to pairs $(R,D)$ where $D$ is a Cartier
+subalgebra on $R$ as defined by the first two authors. In particular, we show
+the existence and positivity of the $F$-signature for any strongly $F$-regular
+pair. In one application, we answer an open question of I. Aberbach and F.
+Enescu by showing that the $F$-splitting ratio of an arbitrary $F$-pure local
+ring is strictly positive. Furthermore, we derive effective methods for
+computing the $F$-signature and the $F$-splitting ratio in the spirit of the
+work of R. Fedder.
+</summary>
+    <author>
+      <name>Manuel Blickle</name>
+    </author>
+    <author>
+      <name>Karl Schwede</name>
+    </author>
+    <author>
+      <name>Kevin Tucker</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, exposition improved, typos corrected, references added. To
+  appear in Advances in Mathematics</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Adv. Math. 231 (2012), no. 6, 3232-3258</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1107.1082v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.1082v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35, 13D40, 14B05, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

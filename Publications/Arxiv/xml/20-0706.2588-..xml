@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0706.2588%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0706.2588&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lqvpK/WW99PAhWTLBQ98ES/I2HM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0706.2588v1</id>
+    <updated>2007-06-18T11:54:22Z</updated>
+    <published>2007-06-18T11:54:22Z</published>
+    <title>Betti numbers for fat point ideals in the plane: a geometric approach</title>
+    <summary>  We consider the open problem of determining the graded Betti numbers for fat
+point subschemes supported at general points of the projective plane. We relate
+this problem to the open geometric problem of determining the splitting type of
+the pullback of the cotangent bundle on the plane to the normalization of
+certain rational plane curves. We give a conjecture for the graded Betti
+numbers which would determine them in all degrees but one for every fat point
+subscheme supported at general points of the plane. We also prove our Betti
+number conjecture in a broad range of cases. An appendix discusses many more
+cases in which our conjecture has been verified computationally and provides a
+new and more efficient computational approach for computing graded Betti
+numbers in certain degrees. It also demonstrates how to derive explicit
+conjectural values for the Betti numbers and how to compute splitting types.
+</summary>
+    <author>
+      <name>Alessandro Gimigliano</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Monica Idà</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages + 9 page appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/0706.2588v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0706.2588v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C20, 13P10; 14J26, 14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.08244%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.08244&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//SS06ViQmyuV356b6Uv61k8jmjM</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.08244v1</id>
+    <updated>2020-05-17T12:42:30Z</updated>
+    <published>2020-05-17T12:42:30Z</published>
+    <title>The Dubrovin threefold of an algebraic curve</title>
+    <summary>  The solutions to the Kadomtsev-Petviashvili equation that arise from a fixed
+complex algebraic curve are parametrized by a threefold in a weighted
+projective space, which we name after Boris Dubrovin. Current methods from
+nonlinear algebra are applied to study parametrizations and defining ideals of
+Dubrovin threefolds. We highlight the dichotomy between transcendental
+representations and exact algebraic computations. Our main result on the
+algebraic side is a toric degeneration of the Dubrovin threefold into the
+product of the underlying canonical curve and a weighted projective plane.
+</summary>
+    <author>
+      <name>Daniele Agostini</name>
+    </author>
+    <author>
+      <name>Türkü Özlüm Çelik</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.08244v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.08244v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

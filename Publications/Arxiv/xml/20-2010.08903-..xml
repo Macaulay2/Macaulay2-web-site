@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.08903%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.08903&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/S6lKmEh1aXtdyJu8o+QcWo0NnNY</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.08903v1</id>
+    <updated>2020-10-18T02:28:56Z</updated>
+    <published>2020-10-18T02:28:56Z</published>
+    <title>Standard pairs of monomial ideals over non-normal affine semigroups in
+  SageMath</title>
+    <summary>  We present stdPairs.spyx, a SageMath library to compute standard pairs of a
+monomial ideal over a pointed (non-normal) affine semigroup ring. Moreover,
+stdPairs.spyx provides the associated prime ideals, the corresponding
+multiplicities, and an irredundant irreducible primary decomposition of a
+monomial ideal. The library expands on the standardPairs function on Macaulay2
+over polynomial rings, and is based on algorithms from arXiv:2005.10968v2
+[math.AC]. We also provide methods that allow the outputs from this library to
+be compatible with the Normaliz package of Macaulay2 and SageMath.
+</summary>
+    <author>
+      <name>Byeongsu Yu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, no figures. This library can be obtained via
+  https://github.com/byeongsuyu/StdPairs</arxiv:comment>
+    <link href="http://arxiv.org/abs/2010.08903v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.08903v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F65, 68W30, 90C90 (Primary) 13P25, 20M25 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

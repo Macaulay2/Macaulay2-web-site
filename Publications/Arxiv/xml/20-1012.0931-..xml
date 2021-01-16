@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1012.0931%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1012.0931&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nvW4VReF5IRhDj50JnlGebB17o8</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1012.0931v1</id>
+    <updated>2010-12-04T16:18:02Z</updated>
+    <published>2010-12-04T16:18:02Z</published>
+    <title>Resonance varieties via blowups of P^2 and scrolls</title>
+    <summary>  Conjectures of Suciu relate the fundamental group of the complement M = C^n\A
+of a hyperplane arrangement A to the first resonance variety of H^*(M,Z). We
+describe a connection between the first resonance variety and the Orlik-Terao
+algebra C(A) of the arrangement. In particular, we show that non-local
+components of R^1(A) give rise to determinantal syzygies of C(A). As a result,
+Proj(C(A)) lies on a scroll, placing geometric constraints on R^1(A). The key
+observation is that C(A) is the homogeneous coordinate ring associated to a nef
+but not ample divisor on the blowup of P^2 at the singular points of A.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 4 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">International Mathematics Research Notices, 20, (2011) 4756-4778</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1012.0931v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1012.0931v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J26, 14C20, 52C35, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

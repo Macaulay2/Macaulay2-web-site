@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0711.2758%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0711.2758&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VTVtAQWwZh33PuiY7BSJ0hL8FFE</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0711.2758v2</id>
+    <updated>2010-04-02T09:59:45Z</updated>
+    <published>2007-11-17T18:25:36Z</published>
+    <title>Rational curves of degree 11 on a general quintic threefold</title>
+    <summary>  We prove that the incidence scheme of rational curves of degree 11 on quintic
+threefolds is irreducible. This implies a strong form of the Clemens conjecture
+in degree 11. Namely, on a general quintic threefold $F$ in $\mathbb{P}^4$,
+there are only finitely many smooth rational curves of degree 11, and each
+curve $C$ is embedded in $F$ with normal bundle $\mathcal{O}(-1) \oplus
+\mathcal{O}(-1)$. Moreover, in degree 11, there are no singular, reduced, and
+irreducible rational curves, nor any reduced, reducible, and connected curves
+with rational components on $F$.
+</summary>
+    <author>
+      <name>Ethan Cotterill</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Significant reorganization; the liaison-theoretic argument handling
+  curves contained in complete intersections of three hypercubics has been
+  entirely rewritten.</arxiv:comment>
+    <link href="http://arxiv.org/abs/0711.2758v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0711.2758v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J30 (Primary) 13P10, 14H45 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

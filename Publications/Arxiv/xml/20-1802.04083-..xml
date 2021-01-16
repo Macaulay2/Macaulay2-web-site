@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.04083%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.04083&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dnvUUbcSCBX5+deyXLx+OHxAoiI</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04083v1</id>
+    <updated>2018-02-12T14:51:27Z</updated>
+    <published>2018-02-12T14:51:27Z</published>
+    <title>Vanishing ideals of parameterised toric codes</title>
+    <summary>  Let $X$ be a complete simplicial toric variety over a finite field. For any
+matrix $Q$ with integer entries, we are interested in evaluation codes on the
+subset $Y_Q$ of $X$ parameterized by the columns of $Q$. We give an algorithmic
+method relying on elimination theory for finding generators for the vanishing
+ideal $I(Y_Q)$ which can be used to compute basic parameters of these codes.
+Proving that $I(Y_Q)$ is a lattice ideal $I_L$, we also give algorithms for
+obtaining a basis for the unique lattice $L$ and share procedures implementing
+them in Macaulay2. Finally, we give a direct algoritmic method to compute
+lenghts of these codes.
+</summary>
+    <author>
+      <name>Esma Baran</name>
+    </author>
+    <author>
+      <name>Mesut Şahin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">comments wellcome, supported by TUB\.ITAK</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.04083v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.04083v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14M25, 14G50, Secondary 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

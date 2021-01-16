@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.2210%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.2210&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jwtWX+daUeXhUaskIhHW9LXbh1Y</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.2210v2</id>
+    <updated>2014-02-27T03:48:57Z</updated>
+    <published>2013-06-10T14:06:22Z</published>
+    <title>The action on cohomology by compositions of rational maps</title>
+    <summary>  We use intuitive results from algebraic topology and intersection theory to
+clarify the pullback action on cohomology by compositions of rational maps. We
+use these techniques to prove a simple sufficient criterion for functoriality
+of a composition of two rational maps on all degrees of cohomology and we then
+reprove the criteria of Diller-Favre, Bedford-Kim, and Dinh-Sibony. We conclude
+with a cautionary example.
+</summary>
+    <author>
+      <name>Roland K. W. Roeder</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, comments welcome. To appear in Math Research Letters</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.2210v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.2210v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="37F99, 32H50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

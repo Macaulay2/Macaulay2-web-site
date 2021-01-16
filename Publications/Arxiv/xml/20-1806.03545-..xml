@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.03545%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.03545&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Q8gKoyUBRu7sv3ahw2HR+EELhx4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.03545v1</id>
+    <updated>2018-06-09T21:24:34Z</updated>
+    <published>2018-06-09T21:24:34Z</published>
+    <title>Tensor-Multinomial Sums of Ideals: Primary Decompositions and
+  Persistence of Associated Primes</title>
+    <summary>  Given a polynomial ring $C$ over a field and proper ideals $I$ and $J$ whose
+generating sets involve disjoint variables, we determine how to embed the
+associated primes of each power of $I+J$ into a collection of primes described
+in terms of the associated primes of select powers of $I$ and of $J$. We record
+two applications. First, in case the field is algebraically closed, we
+construct primary decompositions for powers of $I+J$ from primary
+decompositions for powers of $I$ and $J$. Separately, we attack the persistence
+problem for associated primes of powers of an ideal in case one of $I$ or $J$
+is a non-zero normal ideal.
+</summary>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <author>
+      <name>Robert M. Walker</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, Comments certainly welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.03545v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.03545v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13C05, Secondary: 13B22, 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

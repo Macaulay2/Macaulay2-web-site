@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.04121%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.04121&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yFxw8z1T4aXutQeA8LyNggsmVQQ</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.04121v1</id>
+    <updated>2016-04-14T11:51:58Z</updated>
+    <published>2016-04-14T11:51:58Z</published>
+    <title>Towards a symplectic version of the Chevalley restriction theorem</title>
+    <summary>  If $(G,V)$ is a polar representation with Cartan subspace $\mathfrak c$ and
+Weyl group $W$, it is shown that there is a natural morphism of Poisson schemes
+$\mathfrak c \oplus {\mathfrak c}^*/W \to V\oplus V^*/\!\!/\!\!/ G$. This
+morphism is conjectured to be an isomorphism of the underlying reduced
+varieties if $(G,V)$ is visible. The conjecture is proved for visible stable
+locally free polar representations and certain further examples.
+</summary>
+    <author>
+      <name>Michael Bulois</name>
+    </author>
+    <author>
+      <name>Christian Lehn</name>
+    </author>
+    <author>
+      <name>Manfred Lehn</name>
+    </author>
+    <author>
+      <name>Ronan Terpereau</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1604.04121v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.04121v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L30, 53D20, 20G05, 20G20, 13A50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

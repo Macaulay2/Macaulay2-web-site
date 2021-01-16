@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.7511%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.7511&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Z+UpiiQvsWPmecSRudIpGDezqQo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.7511v2</id>
+    <updated>2013-05-08T05:59:54Z</updated>
+    <published>2013-01-31T04:36:59Z</published>
+    <title>Products of Young symmetrizers and ideals in the generic tensor algebra</title>
+    <summary>  We describe a formula for computing the product of the Young symmetrizer of a
+Young tableau with the Young symmetrizer of a subtableau, generalizing the
+classical quasi-idempotence of Young symmetrizers. We derive some consequences
+to the structure of ideals in the generic tensor algebra and its partial
+symmetrizations. Instances of these generic algebras appear in the work of Sam
+and Snowden on twisted commutative algebras, as well as in the work of the
+author on the defining ideals of secant varieties of Segre-Veronese varieties,
+and in joint work of Oeding and the author on the defining ideals of tangential
+varieties of Segre-Veronese varieties.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: minor changes, last section moved before the proofs sections, to
+  appear in Journal of Algebraic Combinatorics</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.7511v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.7511v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1910.04746%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1910.04746&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jC/ROeh36DF3XU14Vwp/y/lNjEU</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1910.04746v2</id>
+    <updated>2019-12-14T18:48:50Z</updated>
+    <published>2019-10-10T17:53:47Z</published>
+    <title>The Toral Rank Conjecture and variants of equivariant formality</title>
+    <summary>  An action of a compact Lie group is called equivariantly formal, if the
+Leray--Serre spectral sequence of its Borel fibration degenerates at the
+E_2-term. This term is as prominent as it is restrictive.
+  In this article, also motivated by the lack of junction between the notion of
+equivariant formality and the concept of formality of spaces (surging from
+rational homotopy theory) we suggest two new variations of equivariant
+formality: "MOD-formal actions" and "actions of formal core".
+  We investigate and characterize these new terms in many different ways
+involving various tools from rational homotopy theory, Hirsch--Brown models,
+$A_\infty$-algebras, etc., and, in particular, we provide different
+applications ranging from actions on symplectic manifolds and rationally
+elliptic spaces to manifolds of non-negative sectional curvature.
+  A major motivation for the new definitions was that an almost free action of
+a torus $T^n\curvearrowright X$ possessing any of the two new properties
+satisfies the toral rank conjecture, i.e. $dim H^*(X;Q)\geq 2^n$. This
+generalizes and proves the toral rank conjecture for actions with formal orbit
+spaces.
+</summary>
+    <author>
+      <name>Manuel Amann</name>
+    </author>
+    <author>
+      <name>Leopold Zoller</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">minor upgrades, references added</arxiv:comment>
+    <link href="http://arxiv.org/abs/1910.04746v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1910.04746v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

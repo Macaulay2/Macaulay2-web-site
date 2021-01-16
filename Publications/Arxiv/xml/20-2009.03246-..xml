@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.03246%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.03246&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rHBAOLmzmm3maenYLvC7rwUim8g</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03246v1</id>
+    <updated>2020-09-07T17:13:13Z</updated>
+    <published>2020-09-07T17:13:13Z</published>
+    <title>The ACM property for codimension two varieties in $\mathbb{P}^1 \times
+  \mathbb{P}^2$</title>
+    <summary>  This paper examines the Arithmetically Cohen-Macaulay (ACM) property for
+certain codimension 2 varieties in $\mathbb{P}^1\times \mathbb{P}^2$ called
+sets of lines in $\mathbb{P}^1\times \mathbb{P}^2$ (not necessarily reduced).
+We discuss some obstacles to finding a general characterization. We then
+consider certain classes of such curves, and we address two questions. First,
+when are they themselves ACM? Second, in a non-ACM reduced configuration, is it
+possible to replace one component of a primary (prime) decomposition by a
+suitable power (i.e. to "fatten" one line) to make the resulting scheme ACM?
+Finally, for our classes of such curves, we characterize the locally
+Cohen-Macaulay property in combinatorial terms by introducing the definition of
+a fully v-connected configuration. We apply some of our results to give
+analogous ACM results for sets of lines in $\mathbb P^3$.
+</summary>
+    <author>
+      <name>Giuseppe Favacchio</name>
+    </author>
+    <author>
+      <name>Juan Migliore</name>
+    </author>
+    <link href="http://arxiv.org/abs/2009.03246v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.03246v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M05, 14N20, 13H10, 13A15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

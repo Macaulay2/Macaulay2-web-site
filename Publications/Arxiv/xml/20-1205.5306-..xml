@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1205.5306%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1205.5306&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dyfDJuQ8mMtKfFpnADJJwGTDRxE</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1205.5306v2</id>
+    <updated>2012-07-12T21:23:43Z</updated>
+    <published>2012-05-23T22:55:18Z</published>
+    <title>Polytopes of Minimum Positive Semidefinite Rank</title>
+    <summary>  The positive semidefinite (psd) rank of a polytope is the smallest $k$ for
+which the cone of $k \times k$ real symmetric psd matrices admits an affine
+slice that projects onto the polytope. In this paper we show that the psd rank
+of a polytope is at least the dimension of the polytope plus one, and we
+characterize those polytopes whose psd rank equals this lower bound.
+</summary>
+    <author>
+      <name>João Gouveia</name>
+    </author>
+    <author>
+      <name>Richard Z. Robinson</name>
+    </author>
+    <author>
+      <name>Rekha R. Thomas</name>
+    </author>
+    <link href="http://arxiv.org/abs/1205.5306v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1205.5306v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

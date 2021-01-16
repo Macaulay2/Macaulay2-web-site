@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.7383%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.7383&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/h0s9q/N3skt8T37kUrXmueJci0o</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.7383v1</id>
+    <updated>2014-03-28T14:10:38Z</updated>
+    <published>2014-03-28T14:10:38Z</published>
+    <title>On the normal sheaf of determinantal varieties</title>
+    <summary>  Let X be a standard determinantal scheme X \subset \PP^n of codimension c,
+i.e. a scheme defined by the maximal minors of a t \times (t+c-1) homogeneous
+polynomial matrix A. In this paper, we study the main features of its normal
+sheaf \shN_X. We prove that under some mild restrictions: (1) there exists a
+line bundle \shL on X \setminus Sing(X) such that \shN_X \otimes \shL is
+arithmetically Cohen-Macaulay and, even more, it is Ulrich whenever the entries
+of A are linear forms, (2) \shN_X is simple (hence, indecomposable) and,
+finally, (3) \shN_X is \mu-(semi)stable provided the entries of A are linear
+forms.
+</summary>
+    <author>
+      <name>Jan O. Kleppe</name>
+    </author>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in J. Reine Angew. Math</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.7383v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.7383v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 13D02, 14D20, 13D07 (Primary), 14J10, 14M07, 14F17&#10;  (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

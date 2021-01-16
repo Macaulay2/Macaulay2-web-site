@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1308.5898%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1308.5898&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+qBWIwtPZvG+WNDcThH+v+st/Pc</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1308.5898v2</id>
+    <updated>2014-03-05T17:04:41Z</updated>
+    <published>2013-08-27T15:30:53Z</published>
+    <title>Singularities and holonomicity of binomial D-modules</title>
+    <summary>  We study binomial D-modules, which generalize A-hypergeometric systems. We
+determine explicitly their singular loci and provide three characterizations of
+their holonomicity. The first of these states that a binomial D-module is
+holonomic if and only if its corresponding singular locus is proper. The second
+characterization is an equivalence of holonomicity and L-holonomicity for these
+systems. The third refines the second by giving more detailed information about
+the L-characteristic variety of a non-holonomic binomial D-module.
+</summary>
+    <author>
+      <name>Christine Berkesch Zamaere</name>
+    </author>
+    <author>
+      <name>Laura Felicia Matusevich</name>
+    </author>
+    <author>
+      <name>Uli Walther</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages. A gap in the previous version is closed through new
+  arguments</arxiv:comment>
+    <link href="http://arxiv.org/abs/1308.5898v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1308.5898v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32C38, 14B05, 33C70, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

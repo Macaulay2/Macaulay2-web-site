@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.12578%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.12578&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//Sl9c0xrIZgikXvH/NjMuXq1+Ag</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.12578v1</id>
+    <updated>2020-11-25T08:39:41Z</updated>
+    <published>2020-11-25T08:39:41Z</published>
+    <title>Characteristic Classes of Homogeneous Essential Isolated Determinantal
+  Varieties</title>
+    <summary>  The (homogeneous) Essentially Isolated Determinantal Variety is the natural
+generalization of generic determinantal variety, and is fundamental example to
+study non-isolated singularities. In this paper we study the characteristic
+classes on these varieties. We give explicit formulas of their
+Chern-Schwartz-MacPherson classes via standard Schubert calculus. As
+corollaries we obtain formulas for their (generic) sectional Euler
+characteristics, characteristic cycles and polar classes. In particular, when
+such variety is a hypersurfaces we compute its Milnor class and the Euler
+characteristics of the local Milnor fibers. We prove that for such recursive
+group orbit hypersurfaces the local Euler obstructions completely determine the
+Milnor classes.
+  In general for reflective group orbits, on the other hand we propose an
+algorithm to compute their local Euler obstructions via the
+Chern-Schwartz-MacPherson classes of the orbits, which can be obtained directly
+from representation theory. This builds a bridge from representation theory of
+the group action to the singularity theory of the induced orbits.
+</summary>
+    <author>
+      <name>Xiping Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments are Welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.12578v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.12578v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17, 32S05, 32S50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

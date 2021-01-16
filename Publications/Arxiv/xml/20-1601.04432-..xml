@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1601.04432%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1601.04432&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AbzXJeSi0Q3Heq0SZv3fK+gb3Q4</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1601.04432v1</id>
+    <updated>2016-01-18T09:11:33Z</updated>
+    <published>2016-01-18T09:11:33Z</published>
+    <title>Towards a four-loop form factor</title>
+    <summary>  The four-loop, two-point form factor contains the first non-planar correction
+to the lightlike cusp anomalous dimension. This anomalous dimension is a
+universal function which appears in many applications. Its planar part in N = 4
+SYM is known, in principle, exactly from AdS/CFT and integrability while its
+non-planar part has been conjectured to vanish. The integrand of the form
+factor of the stress-tensor multiplet in N = 4 SYM including the non-planar
+part was obtained in previous work. We parametrise the difficulty of
+integrating this integrand. We have obtained a basis of master integrals for
+all integrals in the four-loop, two-point class in two ways. First, we computed
+an IBP reduction of the integrand of the N = 4 form factor using massive
+computer algebra (Reduze). Second, we computed a list of master integrals based
+on methods of the Mint package, suitably extended using Macaulay2 / Singular.
+The master integrals obtained in both ways are consistent with some minor
+exceptions. The second method indicates that the master integrals apply beyond
+N = 4 SYM, in particular to QCD. The numerical integration of several of the
+master integrals will be reported and remaining obstacles will be outlined
+</summary>
+    <author>
+      <name>Rutger Boels</name>
+    </author>
+    <author>
+      <name>Bernd A. Kniehl</name>
+    </author>
+    <author>
+      <name>Gang Yang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 Pages, Radcor/Loopfest 2015 Proceedings</arxiv:comment>
+    <link href="http://arxiv.org/abs/1601.04432v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.04432v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

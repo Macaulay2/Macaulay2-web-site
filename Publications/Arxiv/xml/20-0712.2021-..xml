@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0712.2021%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0712.2021&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1p7KN5V57NJZ9C5VZLEsygsUYQU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0712.2021v3</id>
+    <updated>2008-09-07T13:51:19Z</updated>
+    <published>2007-12-12T19:41:34Z</published>
+    <title>Hypergeometric D-modules and twisted Gauss-Manin systems</title>
+    <summary>  The Euler-Koszul complex is the fundamental tool in the homological study of
+A-hypergeometric differential systems and functions. We compare Euler-Koszul
+homology with D-module direct images from the torus to the base space through
+orbits in the corresponding toric variety. Our approach generalizes a result by
+Gel'fand et al. and yields a simpler, more algebraic proof.
+  In the process we extend the Euler-Koszul functor a category of infinite
+toric modules and describe multigraded localizations of Euler-Koszul homology.
+</summary>
+    <author>
+      <name>Mathias Schulze</name>
+    </author>
+    <author>
+      <name>Uli Walther</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jalgebra.2008.09.010</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Algebra 322,9 (2009), 3392-3409</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0712.2021v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0712.2021v3" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jalgebra.2008.09.010" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13N10; 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

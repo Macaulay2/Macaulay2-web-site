@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1101.3712%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1101.3712&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uE/J14m9viq030Cl0xUqqd7Ekp8</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1101.3712v6</id>
+    <updated>2013-10-22T15:20:17Z</updated>
+    <published>2011-01-19T15:57:58Z</published>
+    <title>Generic identification of binary-valued hidden Markov processes</title>
+    <summary>  The generic identification problem is to decide whether a stochastic process
+$(X_t)$ is a hidden Markov process and if yes to infer its parameters for all
+but a subset of parametrizations that form a lower-dimensional subvariety in
+parameter space. Partial answers so far available depend on extra assumptions
+on the processes, which are usually centered around stationarity. Here we
+present a general solution for binary-valued hidden Markov processes. Our
+approach is rooted in algebraic statistics hence it is geometric in nature. We
+find that the algebraic varieties associated with the probability distributions
+of binary-valued hidden Markov processes are zero sets of determinantal
+equations which draws a connection to well-studied objects from algebra. As a
+consequence, our solution allows for algorithmic implementation based on
+elementary (linear) algebraic routines.
+</summary>
+    <author>
+      <name>Alexander Schönhuth</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Algebraic Statistics, 5(1), 72-99, 2014</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1101.3712v6" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1101.3712v6" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62M05, 62M99, 14Q99, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

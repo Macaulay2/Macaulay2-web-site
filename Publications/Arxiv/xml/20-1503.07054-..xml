@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1503.07054%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1503.07054&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/y+Ai4flRoiF+jNJV4vZdCe9nZ2s</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1503.07054v1</id>
+    <updated>2015-03-24T14:24:22Z</updated>
+    <published>2015-03-24T14:24:22Z</published>
+    <title>A Geometric Perspective on the Singular Value Decomposition</title>
+    <summary>  This is an introductory survey, from a geometric perspective, on the Singular
+Value Decomposition (SVD) for real matrices, focusing on the role of the
+Terracini Lemma. We extend this point of view to tensors, we define the
+singular space of a tensor as the space spanned by singular vector tuples and
+we study some of its basic properties.
+</summary>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Raffaella Paoletti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 2 figures. Keywords: Singular Value Decomposition, Tensor
+  To be published in Rend. Istit. Mat. Univ. Trieste</arxiv:comment>
+    <link href="http://arxiv.org/abs/1503.07054v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1503.07054v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A18, 15A69, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

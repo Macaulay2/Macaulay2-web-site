@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.14401%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.14401&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hKV95fjb1mpgnTWenJKYRjBnoJY</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.14401v1</id>
+    <updated>2020-06-24T17:57:50Z</updated>
+    <published>2020-06-24T17:57:50Z</published>
+    <title>Canonical Degrees of Cohen-Macaulay Rings and Modules: a Survey</title>
+    <summary>  The aim of this survey is to discuss invariants of Cohen-Macaulay local rings
+that admit a canonical module. Attached to each such ring R with a canonical
+ideal C, there are integers--the type of R, the reduction number of C--that
+provide valuable metrics to express the deviation of R from being a Gorenstein
+ring. We enlarge this list with other integers--the roots of R and several
+canonical degrees. The latter are multiplicity based functions of the Rees
+algebra of C. We give a uniform presentation of three degrees arising from
+common roots. Finally we experiment with ways to extend one of these degrees to
+rings where C is not necessarily an ideal.
+</summary>
+    <author>
+      <name>J. P. Brennan</name>
+    </author>
+    <author>
+      <name>L. Ghezzi</name>
+    </author>
+    <author>
+      <name>J. Hong</name>
+    </author>
+    <author>
+      <name>L. Hutson</name>
+    </author>
+    <author>
+      <name>W. V. Vasconcelos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: substantial text overlap with arXiv:1711.09480,
+  arXiv:1701.05592</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.14401v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.14401v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

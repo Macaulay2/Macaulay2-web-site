@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0601640%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0601640&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FFI3yWg/eGsj7zOa7Qiig7x9Vu0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0601640v3</id>
+    <updated>2007-11-21T12:33:53Z</updated>
+    <published>2006-01-26T13:38:57Z</published>
+    <title>An algebraic formula for the index of a vector field on an isolated
+  complete intersection singularity</title>
+    <summary>  Let (V,0) be a germ of a complete intersection variety in \CC^{n+k}, n&gt;0,
+having an isolated singularity at 0 and X be the germ of a holomorphic vector
+field on \CC^{n+k} tangent to V and having on V an isolated zero at 0. We show
+that in this case the homological index and the GSV-index coincide. In the case
+when the zero of X is also isolated in the ambient space \CC^{n+k} we give a
+formula for the homological index in terms of local linear algebra.
+</summary>
+    <author>
+      <name>H. -Chr. Graf von Bothmer</name>
+    </author>
+    <author>
+      <name>W. Ebeling</name>
+    </author>
+    <author>
+      <name>X. Gomez-Mont</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages; added an example which is not quasi homogeneous. A script
+  calculating this example can be found at
+  http://www.iag.uni-hannover.de/~bothmer/gobelin/ or at the and of the source
+  file of this article</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Annales de l'Institut Fourier, Vol. 58 no. 5 (2008), p. 1761-1783</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0601640v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0601640v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B05, 32S10, 13D25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

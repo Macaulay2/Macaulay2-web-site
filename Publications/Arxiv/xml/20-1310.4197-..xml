@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1310.4197%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1310.4197&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ln+HtvPXoyG31P/9b8WlUnEqqyY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1310.4197v3</id>
+    <updated>2014-05-05T19:06:23Z</updated>
+    <published>2013-10-15T20:44:16Z</published>
+    <title>Maximum likelihood geometry in the presence of data zeros</title>
+    <summary>  Given a statistical model, the maximum likelihood degree is the number of
+complex solutions to the likelihood equations for generic data. We consider
+discrete algebraic statistical models and study the solutions to the likelihood
+equations when the data contain zeros and are no longer generic. Focusing on
+sampling and model zeros, we show that, in these cases, the solutions to the
+likelihood equations are contained in a previously studied variety, the
+likelihood correspondence. The number of these solutions give a lower bound on
+the ML degree, and the problem of finding critical points to the likelihood
+function can be partitioned into smaller and computationally easier problems
+involving sampling and model zeros. We use this technique to compute a lower
+bound on the ML degree for $2 \times 2 \times 2 \times 2$ tensors of border
+rank $\leq 2$ and $3 \times n$ tables of rank $\leq 2$ for $n=11, 12, 13, 14$,
+the first four values of $n$ for which the ML degree was previously unknown.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Jose Israel Rodriguez</name>
+    </author>
+    <link href="http://arxiv.org/abs/1310.4197v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1310.4197v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

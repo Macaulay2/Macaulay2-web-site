@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0806.1159%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0806.1159&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GSN3Ycg9XOrKIMmabOQ/T6htPtU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0806.1159v2</id>
+    <updated>2010-01-08T00:24:34Z</updated>
+    <published>2008-06-06T18:41:14Z</published>
+    <title>Associated primes of monomial ideals and odd holes in graphs</title>
+    <summary>  Let $G$ be a finite simple graph with edge ideal $I(G)$. Let $J(G)$ denote
+the Alexander dual of $I(G)$. We show that a description of all induced cycles
+of odd length in $G$ is encoded in the associated primes of $J(G)^2$. This
+result forms the basis for a method to detect odd induced cycles of a graph via
+ideal operations, e.g., intersections, products and colon operations. Moreover,
+we get a simple algebraic criterion for determining whether a graph is perfect.
+We also show how to determine the existence of odd holes in a graph from the
+value of the arithmetic degree of $J(G)^2$.
+</summary>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages. In v2, paper has been rewritten and shortened. To appear in
+  J. Algebraic Combin</arxiv:comment>
+    <link href="http://arxiv.org/abs/0806.1159v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0806.1159v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55; 05C17; 05C38; 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

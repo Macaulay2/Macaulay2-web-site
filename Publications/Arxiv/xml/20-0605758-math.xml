@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0605758%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0605758&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WTg4k2dzKIpKqSEnf9Ibsg80L70</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0605758v1</id>
+    <updated>2006-05-30T13:48:20Z</updated>
+    <published>2006-05-30T13:48:20Z</published>
+    <title>Special Linear Series and Syzygies of Canonical Curves of Genus 9</title>
+    <summary>  In this thesis we give a complete description of the syzygies of irreducible,
+nonsingular, canoncial curves $C$ of genus 9. This includes a collection of all
+possible Betti tables for $C$. Moreover a direct correspondence between these
+Betti tables and the number and types of special linear series on $C$ is given.
+Especially for $\operatorname{Cliff}(C)=3$ the curve $C$ is contained in
+determinantal surface $Y$ on a 4-dimensional rational normal scroll $X\subset
+\mathbb{P}^8$ constructed from a base point free pencil of divisors of degree
+5.
+</summary>
+    <author>
+      <name>Michael Sagraloff</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">PhD Thesis, extended version</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0605758v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0605758v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H51" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

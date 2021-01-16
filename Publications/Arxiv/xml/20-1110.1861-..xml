@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.1861%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.1861&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oIKApXhkvJrCrjKcecFIgLZTvWA</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.1861v1</id>
+    <updated>2011-10-09T17:28:45Z</updated>
+    <published>2011-10-09T17:28:45Z</published>
+    <title>The T-graph of a multigraded Hilbert scheme</title>
+    <summary>  The T-graph of a multigraded Hilbert scheme records the zero and
+one-dimensional orbits of the T = (K^*)^n action on the Hilbert scheme induced
+from the T-action on A^n. It has vertices the T-fixed points, and edges the
+one-dimensional T-orbits. We give a combinatorial necessary condition for the
+existence of an edge between two vertices in this graph. For the Hilbert scheme
+of points in the plane, we give an explicit combinatorial description of the
+equations defining the scheme parameterizing all one-dimensional torus orbits
+whose closures contain two given monomial ideals. For this Hilbert scheme we
+show that the T-graph depends on the ground field, resolving a question of
+Altmann and Sturmfels.
+</summary>
+    <author>
+      <name>Milena Hering</name>
+    </author>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1110.1861v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.1861v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

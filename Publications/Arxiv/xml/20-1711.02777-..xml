@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.02777%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.02777&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GEkgDo12XNEA9RzycFKvm6ygAm0</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.02777v1</id>
+    <updated>2017-11-08T00:20:46Z</updated>
+    <published>2017-11-08T00:20:46Z</published>
+    <title>Regularity and cohomology of Pfaffian thickenings</title>
+    <summary>  Let $S$ be the coordinate ring of the space of $n\times n$ complex
+skew-symmetric matrices. This ring has an action of the group
+$\textrm{GL}_n(\mathbb{C})$ induced by the action on the space of matrices. For
+every invariant ideal $I\subseteq S$, we provide an explicit description of the
+modules $\textrm{Ext}^{\bullet}_S(S/I,S)$ in terms of irreducible
+representations. This allows us to give formulas for the regularity of basic
+invariant ideals and (symbolic) powers of ideals of Pfaffians, as well as to
+characterize when these ideals have a linear free resolution. In addition,
+given an inclusion of invariant ideals $I\supseteq J$, we compute the
+(co)kernel of the induced map $\textrm{Ext}^j_S(S/I,S)\to
+\textrm{Ext}^j_S(S/J,S)$ for all $j\geq 0$. As a consequence, we show that if
+an invariant ideal $I$ is unmixed, then the induced maps
+$\textrm{Ext}_S^j(S/I,S)\to H_I^j(S)$ are injective, answering a question of
+Eisenbud-Musta\c{t}\u{a}-Stillman in the case of Pfaffian thickenings. Finally,
+using our Ext computations and local duality, we verify an instance of Kodaira
+vanishing in the sense described in the recent work of
+Bhatt-Blickle-Lyubeznik-Singh-Zhang.
+</summary>
+    <author>
+      <name>Michael Perlman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1711.02777v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.02777v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45, 14M12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

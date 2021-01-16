@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.08930%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.08930&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hXu2JuvmemNBM528xoRmsVEly+E</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.08930v1</id>
+    <updated>2019-11-20T14:29:15Z</updated>
+    <published>2019-11-20T14:29:15Z</published>
+    <title>Prelog Chow rings and degenerations</title>
+    <summary>  For a simple normal crossing variety X, we introduce the concepts of prelog
+Chow ring, saturated prelog Chow group, as well as their counterparts for
+numerical equivalence. Thinking of X as the central fibre in a (strictly)
+semistable degeneration, these objects can intuitively be thought of as
+consisting of cycle classes on X for which some initial obstruction to arise as
+specializations of cycle classes on the generic fibre is absent. After proving
+basic properties for prelog Chow rings and groups, we explain how they can be
+used in an envisaged further development of the degeneration method by Voisin
+et al. to prove stable irrationality of very general fibres of certain families
+of varieties; this extension would allow for much more singular degenerations,
+such as toric degenerations as occur in the Gross-Siebert programme, to be
+usable. We illustrate that by looking at the "baby example" of degenerations of
+elliptic curves, and we compute the saturated prelog Chow group of
+degenerations of cubic surfaces.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <author>
+      <name>Michel van Garrel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1911.08930v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.08930v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C15, 14C25, 14E08" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

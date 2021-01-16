@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.03309%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.03309&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1V8sGZm3vwjfMlolRoEe//qPJG8</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03309v1</id>
+    <updated>2016-06-10T13:12:15Z</updated>
+    <published>2016-06-10T13:12:15Z</published>
+    <title>The symmetric signature</title>
+    <summary>  This is the author's Ph.D. thesis. We introduce two related invariants for
+local (and standard graded) rings called differential and syzygy symmetric
+signature. These are defined by looking at the maximal free splitting of the
+module of K\"ahler differentials and of the the top-dimensional syzygy module
+of the residue field respectively. We study and compute them for different
+classes of rings: two-dimensional ADE singularities, two-dimensional cyclic
+singularities, and cones over plane elliptic curves (for the differential
+symmetric signature). The values obtained coincide with the F-signature of such
+rings in positive characteristic. The thesis contains also a short survey on
+the Auslander correspondence for quotient singularities.
+</summary>
+    <author>
+      <name>Alessio Caminata</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The main results of the thesis appeared also in arXiv:1602.07184 and
+  arXiv:1603.06427</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.03309v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.03309v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.05321%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.05321&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/s7kZ1wFP6lT+CXTUvKg1ZKnflNw</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.05321v2</id>
+    <updated>2016-08-17T17:34:33Z</updated>
+    <published>2016-06-16T19:19:07Z</published>
+    <title>Cubic fourfolds fibered in sextic del Pezzo surfaces</title>
+    <summary>  We exhibit new examples of rational cubic fourfolds. Our examples admit
+fibrations in sextic del Pezzo surfaces over the projective plane, which are
+rational whenever they have a section. They are parametrized by a countably
+infinite union of codimension-two subvarieties in the moduli space.
+</summary>
+    <author>
+      <name>Nicolas Addington</name>
+    </author>
+    <author>
+      <name>Brendan Hassett</name>
+    </author>
+    <author>
+      <name>Yuri Tschinkel</name>
+    </author>
+    <author>
+      <name>Anthony Várilly-Alvarado</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages. typos and minor errors corrected. Macaulay2 code now
+  included. submitted version</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.05321v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.05321v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J35, 14C30, 14E08" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

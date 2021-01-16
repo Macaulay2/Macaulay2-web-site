@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.11107%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.11107&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0zJA599WZf+S2gwrpiXCb81Kc/Q</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.11107v1</id>
+    <updated>2019-04-25T00:55:32Z</updated>
+    <published>2019-04-25T00:55:32Z</published>
+    <title>Higher spin sl_2 R-matrix from equivariant (co)homology</title>
+    <summary>  We compute the rational $\mathfrak{sl}_2$ $R$-matrix acting in the product of
+two spin-$\ell\over 2$ (${\ell \in \mathbb{N}}$) representations, using a
+method analogous to the one of Maulik and Okounkov, i.e., by studying the
+equivariant (co)homology of certain algebraic varieties. These varieties, first
+considered by Nekrasov and Shatashvili, are typically singular. They may be
+thought of as the higher spin generalizations of $A_1$ Nakajima quiver
+varieties (i.e., cotangent bundles of Grassmannians), the latter corresponding
+to $\ell=1$.
+</summary>
+    <author>
+      <name>Dmitri Bykov</name>
+    </author>
+    <author>
+      <name>Paul Zinn-Justin</name>
+    </author>
+    <link href="http://arxiv.org/abs/1904.11107v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.11107v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.1903%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.1903&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KHSotU+QVqRxKQfp4uIHavSvyuU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.1903v1</id>
+    <updated>2012-10-06T01:23:37Z</updated>
+    <published>2012-10-06T01:23:37Z</published>
+    <title>On $(2,4)$ complete intersection threefolds that contain an Enriques
+  surface</title>
+    <summary>  We study nodal complete intersection threefolds of type $(2,4)$ in $\PP^5$
+which contain an Enriques surface in its Fano embedding. We completely
+determine Calabi-Yau birational models of a generic such threefold. These
+models have Hodge numbers $(h^{11},h^{12})=(2,32)$. We also describe Calabi-Yau
+varieties with Hodge numbers equal to $(2,26)$, $(23,5)$ and $(31,1)$. The last
+two pairs of Hodge numbers are, to the best of our knowledge, new.
+</summary>
+    <author>
+      <name>Lev A. Borisov</name>
+    </author>
+    <author>
+      <name>Howard J. Nuer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.1903v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.1903v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32, 14J28" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

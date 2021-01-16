@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.0490%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.0490&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mkHOOtiDYoMI4eRO1v6nX2XadQo</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0490v1</id>
+    <updated>2014-02-03T20:45:46Z</updated>
+    <published>2014-02-03T20:45:46Z</published>
+    <title>Legendrian knots and constructible sheaves</title>
+    <summary>  We study the unwrapped Fukaya category of Lagrangian branes ending on a
+Legendrian knot. Our knots live at contact infinity in the cotangent bundle of
+a surface, the Fukaya category of which is equivalent to the category of
+constructible sheaves on the surface itself. Consequently, our category can be
+described as constructible sheaves with singular support controlled by the
+front projection of the knot. We use a theorem of Guillermou-Kashiwara-Schapira
+to show that the resulting category is invariant under Legendrian isotopies,
+and conjecture it is equivalent to the representation category of the
+Chekanov-Eliashberg differential graded algebra.
+  We also find two connections to topological knot theory. First, drawing a
+positive braid closure on the annulus, the moduli space of rank-n objects maps
+to the space of local systems on a circle. The second page of the spectral
+sequence associated to the weight filtration on the pushforward of the constant
+sheaf is the (colored-by-n) triply-graded Khovanov-Rozansky homology. Second,
+drawing a positive braid closure in the plane, the number of points of our
+moduli spaces over a finite field with q elements recovers the lowest
+coefficient in 'a' of the HOMFLY polynomial of the braid closure. This last
+statement leads us to conjecture that when the braid closure is the link of a
+singular plane curve, our moduli space is the corresponding wild character
+variety.
+</summary>
+    <author>
+      <name>Vivek Shende</name>
+    </author>
+    <author>
+      <name>David Treumann</name>
+    </author>
+    <author>
+      <name>Eric Zaslow</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">77 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1402.0490v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.0490v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

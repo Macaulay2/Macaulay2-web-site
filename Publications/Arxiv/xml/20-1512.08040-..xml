@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.08040%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.08040&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EFGD297onLqj2OrlGDxYKRifaQg</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.08040v1</id>
+    <updated>2015-12-25T21:34:14Z</updated>
+    <published>2015-12-25T21:34:14Z</published>
+    <title>Miura: Divisor Class Group Arithmetic</title>
+    <summary>  The Package Miura contains functions that compute divisor class group
+arithmetic for nonsingular curves. The package reduces computation in a divisor
+class group to that in the ideal class group via the isomorphism. The
+underlying quotient ring should be over the ideal given by a nonsingular curve
+in the form of Miura. Although computing the multiplication of two integral
+ideals is not hard, we need to obtain an ideal such that the shortest Groebner
+basis component is the minimum in order to obtain the representative of the
+ideal class. Although the basic procedure is due to Arita, the source code has
+become much shorter using MaCaulay2. The package is useful not just for
+computation itself but also for understanding the divisor class group
+arithmetic from the ideal point of view.
+</summary>
+    <author>
+      <name>Joe Suzuki</name>
+    </author>
+    <link href="http://arxiv.org/abs/1512.08040v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.08040v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

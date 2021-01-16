@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1005.2919%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1005.2919&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TE+pTxRDwwB4s4DvIv+J0Ohcdl0</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1005.2919v1</id>
+    <updated>2010-05-17T13:42:39Z</updated>
+    <published>2010-05-17T13:42:39Z</published>
+    <title>Three-Dimensional Manifolds, Skew-Gorenstein Rings and their Cohomology</title>
+    <summary>  Graded skew-commutative rings occur often in practice. Here are two examples:
+1) The cohomology ring of a compact three-dimensional manifold. 2) The
+cohomology ring of the complement of a hyperplane arrangement (the
+Orlik-Solomon algebra). We present some applications of the homological theory
+of these graded skew-commutative rings. In particular we find compact oriented
+3-manifolds without boundary for which the Hilbert series of the Yoneda
+Ext-algebra of the cohomology ring of the fundamental group is an explicit
+transcendental function. This is only possible for large first Betti numbers of
+the 3-manifold (bigger than -- or maybe equal to -- 11). We give also examples
+of 3-manifolds where the Ext-algebra of the cohomology ring of the fundamental
+group is not finitely generated
+</summary>
+    <author>
+      <name>Jan-Erik Roos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, some minor corrections; deduction of example IV corrected.
+  Appendix added (how to prove that rings are Koszul, using an extension of the
+  Backelin programme BERGMAN), Final version to appear in J.of Commutative
+  Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1005.2919v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1005.2919v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16E05 (Primary), 52C35, 16S37 (Secondary), 55P62" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

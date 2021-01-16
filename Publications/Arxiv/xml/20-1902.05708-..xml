@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1902.05708%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1902.05708&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tSNfphj8SBybLf96jvR929wnarY</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1902.05708v2</id>
+    <updated>2019-03-25T15:41:07Z</updated>
+    <published>2019-02-15T07:19:16Z</published>
+    <title>Computing Minimal Presentations and Bigraded Betti Numbers of
+  2-Parameter Persistent Homology</title>
+    <summary>  Motivated by applications to topological data analysis, we give an efficient
+algorithm for computing a (minimal) presentation of a bigraded $K[x,y]$-module
+$M$, where $K$ is a field. The algorithm takes as input a short chain complex
+of free modules \[ F^2 \xrightarrow{\partial^2} F^1 \xrightarrow{\partial^1}
+F^0 \] such that $M\cong \ker{\partial^1}/\mathrm{im}{\partial^2}$. It runs in
+time $O(\sum_i |F^i|^3)$ and requires $O(\sum_i |F^i|^2)$ memory, where $|F^i|$
+denotes the size of a basis of $F^i$. We observe that, given the presentation
+computed by our algorithm, the bigraded Betti numbers of $M$ are readily
+computed. We also introduce a different but related algorithm, based on Koszul
+homology, which computes the bigraded Betti numbers without computing a
+presentation, with these same complexity bounds. These algorithms have been
+implemented in RIVET, a software tool for the visualization and analysis of
+two-parameter persistent homology. In experiments on topological data analysis
+problems, our approach outperforms the standard computational commutative
+algebra packages Singular and Macaulay2 by a wide margin.
+</summary>
+    <author>
+      <name>Michael Lesnick</name>
+    </author>
+    <author>
+      <name>Matthew Wright</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1902.05708v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1902.05708v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55N99, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

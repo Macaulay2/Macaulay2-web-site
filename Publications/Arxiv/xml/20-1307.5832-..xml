@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1307.5832%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1307.5832&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7IFyyr+THu4RQ4ZcSxwidSTQ1tk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1307.5832v2</id>
+    <updated>2014-04-24T12:31:34Z</updated>
+    <published>2013-07-22T19:46:19Z</published>
+    <title>Multiloop Integrand Reduction for Dimensionally Regulated Amplitudes</title>
+    <summary>  We present the integrand reduction via multivariate polynomial division as a
+natural technique to encode the unitarity conditions of Feynman amplitudes. We
+derive a recursive formula for the integrand reduction, valid for arbitrary
+dimensionally regulated loop integrals with any number of loops and external
+legs, which can be used to obtain the decomposition of any integrand
+analytically with a finite number of algebraic operations. The general results
+are illustrated by applications to two-loop Feynman diagrams in QED and QCD,
+showing that the proposed reduction algorithm can also be seamlessly applied to
+integrands with denominators appearing with arbitrary powers.
+</summary>
+    <author>
+      <name>P. Mastrolia</name>
+    </author>
+    <author>
+      <name>E. Mirabella</name>
+    </author>
+    <author>
+      <name>G. Ossola</name>
+    </author>
+    <author>
+      <name>T. Peraro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Published version. 5 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1307.5832v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1307.5832v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.06038%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.06038&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dYtbI0shSCMBprIC9ce+a6ow0Jg</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.06038v1</id>
+    <updated>2015-01-24T13:10:44Z</updated>
+    <published>2015-01-24T13:10:44Z</published>
+    <title>Depth and regularity of powers of sums of ideals</title>
+    <summary>  Given arbitrary homogeneous ideals $I$ and $J$ in polynomial rings $A$ and
+$B$ over a field $k$, we investigate the depth and the Castelnuovo-Mumford
+regularity of powers of the sum $I+J$ in $A \otimes_k B$ in terms of those of
+$I$ and $J$. Our results can be used to study the behavior of the depth and
+regularity functions of powers of an ideal. For instance, we show that such a
+depth function can take as its values any infinite non-increasing sequence of
+non-negative integers.
+</summary>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>Ngo Viet Trung</name>
+    </author>
+    <author>
+      <name>Tran Nam Trung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.06038v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.06038v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

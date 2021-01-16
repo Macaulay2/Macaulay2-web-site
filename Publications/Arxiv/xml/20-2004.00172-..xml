@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2004.00172%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2004.00172&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yzcygl+iRF4IZsmRTZ4N+ke6hDE</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2004.00172v1</id>
+    <updated>2020-04-01T00:06:59Z</updated>
+    <published>2020-04-01T00:06:59Z</published>
+    <title>Graphs with few trivial characteristic ideals</title>
+    <summary>  We give a characterization of the graphs with at most three trivial
+characteristic ideals. This implies the complete characterization of the
+regular graphs whose critical groups have at most three invariant factors equal
+to 1 and the characterization of the graphs whose Smith groups have at most 3
+invariant factors equal to 1. We also give an alternative and simpler way to
+obtain the characterization of the graphs whose Smith groups have at most 3
+invariant factors equal to 1, and a list of minimal forbidden graphs for the
+family of graphs with Smith group having at most 4 invariant factors equal to
+1.
+</summary>
+    <author>
+      <name>Carlos A. Alfaro</name>
+    </author>
+    <author>
+      <name>Michael D. Barrus</name>
+    </author>
+    <author>
+      <name>John Sinkovic</name>
+    </author>
+    <author>
+      <name>Ralihe R. Villagrán</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2004.00172v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.00172v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C25, 13C40, 05C50, 13F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

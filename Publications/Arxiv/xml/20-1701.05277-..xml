@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.05277%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.05277&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/COBwFDla2ofiaZXFk8WaAQRKwzA</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.05277v1</id>
+    <updated>2017-01-19T01:42:39Z</updated>
+    <published>2017-01-19T01:42:39Z</published>
+    <title>Specht Polytopes and Specht Matroids</title>
+    <summary>  The generators of the classical Specht module satisfy intricate relations. We
+introduce the Specht matroid, which keeps track of these relations, and the
+Specht polytope, which also keeps track of convexity relations. We establish
+basic facts about the Specht polytope, for example, that the symmetric group
+acts transitively on its vertices and irreducibly on its ambient real vector
+space. A similar construction builds a matroid and polytope for a tensor
+product of Specht modules, giving "Kronecker matroids" and "Kronecker
+polytopes" instead of the usual Kronecker coefficients. We dub this process of
+upgrading numbers to matroids and polytopes "matroidification," giving two more
+examples. In the course of describing these objects, we also give an elementary
+account of the construction of Specht modules different from the standard one.
+Finally, we provide code to compute with Specht matroids and their Chow rings.
+</summary>
+    <author>
+      <name>John D. Wiltshire-Gordon</name>
+    </author>
+    <author>
+      <name>Alexander Woo</name>
+    </author>
+    <author>
+      <name>Magdalena Zajaczkowska</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.05277v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.05277v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E10, 20C30, 52B40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

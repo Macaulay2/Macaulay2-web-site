@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0111029%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0111029&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CwVbMCHJEjeyIUD4OBuqdrK9IWc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0111029v1</id>
+    <updated>2001-11-02T16:26:00Z</updated>
+    <published>2001-11-02T16:26:00Z</published>
+    <title>Canonical rings of surfaces whose canonical system has base points</title>
+    <summary>  In this paper we propose an approach to investigate the canonical rings of
+surfaces of general type whose canonical system has isolated base points and
+yields a birational map onto its image.
+  We apply then the method in the concrete case of surfaces with $K^2=7$ and
+$p_g=4$, where we give three different descriptions of the canonical ring
+(under the presence of base points).
+  The main result in the paper consists in showing an explicit deformation of
+the above canonical rings to the canonical rings of surfaces whose canonical
+system has no base points (the latter were already classified by the second
+author). That such a deformation should exist was claimed by F. Enriques and
+holds true by abstract deformation theory and dimension counts. Our deformation
+is explicitly gotten by writing the equations of the canonical ring as the
+(4x4)-Pfaffians of an antisymmetric and extrasymmetric (6x6)-matrix.
+  Deforming the matrix, we get, for $t \neq 0$, that the Pfaffians reduce to
+the (4x4)-Pfaffians of an antisymmetric (5x5)-matrix. This type of deformation
+of a Gorenstein ring of codimension 4 to a Gorenstein ring of codimension 3 had
+already been introduced by Duncan Dicks and Miles Reid.
+</summary>
+    <author>
+      <name>I. C. Bauer</name>
+    </author>
+    <author>
+      <name>F. Catanese</name>
+    </author>
+    <author>
+      <name>R. Pignatelli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">45 pages, to appear in the Festschrift in honour of Hans Grauert</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0111029v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0111029v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

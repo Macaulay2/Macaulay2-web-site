@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.1293%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.1293&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GpCeTkaamJbI5Fxf6JjwMEw/K1Q</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.1293v1</id>
+    <updated>2013-06-06T04:27:48Z</updated>
+    <published>2013-06-06T04:27:48Z</published>
+    <title>Nondefective secant varieties of varieties of completely decomposable
+  forms</title>
+    <summary>  A variation of Waring's problem from classical number theory is the question,
+``What is the smallest number $s$ such that any generic homogeneous polynomial
+of degree $d$ in $n+1$ variables may be written as the sum of at most $s$
+products of linear forms?'' This question may be answered geometrically by
+determining the smallest $s$ such that the $s$\nth secant variety of the
+variety of completely decomposable forms fills the ambient space. If this
+secant variety has the expected dimension, it is called nondefective, and
+$s=\left\lceil\binom{n+d}{d}/(dn+1)\right\rceil$. It is conjectured that the
+secant variety is always nondefective unless $d=2$ and $2\leq
+s\leq\frac{n}{2}$. We prove several special cases of this conjecture. In
+particular, we define functions $s_1$ and $s_2$ such that the secant variety is
+nondefective when $n\geq 3$ and $s\leq s_1(d)$ or when $n=3$ and $s\geq s_2(d)$
+and a function $c$ such that the secant variety is nondefective when $d\geq
+n\geq 4$ and $s\leq 2^{n-3}c(n,d)$. We further show that the secant variety is
+nondefective when $s\leq 30$ unless $d=2$ and $2\leq s\leq\frac{n}{2}$.
+</summary>
+    <author>
+      <name>Douglas A. Torrance</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">96 pages, 4 figures, Ph.D. thesis</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.1293v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.1293v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

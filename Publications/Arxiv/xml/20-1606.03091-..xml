@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.03091%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.03091&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//brRflVqJzBzisceqkKrSLfCvCE</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03091v1</id>
+    <updated>2016-06-09T15:45:10Z</updated>
+    <published>2016-06-09T15:45:10Z</published>
+    <title>Generalized Splines and Graphic Arrangements</title>
+    <summary>  We define a chain complex for generalized splines on graphs, analogous to
+that introduced by Billera and refined by Schenck-Stillman for splines on
+polyhedral complexes. The hyperhomology of this chain complex yields bounds on
+the projective dimension of the ring of generalized splines. We apply this
+construction to the module of derivations of a graphic multi-arrangement,
+yielding homological criteria for bounding its projective dimension and
+determining freeness. As an application, we show that a graphic arrangement
+admits a free constant multiplicity iff it splits as a product of braid
+arrangements.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.03091v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.03091v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

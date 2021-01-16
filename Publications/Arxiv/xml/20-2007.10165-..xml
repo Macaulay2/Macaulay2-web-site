@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.10165%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.10165&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Fe4U3OgwLgkB+kPzb+87CcWWb2w</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.10165v1</id>
+    <updated>2020-07-20T14:44:06Z</updated>
+    <published>2020-07-20T14:44:06Z</published>
+    <title>Minimality and uniqueness for decompositions of specific ternary forms</title>
+    <summary>  The paper deals with the computation of the rank and the identifiability of a
+specific ternary form. Often, one knows some short Waring decomposition of a
+given form, and the problem is to determine whether the decomposition is
+minimal and unique. We show how the analysis of the Hilbert-Burch matrix of the
+set of points representing the decomposition can solve this problem in the case
+of ternary forms. Moreover, when the decomposition is not unique, we show how
+the procedure of liaison can provide alternative, maybe shorter,
+decompositions. We give an explicit algorithm that tests our criterion of
+minimality for the case of ternary forms of degree $9$. This is the first
+numerical case in which a new phaenomenon appears: the span of $18$ general
+powers of linear forms contains points of (subgeneric) rank $18$, but it also
+contains points whose rank is $17$, due to the existence of a second shorter
+decomposition which is completely different from the given one.
+</summary>
+    <author>
+      <name>Elena Angelini</name>
+    </author>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <link href="http://arxiv.org/abs/2007.10165v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.10165v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N07, 14J70, 14C20, 14N05, 15A69, 15A72" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

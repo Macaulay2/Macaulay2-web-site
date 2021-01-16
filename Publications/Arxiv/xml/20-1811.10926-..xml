@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1811.10926%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1811.10926&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hYvlDBkTfjCgoFZkk2fgXAA2+hU</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1811.10926v1</id>
+    <updated>2018-11-27T11:51:27Z</updated>
+    <published>2018-11-27T11:51:27Z</published>
+    <title>Constructing Fano 3-folds from cluster varieties of rank 2</title>
+    <summary>  Cluster algebras give rise to a class of Gorenstein rings which enjoy a large
+amount of symmetry. Concentrating on the rank 2 cases, we show how cluster
+varieties can be used to construct many interesting projective algebraic
+varieties. Our main application is then to construct hundreds of families of
+Fano 3-folds in codimensions 4 and 5. In particular, for Fano 3-folds in
+codimension 4 we construct at least one family for 187 of the 206 possible
+Hilbert polynomials contained in the Graded Ring Database.
+</summary>
+    <author>
+      <name>Stephen Coughlan</name>
+    </author>
+    <author>
+      <name>Tom Ducat</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1811.10926v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1811.10926v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

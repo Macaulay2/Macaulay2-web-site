@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1905.11951%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1905.11951&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DqsQNShZkipUKa6lGPiVY7NcJK8</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1905.11951v1</id>
+    <updated>2019-05-28T17:14:13Z</updated>
+    <published>2019-05-28T17:14:13Z</published>
+    <title>The Schläfli Fan</title>
+    <summary>  Smooth tropical cubic surfaces are parametrized by maximal cones in the
+unimodular secondary fan of the triple tetrahedron. There are $344\,843\,867$
+such cones, organized into a database of $14\,373\,645$ symmetry classes. The
+Schl\"afli fan gives a further refinement of these cones. It reveals all
+possible patterns of the 27 or more lines on tropical cubic surfaces, thus
+serving as a combinatorial base space for the universal Fano variety. This
+article develops the relevant theory and offers a blueprint for the analysis of
+big data in tropical algebraic geometry. We conclude with a sparse model for
+cubic surfaces over a field with valuation.
+</summary>
+    <author>
+      <name>Michael Joswig</name>
+    </author>
+    <author>
+      <name>Marta Panizzut</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <link href="http://arxiv.org/abs/1905.11951v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1905.11951v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B55, 14T05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

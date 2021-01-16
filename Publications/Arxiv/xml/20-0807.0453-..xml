@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0807.0453%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0807.0453&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+ljs4rlu1O++amxho5Gnq4lrDmw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0807.0453v3</id>
+    <updated>2010-02-10T22:56:37Z</updated>
+    <published>2008-07-02T21:14:50Z</published>
+    <title>The rank of a hypergeometric system</title>
+    <summary>  The holonomic rank of the A-hypergeometric system M_A(\beta) is the degree of
+the toric ideal I_A for generic parameters; in general, this is only a lower
+bound. To the semigroup ring of A we attach the ranking arrangement and use
+this algebraic invariant and the exceptional arrangement of nongeneric
+parameters to construct a combinatorial formula for the rank jump of
+M_A(\beta). As consequences, we obtain a refinement of the stratification of
+the exceptional arrangement by the rank of M_A(\beta) and show that the Zariski
+closure of each of its strata is a union of translates of linear subspaces of
+the parameter space. These results hold for generalized A-hypergeometric
+systems as well, where the semigroup ring of A is replaced by a nontrivial
+weakly toric module M contained in \CC[\ZZ A]. We also provide a direct proof
+of the result of M. Saito and W. Traves regarding the isomorphism classes of
+M_A(\beta).
+</summary>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages. To appear in Compositio Mathematica. Revisions have been
+  made to the exposition, and the notation has been simplified</arxiv:comment>
+    <link href="http://arxiv.org/abs/0807.0453v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0807.0453v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="33C70, 14M25, 16E30, 20M25, 13N10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

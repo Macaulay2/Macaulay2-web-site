@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.03619%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.03619&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AdZ8IWQqKKpgVPdawYfH8l/dUYo</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.03619v1</id>
+    <updated>2021-01-10T20:06:43Z</updated>
+    <published>2021-01-10T20:06:43Z</published>
+    <title>Cohen-Macaulay binomial edge ideals and accessible graphs</title>
+    <summary>  The cut sets of a graph are special sets of vertices whose removal disconnect
+the graph. They are fundamental in the study of binomial edge ideals, since
+they encode their minimal primary decomposition. We introduce the class of
+accessible graphs as the graphs with unmixed binomial edge ideal and whose cut
+sets form an accessible set system. We prove that the graphs whose binomial
+edge ideal is Cohen-Macaulay are accessible and we conjecture that the converse
+holds. We settle the conjecture for large classes of graphs, including chordal
+and traceable graphs, providing a purely combinatorial description of
+Cohen-Macaulayness. The key idea in the proof is to show that both properties
+are equivalent to a further combinatorial condition, which we call strong
+unmixedness.
+</summary>
+    <author>
+      <name>Davide Bolognini</name>
+    </author>
+    <author>
+      <name>Antonio Macchia</name>
+    </author>
+    <author>
+      <name>Francesco Strazzanti</name>
+    </author>
+    <link href="http://arxiv.org/abs/2101.03619v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.03619v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

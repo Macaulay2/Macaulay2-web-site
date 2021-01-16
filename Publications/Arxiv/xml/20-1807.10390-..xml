@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.10390%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.10390&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rGfzZ0gLynUov4GwwSNRu3aZG/Y</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.10390v2</id>
+    <updated>2018-08-06T09:11:46Z</updated>
+    <published>2018-07-26T22:37:08Z</published>
+    <title>The Distance Function from a Real Algebraic Variety</title>
+    <summary>  For any (real) algebraic variety $X$ in a Euclidean space $V$ endowed with a
+nondegenerate quadratic form $q$, we introduce a polynomial
+$\mathrm{EDpoly}_{X,u}(t^2)$ which, for any $u\in V$, has among its roots the
+distance from $u$ to $X$. The degree of $\mathrm{EDpoly}_{X,u}$ is the
+Euclidean Distance degree of $X$. We prove a duality property when $X$ is a
+projective variety, namely
+$\mathrm{EDpoly}_{X,u}(t^2)=\mathrm{EDpoly}_{X^{\vee},u}(q(u)-t^2)$ where
+$X^{\vee}$ is the dual variety of $X$. When $X$ is transversal to the isotropic
+quadric $Q$, we prove that the ED polynomial of $X$ is monic and the zero locus
+of its lower term is $X\cup(X^{\vee}\cap Q)^{\vee}$.
+</summary>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Luca Sodomaco</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.10390v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.10390v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17, 14P05, 15A72, 58K05, 90C26" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

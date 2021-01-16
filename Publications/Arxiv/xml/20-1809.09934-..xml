@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.09934%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.09934&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DzqIt7Eb/YqHa0yQ+KMsX3h6Kj4</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.09934v1</id>
+    <updated>2018-09-26T12:27:41Z</updated>
+    <published>2018-09-26T12:27:41Z</published>
+    <title>Moment ideals of local Dirac mixtures</title>
+    <summary>  In this paper we study ideals arising from moments of local Dirac measures
+and their mixtures. We provide generators for the case of first order local
+Diracs and explain how to obtain the moment ideal of the Pareto distribution
+from them. We then use elimination theory and Prony's method for parameter
+estimation of finite mixtures and showcase our results with an application in
+signal processing. We highlight the natural connections to algebraic
+statistics, combinatorics and applications in analysis throughout the paper.
+</summary>
+    <author>
+      <name>Alexandros Grosdos Koutsoumpelias</name>
+    </author>
+    <author>
+      <name>Markus Wageringel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.09934v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.09934v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 62F10 (Primary), 14Q10, 65T40 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

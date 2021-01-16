@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0507306%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0507306&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WSLP9YNaCn6mJ7p2G/P8plDyeJQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0507306v4</id>
+    <updated>2007-02-18T07:15:38Z</updated>
+    <published>2005-07-15T06:12:36Z</published>
+    <title>Solvability of Symmetric Word Equations in Positive Definite Letters</title>
+    <summary>  Let $S(X,B)$ be a symmetric (``palindromic'') word in two letters $X$ and
+$B$. A theorem due to Hillar and Johnson states that for each pair of positive
+definite matrices $B$ and $P$, there is a positive definite solution $X$ to the
+word equation $S(X,B)=P$. They also conjectured that these solutions are finite
+and unique. In this paper, we resolve a modified version of this conjecture by
+showing that the Brouwer degree of such an equation is equal to 1 (in the case
+of real matrices). It follows that, generically, the number of solutions is odd
+(and thus finite) in the real case. Our approach allows us to address the more
+subtle question of uniqueness by exhibiting equations with multiple real
+solutions, as well as providing a second proof of the result of Hillar and
+Johnson in the real case.
+</summary>
+    <author>
+      <name>Scott N. Armstrong</name>
+    </author>
+    <author>
+      <name>Christopher J. Hillar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0507306v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0507306v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A24, 15A57; 15A18, 15A90" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

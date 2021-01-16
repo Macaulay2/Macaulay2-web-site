@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.4371%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.4371&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GMkz+Bu2ViC8AOMAFSdCeU0wqGE</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.4371v2</id>
+    <updated>2014-06-10T21:08:09Z</updated>
+    <published>2014-03-18T08:50:53Z</published>
+    <title>The signed Euler characteristic of very affine varieties</title>
+    <summary>  A conjecture of J. Huh and B. Sturmfels predicts that the sign of the Euler
+characteristic of a complex very affine variety depends only on the parity of
+the dimension. The conjecture is true for locally complete intersections.
+Beyond this case, we construct counterexamples with arbitrarily bad failure.
+</summary>
+    <author>
+      <name>Nero Budur</name>
+    </author>
+    <author>
+      <name>Botong Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: More details in the lci case. Final version, to appear in IMRN</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.4371v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.4371v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

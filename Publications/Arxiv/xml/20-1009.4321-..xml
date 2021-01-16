@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1009.4321%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1009.4321&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mpkeFLd9Y25UEO3DUhr2plTm+0g</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4321v1</id>
+    <updated>2010-09-22T10:35:30Z</updated>
+    <published>2010-09-22T10:35:30Z</published>
+    <title>Non-coherent Components of the Toric Hilbert Scheme</title>
+    <summary>  We want to understand the geometry of all irreducible components of the toric
+Hilbert scheme. Until now it is known that the coherent component is (up to
+normalisation) the toric variety associated to the state polytope of the toric
+ideal. For the non-coherent components it was only known that there exists such
+a polytope describing the normalisation. Using the local equations and various
+facts about toric Hilbert schemes, we will derive an explicit construction of
+the polytope corresponding to the normalisation of the underlying reduced
+structure of a given non-coherent component of the toric Hilbert scheme.
+</summary>
+    <author>
+      <name>René Birkner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1009.4321v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1009.4321v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05 (Primary), 14M25, 14Q15 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

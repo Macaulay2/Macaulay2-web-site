@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2008.00043%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2008.00043&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HRrOuQR427qpRbOGo/Q9CNo7PtU</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2008.00043v1</id>
+    <updated>2020-07-31T19:12:59Z</updated>
+    <published>2020-07-31T19:12:59Z</published>
+    <title>Generalized Cut Polytopes for Binary Hierarchical Models</title>
+    <summary>  Marginal polytopes are important geometric objects that arise in statistics
+as the polytopes underlying hierarchical log-linear models. These polytopes can
+be used to answer geometric questions about these models, such as determining
+the existence of maximum likelihood estimates or the normality of the
+associated semigroup. Cut polytopes of graphs have been useful in analyzing
+binary marginal polytopes in the case where the simplicial complex underlying
+the hierarchical model is a graph. We introduce a generalized cut polytope that
+is isomorphic to the binary marginal polytope of an arbitrary simplicial
+complex via a generalized covariance map. This polytope is full dimensional in
+its ambient space and has a natural switching operation among its facets that
+can be used to deduce symmetries between the facets of the correlation and
+binary marginal polytopes. We find complete H-representations of the
+generalized cut polytope for some important families of simplicial complexes.
+We also compute the volume of these polytopes in some instances.
+</summary>
+    <author>
+      <name>Jane Ivy Coons</name>
+    </author>
+    <author>
+      <name>Joseph Cummings</name>
+    </author>
+    <author>
+      <name>Benjamin Hollering</name>
+    </author>
+    <author>
+      <name>Aida Maraj</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2008.00043v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2008.00043v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B12, 52B20, 52B40, 52B35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

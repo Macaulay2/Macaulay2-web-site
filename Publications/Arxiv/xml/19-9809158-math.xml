@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9809158%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9809158&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2TGGeT7+RM9Oj4VS4BbKG4UmYBA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9809158v2</id>
+    <updated>1998-09-29T07:03:47Z</updated>
+    <published>1998-09-28T10:57:27Z</published>
+    <title>On the divisor class group of double solids</title>
+    <summary>  For a double solid $V\to P_3(C)$ branched over a surface $B\subset P_3(C)$
+with only ordinary nodes as singularities, we give a set of generators of the
+divisor class group $Pic(\tilde{V}})$ in terms of contact surfaces of $B$ with
+only superisolated singularities in the nodes of $B$. As an application we give
+a condition when the integral cohomology of $\tilde{V}$ has no 2-torsion. All
+possible cases are listed if $B$ is a quartic surface. Furthermore we give a
+new lower bound for the dimension of the code of $B$.
+</summary>
+    <author>
+      <name>Stephan Endrass</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, minor grammatical changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9809158v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9809158v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

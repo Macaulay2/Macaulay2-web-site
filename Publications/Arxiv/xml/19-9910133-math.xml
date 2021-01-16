@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9910133%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9910133&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DiW80aUGdqBgCrfTbQ5TkbU71r8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9910133v2</id>
+    <updated>1999-11-20T14:44:08Z</updated>
+    <published>1999-10-25T17:30:29Z</published>
+    <title>Quartic 3-fold: Pfaffians, instantons and half-canonical curves</title>
+    <summary>  A generic quartic 3-fold X admits a 7-dimensional family of representations
+as the Pfaffian of an 8 by 8 skew-symmetric matrix of linear forms. This
+provides a 7-dimensional moduli space M of rank 2 vector bundles on X. A
+precise geometric description of a 14-dimensional family of half-canonical
+curves C of genus 15 in X such that the above vector bundles are obtained by
+Serre's construction from C is given. It is proved that the Abel-Jacobi map of
+this family factors through M, and the resulting map from M to the intermediate
+Jacobian is quasi-finite. In particular, every component of M has non-negative
+Kodaira dimension. Some other constructions of rank 2 vector bundles with small
+Chern classes are discussed; it is proved that the smallest possible charge of
+an instanton on X is 4.
+</summary>
+    <author>
+      <name>A. Iliev</name>
+    </author>
+    <author>
+      <name>D. Markushevich</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages; an extended version: the case c_1=0, c_2=4 is added and a
+  non-existence result for c_2&lt;4 is proved</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9910133v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9910133v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J30; 14J60; 14J45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

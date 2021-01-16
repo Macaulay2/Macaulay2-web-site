@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.02154%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.02154&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sb64iMzDB3avJKwFKojha7DrKu8</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02154v1</id>
+    <updated>2018-07-05T19:03:54Z</updated>
+    <published>2018-07-05T19:03:54Z</published>
+    <title>Betti numbers of toric ideals of graphs: A case study</title>
+    <summary>  We compute the graded Betti numbers for the toric ideal of a family of graphs
+constructed by adjoining a cycle to a complete bipartite graph. The key
+observation is that this family admits an initial ideal which has linear
+quotients. As a corollary, we compute the Hilbert series and $h$-vector for all
+the toric ideals of graphs in this family.
+</summary>
+    <author>
+      <name>Federico Galetto</name>
+    </author>
+    <author>
+      <name>Johannes Hofscheier</name>
+    </author>
+    <author>
+      <name>Graham Keiper</name>
+    </author>
+    <author>
+      <name>Craig Kohne</name>
+    </author>
+    <author>
+      <name>Miguel Eduardo Uribe Paczka</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages; comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.02154v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.02154v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13P10, 14M25, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

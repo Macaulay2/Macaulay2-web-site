@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.02767%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.02767&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KppaFkAdjbh5sGbaifi+1p5zgxM</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02767v1</id>
+    <updated>2018-06-07T16:34:30Z</updated>
+    <published>2018-06-07T16:34:30Z</published>
+    <title>Free Extensions and Jordan type</title>
+    <summary>  Free extensions of commutative Artinian algebras (sometimes called flat
+extensions) were introduced by T. Harima and J. Watanabe. The Jordan type of a
+multiplication map $m$ by a nilpotent element of an Artinian algebra is the
+partition determining the sizes of the blocks in a Jordan matrix for $m$. We
+show that a free extension of the Artinian algebra $A$ with fibre $B$ is a
+deformation of the usual tensor product. This has consequences for the generic
+Jordan types of $A,B$ and $C$, showing that the Jordan type of $C$ is at least
+that of the usual tensor product in the dominance order. We give applications
+to algebras of relative coinvariants of linear group actions on a polynomial
+ring.
+</summary>
+    <author>
+      <name>Anthony Iarrobino</name>
+    </author>
+    <author>
+      <name>Pedro Macias Marques</name>
+    </author>
+    <author>
+      <name>Chris McDaniel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 p. Develops part 2 of arXiv:1802.07383 v.2. Part 1 of v.2 has
+  become v.3 "Artinian algebras and Jordan type."</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.02767v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.02767v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10 (Primary), 13A50, 13D40, 13H10, 14B07, 14C05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0506391%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0506391&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6FHZt6qweip22Jye2aZZPjMNcQw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0506391v2</id>
+    <updated>2006-09-27T17:41:06Z</updated>
+    <published>2005-06-20T09:51:26Z</published>
+    <title>Relative Beilinson Monad and Direct Image for Families of Coherent
+  Sheaves</title>
+    <summary>  The higher direct image complex of a coherent sheaf (or finite complex of
+coherent sheaves) under a projective morphism is a fundamental construction
+that can be defined via a Cech complex or an injective resolution, both
+inherently infinite constructions. Using exterior algebras and relative
+versions of theorems of Beilinson and Bernstein-Gel'fand-Gel'fand, we give an
+alternate description in finite terms. Using this description we can
+characterize the generic complex, over the variety of finite free complexes of
+a given shape, as the direct image of an easily-described vector bundle. We can
+also give explicit descriptions of the loci in the base spaces of flat families
+of sheaves in which some cohomological conditions are satisfied--for example,
+the loci where vector bundles on projective space split in a certain way, or
+the loci where a projective morphism has higher dimensional fibers. Our
+approach is so explicit that it yields an algorithm suited for computer algebra
+systems.
+  This new version uses relative projectives to give smaller direct image
+complexes in many cases. It also includes many small clarifications.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0506391v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0506391v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05; 14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

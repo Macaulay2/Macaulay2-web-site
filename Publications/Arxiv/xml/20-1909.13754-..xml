@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.13754%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.13754&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8D2dB/Uid9RupHqUbSYf3JWMi0A</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.13754v1</id>
+    <updated>2019-09-30T14:41:59Z</updated>
+    <published>2019-09-30T14:41:59Z</published>
+    <title>Identifiability in Phylogenetics using Algebraic Matroids</title>
+    <summary>  Identifiability is a crucial property for a statistical model since
+distributions in the model uniquely determine the parameters that produce them.
+In phylogenetics, the identifiability of the tree parameter is of particular
+interest since it means that phylogenetic models can be used to infer
+evolutionary histories from data. In this paper we introduce a new
+computational strategy for proving the identifiability of discrete parameters
+in algebraic statistical models that uses algebraic matroids naturally
+associated to the models. We then use this algorithm to prove that the tree
+parameters are generically identifiable for 2-tree CFN and K3P mixtures. We
+also show that the $k$-cycle phylogenetic network parameter is identifiable
+under the K2P and K3P models.
+</summary>
+    <author>
+      <name>Benjamin Hollering</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.13754v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.13754v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W30, 13P25, 05B35, 92B10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

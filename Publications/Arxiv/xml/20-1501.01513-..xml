@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.01513%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.01513&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pUewQrjX1b1QrEvgZaVyGpzczqY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.01513v1</id>
+    <updated>2015-01-07T15:02:35Z</updated>
+    <published>2015-01-07T15:02:35Z</published>
+    <title>Weak Lefschetz Property and Stellar Subdivisions of Gorenstein Complexes</title>
+    <summary>  Assume sigma is a face of a Gorenstein* simplicial complex D. We investigate
+the question of whether the Weak Lefschetz Property of the Stanley-Reisner ring
+k[D] (over an infinite field k) is equivalent to the same property of the
+Stanley-Reisner ring k[D_sigma] of the stellar subdivision D_sigma. We prove
+that this is the case if the dimension of sigma is big compared to the
+codimension.
+</summary>
+    <author>
+      <name>Janko Boehm</name>
+    </author>
+    <author>
+      <name>Stavros Argyrios Papadakis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.01513v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.01513v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55 (Primary), 13H10, 13D40, 05E40 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

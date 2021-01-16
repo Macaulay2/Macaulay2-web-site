@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.02265%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.02265&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Jz4xCtXRsZViCLhAaNCI338x19Y</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02265v1</id>
+    <updated>2019-12-04T21:49:59Z</updated>
+    <published>2019-12-04T21:49:59Z</published>
+    <title>Gaussian graphical models with toric vanishing ideals</title>
+    <summary>  Gaussian graphical models are semi-algebraic subsets of the cone of positive
+definite covariance matrices. They are widely used throughout natural sciences,
+computational biology and many other fields. Computing the vanishing ideal of
+the model gives us an implicit description of the model.
+  In this paper, we resolve two conjectures of Sturmfels and Uhler from
+\cite{BS n CU}. In particular, we characterize those graphs for which the
+vanishing ideal of the Gaussian graphical model is generated in degree $1$ and
+$2$. These turn out to be the Gaussian graphical models whose ideals are toric
+ideals, and the resulting graphs are the $1$-clique sums of complete graphs.
+</summary>
+    <author>
+      <name>Pratik Misra</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.02265v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.02265v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dalg-geom%2F9503018%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=alg-geom/9503018&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lIWLElcD9Yhsl2EqOe0KZua51cI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/alg-geom/9503018v1</id>
+    <updated>1995-03-27T06:45:27Z</updated>
+    <published>1995-03-27T06:45:27Z</published>
+    <title>A gem of the modular universe</title>
+    <summary>  We introduce one of the most beautiful algebraic varieties known, a quintic
+hypersurface in projective five-space, which is invariant under the action of
+the Weyl group of $E_6$. This variety is intricately related with many other
+moduli problems, some of which are: marked hyperelliptic curves of genus two,
+Picard curves of genus four with a $sqrt{-3}$-level structure, six points on
+the projective line, abelian surfaces with (1,3) polarisations, quartic
+surfaces invariant under the action of the Heisenberg group in projective
+three-space, K3-surfaces which are double covers of the projective plane
+branched along six lines, and last but not least, cubic surfaces in projective
+three-space. These relationships are developed in some detail, with particular
+care on the birational aspects.
+</summary>
+    <author>
+      <name>Bruce Hunt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX 2.09</arxiv:comment>
+    <link href="http://arxiv.org/abs/alg-geom/9503018v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/alg-geom/9503018v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="alg-geom" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="alg-geom" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.03295%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.03295&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HTKVkDd3LS+aoh0+1OZ/Abj/M58</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.03295v1</id>
+    <updated>2017-05-09T12:46:41Z</updated>
+    <published>2017-05-09T12:46:41Z</published>
+    <title>Finite orbits of the pure braid group on the monodromy of the
+  $2$-variable Garnier system</title>
+    <summary>  In this paper we show that the $SL_{2}(\mathbb C)$ character variety of the
+Riemann sphere $\Sigma_5$ with five boundary components is a $5$-parameter
+family of affine varieties of dimension $4$. We endow this family of affine
+varieties with an action of the braid group and classify exceptional finite
+orbits. This action represents the nonlinear monodromy of the $2$ variable
+Garnier system and finite orbits correspond to algebraic solutions.
+</summary>
+    <author>
+      <name>Pierpaolo Calligaris</name>
+    </author>
+    <author>
+      <name>Marta Mazzocco</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages, 1 figure and 3 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.03295v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.03295v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32G34, 34M55, 33E17, 34M56, 53D30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

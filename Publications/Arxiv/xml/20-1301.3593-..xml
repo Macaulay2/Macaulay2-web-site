@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.3593%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.3593&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Oko4X1aXFQ3I1otHEGLkuhsNGbA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3593v1</id>
+    <updated>2013-01-16T05:44:18Z</updated>
+    <published>2013-01-16T05:44:18Z</published>
+    <title>Super-stretched and graded countable Cohen-Macaulay type</title>
+    <summary>  We define what it means for a Cohen-Macaulay ring to to be super-stretched
+and show that Cohen-Macaulay rings of graded countable Cohen-Macaulay type are
+super-stretched. We use this result to show that rings of graded countable
+Cohen-Macaulay type, and positive dimension, have possible h-vectors (1),
+(1,n), or (1,n,1). Further, one dimensional standard graded Gorenstein rings of
+graded countable type are shown to be hypersurfaces; this result is not known
+in higher dimensions. In the non-Gorenstein case, rings of graded countable
+Cohen-Macaulay type of dimension larger than 2 are shown to be of minimal
+multiplicity.
+</summary>
+    <author>
+      <name>Branden Stone</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.3593v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.3593v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

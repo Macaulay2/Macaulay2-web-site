@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1207.3230%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1207.3230&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UvdnEE9bWVYp05p9d29Pqtd4LFI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1207.3230v2</id>
+    <updated>2013-03-04T20:01:48Z</updated>
+    <published>2012-07-13T13:10:13Z</published>
+    <title>On the Koszul cohomology of canonical and Prym-canonical binary curves</title>
+    <summary>  In this paper we study Koszul cohomology and the Green and Prym-Green
+conjectures for canonical and Prym-canonical binary curves. We prove that if
+property $N_p$ holds for a canonical or a Prym-canonical binary curve of genus
+$g$ then it holds for a generic canonical or Prym-canonical binary curve of
+genus $g+1$. We also verify the Green and Prym-Green conjectures for generic
+canonical and Prym-canonical binary curves of low genus ($6\leq g\leq 15$,
+$g\neq 8$ for Prym-canonical and $3\leq g\leq 12$ for canonical).
+</summary>
+    <author>
+      <name>Elisabetta Colombo</name>
+    </author>
+    <author>
+      <name>Paola Frediani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version. To appear in the Bulletin of the London Mathematical
+  Society</arxiv:comment>
+    <link href="http://arxiv.org/abs/1207.3230v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1207.3230v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10, 14H40, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

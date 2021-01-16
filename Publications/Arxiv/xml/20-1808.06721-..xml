@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1808.06721%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1808.06721&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9wIvKzbQw9iol2/hqT4No31xW7c</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1808.06721v2</id>
+    <updated>2018-08-27T20:19:38Z</updated>
+    <published>2018-08-20T23:51:27Z</published>
+    <title>State Polytopes Related to Two Classes of Combinatorial Neural Codes</title>
+    <summary>  Combinatorial neural codes are $0/1$ vectors that are used to model the
+co-firing patterns of a set of place cells in the brain. One wide-open problem
+in this area is to determine when a given code can be algorithmically drawn in
+the plane as a Venn diagram-like figure. A sufficient condition to do so is for
+the code to have a property called $k$-inductively pierced. Gross, Obatake, and
+Youngs recently used toric algebra to show that a code on three neurons is
+$1$-inductively pierced if and only if the toric ideal is trivial or generated
+by quadratics. No result is known for additional neurons in the same
+generality, part of the difficulty coming from the large number of codewords
+possible when additional neurons are used.
+  In this article, we study two infinite classes of combinatorial neural codes
+in detail. For each code, we explicitly compute its universal Gr\"obner basis.
+This is done for the first class by recognizing that the codewords form a
+Lawrence-type matrix. With the second class, this is done by showing that the
+matrix is totally unimodular. These computations allow one to compute the state
+polytopes of the corresponding toric ideals, from which all distinct initial
+ideals may be computed efficiently. Moreover, we show that the state polytopes
+are combinatorially equivalent to well-known polytopes: the permutohedron and
+the stellohedron.
+</summary>
+    <author>
+      <name>Robert Davis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages. Minor typos corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/1808.06721v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1808.06721v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

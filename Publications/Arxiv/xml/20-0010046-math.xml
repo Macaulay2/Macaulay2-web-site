@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0010046%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0010046&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2bnaVYRSdT0So2eXv0Gy8C6dONU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010046v1</id>
+    <updated>2000-10-04T19:05:17Z</updated>
+    <published>2000-10-04T19:05:17Z</published>
+    <title>Hall invariants, homology of subgroups, and characteristic varieties</title>
+    <summary>  Given a finitely-generated group G, and a finite group \Gamma, Philip Hall
+defined \delta_\Gamma to be the number of factor groups of G that are
+isomorphic to \Gamma. We show how to compute the Hall invariants by
+cohomological and combinatorial methods, when G is finitely-presented, and
+\Gamma belongs to a certain class of metabelian groups. Key to this approach is
+the stratification of the character variety by the jumping loci of the
+cohomology of G, with coefficients in rank 1 local systems over a suitably
+chosen field \K. Counting relevant torsion points on these "characteristic"
+subvarieties gives \delta_\Gamma(G). In the process, we compute the
+distribution of prime-index, normal subgroups K of G according to the dimension
+of the the first homology group of K with \K coefficients, provided \char\K
+does not divide the index of K in G. In turn, we use this distribution to count
+low-index subgroups of G. We illustrate these techniques in the case when G is
+the fundamental group of the complement of an arrangement of either affine
+lines in C^2, or transverse planes in \R^4.
+</summary>
+    <author>
+      <name>Daniel Matei</name>
+    </author>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1155/S107379280210907X</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages, 3 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">International Math. Research Notices 2002:9 (2002), 465-503</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0010046v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0010046v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1155/S107379280210907X" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20J05, 57M05 (primary), 20E07, 52C35 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

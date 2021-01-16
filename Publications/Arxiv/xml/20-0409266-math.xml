@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0409266%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0409266&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/F4/YaPnhuccBETOh4OO//dxE0kc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0409266v1</id>
+    <updated>2004-09-16T00:58:52Z</updated>
+    <published>2004-09-16T00:58:52Z</published>
+    <title>Frobenius-unstable bundles and p-curvature</title>
+    <summary>  We use the theory of p-curvature of connections to analyze stable vector
+bundles of rank 2 on curves of genus 2 which pull back to unstable bundles
+under the Frobenius morphism. We take two approaches, first using explicit
+formulas for p-curvature to analyze low-characteristic cases, and then using
+degeneration techniques to obtain an answer for a general curve by degenerating
+to an irreducible rational nodal curve, and applying the results of
+math.AG/0409145 and math.AG/0407445. We also apply our explicit formulas to
+give a new description of the strata of curves of genus 2 of different p-rank.
+</summary>
+    <author>
+      <name>Brian Osserman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages. Contents of Chapters III and VI of PhD thesis,
+  Massachusetts Institute of Technology, 2004</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0409266v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0409266v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

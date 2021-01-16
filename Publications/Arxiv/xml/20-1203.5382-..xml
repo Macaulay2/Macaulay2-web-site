@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1203.5382%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1203.5382&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xx84BTUzXM38z2o1Km+ObXFsV+c</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1203.5382v1</id>
+    <updated>2012-03-24T03:19:45Z</updated>
+    <published>2012-03-24T03:19:45Z</published>
+    <title>Calculating Generators of Multigraded Algebras</title>
+    <summary>  We present an algorithm to find generators of the multigraded algebra A
+associated to an arbitrary p-divisor D on some variety Y. A modified algorithm
+is also presented for the case where Y admits a torus action. We demonstrate
+our algorithm by computing generators for the Cox ring of the smooth del Pezzo
+surface of degree 5.
+</summary>
+    <author>
+      <name>Nathan Owen Ilten</name>
+    </author>
+    <author>
+      <name>Lars Kastner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1203.5382v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1203.5382v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

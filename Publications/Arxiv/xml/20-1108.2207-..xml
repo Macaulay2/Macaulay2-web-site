@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.2207%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.2207&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ySR+OJjkkWb1oFcFBT21cFpa7Pk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.2207v1</id>
+    <updated>2011-08-10T15:47:41Z</updated>
+    <published>2011-08-10T15:47:41Z</published>
+    <title>On Embedding Singular Poisson Spaces</title>
+    <summary>  This dissertation investigates the problem of locally embedding singular
+Poisson spaces. Specifically, it seeks to understand when a singular symplectic
+quotient V/G of a symplectic vector space V by a group G \subseteq Sp_2n(R) is
+realizable as a Poisson subspace of some Poisson manifold (R^n,{.,.}).
+  The local embedding problem is recast in the language of schemes and
+reinterpreted as a problem of extending the Poisson bracket to infinitesimal
+neighborhoods of an embedded singular space. Such extensions of a Poisson
+bracket near a singular point p of V/G are then related to the cohomology and
+representation theory of the cotangent Lie algebra at p.
+  Using this framework, it is shown that the real 4-dimensional quotient
+V/\ZZ_n (n odd) is not realizable as a Poisson subspace of any
+(R^{2n+6},{.,.}), even though the underlying variety algebraically embeds into
+R^{2n+6}. The proof of this nonembedding result hinges on a refinement of the
+Levi decomposition for Poisson manifolds to partially linearize any extension
+with respect to the Levi decomposition of the cotangent Lie algebra of V/G at
+the origin. Moreover, in the case n=3, this nonembedding result is complemented
+by a concrete realization of V/\ZZ_3 as a Poisson subspace of R^78.
+</summary>
+    <author>
+      <name>Aaron Fraenkel McMillan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1108.2207v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.2207v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

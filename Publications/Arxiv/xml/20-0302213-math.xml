@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0302213%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0302213&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RLMhRQ6tV1aPk4Q+SYFDMCVwGMk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0302213v2</id>
+    <updated>2003-09-02T15:35:40Z</updated>
+    <published>2003-02-18T20:43:10Z</published>
+    <title>Factorizations of some weighted spanning tree enumerators</title>
+    <summary>  We give factorizations for weighted spanning tree enumerators of Cartesian
+products of complete graphs, keeping track of fine weights related to degree
+sequences and edge directions. Our methods combine Kirchhoff's Matrix-Tree
+Theorem with the technique of identification of factors.
+</summary>
+    <author>
+      <name>Jeremy L. Martin</name>
+    </author>
+    <author>
+      <name>Victor Reiner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version, 12 pages. To appear in the Journal of Combinatorial
+  Theory, Series A. The paper has been reorganized, and the proof of Theorem 4
+  shortened, in light of a more general result appearing in reference [6]</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Combin. Theory Ser. A 104, no. 2 (2003), pp. 287--300.</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0302213v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0302213v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C05 (Primary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

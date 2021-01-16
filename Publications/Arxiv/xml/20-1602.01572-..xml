@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.01572%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.01572&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ACA2onaev2nu/ktpG6gYnLnRfYE</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.01572v3</id>
+    <updated>2016-05-18T02:49:03Z</updated>
+    <published>2016-02-04T06:50:46Z</published>
+    <title>On smoothness of minimal models of quotient singularities by finite
+  subgroups of $SL_n(\mathbb{C})$</title>
+    <summary>  We prove that a quotient singularity $\mathbb{C}^n/G $ by a finite subgroup
+$G\subset SL_n(\mathbb{C})$ has a crepant resolution only if $G $ is generated
+by junior elements. This is a generalization of the result of Verbitsky [V]. We
+also give a procedure to compute the Cox ring of a minimal model of a given
+$\mathbb{C}^n/G$ explicitly from information of $G$. As an application, we
+investigate the smoothness of minimal models of some quotient singularities.
+Together with work of Bellamy and Schedler, this completes the classification
+of symplectically imprimitive quotient singularities which admit projective
+symplectic resolutions.
+</summary>
+    <author>
+      <name>Ryo Yamagishi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">version 3. the proof of Thm. 6.1 corrected, minor changes, 32 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.01572v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.01572v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

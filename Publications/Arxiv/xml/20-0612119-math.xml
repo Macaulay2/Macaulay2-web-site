@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0612119%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0612119&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gj4cSpScgiaxzw3pkepym/iYp/A</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0612119v2</id>
+    <updated>2006-12-20T17:05:35Z</updated>
+    <published>2006-12-05T18:06:52Z</published>
+    <title>Low-dimensional Singularities with Free Divisors as Discriminants</title>
+    <summary>  We present versal complex analytic families, over a smooth base and of fibre
+dimension zero, one, or two, where the discriminant constitutes a free divisor.
+These families include finite flat maps, versal deformations of reduced curve
+singularities, and versal deformations of Gorenstein surface singularities in
+C^5. It is shown that such free divisors often admit a "fast normalization",
+obtained by a single application of the Grauert-Remmert normalization
+algorithm. For a particular Gorenstein surface singularity in C^5, namely the
+simple elliptic singularity of type \tilde A_4, we exhibit an explicit
+discriminant matrix and show that the slice of the discriminant for a fixed
+j-invariant is the cone over the dual variety of an elliptic curve.
+</summary>
+    <author>
+      <name>Ragnar-Olaf Buchweitz</name>
+    </author>
+    <author>
+      <name>Wolfgang Ebeling</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf v. Bothmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, misprints and references corrected</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Algebraic Geom. 18 (2009), 371-406</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0612119v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0612119v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32S30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

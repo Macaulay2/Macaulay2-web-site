@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.07888%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.07888&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HjnmJsifv9bfVxxq9Hmy3Prqj+0</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.07888v1</id>
+    <updated>2020-03-17T18:53:38Z</updated>
+    <published>2020-03-17T18:53:38Z</published>
+    <title>On the unirationality of moduli spaces of pointed curves</title>
+    <summary>  We show that $\mathcal{M}_{g,n}$, the moduli space of smooth curves of genus
+$g$ together with $n$ marked points, is unirational for $g=12$ and $n\leq 4$
+and for $g=13$ and $n \leq 3$, by constructing suitable dominant families of
+projective curves in $\mathbb{P}^1 \times \mathbb{P}^2$ and $\mathbb{P}^3$
+respectively. We also exhibit several new unirationality results for moduli
+spaces of smooth curves of genus $g$ together with $n$ unordered points, thus
+showing that they are unirational for $g=10,11$ and $n\leq 7$ or $g=12$ and $n
+\leq 6$.
+</summary>
+    <author>
+      <name>Hanieh Keneshlou</name>
+    </author>
+    <author>
+      <name>Fabio Tanturri</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.07888v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.07888v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

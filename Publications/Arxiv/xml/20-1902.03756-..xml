@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1902.03756%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1902.03756&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FU5PW7URUVsDQ6p3IIkDnaOl690</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1902.03756v1</id>
+    <updated>2019-02-11T07:41:48Z</updated>
+    <published>2019-02-11T07:41:48Z</published>
+    <title>Flow-Up Bases for Generalized Spline Modules on Arbitrary Graphs</title>
+    <summary>  Let R be a commutative ring with identity. An edge labeled graph is a graph
+with edges labeled by the ideals of R. A generalized spline over an edge
+labeled graph is a vertex labeling by the elements of R, such that the labels
+of adjacent vertices agree modulo the label associated to the edge connecting
+them. The set of generalized splines has a ring and R-module structure. We show
+the existence of flow-up bases for generalized spline modules on any edge
+labeled graph over principal ideal domains by using a new method based on
+trials of a graph. We also give an algorithm to determine flow-up bases on
+arbitrary ordered cycles over any principal ideal domain.
+</summary>
+    <author>
+      <name>Selma Altinok</name>
+    </author>
+    <author>
+      <name>Samet Sarioglan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1902.03756v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1902.03756v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C78, 11A07, 05C40, 13D40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

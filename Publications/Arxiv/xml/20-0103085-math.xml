@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0103085%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0103085&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bz9Pncnj9duY+mseGBK4y/WHZ2A</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0103085v1</id>
+    <updated>2001-03-14T08:58:40Z</updated>
+    <published>2001-03-14T08:58:40Z</published>
+    <title>Free divisors and duality for D-modules</title>
+    <summary>  The relationship between ${\cal D}$-modules and free divisors has been
+studied in a general setting by L. Narv\'aez and F.J. Calder\'on. Using the
+ideas of these works we prove in this article a duality formula between two
+${\cal D}$-modules associated to a class of free divisors on ${\bf C}^n$ and we
+give some applications
+</summary>
+    <author>
+      <name>F. J. Castro-Jimenez</name>
+    </author>
+    <author>
+      <name>J. M. Ucha</name>
+    </author>
+    <link href="http://arxiv.org/abs/math/0103085v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0103085v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32C38; 13N10; 14F40; 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

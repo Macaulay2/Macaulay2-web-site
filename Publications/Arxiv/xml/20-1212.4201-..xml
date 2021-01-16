@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1212.4201%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1212.4201&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cFWgKL1OiBB0DPcyN4GEtX4/21c</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1212.4201v1</id>
+    <updated>2012-12-18T00:23:54Z</updated>
+    <published>2012-12-18T00:23:54Z</published>
+    <title>The neural ring: an algebraic tool for analyzing the intrinsic structure
+  of neural codes</title>
+    <summary>  Neurons in the brain represent external stimuli via neural codes. These codes
+often arise from stereotyped stimulus-response maps, associating to each neuron
+a convex receptive field. An important problem confronted by the brain is to
+infer properties of a represented stimulus space without knowledge of the
+receptive fields, using only the instrinsic structure of the neural code. How
+does the brain do this? To address this question, it is important to determine
+what stimulus space features can - in principle - be extracted from neural
+codes. This motivates us to define the neural ring and a related neural ideal,
+algebraic objects that encode the full combinatorial data of a neural code. Our
+main finding is that these objects can be expressed in a "canonical form" that
+directly translates to a minimal description of the receptive field structure
+intrinsic to the neural code. We also find connections to Stanley-Reisner
+rings, and use ideas similar to those in the theory of monomial ideals to
+obtain an algorithm for computing the primary decomposition of pseudo-monomial
+ideals. This allows us to algorithmically extract the canonical form associated
+to any neural code, providing the groundwork for inferring stimulus space
+features from neural activity alone.
+</summary>
+    <author>
+      <name>Carina Curto</name>
+    </author>
+    <author>
+      <name>Vladimir Itskov</name>
+    </author>
+    <author>
+      <name>Alan Veliz-Cuba</name>
+    </author>
+    <author>
+      <name>Nora Youngs</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 7 figures, and 1 table</arxiv:comment>
+    <link href="http://arxiv.org/abs/1212.4201v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.4201v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

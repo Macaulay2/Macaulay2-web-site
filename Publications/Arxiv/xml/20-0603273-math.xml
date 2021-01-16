@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0603273%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0603273&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9iYGTaFbrqsaf5MyL8cNRcbPm5s</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0603273v2</id>
+    <updated>2006-06-29T14:32:21Z</updated>
+    <published>2006-03-12T03:13:44Z</published>
+    <title>Governing Singularities of Schubert Varieties</title>
+    <summary>  We present a combinatorial and computational commutative algebra methodology
+for studying singularities of Schubert varieties of flag manifolds.
+  We define the combinatorial notion of *interval pattern avoidance*. For
+"reasonable" invariants P of singularities, we geometrically prove that this
+governs (1) the P-locus of a Schubert variety, and (2) which Schubert varieties
+are globally not P. The prototypical case is P="singular"; classical pattern
+avoidance applies admirably for this choice [Lakshmibai-Sandhya'90], but is
+insufficient in general.
+  Our approach is analyzed for some common invariants, including
+Kazhdan-Lusztig polynomials, multiplicity, factoriality, and Gorensteinness,
+extending [Woo-Yong'05]; the description of the singular locus (which was
+independently proved by [Billey-Warrington '03], [Cortez '03],
+[Kassel-Lascoux-Reutenauer'03], [Manivel'01]) is also thus reinterpreted.
+  Our methods are amenable to computer experimentation, based on computing with
+*Kazhdan-Lusztig ideals* (a class of generalized determinantal ideals) using
+Macaulay 2. This feature is supplemented by a collection of open problems and
+conjectures.
+</summary>
+    <author>
+      <name>Alexander Woo</name>
+    </author>
+    <author>
+      <name>Alexander Yong</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jalgebra.2007.12.016</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages. Software available at the authors' webpages. Version 2 is
+  the submitted version. It has a nomenclature change: "Bruhat-restricted
+  pattern avoidance" is renamed "interval pattern avoidance"; the introduction
+  has been reorganized</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Algebra, Vol. 320 (2008), No. 2, p. 495--520</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0603273v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0603273v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jalgebra.2007.12.016" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15, 14M05, 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1309.6655%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1309.6655&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/imyrpEXV3+csDTvXySdFKRH9D1E</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1309.6655v1</id>
+    <updated>2013-09-23T16:26:40Z</updated>
+    <published>2013-09-23T16:26:40Z</published>
+    <title>Introduction to the Symbolic Integration System</title>
+    <summary>  Symbolic integration is an important module of a typical Computer Algebra
+System. As for now, Mathematica, Matlab, Maple and Sage are all mainstream CAS.
+They share the same framework for symbolic integration at some points. In this
+book first we review the state of the art in the field of CAS. Then we focus on
+typical frameworks of the current symbolic integration systems and summarize
+the main mathematical theories behind these frameworks. Based on the
+open-source computer algebra system maTHmU developed by our team in our
+university, we propose a potential framework to improve the performance of the
+current symbolic integration system.
+</summary>
+    <author>
+      <name>Weiguang Mao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">273 pages in Chinese</arxiv:comment>
+    <link href="http://arxiv.org/abs/1309.6655v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1309.6655v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

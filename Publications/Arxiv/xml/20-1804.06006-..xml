@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.06006%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.06006&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MeMzGB1RI+ML+bTdeAei21YMgdM</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.06006v1</id>
+    <updated>2018-04-17T01:26:10Z</updated>
+    <published>2018-04-17T01:26:10Z</published>
+    <title>Chen ranks and resonance varieties of the upper McCool groups</title>
+    <summary>  The group of basis-conjugating automorphisms of the free group of rank $n$,
+also known as the McCool group or the welded braid group $P\Sigma_n$, contains
+a much-studied subgroup, called the upper McCool group $P\Sigma_n^+$. Starting
+from the cohomology ring of $P\Sigma_n^+$, we find, by means of a Gr\"obner
+basis computation, a simple presentation for the infinitesimal Alexander
+invariant of this group, from which we determine the resonance varieties and
+the Chen ranks of the upper McCool groups. These computations reveal that,
+unlike for the pure braid group $P_n$ and the full McCool group $P\Sigma_n$,
+the Chen ranks conjecture does not hold for $P\Sigma_n^+$, for any $n\ge 4$.
+Consequently, $P\Sigma_n^+$ is not isomorphic to $P_n$ in that range, thus
+answering a question of Cohen, Pakianathan, Vershinin, and Wu. We also
+determine the scheme structure of the resonance varieties
+$\mathcal{R}_1(P\Sigma_n^+)$, and show that these schemes are not reduced for
+$n\geq 4$.
+</summary>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <author>
+      <name>He Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.06006v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.06006v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20E36 (Primary), 13P10, 14M12, 17B70, 20F14, 20J05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

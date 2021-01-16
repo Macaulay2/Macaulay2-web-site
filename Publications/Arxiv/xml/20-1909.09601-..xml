@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.09601%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.09601&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bxcDv7WmsUd2YBX7t5VvT0azJ80</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.09601v1</id>
+    <updated>2019-09-20T16:26:49Z</updated>
+    <published>2019-09-20T16:26:49Z</published>
+    <title>On Huisman's conjectures about unramified real curves</title>
+    <summary>  Let $X \subset \mathbb{P}^{n}$ be an unramified real curve with
+$X(\mathbb{R}) \neq \emptyset$. If $n \geq 3$ is odd, Huisman conjectures that
+$X$ is an $M$-curve and that every branch of $X(\mathbb{R})$ is a pseudo-line.
+If $n \geq 4$ is even, he conjectures that $X$ is a rational normal curve or a
+twisted form of a such. We disprove the first conjecture by giving a family of
+counterexamples. We remark that the second conjecture follows for all curves of
+odd degree from the formula enumerating the number of complex inflection
+points.
+</summary>
+    <author>
+      <name>Mario Kummer</name>
+    </author>
+    <author>
+      <name>Dimitri Manevich</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.09601v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.09601v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.0016%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.0016&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/B4daYoTnD1sCnUeeEo4fWeGwvT0</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.0016v2</id>
+    <updated>2014-02-20T18:46:17Z</updated>
+    <published>2014-01-31T21:45:24Z</published>
+    <title>Mirror Symmetry in Three Dimensions via Gauged Linear Quivers</title>
+    <summary>  Starting from mirror pairs consisting only of linear (framed A-type) quivers,
+we demonstrate that a wide class of three-dimensional quiver gauge theories
+with N=4 supersymmetry and their mirror duals can be obtained by suitably
+gauging flavor symmetries. Infinite families of mirror pairs including various
+quivers of D and E-type and their affine extensions, star-shaped quivers, and
+quivers with symplectic gauge groups may be generated in this fashion. We
+present two different computational strategies to perform the aforementioned
+gauging procedure - one of them involves N=2* classical parameter space
+description, while the other one uses partition functions of the N=4 theories
+on S^3. The partition function, in particular, turns out to be an extremely
+efficient tool for implementing this gauging procedure as it readily
+generalizes to arbitrary size of the quiver and arbitrary rank of the gauge
+group at each node. For most examples of mirror pairs obtained via this
+procedure, we perform additional checks of mirror symmetry using the Hilbert
+series.
+</summary>
+    <author>
+      <name>Anindya Dey</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Peter Koroteev</name>
+    </author>
+    <author>
+      <name>Noppadol Mekareeya</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP06(2014)059</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP06(2014)059" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">73 pages, many figures, typos corrected</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP06 (2014) 059</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1402.0016v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.0016v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

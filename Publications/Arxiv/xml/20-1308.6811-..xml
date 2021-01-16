@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1308.6811%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1308.6811&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OfoEjoFqsCeduHQEOMvcBHHEsCU</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1308.6811v1</id>
+    <updated>2013-08-30T17:56:58Z</updated>
+    <published>2013-08-30T17:56:58Z</published>
+    <title>Subadditivity of syzygies of Koszul algebras</title>
+    <summary>  Estimates are obtained for the degrees of minimal syzygies of quotient
+algebras of polynomial rings. For a class that includes Koszul algebra in
+almost all characteristics, these degrees are shown to increase by at most 2
+from one syzygy module to the next one. Even slower growth is proved if, in
+addition, the algebra satisfies Green and Lazarsfeld's condition N_q with q &gt;
+1.
+</summary>
+    <author>
+      <name>Luchezar L. Avramov</name>
+    </author>
+    <author>
+      <name>Aldo Conca</name>
+    </author>
+    <author>
+      <name>Srikanth B. Iyengar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1308.6811v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1308.6811v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 16S37" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

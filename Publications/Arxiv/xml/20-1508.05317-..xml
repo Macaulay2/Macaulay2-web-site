@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.05317%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.05317&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Rfaq3HiXOSG0fO9kKDGoV3NiIyM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.05317v1</id>
+    <updated>2015-08-21T15:46:34Z</updated>
+    <published>2015-08-21T15:46:34Z</published>
+    <title>Identification of control targets of Boolean molecular network models
+  via computational algebra</title>
+    <summary>  Motivation: Many problems in biomedicine and other areas of the life sciences
+can be characterized as control problems, with the goal of finding strategies
+to change a disease or otherwise undesirable state of a biological system into
+another, more desirable, state through an intervention, such as a drug or other
+therapeutic treatment. The identification of such strategies is typically based
+on a mathematical model of the process to be altered through targeted control
+inputs. This paper focuses on processes at the molecular level that determine
+the state of an individual cell, involving signaling or gene regulation. The
+mathematical model type considered is that of Boolean networks. The potential
+control targets can be represented by a set of nodes and edges that can be
+manipulated to produce a desired effect on the system. Experimentally, node
+manipulation requires technology to completely repress or fully activate a
+particular gene product while edge manipulations only require a drug that
+inactivates the interaction between two gene products. Results: This paper
+presents a method for the identification of potential intervention targets in
+Boolean molecular network models using algebraic techniques. The approach
+exploits an algebraic representation of Boolean networks to encode the control
+candidates in the network wiring diagram as the solutions of a system of
+polynomials equations, and then uses computational algebra techniques to find
+such controllers. The control methods in this paper are validated through the
+identification of combinatorial interventions in the signaling pathways of
+previously reported control targets in two well studied systems, a p53-mdm2
+network and a blood T cell lymphocyte granular leukemia survival signaling
+network.
+</summary>
+    <author>
+      <name>David Murrugarra</name>
+    </author>
+    <author>
+      <name>Alan Veliz-Cuba</name>
+    </author>
+    <author>
+      <name>Boris Aguilar</name>
+    </author>
+    <author>
+      <name>Reinhard Laubenbacher</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.05317v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.05317v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

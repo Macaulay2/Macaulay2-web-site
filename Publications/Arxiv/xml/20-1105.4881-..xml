@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1105.4881%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1105.4881&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tDruDKKTUpbKAVsc7HJGPFT4THI</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1105.4881v2</id>
+    <updated>2012-10-10T18:53:24Z</updated>
+    <published>2011-05-24T20:15:08Z</published>
+    <title>PHCpack in Macaulay2</title>
+    <summary>  The Macaulay2 package PHCpack.m2 provides an interface to PHCpack, a
+general-purpose polynomial system solver that uses homotopy continuation. The
+main method is a numerical blackbox solver which is implemented for all Laurent
+systems. The package also provides a fast mixed volume computation, the ability
+to filter solutions, homotopy path tracking, and a numerical irreducible
+decomposition method. As the size of many problems in applied algebraic
+geometry often surpasses the capabilities of symbolic software, this package
+will be of interest to those working on problems involving large polynomial
+systems.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, exposition and examples improved</arxiv:comment>
+    <link href="http://arxiv.org/abs/1105.4881v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1105.4881v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H10 (Primary) 14Q99 (Secondary) 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

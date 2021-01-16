@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.08042%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.08042&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dicpMbUFFt1iBgyF2217PnmJiS4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.08042v1</id>
+    <updated>2017-12-21T16:09:01Z</updated>
+    <published>2017-12-21T16:09:01Z</published>
+    <title>Efficient multicut enumeration of k-out-of-n:F and consecutive
+  k-out-of-n:F systems</title>
+    <summary>  We study multiple simultaneous cut events for k-out-of-n:F and linear
+consecutive k-out-of-n:F systems in which each component has a constant failure
+probability. We list the multicuts of these systems and describe the structural
+differences between them. Our approach, based on combinatorial commutative
+algebra, allows complete enumeration of the sets of multicuts for both kinds of
+systems. We also analyze the computational issues of multicut enumeration and
+reliability computations.
+</summary>
+    <author>
+      <name>Fatemeh Mohammadi</name>
+    </author>
+    <author>
+      <name>Eduardo Saenz-de-Cabezon</name>
+    </author>
+    <author>
+      <name>Henry P. Wynn</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in Pattern Recognition Letters</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.08042v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.08042v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

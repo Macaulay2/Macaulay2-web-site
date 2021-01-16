@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0208069%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0208069&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tsRd6Xhim0l5Ozff7SAiORpvfG0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0208069v4</id>
+    <updated>2005-01-19T05:37:31Z</updated>
+    <published>2002-08-08T22:05:40Z</published>
+    <title>Computing Instanton Numbers of Curve Singularities</title>
+    <summary>  We present an algorithm for computing instanton numbers of curve
+singularities. A comparison is made between these and some other invariants of
+curve singularities. The algorithm has been implemented in the symbolic
+computer algebra program Macaulay2, and can be downloaded from
+http://www.math.nmsu.edu/\~{}iswanson/instanton.m2.}
+</summary>
+    <author>
+      <name>Elizabeth Gasparim</name>
+    </author>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Revised version, several new examples have been added. To appear in
+  J. Symbolic Computation</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0208069v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0208069v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D99;13P99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

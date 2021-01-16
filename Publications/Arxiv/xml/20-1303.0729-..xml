@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.0729%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.0729&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wmdH7RCLFu66Zw2dSWrorSQXd70</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.0729v1</id>
+    <updated>2013-03-04T15:25:37Z</updated>
+    <published>2013-03-04T15:25:37Z</published>
+    <title>Groebner bases over fields with valuations</title>
+    <summary>  Let K be a field with a valuation and let S be the polynomial ring S:=
+K[x_1,..., x_n]. We discuss the extension of Groebner theory to ideals in S,
+taking the valuations of coefficients into account, and describe the Buchberger
+algorithm in this context. In addition we discuss some implementation and
+complexity issues. The main motivation comes from tropical geometry, as
+tropical varieties can be defined using these Groebner bases, but we also give
+examples showing that the resulting Groebner bases can be substantially smaller
+than traditional Groebner bases. In the case K = Q with the p-adic valuation
+the algorithms have been implemented in a Macaulay 2 package.
+</summary>
+    <author>
+      <name>Andrew J. Chan</name>
+    </author>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1303.0729v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.0729v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 14T05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

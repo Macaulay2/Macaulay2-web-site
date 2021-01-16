@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.1997%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.1997&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/afKHdiqM0bHEmXEJPKJwUC9PD4o</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.1997v1</id>
+    <updated>2014-03-08T18:45:29Z</updated>
+    <published>2014-03-08T18:45:29Z</published>
+    <title>Integral invariants in flat superspace</title>
+    <summary>  We are solving for the case of flat superspace some homological problems that
+were formulated by Berkovits and Howe. (Our considerations can be applied also
+to the case of supertorus.) These problems arise in the attempt to construct
+integrals invariant with respect to supersymmetry. They appear also in other
+situations, in particular, in the pure spinor formalism in supergravity.
+</summary>
+    <author>
+      <name>Michael Movshev</name>
+    </author>
+    <author>
+      <name>Albert Schwarz</name>
+    </author>
+    <author>
+      <name>Renjun Xu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.1997v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.1997v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

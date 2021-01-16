@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.4164%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.4164&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ij0cMuEYrgN3RB8SQFJ/9KkOmwM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.4164v2</id>
+    <updated>2015-06-25T16:49:27Z</updated>
+    <published>2014-10-15T18:54:26Z</published>
+    <title>Multigraded Hilbert function and toric complete intersection codes</title>
+    <summary>  Let $X$ be a complete $n$-dimensional simplicial toric variety with
+homogeneous coordinate ring $S$. We study the multigraded Hilbert function
+$H_Y$ of reduced $0$-dimensional subschemes $Y$ in $X$. We provide explicit
+formulas and prove non-decreasing and stabilization properties of $H_Y$ when
+$Y$ is a $0$-dimensional complete intersection in $X$. We apply our results to
+computing the dimension of some evaluation codes on $0$-dimensional complete
+intersection in simplicial toric varieties.
+</summary>
+    <author>
+      <name>Mesut Şahin</name>
+    </author>
+    <author>
+      <name>Ivan Soprunov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, comments welcome, presented at ICM 2014, Seoul, KOREA</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.4164v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.4164v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

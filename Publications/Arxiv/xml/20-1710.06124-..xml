@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.06124%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.06124&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tnQzeqUNFi9mvn3Xx/gffQFyfxw</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.06124v3</id>
+    <updated>2018-03-20T18:05:59Z</updated>
+    <published>2017-10-17T06:58:18Z</published>
+    <title>Elementary components of Hilbert schemes</title>
+    <summary>  We generalize the Bialynicki-Birula decomposition to singular schemes and
+apply it to the Hilbert scheme of points on an affine space. We find an
+infinite family of small, elementary and generically smooth components of the
+Hilbert scheme of points of the affine four-space. Our method gives easily
+verifiable sufficient conditions for proving that a point of the Hilbert scheme
+is smooth and lies on an elementary component. We also present a necessary
+condition for smoothability of a finite subscheme given by a homogeneous ideal.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v3 24 pages, added a conjecture implying the non-reducedness of the
+  Hilbert scheme</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.06124v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.06124v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14L30, 13D10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

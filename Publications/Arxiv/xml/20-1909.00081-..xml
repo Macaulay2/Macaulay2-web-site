@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.00081%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.00081&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yCRBW2vhrC4p6hAZw4/OATjzWUY</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.00081v1</id>
+    <updated>2019-08-30T22:14:47Z</updated>
+    <published>2019-08-30T22:14:47Z</published>
+    <title>An SOS counterexample to an inequality of symmetric functions</title>
+    <summary>  It is known that differences of symmetric functions corresponding to various
+bases are nonnegative on the nonnegative orthant exactly when the partitions
+defining them are comparable in dominance order. The only exception is the case
+of homogeneous symmetric functions where it is only known that dominance of the
+partitions implies nonnegativity of the corresponding difference of symmetric
+functions. It was conjectured by Cuttler, Greene, and Skandera in 2011 that the
+converse also holds, as in the cases of the monomial, elementary, power-sum,
+and Schur bases. In this paper we provide a counterexample, showing that
+homogeneous symmetric functions break the pattern. We use a semidefinite
+program to find a positive semidefinite matrix whose factorization provides an
+explicit sums of squares decomposition of the polynomial $H_{44} - H_{521}$ as
+a sum of 41 squares. This rational certificate of nonnegativity disproves the
+conjecture, since a polynomial which is a sum of squares of other polynomials
+cannot be negative, and since the partitions 44 and 521 are incomparable in
+dominance order.
+</summary>
+    <author>
+      <name>Alexander Heaton</name>
+    </author>
+    <author>
+      <name>Isabelle Shankar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.00081v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.00081v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E05 (Primary) 14P99, 90C22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

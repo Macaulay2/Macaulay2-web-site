@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1811.08395%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1811.08395&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/R3HYnawRtsRbkqG5tqRvwUhjhxU</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1811.08395v1</id>
+    <updated>2018-11-20T18:07:13Z</updated>
+    <published>2018-11-20T18:07:13Z</published>
+    <title>Voronoi Cells of Varieties</title>
+    <summary>  Every real algebraic variety determines a Voronoi decomposition of its
+ambient Euclidean space. Each Voronoi cell is a convex semialgebraic set in the
+normal space of the variety at a point. We compute the algebraic boundaries of
+these Voronoi cells.
+</summary>
+    <author>
+      <name>Diego Cifuentes</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Madeleine Weinstein</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1811.08395v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1811.08395v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

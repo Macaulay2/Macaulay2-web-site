@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.02253%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.02253&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UTfnzESM65/AazsJMmsOERNydqU</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.02253v1</id>
+    <updated>2016-06-07T18:36:49Z</updated>
+    <published>2016-06-07T18:36:49Z</published>
+    <title>How to flatten a soccer ball</title>
+    <summary>  This is an experimental case study in real algebraic geometry, aimed at
+computing the image of a semialgebraic subset of 3-space under a polynomial map
+into the plane. For general instances, the boundary of the image is given by
+two highly singular curves. We determine these curves and show how they
+demarcate the "flattened soccer ball". We explore cylindrical algebraic
+decompositions, by working through concrete examples. Maps onto convex polygons
+and connections to convex optimization are also discussed.
+</summary>
+    <author>
+      <name>Kaie Kubjas</name>
+    </author>
+    <author>
+      <name>Pablo A. Parrilo</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.02253v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.02253v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

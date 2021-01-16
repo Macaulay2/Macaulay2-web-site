@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0508334%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0508334&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KUgMeml823k3Jg4W4q7OoLMnLfI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508334v1</id>
+    <updated>2005-08-17T20:00:54Z</updated>
+    <published>2005-08-17T20:00:54Z</published>
+    <title>The residuals of lex plus powers ideals and the Eisenbud-Green-Harris
+  conjecture</title>
+    <summary>  The $n$-type vectors introduced by Geramita, Harima and Shin are in 1-1
+correspondence with the Hilbert functions Artinian of lex ideals. Letting
+$\mathbb{A} =\{a_1,..., a_n\}$ define the degrees of a regular sequence, we
+construct ${\rm lpp}_{\le\mathbb{A}}$-vectors which are in 1-1 correspondence
+with the Hilbert functions of certain lex plus powers ideals (depending on
+$\mathbb{A}$). This construction enables us to show that the residual of a lex
+plus powers ideal in an appropriate regular sequence is again a lex plus powers
+ideal. We then use this result to show that the Eisenbud-Green-Harris
+conjecture is equivalent to showing that lex plus powers ideals have the
+largest last graded Betti numbers (it is well-known that the
+Eisenbud-Green-Harris conjecture is equivalent to showing that lex plus powers
+ideals have the largest first graded Betti numbers).
+</summary>
+    <author>
+      <name>Benjamin P. Richert</name>
+    </author>
+    <author>
+      <name>Sindi Sabourin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0508334v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0508334v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20 (Primary) 13D02, 13D40 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.10954%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.10954&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Wi6UlUcnePvuxkbAf9pv024r9SQ</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.10954v1</id>
+    <updated>2019-11-25T14:56:35Z</updated>
+    <published>2019-11-25T14:56:35Z</published>
+    <title>Birational geometry and the canonical ring o a family of determinantal
+  3-folds</title>
+    <summary>  Few explicit families of 3-folds are known for which the computation of the
+canonical ring is accessible and the birational geometry non-trivial. In this
+note we investigate a family of determinantal 3-folds in $\mathbb P^2 \times
+\mathbb P^3$ where this is the case.
+</summary>
+    <author>
+      <name>Vladimir Lazić</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1911.10954v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.10954v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14J30, 14E30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

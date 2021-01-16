@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1105.6062%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1105.6062&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Z5VdKXlLUA1Nc8eXQUBfu+syMdE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1105.6062v2</id>
+    <updated>2011-12-20T02:22:17Z</updated>
+    <published>2011-05-30T18:33:05Z</published>
+    <title>Enumerations deciding the weak Lefschetz property</title>
+    <summary>  We introduce a natural correspondence between artinian monomial almost
+complete intersections in three variables and punctured hexagonal regions. We
+use this correspondence to investigate the algebras for the presence of the
+weak Lefschetz property. In particular, we relate the field characteristics in
+which such an algebra fails to have the weak Lefschetz property to the prime
+divisors of the enumeration of signed lozenge tilings of the associated
+punctured hexagonal region. On the one side this allows us to establish the
+weak Lefschetz property in many new cases.
+  For numerous classes of punctured hexagonal regions we find closed formulae
+for the enumerations of signed lozenge tilings, and thus the field
+characteristics in which the associated algebras fail to the have the weak
+Lefschetz property. Further, we offer a conjecture for a closed formula for the
+enumerations of signed lozenge tilings of symmetric punctured hexagonal
+regions. These formulae are exploited to lend further evidence to a conjecture
+by Migliore, Mir\'o-Roig, and the second author that classifies the {\em level}
+artinian monomial almost complete intersections in three variables that have
+the weak Lefschetz property in characteristic zero. Moreover, the formulae are
+used to generate families of algebras which never, or always, have the weak
+Lefschetz property, regardless of field characteristic. Finally, we determine
+(in one case, depending on the presence of the weak Lefschetz property) the
+splitting type of the syzygy bundle of an artinian monomial almost complete
+intersection in three variables, when the characteristic of the base field is
+zero.
+  Our results convey an intriguing interplay between problems in algebra,
+combinatorics, and algebraic geometry, which raises new questions and deserves
+further investigation.
+</summary>
+    <author>
+      <name>David Cook II</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">46 pages, 40 figures; multiple updates throughout--especially
+  regarding prior results</arxiv:comment>
+    <link href="http://arxiv.org/abs/1105.6062v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1105.6062v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A15, 05B45, 13E10, 13C40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

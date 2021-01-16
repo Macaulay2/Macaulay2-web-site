@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0312114%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0312114&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7iyIF0aqrVYa8TbLrdBYWVgicf8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0312114v2</id>
+    <updated>2004-05-23T05:20:33Z</updated>
+    <published>2003-12-05T01:46:08Z</published>
+    <title>On the rank of a tropical matrix</title>
+    <summary>  This is a foundational paper in tropical linear algebra, which is linear
+algebra over the min-plus semiring. We introduce and compare three natural
+definitions of the rank of a matrix, called the Barvinok rank, the Kapranov
+rank and the tropical rank. We demonstrate how these notions arise naturally in
+polyhedral and algebraic geometry, and we show that they differ in general.
+Realizability of matroids plays a crucial role here. Connections to
+optimization are also discussed.
+</summary>
+    <author>
+      <name>M. Develin</name>
+    </author>
+    <author>
+      <name>F. Santos</name>
+    </author>
+    <author>
+      <name>B. Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">In "Discrete and Computational Geometry" (E. Goodman, J. Pach and
+  E. Welzl, eds), MSRI Publications, Cambridge Univ. Press, 2005. ISBN-10:
+  0521848628</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0312114v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0312114v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A33; 15A03, 52A30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

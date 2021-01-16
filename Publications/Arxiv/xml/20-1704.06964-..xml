@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1704.06964%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1704.06964&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Zq68yt8+y4dfg1qwE7Z2ZS9dtBw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1704.06964v1</id>
+    <updated>2017-04-23T19:33:35Z</updated>
+    <published>2017-04-23T19:33:35Z</published>
+    <title>Moduli spaces of (1,7)-polarized abelian surfaces and varieties of sums
+  of powers</title>
+    <summary>  We study the geometry of some varieties of sums of powers related to the
+Klein quartic. Thanks to preceding results of Mukai and of ourselves, this
+allows us to describe the birational geometry of certain moduli spaces of
+abelian surfaces. In particular we show that $\mathcal{A}_2(1,7)^{-}_{sym}$ is
+unirational by showing that it admits a dominant morphism from a conic bundle.
+</summary>
+    <author>
+      <name>Michele Bolognesi</name>
+    </author>
+    <author>
+      <name>Alex Massarenti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1704.06964v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.06964v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 11G10, 11G15, 14K10, Secondary 14E05, 14E08, 14M20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

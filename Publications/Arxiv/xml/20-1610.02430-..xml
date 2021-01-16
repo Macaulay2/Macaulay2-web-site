@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.02430%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.02430&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZHeay3M5JbL/xvpqL3hy4TUSJGI</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02430v3</id>
+    <updated>2017-03-31T06:48:53Z</updated>
+    <published>2016-10-07T21:34:21Z</published>
+    <title>Local Euler obstructions of toric varieties</title>
+    <summary>  We use Matsui and Takeuchi's formula for toric A-discriminants to give
+algorithms for computing local Euler obstructions and dual degrees of toric
+surfaces and 3-folds. In particular, we consider weighted projective spaces. As
+an application we give counterexamples to a conjecture by Matsui and Takeuchi.
+As another application we recover the well-known fact that the only defective
+normal toric surfaces are cones.
+</summary>
+    <author>
+      <name>Bernt Ivar Utstøl Nødland</name>
+    </author>
+    <link href="http://arxiv.org/abs/1610.02430v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.02430v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

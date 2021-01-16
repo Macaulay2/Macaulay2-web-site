@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0910.0620%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0910.0620&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/B+V4lPtQoc3zmx4qmie0LUH5fYU</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0910.0620v2</id>
+    <updated>2012-06-19T02:28:34Z</updated>
+    <published>2009-10-04T17:11:49Z</published>
+    <title>Supersymmetric Deformations of Maximally Supersymmetric Gauge Theories</title>
+    <summary>  We study supersymmetric and super Poincar\'e invariant deformations of
+ten-dimensional super Yang-Mills theory and of its dimensional reductions. We
+describe all infinitesimal super Poincar\'e invariant deformations of equations
+of motion of ten-dimensional super Yang-Mills theory and its reduction to a
+point; we discuss the extension of them to formal deformations. Our methods are
+based on homological algebra, in particular, on the theory of L-infinity and
+A-infinity algebras. The exposition of this theory as well as of some basic
+facts about Lie algebra homology and Hochschild homology is given in
+appendices.
+</summary>
+    <author>
+      <name>M. Movshev</name>
+    </author>
+    <author>
+      <name>A. Schwarz</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP09(2012)136</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP09(2012)136" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">New results added. 111 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0910.0620v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0910.0620v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

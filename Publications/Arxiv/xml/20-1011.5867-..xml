@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1011.5867%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1011.5867&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DkEDVGPdvW9fgIxDPGkUjxASfX4</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1011.5867v2</id>
+    <updated>2011-11-11T03:07:35Z</updated>
+    <published>2010-11-26T19:49:28Z</published>
+    <title>Secant Varieties of Segre--Veronese Varieties</title>
+    <summary>  We prove that the ideal of the variety of secant lines to a Segre--Veronese
+variety is generated in degree three by minors of flattenings. In the special
+case of a Segre variety this was conjectured by Garcia, Stillman and Sturmfels,
+inspired by work on algebraic statistics, as well as by Pachter and Sturmfels,
+inspired by work on phylogenetic inference. In addition, we describe the
+decomposition of the coordinate ring of the secant line variety of a
+Segre--Veronese variety into a sum of irreducible representations under the
+natural action of a product of general linear groups.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: this submission replaces the previous version, titled "The GSS
+  conjecture", generalizing the results there to Segre--Veronese varieties</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Algebra &amp; Number Theory 6, no. 8:1817-1868, 2012</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1011.5867v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1011.5867v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14M17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

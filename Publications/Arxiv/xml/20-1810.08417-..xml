@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.08417%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.08417&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nFwytzCsBFsvQP5b4cM3hD13pw8</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.08417v2</id>
+    <updated>2018-10-26T08:22:36Z</updated>
+    <published>2018-10-19T09:20:24Z</published>
+    <title>Characterizations of indicator functions of fractional factorial designs</title>
+    <summary>  A polynomial indicator function of designs is first introduced by Fontana,
+Pistone and Rogantin (2000) for two-level designs. They give the structure of
+the indicator function of two-level designs, especially from the viewpoints of
+the orthogonality of the designs. Based on these structure, they use the
+indicator functions to classify all the orthogonal fractional factorial designs
+with given sizes using computational algebraic software. In this paper,
+generalizing the results on two-level designs, the structure of the indicator
+functions for multi-level designs is derived. We give a system of algebraic
+equations for the coefficients of indicator functions of fractional factorial
+designs with given orthogonality. We also give another representation of the
+indicator function, a contrast representation, which reflects the size and the
+orthogonality of the corresponding design directly. We use these results to
+classify orthogonal $2^3\times 3$ designs with strength $2$ and orthogonal
+$2^4\times 3$ designs with strength $3$ by computational algebraic software.
+</summary>
+    <author>
+      <name>Satoshi Aoki</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.08417v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.08417v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 62K15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

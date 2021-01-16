@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.09026%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.09026&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bHz4g/mj5o7tO4kk7IdmSK05E58</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.09026v1</id>
+    <updated>2019-03-21T14:31:32Z</updated>
+    <published>2019-03-21T14:31:32Z</published>
+    <title>Regularity and Koszul property of symbolic powers of monomial ideals</title>
+    <summary>  Let $I$ be a homogeneous ideal in a polynomial ring over a field. Let
+$I^{(n)}$ be the $n$-th symbolic power of $I$. Motivated by results about
+ordinary powers of $I$, we study the asymptotic behavior of the regularity
+function $\text{reg}(I^{(n)})$ and the maximal generating degree function
+$d(I^{(n)})$, when $I$ is a monomial ideal. It is known that both functions are
+eventually quasi-linear. We show that, in addition, the sequences
+$(\text{reg}~I^{(n)}/n)_n$ and $(d(I^{(n)})/n)_n$ converge to the same limit,
+which can be described combinatorially. We construct an example of an
+equidimensional, height two squarefree monomial ideal $I$ for which
+$d(I^{(n)})$ and $\text{reg}(I^{(n)})$ are not eventually linear functions. For
+the last goal, we introduce a new method for establishing the componentwise
+linearity of ideals. This method allows us to identify a new class of monomial
+ideals whose symbolic powers are componentwise linear.
+</summary>
+    <author>
+      <name>Le Xuan Dung</name>
+    </author>
+    <author>
+      <name>Truong Thi Hien</name>
+    </author>
+    <author>
+      <name>Hop D. Nguyen</name>
+    </author>
+    <author>
+      <name>Tran Nam Trung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.09026v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.09026v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05C90, 05E40, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

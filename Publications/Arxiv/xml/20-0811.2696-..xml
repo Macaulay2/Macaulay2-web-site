@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0811.2696%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0811.2696&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/USgJYH5YlXDQErDlR56/Kmmk8sk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0811.2696v2</id>
+    <updated>2009-01-30T12:51:03Z</updated>
+    <published>2008-11-17T13:13:56Z</published>
+    <title>AG Codes from Polyhedral Divisors</title>
+    <summary>  A description of complete normal varieties with lower dimensional torus
+action has been given by Altmann, Hausen, and Suess, generalizing the theory of
+toric varieties. Considering the case where the acting torus T has codimension
+one, we describe T-invariant Weil and Cartier divisors and provide formulae for
+calculating global sections, intersection numbers, and Euler characteristics.
+As an application, we use divisors on these so-called T-varieties to define new
+evaluation codes called T-codes. We find estimates on their minimum distance
+using intersection theory. This generalizes the theory of toric codes and
+combines it with AG codes on curves. As the simplest application of our general
+techniques we look at codes on ruled surfaces coming from decomposable vector
+bundles. Already this construction gives codes that are better than the related
+product code. Further examples show that we can improve these codes by
+constructing more sophisticated T-varieties. These results suggest to look
+further for good codes on T-varieties.
+</summary>
+    <author>
+      <name>Nathan Ilten</name>
+    </author>
+    <author>
+      <name>Hendrik Süß</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jsc.2010.03.008</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 9 figures; v2: replaced fansy cycles with fansy divisors</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Symbolic Computation 45 (2010) 734</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0811.2696v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0811.2696v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jsc.2010.03.008" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14G50, 94B27, 14L30, 14C20, 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

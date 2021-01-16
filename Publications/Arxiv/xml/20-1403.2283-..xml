@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.2283%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.2283&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/apNvMGJzgc4joCzy7RlGaSe4JM0</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.2283v4</id>
+    <updated>2014-08-07T06:21:08Z</updated>
+    <published>2014-03-04T08:06:32Z</published>
+    <title>About Gordan's algorithm for binary forms</title>
+    <summary>  In this paper, we present a modern version of Gordan's algorithm on binary
+forms. Symbolic method is reinterpreted in terms of
+$\mathsf{SL}_2(\mathbb{C})$--equivariant homomorphisms defined upon Cayley
+operator and polarization operator. A graphical approach is thus developed to
+obtain Gordan's ideal, a central key to get covariant bases of binary forms. To
+illustrate the power of this method, we obtain for the first time a minimal
+covariant basis for $\Sn{6}\oplus\Sn{4}$ and $\Sn{6}\oplus\Sn{4}\oplus \Sn{2}$.
+</summary>
+    <author>
+      <name>Marc Olive</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">I2M</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/1403.2283v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.2283v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

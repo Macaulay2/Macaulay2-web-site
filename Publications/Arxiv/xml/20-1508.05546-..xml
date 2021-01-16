@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.05546%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.05546&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2swTesME6kolOzqqV6cUQ4NwaRQ</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.05546v2</id>
+    <updated>2016-02-21T02:09:18Z</updated>
+    <published>2015-08-22T22:29:48Z</published>
+    <title>Generic forms of low Chow rank</title>
+    <summary>  The least number of products of linear forms that may be added together to
+obtain a given form is the Chow rank of this form. The Chow rank of a generic
+form corresponds to the smallest s for which the sth secant variety of the Chow
+variety fills the ambient space. We show that, except for certain known
+exceptions, this secant variety has the expected dimension for low values of s.
+</summary>
+    <author>
+      <name>Douglas A. Torrance</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1142/S0219498817500475</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1142/S0219498817500475" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: minor changes, 11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.05546v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.05546v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

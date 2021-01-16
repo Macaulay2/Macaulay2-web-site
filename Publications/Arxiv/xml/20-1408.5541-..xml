@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.5541%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.5541&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/A3jCtNeluPuDkapegEl1m7pzAjc</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.5541v1</id>
+    <updated>2014-08-24T01:43:34Z</updated>
+    <published>2014-08-24T01:43:34Z</published>
+    <title>Artin-Nagata properties, minimal multiplicities, and depth of fiber
+  cones</title>
+    <summary>  Minimal values of multiplicities of ideals have a strong relation with the
+depth of blowup algebras. In this paper, we introduce the notion of
+Goto-minimal $j$-multiplicity for ideals of maximal analytic spread. In a
+Cohen-Macaulay ring, inspired by the work of S.~Goto, A.~Jayanthan,
+T.~Puthenpurakal, and J.~Verma, we study the interplay among this new notion,
+the notion of minimal $j$-multiplicity introduced by C.~Polini and Y.~Xie, and
+the Cohen-Macaulayness of the fiber cone of ideals satisfying certain residual
+assumptions. We are also able to provide a bound on the reduction number of
+ideals of Goto-minimal $j$-multiplicity having either Cohen-Macaulay associated
+graded algebra, or linear decay in the depth of their powers.
+</summary>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <link href="http://arxiv.org/abs/1408.5541v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.5541v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

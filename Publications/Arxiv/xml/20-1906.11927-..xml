@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.11927%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.11927&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SnGPiA+kkdCb0xEmF/TQdB6ABFs</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.11927v1</id>
+    <updated>2019-06-27T19:34:08Z</updated>
+    <published>2019-06-27T19:34:08Z</published>
+    <title>Homography from two orientation- and scale-covariant features</title>
+    <summary>  This paper proposes a geometric interpretation of the angles and scales which
+the orientation- and scale-covariant feature detectors, e.g. SIFT, provide. Two
+new general constraints are derived on the scales and rotations which can be
+used in any geometric model estimation tasks. Using these formulas, two new
+constraints on homography estimation are introduced. Exploiting the derived
+equations, a solver for estimating the homography from the minimal number of
+two correspondences is proposed. Also, it is shown how the normalization of the
+point correspondences affects the rotation and scale parameters, thus achieving
+numerically stable results. Due to requiring merely two feature pairs, robust
+estimators, e.g. RANSAC, do significantly fewer iterations than by using the
+four-point algorithm. When using covariant features, e.g. SIFT, the information
+about the scale and orientation is given at no cost. The proposed homography
+estimation method is tested in a synthetic environment and on publicly
+available real-world datasets.
+</summary>
+    <author>
+      <name>Daniel Barath</name>
+    </author>
+    <author>
+      <name>Zuzana Kukelova</name>
+    </author>
+    <link href="http://arxiv.org/abs/1906.11927v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.11927v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.2105%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.2105&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/F5MERPhiBc+8MxmOB952gvNpnSk</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.2105v1</id>
+    <updated>2014-08-09T14:28:28Z</updated>
+    <published>2014-08-09T14:28:28Z</published>
+    <title>Computations and Equations for Segre-Grassmann hypersurfaces</title>
+    <summary>  In 2013, Abo and Wan studied Waring's problem for systems of skew-symmetric
+forms and identified several defective systems. The cases of particular
+interest occur when a certain secant variety of a Segre-Grassmann variety is
+expected to fill the natural ambient space, but is actually a hypersurface. In
+these cases, one aims to obtain both a defining polynomial for these
+hypersurfaces along with a representation theoretic description of the
+defectivity. In this note, we combine numerical algebraic geometry with
+representation theory to accomplish this task. In particular, numerical
+algebraic geometric algorithms implemented in Bertini are used to determine the
+degrees of several hypersurfaces with representation theory using this data as
+input to understand the hypersurface.
+  This approach allows us to answer Problem 6.5 [Abo-Wan2013] and show that
+each member of an infinite family of hypersurfaces is minimally defined by a
+(known) determinantal equation. While led by numerical evidence, we provide
+non-numerical proofs for all of our results.
+</summary>
+    <author>
+      <name>Noah S. Daleo</name>
+    </author>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.2105v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.2105v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

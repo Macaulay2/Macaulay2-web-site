@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1111.3880%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1111.3880&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wG1WKNCqQ6IjOmZfYWWxaauz8jI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1111.3880v3</id>
+    <updated>2012-05-17T21:21:18Z</updated>
+    <published>2011-11-16T17:32:54Z</published>
+    <title>Hom-polytopes</title>
+    <summary>  We study the polytopes of affine maps between two polytopes -- the
+hom-polytopes. The hom-polytope functor has a left adjoint -- tensor product
+polytopes. The analogy with the category of vector spaces is limited, as we
+illustrate by a series of explicit examples exhibiting various extremal
+properties. The main challenge for hom-polytopes is to determine their
+vertices. A polytopal analogue of the rank-nullity theorem amounts to
+understanding how the vertex maps behave relative to their surjective and
+injective factors. This leads to interesting classes of surjective maps. In the
+last two sections we focus on two opposite extremal cases -- when the source
+and target polytopes are both polygons and are either generic or regular.
+</summary>
+    <author>
+      <name>Tristram Bogart</name>
+    </author>
+    <author>
+      <name>Mark Contois</name>
+    </author>
+    <author>
+      <name>Joseph Gubeladze</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 7 figures, 4 tables. Final version, to appear in
+  Mathematische Zeitschrift</arxiv:comment>
+    <link href="http://arxiv.org/abs/1111.3880v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1111.3880v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B11, 52B12 (Primary) 18D20, 5E99, 52B05, 14-04 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

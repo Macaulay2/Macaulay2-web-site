@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0910.0989%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0910.0989&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+/bdK2RI80xq6LukoC9S/51FLR0</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0910.0989v4</id>
+    <updated>2011-01-03T13:54:57Z</updated>
+    <published>2009-10-06T12:51:06Z</published>
+    <title>Equations defining secant varieties: geometry and computation</title>
+    <summary>  In the 1980's, work of Green and Lazarsfeld helped to uncover the beautiful
+interplay between the geometry of the embedding of a curve and the syzygies of
+its defining equations. Similar results hold for the first secant variety of a
+curve, and there is a natural conjectural picture extending to higher secant
+varieties as well. We present an introduction to the algebra and geometry used
+in previous work of the authors to study syzygies of secant varieties of curves
+with an emphasis on examples of explicit computations and elementary cases that
+illustrate the geometric principles at work.
+</summary>
+    <author>
+      <name>Jessica Sidman</name>
+    </author>
+    <author>
+      <name>Peter Vermeire</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v1: 2 figures; written for the proceedings of the Abel Symposium
+  2009; v2: minor changes in exposition, Macaulay 2 code added; v3: hypothesis
+  of normality added in Theorems 5 and 8. See Remarks 4 and 9 for explanation
+  of the additional hypotheses; v4: typos fixed</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Combinatorial aspects of commutative algebra and algebraic
+  geometry, 155--174, Abel Symp., 6, Springer, Berlin, 2011</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0910.0989v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0910.0989v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14N05, 14F05, 14H99," scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

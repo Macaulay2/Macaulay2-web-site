@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.01253%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.01253&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L7HPM96sxP7uFNDt6ba/pAy6lxE</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.01253v1</id>
+    <updated>2019-12-03T09:20:43Z</updated>
+    <published>2019-12-03T09:20:43Z</published>
+    <title>Tropical convex hulls of infinite sets</title>
+    <summary>  In this paper we study the interplay between tropical convexity and its
+classical counterpart. In particular, we focus on the tropical convex hull of
+convex sets and polyhedral complexes. %First we investigate the structure of
+the tropical convex hull of any set and then convex sets in particular. We give
+a vertex description of the tropical convex hull of a line segment and of a ray
+in $\mathbb{R}^n/\mathbb {R}\mathbf{1}$ and show that tropical convex hull and
+classical convex hull commute in $\mathbb{R}^3/\mathbb {R}\mathbf{1}$. Finally
+we prove results on the dimension of tropically convex fans and give a lower
+bound on the degree of a tropical curve under certain hypotheses.
+</summary>
+    <author>
+      <name>Cvetelina Hill</name>
+    </author>
+    <author>
+      <name>Sara Lamboglia</name>
+    </author>
+    <author>
+      <name>Faye Pasley Simon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 3 Figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.01253v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.01253v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

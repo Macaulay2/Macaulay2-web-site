@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.2611%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.2611&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/F1ik+gY7Yq4OvkpuCAU2rcS2cKI</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2611v2</id>
+    <updated>2012-04-30T14:38:37Z</updated>
+    <published>2011-10-12T09:29:23Z</published>
+    <title>The Hilbert schemes of locally Cohen-Macaulay curves in P^3 may after
+  all be connected</title>
+    <summary>  Progress on the problem whether the Hilbert schemes of locally Cohen-Macaulay
+curves in projective 3 space are connected has been hampered by the lack of an
+answer to a question that was raised by Robin Hartshorne in his paper "On the
+connectedness of the Hilbert scheme of curves in projective 3 space" Comm.
+Algebra 28 (2000) and more recently in the open problems list of the 2010 AIM
+workshop Components of Hilbert Schemes available at
+http://aimpl.org/hilbertschemes: does there exist a flat irreducible family of
+curves whose general member is a union of d disjoint lines on a smooth quadric
+surface and whose special member is a locally Cohen-Macaulay curve in a double
+plane? In this paper we give a positive answer to this question: for every d,
+we construct a family with the required properties, whose special fiber is an
+extremal curve in the sense of Martin-Deschamps and Perrin. From this we
+conclude that every effective divisor in a smooth quadric surface is in the
+connected component of its Hilbert scheme that contains extremal curves.
+</summary>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <author>
+      <name>Enrico Schlesinger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">final version; to appear in Collectanea Mathematica</arxiv:comment>
+    <link href="http://arxiv.org/abs/1110.2611v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.2611v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14H50, 14Q05, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

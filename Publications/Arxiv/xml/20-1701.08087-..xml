@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.08087%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.08087&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//yXVLRYW8yfiSPd2p0cHMDrd8Lg</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.08087v4</id>
+    <updated>2017-06-02T14:14:54Z</updated>
+    <published>2017-01-27T15:47:23Z</published>
+    <title>Cohen-Macaulayness and canonical module of residual intersections</title>
+    <summary>  We show the Cohen-Macaulayness and describe the canonical module of residual
+intersections $J=\mathfrak{a}\colon_R I$ in a Cohen-Macaulay local ring $R$,
+under sliding depth type hypotheses. For this purpose, we construct and study,
+using a recent article of Hassanzadeh and the second named author, a family of
+complexes that contains important informations on a residual intersection and
+its canonical module. We also determine several invariants of residual
+intersections as the graded canonical module, the Hilbert series, the
+Castelnuovo-Mumford regularity and the type. Finally, whenever $I$ is strongly
+Cohen-Macaulay, we show duality results for residual intersections that are
+closely connected to results by Eisenbud and Ulrich. It establishes some tight
+relations between the Hilbert series of some symmetric powers of
+$I/\mathfrak{a}$. We also provide closed formulas for the types and for the
+Bass numbers of some symmetric powers of $I/\mathfrak{a}.$
+</summary>
+    <author>
+      <name>Marc Chardin</name>
+    </author>
+    <author>
+      <name>José Naéliton</name>
+    </author>
+    <author>
+      <name>Quang Hoa Tran</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.08087v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.08087v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C14, 13H10, 13D25, 13C40, 13D02, 13D45, 14M06, 14M10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

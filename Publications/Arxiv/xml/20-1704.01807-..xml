@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1704.01807%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1704.01807&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OPdios2oxXEG/VAtBtBIoc5GTdQ</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01807v1</id>
+    <updated>2017-04-06T12:40:26Z</updated>
+    <published>2017-04-06T12:40:26Z</published>
+    <title>Degenerations of Gushel-Mukai fourfolds, with a view towards
+  irrationality proofs</title>
+    <summary>  We study a certain class of degenerations of Gushel-Mukai fourfolds as conic
+bundles, which we call tame degenerations and which are natural if one wants to
+prove that very general Gushel-Mukai fourfolds are irrational using the
+degeneration method due to Voisin, Colliot-Th\'{e}l\`{e}ne-Pirutka, Totaro et
+al. However, we prove that no such tame degenerations do exist.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1704.01807v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.01807v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D06, 14E08, 14J35, 14J45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

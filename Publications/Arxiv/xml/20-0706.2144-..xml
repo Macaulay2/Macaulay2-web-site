@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0706.2144%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0706.2144&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wnFq+N+ZqK5LhJdmceHFC9890GU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0706.2144v1</id>
+    <updated>2007-06-14T16:28:01Z</updated>
+    <published>2007-06-14T16:28:01Z</published>
+    <title>The role of the cotangent bundle in resolving ideals of fat points in
+  the plane</title>
+    <summary>  We study the connection between the generation of a fat point scheme
+supported at general points in the plane and the behaviour of the cotangent
+bundle with respect to some rational curves particularly relevant for the
+scheme. We put forward two conjectures, giving examples and partial results in
+support of them.
+</summary>
+    <author>
+      <name>Alessandro Gimigliano</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Monica Idà</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0706.2144v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0706.2144v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

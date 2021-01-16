@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.0411%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.0411&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/v1YjIF8kPX3Qhdc53VlPgqqVxLc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.0411v1</id>
+    <updated>2013-04-01T18:30:04Z</updated>
+    <published>2013-04-01T18:30:04Z</published>
+    <title>Exact pairs of homogeneous zero divisors</title>
+    <summary>  Let S be a standard graded Artinian algebra over a field k. We identify
+constraints on the Hilbert function of S which are imposed by the hypothesis
+that S contains an exact pair of homogeneous zero divisors. As a consequence,
+we prove that if S is a compressed level algebra, then S does not contain any
+homogeneous zero divisors.
+</summary>
+    <author>
+      <name>Andrew R. Kustin</name>
+    </author>
+    <author>
+      <name>Janet Striuli</name>
+    </author>
+    <author>
+      <name>Adela Vraciu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1304.0411v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.0411v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13A02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

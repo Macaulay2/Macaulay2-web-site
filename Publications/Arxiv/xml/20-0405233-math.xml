@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0405233%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0405233&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TY6TytueqUD9e1GxQfvmJuhP/Oc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0405233v1</id>
+    <updated>2004-05-12T22:01:58Z</updated>
+    <published>2004-05-12T22:01:58Z</published>
+    <title>Hyperkahler analogues of Kahler quotients</title>
+    <summary>  Let X be a Kahler manifold that is presented as a Kahler quotient of C^n by
+the linear action of a compact group G. We define the hyperkahler analogue M of
+X as a hyperkahler quotient of the cotangent bundle T^*C^n by the induced
+G-action. Special instances of this construction include hypertoric varieties
+and quiver varieties. Our aim is to provide a unified treatment of these two
+previously studied examples, with specific attention to the geometry and
+topology of the circle action on M that descends from the scalar action on the
+fibers of the cotangent bundle. We provide a detailed study of this action in
+the cases where M is a hypertoric variety or a hyperpolygon space.
+  Most of this document consists of material from the papers math.DG/0207012,
+math.AG/0308218, and math.SG/0310141. Sections 2.2 and 3.5 contain previously
+unannounced results.
+</summary>
+    <author>
+      <name>Nicholas J. Proudfoot</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">86 pages, 10 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Ph. D. thesis, U.C. Berkeley, Spring 2004</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0405233v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0405233v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53C26; 53D20; 14D20; 52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0201228%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0201228&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Me29dspR8rYDRACHeTrKnJTdXBY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0201228v2</id>
+    <updated>2003-03-18T00:02:42Z</updated>
+    <published>2002-01-23T20:05:12Z</published>
+    <title>Shadows of blow-up algebras</title>
+    <summary>  We study different notions of blow-up of a scheme X along a subscheme Y,
+depending on the datum of an embedding of X into an ambient scheme. The two
+extremes in this theory are the ordinary blow-up, corresponding to the
+identity, and the `quasi-symmetric blow-up', corresponding to an embedding into
+a nonsingular variety M. We prove that this latter blow-up is intrinsic of Y
+and X, and is universal with respect to the requirement of being embedded as a
+subscheme of the ordinary blow-up of some ambient space along Y.
+  We consider these notions in the context of the theory of characteristic
+classes of singular varieties. We prove that if X is a hypersurface in a
+nonsingular variety and Y is its `singularity subscheme', these two extremes
+embody respectively the conormal and characteristic cycles of X. Consequently,
+the first carries the essential information computing Chern-Mather classes, and
+the second is likewise a carrier for Chern-Schwartz-MacPherson classes. In our
+approach, these classes are obtained from Segre class-like invariants, in
+precisely the same way as other intrinsic characteristic classes such as those
+proposed by William Fulton and by W. Fulton and Kent Johnson.
+  We also identify a condition on the singularities of a hypersurface under
+which the quasi-symmetric blow-up is simply the linear fiber space associated
+with a coherent sheaf.
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Florida State University and Max-Planck-Institut, Bonn</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.2748/tmj/1113246753</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages. Substantial revision of the January 2002 version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Tohoku Math. J. (2) 56 (2004), no. 4, 593-619</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0201228v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0201228v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.2748/tmj/1113246753" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17 (Primary) 57R20, 32C40, 13A30 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

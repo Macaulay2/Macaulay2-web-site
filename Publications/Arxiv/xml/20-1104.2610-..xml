@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1104.2610%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1104.2610&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mT9kpxc1YNd9bonz/s43J7EBWHw</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1104.2610v2</id>
+    <updated>2013-12-26T22:56:26Z</updated>
+    <published>2011-04-13T20:18:46Z</published>
+    <title>Gluing Branes, I</title>
+    <summary>  We consider several aspects of holomorphic brane configurations. We recently
+showed that an important part of the defining data of such a configuration is
+the gluing morphism, which specifies how the constituents of a configuration
+are glued together, but is usually assumed to be vanishing. Here we explain the
+rules for computing spectra and interactions for configurations with
+non-vanishing gluing VEVs. We further give a detailed discussion of the D-terms
+for Higgs bundles, spectral covers and ALE fibrations. We highlight a stability
+criterion that applies to degenerate configurations of the spectral data, and
+address an apparent discrepancy between the field theory and ALE descriptions.
+This allows us to show that one gets walls of marginal stability in F-theory
+even though they are absent in the 11d supergravity description. We also
+propose a numerical approach for approximating the hermitian-Einstein metric of
+the Higgs bundle using balanced metrics.
+</summary>
+    <author>
+      <name>Ron Donagi</name>
+    </author>
+    <author>
+      <name>Martijn Wijnholt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">V2: 55p, 1 fig, LaTeX. Published version</arxiv:comment>
+    <link href="http://arxiv.org/abs/1104.2610v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1104.2610v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

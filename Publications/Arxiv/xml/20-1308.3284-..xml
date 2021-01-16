@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1308.3284%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1308.3284&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/n81bRpSLfyifp9avZDWc5XuoHPc</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1308.3284v1</id>
+    <updated>2013-08-15T01:50:50Z</updated>
+    <published>2013-08-15T01:50:50Z</published>
+    <title>Experimentation in the Schubert Calculus</title>
+    <summary>  Many aspects of Schubert calculus are easily modeled on a computer. This
+enables large-scale experimentation to investigate subtle and ill-understood
+phenomena in the Schubert calculus. A well-known web of conjectures and results
+in the real Schubert calculus has been inspired by this continuing
+experimentation. A similarly rich story concerning intrinsic structure, or
+Galois groups, of Schubert problems is also beginning to emerge from
+experimentation. This showcases new possibilities for the use of computers in
+mathematical research.
+</summary>
+    <author>
+      <name>Abraham Martin del Campo</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages. Based on Sottile's talks at 2012 MSJ-SI on Schubert
+  Calculus</arxiv:comment>
+    <link href="http://arxiv.org/abs/1308.3284v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1308.3284v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N15, 14P99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

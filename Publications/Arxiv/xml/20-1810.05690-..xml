@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.05690%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.05690&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JSEwjxPuqObiMCG24IvAGKpOVTE</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.05690v1</id>
+    <updated>2018-10-12T19:25:01Z</updated>
+    <published>2018-10-12T19:25:01Z</published>
+    <title>A toric deformation method for solving Kuramoto equations</title>
+    <summary>  The study of frequency synchronization configurations in Kuramoto models is a
+ubiquitous mathematical problem that has found applications in many seemingly
+independent fields. In this paper, we focus on networks whose underlying graph
+are cycle graphs. Based on the recent result on the upper bound of the
+frequency synchronization configurations in this context, we propose a toric
+deformation homotopy method for locating all frequency synchronization
+configurations with complexity that is linear in this upper bound. Loosely
+based on the polyhedral homotopy method, this homotopy induces a deformation of
+the set of the synchronization configurations into a series of toric varieties,
+yet our method has the distinct advantage of avoiding the costly step of
+computing mixed cells. We also explore the important consequences of this
+homotopy method in the context of direct acyclic decomposition of Kuramoto
+networks and tropical stable intersection points for Kuramoto equations.
+</summary>
+    <author>
+      <name>Tianran Chen</name>
+    </author>
+    <author>
+      <name>Robert Davis</name>
+    </author>
+    <link href="http://arxiv.org/abs/1810.05690v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.05690v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H10, 65H20, 14T05, 13P15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

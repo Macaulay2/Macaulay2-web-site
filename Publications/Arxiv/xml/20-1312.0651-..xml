@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1312.0651%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1312.0651&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/il1m305wxI9Ojkjn1wa5v5ysET4</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1312.0651v1</id>
+    <updated>2013-12-02T22:42:09Z</updated>
+    <published>2013-12-02T22:42:09Z</published>
+    <title>Generalized Hilbert coefficients and Northcott's inequality</title>
+    <summary>  Let $R$ be a Cohen-Macaulay local ring of dimension $d$ with infinite residue
+field. Let $I$ be an $R$-ideal that has analytic spread $\ell(I)=d$, $G_d$
+condition and the Artin-Nagata property $AN^-_{d-2}$. We provide a formula
+relating the length $\lambda(I^{n+1}/JI^{n})$ to the difference
+$P_I(n)-H_I(n)$, where $J$ is a general minimal reduction of $I$, $P_I(n)$ and
+$H_I(n)$ are the generalized Hilbert-Samuel polynomial and the generalized
+Hilbert-Samuel function in the sense of C. Polini and Y. Xie. We then use it to
+establish formulas to compute the higher generalized Hilbert coefficients of
+$I$. As an application, we extend Northcott's inequality to non
+$\mathfrak{m}$-primary ideals. When equality holds in the generalized
+Northcott's inequality, the ideal $I$ enjoys nice properties. Indeed, in this
+case, we prove that the reduction number of $I$ is at most one and the
+associated graded ring of $I$ is Cohen-Macaulay. We also recover results of G.
+Colom$\acute{{\rm e}}$-Nin, C. Polini, B. Ulrich and Y. Xie on the positivity
+of the generalized first Hilbert coefficient $j_1(I)$. Our work extends that of
+S. Huckaba, C. Huneke and A. Ooishi to ideals that are not necessarily
+$\mathfrak{m}$-primary.
+</summary>
+    <author>
+      <name>Yu Xie</name>
+    </author>
+    <link href="http://arxiv.org/abs/1312.0651v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.0651v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

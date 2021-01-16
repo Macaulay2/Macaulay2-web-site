@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0109070%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0109070&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DwyPknhJjTita2IjkOTOSTNRJOk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0109070v2</id>
+    <updated>2002-02-23T16:41:05Z</updated>
+    <published>2001-09-11T03:28:33Z</published>
+    <title>Lower central series and free resolutions of hyperplane arrangements</title>
+    <summary>  If $M$ is the complement of a hyperplane arrangement, and $A=H^*(M,\k)$ is
+the cohomology ring of $M$ over a field of characteristic 0, then the ranks,
+$\phi_k$, of the lower central series quotients of $\pi_1(M)$ can be computed
+from the Betti numbers, $b_{ii}=\dim_{\k} \Tor^A_i(\k,\k)_i$, of the linear
+strand in a (minimal) free resolution of $\k$ over $A$. We use the
+Cartan-Eilenberg change of rings spectral sequence to relate these numbers to
+the graded Betti numbers, $b'_{ij}=\dim_{\k} \Tor^E_i(A,\k)_j$, of a (minimal)
+resolution of $A$ over the exterior algebra $E$.
+  From this analysis, we recover a formula of Falk for $\phi_3$, and obtain a
+new formula for $\phi_4$. The exact sequence of low degree terms in the
+spectral sequence allows us to answer a question of Falk on graphic
+arrangements, and also shows that for these arrangements, the algebra $A$ is
+Koszul iff the arrangement is supersolvable. We also give combinatorial lower
+bounds on the Betti numbers, $b'_{i,i+1}$, of the linear strand of the free
+resolution of $A$ over $E$; if the lower bound is attained for $i = 2$, then it
+is attained for all $i \ge 2$. For such arrangements, we compute the entire
+linear strand of the resolution, and we prove that all components of the first
+resonance variety of $A$ are local. For graphic arrangements (which do not
+attain the lower bound, unless they have no braid sub-arrangements), we show
+that $b'_{i,i+1}$ is determined by the number of triangles and $K_4$ subgraphs
+in the graph.
+</summary>
+    <author>
+      <name>Henry K. Schenck</name>
+    </author>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1090/S0002-9947-02-03021-0</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, to appear in Trans. Amer. Math. Soc</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Trans. Amer. Math. Soc. 354 (2002), no. 9, 3409-3433</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0109070v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0109070v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1090/S0002-9947-02-03021-0" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16E05, 20F14, 52C35 (Primary), 16S37 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

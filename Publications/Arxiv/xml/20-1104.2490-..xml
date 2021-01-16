@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1104.2490%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1104.2490&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WCWYPwRz4zVFRYiWqSLUGSj5KM0</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1104.2490v3</id>
+    <updated>2012-05-25T07:37:00Z</updated>
+    <published>2011-04-13T13:45:01Z</published>
+    <title>Mori Dream Spaces as fine moduli of quiver representations</title>
+    <summary>  We construct Mori Dream Spaces as fine moduli spaces of representations of
+bound quivers, thereby extending results of Craw--Smith \cite{CrawSmith} beyond
+the toric case. Any collection of effective line bundles
+$\mathscr{L}=(\mathscr{O}_X, L_1,..., L_r)$ on a Mori Dream Space $X$ defines a
+bound quiver of sections and a map from $X$ to a toric quiver variety
+$|\mathscr{L}|$ called the multigraded linear series. We provide necessary and
+sufficient conditions for this map to be a closed immersion and, under
+additional assumptions on $\mathscr{L}$, the image realises $X$ as the fine
+moduli space of $\vartheta$-stable representations of the bound quiver. As an
+application, we show how to reconstruct del Pezzo surfaces from a full,
+strongly exceptional collection of line bundles.
+</summary>
+    <author>
+      <name>Alastair Craw</name>
+    </author>
+    <author>
+      <name>Dorothy Winn</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, 2 figures; v2 section 3 simplified, typos corrected; v3
+  final version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Pure and Applied Algebra 217 (2013), 172-189</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1104.2490v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1104.2490v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

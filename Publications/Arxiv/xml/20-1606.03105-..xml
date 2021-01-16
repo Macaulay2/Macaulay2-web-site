@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.03105%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.03105&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UubpgXV6Og5awBLIf4iSpNVnOo8</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.03105v1</id>
+    <updated>2016-06-09T20:06:02Z</updated>
+    <published>2016-06-09T20:06:02Z</published>
+    <title>On the discriminant of twisted tensor products</title>
+    <summary>  We provide formulas for computing the discriminant of noncommutative algebras
+over central subalgebras in the case of Ore extensions and skew group
+extensions. The formulas follow from a more general result regarding the
+discriminants of certain twisted tensor products. We employ our formulas to
+compute automorphism groups for examples in each case.
+</summary>
+    <author>
+      <name>Jason Gaddis</name>
+    </author>
+    <author>
+      <name>Ellen Kirkman</name>
+    </author>
+    <author>
+      <name>W. Frank Moore</name>
+    </author>
+    <link href="http://arxiv.org/abs/1606.03105v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.03105v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

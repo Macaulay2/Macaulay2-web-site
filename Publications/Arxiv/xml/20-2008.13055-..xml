@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2008.13055%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2008.13055&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8UM7NOQ2sbZqP+9YUfHAbGpYFQM</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2008.13055v1</id>
+    <updated>2020-08-29T21:08:00Z</updated>
+    <published>2020-08-29T21:08:00Z</published>
+    <title>Numerical homotopies from Khovanskii bases</title>
+    <summary>  We present numerical homotopy continuation algorithms for solving systems of
+equations on a variety in the presence of a finite Khovanskii basis. These take
+advantage of Anderson's flat degeneration to a toric variety. When Anderson's
+degeneration embeds into projective space, our algorithm is a special case of a
+general toric two-step homotopy algorithm. When Anderson's degeneration is
+embedded in a weighted projective space, we explain how to lift to a projective
+space and construct an appropriate modification of the toric homotopy. Our
+algorithms are illustrated on several examples using Macaulay2.
+</summary>
+    <author>
+      <name>Michael Burr</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Elise Walker</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2008.13055v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2008.13055v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P15, 14M25, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

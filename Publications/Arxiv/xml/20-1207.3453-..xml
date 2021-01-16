@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1207.3453%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1207.3453&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/12pdrP4ebazUXwD2jLCXD76zlD0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1207.3453v1</id>
+    <updated>2012-07-14T19:30:59Z</updated>
+    <published>2012-07-14T19:30:59Z</published>
+    <title>Complex-linear invariants of biochemical networks</title>
+    <summary>  The nonlinearities found in molecular networks usually prevent mathematical
+analysis of network behaviour, which has largely been studied by numerical
+simulation. This can lead to difficult problems of parameter determination.
+However, molecular networks give rise, through mass-action kinetics, to
+polynomial dynamical systems, whose steady states are zeros of a set of
+polynomial equations. These equations may be analysed by algebraic methods, in
+which parameters are treated as symbolic expressions whose numerical values do
+not have to be known in advance. For instance, an "invariant" of a network is a
+polynomial expression on selected state variables that vanishes in any steady
+state. Invariants have been found that encode key network properties and that
+discriminate between different network structures. Although invariants may be
+calculated by computational algebraic methods, such as Gr\"obner bases, these
+become computationally infeasible for biologically realistic networks. Here, we
+exploit Chemical Reaction Network Theory (CRNT) to develop an efficient
+procedure for calculating invariants that are linear combinations of
+"complexes", or the monomials coming from mass action. We show how this
+procedure can be used in proving earlier results of Horn and Jackson and of
+Shinar and Feinberg for networks of deficiency at most one. We then apply our
+method to enzyme bifunctionality, including the bacterial EnvZ/OmpR osmolarity
+regulator and the mammalian
+6-phosphofructo-2-kinase/fructose-2,6-bisphosphatase glycolytic regulator,
+whose networks have deficiencies up to four. We show that bifunctionality leads
+to different forms of concentration control that are robust to changes in
+initial conditions or total amounts. Finally, we outline a systematic procedure
+for using complex-linear invariants to analyse molecular networks of any
+deficiency.
+</summary>
+    <author>
+      <name>R. L. Karp</name>
+    </author>
+    <author>
+      <name>M. Pérez Millán</name>
+    </author>
+    <author>
+      <name>T. Dasgupta</name>
+    </author>
+    <author>
+      <name>A. Dickenstein</name>
+    </author>
+    <author>
+      <name>J. Gunawardena</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1207.3453v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1207.3453v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

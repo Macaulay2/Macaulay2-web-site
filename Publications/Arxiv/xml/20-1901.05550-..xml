@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1901.05550%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1901.05550&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RjMFbhXsgCgDo8TY0SZasz25wVI</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1901.05550v2</id>
+    <updated>2019-01-28T19:52:04Z</updated>
+    <published>2019-01-16T22:26:19Z</published>
+    <title>Euclidean distance degree of projective varieties</title>
+    <summary>  We give a positive answer to a conjecture of Aluffi-Harris on the computation
+of the Euclidean distance degree of a possibly singular projective variety in
+terms of the local Euler obstruction function.
+</summary>
+    <author>
+      <name>Laurentiu G. Maxim</name>
+    </author>
+    <author>
+      <name>Jose Israel Rodriguez</name>
+    </author>
+    <author>
+      <name>Botong Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages. Key words: Euclidean distance degree, Euler characteristic,
+  local Euler obstruction function</arxiv:comment>
+    <link href="http://arxiv.org/abs/1901.05550v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1901.05550v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 57R20, 90C26" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

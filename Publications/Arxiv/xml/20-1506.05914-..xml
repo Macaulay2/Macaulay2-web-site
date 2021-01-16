@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1506.05914%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1506.05914&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WBCTkSN5Bkh9e6LreBHhPDMnfrY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1506.05914v1</id>
+    <updated>2015-06-19T08:45:22Z</updated>
+    <published>2015-06-19T08:45:22Z</published>
+    <title>The minimal number of generators of a Togliatti system</title>
+    <summary>  We compute the minimal and the maximal bound on the number of generators of a
+minimal smooth monomial Togliatti system of forms of degree $d$ in $n+1$
+variables, for any $d\ge 2$ and $n\geq 2$. We classify the Togliatti systems
+with number of generators reaching the lower bound or close to the lower bound.
+We then prove that if $n=2$ (resp $n=2,3$) all range between the lower and
+upper bound is covered, while if $n\geq 3$ (resp. $n\ge 4$) there are gaps if
+we only consider smooth minimal Togliatti systems (resp. if we avoid the
+smoothness hypothesis). We finally analyze for $n=2$ the Mumford-Takemoto
+stability of the syzygy bundle associated to smooth monomial Togliatti systems.
+</summary>
+    <author>
+      <name>Emilia Mezzetti</name>
+    </author>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1506.05914v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1506.05914v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10, 14M25, 14N05, 14N15, 53A20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

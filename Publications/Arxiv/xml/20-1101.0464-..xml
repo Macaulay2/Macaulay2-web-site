@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1101.0464%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1101.0464&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YOvbHVHf4+YPXy0ezZoVZ4En5pk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0464v2</id>
+    <updated>2011-02-22T15:30:38Z</updated>
+    <published>2011-01-03T08:18:46Z</published>
+    <title>The Aluffi Algebra</title>
+    <summary>  We deal with the quasi-symmetric algebra introduced by Paolo Aluffi, here
+named (embedded) Aluffi algebra. The algebra is a sort of "intermediate"
+algebra between the symmetric algebra and the Rees algebra of an ideal, which
+serves the purpose of introducing the characteristic cycle of a hypersurface in
+intersection theory. The results described in the present paper have an
+algebraic flavor and naturally connect with various themes of commutative
+algebra, such as standard bases \'a la Hironaka, Artin--Rees like questions,
+Valabrega--Valla ideals, ideals of linear type, relation type and analytic
+spread. We give estimates for the dimension of the Aluffi algebra and show
+that, pretty generally, the latter is equidimensional whenever the base ring is
+a hypersurface ring. There is a converse to this under certain conditions that
+essentially subsume the setup in Aluffi's theory, thus suggesting that this
+algebra will not handle cases other than the singular locus of a hypersurface.
+The torsion and the structure of the minimal primes of the algebra are
+clarified. In the case of a projective hypersurface the results are more
+precise and one is naturally led to look at families of projective plane
+singular curves to understand how the property of being of linear type
+deforms/specializes for the singular locus of a member. It is fairly elementary
+to show that the singular locus of an irreducible curve of degree at most 3 is
+of linear type. This is roundly false in degree larger than 4 and the picture
+looks pretty wild as we point out by means of some families. Degree 4 is the
+intriguing case. Here we are able to show that the singular locus of the
+generic member of a family of rational quartics, fixing the singularity type,
+is of linear type. We conjecture that every irreducible quartic has singular
+locus of linear type.
+</summary>
+    <author>
+      <name>Abbas Nasrollah Nejad</name>
+    </author>
+    <author>
+      <name>Aron Simis</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.5427/jsing.2011.3c</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.5427/jsing.2011.3c" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, published on the Journal of Singularities</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Singularities, volume 3(2011), 20-47</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1101.0464v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1101.0464v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 14B05, 14D06, 14H10, 13B25, 13C15, 13D02, 13F45, 13P10, 14H50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

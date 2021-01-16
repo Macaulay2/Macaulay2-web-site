@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0906.1083%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0906.1083&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+GFAd2mtlmn9jeoWO5st2Qs5aMI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0906.1083v2</id>
+    <updated>2009-12-14T10:37:41Z</updated>
+    <published>2009-06-05T10:36:46Z</published>
+    <title>A non-finitely generated algebra of Frobenius maps</title>
+    <summary>  The purpose of this paper is to answer a question raised by Gennady Lyubeznik
+and Karen Smith. This question involves the finite generation of the following
+non-commutative algebra.
+  Let $S$ be any commutative algebra of prime characteristic $p$. For any
+$S$-module $M$ and all $e\geq 0$ we let $\mathcal{F}^e(M)$ denote the set of
+all additive functions $\phi: M \to M$ with the property that $\phi(s
+m)=s^{p^e} \phi(m)$ for all $s\in S$ and $m\in M$. For all $e_1, e_2 \geq 0$,
+and $\phi_1\in \mathcal{F}^{e_1}(M)$, $\phi_2\in \mathcal{F}^{e_2}(M)$ the
+composition $\phi_2 \circ \phi_1$ is in $\mathcal{F}^{e_1+e_2}(M)$. Also, each
+$\mathcal{F}^{e}(M)$ is a module over $\mathcal{F}^{0}(M)=\Hom_{S}(M,M)$ via
+$\phi_0 \phi=\phi_0 \circ \phi$. We now define $\mathcal{F}(M)=\oplus_{e\geq 0}
+\mathcal{F}^e(M)$ and endow it with the structure of a $\Hom_{S}(M,M)$-algebra
+with multiplication given by composition.
+  We construct an example of an Artinian module over a complete local ring $S$
+for which $\mathcal{F}(M)$ is not a finitely generated $\Hom_{S}(M,M)$-algebra,
+thus giving a negative answer to the question raised by Lyubeznik and Smith.
+</summary>
+    <author>
+      <name>Mordechai Katzman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Misprints corrected. To appear in the Proceedings of the AMS</arxiv:comment>
+    <link href="http://arxiv.org/abs/0906.1083v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0906.1083v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35; 13E10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

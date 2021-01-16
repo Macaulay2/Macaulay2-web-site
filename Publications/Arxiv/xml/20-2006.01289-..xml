@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.01289%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.01289&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/w4mNGWae57QR+UYjHqPHZAanASQ</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.01289v1</id>
+    <updated>2020-06-01T22:17:49Z</updated>
+    <published>2020-06-01T22:17:49Z</published>
+    <title>Disguised toric dynamical systems</title>
+    <summary>  We study families of polynomial dynamical systems inspired by biochemical
+reaction networks. We focus on complex balanced mass-action systems, which have
+also been called toric dynamical systems. These systems are known or
+conjectured to enjoy very strong dynamical properties, such as existence and
+uniqueness of positive steady states, local and global stability, persistence,
+and permanence. We consider the class of disguised toric dynamical systems,
+which contains toric dynamical systems, and to which all dynamical properties
+mentioned above extend naturally. We show that, for some families of reaction
+networks, this new class is much larger than the class of toric systems. For
+example, for some networks we may even go from an empty locus of toric systems
+in parameter space to a positive-measure locus of disguised toric systems. We
+focus on the characterization of the disguised toric locus by means of (real)
+algebraic geometry.
+</summary>
+    <author>
+      <name>Laura Brustenga i Moncusí</name>
+    </author>
+    <author>
+      <name>Gheorghe Craciun</name>
+    </author>
+    <author>
+      <name>Miruna-Stefana Sorea</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.01289v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.01289v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P05, 14P10, 14Q30, 34D23, 34C08, 37E99," scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

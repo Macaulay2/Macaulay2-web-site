@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dhep-th%2F0511062%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=hep-th/0511062&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zm7ut1cugrKl0mBaKT5ET6JDvs4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/hep-th/0511062v2</id>
+    <updated>2006-05-12T20:33:55Z</updated>
+    <published>2005-11-04T21:13:21Z</published>
+    <title>Vacuum Geometry and the Search for New Physics</title>
+    <summary>  We propose a new guiding principle for phenomenology: special geometry in the
+vacuum space. New algorithmic methods which efficiently compute geometric
+properties of the vacuum space of N=1 supersymmetric gauge theories are
+described. We illustrate the technique on subsectors of the MSSM. The fragility
+of geometric structure that we find in the moduli space motivates
+phenomenologically realistic deformations of the superpotential, while arguing
+against others. Special geometry in the vacuum may therefore signal the
+presence of string physics underlying the low-energy effective theory.
+</summary>
+    <author>
+      <name>James Gray</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Vishnu Jejjala</name>
+    </author>
+    <author>
+      <name>Brent D. Nelson</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.physletb.2006.05.026</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, LaTeX; v2: revised title, minor changes in wording,
+  reference added</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys.Lett. B638 (2006) 253-257</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/hep-th/0511062v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/hep-th/0511062v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.physletb.2006.05.026" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

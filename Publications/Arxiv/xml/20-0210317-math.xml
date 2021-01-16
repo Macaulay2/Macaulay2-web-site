@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0210317%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0210317&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QiiNOaIV7qJBqraTunXvbgo3N5k</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210317v1</id>
+    <updated>2002-10-21T10:33:46Z</updated>
+    <published>2002-10-21T10:33:46Z</published>
+    <title>Irregular elliptic surfaces of degree 12 in the projective fourspace</title>
+    <summary>  So far only a few families of smooth irregular surfaces are known to exist in
+P^4 up to pullbacks by suitable finite morphisms from P^4 onto P^4 itself.
+  In this paper we present two different constructions of irregular smooth
+minimal elliptic surfaces of degree 12 in P^4. The first is a monad
+construction while the other uses liaison. The family constructed via liaison
+includes the surfaces of the first family as a special case.
+</summary>
+    <author>
+      <name>Hirotachi Abo</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0210317v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0210317v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

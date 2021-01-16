@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.05563%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.05563&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vJ7ZDSUQOxAt6YfANnzBGx5RoVs</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.05563v1</id>
+    <updated>2016-06-17T15:28:40Z</updated>
+    <published>2016-06-17T15:28:40Z</published>
+    <title>Computing all Space Curve Solutions of Polynomial Systems by Polyhedral
+  Methods</title>
+    <summary>  A polyhedral method to solve a system of polynomial equations exploits its
+sparse structure via the Newton polytopes of the polynomials. We propose a
+hybrid symbolic-numeric method to compute a Puiseux series expansion for every
+space curve that is a solution of a polynomial system. The focus of this paper
+concerns the difficult case when the leading powers of the Puiseux series of
+the space curve are contained in the relative interior of a higher dimensional
+cone of the tropical prevariety. We show that this difficult case does not
+occur for polynomials with generic coefficients. To resolve this case, we
+propose to apply polyhedral end games to recover tropisms hidden in the
+tropical prevariety.
+</summary>
+    <author>
+      <name>Nathan Bliss</name>
+    </author>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 1 figure, accepted for presentation at Computer Algebra in
+  Scientific Computing, CASC 2016</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.05563v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.05563v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

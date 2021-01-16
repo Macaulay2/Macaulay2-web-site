@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.04511%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.04511&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RC5xhlgaqUJZn50iC4XD/HwsKcY</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.04511v1</id>
+    <updated>2018-02-13T09:09:03Z</updated>
+    <published>2018-02-13T09:09:03Z</published>
+    <title>Equations defining probability tree models</title>
+    <summary>  Coloured probability tree models are statistical models coding conditional
+independence between events depicted in a tree graph. They are more general
+than the very important class of context-specific Bayesian networks. In this
+paper, we study the algebraic properties of their ideal of model invariants.
+The generators of this ideal can be easily read from the tree graph and have a
+straightforward interpretation in terms of the underlying model: they are
+differences of odds ratios coming from conditional probabilities. One of the
+key findings in this analysis is that the tree is a convenient tool for
+understanding the exact algebraic way in which the sum-to-1 conditions on the
+parameter space translate into the sum-to-one conditions on the joint
+probabilities of the statistical model. This enables us to identify necessary
+and sufficient graphical conditions for a staged tree model to be a toric
+variety intersected with a probability simplex.
+</summary>
+    <author>
+      <name>Eliana Duarte</name>
+    </author>
+    <author>
+      <name>Christiane Görgen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.04511v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.04511v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

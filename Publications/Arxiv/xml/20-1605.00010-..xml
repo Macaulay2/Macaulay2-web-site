@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.00010%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.00010&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LqBMjA9b64Tu9rHnUVHcr99LIag</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00010v2</id>
+    <updated>2016-08-19T20:35:03Z</updated>
+    <published>2016-04-29T20:00:06Z</published>
+    <title>Coulomb branches for rank 2 gauge groups in 3d N=4 gauge theories</title>
+    <summary>  The Coulomb branch of 3-dimensional N=4 gauge theories is the space of bare
+and dressed BPS monopole operators. We utilise the conformal dimension to
+define a fan which, upon intersection with the weight lattice of a GNO-dual
+group, gives rise to a collection of semi-groups. It turns out that the unique
+Hilbert bases of these semi-groups are a sufficient, finite set of monopole
+operators which generate the entire chiral ring. Moreover, the knowledge of the
+properties of the minimal generators is enough to compute the Hilbert series
+explicitly. The techniques of this paper allow an efficient evaluation of the
+Hilbert series for general rank gauge groups. As an application, we provide
+various examples for all rank two gauge groups to demonstrate the novel
+interpretation.
+</summary>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Marcus Sperling</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP08(2016)016</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP08(2016)016" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: 98 pages, 30 figures, 34 tables, 1 appendix, matches JHEP version</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.00010v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00010v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

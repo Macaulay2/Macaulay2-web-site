@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1910.10182%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1910.10182&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cYN5a1dKN+2gumJho/dUTUlCo5Y</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1910.10182v1</id>
+    <updated>2019-10-22T18:08:27Z</updated>
+    <published>2019-10-22T18:08:27Z</published>
+    <title>Rational fibered cubic fourfolds with nontrivial Brauer classes</title>
+    <summary>  Some classes of cubic fourfolds are birational to fibrations over $P^2$,
+where the fibers are rational surfaces. This relates strongly the rationality
+of the cubic with the rationality of these surfaces over the function field of
+$P^2$ and to the existence of rational sections of the fibration. It is an
+interesting question to understand whether the existence of a rational section
+is also necessary for the rationality of the cubic. Let $C_{18}$ denote the
+divisor inside the moduli space of smooth cubic hypersurfaces in $P^5$ whose
+general element is a smooth cubic containing an elliptic ruled surface
+associated to a sextic del Pezzo fibration. Cubics in $C_{18}$ are rational
+whenever the fibration has rational sections. By intersecting $C_{18}$ with the
+divisors $C_{14}$, $C_{26}$ and $C_{38}$, whose elements are known to be
+rational, we provide explicit description of these intersections and we exhibit
+new examples of rational cubic fourfolds whose associated good sextic del Pezzo
+fibration has no rational sections. We study also the divisor $C_{8}$, whose
+general element is a cubic containing a plane. These cubics are birational to
+quadric fibrations over $P^2$. Intersections between $C_8$ and the divisors
+$C_{26}$, $C_{38}$ give us also new classes of smooth rational cubic fourfolds
+whose associated quadric surface bundle doesn't have a rational section.
+</summary>
+    <author>
+      <name>Hanine Awada</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1910.10182v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1910.10182v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

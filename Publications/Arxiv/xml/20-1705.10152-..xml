@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.10152%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.10152&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e+8R0nWuh67ZPL63MbyVw3p5XnY</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10152v1</id>
+    <updated>2017-05-29T12:46:32Z</updated>
+    <published>2017-05-29T12:46:32Z</published>
+    <title>Tangent Cones to TT Varieties</title>
+    <summary>  As already done for the matrix case for example in [Joe Harris, Algebraic
+Geometry - A first course, p.256] we give a parametrization of the Bouligand
+tangent cone of the variety of tensors of bounded TT rank. We discuss how the
+proof generalizes to any binary hierarchical format. The parametrization can be
+rewritten as an orthogonal sum of TT tensors. Its retraction onto the variety
+is particularly easy to compose. We also give an implicit description of the
+tangent cone as the solution of a system of polynomial equations.
+</summary>
+    <author>
+      <name>Benjamin Kutschan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1705.10152v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.10152v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 65K10, 62Fxx" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

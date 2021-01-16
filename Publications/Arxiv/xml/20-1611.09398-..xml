@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.09398%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.09398&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mX5sOCVaNYsF5QMhI8emTZFenDc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.09398v1</id>
+    <updated>2016-11-28T21:48:02Z</updated>
+    <published>2016-11-28T21:48:02Z</published>
+    <title>Calabi-Yau Varieties: from Quiver Representations to Dessins d'Enfants</title>
+    <summary>  The connections amongst (1) quivers whose representation varieties are
+Calabi-Yau, (2) the combinatorics of bipartite graphs on Riemann surfaces, and
+(3) the geometry of mirror symmetry have engendered a rich subject at whose
+heart is the physics of gauge/string theories.
+  We review the various parts of this intricate story in some depth, for a
+mathematical audience without assumption of any knowledge of physics,
+emphasizing a plethora of results residing at the intersection between
+algebraic geometry, representation theory and number theory.
+</summary>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 25 figures; Invited chapter contribution to
+  "Grothendieck-Teichmuller Theories and Impact", L. Ji, A. Papadopoulos, L.
+  Schneps, &amp; W. Su Ed</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.09398v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.09398v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

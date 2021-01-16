@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.05805%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.05805&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/veIS4FoVbUmSZDs3I7D6Jda9cT4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.05805v1</id>
+    <updated>2016-11-17T18:09:22Z</updated>
+    <published>2016-11-17T18:09:22Z</published>
+    <title>Phylogenetic trees</title>
+    <summary>  We introduce the package PhylogeneticTrees for Macaulay2 which allows users
+to compute phylogenetic invariants for group-based tree models. We provide some
+background information on phylogenetic algebraic geometry and show how the
+package PhylogeneticTrees can be used to calculate a generating set for a
+phylogenetic ideal as well as a lower bound for its dimension. Finally, we show
+how methods within the package can be used to compute a generating set for the
+join of any two ideals.
+</summary>
+    <author>
+      <name>Hector Baños</name>
+    </author>
+    <author>
+      <name>Nathaniel Bushek</name>
+    </author>
+    <author>
+      <name>Ruth Davidson</name>
+    </author>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Pamela E. Harris</name>
+    </author>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Colby Long</name>
+    </author>
+    <author>
+      <name>Allen Stewart</name>
+    </author>
+    <author>
+      <name>Robert Walker</name>
+    </author>
+    <link href="http://arxiv.org/abs/1611.05805v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.05805v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

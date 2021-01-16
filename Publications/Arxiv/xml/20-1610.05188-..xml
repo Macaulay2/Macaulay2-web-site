@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.05188%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.05188&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//ohLnjoOYLhUmEhzis/URSNwOgA</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.05188v1</id>
+    <updated>2016-10-17T16:11:34Z</updated>
+    <published>2016-10-17T16:11:34Z</published>
+    <title>Subdivision and spline spaces</title>
+    <summary>  A standard construction in approximation theory is mesh refinement. For a
+simplicial or polyhedral mesh D in R^k, we study the subdivision D' obtained by
+subdividing a maximal cell of D. We give sufficient conditions for the module
+of splines on D' to split as the direct sum of splines on D and splines on the
+subdivided cell. As a consequence, we obtain dimension formulas and explicit
+bases for several commonly used subdivisions and their multivariate
+generalizations.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Tatyana Sorokina</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.05188v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.05188v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 41A15, Secondary 13D40, 52C99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

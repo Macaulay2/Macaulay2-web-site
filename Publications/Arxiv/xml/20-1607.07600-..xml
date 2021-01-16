@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.07600%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.07600&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MgikHNzpl7nxXrovXZkIGYHorxQ</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07600v1</id>
+    <updated>2016-07-26T09:14:50Z</updated>
+    <published>2016-07-26T09:14:50Z</published>
+    <title>An introduction to computational algebraic statistics</title>
+    <summary>  In this paper, we introduce the fundamental notion of a Markov basis, which
+is one of the first connections between commutative algebra and statistics. The
+notion of a Markov basis is first introduced by Diaconis and Sturmfels (1998)
+for conditional testing problems on contingency tables by Markov chain Monte
+Carlo methods. In this method, we make use of a connected Markov chain over the
+given conditional sample space to estimate the P-values numerically for various
+conditional tests. A Markov basis plays an importance role in this arguments,
+because it guarantees the connectivity of the chain, which is needed for
+unbiasedness of the estimate, for arbitrary conditional sample space. As
+another important point, a Markov basis is characterized as generators of the
+well-specified toric ideals of polynomial rings. This connection between
+commutative algebra and statistics is the main result of Diaconis and Sturmfels
+(1998). After this first paper, a Markov basis is studied intensively by many
+researchers both in commutative algebra and statistics, which yields an
+attractive field called computational algebraic statistics. In this paper, we
+give a review of the Markov chain Monte Carlo methods for contingency tables
+and Markov bases, with some fundamental examples. We also give some
+computational examples by algebraic software Macaulay2 and statistical software
+R. Readers can also find theoretical details of the problems considered in this
+paper and various results on the structure and examples of Markov bases in
+Aoki, Hara and Takemura (2012).
+</summary>
+    <author>
+      <name>Satoshi Aoki</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Kobe-Lyon Summer School (2015), Lecture Notes, Algorithms and
+  Computation in Mathematics, 28 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1607.07600v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.07600v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62H17, 65C05, 65C40, 13F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

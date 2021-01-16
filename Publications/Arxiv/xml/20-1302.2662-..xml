@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1302.2662%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1302.2662&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/N7xe1mmTXZTVtGDMVKl42pUavwQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1302.2662v2</id>
+    <updated>2013-05-11T05:54:55Z</updated>
+    <published>2013-02-11T22:50:22Z</published>
+    <title>The Hilbert series of a linear symplectic circle quotient</title>
+    <summary>  We compute the Hilbert series of the graded algebra of regular functions on a
+symplectic quotient of a unitary circle representation. Additionally, we
+elaborate explicit formulas for the lowest coefficients of the Laurent
+expansion of such a Hilbert series in terms of rational symmetric functions of
+the weights. Considerable efforts are devoted to including the cases where the
+weights are degenerate. We find that these Laurent expansions formally resemble
+Laurent expansions of Hilbert series of graded rings of real invariants of
+finite subgroups of $\U_n$. Moreover, we prove that certain Laurent
+coefficients are strictly positive. Experimental observations are presented
+concerning the behavior of these coefficients as well as relations among higher
+coefficients, providing empirical evidence that these relations hold in
+general.
+</summary>
+    <author>
+      <name>Hans-Christian Herbig</name>
+    </author>
+    <author>
+      <name>Christopher Seaton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 1 figure; minor revisions and elaborations</arxiv:comment>
+    <link href="http://arxiv.org/abs/1302.2662v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1302.2662v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 53D20, 13A50, Secondary 11F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.11337%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.11337&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/khgjGuhCtBw44zjW3Ch5VP2Yu+s</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.11337v1</id>
+    <updated>2019-06-26T20:29:17Z</updated>
+    <published>2019-06-26T20:29:17Z</published>
+    <title>Voronoi Cells in Metric Algebraic Geometry of Plane Curves</title>
+    <summary>  Voronoi cells of varieties encode many features of their metric geometry. We
+prove that each Voronoi or Delaunay cell of a plane curve appears as the limit
+of a sequence of cells obtained from point samples of the curve. We then use
+this result to study metric features of plane curves, including the medial
+axis, curvature, evolute, bottlenecks, and reach. In each case, we provide
+algebraic equations defining the object and, where possible, give formulas for
+the degrees of these algebraic varieties. We then show how to identify the
+desired metric feature from Voronoi or Delaunay cells, and therefore how to
+approximate it by a finite point sample from the variety.
+</summary>
+    <author>
+      <name>Madeline Brandt</name>
+    </author>
+    <author>
+      <name>Madeleine Weinstein</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 14 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1906.11337v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.11337v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

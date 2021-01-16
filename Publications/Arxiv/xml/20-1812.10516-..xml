@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.10516%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.10516&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/itpFwkmfn91TKmREBd9/utBMBxs</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.10516v1</id>
+    <updated>2018-12-26T19:56:12Z</updated>
+    <published>2018-12-26T19:56:12Z</published>
+    <title>Bott vanishing for algebraic surfaces</title>
+    <summary>  Bott proved a strong vanishing theorem for sheaf cohomology on projective
+space. It holds for toric varieties, but not for most other varieties.
+  We prove Bott vanishing for the quintic del Pezzo surface, also known as the
+moduli space M_{0,5}^bar of 5-pointed stable curves of genus zero. This is the
+first non-toric Fano variety for which Bott vanishing has been shown, answering
+a question by Achinger, Witaszek, and Zdanowicz.
+  In another direction, we prove Bott vanishing for many K3 surfaces, including
+very general K3 surfaces of degree 20 or at least 24. This builds on Beauville
+and Mukai's work on moduli spaces of K3 surfaces. It would be interesting to
+determine exactly which K3 surfaces satisfy Bott vanishing.
+</summary>
+    <author>
+      <name>Burt Totaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.10516v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.10516v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F17, 14J26, 14J28" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

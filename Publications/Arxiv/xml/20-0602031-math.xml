@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0602031%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0602031&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tzuOPTBOPQft53tIMMl85CYnYt8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0602031v2</id>
+    <updated>2007-01-04T21:29:47Z</updated>
+    <published>2006-02-01T21:49:09Z</published>
+    <title>Higher-Order Deflation for Polynomial Systems with Isolated Singular
+  Solutions</title>
+    <summary>  Given an approximation to a multiple isolated solution of a polynomial system
+of equations, we have provided a symbolic-numeric deflation algorithm to
+restore the quadratic convergence of Newton's method. Using first-order
+derivatives of the polynomials in the system, our method creates an augmented
+system of equations which has the multiple isolated solution of the original
+system as a regular root.
+  In this paper we consider two approaches to computing the ``multiplicity
+structure'' at a singular isolated solution. An idea coming from one of them
+gives rise to our new higher-order deflation method. Using higher-order partial
+derivatives of the original polynomials, the new algorithm reduces the
+multiplicity faster than our first method for systems which require several
+first-order deflation steps.
+  We also present an algorithm to predict the order of the deflation.
+</summary>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <author>
+      <name>Ailing Zhao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0602031v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0602031v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H10;14Q99, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

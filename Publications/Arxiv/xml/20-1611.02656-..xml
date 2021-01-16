@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.02656%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.02656&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LQota/HsjEaM0gwhgL4DQU0zd0c</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.02656v1</id>
+    <updated>2016-11-08T19:05:43Z</updated>
+    <published>2016-11-08T19:05:43Z</published>
+    <title>Synchrony in a Boolean network model of the L-arabinose operon in
+  Escherichia coli</title>
+    <summary>  The lactose operon in Escherichia coli was the first known gene regulatory
+network, and it is frequently used as a prototype for new modeling paradigms.
+Historically, many of these modeling frameworks use differential equations.
+More recently, Stigler and Veliz-Cuba proposed a Boolean network model that
+captures the bistability of the system and all of the biological steady states.
+In this paper, we model the well-known arabinose operon in E. coli with a
+Boolean network. This has several complex features not found in the lac operon,
+such as a protein that is both an activator and repressor, a DNA looping
+mechanism for gene repression, and the lack of inducer exclusion by glucose.
+For 11 out of 12 choices of initial conditions, we use computational algebra
+and Sage to verify that the state space contains a single fixed point that
+correctly matches the biology. The final initial condition, medium levels of
+arabinose and no glucose, successfully predicts the system's bistability.
+Finally, we compare the state space under synchronous and asynchronous update,
+and see that the former has several artificial cycles that go away under a
+general asynchronous update.
+</summary>
+    <author>
+      <name>Andy Jenkins</name>
+    </author>
+    <author>
+      <name>Matthew Macauley</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.02656v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.02656v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="92C42 (Primary), 13P25, 13P10, 70K05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

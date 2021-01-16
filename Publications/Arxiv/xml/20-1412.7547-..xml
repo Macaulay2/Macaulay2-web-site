@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1412.7547%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1412.7547&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aNxTwsImn+D9tBJBdPubU23v+6o</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1412.7547v1</id>
+    <updated>2014-12-23T21:15:05Z</updated>
+    <published>2014-12-23T21:15:05Z</published>
+    <title>On the complexity of computing Gr{ö}bner bases for weighted
+  homogeneous systems</title>
+    <summary>  Solving polynomial systems arising from applications is frequently made
+easier by the structure of the systems. Weighted homogeneity (or
+quasi-homogeneity) is one example of such a structure: given a system of
+weights $W=(w\_{1}, ...,w\_{n})$, $W$-homogeneous polynomials are polynomials
+which are homogeneous w.r.t the weighted degree
+$\deg\_{W}(X\_{1}^{\alpha\_{1}}, ...,X\_{n}^{\alpha\_{n}}) = \sum
+w\_{i}\alpha\_{i}$. Gr{\"o}bner bases for weighted homogeneous systems can be
+computed by adapting existing algorithms for homogeneous systems to the
+weighted homogeneous case. We show that in this case, the complexity estimate
+for Algorithm \F5 $(\binom{n+\dmax-1}{\dmax}^{\omega})$ can be divided by a
+factor $(\prod w\_{i})^{\omega}$. For zero-dimensional systems, the complexity
+of Algorithm \FGLM $nD^{\omega}$ (where $D$ is the number of solutions of the
+system) can be divided by the same factor $(\prod w\_{i})^{\omega}$. Under
+genericity assumptions, for zero-dimensional weighted homogeneous systems of
+$W$-degree $(d\_{1}, ...,d\_{n})$, these complexity estimates are polynomial in
+the weighted B{\'e}zout bound $\prod\_{i=1}^{n}d\_{i} /
+\prod\_{i=1}^{n}w\_{i}$.
+  Furthermore, the maximum degree reached in a run of Algorithm \F5 is bounded
+by the weighted Macaulay bound $\sum (d\_{i}-w\_{i}) + w\_{n}$, and this bound
+is sharp if we can order the weights so that $w\_{n}=1$. For overdetermined
+semi-regular systems, estimates from the homogeneous case can be adapted to the
+weighted case.
+  We provide some experimental results based on systems arising from a
+cryptography problem and from polynomial inversion problems. They show that
+taking advantage of the weighted homogeneous structure yields substantial
+speed-ups, and allows us to solve systems which were otherwise out of reach.
+</summary>
+    <author>
+      <name>Jean-Charles Faugère</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Systèmes Polynomiaux</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Safey El Din Mohab</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Systèmes Polynomiaux</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thibaut Verron</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Systèmes Polynomiaux</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/1412.7547v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1412.7547v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

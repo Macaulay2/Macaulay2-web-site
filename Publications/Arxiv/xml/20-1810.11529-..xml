@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.11529%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.11529&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CPHUpxNrT4RtmCAjNxkDjLA0460</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.11529v1</id>
+    <updated>2018-10-26T21:07:35Z</updated>
+    <published>2018-10-26T21:07:35Z</published>
+    <title>On Some Configurations of Oppositely Charged Trapped Vortices in the
+  Plane</title>
+    <summary>  Our aim in the present work is to identify all the possible standing wave
+configurations involving few vortices of different charges in an atomic
+Bose-Einstein condensate (BEC). In this effort, we deploy the use of a
+computational algebra approach in order to identify stationary multi-vortex
+states with up to 6 vortices. The use of invariants and symmetries enables
+deducing a set of equations in elementary symmetric polynomials, which can then
+be fully solved via computational algebra packages within Maple. We retrieve a
+number of previously identified configurations, including collinear ones and
+polygonal (e.g. quadrupolar and hexagonal) ones. However, importantly, we also
+retrieve a configuration with 4 positive charges and 2 negative ones which is
+unprecedented, to the best of our knowledge, in BEC studies. We corroborate
+these predictions via numerical computations in the fully two-dimensional PDE
+system of the Gross-Pitaevskii type which characterizes the BEC at the
+mean-field level.
+</summary>
+    <author>
+      <name>Emilie Dufresne</name>
+    </author>
+    <author>
+      <name>Heather A Harrington</name>
+    </author>
+    <author>
+      <name>Panayotis G Kevrekidis</name>
+    </author>
+    <author>
+      <name>Paolo Tripoli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.11529v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.11529v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.PS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

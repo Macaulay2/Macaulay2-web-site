@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0911.5276%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0911.5276&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4NBMYWhZuHdpI0gEji5hHCNCbps</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0911.5276v1</id>
+    <updated>2009-11-27T14:28:25Z</updated>
+    <published>2009-11-27T14:28:25Z</published>
+    <title>Set-theoretic defining equations of the tangential variety of the Segre
+  variety</title>
+    <summary>  We prove a set-theoretic version of the Landsberg--Weyman Conjecture on the
+defining equations of the tangential variety of a Segre product of projective
+spaces. We introduce and study the concept of exclusive rank. For the proof of
+this conjecture we use a connection to the author's previous work
+\cite{oeding_pm_paper, oeding_thesis} and re-express the tangential variety as
+the variety of principal minors of symmetric matrices that have exclusive rank
+no more than one.
+</summary>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jpaa.2010.09.009</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jpaa.2010.09.009" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0911.5276v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0911.5276v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L30, 13A50, 14M12, 20G05, 15A72, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

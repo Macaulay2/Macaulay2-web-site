@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0204044%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0204044&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sAdxzrqlA7xW9f+viQoHy36FURg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0204044v3</id>
+    <updated>2003-11-13T22:59:28Z</updated>
+    <published>2002-04-03T10:18:43Z</published>
+    <title>Non-connected toric Hilbert schemes</title>
+    <summary>  We construct small (50 and 26 points, respectively) point sets in dimension 5
+whose graphs of triangulations are not connected. These examples improve our
+construction in J. Amer. Math. Soc., 13:3 (2000), 611--637 not only in size,
+but also in that their toric Hilbert schemes are not connected either, a
+question left open in that article. Additionally, the point sets can easily be
+put into convex position, providing examples of 5-dimensional polytopes with
+non-connected graph of triangulations.
+</summary>
+    <author>
+      <name>Francisco Santos</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s00208-005-0643-5</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 2 figures. Except for Remark 2.6 (see below) changes w.r.t.
+  version 2 are mostly minor editings suggested by an anonimous referee of
+  "Mathematische Annalen". The paper has been accepted in that journal. Most of
+  the contents of Remark 2.6 have been deleted, since there was a flaw in the
+  argument</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Mathematische Annalen, 332:3 (2005), 645-665</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0204044v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0204044v3" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s00208-005-0643-5" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B11; 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

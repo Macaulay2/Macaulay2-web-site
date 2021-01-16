@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.02017%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.02017&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZKhUHt97qPb1t42iRm1i+Co4XlI</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.02017v1</id>
+    <updated>2018-03-06T04:53:05Z</updated>
+    <published>2018-03-06T04:53:05Z</published>
+    <title>Depth and regularity of monomial ideals via polarization and
+  combinatorial optimization</title>
+    <summary>  In this paper we use polarization to study the behavior of the depth and
+regularity of a monomial ideal $I$, locally at a variable $x_i$, when we lower
+the degree of all the highest powers of the variable $x_i$ occurring in the
+minimal generating set of $I$, and examine the depth and regularity of powers
+of edge ideals of clutters using combinatorial optimization techniques. If $I$
+is the edge ideal of an unmixed clutter with the max-flow min-cut property, we
+show that the powers of $I$ have non-increasing depth and non-decreasing
+regularity. As a consequence edge ideals of unmixed bipartite graphs have
+non-increasing depth. We are able to show that the symbolic powers of the ideal
+of covers of the clique clutter of a strongly perfect graph have non-increasing
+depth. A similar result holds for the ideal of covers of a uniform ideal
+clutter.
+</summary>
+    <author>
+      <name>Jose Martínez-Bernal</name>
+    </author>
+    <author>
+      <name>Susan Morey</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <author>
+      <name>Carlos E. Vivares</name>
+    </author>
+    <link href="http://arxiv.org/abs/1803.02017v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.02017v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 05C22, 05E40, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

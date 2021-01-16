@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0002247%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0002247&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aDjIY2IBlMt4Gms+D21z+0F0eXM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0002247v1</id>
+    <updated>2000-02-29T14:29:48Z</updated>
+    <published>2000-02-29T14:29:48Z</published>
+    <title>Computer Algebra and Algebraic Geometry - Achievements and Perspectives</title>
+    <summary>  In this survey I should like to introduce some concepts of algebraic geometry
+and try to demonstrate the fruitful interaction between algebraic geometry and
+computer algebra and, more generally, between mathematics and computer science.
+One of the aims of this article is to show, by means of examples, the
+usefulness of computer algebra to mathematical research.
+</summary>
+    <author>
+      <name>Gert-Martin Greuel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 36 figures, to appear in: Journal of Symbolic Computation,
+  2000</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Centre for Computer Algebra, University of Kaiserslautern, Reports
+  On Computer Algebra, No. 29 (2000)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0002247v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0002247v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 14Q99, 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

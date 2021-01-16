@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0010168%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0010168&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TVArS28fR+p2Q60bOIo+WmhEb5U</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010168v1</id>
+    <updated>2000-10-17T22:10:24Z</updated>
+    <published>2000-10-17T22:10:24Z</published>
+    <title>Annihilators of Ideals of Exterior Algebras</title>
+    <summary>  The Orlik-Solomon algebra A of a matroid is isomorphic to the quotient of an
+exterior algebra E by a defining ideal I. We find an explicit presentation of
+the annihilator ideal of I or, equivalently, the E-module dual to A. As an
+application of that we provide a necessary, combinatorial condition for the
+algebra A to be quadratic. We show that this is stronger than matroid being
+line-closed thereby resolving (negatively) a conjecture by Falk. We also show
+that our condition is not sufficient for the quadraticity.
+</summary>
+    <author>
+      <name>Graham Denham</name>
+    </author>
+    <author>
+      <name>Sergey Yuzvinsky</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages; submitted to Advances in Applied Math</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0010168v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0010168v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C35, 05B35; 16E05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

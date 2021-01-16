@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.02450%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.02450&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9n48+dcTaE1DqHP2o3t5Bfl3SzE</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.02450v3</id>
+    <updated>2020-12-19T20:26:45Z</updated>
+    <published>2020-09-05T03:15:57Z</published>
+    <title>Chiral Rings, Futaki Invariants, Plethystics, and Groebner Bases</title>
+    <summary>  We study chiral rings of 4d $\mathcal{N}=1$ supersymmetric gauge theories via
+the notion of K-stability. We show that when using Hilbert series to perform
+the computations of Futaki invariants, it is not enough to only include the
+test symmetry information in the former's denominator. We discuss a way to
+modify the numerator so that K-stability can be correctly determined, and a
+rescaling method is also applied to simplify the calculations involving test
+configurations. All of these are illustrated with a host of examples, by
+considering vacuum moduli spaces of various theories. Using Gr\"obner basis and
+plethystic techniques, many non-complete intersections can also be addressed,
+thus expanding the list of known theories in the literature.
+</summary>
+    <author>
+      <name>Jiakang Bao</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Yan Xiao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">49 pages; v3: minor corrections</arxiv:comment>
+    <link href="http://arxiv.org/abs/2009.02450v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.02450v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

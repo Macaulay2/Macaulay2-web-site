@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.05295%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.05295&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lOxlevrePPKwT2JqC3YwohmQ/g8</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05295v1</id>
+    <updated>2018-06-13T22:52:55Z</updated>
+    <published>2018-06-13T22:52:55Z</published>
+    <title>A homological characterization for freeness of multi-arrangements</title>
+    <summary>  Building on work of Brandt and Terao in their study of $k$-formality, we
+introduce a co-chain complex associated to a multi-arrangement and prove that
+its cohomologies determine freeness of the associated module of
+multi-derivations. This provides a new homological method for determining
+freeness of arrangements and multi-arrangements. We work out many applications
+of this homological method. For instance, we prove that if a multi-arrangement
+is free then the underlying arrangement is $k$-formal for all $k\ge 2$. We also
+use this method to completely characterize freeness of certain families of
+multi-arrangements in moduli, showcasing how the geometry of multi-arrangements
+with the same intersection lattice may have considerable impact on freeness.
+New counter-examples to Orlik's conjecture also arise in connection to this
+latter analysis.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">37 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.05295v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.05295v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14Q10, Secondary 13P20, 13D02, 13N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

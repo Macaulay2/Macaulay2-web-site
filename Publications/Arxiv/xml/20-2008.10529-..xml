@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2008.10529%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2008.10529&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iBxEJgBsuMpN4/H6HRt0Q2nZ4Zs</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2008.10529v4</id>
+    <updated>2020-09-24T13:34:26Z</updated>
+    <published>2020-08-24T16:06:25Z</published>
+    <title>Lowest non-zero vanishing cohomology of holomorphic functions</title>
+    <summary>  We study the vanishing cycle complex $\varphi_fA_X$ for a holomorphic
+function $f$ on a reduced complex analytic space $X$ with $A$ a Dedekind domain
+(for instance, a localization of the ring of integers of a cyclotomic field,
+where the monodromy eigenvalue decomposition may hold after a localization of
+$A$). Assuming the perversity of the shifted constant sheaf $A_X[d_X]$, we show
+that the lowest possibly-non-zero vanishing cohomology at $0\in X$ can be
+calculated by the restriction of $\varphi_fA_X$ to an appropriate nearby curve
+in the singular locus $Y$ of $f$, which is given by intersecting $Y$ with the
+intersection of sufficiently general hyperplanes in the ambient space passing
+sufficiently near 0. The proof uses a Lefschetz type theorem for local
+fundamental groups. In the homogeneous polynomial case, a similar assertion
+follows from Artin's vanishing theorem. By a related argument we can show the
+vanishing of the non-unipotent monodromy part of the first Milnor cohomology
+for many central hyperplane arrangements with ambient dimension at least 4.
+</summary>
+    <author>
+      <name>Morihiko Saito</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2008.10529v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2008.10529v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

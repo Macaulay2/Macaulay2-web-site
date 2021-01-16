@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.03054%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.03054&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Qyw5//S3D0DUrbDsEksjjPdasQ0</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.03054v1</id>
+    <updated>2015-04-13T03:26:23Z</updated>
+    <published>2015-04-13T03:26:23Z</published>
+    <title>Symplectic Lefschetz Fibrations from a Lie-theoretical Viewpoint</title>
+    <summary>  This is an announcement of results proved in [GGS1], [GGS2], [C], and [CG]
+where methods from Lie theory were used as new tools for the study of
+symplectic Lefschetz fibrations.
+</summary>
+    <author>
+      <name>B. Callander</name>
+    </author>
+    <author>
+      <name>E. Gasparim</name>
+    </author>
+    <author>
+      <name>L. Grama</name>
+    </author>
+    <author>
+      <name>L. A. B. San Martin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in Memoirs of Langlands, TQFT and Mirror Symmetry (Playa
+  del Carmen 2014)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.03054v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.03054v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

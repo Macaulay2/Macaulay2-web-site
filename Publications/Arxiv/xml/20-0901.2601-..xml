@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0901.2601%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0901.2601&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0yH9s9c28+F9UeB4iA99tuTi27g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0901.2601v1</id>
+    <updated>2009-01-17T00:40:14Z</updated>
+    <published>2009-01-17T00:40:14Z</published>
+    <title>Non-Defectivity of Grassmannians of planes</title>
+    <summary>  Let $Gr(k,n)$ be the Pl\"ucker embedding of the Grassmann variety of
+projective $k$-planes in $\P n$. For a projective variety $X$, let
+$\sigma_s(X)$ denote the variety of its $s-1$ secant planes. More precisely,
+$\sigma_s(X)$ denotes the Zariski closure of the union of linear spans of
+$s$-tuples of points lying on $X$. We exhibit two functions $s_0(n)\le s_1(n)$
+such that $\sigma_s(Gr(2,n))$ has the expected dimension whenever $n\geq 9$ and
+either $s\le s_0(n)$ or $s_1(n)\le s$. Both $s_0(n)$ and $s_1(n)$ are
+asymptotic to $\frac{n^2}{18}$. This yields, asymptotically, the typical rank
+of an element of $\wedge^{3} 1pt {\mathbb C}^{n+1}$. Finally, we classify all
+defective $\sigma_s(Gr(k,n))$ for $s\le 6$ and provide geometric arguments
+underlying each defective case.
+</summary>
+    <author>
+      <name>Hirotachi Abo</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Chris Peterson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0901.2601v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0901.2601v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 15A72, 14Q99, 14M12, 14M99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1005.3707%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1005.3707&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bFqaKOE2w+mhhwc8a8EGWtkVA+g</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1005.3707v4</id>
+    <updated>2010-10-30T09:02:49Z</updated>
+    <published>2010-05-20T14:29:24Z</published>
+    <title>Moduli and BPS configurations of the BLG theory</title>
+    <summary>  We study the moduli space of scalars in the BLG theory with and without a
+constant background four-form field. The classical vacuum moduli space is
+sixteen-dimensional in the absence of the four-form field. In its presence,
+however, the moduli space of BPS configurations may be reduced in dimension. We
+exemplify this with a BPS configuration having $SO(1,2)$ world-volume symmetry
+and $SO(4) \times SO(4)$ R-symmetry in the presence of a four-form field, by
+constructing an explicit solution.
+</summary>
+    <author>
+      <name>Shankhadeep Chakrabortty</name>
+    </author>
+    <author>
+      <name>Sudipto Paul Chowdhury</name>
+    </author>
+    <author>
+      <name>Thomas Köppe</name>
+    </author>
+    <author>
+      <name>Koushik Ray</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.physletb.2010.10.040</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.physletb.2010.10.040" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, LaTeX. References added. Zero mode of the gauge field is
+  shown to furnish the 16th dimension of the moduli space. Some discussions
+  improved. Version to appear in Physics Letters B</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys.Lett.B695:285-289,2011</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1005.3707v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1005.3707v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

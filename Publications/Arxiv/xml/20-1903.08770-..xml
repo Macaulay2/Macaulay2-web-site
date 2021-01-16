@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.08770%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.08770&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/33FZ6sGQLcVtCsMjHL8g5Ks+eUU</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.08770v1</id>
+    <updated>2019-03-20T22:50:40Z</updated>
+    <published>2019-03-20T22:50:40Z</published>
+    <title>Syzygies in Hilbert schemes of complete intersections</title>
+    <summary>  Let $ d_1, \ldots, d_{c} $ be positive integers and let $ Y \subseteq
+\mathbb{P}^n$ be the monomial complete intersection defined by the vanishing of
+$x_1^{d_1}, \ldots, x_{c}^{d_{c}}$. For each Hilbert polynomial $p(\zeta)$ we
+construct a distinguished point in the Hilbert scheme
+$\mathrm{Hilb}^{p(\zeta)}(Y)$, called the expansive point. We develop a theory
+of expansive ideals, and show that they play for Hilbert polynomials the same
+role lexicographic ideals play for Hilbert functions. For instance, expansive
+ideals maximize number of generators and syzygies, they form descending chains
+of inclusions, and exhibit an extremal behavior with respect to hyperplane
+sections. Conjecturally, expansive subschemes provide uniform sharp upper
+bounds for the syzygies of subschemes $Z \in \mathrm{Hilb}^{p(\zeta)}(X)$ for
+all complete intersections $X = X(d_1, \ldots, d_{c}) \subseteq
+\mathrm{P}^{n}$. In some cases, the expansive point achieves extremal Betti
+numbers for the infinite free resolutions associated to subschemes in $
+\mathrm{Hilb}^{p(\zeta)}(Y)$. Our approach is new even in the special case $Y =
+\mathbb{P}^{n}$, where it provides several novel results and a simpler proof of
+a theorem of Murai and the first author.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Alessio Sammartano</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.08770v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.08770v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13C40, 13F20, 14C05, 14M10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1109.1423%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1109.1423&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9zg9pxKFKEY2qi5HV7efGOx911I</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1109.1423v1</id>
+    <updated>2011-09-07T11:34:28Z</updated>
+    <published>2011-09-07T11:34:28Z</published>
+    <title>Implicitization of rational maps</title>
+    <summary>  Motivated by the interest in computing explicit formulas for resultants and
+discriminants initiated by B\'ezout, Cayley and Sylvester in the eighteenth and
+nineteenth centuries, and emphasized in the latest years due to the increase of
+computing power, we focus on the implicitization of hypersurfaces in several
+contexts. Our approach is based on the use of linear syzygies by means of
+approximation complexes, following [Bus\'e Jouanolou 03], where they develop
+the theory for a rational map $f:P^{n-1}\dashrightarrow P^n$. Approximation
+complexes were first introduced by Herzog, Simis and Vasconcelos in [Herzog
+Simis Vasconcelos 82] almost 30 years ago. The main obstruction for this
+approximation complex-based method comes from the bad behavior of the base
+locus of $f$. Thus, it is natural to try different compatifications of
+$A^{n-1}$, that are better suited to the map $f$, in order to avoid unwanted
+base points. With this purpose, in this thesis we study toric compactifications
+$T$ for $A^{n-1}$. We provide resolutions $Z.$ for $Sym_I(A)$, such that
+$\det((Z.)_\nu)$ gives a multiple of the implicit equation, for a graded strand
+$\nu\gg 0$. Precisely, we give specific bounds $\nu$ on all these settings
+which depend on the regularity of $\SIA$. Starting from the homogeneous
+structure of the Cox ring of a toric variety, graded by the divisor class group
+of $T$, we give a general definition of Castelnuovo-Mumford regularity for a
+polynomial ring $R$ over a commutative ring $k$, graded by a finitely generated
+abelian group $G$, in terms of the support of some local cohomology modules. As
+in the standard case, for a $G$-graded $R$-module $M$ and an homogeneous ideal
+$B$ of $R$, we relate the support of $H_B^i(M)$ with the support of
+$Tor_j^R(M,k)$.
+</summary>
+    <author>
+      <name>Nicolas Botbol</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">PhD. Thesis of the author, from Universit\'e de Paris VI and
+  Univesidad de Buenos Aires. Advisors: Marc Chardin and Alicia Dickenstein.
+  Defended the 29th september 2010. 163 pages 15 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1109.1423v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1109.1423v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

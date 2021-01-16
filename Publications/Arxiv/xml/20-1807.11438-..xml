@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.11438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.11438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5PeiE2oYazBnv8JwDonrVtYIy7w</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.11438v1</id>
+    <updated>2018-07-30T16:52:58Z</updated>
+    <published>2018-07-30T16:52:58Z</published>
+    <title>Lehn-Sorger example via Cox ring and torus action</title>
+    <summary>  We present a new approach to effective construction of Cox rings of crepant
+resolutions of quotient singularities based on the action of an algebraic
+torus. In the present paper we deal with a symplectic resolution of a quotient
+of $\mathbb{C}^4$ by a reducible symplectic representation of the binary
+tetrahedral group which admits an action of rank two algebraic torus
+$(\mathbb{C}^*)^2$. We use the Lefschetz-Riemann-Roch theorem for the
+equivariant Euler characteristic as well as the Kawamata-Viehweg vanishing and
+the multigraded Castelnuovo-Mumford regularity for a verification that the
+construction method established in previous work of Donten-Bury, Yamagishi,
+Wi\'sniewski and the author leads effectively to the Cox ring of a resolution
+of the singularity under the consideration.
+</summary>
+    <author>
+      <name>Maksymilian Grab</name>
+    </author>
+    <link href="http://arxiv.org/abs/1807.11438v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.11438v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E15, 14L30, 14L24, 14C20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

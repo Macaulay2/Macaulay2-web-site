@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0909.1854%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0909.1854&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fgPr++/U6Tg3uiLbreMNl9CzIGw</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0909.1854v2</id>
+    <updated>2009-12-18T21:22:56Z</updated>
+    <published>2009-09-10T01:16:57Z</published>
+    <title>Identifiability of 2-tree mixtures for group-based models</title>
+    <summary>  Phylogenetic data arising on two possibly different tree topologies might be
+mixed through several biological mechanisms, including incomplete lineage
+sorting or horizontal gene transfer in the case of different topologies, or
+simply different substitution processes on characters in the case of the same
+topology. Recent work on a 2-state symmetric model of character change showed
+such a mixture model has non-identifiable parameters, and thus it is
+theoretically impossible to determine the two tree topologies from any amount
+of data under such circumstances. Here the question of identifiability is
+investigated for 2-tree mixtures of the 4-state group-based models, which are
+more relevant to DNA sequence data. Using algebraic techniques, we show that
+the tree parameters are identifiable for the JC and K2P models. We also prove
+that generic substitution parameters for the JC mixture models are
+identifiable, and for the K2P and K3P models obtain generic identifiability
+results for mixtures on the same tree. This indicates that the full
+phylogenetic signal remains in such mixtures, and that the 2-state symmetric
+result is thus a misleading guide to the behavior of other models.
+</summary>
+    <author>
+      <name>Elizabeth S. Allman</name>
+    </author>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <author>
+      <name>John A. Rhodes</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 3 figures; updated to reflect minor changes in version to
+  be published, reference included to supplementary materials for calculations</arxiv:comment>
+    <link href="http://arxiv.org/abs/0909.1854v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0909.1854v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

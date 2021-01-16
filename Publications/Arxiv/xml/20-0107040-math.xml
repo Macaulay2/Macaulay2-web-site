@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0107040%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0107040&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YjW6PK3wfu5cCgtTErBN1NtXMjM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0107040v1</id>
+    <updated>2001-07-05T17:33:00Z</updated>
+    <published>2001-07-05T17:33:00Z</published>
+    <title>Geometry of the moduli space of Higgs bundles</title>
+    <summary>  This thesis contains work which appeared in several papers. Additionally to
+the results in the papers it contains a detailed introduction and some further
+proofs and remarks. The dissertation gives a description of the topology and
+symplectic and algebraic geometry of Hitchin's hyperkaehler moduli space M of
+rank 2 Higgs bundles with fixed determinant of odd degree over a fixed Riemann
+surface. After the long introduction it describes a compactification of M in
+great detail, using symplectic cutting (math.AG/9804083). Examining the
+downward Morse flow of a natural circle action on M it shows the vanishing of
+intersection numbers (math.AG/9805071). Examining the upward Morse flow it
+explains a set of generators of the cohomology ring and a conjectured explicit
+description of the cohomology ring (which was proven in math.AG/0003094). Then
+finally it introduces the resolution tower for M, and shows that its direct
+limit is homotopically equivalent with the classifying space of the gauge
+group. In turn it yields another proof of the generation theorem (as in
+math.AG/0003093) and also yields a purely algebraic geometric proof of the
+Mumford conjecture about the cohomology ring of the moduli space of rank 2
+stable bundles on curves. It finishes by proving homotopy stabilizations in the
+resolution tower analogously to the Atiyah-Jones conjecture.
+</summary>
+    <author>
+      <name>Tamas Hausel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">author's 1998 PhD thesis, 116 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0107040v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0107040v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.11914%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.11914&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/A0LUJQnwQGdfiz3X3BYglHUcIdY</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.11914v1</id>
+    <updated>2020-10-22T17:47:48Z</updated>
+    <published>2020-10-22T17:47:48Z</published>
+    <title>Gaussoids are two-antecedental approximations of Gaussian conditional
+  independence structures</title>
+    <summary>  The gaussoid axioms are conditional independence inference rules which
+characterize regular Gaussian CI structures over a three-element ground set. It
+is known that no finite set of inference rules completely describes regular
+Gaussian CI as the ground set grows. In this article we show that the gaussoid
+axioms logically imply every inference rule of at most two antecedents which is
+valid for regular Gaussians over any ground set. The proof is accomplished by
+exhibiting for each inclusion-minimal gaussoid extension of at most two CI
+statements a regular Gaussian realization. Moreover we prove that all those
+gaussoids have rational positive-definite realizations inside every
+$\varepsilon$-ball around the identity matrix. For the proof we introduce the
+concept of algebraic Gaussians over arbitrary fields and of positive Gaussians
+over ordered fields and obtain the same two-antecedental completeness of the
+gaussoid axioms for algebraic and positive Gaussians over all fields of
+characteristic zero as a byproduct.
+</summary>
+    <author>
+      <name>Tobias Boege</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2010.11914v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.11914v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62R01 (Primary) 62B10, 14P10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

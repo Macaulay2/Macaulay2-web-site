@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9910132%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9910132&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KNgNbhyu8qlnGWFDN5aRFtBBxc8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9910132v4</id>
+    <updated>2001-06-06T14:59:35Z</updated>
+    <published>1999-10-25T17:04:37Z</published>
+    <title>Constructing irreducible representations of finitely presented algebras</title>
+    <summary>  By combining well-known techniques from both noncommutative algebra and
+computational commutative algebra, we observe that an algorithmic approach can
+be applied to the study of irreducible representations of finitely presented
+algebras. In slightly more detail: Assume that $n$ is a positive integer, that
+$k$ is a computable field, that $\bar{k}$ denotes the algebraic closure of $k$,
+and that $M_n(\bar{k})$ denotes the algebra of $n \times n$ matrices with
+entries in $\bar{k}$. Let $R$ be a finitely presented $k$-algebra. Calculating
+over $k$, the procedure will (a) decide whether an irreducible representation
+$R \to M_n(\bar{k})$ exists, and (b) explicitly construct an irreducible
+representation $R \to M_n(\bar{k})$ if at least one exists. (For (b), it is
+necessary to assume that $k[x]$ is equipped with a factoring algorithm.) An
+elementary example is worked through.
+</summary>
+    <author>
+      <name>Edward S. Letzter</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages. Final version. To appear in J. Symbolic Computation</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9910132v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9910132v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16-08;13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

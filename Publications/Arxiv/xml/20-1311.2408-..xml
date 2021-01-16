@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1311.2408%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1311.2408&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PYPm/VHSPGv1Rv2xtzyxAQf/LAQ</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1311.2408v2</id>
+    <updated>2014-04-08T05:03:59Z</updated>
+    <published>2013-11-11T10:27:11Z</published>
+    <title>A Notable Relation between $N$-Qubit and $2^{N-1}$-Qubit Pauli Groups
+  via Binary ${\rm LGr}(N,2N)$</title>
+    <summary>  Employing the fact that the geometry of the $N$-qubit ($N \geq 2$) Pauli
+group is embodied in the structure of the symplectic polar space
+$\mathcal{W}(2N-1,2)$ and using properties of the Lagrangian Grassmannian ${\rm
+LGr}(N,2N)$ defined over the smallest Galois field, it is demonstrated that
+there exists a bijection between the set of maximum sets of mutually commuting
+elements of the $N$-qubit Pauli group and a certain subset of elements of the
+$2^{N-1}$-qubit Pauli group. In order to reveal finer traits of this
+correspondence, the cases $N=3$ (also addressed recently by L\'evay, Planat and
+Saniga [J. High Energy Phys. 2013 (2013), no. 9, 037, 35 pages,
+arXiv:1305.5689]) and $N=4$ are discussed in detail. As an apt application of
+our findings, we use the stratification of the ambient projective space ${\rm
+PG}(2^N-1,2)$ of the $2^{N-1}$-qubit Pauli group in terms of $G$-orbits, where
+$G \equiv {\rm SL}(2,2)\times {\rm SL}(2,2)\times\cdots\times {\rm
+SL}(2,2)\rtimes S_N$, to decompose $\underline{\pi}({\rm LGr}(N,2N))$ into
+non-equivalent orbits. This leads to a partition of ${\rm LGr}(N,2N)$ into
+distinguished classes that can be labeled by elements of the above-mentioned
+Pauli groups.
+</summary>
+    <author>
+      <name>Frédéric Holweck</name>
+    </author>
+    <author>
+      <name>Metod Saniga</name>
+    </author>
+    <author>
+      <name>Péter Lévay</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.3842/SIGMA.2014.041</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.3842/SIGMA.2014.041" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">SIGMA 10 (2014), 041, 16 pages</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1311.2408v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1311.2408v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

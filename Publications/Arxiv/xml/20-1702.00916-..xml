@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1702.00916%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1702.00916&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eVQkyIxvKBj4+EScj40+CgTfXbs</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1702.00916v2</id>
+    <updated>2017-05-09T01:44:17Z</updated>
+    <published>2017-02-03T05:59:29Z</published>
+    <title>Regularity of Powers of Unicyclic Graphs</title>
+    <summary>  Let $G$ be a finite simple graph and $I(G)$ denote the corresponding edge
+ideal. In this paper we prove that if $G$ is a unicyclic graph then for all $s
+\geq 1$ the regularity of $I(G)^s$ is exactly $2s+\text{reg}(I(G))-2$. We also
+characterize the unicyclic graphs with regularity $\nu(G)+1$ and $\nu(G)+2$,
+where $\nu(G)$ denotes the induced matching number of $G$.
+</summary>
+    <author>
+      <name>Ali Alilooee</name>
+    </author>
+    <author>
+      <name>Selvi Beyarslan</name>
+    </author>
+    <author>
+      <name>S. Selvaraja</name>
+    </author>
+    <link href="http://arxiv.org/abs/1702.00916v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.00916v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

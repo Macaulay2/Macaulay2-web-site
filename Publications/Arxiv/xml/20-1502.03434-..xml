@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.03434%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.03434&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iHkxk3saub3rAr4KygQ9O39nTZI</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03434v2</id>
+    <updated>2015-03-26T21:44:37Z</updated>
+    <published>2015-02-11T20:51:01Z</published>
+    <title>Initial monomial invariants of holomorphic maps</title>
+    <summary>  We study a new biholomorphic invariant of holomorphic maps between domains in
+different dimensions based on generic initial ideals. We start with the
+standard generic monomial ideals to find invariants for rational maps of
+spheres and hyperquadrics, giving a readily computable invariant in this
+important case. For example, the generic initial monomials distinguish all four
+inequivalent rational proper maps from the two to the three dimensional ball.
+Next, we associate to each subspace $X \subset {\mathcal O}(U)$ a generic
+initial monomial subspace, which is invariant under biholomorphic
+transformations and multiplication by nonzero functions. The generic initial
+monomial subspace is a biholomorphic invariant for holomorphic maps if the
+target automorphism is linear fractional as in the case for automorphisms of
+spheres or hyperquadrics.
+</summary>
+    <author>
+      <name>Dusty Grundmeier</name>
+    </author>
+    <author>
+      <name>Jiri Lebl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, improved introduction, fixed typos</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.03434v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.03434v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32H02 (Primary), 13P25 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

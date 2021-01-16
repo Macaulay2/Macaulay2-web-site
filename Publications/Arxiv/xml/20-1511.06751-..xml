@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.06751%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.06751&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zOo+uzVuoUibJfgJgv7Ho1+sbOM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.06751v1</id>
+    <updated>2015-11-20T20:43:28Z</updated>
+    <published>2015-11-20T20:43:28Z</published>
+    <title>Sampling algebraic varieties for sum of squares programs</title>
+    <summary>  We study sum of squares (SOS) relaxations to decide the nonnegativity of a
+polynomial $p$ on the set $V\cap R^n$, where $V$ is a complex algebraic
+variety. We propose a new methodology that, rather than relying on some
+algebraic description, represents $V$ with a generic set of complex samples.
+This approach depends only on the geometry of $V$, avoiding representation
+issues such as multiplicity and choice of generators. It also takes advantage
+of the dependencies in the coordinate ring of $V$ to reduce the size of the
+corresponding semidefinite program (SDP). In addition, the input can be given
+as a straight-line program. Our methods are particularly appealing for
+varieties which are easy to sample from but for which the defining equations
+are complicated, such as $SO(n)$, Grassmannians or rank $k$ tensors.
+Nonetheless, for arbitrary varieties we can obtain the samples by using the
+tools of numerical algebraic geometry. In this way we connect the areas of SOS
+optimization and numerical algebraic geometry.
+</summary>
+    <author>
+      <name>Diego Cifuentes</name>
+    </author>
+    <author>
+      <name>Pablo A. Parrilo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 1 figure, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1511.06751v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.06751v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

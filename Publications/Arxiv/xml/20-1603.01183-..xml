@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1603.01183%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1603.01183&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/i9XyXLKw/CveljLfAwBsJpUoXCY</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01183v1</id>
+    <updated>2016-03-03T17:11:28Z</updated>
+    <published>2016-03-03T17:11:28Z</published>
+    <title>Solving systems of polynomial inequalities with algebraic geometry
+  methods</title>
+    <summary>  The goal of this paper is to provide computational tools able to find a
+solution of a system of polynomial inequalities. The set of inequalities is
+reformulated as a system of polynomial equations. Three different methods, two
+of which taken from the literature, are proposed to compute solutions of such a
+system. An example of how such procedures can be used to solve the static
+output feedback stabilization problem for a linear parametrically-varying
+system is reported.
+</summary>
+    <author>
+      <name>Laura Menini</name>
+    </author>
+    <author>
+      <name>Corrado Possieri</name>
+    </author>
+    <author>
+      <name>Antonio Tornambè</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1603.01183v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.01183v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

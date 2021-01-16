@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1302.1023%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1302.1023&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rVWrGE4gijwO5ogoHpuMGbCWKs0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1302.1023v2</id>
+    <updated>2013-03-19T20:23:25Z</updated>
+    <published>2013-02-05T13:06:08Z</published>
+    <title>On Genera of Curves from High-loop Generalized Unitarity Cuts</title>
+    <summary>  Generalized unitarity cut of a Feynman diagram generates an algebraic system
+of polynomial equations. At high-loop levels, these equations may define a
+complex curve or a (hyper-)surface with complicated topology. We study the
+curve cases, i.e., a 4-dimensional L-loop diagram with (4L-1) cuts. The
+topology of a complex curve is classified by its genus. Hence in this paper, we
+use computational algebraic geometry to calculate the genera of curves from two
+and three-loop unitarity cuts. The global structure of degenerate on-shell
+equations under some specific kinematic configurations is also sketched. The
+genus information can also be used to judge if a unitary cut solution could be
+rationally parameterized.
+</summary>
+    <author>
+      <name>Rijun Huang</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">more examples added, version accepted for publication on JHEP</arxiv:comment>
+    <link href="http://arxiv.org/abs/1302.1023v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1302.1023v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

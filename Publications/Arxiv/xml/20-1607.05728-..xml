@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.05728%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.05728&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/T1k1D/pLj5MRLMZrfCe3moVtFHk</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05728v1</id>
+    <updated>2016-07-19T20:00:01Z</updated>
+    <published>2016-07-19T20:00:01Z</published>
+    <title>The moduli spaces of $3d$  ${\cal N} \ge 2$ Chern-Simons gauge theories
+  and their Hilbert series</title>
+    <summary>  We present a formula for the Hilbert series that counts gauge invariant
+chiral operators in a large class of 3d ${\cal N} \ge 2$
+Yang-Mills-Chern-Simons theories. The formula counts 't Hooft monopole
+operators dressed by gauge invariants of a residual gauge theory of massless
+fields in the monopole background. We provide a general formula for the case of
+abelian theories, where nonperturbative corrections are absent, and consider a
+few examples of nonabelian theories where nonperturbative corrections are well
+understood. We also analyze in detail nonabelian ABJ(M) theories as well as
+worldvolume theories of M2-branes probing Calabi-Yau fourfold and hyperK\"ahler
+twofold singularities with ${\cal N} = 2$ and ${\cal N} = 3$ supersymmetry.
+</summary>
+    <author>
+      <name>Stefano Cremonesi</name>
+    </author>
+    <author>
+      <name>Noppadol Mekareeya</name>
+    </author>
+    <author>
+      <name>Alberto Zaffaroni</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">72 pages + appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1607.05728v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.05728v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

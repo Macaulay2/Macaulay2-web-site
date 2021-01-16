@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0404517%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0404517&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DvbYUg/PUH/FsTEpIGM6WuaaeQs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0404517v5</id>
+    <updated>2004-11-15T19:42:52Z</updated>
+    <published>2004-04-28T17:21:19Z</published>
+    <title>Small schemes and varieties of minimal degree</title>
+    <summary>  We prove that if X is any 2-regular projective scheme (in the sense of
+Castelnuovo-Mumford) then X is "small". This means that if L is a linear space
+and Y:= L\cap X is finite, then Y is "linearly independent" in the sense that
+the dimension of the linear span of Y is 1+deg Y. The converse is true and
+well-known for finite schemes, but false in general. The main result of this
+paper is that the converse, "small implies 2-regular", is also true for reduced
+projective schemes (algebraic sets). This is proven by means of a delicate
+geometric analysis, leading to a complete classification: we show that the
+components of a small algebraic set are varieties of minimal degree, meeting in
+a particularly simple way. From the classification one can show that if X is
+2-regular, then so is X_{red}, and so also is the projection of X from any
+point of X.
+  Our results extend the Del Pezzo-Bertini classification of varieties of
+minimal degree, the characterization of these as the varieties of regularity 2
+by Eisenbud-Goto, and the construction of 2-regular square-free monomial ideals
+by Fr\"oberg.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Mark Green</name>
+    </author>
+    <author>
+      <name>Klaus Hulek</name>
+    </author>
+    <author>
+      <name>Sorin Popescu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, Plain TeX + diagrams.tex, minor revisions, updated abstract
+  + title</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0404517v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0404517v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05, 14N25, 13D02, 14M20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

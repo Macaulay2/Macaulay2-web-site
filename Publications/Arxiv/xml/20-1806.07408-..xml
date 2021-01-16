@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.07408%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.07408&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xeEqDI7fVvwjq9wL5k41pGF48ck</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.07408v2</id>
+    <updated>2018-07-20T15:59:15Z</updated>
+    <published>2018-06-19T18:11:14Z</published>
+    <title>Segre Class Computation and Practical Applications</title>
+    <summary>  Let $X \subset Y$ be closed (possibly singular) subschemes of a smooth
+projective toric variety $T$. We show how to compute the Segre class $s(X,Y)$
+as a class in the Chow group of $T$. Building on this, we give effective
+methods to compute intersection products in projective varieties, to determine
+algebraic multiplicity without working in local rings, and to test pairwise
+containment of subvarieties of $T$. Our methods may be implemented without
+using Groebner bases; in particular any algorithm to compute the number of
+solutions of a zero-dimensional polynomial system may be used.
+</summary>
+    <author>
+      <name>Corey Harris</name>
+    </author>
+    <author>
+      <name>Martin Helmer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1806.07408v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.07408v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx, 13Pxx, 13H15, 14C17, 14C20, 68W30, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

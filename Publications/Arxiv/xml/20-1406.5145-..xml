@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.5145%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.5145&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0Ebw6FEYc0QLmeum/RTPNlck2Ic</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.5145v2</id>
+    <updated>2014-07-08T01:51:52Z</updated>
+    <published>2014-06-19T18:45:21Z</published>
+    <title>Geometric lower bounds for generalized ranks</title>
+    <summary>  We revisit a geometric lower bound for Waring rank of polynomials (symmetric
+rank of symmetric tensors) of Landsberg and Teitler and generalize it to a
+lower bound for rank with respect to arbitrary varieties, improving the bound
+given by the "non-Abelian" catalecticants recently introduced by Landsberg and
+Ottaviani. This is applied to give lower bounds for ranks of multihomogeneous
+polynomials (partially symmetric tensors); a special case is the simultaneous
+Waring decomposition problem for a linear system of polynomials. We generalize
+the classical Apolarity Lemma to multihomogeneous polynomials and give some
+more general statements. Finally we revisit the lower bound of Ranestad and
+Schreyer, and again generalize it to multihomogeneous polynomials and some more
+general settings.
+</summary>
+    <author>
+      <name>Zach Teitler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages. v2: minor changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1406.5145v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.5145v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A21, 15A69, 14N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

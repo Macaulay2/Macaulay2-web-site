@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.06625%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.06625&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AvcjBXpksBkGMDmRbCMVwMtaJFM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.06625v3</id>
+    <updated>2015-06-12T15:08:55Z</updated>
+    <published>2015-01-26T23:54:20Z</published>
+    <title>Accelerating Polynomial Homotopy Continuation on a Graphics Processing
+  Unit with Double Double and Quad Double Arithmetic</title>
+    <summary>  Numerical continuation methods track a solution path defined by a homotopy.
+The systems we consider are defined by polynomials in several variables with
+complex coefficients. For larger dimensions and degrees, the numerical
+conditioning worsens and hardware double precision becomes often insufficient
+to reach the end of the solution path. With double double and quad double
+arithmetic, we can solve larger problems that we could not solve with hardware
+double arithmetic, but at a higher computational cost. This cost overhead can
+be compensated by acceleration on a Graphics Processing Unit (GPU). We describe
+our implementation and report on computational results on benchmark polynomial
+systems.
+</summary>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <author>
+      <name>Xiangcheng Yu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted for publication in the Proceedings of the 7th International
+  Workshop on Parallel Symbolic Computation (PASCO 2015)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.06625v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.06625v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

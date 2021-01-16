@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0308041%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0308041&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oYmmIdFeuL+T+ANrH+RhQhEL3m8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0308041v2</id>
+    <updated>2005-11-21T19:37:15Z</updated>
+    <published>2003-08-05T19:31:13Z</published>
+    <title>Mahler's Measure and the Dilogarithm (II)</title>
+    <summary>  We continue to investigate the relation between the Mahler measure of certain
+two variable polynomials, the values of the Bloch--Wigner dilogarithm $D(z)$
+and the values $\zeta_F(2)$ of zeta functions of number fields. Specifically,
+we define a class $\A$ of polynomials $A$ with the property that $\pi m(A)$ is
+a linear combination of values $D$ at algebraic arguments. For many polynomials
+in this class the corresponding argument of $D$ is in the Bloch group, which
+leads to formulas expressing $\pi m(A)$ as a linear combination with
+unspecified rational coefficients of $V_F$ for certain number fields $F$ ($V_F
+:= c_F\zeta_F(2)$ with $c_F&gt;0$ an explicit simple constant). The class $\A$
+contains the $A$-polynomials of cusped hyperbolic manifolds. The connection
+with hyperbolic geometry often provides means to prove identities of the form
+$\pi m(A)= r V_F$ with an explicit value of $r\in \Q^*$. We give one such
+example in detail in the body of the paper and in the appendix.
+</summary>
+    <author>
+      <name>David W. Boyd</name>
+    </author>
+    <author>
+      <name>Fernando Rodriguez-Villegas</name>
+    </author>
+    <author>
+      <name>Nathan M. Dunfield</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">37 pages. Main text by Boyd and Rodriguez-Villegas; appendix by
+  Dunfield. V2: Improved exposition</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0308041v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0308041v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11C08, 11G10, 11G55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1401.0397%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1401.0397&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zGvpLi3+2bGPpKq7R5rdnD6aFpA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1401.0397v3</id>
+    <updated>2014-05-09T12:57:02Z</updated>
+    <published>2014-01-02T09:29:01Z</published>
+    <title>Equivariant lattice generators and Markov bases</title>
+    <summary>  It has been shown recently that monomial maps in a large class respecting the
+action of the infinite symmetric group have, up to symmetry, finitely generated
+kernels. We study the simplest nontrivial family in this class: the maps given
+by a single monomial. Considering the corresponding lattice map, we explicitly
+construct an equivariant lattice generating set, whose width (the number of
+variables necessary to write it down) depends linearly on the width of the map.
+This result is sharp and improves dramatically the previously known upper bound
+as it does not depend on the degree of the image monomial. In the case of of
+width two, we construct an explicit finite set of binomials generating the
+toric ideal up to symmetry. Both width and degree of this generating set are
+sharply bounded by linear functions in the exponents of the monomial.
+</summary>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages; v2: small improvements, added Corollary 2.7, Remark 4.10,
+  v3: final version, accepted at ISSAC 2014</arxiv:comment>
+    <link href="http://arxiv.org/abs/1401.0397v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.0397v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13E15, Secondary: 13P10, 14M25, 05E18, 14L30, 20B30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

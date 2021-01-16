@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1801.04893%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1801.04893&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AGF0JtF/eLJ0POuXohEA1cHxni4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04893v2</id>
+    <updated>2018-02-13T13:11:33Z</updated>
+    <published>2018-01-15T18:02:36Z</published>
+    <title>On the level of a Calabi-Yau hypersurface</title>
+    <summary>  Boix-De Stefani-Vanzo defined the notion of level for a smooth projective
+hypersurface over a finite field in terms of the stabilisation of a chain of
+ideals previously considered by \`Alvarez-Montaner-Blickle-Lyubeznik, and
+showed that in the case of an elliptic curve the level is 1 if and only if it
+is ordinary and 2 otherwise. Here we extend their theorem to the case of
+Calabi-Yau hypersurfaces by relating their level to the $F$-jumping exponents
+of Blickle-Musta\c{t}\u{a}-Smith and the Hartshorne-Speiser-Lyubeznik numbers
+of Musta\c{t}\u{a}-Zhang.
+</summary>
+    <author>
+      <name>Stiofáin Fordham</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages. This version: (old) proposition 7 missing an hypothesis and
+  proof was incorrect, but it actually follows for CYs from the proof of (old)
+  proposition 17 so an explicit F-splitting is unnecessary; the paper is
+  consequently reorganised. Some other relatively minor errata/notation
+  corrected. Main result is unaffected. Thanks to Adrian Langer for a number of
+  useful comments</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.04893v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.04893v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

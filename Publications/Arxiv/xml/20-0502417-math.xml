@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0502417%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0502417&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/M3FiWZs/bi/WM5QmpiuD4oe0Azg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0502417v2</id>
+    <updated>2005-07-22T22:58:17Z</updated>
+    <published>2005-02-19T21:18:51Z</published>
+    <title>On the homotopy Lie algebra of an arrangement</title>
+    <summary>  Let A be a graded-commutative, connected k-algebra generated in degree 1. The
+homotopy Lie algebra g_A is defined to be the Lie algebra of primitives of the
+Yoneda algebra, Ext_A(k,k). Under certain homological assumptions on A and its
+quadratic closure, we express g_A as a semi-direct product of the
+well-understood holonomy Lie algebra h_A with a certain h_A-module. This allows
+us to compute the homotopy Lie algebra associated to the cohomology ring of the
+complement of a complex hyperplane arrangement, provided some combinatorial
+assumptions are satisfied. As an application, we give examples of hyperplane
+arrangements whose complements have the same Poincar\'e polynomial, the same
+fundamental group, and the same holonomy Lie algebra, yet different homotopy
+Lie algebras.
+</summary>
+    <author>
+      <name>Graham Denham</name>
+    </author>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1307/mmj/1156345597</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages; accepted for publication by the Michigan Math. Journal</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Michigan Mathematical Journal 54 (2006), no. 2, 319-340</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0502417v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0502417v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1307/mmj/1156345597" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16E05, 52C35, 16S37, 55P62" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

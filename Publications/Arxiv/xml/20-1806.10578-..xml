@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.10578%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.10578&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/USUq3TjZGL8DAH+WHnsLZBvN/YE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.10578v1</id>
+    <updated>2018-06-27T17:23:45Z</updated>
+    <published>2018-06-27T17:23:45Z</published>
+    <title>Fiber product homotopy method for multiparameter eigenvalue problems</title>
+    <summary>  We develop a new homotopy method for solving multiparameter eigenvalue
+problems (MEPs) called the fiber product homotopy method. It requires
+deformation of exponentially fewer equations compared to existing homotopy
+methods for MEPs. We show that the fiber product homotopy method theoretically
+finds all eigenpairs of an MEP with probability one. It is especially
+well-suited for singular MEPs, a weakness of all other existing methods, as the
+fiber product homotopy method is provably convergent with probability one for
+singular problems as well, a fact borne out by numerical experiments. More
+generally, our numerical experiments indicate that the fiber product homotopy
+method significantly outperforms the standard Delta method in terms of
+accuracy, with consistent backward errors on the order of $10^{-16}$ without
+any use of extended precision. In terms of speed, it significantly outperforms
+previous homotopy-based methods on all problems and outperforms the Delta
+method on larger problems, and is also highly parallelizable. We show that the
+fiber product MEP that we solve in the fiber product homotopy method, although
+mathematically equivalent to a standard MEP, is typically a much
+better-conditioned problem.
+</summary>
+    <author>
+      <name>Jose Israel Rodriguez</name>
+    </author>
+    <author>
+      <name>Lek-Heng Lim</name>
+    </author>
+    <author>
+      <name>Yiling You</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.10578v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.10578v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H20, 65H17, 65H10, 35P30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

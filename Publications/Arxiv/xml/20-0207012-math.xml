@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0207012%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0207012&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/41qESMftKW/+3oEM7rbDXGrqwLU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0207012v4</id>
+    <updated>2004-01-19T15:08:09Z</updated>
+    <published>2002-07-01T18:09:25Z</published>
+    <title>Properties of the residual circle action on a toric hyperkahler variety</title>
+    <summary>  We consider a manifold X obtained by a Kahler reduction of C^n, and we define
+its hyperkahler analogue M as a hyperkahler reduction of T^*C^n = H^n by the
+same group. In the case where the group is abelian and X is a smooth toric
+variety, M is a toric hyperkahler manifold, as defined by Bielawski-Dancer, and
+further studied by Konno and Hausel-Sturmfels. The manifold M carries a natural
+action of S^1, induced by the scalar action of S^1 on the fibers of T^*C^n. In
+this paper we study this action, computing its fixed points and its equivariant
+cohomology. As an application, we use the associated Z/2 action on the real
+locus of M to compute a deformation of the Orlik-Solomon algebra of a smooth,
+generic, real hyperplane arrangement, depending nontrivially on the affine
+structure of the arrangement. This deformation is given by the Z/2-equivariant
+cohomology of the complement of the complexification, where Z/2 acts by complex
+conjugation.
+</summary>
+    <author>
+      <name>Megumi Harada</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">U.C. Berkeley</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Nicholas J. Proudfoot</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">U.C. Berkeley</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 5 figures. Minor errors in Section 1 corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0207012v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0207012v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53C26; 52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.07383%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.07383&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MIbBNKDLB8+bjJ3oh9B4jauJL7A</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.07383v3</id>
+    <updated>2018-06-06T11:23:53Z</updated>
+    <published>2018-02-21T00:29:39Z</published>
+    <title>Artinian algebras and Jordan type</title>
+    <summary>  The Jordan type of an element $\ell$ of the maximal ideal of an Artinian
+k-algebra A acting on an A-module M of k-dimension n, is the partition of n
+given by the Jordan block decomposition of the multiplication map $m_\ell$ on
+M. In general the Jordan type has more information than whether the pair
+$(\ell,M)$ is strong or weak Lefschetz. We develop basic properties of the
+Jordan type and their loci for modules over graded or local Artinian algebras.
+We as well study the relation of generic Jordan type of $A$ to the Hilbert
+function of $A$.
+  Our goal is to illustrate the usefulness of Jordan type as an invariant of A,
+and also to survey some different approaches to studying it. We also propose
+open problems.
+</summary>
+    <author>
+      <name>Anthony Iarrobino</name>
+    </author>
+    <author>
+      <name>Pedro Macias Marques</name>
+    </author>
+    <author>
+      <name>Chris McDaniel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 p. Develops Part I of v. 2. (Part 2 of v. 2 will be a separate
+  post "Free Extensions and Jordan type")</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.07383v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.07383v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10 (Primary), 13D40, 13H10, 14B07, 14C05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

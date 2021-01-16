@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1009.4243%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1009.4243&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qCZzVvcAc3w63Hc5LVwv540arO0</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4243v1</id>
+    <updated>2010-09-22T01:13:03Z</updated>
+    <published>2010-09-22T01:13:03Z</published>
+    <title>Dependence of Betti Numbers on Characteristic</title>
+    <summary>  We study the dependence of graded Betti numbers of monomial ideals on the
+characteristic of the base field. The examples we describe include bipartite
+ideals, Stanley--Reisner ideals of vertex-decomposable complexes and ideals
+with componentwise linear resolutions. We give a description of bipartite
+graphs and, using discrete Morse theory, provide a way of looking at the
+homology of arbitrary simplicial complexes through bipartite ideals. We also
+prove that the Betti table of a monomial ideal over the field of rational
+numbers can be obtained from the Betti table over any field by a sequence of
+consecutive cancellations.
+</summary>
+    <author>
+      <name>Kia Dalili</name>
+    </author>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8pp</arxiv:comment>
+    <link href="http://arxiv.org/abs/1009.4243v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1009.4243v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

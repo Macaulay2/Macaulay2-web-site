@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1209.0285%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1209.0285&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/f27dftTFcVAXEfB4vRJHo0VftLU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1209.0285v1</id>
+    <updated>2012-09-03T09:45:40Z</updated>
+    <published>2012-09-03T09:45:40Z</published>
+    <title>Hypersurfaces and their singularities in partial correlation testing</title>
+    <summary>  An asymptotic theory is developed for computing volumes of regions in the
+parameter space of a directed Gaussian graphical model that are obtained by
+bounding partial correlations. We study these volumes using the method of real
+log canonical thresholds from algebraic geometry. Our analysis involves the
+computation of the singular loci of correlation hypersurfaces. Statistical
+applications include the strong-faithfulness assumption for the PC-algorithm,
+and the quantification of confounder bias in causal inference. A detailed
+analysis is presented for trees, bow-ties, tripartite graphs, and complete
+graphs.
+</summary>
+    <author>
+      <name>Shaowei Lin</name>
+    </author>
+    <author>
+      <name>Caroline Uhler</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Peter Bühlmann</name>
+    </author>
+    <link href="http://arxiv.org/abs/1209.0285v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1209.0285v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

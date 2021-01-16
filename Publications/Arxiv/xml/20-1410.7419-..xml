@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.7419%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.7419&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7MADKqViSQYm8/wZp+EypW62X+s</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.7419v1</id>
+    <updated>2014-10-08T19:46:56Z</updated>
+    <published>2014-10-08T19:46:56Z</published>
+    <title>Cohomology classes of rank varieties and a conjecture of Liu</title>
+    <summary>  To each finite subset of a discrete grid $\mathbb{N} \times \mathbb{N}$ (a
+diagram), one can associate a subvariety of a complex Grassmannian (a diagram
+variety), and a representation of a symmetric group (a Specht module). Liu has
+conjectured that the cohomology class of a diagram variety is represented by
+the Frobenius characteristic of the corresponding Specht module. We give a
+counterexample to this conjecture.
+  However, we show that for the diagram variety of a permutation diagram, Liu's
+conjectured cohomology class $\sigma$ is at least an upper bound on the actual
+class $\tau$, in the sense that $\sigma - \tau$ is a nonnegative linear
+combination of Schubert classes. To do this, we consider a degeneration of
+Coskun's rank varieties which contains the appropriate diagram variety as a
+component. Rank varieties are instances of Knutson-Lam-Speyer's positroid
+varieties, whose cohomology classes are represented by affine Stanley symmetric
+functions. We show that the cohomology class of a rank variety is in fact
+represented by an ordinary Stanley symmetric function.
+</summary>
+    <author>
+      <name>Brendan Pawlowski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.7419v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.7419v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E05, 05E10, 14N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

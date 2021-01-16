@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.3816%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.3816&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zAfNVwAYZlqi2AHKJXz1naiFAYk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.3816v2</id>
+    <updated>2012-08-28T09:25:14Z</updated>
+    <published>2012-08-19T09:03:18Z</published>
+    <title>Constructive Homological Algebra and Applications</title>
+    <summary>  This text was written and used for a MAP Summer School at the University of
+Genova, August 28 to September 2, 2006. Available since then on the web site of
+the second author, it has been used and referenced by several colleagues
+working in Commutative Algebra and Algebraic Topology. To make safer such
+references, it was suggested to place it on the Arxiv repository.
+  It is a relatively detailed exposition of the use of the Basic Perturbation
+Lemma to make constructive Homological Algebra (standard Homological Algebra is
+not constructive) and how this technology can be used in Commutative Algebra
+(Koszul complexes) and Algebraic Topology (effective versions of spectral
+sequences).
+</summary>
+    <author>
+      <name>Julio Rubio</name>
+    </author>
+    <author>
+      <name>Francis Sergeraert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Version 2: Footnote added p.144 about a problem claimed "open"</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.3816v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.3816v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="18G40, 55T10, 55T20" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="G.4" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

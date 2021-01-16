@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.6915%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.6915&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/a3y9OpyL5gMIpxSK7AV4K0gfOhM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.6915v3</id>
+    <updated>2013-05-13T12:13:50Z</updated>
+    <published>2013-03-27T18:04:38Z</published>
+    <title>Refined methods for the identifiability of tensors</title>
+    <summary>  We prove that the general tensor of size 2^n and rank k has a unique
+decomposition as the sum of decomposable tensors if k&lt;= 0.9997 (2^n)/(n+1) (the
+constant 1 being the optimal value). Similarly, the general tensor of size 3^n
+and rank k has a unique decomposition as the sum of decomposable tensors if k&lt;=
+0.998 (3^n)/(2n+1) (the constant 1 being the optimal value).
+  Some results of this flavor are obtained for tensors of any size, but the
+explicit bounds obtained are weaker.
+</summary>
+    <author>
+      <name>Cristiano Bocci</name>
+    </author>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, three Macaulay2 scripts as ancillary files. v3: final
+  version to appear in Annali di Matematica Pura e Applicata</arxiv:comment>
+    <link href="http://arxiv.org/abs/1303.6915v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.6915v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

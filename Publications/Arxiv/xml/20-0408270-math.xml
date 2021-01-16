@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0408270%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0408270&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xEflXGo23xQOg6AEBXgw+t8Rvfg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0408270v2</id>
+    <updated>2004-09-27T17:13:40Z</updated>
+    <published>2004-08-19T22:01:47Z</published>
+    <title>Solving the Likelihood Equations</title>
+    <summary>  Given a model in algebraic statistics and some data, the likelihood function
+is a rational function on a projective variety. Algebraic algorithms are
+presented for computing all critical points of this function, with the aim of
+identifying the local maxima in the probability simplex. Applications include
+models specified by rank conditions on matrices and the Jukes-Cantor models of
+phylogenetics. The maximum likelihood degree of a generic complete intersection
+is also determined.
+</summary>
+    <author>
+      <name>Serkan Hosten</name>
+    </author>
+    <author>
+      <name>Amit Khetan</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0408270v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0408270v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

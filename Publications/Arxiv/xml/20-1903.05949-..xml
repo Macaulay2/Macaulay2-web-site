@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.05949%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.05949&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/j4/QrFC3b39R9twNy8L5iGsJEaY</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.05949v1</id>
+    <updated>2019-03-14T12:49:08Z</updated>
+    <published>2019-03-14T12:49:08Z</published>
+    <title>Polynomial spline spaces of non-uniform bi-degree on T-meshes:
+  Combinatorial bounds on the dimension</title>
+    <summary>  Polynomial splines are ubiquitous in the fields of computer aided geometric
+design and computational analysis. Splines on T-meshes, especially, have the
+potential to be incredibly versatile since local mesh adaptivity enables
+efficient modeling and approximation of local features. Meaningful use of such
+splines for modeling and approximation requires the construction of a suitable
+spanning set of linearly independent splines, and a theoretical understanding
+of the spline space dimension can be a useful tool when assessing possible
+approaches for building such splines. Here, we provide such a tool. Focusing on
+T-meshes, we study the dimension of the space of bivariate polynomial splines,
+and we discuss the general setting where local mesh adaptivity is combined with
+local polynomial degree adaptivity. The latter allows for the flexibility of
+choosing non-uniform bi-degrees for the splines, i.e., different bi-degrees on
+different faces of the T-mesh. In particular, approaching the problem using
+tools from homo-logical algebra, we generalize the framework and the discourse
+presented by Mourrain (2014) for uniform bi-degree splines. We derive
+combinatorial lower and upper bounds on the spline space dimension and
+subsequently outline sufficient conditions for the bounds to coincide.
+</summary>
+    <author>
+      <name>Deepesh Toshniwal</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ICES</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bernard Mourrain</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">AROMATH</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thomas Hughes</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">ICES</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/1903.05949v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.05949v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

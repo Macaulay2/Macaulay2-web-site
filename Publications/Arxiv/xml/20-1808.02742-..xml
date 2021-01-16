@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1808.02742%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1808.02742&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1eYW0aGg6xH/ApZ57QEskTkVTRo</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1808.02742v1</id>
+    <updated>2018-08-08T13:04:44Z</updated>
+    <published>2018-08-08T13:04:44Z</published>
+    <title>Computing Unit Groups of Curves</title>
+    <summary>  The group of units modulo constants of an affine variety over an
+algebraically closed field is free abelian of finite rank. Computing this group
+is difficult but of fundamental importance in tropical geometry, where it is
+desirable to realize intrinsic tropicalizations. We present practical
+algorithms for computing unit groups of smooth curves of low genus. Our
+approach is rooted in divisor theory, based on interpolation in the case of
+rational curves and on methods from algebraic number theory in the case of
+elliptic curves.
+</summary>
+    <author>
+      <name>Justin Chen</name>
+    </author>
+    <author>
+      <name>Sameera Vemulapalli</name>
+    </author>
+    <author>
+      <name>Leon Zhang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1808.02742v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1808.02742v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

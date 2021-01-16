@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.12867%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.12867&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ei69b7kD8FBnAAr42pNKG/vXU0Y</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.12867v1</id>
+    <updated>2020-12-11T10:08:28Z</updated>
+    <published>2020-12-11T10:08:28Z</published>
+    <title>Integrity bases for cubic nonlinear magnetostriction</title>
+    <summary>  A so-called smart material is a material that is the seat of one or more
+multiphysical coupling. One of the key points in the development of the
+constitutive laws of these materials, either at the local or at the global
+scale, is to formulate a free energy density (or enthalpy) from vectors,
+tensors, at a given order and for a class of given symmetry, depending on the
+symmetry classes of the crystal constituting the material or the symmetry of
+the representative volume element. This article takes as a support of study the
+stress and magnetization couple ($\sigma$, m) involved in the phenomena of
+magnetoelastic coupling in a cubic symmetry medium. Several studies indeed show
+a non-monotonic sensitivity of the magnetic susceptibility and magnetostriction
+of certain soft magnetic materials under stress. Modeling such a phenomenon
+requires the introduction of a second order stress term in the Gibbs free
+energy density. A polynomial formulation in the two variables stress and
+magnetization is preferred over a tensorial formulation. For a given material
+symmetry class, this allows to express more easily the free energy density at
+any bi-degree in $\sigma$ and m (i.e. at any constitutive tensors order for the
+so-called tensorial formulation). A rigorous and systematic method is essential
+to obtain the high-degree magneto-mechanical coupling terms and to build a free
+energy density function at any order which is invariant by the action of the
+cubic (octahedral) group. For that aim, theoretical and computer tools in
+Invariant Theory, that allow for the mathematical description of cubic
+nonlinear magneto-elasticity, are introduced. Minimal integrity bases of the
+invariant algebra for the pair (m, $\sigma$), under the proper
+(orientation-preserving) and the full cubic groups, are then proposed. The
+minimal integrity basis for the proper cubic group is constituted of 60
+invariants, while the minimal integrity basis for the full cubic group (the one
+of interest for magneto-elasticity) is made up of 30 invariants. These
+invariants are formulated in a (coordinate free) intrinsic manner, using a
+generalized cross product to write some of them. The counting of independent
+invariants of a given multi-degree in (m, $\sigma$) is performed. It is shown
+accordingly that it is possible to list without error all the material
+parameters useful for the description of the coupled magnetoelastic behavior
+from the integrity basis. The technique is applied to derive general
+expressions $\Psi$ $\star$ ($\sigma$, m) of the free energy density at the
+magnetic domains scale exhibiting cubic symmetry. The classic results for an
+isotropic medium are recovered.
+</summary>
+    <author>
+      <name>Julien Taurines</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marc Olive</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rodrigue Desmorat</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Olivier Hubert</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Boris Kolev</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/2012.12867v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.12867v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mtrl-sci" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

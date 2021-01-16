@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1506.06277%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1506.06277&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6/Xh4UZVixctNC6gfObdj7KAYvM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1506.06277v1</id>
+    <updated>2015-06-20T18:37:51Z</updated>
+    <published>2015-06-20T18:37:51Z</published>
+    <title>Regulating Hartshorne's connectedness theorem</title>
+    <summary>  A classical theorem by Hartshorne states that the dual graph of any
+arithmetically Cohen-Macaulay projective scheme is connected. We provide a
+strong converse: Every connected graph is the dual graph of a suitable
+arithmetically Cohen-Macaulay projective curve of Castelnuovo-Mumford
+regularity at most 3, whose components are all rational normal curves. The
+regularity bound is smallest possible in general.
+  Our second main result is a quantitative version of Hartshorne's result, in
+terms of Castelnuovo-Mumford regularity. If X is an arithmetically Gorenstein
+projective scheme of regularity r+1, and if every irreducible component of X
+has regularity at most r', we show that the dual graph of X is
+[(r+r'-1)/r']-connected. The bound is sharp.
+</summary>
+    <author>
+      <name>Bruno Benedetti</name>
+    </author>
+    <author>
+      <name>Barbara Bolognese</name>
+    </author>
+    <author>
+      <name>Matteo Varbaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1506.06277v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1506.06277v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 14E25, 13C40, 13C14, 05C25, 05C40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

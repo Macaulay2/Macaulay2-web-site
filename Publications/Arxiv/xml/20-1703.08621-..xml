@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1703.08621%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1703.08621&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8FSobidH8NfnqNBaAp8gHySK3n4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1703.08621v1</id>
+    <updated>2017-03-24T23:11:13Z</updated>
+    <published>2017-03-24T23:11:13Z</published>
+    <title>Digraphs with at most one trivial critical ideal</title>
+    <summary>  Critical ideals generalize the critical group, Smith group and the
+characteristic polynomials of the adjacency and Laplacian matrices of a graph.
+We give a complete characterization of the digraphs with at most one trivial
+critical ideal. Which implies the characterizations of the digraphs whose
+critical group has one invariant factor equal to one, and the digraphs whose
+Smith group has one invariant factor equal to one.
+</summary>
+    <author>
+      <name>Carlos A. Alfaro</name>
+    </author>
+    <author>
+      <name>Carlos E. Valencia</name>
+    </author>
+    <author>
+      <name>Adrián Vázquez-Ávila</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1703.08621v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1703.08621v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 05C50, 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

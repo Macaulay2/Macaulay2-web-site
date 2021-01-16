@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.02139%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.02139&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/l0fcMuoUncFcuG5YBartOVT8qEo</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.02139v1</id>
+    <updated>2018-10-04T10:30:39Z</updated>
+    <published>2018-10-04T10:30:39Z</published>
+    <title>Linear resolutions and Gröbner basis of Hankel determinantal ideals</title>
+    <summary>  In this paper, we study the family of determinantal ideals of "close" cuts of
+Hankel matrices, say $ \mathcal{f} $. We show that the multi-Rees algebra of
+ideals in $ \mathcal{f} $ is defined by a quadratic Gr\"{o}bner basis, it is
+Koszul, normal Cohen-Macaulay domain and it has a nice Sagbi basis. As a
+consequence of Koszulness, we prove that every product $ I_1\ldots I_l $ of
+ideals of $ \mathcal{f} $ has linear resolution. Moreover, we show that natural
+generators of every product $ I_1\ldots I_l $ form a Gr\"{o}bner basis.
+</summary>
+    <author>
+      <name>Sepehr Jafari</name>
+    </author>
+    <link href="http://arxiv.org/abs/1810.02139v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.02139v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 15A15, 16S80" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

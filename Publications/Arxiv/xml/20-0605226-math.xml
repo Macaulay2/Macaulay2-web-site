@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0605226%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0605226&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/op7/zXPWVGD4vjrTFRxfHMZKQlA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0605226v1</id>
+    <updated>2006-05-09T12:42:40Z</updated>
+    <published>2006-05-09T12:42:40Z</published>
+    <title>An explicit construction of ruled surfaces</title>
+    <summary>  The main goal of this paper is to give a general method to compute (via
+computer algebra systems) an explicit set of generators of the ideals of the
+projective embeddings of some ruled surfaces, namely projective line bundles
+over curves such that the fibres are embedded as smooth rational curves.
+Indeed, although the existence of the embeddings that we consider is well
+known, often in literature there are no explicit descriptions of the
+corresponding projective ideals. Such an explicit description allows to
+compute, besides all the syzygies, some of the important algebraic invariants
+of the surface, for instance the $k$-regularity, which are not always easy to
+compute by general formulae or by geometric arguments. An implementation of our
+algorithms and explicit examples for the computer algebra system Macaulay2 are
+included, so that anyone can use them for his own purposes.
+</summary>
+    <author>
+      <name>Alberto Alzati</name>
+    </author>
+    <author>
+      <name>Fabio Tonoli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0605226v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0605226v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J26; 14Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

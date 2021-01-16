@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.02521%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.02521&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/A2YE1VqTN0IyOhW6JhXZ5bimtBY</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.02521v1</id>
+    <updated>2018-07-06T18:00:01Z</updated>
+    <published>2018-07-06T18:00:01Z</published>
+    <title>Quiver Theories and Formulae for Slodowy Slices of Classical Algebras</title>
+    <summary>  We utilise SUSY quiver gauge theories to compute properties of Slodowy
+slices; these are spaces transverse to the nilpotent orbits of a Lie algebra
+$\mathfrak g$. We analyse classes of quiver theories, with Classical gauge and
+flavour groups, whose Higgs branch Hilbert series are the intersections between
+Slodowy slices and the nilpotent cone $\mathcal S\cap \mathcal N$ of
+$\mathfrak{g}$. We calculate refined Hilbert series for Classical algebras up
+to rank $4$ (and $A_5$), and find descriptions of their representation matrix
+generators as algebraic varieties encoding the relations of the chiral ring. We
+also analyse a class of dual quiver theories, whose Coulomb branches are
+intersections $\mathcal S\cap \mathcal N$; such dual quiver theories exist for
+the Slodowy slices of $A$ algebras, but are limited to a subset of the Slodowy
+slices of $BCD$ algebras. The analysis opens new questions about the extent of
+$3d$ mirror symmetry within the class of SCFTs known as $T_\sigma^\rho(G)$
+theories. We also give simple group theoretic formulae for the Hilbert series
+of Slodowy slices; these draw directly on the $SU(2)$ embedding into $G$ of the
+associated nilpotent orbit, and the Hilbert series of the nilpotent cone.
+</summary>
+    <author>
+      <name>Santiago Cabrera</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Rudolph Kalveks</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">66 pages, 12 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.02521v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.02521v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

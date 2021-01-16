@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.06955%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.06955&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mLSAmTBrOihgPKHHG0VVNSYiALY</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.06955v1</id>
+    <updated>2018-09-18T22:15:20Z</updated>
+    <published>2018-09-18T22:15:20Z</published>
+    <title>A stable version of Harbourne's Conjecture and the containment problem
+  for space monomial curves</title>
+    <summary>  The symbolic powers $I^{(n)}$ of a radical ideal $I$ in a polynomial ring
+consist of the functions that vanish up to order $n$ in the variety defined by
+$I$. These do not necessarily coincide with the ordinary algebraic powers
+$I^n$, but it is natural to compare the two notions. The containment problem
+consists of determining the values of $n$ and $m$ for which $I^{(n)} \subseteq
+I^m$ holds. When $I$ is an ideal of height $2$ in a regular ring, $I^{(3)}
+\subseteq I^2$ may fail, but we show that this containment does hold for the
+defining ideal of the space monomial curve $(t^a, t^b, t^c)$. More generally,
+given a radical ideal $I$ of big height $h$, while the containment
+$I^{(hn-h+1)} \subseteq I^n$ conjectured by Harbourne does not necessarily hold
+for all $n$, we give sufficient conditions to guarantee such containments for
+$n \gg 0$.
+</summary>
+    <author>
+      <name>Eloísa Grifo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.06955v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.06955v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13A35, 13H05, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

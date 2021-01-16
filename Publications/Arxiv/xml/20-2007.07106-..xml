@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.07106%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.07106&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CcPc9B7Gt5YAClHmxYqcEp3YGo4</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.07106v1</id>
+    <updated>2020-07-14T15:24:52Z</updated>
+    <published>2020-07-14T15:24:52Z</published>
+    <title>Concordance invariants with applications to the 4-dimensional clasp
+  number</title>
+    <summary>  Using knot Floer homology, we define a family of concordance invariants which
+give lower bounds on the 4-dimensional clasp number. More generally, our
+invariants obstruct a slice surface with genus $g$ and $c$ double points. We
+give examples where the clasp number is arbitrarily larger than the 4-ball
+genus. We also prove that Hendricks and Manolescu's involutive correction terms
+of large surgery give a lower bound on the clasp number.
+</summary>
+    <author>
+      <name>András Juhász</name>
+    </author>
+    <author>
+      <name>Ian Zemke</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.07106v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.07106v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="57R58, 57M27 (primary), 57R70, 57R40 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

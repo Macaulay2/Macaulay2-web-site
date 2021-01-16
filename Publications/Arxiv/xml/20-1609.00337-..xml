@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.00337%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.00337&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9eaRxfRNJbIMVqU6OM9TxT7lNuw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.00337v1</id>
+    <updated>2016-09-01T18:25:32Z</updated>
+    <published>2016-09-01T18:25:32Z</published>
+    <title>Free and Non-free Multiplicities on the $A_3$ Arrangement</title>
+    <summary>  We give a complete classification of free and non-free multiplicities on the
+$A_3$ braid arrangement. Namely, we show that all free multiplicities on $A_3$
+fall into two families that have been identified by Abe-Terao-Wakefield (2007)
+and Abe-Nuida-Numata (2009). The main tool is a new homological obstruction to
+freeness derived via a connection to multivariate spline theory.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Jeffrey Mermin</name>
+    </author>
+    <author>
+      <name>Jay Schweig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 2 tables, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.00337v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.00337v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13P20, 13N15, 14N20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

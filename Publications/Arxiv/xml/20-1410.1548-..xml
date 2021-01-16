@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.1548%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.1548&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/V4ODWPnVWg4RJqNbzWKRGn33oWk</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.1548v1</id>
+    <updated>2014-10-06T20:00:32Z</updated>
+    <published>2014-10-06T20:00:32Z</published>
+    <title>T^{σ}_{ρ}(G) Theories and Their Hilbert Series</title>
+    <summary>  We give an explicit formula for the Higgs and Coulomb branch Hilbert series
+for the class of 3d N=4 superconformal gauge theories T^{\sigma}_{\rho}(G)
+corresponding to a set of D3 branes ending on NS5 and D5-branes, with or
+without O3 planes. Here G is a classical group, \sigma is a partition of G and
+\rho a partition of the dual group G^\vee. In deriving such a formula we make
+use of the recently discovered formula for the Hilbert series of the quantum
+Coulomb branch of N=4 superconformal theories. The result can be expressed in
+terms of a generalization of a class of symmetric functions, the
+Hall-Littlewood polynomials, and can be interpreted in mathematical language in
+terms of localization. We mainly consider the case G=SU(N) but some interesting
+results are also given for orthogonal and symplectic groups.
+</summary>
+    <author>
+      <name>Stefano Cremonesi</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Noppadol Mekareeya</name>
+    </author>
+    <author>
+      <name>Alberto Zaffaroni</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP01(2015)150</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP01(2015)150" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">55 pages and a number of figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.1548v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.1548v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

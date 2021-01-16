@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.6894%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.6894&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OEzzNeS27FA3VYTHuovHB4tD5zE</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.6894v1</id>
+    <updated>2014-10-25T07:37:10Z</updated>
+    <published>2014-10-25T07:37:10Z</published>
+    <title>Associated Primes of Spline Complexes</title>
+    <summary>  The spline complex $\mathcal{R}/\mathcal{J}[\Sigma]$ whose top homology is
+the algebra $C^\alpha(\Sigma)$ of mixed splines over the fan
+$\Sigma\subset\mathbb{R}^{n+1}$ was introduced by Schenck-Stillman in
+[Schenck-Stillman 97] as a variant of a complex
+$\mathcal{R}/\mathcal{I}[\Sigma]$ of Billera [Billera 88]. In this paper we
+analyze the associated primes of homology modules of this complex. In
+particular, we show that all such primes are linear. We give two applications
+to computations of dimensions. The first is a computation of the third
+coefficient of the Hilbert polynomial of $C^\alpha(\Sigma)$, including cases
+where vanishing is imposed along arbitrary codimension one faces of the
+boundary of $\Sigma$, generalizing the computations in [Geramita-Schenck
+98,McDonald-Schenck 09]. The second is a description of the fourth coefficient
+of the Hilbert polynomial of $HP(C^\alpha(\Sigma))$ for simplicial fans
+$\Sigma$. We use this to derive the result of Alfeld, Schumaker, and Whiteley
+on the generic dimension of $C^1$ tetrahedral splines for $d\gg 0$
+[Alfeld-Schumaker-Whiteley 93] and indicate via an example how this description
+may be used to give the fourth coefficient in particular nongeneric
+configurations.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.6894v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.6894v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

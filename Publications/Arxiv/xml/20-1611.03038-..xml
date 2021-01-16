@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.03038%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.03038&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ui5Oq2/3Gkw6ZrPqFGSE2AX9JzE</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.03038v1</id>
+    <updated>2016-11-09T18:29:54Z</updated>
+    <published>2016-11-09T18:29:54Z</published>
+    <title>Some phenomena in tautological rings of manifolds</title>
+    <summary>  We prove several basic ring-theoretic results about tautological rings of
+manifolds W, that is, the rings of generalised Miller--Morita--Mumford classes
+for fibre bundles with fibre W. Firstly we provide conditions on the rational
+cohomology of W which ensure that its tautological ring is finitely-generated,
+and we show that these conditions cannot be completely relaxed by giving an
+example of a tautological ring which fails to be finitely-generated in quite a
+strong sense. Secondly, we provide conditions on torus actions on W which
+ensure that the rank of the torus gives a lower bound for the Krull dimension
+of the tautological ring of W. Lastly, we give extensive computations in the
+tautological rings of CP^2 and S^2 x S^2.
+</summary>
+    <author>
+      <name>Oscar Randal-Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.03038v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.03038v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55R40, 57R22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

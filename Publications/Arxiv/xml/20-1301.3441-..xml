@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.3441%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.3441&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/U79HCNLQ/1G6g16W6Z/c/041HwA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.3441v2</id>
+    <updated>2013-01-22T16:03:32Z</updated>
+    <published>2013-01-15T18:22:33Z</published>
+    <title>Non-simplicial decompositions of Betti diagrams of complete
+  intersections</title>
+    <summary>  We investigate decompositions of Betti diagrams over a polynomial ring within
+the framework of Boij--Soederberg theory. That is, given a Betti diagram, we
+decompose it into pure diagrams; however we relax the requirement that the
+corresponding degree sequences for these diagrams be totally ordered. In doing
+so, we are able to define a multiplication law for Betti diagrams that respects
+the decomposition. In the more traditional sense, the decomposition of complete
+intersections of codimension at most 3 are also computed as given by the
+totally ordered decomposition algorithm obtained from (Eisenbud-Schreyer,
+2009). In higher codimensions, obstructions arise that inspire our work on an
+alternative algorithm.
+</summary>
+    <author>
+      <name>Courtney Gibbons</name>
+    </author>
+    <author>
+      <name>Jack Jeffries</name>
+    </author>
+    <author>
+      <name>Sarah Mayes</name>
+    </author>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <author>
+      <name>Branden Stone</name>
+    </author>
+    <author>
+      <name>Bryan White</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages. This is work from the 2011 MSRI Summer Graduate Workshop in
+  Commutative Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.3441v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.3441v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

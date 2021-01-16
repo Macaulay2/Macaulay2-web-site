@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.2721%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.2721&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/t8h/lEM9rjCKPxj7mN+a3hEZhjA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.2721v1</id>
+    <updated>2014-08-12T14:18:37Z</updated>
+    <published>2014-08-12T14:18:37Z</published>
+    <title>Certifying solutions to overdetermined and singular polynomial systems
+  over Q</title>
+    <summary>  This paper is concerned with certifying that a given point is near an exact
+root of an overdetermined or singular polynomial system with rational
+coefficients. The difficulty lies in the fact that consistency of
+overdetermined systems is not a continuous property. Our certification is based
+on hybrid symbolic-numeric methods to compute the exact "rational univariate
+representation" (RUR) of a component of the input system from approximate
+roots. For overdetermined polynomial systems with simple roots, we compute an
+initial RUR from approximate roots. The accuracy of the RUR is increased via
+Newton iterations until the exact RUR is found, which we certify using exact
+arithmetic. Since the RUR is well-constrained, we can use it to certify the
+given approximate roots using alpha-theory. To certify isolated singular roots,
+we use a determinantal form of the "isosingular deflation", which adds new
+polynomials to the original system without introducing new variables. The
+resulting polynomial system is overdetermined, but the roots are now simple,
+thereby reducing the problem to the overdetermined case. We prove that our
+algorithms have complexity that are polynomial in the input plus the output
+size upon successful convergence, and we use worst case upper bounds for
+termination when our iteration does not converge to an exact RUR. Examples are
+included to demonstrate the approach.
+</summary>
+    <author>
+      <name>Tulay Ayyildiz Akoglu</name>
+    </author>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Agnes Szanto</name>
+    </author>
+    <link href="http://arxiv.org/abs/1408.2721v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.2721v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

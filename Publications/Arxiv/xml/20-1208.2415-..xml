@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.2415%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.2415&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aFajwJwrluER8TSz2EsmgvJHdOM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.2415v1</id>
+    <updated>2012-08-12T09:45:03Z</updated>
+    <published>2012-08-12T09:45:03Z</published>
+    <title>Regularity bounds for binomial edge ideals</title>
+    <summary>  We show that the Castelnuovo-Mumford regularity of the binomial edge ideal of
+a graph is bounded below by the length of its longest induced path and bounded
+above by the number of its vertices.
+</summary>
+    <author>
+      <name>Kazunori Matsuda</name>
+    </author>
+    <author>
+      <name>Satoshi Murai</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.2415v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.2415v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

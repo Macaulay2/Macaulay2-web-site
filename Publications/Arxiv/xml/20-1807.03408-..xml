@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.03408%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.03408&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RffiLbvFPysw+ep1rv3uI/AGn0s</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03408v1</id>
+    <updated>2018-07-09T22:25:28Z</updated>
+    <published>2018-07-09T22:25:28Z</published>
+    <title>Necklaces count polynomial parametric osculants</title>
+    <summary>  We consider the problem of geometrically approximating a complex analytic
+curve in the plane by the image of a polynomial parametrization $t \mapsto
+(x_1(t),x_2(t))$ of bidegree $(d_1,d_2)$. We show the number of such curves is
+the number of primitive necklaces on $d_1$ white beads and $d_2$ black beads.
+We show that this number is odd when $d_1=d_2$ is squarefree and use this to
+give a partial solution to a conjecture by Rababah. Our results naturally
+extend to a generalization regarding hypersurfaces in higher dimensions. There,
+the number of parametrized curves of multidegree $(d_1,\ldots,d_n)$ which
+optimally osculate a given hypersurface are counted by the number of primitive
+necklaces with $d_i$ beads of color $i$.
+</summary>
+    <author>
+      <name>Taylor Brysiewicz</name>
+    </author>
+    <link href="http://arxiv.org/abs/1807.03408v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.03408v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N10 (Primary) 65D05, 65H20 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

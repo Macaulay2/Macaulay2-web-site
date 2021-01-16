@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1112.4523%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1112.4523&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/buuq/3Ba3PA02g/tQ3s81lLFKMI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1112.4523v1</id>
+    <updated>2011-12-19T22:51:21Z</updated>
+    <published>2011-12-19T22:51:21Z</published>
+    <title>Complexity and Algorithms for Euler Characteristic of Simplicial
+  Complexes</title>
+    <summary>  We consider the problem of computing the Euler characteristic of an abstract
+simplicial complex given by its vertices and facets. We show that this problem
+is #P-complete and present two new practical algorithms for computing Euler
+characteristic. The two new algorithms are derived using combinatorial
+commutative algebra and we also give a second description of them that requires
+no algebra. We present experiments showing that the two new algorithms can be
+implemented to be faster than previous Euler characteristic implementations by
+a large margin.
+</summary>
+    <author>
+      <name>Bjarke Hammersholt Roune</name>
+    </author>
+    <author>
+      <name>Eduardo Sáenz de Cabezón</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1112.4523v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1112.4523v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

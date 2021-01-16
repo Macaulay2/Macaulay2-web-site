@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0402369%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0402369&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fUmnD2PyWnesGequ58T3WyRWOGI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402369v1</id>
+    <updated>2004-02-23T15:57:18Z</updated>
+    <published>2004-02-23T15:57:18Z</published>
+    <title>Canonical surfaces in P^4 and Gorenstein algebras in codimension 2</title>
+    <summary>  In this paper I investigate minimal surfaces of general type with p_g=5, q=0
+for which the 1-canonical map is a birational morphism onto a surface in P^4
+(so called canonical surfaces in P^4) via a structure theorem for the Hilbert
+resolutions of the canonical rings of the afore-mentioned surfaces, viewed as
+Gorenstein algebras of codimension 2 over the homogeneous coordinate ring of
+P^4. I discuss how the ring structure of such an algebra is encoded in its
+resolution. Among other things I show how this method can be applied to analyze
+the moduli space of canonical surfaces with p_g=5, q=0, K^2=11, thus recovering
+a result previously obtained by D. Rossberg with different techniques.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0402369v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0402369v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J29" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

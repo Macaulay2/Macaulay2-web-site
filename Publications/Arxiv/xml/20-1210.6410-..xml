@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.6410%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.6410&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kPmFyohELcACFu5EogmnjcIQJNY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.6410v2</id>
+    <updated>2012-11-06T02:45:53Z</updated>
+    <published>2012-10-24T00:19:48Z</published>
+    <title>Free resolutions of orbit closures for the representations associated to
+  gradings on Lie algebras of type E6, F4 and G2</title>
+    <summary>  The irreducible representations of complex semisimple algebraic groups with
+finitely many orbits are parametrized by graded simple Lie algebras. For the
+exceptional Lie algebras, Kraskiewicz and Weyman exhibit the Hilbert
+polynomials and the expected minimal free resolutions of the normalization of
+the orbit closures. We present an interactive method to construct explicitly
+these and related resolutions in Macaulay2. The method is then used in the
+cases of the Lie algebras of type E6, F4, and G2, to confirm the shape of the
+expected resolutions as well as some geometric properties of the orbit
+closures.
+</summary>
+    <author>
+      <name>Federico Galetto</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: fixed section 5.1</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.6410v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.6410v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="22E55, 13D02, 14M17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

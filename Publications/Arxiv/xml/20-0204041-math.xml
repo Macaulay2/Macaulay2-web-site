@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0204041%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0204041&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+wCo4eFBvmRRVKYWjYZ+GReUrUY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0204041v2</id>
+    <updated>2002-04-04T15:59:52Z</updated>
+    <published>2002-04-03T04:55:58Z</published>
+    <title>A new proof of the nonrationality of cubic threefolds</title>
+    <summary>  A new proof of the non-rationality of a generic cubic threefold is given as
+follows: If a generic cubic threefold were rational then the associated
+intermediate Jacobian would be a product of Jacobians of curves. We degenerate
+a generic cubic threefold to the Segre Cubic Threefold and so there is a
+degeneration of intermediate Jacobians as well. Associated to the degenerating
+family of Pryms is a unimodular system of vectors. Rationality of the generic
+cubic threefold would imply that the unimodular system would be cographic
+dicing. However, we show that the unimodular system obtained is a well known
+symmetric non-cographic dicing called E_5.
+</summary>
+    <author>
+      <name>Tawanda Gwena</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 Pages, typo fix</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0204041v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0204041v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H40; 14E08" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

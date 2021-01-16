@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.03484%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.03484&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1LSDoSNB6JDH68R99D8bSRAJV3A</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.03484v1</id>
+    <updated>2020-09-08T02:03:07Z</updated>
+    <published>2020-09-08T02:03:07Z</published>
+    <title>Blow-up algebras of rational normal scrolls and their secant varieties</title>
+    <summary>  We show that the fiber cones of general rational normal scrolls are
+Cohen--Macaulay and compute their Castelnuovo--Mumford regularities. Then we
+study the secant varieties of balanced rational normal scrolls. We describe the
+defining equations of their associated Rees algebras and compute the
+Castelnuovo--Mumford regularities of their fiber cones.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Yi-Huang Shen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2009.03484v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.03484v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C40, 13A30, 13P10, 13F50 (Primary) 14N07, 14M12 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

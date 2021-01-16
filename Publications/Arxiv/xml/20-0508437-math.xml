@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0508437%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0508437&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/m7ZntEXxhBjS0XLOjKffWItJj8Y</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508437v1</id>
+    <updated>2005-08-23T18:32:40Z</updated>
+    <published>2005-08-23T18:32:40Z</published>
+    <title>Computing all roots of the likelihood equations of seemingly unrelated
+  regressions</title>
+    <summary>  Seemingly unrelated regressions are statistical regression models based on
+the Gaussian distribution. They are popular in econometrics but also arise in
+graphical modeling of multivariate dependencies. In maximum likelihood
+estimation, the parameters of the model are estimated by maximizing the
+likelihood function, which maps the parameters to the likelihood of observing
+the given data. By transforming this optimization problem into a polynomial
+optimization problem, it was recently shown that the likelihood function of a
+simple bivariate seemingly unrelated regressions model may have several
+stationary points. Thus local maxima may complicate maximum likelihood
+estimation. In this paper, we study several more complicated seemingly
+unrelated regression models, and show how all stationary points of the
+likelihood function can be computed using algebraic geometry.
+</summary>
+    <author>
+      <name>Mathias Drton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in the Journal of Symbolic Computation, special issue on
+  Computational Algebraic Statistics. 11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0508437v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0508437v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62H12; 62J05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

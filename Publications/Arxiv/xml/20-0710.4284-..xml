@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0710.4284%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0710.4284&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XY+I/O56CKi8+ygv03gALG7nBzU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0710.4284v1</id>
+    <updated>2007-10-23T15:49:33Z</updated>
+    <published>2007-10-23T15:49:33Z</published>
+    <title>Numerical obstructions to abelian surfaces in toric Fano 4-folds</title>
+    <summary>  Some of the 124 toric Fano 4-folds contain abelian surfaces but most do not:
+in a few cases it is not known whether they do or not. By elementary methods,
+with a little computer help, we exclude some more possibilities.
+</summary>
+    <author>
+      <name>G. K. Sankaran</name>
+    </author>
+    <link href="http://arxiv.org/abs/0710.4284v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0710.4284v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05; 14K05; 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

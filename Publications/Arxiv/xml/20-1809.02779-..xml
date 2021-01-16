@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.02779%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.02779&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ybIjm2/HK7Y9ArPjojlj7IXoeaA</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.02779v1</id>
+    <updated>2018-09-08T09:10:32Z</updated>
+    <published>2018-09-08T09:10:32Z</published>
+    <title>Quantisation of Kippenhahn's Conjecture</title>
+    <summary>  Semidefinite programming optimises a linear objective function over a
+spectrahedron, and is one of the major advances of mathematical optimisation.
+Spectrahedra are described by linear pencils, which are linear matrix
+polynomials with hermitian matrix coefficients. Our focus will be on
+dimension-free linear pencils where the variables are permitted to be hermitian
+matrices. A major question on linear pencils, and matrix theory in general, is
+Kippenhahn's Conjecture. The conjecture states that given a linear pencil $xH +
+yK $ if the hermitian matrices $H$ and $K$ generate the full matrix algebra,
+then the pencil must have at least one simple eigenvalue for some $x$ and $y$.
+The conjecture is known to be false, via a single counterexample due to Laffey.
+A dimension-free version of the conjecture, known as the Quantum Kippenhahn
+Theorem, has recently been proven true non-constructively. We present a novel
+family of counterexamples to Kippenhahn's Conjecture, and use this family to
+construct concrete examples of the Quantum Kippenhahn Theorem.
+</summary>
+    <author>
+      <name>Ben Lawrence</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages of text plus 14 pages of CAS code</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.02779v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.02779v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

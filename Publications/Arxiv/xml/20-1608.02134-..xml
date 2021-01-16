@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1608.02134%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1608.02134&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8A3OCIUWmLkTeCvtGlokSl3j3vc</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1608.02134v1</id>
+    <updated>2016-08-06T17:59:47Z</updated>
+    <published>2016-08-06T17:59:47Z</published>
+    <title>Regularity of Line Configurations</title>
+    <summary>  We show that in arithmetically-Gorenstein line arrangements with only planar
+singularities, each line intersects the same number of other lines. This number
+has an algebraic interpretation: it is the Castelnuovo-Mumford regularity of
+the coordinate ring of the arrangement.
+  We also prove that every (d-1)-dimensional simplicial complex whose 0-th and
+1-st homologies are trivial is the nerve complex of a suitable d-dimensional
+standard graded algebra of depth $\ge 3$. This provides the converse of a
+recent result by Katzman, Lyubeznik and Zhang.
+</summary>
+    <author>
+      <name>Bruno Benedetti</name>
+    </author>
+    <author>
+      <name>Michela Di Marca</name>
+    </author>
+    <author>
+      <name>Matteo Varbaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages; comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.02134v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.02134v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 13C40, 14N10, 05C07, 14J28" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

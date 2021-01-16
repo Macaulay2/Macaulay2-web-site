@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.14485%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.14485&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//RXRlZrMmjHt3cnmeWthSur2APc</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.14485v1</id>
+    <updated>2020-05-29T10:04:29Z</updated>
+    <published>2020-05-29T10:04:29Z</published>
+    <title>On the multihomogeneous Bézout bound on the number of embeddings of
+  minimally rigid graphs</title>
+    <summary>  Rigid graph theory is an active area with many open problems, especially
+regarding embeddings in $\mathbb{R}^d$ or other manifolds, and tight upper
+bounds on their number for a given number of vertices. Our premise is to relate
+the number of embeddings to that of solutions of a well-constrained algebraic
+system and exploit progress in the latter domain. In particular, the system's
+complex solutions naturally extend the notion of real embeddings, thus allowing
+us to employ bounds on complex roots.
+  We focus on multihomogeneous B{\'e}zout (m-B{\'e}zout) bounds of algebraic
+systems since they are fast to compute and rather tight for systems exhibiting
+structure as in our case. We introduce two methods to relate such bounds to
+combinatorial properties of minimally rigid graphs in $\mathbb{C}^d$ and $S^d$.
+The first relates the number of graph orientations to the m-B\'ezout bound,
+while the second leverages a matrix permanent formulation. Using these
+approaches we improve the best known asymptotic upper bounds for planar graphs
+in dimension~3, and all minimally rigid graphs in dimension $d\geq 5$, both in
+the Euclidean and spherical case.
+  Our computations indicate that m-B\'ezout bounds are tight for embeddings of
+planar graphs in $S^2$ and $\mathbb{C}^3$. We exploit Bernstein's second
+theorem on the exactness of mixed volume, and relate it to the m-B{\'e}zout
+bound by analyzing the associated Newton polytopes. We reduce the number of
+checks required to verify exactness by an exponential factor, and conjecture
+further that it suffices to check a linear instead of an exponential number of
+cases overall.
+</summary>
+    <author>
+      <name>Evangelos Bartzos</name>
+    </author>
+    <author>
+      <name>Ioannis Z. Emiris</name>
+    </author>
+    <author>
+      <name>Josef Schicho</name>
+    </author>
+    <link href="http://arxiv.org/abs/2005.14485v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.14485v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C25, 13P15, 52A39, 15A15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

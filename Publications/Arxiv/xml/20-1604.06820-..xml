@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.06820%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.06820&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Wm6VPimRBIhq2eeI80Brh3SoD2Y</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.06820v1</id>
+    <updated>2016-04-22T21:02:22Z</updated>
+    <published>2016-04-22T21:02:22Z</published>
+    <title>On the structure of monomial complete intersections in positive
+  characteristic</title>
+    <summary>  We extend results of Kustin and Vraciu on the weak Lefschetz property for
+monomial complete intersections in positive characteristic and settle a
+conjecture by Cook II. We also give a complete characterization of the strong
+Lefschetz property for monomial complete intersections in three or more
+variables. As a consequence of our results we can extend a result on
+Fr\"oberg's conjecture on the Hilbert series of a graded algebra to positive
+characteristic.
+</summary>
+    <author>
+      <name>Samuel Lundqvist</name>
+    </author>
+    <author>
+      <name>Lisa Nicklasson</name>
+    </author>
+    <link href="http://arxiv.org/abs/1604.06820v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.06820v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

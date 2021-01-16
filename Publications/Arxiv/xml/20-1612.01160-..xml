@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.01160%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.01160&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6hnzpTCVnCHJu9QQU8N0YeKyclc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.01160v4</id>
+    <updated>2017-04-11T11:55:04Z</updated>
+    <published>2016-12-04T18:22:36Z</published>
+    <title>General models for rational cameras and the case of two-slit projections</title>
+    <summary>  The rational camera model recently introduced in [19] provides a general
+methodology for studying abstract nonlinear imaging systems and their
+multi-view geometry. This paper builds on this framework to study "physical
+realizations" of rational cameras. More precisely, we give an explicit account
+of the mapping between between physical visual rays and image points (missing
+in the original description), which allows us to give simple analytical
+expressions for direct and inverse projections. We also consider "primitive"
+camera models, that are orbits under the action of various projective
+transformations, and lead to a general notion of intrinsic parameters. The
+methodology is general, but it is illustrated concretely by an in-depth study
+of two-slit cameras, that we model using pairs of linear projections. This
+simple analytical form allows us to describe models for the corresponding
+primitive cameras, to introduce intrinsic parameters with a clear geometric
+meaning, and to define an epipolar tensor characterizing two-view
+correspondences. In turn, this leads to new algorithms for structure from
+motion and self-calibration.
+</summary>
+    <author>
+      <name>Matthew Trager</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>John Canny</name>
+    </author>
+    <author>
+      <name>Martial Hebert</name>
+    </author>
+    <author>
+      <name>Jean Ponce</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages + supplementary material</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.01160v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.01160v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

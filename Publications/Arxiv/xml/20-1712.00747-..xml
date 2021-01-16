@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.00747%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.00747&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mKJ42R8PkWJliExQvqru1pqHU8E</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00747v1</id>
+    <updated>2017-12-03T10:44:44Z</updated>
+    <published>2017-12-03T10:44:44Z</published>
+    <title>Toric Codes and Lattice Ideals</title>
+    <summary>  Let $X$ be a complete simplicial toric variety over a finite field
+$\mathbb{F}_q$ with homogeneous coordinate ring $S=\mathbb{F}_q[x_1,\dots,x_r]$
+and split torus $T_X\cong (\mathbb{F}^*_q)^n$. We prove that vanishing ideal of
+a subset $Y$ of the torus $T_X$ is a lattice ideal if and only if $Y$ is a
+subgroup. We show that these subgroups are exactly those subsets that are
+parameterized by Laurents monomials. We give an algorithm for determining this
+parametrization if the subgroup is the zero locus of a lattice ideal in the
+torus. We also show that vanishing ideals of subgroups of $T_X$ are radical
+homogeneous lattice ideals of dimension $r-n$. We identify the lattice
+corresponding to a degenerate torus in $X$ and completely characterize when its
+lattice ideal is a complete intersection. We compute dimension and length of
+some generalized toric codes defined on these degenerate tori.
+</summary>
+    <author>
+      <name>Mesut Şahin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The author is supported by T\"UB\.ITAK Project No:114F094</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.00747v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.00747v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14M25, 14G50, Secondary 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

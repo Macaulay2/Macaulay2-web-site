@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.10627%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.10627&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YbRV2AcFYJxm4IUakva0xoMndV4</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.10627v2</id>
+    <updated>2019-06-26T11:35:58Z</updated>
+    <published>2019-06-22T12:33:02Z</published>
+    <title>Circulant networks of identical Kuramoto oscillators: Seeking dense
+  networks that do not globally synchronize and sparse ones that do</title>
+    <summary>  There is a critical connectivity $0&lt;\mu_c&lt;1$ for systems of identical
+Kuramoto oscillators. Any network of size $n$ in which each oscillator
+interacts with at least $\mu(n-1)$ others is globally synchronizing if
+$\mu\geq\mu_c$; otherwise, it may not be. The best known bounds on $\mu_c$ are
+$15/22 \approx 0.6818 \leq \mu_c\leq (3-\sqrt{2})/2 \approx 0.7929$. Focusing
+on circulant networks leads us to conjecture that $\mu_c = 0.75$. At the sparse
+end of the connectivity spectrum, we find that a ring of $n$ oscillators can be
+turned into a globally synchronizing network by adding just $\mathcal{O}(n
+\log_2 n)$ edges.
+</summary>
+    <author>
+      <name>Alex Townsend</name>
+    </author>
+    <author>
+      <name>Michael Stillman</name>
+    </author>
+    <author>
+      <name>Steven H. Strogatz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1906.10627v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.10627v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.CD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

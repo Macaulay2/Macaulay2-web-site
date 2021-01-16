@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.05871%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.05871&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CjEGzPkDLw36AiEkg6aLZAqDfLg</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.05871v2</id>
+    <updated>2015-01-26T09:15:13Z</updated>
+    <published>2015-01-23T16:53:56Z</published>
+    <title>Tilting Bundles on Toric Fano Fourfolds</title>
+    <summary>  This paper constructs tilting bundles obtained from full strong exceptional
+collections of line bundles on all smooth $4$-dimensional toric Fano varieties.
+The tilting bundles lead to a large class of explicit Calabi-Yau-$5$ algebras,
+obtained as the corresponding rolled-up helix algebra. A database of the full
+strong exceptional collections can be found in the package
+QuiversToricVarieties for the computer algebra system Macaulay2.
+</summary>
+    <author>
+      <name>Nathan Prabhu-Naik</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">50 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.05871v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.05871v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05, 14F05, 14J45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.07961%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.07961&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UbaI07XrB4oH0Bz+tMdnm6/LzA8</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.07961v1</id>
+    <updated>2019-06-19T08:18:50Z</updated>
+    <published>2019-06-19T08:18:50Z</published>
+    <title>Engineering and Business Applications of Sum of Squares Polynomials</title>
+    <summary>  Optimizing over the cone of nonnegative polynomials, and its dual
+counterpart, optimizing over the space of moments that admit a representing
+measure, are fundamental problems that appear in many different applications
+from engineering and computational mathematics to business. In this paper, we
+review a number of these applications. These include, but are not limited to,
+problems in control (e.g., formal safety verification), finance (e.g., option
+pricing), statistics and machine learning (e.g., shape-constrained regression
+and optimal design), and game theory (e.g., Nash equilibria computation in
+polynomial games). We then show how sum of squares techniques can be used to
+tackle these problems, which are hard to solve in general. We conclude by
+highlighting some directions that could be pursued to further disseminate sum
+of squares techniques within more applied fields. Among other things, we
+briefly address the current challenge that scalability represents for
+optimization problems that involve sum of squares polynomials and discuss
+recent trends in software development.
+</summary>
+    <author>
+      <name>Georgina Hall</name>
+    </author>
+    <link href="http://arxiv.org/abs/1906.07961v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.07961v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.AP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

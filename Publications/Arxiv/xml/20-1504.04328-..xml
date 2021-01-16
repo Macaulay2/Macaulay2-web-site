@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.04328%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.04328&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/R5vYLcsbHP+w8ujBdiREiNjM3T4</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04328v1</id>
+    <updated>2015-04-16T18:27:20Z</updated>
+    <published>2015-04-16T18:27:20Z</published>
+    <title>Dimension filtration, sequential Cohen--Macaulayness and a new
+  polynomial invariant of graded algebras</title>
+    <summary>  Let $\k$ be a field and let $A$ be a standard $\mathbb{N}$-graded
+$\k$-algebra. Using numerical information of some invariants in the primary
+decomposition of $0$ in $A$, namely the so called dimension filtration, we
+associate a bivariate polynomial $\BW(A;t,w)$, that we call the
+Bj\"{o}rner--Wachs polynomial, to $A$.
+  It is shown that the Bj\"{o}rner--Wachs polynomial is an algebraic
+counterpart of the combinatorially defined $h$-triangle of finite simplicial
+complexes introduced by Bj\"{o}rner \&amp; Wachs. We provide a characterisation of
+sequentially Cohen--Macaulay algebras in terms of the effect of the reverse
+lexicographic generic initial ideal on the Bj\"{o}rner--Wachs polynomial. More
+precisely, we show that a graded algebra is sequentially Cohen--Macaulay if and
+only if it has a stable Bj\"{o}rner--Wachs polynomial under passing to the
+reverse lexicographic generic initial ideal. We conclude by discussing
+connections with the Hilbert series of local cohomology modules.
+</summary>
+    <author>
+      <name>Afshin Goodarzi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1504.04328v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.04328v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 05E40, 05E45, 13D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

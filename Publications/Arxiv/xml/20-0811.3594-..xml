@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0811.3594%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0811.3594&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3LiqO3CabMra06q2xhw6dsC6FSQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0811.3594v2</id>
+    <updated>2009-09-25T07:01:21Z</updated>
+    <published>2008-11-21T17:55:30Z</published>
+    <title>Smooth and irreducible multigraded Hilbert schemes</title>
+    <summary>  The multigraded Hilbert scheme parametrizes all homogeneous ideals in a
+polynomial ring graded by an abelian group with a fixed Hilbert function. We
+prove that any multigraded Hilbert scheme is smooth and irreducible when the
+polynomial ring is ZZ[x,y], which establishes a conjecture of Haiman and
+Sturmfels.
+</summary>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <author>
+      <name>Gregory G. Smith</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.aim.2009.10.003</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">added references, corrected typos, and made minor improvements to the
+  exposition</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Advances in Mathematics 223 (2010) 1608-1631</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0811.3594v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0811.3594v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.aim.2009.10.003" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05; 13A03; 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

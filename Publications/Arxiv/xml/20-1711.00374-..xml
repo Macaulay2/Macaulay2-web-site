@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.00374%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.00374&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1Pf8AXBMqG9CkwFOfsTtkO5yPTE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.00374v1</id>
+    <updated>2017-10-31T14:21:13Z</updated>
+    <published>2017-10-31T14:21:13Z</published>
+    <title>Graph classes for critical ideals, minimum rank and zero forcing number</title>
+    <summary>  Recently, there have been found new relations between the zero forcing number
+and the minimum rank of a graph with the algebraic co-rank. We continue on this
+direction by giving a characterization of the graphs with real algebraic
+co-rank at most 2. This implies that for any graph with at most minimum rank at
+most 3, its minimum rank is bounded from above by its real algebraic co-rank.
+</summary>
+    <author>
+      <name>Carlos A. Alfaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 2 figures. arXiv admin note: text overlap with
+  arXiv:1710.03386</arxiv:comment>
+    <link href="http://arxiv.org/abs/1711.00374v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.00374v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C25, 05C50, 05E99, 13P15, 15A03, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

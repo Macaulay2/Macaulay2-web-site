@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.00648%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.00648&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/naRNwn70pnxZpuOyntVE3CU5bIs</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.00648v1</id>
+    <updated>2018-05-02T06:52:48Z</updated>
+    <published>2018-05-02T06:52:48Z</published>
+    <title>Syzygy divisors on Hurwitz spaces</title>
+    <summary>  We describe a sequence of effective divisors on the Hurwitz space $H_{d,g}$
+for $d$ dividing $g-1$ and compute their cycle classes on a partial
+compactification. These divisors arise from vector bundles of syzygies
+canonically associated to a branched cover. We find that the cycle classes are
+all proportional to each other.
+</summary>
+    <author>
+      <name>Anand Deopurkar</name>
+    </author>
+    <author>
+      <name>Anand Patel</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1090/conm/703/14139</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1090/conm/703/14139" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages. For the issue of Contemporary Mathematics titled "Higher
+  genus curves in mathematical physics and arithmetic geometry."</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Contemporary Mathematics, 703, pp 209-222, 2018</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1805.00648v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.00648v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

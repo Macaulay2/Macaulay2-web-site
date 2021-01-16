@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.09443%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.09443&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zW5GH91EGF8W3cTqDll4KocIcjc</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.09443v1</id>
+    <updated>2020-07-18T14:48:31Z</updated>
+    <published>2020-07-18T14:48:31Z</published>
+    <title>On Virtually Cohen-Macaulay Simplicial Complexes</title>
+    <summary>  We examine virtual resolutions of Stanley-Reisner ideals for a product of
+projective spaces. In particular, we provide sufficient conditions for a
+simplicial complex to be virtually Cohen-Macaulay (to have a virtual resolution
+with length equal to its codimension). We also show that all balanced
+simplicial complexes are virtually Cohen-Macaulay.
+</summary>
+    <author>
+      <name>Nathan Kenshur</name>
+    </author>
+    <author>
+      <name>Feiyang Lin</name>
+    </author>
+    <author>
+      <name>Sean McNally</name>
+    </author>
+    <author>
+      <name>Zixuan Xu</name>
+    </author>
+    <author>
+      <name>Teresa Yu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.09443v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.09443v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E40, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

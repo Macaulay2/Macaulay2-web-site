@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1112.0157%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1112.0157&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kAJn3+ItkJ6RN2U1VnYqr8qrCns</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1112.0157v3</id>
+    <updated>2012-06-11T00:58:27Z</updated>
+    <published>2011-12-01T12:28:44Z</published>
+    <title>Connected sums of simplicial complexes and equivariant cohomology</title>
+    <summary>  In this paper, we discuss the connected sum K_1#^Z K_2 of simplicial
+complexes K_1 and K_2, as well as define the notion of a strong connected sum.
+Geometrically, the connected sum is motivated by Lerman's symplectic cut
+applied to a toric orbifold, and algebraically, it is motivated by the
+connected sum of rings introduced by Ananthnarayan-Avramov-Moore.
+  We show that the Stanley-Reisner ring of a connected sum K_1#^Z K_2 is the
+connected sum of the Stanley-Reisner rings of K_1 and K_2 along the
+Stanley-Reisner ring of the intersection of K_1 and K_2. The strong connected
+sum K_1 #^Z K_2 is defined in such a way that when K_1 and K_2 are Gorenstein,
+and Z is a suitable subset of the intersection of K_1 and K_2, then the
+Stanley-Reisner ring of the connected sum is Gorenstein, by the work of
+Ananthnarayan-Avramov-Moore. These algebraic computations can be interpreted in
+terms of the equivariant cohomology of moment angle complexes and we also
+describe the symplectic cut of a toric orbifold in terms of moment angle
+complexes.
+</summary>
+    <author>
+      <name>Tomoo Matsumura</name>
+    </author>
+    <author>
+      <name>W. Frank Moore</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1112.0157v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1112.0157v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="55N91, 14M25, 57R18, 16S37, 53D99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0501345%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0501345&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/loliLy+/SscPlsw8/F2s+/8bfes</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0501345v3</id>
+    <updated>2005-10-13T16:33:12Z</updated>
+    <published>2005-01-21T13:55:49Z</published>
+    <title>The generic Groebner walk</title>
+    <summary>  The Groebner walk is an algorithm for conversion between Groebner bases for
+different term orders. It is based on the polyhedral geometry of the Groebner
+fan and involves tracking a line between cones representing the initial and
+target term order. An important parameter is explicit numerical perturbation of
+this line. This usually involves both time and space demanding arithmetic of
+integers much larger than the input numbers. In this paper we show how the
+explicit line may be replaced by a formal line using Robbiano's
+characterization of group orders on Q^n. This gives rise to the generic
+Groebner walk involving only Groebner basis conversion over facets and
+computations with marked polynomials. The proposed technique is closely related
+to the lexicographic (symbolic) perturbation method used in optimization and
+computational geometry. We report on computations with toric ideals, where a
+version of our algorithm in certain cases computes test sets for hard integer
+knapsack problems significantly faster than the Buchberger algorithm.
+</summary>
+    <author>
+      <name>K. Fukuda</name>
+    </author>
+    <author>
+      <name>A. N. Jensen</name>
+    </author>
+    <author>
+      <name>N. Lauritzen</name>
+    </author>
+    <author>
+      <name>R. Thomas</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Symb. Comp. 42 (2007), 298-312.</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0501345v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0501345v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

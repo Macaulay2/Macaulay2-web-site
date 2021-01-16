@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.4126%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.4126&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FDO5x9m3I9hoaD6AjPT8mjp1diQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.4126v1</id>
+    <updated>2013-03-18T00:34:06Z</updated>
+    <published>2013-03-18T00:34:06Z</published>
+    <title>Jack polynomials as fractional quantum Hall states and the Betti numbers
+  of the (k+1)-equals ideal</title>
+    <summary>  We show that for Jack parameter \alpha = -(k+1)/(r-1), certain Jack
+polynomials studied by Feigin-Jimbo-Miwa-Mukhin vanish to order r when k+1 of
+the coordinates coincide. This result was conjectured by Bernevig and Haldane,
+who proposed that these Jack polynomials are model wavefunctions for fractional
+quantum Hall states. Special cases of these Jack polynomials include the
+wavefunctions of Laughlin and Read-Rezayi. In fact, along these lines we prove
+several vanishing theorems known as clustering properties for Jack polynomials
+in the mathematical physics literature, special cases of which had previously
+been conjectured by Bernevig and Haldane. Motivated by the method of proof,
+which in case r = 1 identifies the span of the relevant Jack polynomials with
+the S_n-invariant part of a unitary representation of the rational Cherednik
+algebra, we conjecture that unitary representations of the type A Cherednik
+algebra have graded minimal free resolutions of Bernstein-Gelfand-Gelfand type;
+we prove this for the ideal of the (k+1)-equals arrangement in the case when
+the number of coordinates n is at most 2k+1. In general, our conjecture
+predicts the graded S_n-equivariant Betti numbers of the ideal of the
+(k+1)-equals arrangement with no restriction on the number of ambient
+dimensions.
+</summary>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <author>
+      <name>Stephen Griffeth</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1303.4126v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.4126v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.mes-hall" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E05, 14N20, 16S99, 81V70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

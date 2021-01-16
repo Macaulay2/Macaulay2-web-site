@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.07510%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.07510&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AH4AlcFzId5R5kNw2jSpuCnby0w</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.07510v1</id>
+    <updated>2019-12-16T17:19:50Z</updated>
+    <published>2019-12-16T17:19:50Z</published>
+    <title>Spinor structures on free resolutions of codimension four Gorenstein
+  ideals</title>
+    <summary>  We analyze the structure of spinor coordinates on resolutions of Gorenstein
+ideals of codimension four. As an application we produce a family of such
+ideals with seven generators which are not specializations of Kustin-Miller
+model.
+</summary>
+    <author>
+      <name>Ela Celikbas</name>
+    </author>
+    <author>
+      <name>Jai Laxmi</name>
+    </author>
+    <author>
+      <name>Jerzy Weyman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.07510v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.07510v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

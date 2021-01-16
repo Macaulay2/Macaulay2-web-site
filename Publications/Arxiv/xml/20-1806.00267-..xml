@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.00267%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.00267&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EnEWTrlJHn8Y+TNZcgGAiCPix0I</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.00267v1</id>
+    <updated>2018-06-01T10:18:52Z</updated>
+    <published>2018-06-01T10:18:52Z</published>
+    <title>Moduli spaces of abstract and embedded Kummer varieties</title>
+    <summary>  In this paper, we investigate the construction of two moduli stacks of Kummer
+varieties. The first one is the stack $\mathcal K^{\text{abs}}_g$ of abstract
+Kummer varieties and the second one is the stack $\mathcal K^{\text{em}}_g$ of
+embedded Kummer varieties. We will prove that $\mathcal K^{\text{abs}}_g$ is a
+Deligne-Mumford stack and its coarse moduli space is isomorphic to $\boldsymbol
+A_g$, the coarse moduli space of principally polarized abelian varieties of
+dimension $g$. On the other hand we give a modular family $\mathcal W_g\to U$
+of embedded Kummer varieties embedded in $\mathbb P^{2^g-1}\times\mathbb
+P^{2^g-1}$, meaning that every geometric fiber of this family is an embedded
+Kummer variety and every isomorphic class of such varieties appears at least
+once as the class of a fiber. As a consequence, we construct the coarse moduli
+space $\boldsymbol{\mathsf K}^{\text{em}}_2$ of embedded Kummer surfaces and
+prove that it is obtained from $\boldsymbol A_2$ by contracting a particular
+curve inside this space. We conjecture that this is a general fact:
+$\boldsymbol{\mathsf K}^{\text{em}}_g$ could be obtained from $\boldsymbol A_g$
+via a contraction for all $g&gt;1$.
+</summary>
+    <author>
+      <name>Mattia Galeotti</name>
+    </author>
+    <author>
+      <name>Sara Perna</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.00267v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.00267v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

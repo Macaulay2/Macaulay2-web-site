@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.12122%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.12122&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Dc6r7trAPKiWoF/lbGeanor+4aY</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.12122v1</id>
+    <updated>2019-03-28T17:08:37Z</updated>
+    <published>2019-03-28T17:08:37Z</published>
+    <title>Expected resurgences and symbolic powers of ideals</title>
+    <summary>  We give explicit criteria that imply the resurgence of a self-radical ideal
+in a regular ring is strictly smaller than its codimension, which in turn
+implies that the stable version of Harbourne's conjecture holds for such
+ideals. This criterion is used to give several explicit families of such
+ideals, including the defining ideals of space monomial curves. Other results
+generalize known theorems concerning when the third symbolic power is in the
+square of an ideal, and a strong resurgence bound for some classes of space
+monomial curves.
+</summary>
+    <author>
+      <name>Eloísa Grifo</name>
+    </author>
+    <author>
+      <name>Craig Huneke</name>
+    </author>
+    <author>
+      <name>Vivek Mukundan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.12122v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.12122v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13A15. Secondary: 13H05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

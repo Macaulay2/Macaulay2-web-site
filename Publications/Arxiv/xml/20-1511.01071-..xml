@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.01071%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.01071&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Bz4nyxetjMOCQkFds3biMP/NfVI</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.01071v3</id>
+    <updated>2016-07-07T19:41:27Z</updated>
+    <published>2015-11-03T20:32:31Z</published>
+    <title>Integration-by-parts reductions from unitarity cuts and algebraic
+  geometry</title>
+    <summary>  We show that the integration-by-parts reductions of various two-loop integral
+topologies can be efficiently obtained by applying unitarity cuts to a specific
+set of subgraphs and solving associated polynomial (syzygy) equations.
+</summary>
+    <author>
+      <name>Kasper J. Larsen</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevD.93.041701</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevD.93.041701" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, 1 figure; a Mathematica package implementing the algorithm
+  is attached as an ancillary file; v3: minor changes</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys. Rev. D 93, 041701 (2016)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1511.01071v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.01071v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

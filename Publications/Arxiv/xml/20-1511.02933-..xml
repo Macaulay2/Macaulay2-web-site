@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.02933%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.02933&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tAATOUrLgVKxneMREOjLl7IU5QM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.02933v1</id>
+    <updated>2015-11-06T14:14:06Z</updated>
+    <published>2015-11-06T14:14:06Z</published>
+    <title>Bound for the number of 1-dimensional fibers of a projective morphism</title>
+    <summary>  Given a birational parameterization $\phi: \mathbb{P}_k^2 \dashrightarrow
+\mathbb{P}_k^3$ of an algebraic surface $\mathscr S\subset \mathbb{P}_k^3$, we
+bound the number of 1-dimensional fibers of the canonical projection of the
+graph of $\phi$ onto its image.
+</summary>
+    <author>
+      <name>Quang Hoa Tran</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: text overlap with arXiv:1007.3437 by other authors</arxiv:comment>
+    <link href="http://arxiv.org/abs/1511.02933v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.02933v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

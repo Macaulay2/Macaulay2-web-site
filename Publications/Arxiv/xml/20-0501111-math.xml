@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0501111%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0501111&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AUoOfATj7G/4TK+ilmpnCOYnjDg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0501111v1</id>
+    <updated>2005-01-08T14:40:01Z</updated>
+    <published>2005-01-08T14:40:01Z</published>
+    <title>Involutive Algorithms for Computing Groebner Bases</title>
+    <summary>  In this paper we describe an efficient involutive algorithm for constructing
+Groebner bases of polynomial ideals. The algorithm is based on the concept of
+involutive monomial division which restricts the conventional division in a
+certain way. In the presented algorithm a reduced Groebner basis is the
+internally fixed subset of an involutive basis, and having computed the later,
+the former can be output without any extra computational costs. We also discuss
+some accounts of experimental superiority of the involutive algorithm over
+Buchberger's algorithm.
+</summary>
+    <author>
+      <name>Vladimir P. Gerdt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, Proceedings of the NATO Advanced Research Workshop
+  "Computational commutative and non-commutative algebraic geometry"
+  (Chishinau, June 6-11, 2004), IOS Press, to appear</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0501111v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0501111v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10; 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

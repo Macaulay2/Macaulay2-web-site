@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.00458%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.00458&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ti9mOX3VBabS8QCPfASmEsgeQo8</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.00458v1</id>
+    <updated>2020-12-01T13:09:59Z</updated>
+    <published>2020-12-01T13:09:59Z</published>
+    <title>Globally Optimal Relative Pose Estimation with Gravity Prior</title>
+    <summary>  Smartphones, tablets and camera systems used, e.g., in cars and UAVs, are
+typically equipped with IMUs (inertial measurement units) that can measure the
+gravity vector accurately. Using this additional information, the $y$-axes of
+the cameras can be aligned, reducing their relative orientation to a single
+degree-of-freedom. With this assumption, we propose a novel globally optimal
+solver, minimizing the algebraic error in the least-squares sense, to estimate
+the relative pose in the over-determined case. Based on the epipolar
+constraint, we convert the optimization problem into solving two polynomials
+with only two unknowns. Also, a fast solver is proposed using the first-order
+approximation of the rotation. The proposed solvers are compared with the
+state-of-the-art ones on four real-world datasets with approx. 50000 image
+pairs in total. Moreover, we collected a dataset, by a smartphone, consisting
+of 10933 image pairs, gravity directions, and ground truth 3D reconstructions.
+</summary>
+    <author>
+      <name>Yaqing Ding</name>
+    </author>
+    <author>
+      <name>Daniel Barath</name>
+    </author>
+    <author>
+      <name>Jian Yang</name>
+    </author>
+    <author>
+      <name>Hui Kong</name>
+    </author>
+    <author>
+      <name>Zuzana Kukelova</name>
+    </author>
+    <link href="http://arxiv.org/abs/2012.00458v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.00458v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

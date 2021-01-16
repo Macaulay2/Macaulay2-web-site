@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.6841%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.6841&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ih5nDLn9Chmx+GMf6W//1g+5HhI</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.6841v1</id>
+    <updated>2014-08-28T20:00:07Z</updated>
+    <published>2014-08-28T20:00:07Z</published>
+    <title>The Geometry of Generations</title>
+    <summary>  We present an intriguing and precise interplay between algebraic geometry and
+the phenomenology of generations of particles. Using the electroweak sector of
+the MSSM as a testing ground, we compute the moduli space of vacua as an
+algebraic variety for multiple generations of Standard Model matter and Higgs
+doublets. The space is shown to have Calabi-Yau, Grassmannian, and toric
+signatures which sensitively depend on the number of generations of leptons, as
+well as inclusion of Majorana mass terms for right-handed neutrinos. We
+speculate as to why three generations is special.
+</summary>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Vishnu Jejjala</name>
+    </author>
+    <author>
+      <name>Cyril Matti</name>
+    </author>
+    <author>
+      <name>Brent D. Nelson</name>
+    </author>
+    <author>
+      <name>Michael Stillman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">51 pages, 7 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.6841v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.6841v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

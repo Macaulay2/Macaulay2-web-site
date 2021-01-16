@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.00500%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.00500&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LC6AoltToIAZ0m6Y6Wc4f36r9JM</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.00500v2</id>
+    <updated>2018-03-05T20:38:52Z</updated>
+    <published>2017-12-01T21:25:20Z</published>
+    <title>$A$-Hypergeometric Modules and Gauss--Manin Systems</title>
+    <summary>  Let $A$ be a $d$ by $n$ integer matrix. Gel'fand et al. proved that most
+$A$-hypergeometric systems have an interpretation as a Fourier--Laplace
+transform of a direct image. The set of parameters for which this happens was
+later identified by Schulze and Walther as the set of not strongly resonant
+parameters of $A$. A similar statement relating $A$-hypergeometric systems to
+exceptional direct images was proved by Reichelt. In this article, we consider
+a hybrid approach involving neighborhoods $U$ of the torus of $A$ and consider
+compositions of direct and exceptional direct images. Our main results
+characterize for which parameters the associated $A$-hypergeometric system is
+the inverse Fourier-Laplace transform of such a "mixed Gauss-Manin" system.
+  In order to describe which $U$ work for such a parameter, we introduce the
+notions of fiber support and cofiber support of a D-module.
+  If the semigroup ring of $A$ is normal, we show that every $A$-hypergeometric
+system is "mixed Gauss--Manin". We also give an explicit description of the
+neighborhoods $U$ which work for each parameter in terms of primitive integral
+support functions.
+</summary>
+    <author>
+      <name>Avi Steiner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">We added conditions to parts (c) and (d) of the first lemma in the
+  Normal Case section and added an example to show the necessity of these
+  conditions. These parts were not used elsewhere in the paper, so all results
+  still hold. We also added some remarks and fixed some typos</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.00500v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.00500v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F10 (Primary), 14B15, 13D45, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

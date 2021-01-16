@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0408408%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0408408&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uuNgMq2NVfx1ZVAaS3dd5gfUMVs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0408408v6</id>
+    <updated>2005-09-19T18:49:22Z</updated>
+    <published>2004-08-30T14:04:55Z</published>
+    <title>Bernstein-Sato polynomials of arbitrary varieties</title>
+    <summary>  We introduce the notion of Bernstein-Sato polynomial of an arbitrary variety
+(which is not necessarily reduced nor irreducible), using the theory of
+V-filtrations of M. Kashiwara and B. Malgrange. We prove that the decreasing
+filtration by multiplier ideals coincides essentially with the restriction of
+the V-filtration. This implies a relation between the roots of the
+Bernstein-Sato polynomial and the jumping coefficients of the multiplier
+ideals, and also a criterion for rational singularities in terms of the maximal
+root of the polynomial in the case of a reduced complete intersection. These
+are generalizations of the hypersurface case. We can calculate the polynomials
+explicitly in the case of monomial ideals.
+</summary>
+    <author>
+      <name>Nero Budur</name>
+    </author>
+    <author>
+      <name>Mircea Mustata</name>
+    </author>
+    <author>
+      <name>Morihiko Saito</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0408408v6" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0408408v6" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32S40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

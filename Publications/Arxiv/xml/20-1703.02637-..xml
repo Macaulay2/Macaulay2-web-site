@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1703.02637%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1703.02637&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iuTkEmGc6Q9dK2WYzFwyMOoxLzs</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1703.02637v1</id>
+    <updated>2017-03-07T23:22:46Z</updated>
+    <published>2017-03-07T23:22:46Z</published>
+    <title>Effective identifiability criteria for tensors and polynomials</title>
+    <summary>  A tensor $T$, in a given tensor space, is said to be $h$-identifiable if it
+admits a unique decomposition as a sum of $h$ rank one tensors. A criterion for
+$h$-identifiability is called effective if it is satisfied in a dense, open
+subset of the set of rank $h$ tensors. In this paper we give effective
+$h$-identifiability criteria for a large class of tensors. We then improve
+these criteria for some symmetric tensors. For instance, this allows us to give
+a complete set of effective identifiability criteria for ternary quintic
+polynomial. Finally, we implement our identifiability algorithms in Macaulay2.
+</summary>
+    <author>
+      <name>Alex Massarenti</name>
+    </author>
+    <author>
+      <name>Massimiliano Mella</name>
+    </author>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages. The identifiability criteria are implemented, in Macaulay2,
+  in the ancillary file Identifiability.m2</arxiv:comment>
+    <link href="http://arxiv.org/abs/1703.02637v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1703.02637v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 15A72, 11P05 (Primary), 14N05, 15A69 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

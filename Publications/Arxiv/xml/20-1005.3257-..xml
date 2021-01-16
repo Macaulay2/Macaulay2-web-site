@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1005.3257%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1005.3257&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6mSa7g6MDvWA3kTl0/rCqkBbNiw</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1005.3257v1</id>
+    <updated>2010-05-18T17:15:05Z</updated>
+    <published>2010-05-18T17:15:05Z</published>
+    <title>Constructive $D$-module Theory with {Singular}</title>
+    <summary>  We overview numerous algorithms in computational $D$-module theory together
+with the theoretical background as well as the implementation in the computer
+algebra system {Singular}. We discuss new approaches to the computation
+of Bernstein operators, of logarithmic annihilator of a polynomial, of
+annihilators of rational functions as well as complex powers of polynomials. We
+analyze algorithms for local Bernstein-Sato polynomials and also algorithms,
+recovering any kind of Bernstein-Sato polynomial from partial knowledge of its
+roots. We address a novel way to compute the Bernstein-Sato polynomial for an
+affine variety algorithmically. All the carefully selected nontrivial examples,
+which we present, have been computed with our implementation. We address such
+applications as the computation of a zeta-function for certain integrals and
+revealing the algebraic dependence between pairwise commuting elements.
+</summary>
+    <author>
+      <name>Daniel Andres</name>
+    </author>
+    <author>
+      <name>Michael Brickenstein</name>
+    </author>
+    <author>
+      <name>Viktor Levandovskyy</name>
+    </author>
+    <author>
+      <name>Jorge Martín-Morales</name>
+    </author>
+    <author>
+      <name>Hans Schönemann</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1005.3257v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1005.3257v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

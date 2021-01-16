@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1309.4698%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1309.4698&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3KFSkZ9Z+/6HgwHUBtbNh0JeJMs</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1309.4698v4</id>
+    <updated>2014-06-17T21:12:10Z</updated>
+    <published>2013-09-18T16:36:53Z</published>
+    <title>Koszul determinantal rings and $2\times e$ matrices of linear forms</title>
+    <summary>  Let $k$ be an algebraically closed field of characteristic $0$. Let $X$ be a
+$2\times e$ matrix of linear forms over a polynomial ring $k[\mathsf{x}_1,
+\ldots,\mathsf{x}_n]$ (where $e,n\ge 1$). We prove that the determinantal ring
+$R = k[\mathsf{x}_1,\ldots,\mathsf{x}_n]/I_2(X)$ is Koszul if and only if in
+the Kronecker-Weierstrass normal form of $X$, the largest length of a nilpotent
+block is at most twice the smallest length of a scroll block. As an
+application, we classify rational normal scrolls whose all section rings by
+natural coordinates are Koszul. This result settles a conjecture due to Conca.
+</summary>
+    <author>
+      <name>Hop D. Nguyen</name>
+    </author>
+    <author>
+      <name>Phong Dinh Thieu</name>
+    </author>
+    <author>
+      <name>Thanh Vu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version; 30 pages. To appear in Michigan Mathematical Journal</arxiv:comment>
+    <link href="http://arxiv.org/abs/1309.4698v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1309.4698v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

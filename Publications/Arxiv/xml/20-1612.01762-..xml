@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.01762%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.01762&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HrOVRBQrLNZgcYubyPXPKLqOpD4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.01762v1</id>
+    <updated>2016-12-06T11:30:41Z</updated>
+    <published>2016-12-06T11:30:41Z</published>
+    <title>Computing tropical varieties over fields with valuation</title>
+    <summary>  We show how tropical varieties of ideals I over a field K with non-trivial
+valuation can be traced back to tropical varieties of ideals in R[[t]][x] over
+some dense subring R in its ring of integers. Moreover, for homogeneous ideals,
+we present algorithms on how the latter can be computed in finite time,
+provided that generators are polynomial in t. While doing so, we also comment
+on the computation of the Groebner polytope structure and p-adic Groebner bases
+using our framework. All algorithms solely rely on existing standard basis
+techniques.
+</summary>
+    <author>
+      <name>Thomas Markwig</name>
+    </author>
+    <author>
+      <name>Yue Ren</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.01762v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.01762v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05, 13P10, 13F25, 16W60, 12J25, 16W60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

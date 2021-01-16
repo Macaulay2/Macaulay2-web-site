@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0412002%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0412002&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7lGcDP/7T4rnyjnaGFnaejHGjnQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0412002v2</id>
+    <updated>2004-12-16T20:08:06Z</updated>
+    <published>2004-11-30T22:33:55Z</published>
+    <title>Rational curves of degree 10 on a general quintic threefold</title>
+    <summary>  We prove the "strong form" of the Clemens conjecture in degree 10. Namely, on
+a general quintic threefold F in P^4, there are only finitely many smooth
+rational curves of degree 10, and each curve is embedded in F with normal
+bundle O(-1)^2. Moreover, in degree 10, there are no singular, reduced, and
+irreducible rational curves, nor any reduced, reducible, and connected curves
+with rational components in F.
+</summary>
+    <author>
+      <name>Ethan Cotterill</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The justification of Fact 1 on p. 10 has been made clearer; minor
+  formatting issues and typos corrected. To appear in Communications in Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0412002v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0412002v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J30; 13P10, 14H45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

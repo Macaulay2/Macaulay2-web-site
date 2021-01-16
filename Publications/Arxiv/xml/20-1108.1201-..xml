@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.1201%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.1201&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/R7c8D7QyxEYaOoH/HHfX1LToPKk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.1201v2</id>
+    <updated>2011-12-14T20:45:47Z</updated>
+    <published>2011-08-04T20:00:05Z</published>
+    <title>Numerical Polynomial Homotopy Continuation Method and String Vacua</title>
+    <summary>  Finding vacua for the four dimensional effective theories for supergravity
+which descend from flux compactifications and analyzing them according to their
+stability is one of the central problems in string phenomenology. Except for
+some simple toy models, it is, however, difficult to find all the vacua
+analytically. Recently developed algorithmic methods based on symbolic computer
+algebra can be of great help in the more realistic models. However, they suffer
+from serious algorithmic complexities and are limited to small system sizes. In
+this article, we review a numerical method called the numerical polynomial
+homotopy continuation (NPHC) method, first used in the areas of lattice field
+theories, which by construction finds \textit{all} of the vacua of a given
+potential that is known to have only isolated solutions. The NPHC method is
+known to suffer from no major algorithmic complexities and is
+\textit{embarrassingly parallelizable}, and hence its applicability goes way
+beyond the existing symbolic methods. We first solve a simple toy model as a
+warm up example to demonstrate the NPHC method at work and compare the results
+with the available results from the symbolic methods. We then show that all the
+vacua of a more complicated model of M theory compactified on the coset
+$\frac{SU(3)\times U(1)}{U(1)\times U(1)}$, which has an SU(3) structure, can
+be obtained by the NPHC method using a desktop machine in just about one hour,
+a feat which was reported to be prohibitively difficult by the existing
+symbolic methods. Finally, we compare the various technicalities between the
+two methods.
+</summary>
+    <author>
+      <name>Dhagash Mehta</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1155/2011/263937</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1155/2011/263937" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages. Published in the Special Issue on Computational Algebraic
+  Geometry in String and Gauge Theory: Advances in High Energy Physics Volume
+  2011 (2011)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.1201v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.1201v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

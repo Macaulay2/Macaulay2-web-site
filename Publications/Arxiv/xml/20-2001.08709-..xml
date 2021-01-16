@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.08709%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.08709&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xYztR+vSzWHfW8hdmVSlSQGQ9Qc</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.08709v1</id>
+    <updated>2020-01-23T17:58:14Z</updated>
+    <published>2020-01-23T17:58:14Z</published>
+    <title>Minimal free resolutions of ideals of minors associated to pairs of
+  matrices</title>
+    <summary>  Consider the affine space consisting of pairs of matrices $(A,B)$ of fixed
+size, and its closed subvariety given by the rank conditions
+$\operatorname{rank} A \leq a$, $\operatorname{rank} B \leq b$ and
+$\operatorname{rank} (A\cdot B) \leq c$, for three non-negative integers
+$a,b,c$. These varieties are precisely the orbit closures of representations
+for the equioriented $A_3$ quiver. In this paper we construct the (equivariant)
+minimal free resolutions of the defining ideals of such varieties. We show how
+this problem is equivalent to determining the cohomology groups of the tensor
+product of two Schur functors of tautological bundles on a 2-step flag variety.
+We provide several techniques for the determination of these groups, which is
+of independent interest.
+</summary>
+    <author>
+      <name>András Cristian Lőrincz</name>
+    </author>
+    <link href="http://arxiv.org/abs/2001.08709v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.08709v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14F05, 14M12, 16G20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.04345%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.04345&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FMw5WEYpb0P3Qj1LQzGkcs+Pee8</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.04345v1</id>
+    <updated>2016-11-14T11:32:16Z</updated>
+    <published>2016-11-14T11:32:16Z</published>
+    <title>VSPs of cubic fourfolds and the Gorenstein locus of the Hilbert scheme
+  of 14 points on A^6</title>
+    <summary>  This paper is concerned with the geometry of the Gorenstein locus of the
+Hilbert scheme of $14$ points on $\mathbb{A}^6$. This scheme has two
+components: the smoothable one and an exceptional one. We prove that the latter
+is smooth and identify the intersection of components as a vector bundle over
+the Iliev-Ranestad divisor in the space of cubic fourfolds. The ninth secant
+variety of the triple Veronese reembedding lies inside the Iliev-Ranestad
+divisor. We point out that this secant variety is set-theoretically a
+codimension two complete intersection and discuss the degrees of its equations.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, first version, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.04345v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.04345v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05 (primary), 13H10, 14J70 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

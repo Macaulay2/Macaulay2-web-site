@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1704.02753%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1704.02753&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vjHmWDUsHUffwsUUoZ0BhDXHFP4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1704.02753v2</id>
+    <updated>2017-08-07T10:52:23Z</updated>
+    <published>2017-04-10T08:23:38Z</published>
+    <title>Moduli of lattice polarized K3 surfaces via relative canonical
+  resolutions</title>
+    <summary>  For a smooth canonically embedded curve $C$ of genus $9$ together with a
+pencil $|L|$ of degree $6$, we study the relative canonical resolution of
+$C\subset X\subset \mathbb{P}^8$, where $X$ is the scroll swept out by the
+pencil $|L|$. We show that the second syzygy bundle in this resolution of
+$C\subset X$ is unbalanced. The proof reveals a new geometric connection
+between the universal Brill--Noether variety $\mathcal{W}^1_{9,6}$ and a moduli
+space $\mathcal{F}^\mathfrak{h}$ of lattice polarized $K3$ surfaces (for a
+certain rank $3$ lattice $\mathfrak{h}$). As a by-product we prove the
+unirationality of $\mathcal{F}^\mathfrak{h}$ and show that
+$\mathcal{W}^1_{9,6}$ is birational to a projective bundle over a moduli space
+of lattice polarized $K3$ surfaces $\mathcal{F}^{\mathfrak{h}'}$ for a certain
+rank $4$ lattice $\mathfrak{h}'$ which contains $\mathfrak{h}$ as a sublattice.
+</summary>
+    <author>
+      <name>Christian Bopp</name>
+    </author>
+    <author>
+      <name>Michael Hoff</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, new introduction, improved exposition and minor corrections</arxiv:comment>
+    <link href="http://arxiv.org/abs/1704.02753v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.02753v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J28, 14D20, 14H45, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

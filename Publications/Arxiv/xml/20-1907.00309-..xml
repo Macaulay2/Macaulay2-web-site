@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1907.00309%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1907.00309&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ShtiAn3q/yDgXxN/rZcsf4A2QmY</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1907.00309v1</id>
+    <updated>2019-06-30T03:08:38Z</updated>
+    <published>2019-06-30T03:08:38Z</published>
+    <title>Isomorphism problems for tensors, groups, and cubic forms: completeness
+  and reductions</title>
+    <summary>  In this paper we consider the problems of testing isomorphism of tensors,
+$p$-groups, cubic forms, algebras, and more, which arise from a variety of
+areas, including machine learning, group theory, and cryptography. These
+problems can all be cast as orbit problems on multi-way arrays under different
+group actions. Our first two main results are:
+  1. All the aforementioned isomorphism problems are equivalent under
+polynomial-time reductions, in conjunction with the recent results of
+Futorny-Grochow-Sergeichuk (Lin. Alg. Appl., 2019).
+  2. Isomorphism of $d$-tensors reduces to isomorphism of 3-tensors, for any $d
+\geq 3$.
+  Our results suggest that these isomorphism problems form a rich and robust
+equivalence class, which we call Tensor Isomorphism-complete, or TI-complete.
+We then leverage the techniques used in the above results to prove two
+first-of-their-kind results for Group Isomorphism (GpI):
+  3. We give a reduction from GpI for $p$-groups of exponent $p$ and small
+class ($c &lt; p$) to GpI for $p$-groups of exponent $p$ and class 2. The latter
+are widely believed to be the hardest cases of GpI, but as far as we know, this
+is the first reduction from any more general class of groups to this class.
+  4. We give a search-to-decision reduction for isomorphism of $p$-groups of
+exponent $p$ and class 2 in time $|G|^{O(\log \log |G|)}$. While
+search-to-decision reductions for Graph Isomorphism (GI) have been known for
+more than 40 years, as far as we know this is the first non-trivial
+search-to-decision reduction in the context of GpI.
+  Our main technique for (1), (3), and (4) is a linear-algebraic analogue of
+the classical graph coloring gadget, which was used to obtain the
+search-to-decision reduction for GI. This gadget construction may be of
+independent interest and utility. The technique for (2) gives a method for
+encoding an arbitrary tensor into an algebra.
+</summary>
+    <author>
+      <name>Joshua A. Grochow</name>
+    </author>
+    <author>
+      <name>Youming Qiao</name>
+    </author>
+    <link href="http://arxiv.org/abs/1907.00309v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1907.00309v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68Q25, 16G60, 15A69, 15A72, 15A21, 15A63, 20D15, 68Q15, 20C40,&#10;  20F40, 16Z05, 16G99, 16S50, 17B99, 17A01, 17A40, 17A42" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="F.1.3; I.1.2; F.2.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

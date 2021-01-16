@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.03089%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.03089&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/upDAg1DFYLlzSDVxJpKdORegkl4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03089v1</id>
+    <updated>2017-01-11T18:28:49Z</updated>
+    <published>2017-01-11T18:28:49Z</published>
+    <title>The Hilbert scheme of 11 points in A^3 is irreducible</title>
+    <summary>  We prove that the Hilbert scheme of 11 points on a smooth threefold is
+irreducible. In the course of the proof, we present several known and new
+techniques for producing curves on the Hilbert scheme.
+</summary>
+    <author>
+      <name>Theodosios Douvropoulos</name>
+    </author>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <author>
+      <name>Bernt Ivar Utstøl Nødland</name>
+    </author>
+    <author>
+      <name>Zach Teitler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, comments most welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.03089v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.03089v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05 (primary), 13E10, 13D10 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

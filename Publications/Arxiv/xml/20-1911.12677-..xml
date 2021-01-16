@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.12677%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.12677&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xxxzf7ySE1GWn4nsem3FydliQUw</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.12677v1</id>
+    <updated>2019-11-28T12:40:21Z</updated>
+    <published>2019-11-28T12:40:21Z</published>
+    <title>Depth and Extremal Betti numbers of Binomial Edge Ideals of Unicyclic
+  Graphs</title>
+    <summary>  Let $G$ be a connected unicyclic graph on the vertex set $[n]$. In this
+article, we prove that the depth of $S/J_G$ is bounded below by $n$. Also, we
+characterize $G$ such that $depth(S/J_G)=n$. We prove that the regularity of
+$S/J_G$ is bounded below by $iv(G)-1$, where $iv(G)$ denotes the number of
+internal vertices of $G$. We also prove that if there are trees attached to
+every vertex of the cycle in $G$, then $iv(G)+1\leq reg(S/J_G)$. If $G$ is a
+whisker graph of a cycle of girth $k$, then we show that $k-1\leq
+reg(S/J_G)\leq k+1$. Furthermore, we show that $G$ is a whisker graph of a
+cycle of girth $k$ such that every vertex of $C_k$ has whiskers if and only if
+$reg(S/J_G)=k+1$ and in this case $\beta_{n-1,n-1+k+1}(S/J_G)$ is a unique
+extremal Betti number of $S/J_G$. Also, we show that if there are whiskers at
+only one vertex of $C_k$, then $\beta_{n,n+k-1}(S/J_G)$ is a unique extremal
+Betti number and if there are whiskers attached to every vertex of $C_k$ except
+one, then $\beta_{n-1,n-1+k}(S/J_G)$ is a unique extremal Betti number.
+</summary>
+    <author>
+      <name>Rajib Sarkar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages. Comments and suggestions are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1911.12677v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.12677v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13C13, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

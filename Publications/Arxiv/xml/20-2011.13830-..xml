@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.13830%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.13830&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FFcvRbkUHiJCc4SK+QHXb8snbgI</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.13830v1</id>
+    <updated>2020-11-27T16:57:17Z</updated>
+    <published>2020-11-27T16:57:17Z</published>
+    <title>A generalization of the space of complete quadrics</title>
+    <summary>  To any homogeneous polynomial $h$ we naturally associate a variety $\Omega_h$
+which maps birationally onto the graph $\Gamma_h$ of the gradient map $\nabla
+h$ and which agrees with the space of complete quadrics when $h$ is the
+determinant of the generic symmetric matrix. We give a sufficient criterion for
+$\Omega_h$ being smooth which applies for example when $h$ is an elementary
+symmetric polynomial. In this case $\Omega_h$ is a smooth toric variety
+associated to a certain generalized permutohedron. We also give examples when
+$\Omega_h$ is not smooth.
+</summary>
+    <author>
+      <name>Abeer Al Ahmadieh</name>
+    </author>
+    <author>
+      <name>Mario Kummer</name>
+    </author>
+    <author>
+      <name>Miruna-Stefana Sorea</name>
+    </author>
+    <link href="http://arxiv.org/abs/2011.13830v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.13830v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1908.10576%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1908.10576&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7wBjAM1mxkTMnyeBuYzn4Uq4hD0</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1908.10576v1</id>
+    <updated>2019-08-28T07:16:12Z</updated>
+    <published>2019-08-28T07:16:12Z</published>
+    <title>Symbolic powers of vertex cover ideals</title>
+    <summary>  Let $G$ be a finite simple graph and $J(G)$ denote its cover ideal in a
+polynomial ring over a field $\mathbb{K}$. In this paper, we show that all
+symbolic powers of cover ideals of certain vertex decomposable graphs have
+linear quotients. Using these results, we give various conditions on a subset
+$S$ of the vertices of $G$ so that all symbolic powers of vertex cover ideals
+of $G \cup W(S)$, obtained from $G$ by adding a whisker to each vertex in $S$,
+have linear quotients. For instance, if $S$ is a vertex cover of $G$, then all
+symbolic powers of $J(G \cup W(S))$ have linear quotients. Moreover, we compute
+the Castelnuovo-Mumford regularity of symbolic powers of certain cover ideals.
+</summary>
+    <author>
+      <name>S Selvaraja</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1908.10576v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1908.10576v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="primary: 13D02, 13F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

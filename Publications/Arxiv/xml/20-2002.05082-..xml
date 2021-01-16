@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.05082%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.05082&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/stRvbO8oIEESnlIT1bjAlGits8I</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05082v3</id>
+    <updated>2020-04-26T18:50:38Z</updated>
+    <published>2020-02-12T16:35:56Z</published>
+    <title>Finiteness of fibers in matrix completion via Plücker coordinates</title>
+    <summary>  Let $\Omega \subseteq \{1,\dots,m\} \times \{1,\dots,n\}$. We consider fibers
+of coordinate projections $\pi_\Omega : \mathscr{M}_k(r,m \times n) \rightarrow
+k^{\# \Omega}$ from the algebraic variety of $m \times n$ matrices of rank at
+most $r$ over an infinite field $k$. For $\#\Omega = \dim \mathscr{M}_k(r,m
+\times n)$ we describe a class of $\Omega$'s for which there exist non-empty
+Zariski open sets $\mathscr{U}_\Omega \subset \mathscr{M}_k(r,m \times n)$ such
+that $\pi_\Omega^{-1}\big(\pi_\Omega(X)\big) \cap \mathscr{U}_\Omega$ is a
+finite set $\forall X \in \mathscr{U}_\Omega$. For this we interpret matrix
+completion from a point of view of hyperplane sections on the Grassmannian
+$\operatorname{Gr}(r,m)$. Crucial is a description by Sturmfels $\&amp;$ Zelevinsky
+of classes of local coordinates on $\operatorname{Gr}(r,m)$ induced by vertices
+of the Newton polytope of the product of maximal minors of an $m \times (m-r)$
+matrix of variables.
+</summary>
+    <author>
+      <name>Manolis C. Tsakiris</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, fixed misprints in bibliography</arxiv:comment>
+    <link href="http://arxiv.org/abs/2002.05082v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.05082v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

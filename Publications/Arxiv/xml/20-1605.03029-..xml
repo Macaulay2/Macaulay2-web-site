@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.03029%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.03029&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4PBGWqorciFrvDEV9nupa/E9g08</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.03029v2</id>
+    <updated>2016-05-17T18:12:21Z</updated>
+    <published>2016-05-10T14:23:49Z</published>
+    <title>On stable rationality of some conic bundles and moduli spaces of Prym
+  curves</title>
+    <summary>  We prove that a very general hypersurface of bidegree (2, n) in P^2 x P^2 for
+n bigger than or equal to 2 is not stably rational, using Voisin's method of
+integral Chow-theoretic decompositions of the diagonal and their preservation
+under mild degenerations. At the same time, we also analyse possible ways to
+degenerate Prym curves, and the way how various loci inside the moduli space of
+stable Prym curves are nested. No deformation theory of stacks or sheaves of
+Azumaya algebras like in recent work of Hasset-Kresch-Tschinkel is used, rather
+we employ a more elementary and explicit approach via Koszul complexes, which
+is enough to treat this special case.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages; Macaulay 2 code used for verification of parts of the paper
+  available at http://www.math.uni-hamburg.de/home/bothmer/m2.html and at the
+  end of the TeX file; v2: in section 4, we now included a proof of the main
+  theorem that works for all n (unconditional on the parity) that was
+  communicated to us by Zhi Jiang, Zhiyu Tian, and Letao Zhang. Several other
+  minor expository improvements</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.03029v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.03029v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E08, 14M20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

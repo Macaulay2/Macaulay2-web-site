@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1606.04158%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1606.04158&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CknOx2VKqbLwJlLeLfgNtMUyxhE</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1606.04158v2</id>
+    <updated>2016-06-26T11:36:18Z</updated>
+    <published>2016-06-13T22:22:21Z</published>
+    <title>A new class of non-identifiable skew symmetric tensors</title>
+    <summary>  We prove that the generic element of the fifth secant variety
+$\sigma_5(Gr(\mathbb{P}^2,\mathbb{P}^9)) \subset \mathbb{P}(\wedge^3
+\mathbb{C}^{10})$ of the Grassmannian of planes of $\mathbb{P}^9$ has exactly
+two decompositions as sum of five projective classes of decomposable
+skew-symmetric tensors. {We show that this is the only non-identifiable case
+among the non-defective secant varieties $\sigma_s(Gr(\mathbb{P}^k,
+\mathbb{P}^n))$ for any $n&lt;14$. In the same range for $n$ we classify all the
+weakly defective and all tangentially weakly defective secants varieties of any
+Grassmannians.} We also show that the dual variety
+$(\sigma_3(Gr(\mathbb{P}^2,\mathbb{P}^7)))^{\vee}$ of the variety of 3-secant
+planes of the Grassmannian of $\mathbb{P}^2\subset \mathbb{P}^7$ is
+$\sigma_2(Gr(\mathbb{P}^2,\mathbb{P}^7))$ the variety of bi-secant lines of the
+same Grassmannian.
+</summary>
+    <author>
+      <name>Davide Vanzo</name>
+    </author>
+    <author>
+      <name>Alessandra Bernardi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">We added the classification of the secant degrees and of the generic
+  r-weakly and r-tangentially weakly defectiveness of all Grassmannians
+  $Gr(\mathbb{P}^k,\mathbb{P}^n)$ for $n&lt;14$ (in v1 all the computations were
+  done for $n&lt;13$). Finally we corrected a typo in the abstract and in the
+  statement of the main theorem for which we thank Han Frederic for having
+  suddenly pointed it out</arxiv:comment>
+    <link href="http://arxiv.org/abs/1606.04158v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1606.04158v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

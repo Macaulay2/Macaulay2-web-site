@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.03843%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.03843&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/T1EQb/OKD5ZQd0oMgS2GmxHbNbE</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.03843v2</id>
+    <updated>2020-10-14T18:23:42Z</updated>
+    <published>2020-10-08T08:45:58Z</published>
+    <title>Tensors with eigenvectors in a given subspace</title>
+    <summary>  The first author with B. Sturmfels studied the variety of matrices with
+eigenvectors in a given linear subspace, called Kalman variety. We extend that
+study from matrices to symmetric tensors, proving in the tensor setting the
+irreducibility of the Kalman variety and computing its codimension and degree.
+Furthermore we consider the Kalman variety of tensors having singular t-ples
+with the first component in a given linear subspace and we prove analogous
+results, which are new even in the case of matrices. Main techniques come from
+Algebraic Geometry, using Chern classes for enumerative computations.
+</summary>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Zahra Shahidi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages and one table</arxiv:comment>
+    <link href="http://arxiv.org/abs/2010.03843v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.03843v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N07, 14N05, 14N10, 15A69, 15A18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

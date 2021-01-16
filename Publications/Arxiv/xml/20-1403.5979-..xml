@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.5979%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.5979&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0kDNBQFv2oSGXHmdg9GnyKxboTo</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.5979v1</id>
+    <updated>2014-03-24T14:51:24Z</updated>
+    <published>2014-03-24T14:51:24Z</published>
+    <title>The algebraic square peg problem</title>
+    <summary>  The square peg problem asks whether every continuous curve in the plane that
+starts and ends at the same point without self-intersecting contains four
+distinct corners of some square. Toeplitz conjectured in 1911 that this is
+indeed the case. Hundred years later we only have partial results for curves
+with additional smoothness properties.
+  The contribution of this thesis is an algebraic variant of the square peg
+problem. By casting the set of squares inscribed on an algebraic plane curve as
+a variety and applying Bernshtein's Theorem we are able to count the number of
+such squares. An algebraic plane curve defined by a polynomial of degree m
+inscribes either an infinite amount of squares, or at most (m^4 - 5m^2 + 4m)/4
+squares. Computations using computer algebra software lend evidence to the
+claim that this upper bound is sharp for generic curves.
+</summary>
+    <author>
+      <name>Wouter van Heijst</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">63 pages, 29 figures. This Master's thesis contains the complete
+  results referred to in the Notices of the AMS, April 2014, p 349</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.5979v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.5979v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

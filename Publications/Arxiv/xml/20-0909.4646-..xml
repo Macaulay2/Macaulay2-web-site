@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0909.4646%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0909.4646&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0/+ZmfrGygFhqJsTgF24HdTBDYs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0909.4646v2</id>
+    <updated>2009-10-01T10:48:17Z</updated>
+    <published>2009-09-25T10:05:31Z</published>
+    <title>Stability and moduli spaces of syzygy bundles</title>
+    <summary>  It is a longstanding problem in Algebraic Geometry to determine whether the
+syzygy bundle $E_{d_1,...,d_n}$ on $\mathbb{P}^N$ defined as the kernel of a
+general epimorphism \[\phi:\mathcal{O}(-d_1)\oplus...\oplus\mathcal{O}(-d_n)
+\to\mathcal{O}\] is (semi)stable. In this thesis, attention is restricted to
+the case of syzygy bundles $\mathrm{Syz}(f_1,...,f_n)$ on $\mathbb{P}^N$
+associated to $n$ generic forms $f_1,...,f_n\in K[X_0,...,X_N]$ of the same
+degree $d$, for ${N\ge2}$.
+  The first goal is to prove that $\mathrm{Syz}(f_1,...,f_n)$ is stable if
+\[N+1\le n\le\tbinom{d+N}{N},\] except for the case ${(N,n,d)=(2,5,2)}$. The
+second is to study moduli spaces of stable rank ${n-1}$ vector bundles on
+$\mathbb{P}^N$ containing syzygy bundles. In a joint work with Laura Costa and
+Rosa Mar{\'\i}a Mir\'o-Roig, we prove that $N$, $d$ and $n$ are as above, then
+the syzygy bundle $\mathrm{Syz}(f_1,...,f_n)$ is unobstructed and it belongs to
+a generically smooth irreducible component of dimension
+${n\tbinom{d+N}{N}-n^2}$, if ${N\ge3}$, and
+${n\tbinom{d+2}{2}+n\tbinom{d-1}{2}-n^2}$, if ${N=2}$.
+  The results in chapter 3, for $N\ge3$, were obtained independently by Iustin
+Coand\u{a} in arXiv:0909.4435.
+</summary>
+    <author>
+      <name>Pedro Macias Marques</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">PhD thesis</arxiv:comment>
+    <link href="http://arxiv.org/abs/0909.4646v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0909.4646v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60; 14D20; 14F05; 13F20; 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

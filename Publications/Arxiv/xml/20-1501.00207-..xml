@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1501.00207%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1501.00207&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8Y28dZMNGx1ZbfwnUuCrEfYNXfY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1501.00207v1</id>
+    <updated>2014-12-31T20:47:32Z</updated>
+    <published>2014-12-31T20:47:32Z</published>
+    <title>The cone of Betti tables over three non-collinear points in the plane</title>
+    <summary>  We describe the cone of Betti tables of all finitely generated graded modules
+over the homogeneous coordinate ring of three non-collinear points in the
+projective plane. We also describe the cone of Betti tables of all finite
+length modules.
+</summary>
+    <author>
+      <name>Iulia Gheorghita</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1501.00207v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1501.00207v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

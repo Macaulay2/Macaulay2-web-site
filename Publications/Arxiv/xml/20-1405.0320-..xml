@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1405.0320%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1405.0320&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pvSi+sHQSgcqnOBaqlo2JsTyudA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1405.0320v1</id>
+    <updated>2014-05-01T23:00:24Z</updated>
+    <published>2014-05-01T23:00:24Z</published>
+    <title>Computing all Affine Solution Sets of Binomial Systems</title>
+    <summary>  To compute solutions of sparse polynomial systems efficiently we have to
+exploit the structure of their Newton polytopes. While the application of
+polyhedral methods naturally excludes solutions with zero components, an
+irreducible decomposition of a variety is typically understood in affine space,
+including also those components with zero coordinates. For the problem of
+computing solution sets in the intersection of some coordinate planes, the
+direct application of a polyhedral method fails, because the original facial
+structure of the Newton polytopes may alter completely when selected variables
+become zero. Our new proposed method enumerates all factors contributing to a
+generalized permanent and toric solutions as a special case of this
+enumeration. For benchmark problems such as the adjacent 2-by-2 minors of a
+general matrix, our methods scale much better than the witness set
+representations of numerical algebraic geometry.
+</summary>
+    <author>
+      <name>Danko Adrovic</name>
+    </author>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4 page extended abstract accepted by EACA 2014, a conference on
+  Computer Algebra and its Applications</arxiv:comment>
+    <link href="http://arxiv.org/abs/1405.0320v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1405.0320v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

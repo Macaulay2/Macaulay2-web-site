@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.06725%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.06725&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RkKPOAVpzPwxk7TUBcf0cGC5S/g</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.06725v1</id>
+    <updated>2020-03-15T00:17:24Z</updated>
+    <published>2020-03-15T00:17:24Z</published>
+    <title>Wasserstein Distance to Independence Models</title>
+    <summary>  An independence model for discrete random variables is a Segre-Veronese
+variety in a probability simplex. Any metric on the set of joint states of the
+random variables induces a Wasserstein metric on the probability simplex. The
+unit ball of this polyhedral norm is dual to the Lipschitz polytope. Given any
+data distribution, we seek to minimize its Wasserstein distance to a fixed
+independence model. The solution to this optimization problem is a piecewise
+algebraic function of the data. We compute this function explicitly in small
+instances, we examine its combinatorial structure and algebraic degrees in the
+general case, and we present some experimental case studies.
+</summary>
+    <author>
+      <name>Türkü Özlüm Çelik</name>
+    </author>
+    <author>
+      <name>Asgar Jamneshan</name>
+    </author>
+    <author>
+      <name>Guido Montúfar</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Lorenzo Venturello</name>
+    </author>
+    <link href="http://arxiv.org/abs/2003.06725v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.06725v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Polynomial Optimization, Algebraic Statistics, Computational&#10;  Algebraic Geometry" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

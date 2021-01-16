@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.4476%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.4476&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pMRg1kMweIZI6DU1vXauXdodjZg</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.4476v2</id>
+    <updated>2014-09-18T03:36:41Z</updated>
+    <published>2014-09-16T00:53:37Z</published>
+    <title>Projective Root-Locus: An Extension of Root-Locus Plot to the Projective
+  Plane</title>
+    <summary>  In this paper we present an extension of the classical Root-Locus (RL) method
+where the points are calculated in the real projective plane instead of the
+conventional affine real plane; we denominate this extension of the Root-Locus
+as "Projective Root-Locus (PjRL)". To plot the PjRL we use the concept of
+"Gnomonic Projection" in order to have a representation of the projective real
+plane as a simi-sphere of radius one in ${\mathbb R}^3$. We will see that the
+PjRL reduces to the RL in the affine $XY$ plane, but also we can plot the RL
+onto another affine component of the projective plane, like $ZY$ affine plane
+for instance, to obtain what we denominate complementary plots of the
+conventional RL. We also show that with the PjRL the points at infinity of the
+RL can be computed as solutions of a set algebraic equations.
+</summary>
+    <author>
+      <name>Francisco Mota</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.4476v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.4476v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

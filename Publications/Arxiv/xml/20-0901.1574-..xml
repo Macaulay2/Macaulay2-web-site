@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0901.1574%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0901.1574&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Jr3NTBHFduNGi5CBPo649PiAce0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0901.1574v2</id>
+    <updated>2009-09-30T14:40:11Z</updated>
+    <published>2009-01-12T14:39:47Z</published>
+    <title>q,t-Fuss-Catalan numbers for finite reflection groups</title>
+    <summary>  In type A, the q,t-Fuss-Catalan numbers can be defined as a bigraded Hilbert
+series of a module associated to the symmetric group. We generalize this
+construction to (finite) complex reflection groups and, based on computer
+experiments, we exhibit several conjectured algebraic and combinatorial
+properties of these polynomials with non-negative integer coefficients. We
+prove the conjectures for the dihedral groups and for the cyclic groups.
+Finally, we present several ideas how the q,t-Fuss-Catalan numbers could be
+related to some graded Hilbert series of modules arising in the context of
+rational Cherednik algebras and thereby generalize known connections.
+</summary>
+    <author>
+      <name>Christian Stump</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 9 figures and 4 tables, final version with several major
+  improvements, to appear in Journal of Algebraic Combinatorics</arxiv:comment>
+    <link href="http://arxiv.org/abs/0901.1574v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0901.1574v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E15 (Primary), 20F55 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

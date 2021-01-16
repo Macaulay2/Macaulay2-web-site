@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.15120%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.15120&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mmzUn0G8JbBBMHJe1GUIRD5s2M4</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.15120v1</id>
+    <updated>2020-11-30T18:51:41Z</updated>
+    <published>2020-11-30T18:51:41Z</published>
+    <title>An interesting wall-crossing: Failure of the wall-crossing/MMP
+  correspondence</title>
+    <summary>  We show that the wall-crossing in Bridgeland stability fails to be detected
+by the birational geometry of stable sheaves, and vice versa. There is a wall
+in the stability space of canonical genus four curves which does not induce a
+step in the Minimal Model Program. More precisely, we give an example of a
+wall-crossing in $\mathrm{D}^{b}(\mathbb{P}^{3})$ such that: the wall induces a
+small contraction of the moduli space of stable objects associated to one of
+the adjacent chambers, but a divisorial contraction to the other. This
+significantly complicates the overall picture in this correspondence to
+applications of stability conditions to algebraic geometry.
+</summary>
+    <author>
+      <name>Fatemeh Rezaee</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 2 figures. Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.15120v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.15120v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.01960%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.01960&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QpfjCtV7FIzTQFUAGEk21PUROOA</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.01960v1</id>
+    <updated>2019-04-02T07:50:01Z</updated>
+    <published>2019-04-02T07:50:01Z</published>
+    <title>Computing Dixmier Invariants and Some Geometric Configurations of
+  Quartic Curves with 2 Involutions</title>
+    <summary>  In this paper we consider plane quartics with to involutions. We compute the
+Dixmier invariants, the bitangents and the Matrix representation problem of
+these curves, showing that they have symbolic solutions for the last two
+questions.
+</summary>
+    <author>
+      <name>Dun Liang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages. arXiv admin note: text overlap with arXiv:1902.02914</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.01960v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.01960v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

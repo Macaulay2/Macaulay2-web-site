@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1309.0450%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1309.0450&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8SaOWL9cvgDT4V+xVf8rRCKtvXQ</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1309.0450v2</id>
+    <updated>2014-03-11T17:57:57Z</updated>
+    <published>2013-09-02T16:13:27Z</published>
+    <title>Faithful tropicalization of the Grassmannian of planes</title>
+    <summary>  We show that the tropical projective Grassmannian of planes is homeomorphic
+to a closed subset of the analytic Grassmannian in Berkovich's sense by
+constructing a continuous section to the tropicalization map. Our main tool is
+an explicit description of the algebraic coordinate rings of the toric strata
+of the Grassmannian. We determine the fibers of the tropicalization map and
+compute the initial degenerations of all the toric strata. As a consequence, we
+prove that the tropical multiplicities of all points in the tropical projective
+Grassmannian are equal to one. Finally, we determine a piecewise linear
+structure on the image of our section that corresponds to the polyhedral
+structure on the tropical projective Grassmannian.
+</summary>
+    <author>
+      <name>Maria Angelica Cueto</name>
+    </author>
+    <author>
+      <name>Mathias Haebich</name>
+    </author>
+    <author>
+      <name>Annette Werner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version for publication, incorporating referee's suggestions.
+  References added. 35 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1309.0450v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1309.0450v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05, 14M15, 14G22, 32C18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

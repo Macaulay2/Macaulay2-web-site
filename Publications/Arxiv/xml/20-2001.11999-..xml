@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.11999%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.11999&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WXnVEsLmwv9bsbng5K5WaGX07GY</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.11999v2</id>
+    <updated>2020-03-24T09:36:40Z</updated>
+    <published>2020-01-31T18:41:25Z</published>
+    <title>Combining realization space models of polytopes</title>
+    <summary>  In this paper we examine four different models for the realization space of a
+polytope: the classical model, the Grassmannian model, the Gale transform
+model, and the slack variety. Respectively, they identify realizations of the
+polytopes with the matrix whose columns are the coordinates of their vertices,
+the column space of said matrix, their Gale transforms, and their slack
+matrices. Each model has been used to study realizations of polytopes. In this
+paper we establish very explicitly the maps that allow us to move between
+models, study their precise relationships, and combine the strengths of
+different viewpoints. As an illustration, we combine the compact nature of the
+Grassmannian model with the slack variety to obtain a reduced slack model that
+allows us to perform slack ideal calculations that were previously out of
+computational reach. These calculations allow us to answer the question of
+Problem 6.1 of [Novik, Zheng. Highly neighborly centrally symmetric spheres,
+arXiv:1907.06115], about the realizability of a family of simplicial spheres,
+in general in the negative by proving the non-realizability of one of their
+simplicial spheres.
+</summary>
+    <author>
+      <name>João Gouveia</name>
+    </author>
+    <author>
+      <name>Antonio Macchia</name>
+    </author>
+    <author>
+      <name>Amy Wiebe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Added Example 6.14 proving that a large simplicial sphere is
+  nonrealizable</arxiv:comment>
+    <link href="http://arxiv.org/abs/2001.11999v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.11999v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.10957%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.10957&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RFg+h1Jxa5xJv8S29xNZc7oqdIw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.10957v1</id>
+    <updated>2017-05-31T06:52:47Z</updated>
+    <published>2017-05-31T06:52:47Z</published>
+    <title>Nearly Commuting Matrices</title>
+    <summary>  We prove that the algebraic set of pairs of matrices with a diagonal
+commutator over a field of positive prime characteristic, its irreducible
+components, and their intersection are $F$-pure when the size of matrices is
+equal to 3. Furthermore, we show that this algebraic set is reduced and the
+intersection of its irreducible components is irreducible in any characteristic
+for pairs of matrices of any size. In addition, we discuss various conjectures
+on the singularities of these algebraic sets and the system of parameters on
+the corresponding coordinate rings.
+</summary>
+    <author>
+      <name>Zhibek Kadyrsizova</name>
+    </author>
+    <link href="http://arxiv.org/abs/1705.10957v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.10957v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

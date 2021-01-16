@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.02138%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.02138&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lYvGvx3pFwtleN3OVre0vM3mrI8</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.02138v1</id>
+    <updated>2019-12-04T17:41:11Z</updated>
+    <published>2019-12-04T17:41:11Z</published>
+    <title>Distance to the stochastic part of phylogenetic varieties</title>
+    <summary>  Modelling the substitution of nucleotides along a phylogenetic tree is
+usually done by a hidden Markov process. This allows to define a distribution
+of characters at the leaves of the trees and one might be able to obtain
+polynomial relationships among the probabilities of different characters. The
+study of these polynomials and the geometry of the algebraic varieties that
+define can be used to reconstruct phylogenetic trees. However, not all points
+in these algebraic varieties have biological sense. In this paper, we explore
+the extent to which adding semialgebraic conditions arising from the
+restriction to parameters with statistical meaning can improve existing methods
+of phylogenetic reconstruction. To this end, our aim is to compute the distance
+of data points to algebraic varieties and to the stochastic part of theses
+varieties. Computing these distances involves optimization by nonlinear
+programming algorithms. We use analytical methods to find some of these
+distances for quartet trees evolving under the Kimura 3-parameter or the
+Jukes-Cantor models. Numerical algebraic geometry and computational algebra
+play also a fundamental role in this paper.
+</summary>
+    <author>
+      <name>Marta Casanellas</name>
+    </author>
+    <author>
+      <name>Jesús Fernández-Sánchez</name>
+    </author>
+    <author>
+      <name>Marina Garrote-López</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages; 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.02138v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.02138v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

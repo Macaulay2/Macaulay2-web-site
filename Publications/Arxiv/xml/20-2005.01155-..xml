@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.01155%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.01155&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MfrOV4FrTasIyJsaTWlSAjl/2H0</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.01155v1</id>
+    <updated>2020-05-03T17:51:35Z</updated>
+    <published>2020-05-03T17:51:35Z</published>
+    <title>New families of highly neighborly centrally symmetric spheres</title>
+    <summary>  In 1995, Josckusch constructed an infinite family of centrally symmetric (cs,
+for short) triangulations of $3$-spheres that are cs-$2$-neighborly. Recently,
+Novik and Zheng extended Jockusch's construction: for all $d$ and $n&gt;d$, they
+constructed a cs triangulation of a $d$-sphere with $2n$ vertices,
+$\Delta^d_n$, that is cs-$\lceil d/2\rceil$-neighborly. Here, several new cs
+constructions are provided. It is shown that for all $k&gt;2$ and a sufficiently
+large $n$, there is another cs triangulation of a $(2k-1)$-sphere with $2n$
+vertices that is cs-$k$-neighborly, while for $k=2$ there are $\Omega(2^n)$
+such pairwise non-isomorphic triangulations. It is also shown that for all
+$k&gt;2$ and a sufficiently large $n$, there are $\Omega(2^n)$ pairwise
+non-isomorphic cs triangulations of a $(2k-1)$-sphere with $2n$ vertices that
+are cs-$(k-1)$-neighborly. The constructions are based on studying facets of
+$\Delta^d_n$, and, in particular, on some necessary and some sufficient
+conditions similar in spirit to Gale's evenness condition. Along the way, it is
+proved that Jockusch's spheres $\Delta^3_n$ are shellable and an affirmative
+answer to Murai-Nevo's question about $2$-stacked shellable balls is given.
+</summary>
+    <author>
+      <name>Isabella Novik</name>
+    </author>
+    <author>
+      <name>Hailun Zheng</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.01155v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.01155v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

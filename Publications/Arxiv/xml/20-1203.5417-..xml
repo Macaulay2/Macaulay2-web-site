@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1203.5417%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1203.5417&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/H0+EstePsF01Vr7USEgUQfU88cY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1203.5417v4</id>
+    <updated>2012-10-16T18:31:44Z</updated>
+    <published>2012-03-24T14:19:15Z</published>
+    <title>On special quadratic birational transformations of a projective space
+  into a hypersurface</title>
+    <summary>  We study transformations as in the title with emphasis on those having smooth
+connected base locus, called "special". In particular, we classify all special
+quadratic birational maps into a quadric hypersurface whose inverse is given by
+quadratic forms by showing that there are only four examples having general
+hyperplane sections of Severi varieties as base loci.
+</summary>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s12215-012-0099-x</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted for publication in Rendiconti del Circolo Matematico di
+  Palermo</arxiv:comment>
+    <link href="http://arxiv.org/abs/1203.5417v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1203.5417v4" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s12215-012-0099-x" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

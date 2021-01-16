@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.04302%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.04302&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WpEcoWZ5AfMan80IUs69vlcTANQ</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.04302v1</id>
+    <updated>2015-09-14T20:22:27Z</updated>
+    <published>2015-09-14T20:22:27Z</published>
+    <title>Families of minimally non-Golod complexes and their polyhedral products</title>
+    <summary>  We consider families of simple polytopes $P$ and simplicial complexes $K$
+well-known in polytope theory and convex geometry, and show that their
+moment-angle complexes have some remarkable homotopy properties which depend on
+combinatorics of the underlying complexes and algebraic properties of their
+Stanley--Reisner rings. We introduce infinite series of Golod and minimally
+non-Golod simplicial complexes $K$ with moment-angle complexes $\mathcal Z_K$
+having free integral cohomology but not homotopy equivalent to a wedge of
+spheres or a connected sum of products of spheres respectively. We then prove a
+criterion for a simplicial multiwedge and composition of complexes to be Golod
+and minimally non-Golod and present a class of minimally non-Golod polytopal
+spheres.
+</summary>
+    <author>
+      <name>Ivan Limonchenko</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1509.04302v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.04302v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 55U10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

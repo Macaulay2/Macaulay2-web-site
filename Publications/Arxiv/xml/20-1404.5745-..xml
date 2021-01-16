@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1404.5745%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1404.5745&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/K4I0dez181SfOllL/5QMfgAo+CQ</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1404.5745v1</id>
+    <updated>2014-04-23T08:49:02Z</updated>
+    <published>2014-04-23T08:49:02Z</published>
+    <title>The maximum likelihood degree of Fermat hypersurfaces</title>
+    <summary>  We study the critical points of the likelihood function over the Fermat
+hypersurface. This problem is related to one of the main problems in
+statistical optimization: the maximum likelihood estimation. The number of
+critical points over a projective variety is a topological invariant of the
+variety and is called maximum likelihood degree. We provide closed formulas for
+the maximum likelihood degree of any Fermat curve in the projective plane and
+of Fermat hypersurfaces of degree 2 in any projective space. Algorithmic
+methods to compute the ML degree of a generic Fermat hypersurface are developed
+throughout the paper. Such algorithms heavily exploit the symmetries of the
+varieties we are considering. A computational comparison of the different
+methods and a list of the maximum likelihood degrees of several Fermat
+hypersurfaces are available in the last section.
+</summary>
+    <author>
+      <name>Daniele Agostini</name>
+    </author>
+    <author>
+      <name>Davide Alberelli</name>
+    </author>
+    <author>
+      <name>Francesco Grande</name>
+    </author>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 1 figure, 2 tables, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1404.5745v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1404.5745v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q10, 13C11" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

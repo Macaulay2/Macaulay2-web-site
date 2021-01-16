@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0912.2151%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0912.2151&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0dIdzZsCxX7fJ+26bRjjhUh+0sA</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0912.2151v2</id>
+    <updated>2012-01-13T11:32:10Z</updated>
+    <published>2009-12-11T04:37:25Z</published>
+    <title>Stellar subdivisions and Stanley-Reisner rings of Gorenstein complexes</title>
+    <summary>  Unprojection theory aims to analyze and construct complicated commutative
+rings in terms of simpler ones. Our main result is that, on the algebraic level
+of Stanley-Reisner rings, stellar subdivisions of non-acyclic Gorenstein
+simplicial complexes correspond to unprojections of type Kustin-Miller. As an
+application, we inductively calculate the minimal graded free resolutions of
+Stanley-Reisner rings associated to stacked polytopes, recovering results of
+Terai, Hibi, Herzog and Li Marzi.
+</summary>
+    <author>
+      <name>Janko Boehm</name>
+    </author>
+    <author>
+      <name>Stavros Argyrios Papadakis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: minor improvements, 14 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Australas. J. Combin. 55 (2013), 235-247</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0912.2151v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0912.2151v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13F55, 13H10, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

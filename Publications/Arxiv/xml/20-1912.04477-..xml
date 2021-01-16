@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.04477%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.04477&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ot+DLdAjt8R+/BnOudQ2Y1vU5K8</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.04477v1</id>
+    <updated>2019-12-10T03:44:03Z</updated>
+    <published>2019-12-10T03:44:03Z</published>
+    <title>Degrees of symmetric Grothendieck polynomials and Castelnuovo-Mumford
+  regularity</title>
+    <summary>  We give an explicit formula for the degree of the Grothendieck polynomial of
+a Grassmannian permutation and a closely related formula for the
+Castelnuovo-Mumford regularity of the Schubert determinantal ideal of a
+Grassmannian permutation. We then provide a counterexample to a conjecture of
+Kummini-Lakshmibai-Sastry-Seshadri on a formula for regularities of standard
+open patches of particular Grassmannian Schubert varieties and show that our
+work gives rise to an alternate explicit formula in these cases. We end with a
+new conjecture on the regularities of standard open patches of arbitrary
+Grassmannian Schubert varieties.
+</summary>
+    <author>
+      <name>Jenna Rajchgot</name>
+    </author>
+    <author>
+      <name>Yi Ren</name>
+    </author>
+    <author>
+      <name>Colleen Robichaux</name>
+    </author>
+    <author>
+      <name>Avery St. Dizier</name>
+    </author>
+    <author>
+      <name>Anna Weigandt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.04477v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.04477v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

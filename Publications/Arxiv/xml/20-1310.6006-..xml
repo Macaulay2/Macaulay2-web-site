@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1310.6006%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1310.6006&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ME1ZA8nnLtlDCR65A5yvnhvdmM8</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1310.6006v1</id>
+    <updated>2013-10-22T18:41:29Z</updated>
+    <published>2013-10-22T18:41:29Z</published>
+    <title>Multivariate Residues and Maximal Unitarity</title>
+    <summary>  We extend the maximal unitarity method to amplitude contributions whose cuts
+define multidimensional algebraic varieties. The technique is valid to all
+orders and is explicitly demonstrated at three loops in gauge theories with any
+number of fermions and scalars in the adjoint representation. Deca-cuts
+realized by replacement of real slice integration contours by
+higher-dimensional tori encircling the global poles are used to factorize the
+planar triple box onto a product of trees. We apply computational algebraic
+geometry and multivariate complex analysis to derive unique projectors for all
+master integral coefficients and obtain compact analytic formulae in terms of
+tree-level data.
+</summary>
+    <author>
+      <name>Mads Sogaard</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP12(2013)008</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP12(2013)008" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages, 3 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1312 (2013) 008</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1310.6006v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1310.6006v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

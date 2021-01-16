@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0206044%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0206044&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IKOsXve9uSEe4HF0G5UZhJR7Rr4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0206044v1</id>
+    <updated>2002-06-05T15:15:53Z</updated>
+    <published>2002-06-05T15:15:53Z</published>
+    <title>Common transversals and tangents to two lines and two quadrics in P^3</title>
+    <summary>  We solve the following geometric problem, which arises in several
+three-dimensional applications in computational geometry: For which
+arrangements of two lines and two spheres in R^3 are there infinitely many
+lines simultaneously transversal to the two lines and tangent to the two
+spheres?
+  We also treat a generalization of this problem to projective quadrics:
+Replacing the spheres in R^3 by quadrics in projective space P^3, and fixing
+the lines and one general quadric, we give the following complete geometric
+description of the set of (second) quadrics for which the 2 lines and 2
+quadrics have infinitely many transversals and tangents: In the
+nine-dimensional projective space P^9 of quadrics, this is a curve of degree 24
+consisting of 12 plane conics, a remarkably reducible variety.
+</summary>
+    <author>
+      <name>Gábor Megyesi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">UMIST</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">U Massachusetts, Amherst</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Thorsten Theobald</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Technische Universität München</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 9 .eps figures, web page with more pictures and and archive
+  of computations: http://www.math.umass.edu/~sottile/pages/2l2s/</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0206044v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0206044v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 14N10, 14Q15, 51N20, 68U05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.02668%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.02668&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/j4Xp23SeMgV5xHYIAr8NCjPdVhI</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.02668v2</id>
+    <updated>2018-06-15T13:18:28Z</updated>
+    <published>2018-06-07T13:27:19Z</published>
+    <title>Unramified Brauer groups of conic bundle threefolds in characteristic
+  two</title>
+    <summary>  We establish a formula for computing the unramified Brauer group of tame
+conic bundle threefolds in characteristic 2. The formula depends on the
+arrangement and residue double covers of the discriminant components, the
+latter being governed by Artin-Schreier theory (instead of Kummer theory in
+characteristic not 2). We use this to give new examples of threefold conic
+bundles defined over the integers that are not stably rational over the complex
+numbers.
+</summary>
+    <author>
+      <name>Asher Auel</name>
+    </author>
+    <author>
+      <name>Alessandro Bigazzi</name>
+    </author>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages; v2: added Prop. 3.11, removed assumption of rationality for
+  the base surface of the conic bundles, other small improvements</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.02668v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.02668v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11E04, 14C35, 14D06, 14E08, 14F22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

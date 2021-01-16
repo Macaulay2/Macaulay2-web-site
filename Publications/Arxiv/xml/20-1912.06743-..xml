@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.06743%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.06743&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jB/4b1OiZ+FwMAt3cxnCRqyGBAo</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.06743v1</id>
+    <updated>2019-12-13T23:18:39Z</updated>
+    <published>2019-12-13T23:18:39Z</published>
+    <title>Degree-one rational Cherednik algebras for the symmetric group</title>
+    <summary>  Drinfeld orbifold algebras deform skew group algebras in polynomial degree at
+most one and hence encompass graded Hecke algebras, and in particular
+symplectic reflection algebras and rational Cherednik algebras. We introduce
+parametrized families of Drinfeld orbifold algebras for symmetric groups acting
+on doubled representations that generalize rational Cherednik algebras by
+deforming in degree one. We characterize rich families of maps recording
+commutator relations with their linear parts supported only on and only off the
+identity when the symmetric group acts on the natural permutation
+representation plus its dual. This produces degree-one versions of gl_n-type
+rational Cherednik algebras. When the symmetric group acts on the standard
+irreducible reflection representation plus its dual there are no degree-one Lie
+orbifold algebra maps, but there is a three-parameter family of Drinfeld
+orbifold algebras arising from maps supported only off the identity. These
+provide degree-one generalizations of the sl_n-type rational Cherednik algebras
+H_{0,c}.
+</summary>
+    <author>
+      <name>B. Foster-Greenwood</name>
+    </author>
+    <author>
+      <name>C. Kriloff</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, 1 figure. Section 2. Preliminaries overlaps with Section 2.
+  Preliminaries of arXiv:1611.00410. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.06743v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.06743v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16S80 (Primary) 16E40, 16S35, 20B30 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

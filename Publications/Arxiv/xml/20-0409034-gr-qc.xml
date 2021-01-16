@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dgr-qc%2F0409034%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=gr-qc/0409034&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iFkob3cgRUBxt1OiGMbm4xolDkU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0409034v2</id>
+    <updated>2005-07-11T10:37:51Z</updated>
+    <published>2004-09-07T23:19:46Z</published>
+    <title>Time-Delay Interferometry</title>
+    <summary>  Equal-arm interferometric detectors of gravitational radiation allow phase
+measurements many orders of magnitude below the intrinsic phase stability of
+the laser injecting light into their arms. This is because the noise in the
+laser light is common to both arms, experiencing exactly the same delay, and
+thus cancels when it is differenced at the photo detector. In this situation,
+much lower level secondary noises then set overall performance. If, however,
+the two arms have different lengths (as will necessarily be the case with
+space-borne interferometers), the laser noise experiences different delays in
+the two arms and will hence not directly cancel at the detector. In order to
+solve this problem, a technique involving heterodyne interferometry with
+unequal arm lengths and independent phase-difference readouts has been
+proposed. It relies on properly time-shifting and linearly combining
+independent Doppler measurements, and for this reason it has been called
+Time-Delay Interferometry (or TDI). This article provides an overview of the
+theory and mathematical foundations of TDI as it will be implemented by the
+forthcoming space-based interferometers such as the Laser Interferometer Space
+Antenna (LISA) mission. We have purposely left out from this first version of
+our ``Living Review'' article on TDI all the results of more practical and
+experimental nature, as well as all the aspects of TDI that the data analysts
+will need to account for when analyzing the LISA TDI data combinations. Our
+forthcoming ``second edition'' of this review paper will include these topics.
+</summary>
+    <author>
+      <name>Massimo Tinto</name>
+    </author>
+    <author>
+      <name>Sanjeev V. Dhurandhar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">51 pages, 11 figures. To appear in: Living Reviews. Added content</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">LivingRev.Rel.8:4,2005</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/gr-qc/0409034v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/gr-qc/0409034v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

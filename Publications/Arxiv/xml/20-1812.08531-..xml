@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.08531%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.08531&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eqN5ReeO0aNvya1JzwzgruAQM+c</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.08531v1</id>
+    <updated>2018-12-20T12:52:25Z</updated>
+    <published>2018-12-20T12:52:25Z</published>
+    <title>Pathologies on the Hilbert scheme of points</title>
+    <summary>  We prove that the Hilbert scheme of points on a higher dimensional affine
+space is non-reduced and has components lying entirely in characteristic p for
+all primes p. In fact, we show that Vakil's Murphy's Law holds up to retraction
+for this scheme. Our main tool is a generalized version of the
+Bialynicki-Birula decomposition.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, some explicit examples, comments/questions welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.08531v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.08531v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14L30, 13D10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

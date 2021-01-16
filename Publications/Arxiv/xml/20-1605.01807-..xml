@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.01807%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.01807&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fCZNRTh/QsT0auNwP4lGScsZY+w</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.01807v1</id>
+    <updated>2016-05-06T03:09:21Z</updated>
+    <published>2016-05-06T03:09:21Z</published>
+    <title>A computation concerning relative Hilbert-Kunz multiplicities</title>
+    <summary>  In preparing the paper "Some extensions of Hilbert-Kunz multiplicity", we had
+occasion to perform an intricate set of computations pertaining to a single
+illustrative example. In the end, we have decided not to include the
+computations in the main paper, but instead to publish them here for later
+reference. In particular, the current preprint gives an example where the
+converse to one of our main theorems holds, even though it does not fit into
+any of the previously known cases where a converse holds.
+</summary>
+    <author>
+      <name>Neil Epstein</name>
+    </author>
+    <author>
+      <name>Yongwei Yao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, comments welcome. arXiv admin note: substantial text overlap
+  with arXiv:1103.4730</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.01807v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.01807v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35 (Primary), 13D40, 13P10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

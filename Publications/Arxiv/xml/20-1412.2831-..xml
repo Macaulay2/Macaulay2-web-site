@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1412.2831%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1412.2831&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Q7wCS1L/J+0U3b+30gs56PjKopY</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1412.2831v1</id>
+    <updated>2014-12-09T01:53:55Z</updated>
+    <published>2014-12-09T01:53:55Z</published>
+    <title>Multiplicities of eigenvalues of tensors</title>
+    <summary>  We study in this article multiplicities of eigenvalues of tensors. There are
+two natural multiplicities associated to an eigenvalue $\lambda$ of a tensor:
+algebraic multiplicity $\operatorname{am}(\lambda)$ and geometric multiplicity
+$\operatorname{gm}(\lambda)$. The former is the multiplicity of the eigenvalue
+as a root of the characteristic polynomial, and the latter is the dimension of
+the eigenvariety (i.e., the set of eigenvectors) corresponding to the
+eigenvalue.
+  We show that the algebraic multiplicity could change along the orbit of
+tensors by the orthogonal linear group action, while the geometric multiplicity
+of the zero eigenvalue is invariant under this action, which is the main
+difficulty to study their relationships. However, we show that for a generic
+tensor, every eigenvalue has a unique (up to scaling) eigenvector, and both the
+algebraic multiplicity and geometric multiplicity are one. In general, we
+suggest for an $m$-th order $n$-dimensional tensor the relationship \[
+\operatorname{am}(\lambda)\geq
+\operatorname{gm}(\lambda)(m-1)^{\operatorname{gm}(\lambda)-1}. \] We show that
+it is true for serveral cases, especially when the eigenvariety contains a
+linear subspace of dimension $\operatorname{gm}(\lambda)$ in coordinate form.
+As both multiplicities are invariants under the orthogonal linear group action
+in the matrix counterpart, this generalizes the classical result for a matrix:
+the algebraic mutliplicity is not smaller than the geometric multiplicity.
+</summary>
+    <author>
+      <name>Shenglong Hu</name>
+    </author>
+    <author>
+      <name>Ke Ye</name>
+    </author>
+    <link href="http://arxiv.org/abs/1412.2831v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1412.2831v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

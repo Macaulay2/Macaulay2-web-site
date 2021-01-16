@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0210130%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0210130&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TmsvuW55X6gSY1B3vy57mA3sTYk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0210130v1</id>
+    <updated>2002-10-09T00:29:06Z</updated>
+    <published>2002-10-09T00:29:06Z</published>
+    <title>Todd classes of affine cones of Grassmannians</title>
+    <summary>  A local ring R is said to be a Roberts ring if tau_R([R]) = [Spec R]_dim R,
+where tau_R is the Riemann-Roch map for Spec R. Such rings satisfy a vanishing
+theorem for the Serre intersection multiplicity, as was established by Paul
+Roberts in his proof of the Serre vanishing conjecture. It is known that
+complete intersections are Roberts rings, and the first author proved that a
+determinantal ring is a Roberts ring precisely if it is complete intersection.
+Let A_d(n) denote the affine cone of the Grassmannian G_d(n) under the Plucker
+embedding. We determine which of the rings A_d(n) are Roberts rings.
+</summary>
+    <author>
+      <name>Kazuhiko Kurano</name>
+    </author>
+    <author>
+      <name>Anurag K. Singh</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">International Mathematics Research Notices 35 (2002) 1841-1855</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0210130v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0210130v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17; 13H15; 14C15; 14C40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

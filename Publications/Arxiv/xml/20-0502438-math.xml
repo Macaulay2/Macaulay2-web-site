@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0502438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0502438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/E+8yyUzitT7fDhXqePIBIqaqk2o</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0502438v2</id>
+    <updated>2006-01-28T16:31:02Z</updated>
+    <published>2005-02-21T15:27:37Z</published>
+    <title>Resonance, linear syzygies, Chen groups, and the
+  Bernstein-Gelfand-Gelfand correspondence</title>
+    <summary>  If \A is a complex hyperplane arrangement, with complement X, we show that
+the Chen ranks of G=\pi_1(X) are equal to the graded Betti numbers of the
+linear strand in a minimal, free resolution of the cohomology ring A=H^*(X,\k),
+viewed as a module over the exterior algebra E on \A: \theta_k(G) = \dim_\k
+Tor^E_{k-1}(A,\k)_k, where \k is a field of characteristic 0, and k\ge 2. The
+Chen ranks conjecture asserts that, for k sufficiently large, \theta_k(G)
+=(k-1) \sum_{r\ge 1} h_r \binom{r+k-1}{k}, where h_r is the number of
+r-dimensional components of the projective resonance variety R^1(\A). Our
+earlier work on the resolution of A over E and the above equality yield a proof
+of the conjecture for graphic arrangements. Using results on the geometry of
+R^1(\A) and a localization argument, we establish the conjectured lower bound
+for the Chen ranks of an arbitrary arrangement \A. Finally, we show that there
+is a polynomial P(t) of degree equal to the dimension of R^1(\A), such that
+\theta_k(G) = P(k), for k sufficiently large.
+</summary>
+    <author>
+      <name>Henry K. Schenck</name>
+    </author>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1090/S0002-9947-05-03853-5</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages; final version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Trans. Amer. Math. Soc. 358 (2006), no. 5, 2269-2289</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0502438v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0502438v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1090/S0002-9947-05-03853-5" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16E05, 52C35, 13D07, 20F14" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.15115%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.15115&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JjGWY83tsDADPct3PGuihmfcmac</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.15115v1</id>
+    <updated>2020-11-30T18:49:07Z</updated>
+    <published>2020-11-30T18:49:07Z</published>
+    <title>The degree of the central curve in semidefinite, linear, and quadratic
+  programming</title>
+    <summary>  The Zariski closure of the central path which interior point algorithms track
+in convex optimization problems such as linear, quadratic, and semidefinite
+programs is an algebraic curve. The degree of this curve has been studied in
+relation to the complexity of these interior point algorithms, and for linear
+programs it was computed by De Loera, Sturmfels, and Vinzant in 2012. We show
+that the degree of the central curve for generic semidefinite programs is equal
+to the maximum likelihood degree of linear concentration models. New results
+from the intersection theory of the space of complete quadrics imply that this
+is a polynomial in the size of semidefinite matrices with degree equal to the
+number of constraints. Besides its degree we explore the arithmetic genus of
+the same curve. We also compute the degree of the central curve for generic
+linear programs with different techniques which extend to the computation of
+the same degree for generic quadratic programs.
+</summary>
+    <author>
+      <name>Serkan Hoşten</name>
+    </author>
+    <author>
+      <name>Isabelle Shankar</name>
+    </author>
+    <author>
+      <name>Angélica Torres</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.15115v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.15115v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

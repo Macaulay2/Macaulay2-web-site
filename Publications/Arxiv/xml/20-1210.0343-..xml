@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.0343%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.0343&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zxB8uHPTTSgoiEVkhJ2UrbSrHOk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0343v1</id>
+    <updated>2012-10-01T10:30:40Z</updated>
+    <published>2012-10-01T10:30:40Z</published>
+    <title>Determinantal Barlow surfaces and phantom categories</title>
+    <summary>  We prove that the bounded derived category of the surface S constructed by
+Barlow admits a length 11 exceptional sequence consisting of (explicit) line
+bundles. Moreover, we show that in a small neighbourhood of S in the moduli
+space of determinantal Barlow surfaces, the generic surface has a
+semiorthogonal decomposition of its derived category into a length 11
+exceptional sequence of line bundles and a category with trivial Grothendieck
+group and Hochschild homology, called a phantom category. This is done using a
+deformation argument and the fact that the derived endomorphism algebra of the
+sequence is constant. Applying Kuznetsov's results on heights of exceptional
+sequences, we also show that the sequence on S itself is not full and its (left
+or right) orthogonal complement is also a phantom category.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <author>
+      <name>Ludmil Katzarkov</name>
+    </author>
+    <author>
+      <name>Pawel Sosna</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages; 1 figure; Macaulay2 code for the paper available at
+  http://www.math.uni-hamburg.de/home/boehning/research/BarlowM2/M2scripts</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.0343v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.0343v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05, 14J29, 18E30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

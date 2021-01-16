@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1707.00999%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1707.00999&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/D0wtt48ozxfbLyxxnWtF/wh6y5Y</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1707.00999v2</id>
+    <updated>2017-07-20T14:19:11Z</updated>
+    <published>2017-07-04T14:03:23Z</published>
+    <title>Congruences of 5-secant conics and the rationality of some admissible
+  cubic fourfolds</title>
+    <summary>  Kuznetsov Conjecture and the work of Hassett predict that a general cubic
+fourfold belonging to an irreducible divisor $\mathcal C_d$ parametrizing
+smooth cubic hypersurfaces in $\mathbb{P}^5$ of discriminant $d$ is rational if
+and only if $d$ is an admissible value in the sense of Hassett, that is if and
+only if $d$ is a positive integer not divisible by 4, by 9 and nor by any odd
+prime of the form $2+3m$. Our main result is the proof of this conjecture for
+the smallest admissible values $d=26$ and $d=38$ for which the problem is open
+(the case $d=14$ being classical), via the construction of a congruence of
+5-secant conics to a surface $S_d$ contained in the general element of
+$\mathcal C_d$ for $d=14,26,38$.
+</summary>
+    <author>
+      <name>Francesco Russo</name>
+    </author>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">New presentation of the material, including the explicit
+  constructions of the congruences; some references added</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.00999v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.00999v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E08, 14J25, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

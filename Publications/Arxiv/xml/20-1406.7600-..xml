@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.7600%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.7600&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QDlwqdyQ/0YXKncrTu57pqB4ZnY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.7600v1</id>
+    <updated>2014-06-30T04:16:07Z</updated>
+    <published>2014-06-30T04:16:07Z</published>
+    <title>Decomposing Gorenstein Rings as Connected Sums</title>
+    <summary>  In their paper in 2012, Ananthnarayan, Avramov and Moore give a new
+construction of Gorenstein rings from two Gorenstein local rings, called their
+connected sum. Given a Gorenstein ring, one would like to know whether it can
+be decomposed as a connected sum and if so, what are its components. We answer
+these questions in the case of an Gorenstein Artin local algebra over a field,
+and give a characterization for such rings to be connected sums. We further
+investigate conditions on the associated graded ring of a Gorenstein Artin ring
+which force it to be a connected sum, and as a consequence, obtain results
+about its Poincar$\acute{\text{e}}$ series and minimal number of generators of
+its defining ideal.
+</summary>
+    <author>
+      <name>H. Ananthnarayan</name>
+    </author>
+    <author>
+      <name>Ela Celikbas</name>
+    </author>
+    <author>
+      <name>Zheng Yang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1406.7600v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.7600v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13A30, 13D40, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

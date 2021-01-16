@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.10871%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.10871&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L8QIF+Vc1g29msiO+OJOYb59Cwo</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.10871v1</id>
+    <updated>2020-11-21T21:32:55Z</updated>
+    <published>2020-11-21T21:32:55Z</published>
+    <title>Calabi-Yau threefolds in $\mathbb{P}^n$ and Gorenstein rings</title>
+    <summary>  A projectively normal Calabi-Yau threefold $X \subseteq \mathbb{P}^n$ has an
+ideal $I_X$ which is arithmetically Gorenstein, of Castelnuovo-Mumford
+regularity four. Such ideals have been intensively studied when $I_X$ is a
+complete intersection, as well as in the case where $X$ is codimension three.
+In the latter case, the Buchsbaum-Eisenbud theorem shows that $I_X$ is given by
+the Pfaffians of a skew-symmetric matrix. A number of recent papers study the
+situation when $I_X$ has codimension four. We prove there are 16 possible betti
+tables for an arithmetically Gorenstein ideal $I$ with
+$\mathrm{codim}(I)=4=\mathrm{reg}(I)$, and that exactly 8 of these occur for
+smooth irreducible nondegenerate threefolds. We investigate the situation in
+codimension five or more, obtaining examples of $X$ with $h^{p,q}(X)$ not among
+those appearing for $I_X$ of lower codimension or as complete intersections in
+toric Fano varieties. A key tool in our approach is the use of inverse systems
+to identify possible betti tables for $X$.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Mike Stillman</name>
+    </author>
+    <author>
+      <name>Beihui Yuan</name>
+    </author>
+    <link href="http://arxiv.org/abs/2011.10871v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.10871v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32 (Primary) 13D02 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

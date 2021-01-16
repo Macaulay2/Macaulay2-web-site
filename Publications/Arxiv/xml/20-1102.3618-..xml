@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1102.3618%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1102.3618&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aJwOa1shWitmffKVon0cGxqel0M</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1102.3618v2</id>
+    <updated>2011-06-10T14:44:44Z</updated>
+    <published>2011-02-17T16:14:28Z</published>
+    <title>On cubic hypersurfaces of dimension seven and eight</title>
+    <summary>  Cubic sevenfolds are examples of Fano manifolds of Calabi-Yau type. We study
+them in relation with the Cartan cubic, the $E_6$-invariant cubic in
+$\PP^{26}$. We show that a generic cubic sevenfold $X$ can be described as a
+linear section of the Cartan cubic, in finitely many ways. To each such "Cartan
+representation" we associate a rank nine vector bundle on $X$ with very special
+cohomological properties. In particular it allows to define auto-equivalences
+of the non-commutative Calabi-Yau threefold associated to $X$ by Kuznetsov.
+Finally we show that the generic eight dimensional section of the Cartan cubic
+is rational.
+</summary>
+    <author>
+      <name>Atanas Iliev</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IF</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Manivel</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IF</arxiv:affiliation>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1112/plms/pdt042</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1112/plms/pdt042" rel="related"/>
+    <link href="http://arxiv.org/abs/1102.3618v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1102.3618v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

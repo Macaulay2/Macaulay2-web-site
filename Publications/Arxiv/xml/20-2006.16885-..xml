@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.16885%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.16885&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lRE2R4RNvnIgdSpBHkUQvyx4hto</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.16885v1</id>
+    <updated>2020-06-30T15:16:33Z</updated>
+    <published>2020-06-30T15:16:33Z</published>
+    <title>Mirror Symmetry and smoothing Gorenstein toric affine 3-folds</title>
+    <summary>  We state two conjectures that together allow one to describe the set of
+smoothing components of a Gorenstein toric affine 3-fold in terms of a
+combinatorially defined and easily studied set of Laurent polynomials called
+0-mutable polynomials. We explain the origin of the conjectures in mirror
+symmetry and present some of the evidence.
+</summary>
+    <author>
+      <name>Alessio Corti</name>
+    </author>
+    <author>
+      <name>Matej Filip</name>
+    </author>
+    <author>
+      <name>Andrea Petracci</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 6 figures. The paper has been submitted to "Facets of
+  Algebraic Geometry: A Volume in Honour of William Fulton's 80th Birthday"</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.16885v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.16885v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

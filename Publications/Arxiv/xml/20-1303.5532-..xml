@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.5532%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.5532&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7Vy8A8aQvB/R2yJpnc0pZVcWXfc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.5532v1</id>
+    <updated>2013-03-22T07:20:08Z</updated>
+    <published>2013-03-22T07:20:08Z</published>
+    <title>$N_6$ property for third Veronese embeddings</title>
+    <summary>  The rational homology groups of the matching complexes are closely related to
+the syzygies of the Veronese embeddings. In this paper we will prove the
+vanishing of certain rational homology groups of matching complexes, thus
+proving that the third Veronese embeddings satisfy the property $N_6$. This
+settles the Ottaviani-Paoletti conjecture for third Veronese embeddings. This
+result is optimal since $\nu_3(\PP^n)$ does not satisfy the property $N_7$ for
+$n\ge 2$ as shown by Ottaviani-Paoletti in \cite{OP}.
+</summary>
+    <author>
+      <name>Thanh Vu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1303.5532v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.5532v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14M12, 05E10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

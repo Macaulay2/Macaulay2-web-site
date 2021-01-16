@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1207.6299%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1207.6299&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Fwo7dsavlEIVyz/11WPg0BO/+Jk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1207.6299v1</id>
+    <updated>2012-07-26T15:32:33Z</updated>
+    <published>2012-07-26T15:32:33Z</published>
+    <title>Linear spaces of matrices of constant rank and instanton bundles</title>
+    <summary>  We present a new method to study 4-dimensional linear spaces of
+skew-symmetric matrices of constant co-rank 2, based on rank 2 vector bundles
+on P^3 and derived category tools. The method allows one to prove the existence
+of new examples of size 10x10 and 14x14 via instanton bundles of charge 2 and 4
+respectively, and provides an explanation for what used to be the only known
+example (Westwick 1996). We also give an algorithm to construct explicitly a
+matrix of size 14 of this type.
+</summary>
+    <author>
+      <name>Ada Boralevi</name>
+    </author>
+    <author>
+      <name>Daniele Faenzi</name>
+    </author>
+    <author>
+      <name>Emilia Mezzetti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1207.6299v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1207.6299v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60, 15A30, 14F05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.1813%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.1813&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EfWUonALxLf5UTOE0+4ze1C0uNo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.1813v2</id>
+    <updated>2012-09-05T08:14:42Z</updated>
+    <published>2012-08-09T04:55:59Z</published>
+    <title>Determinantal Quintics and Mirror Symmetry of Reye Congruences</title>
+    <summary>  We study a certain family of determinantal quintic hypersurfaces in
+$\mathbb{P}^{4}$ whose singularities are similar to the well-studied
+Barth-Nieto quintic. Smooth Calabi-Yau threefolds with Hodge numbers
+$(h^{1,1},h^{2,1})=(52,2)$ are obtained by taking crepant resolutions of the
+singularities. It turns out that these smooth Calabi-Yau threefolds are in a
+two dimensional mirror family to the complete intersection Calabi-Yau
+threefolds in $\mathbb{P}^{4}\times\mathbb{P}^{4}$ which have appeared in our
+previous study of Reye congruences in dimension three. We compactify the two
+dimensional family over $\mathbb{P}^{2}$ and reproduce the mirror family to the
+Reye congruences. We also determine the monodromy of the family over
+$\mathbb{P}^{2}$ completely. Our calculation shows an example of the orbifold
+mirror construction with a trivial orbifold group.
+</summary>
+    <author>
+      <name>Shinobu Hosono</name>
+    </author>
+    <author>
+      <name>Hiromichi Takagi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">47 pages, 8 figures; acknowledgement added</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.1813v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.1813v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

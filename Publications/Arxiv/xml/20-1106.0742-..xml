@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1106.0742%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1106.0742&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Gj9upE4IlDMkgmoldWREXIecYFE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0742v2</id>
+    <updated>2011-09-22T23:12:39Z</updated>
+    <published>2011-06-05T00:44:55Z</published>
+    <title>Rees Algebras of Diagonal Ideals</title>
+    <summary>  There is a natural epimorphism from the symmetric algebra to the Rees algebra
+of an ideal. When this epimorphism is an isomorphism, we say that the ideal is
+of linear type. Given two determinantal rings over a field, we consider the
+diagonal ideal, the kernel of the multiplication map. We prove that the
+diagonal ideal is of linear type and recover the defining ideal of the Rees
+algebra in some special cases. The special fiber ring of the diagonal ideal is
+the homogeneous coordinate ring of the join variety.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This work is based on author's Ph. D. thesis from Purdue University
+  under the direction of Professor Bernd Ulrich</arxiv:comment>
+    <link href="http://arxiv.org/abs/1106.0742v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1106.0742v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

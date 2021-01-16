@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.6924%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.6924&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bY0KOP+UVK51GdwlXNjNrSGGV8c</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.6924v1</id>
+    <updated>2014-02-27T14:37:31Z</updated>
+    <published>2014-02-27T14:37:31Z</published>
+    <title>Splines on the Alfeld split of a simplex and type A root systems</title>
+    <summary>  Alfeld introduced a subdivision AS(n) of an n-simplex, generalizing the
+Clough-Tocher split of a triangle. A formula for the dimension of the spline
+space C^r_k(AS(n)) was conjectured recently by Foucart-Sorokina. We prove that
+the graded module of C^r-splines on the cone over AS(n) is isomorphic to the
+module D^{r+1}(A_n) of multiderivations on the type A_n Coxeter arrangement. A
+theorem of Terao shows that the module of multiderivations of a Coxeter
+arrangement is free and gives an explicit basis. As a consequence the
+conjectured formula holds.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Approximation Theory, 182 (2014), 1-6</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1402.6924v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.6924v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 41A15, Secondary 13D40, 52C99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

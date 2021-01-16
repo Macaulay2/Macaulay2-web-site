@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0509020%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0509020&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qX7KjmNB53eNtuc2W4qIFUYRWJQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0509020v1</id>
+    <updated>2005-09-01T14:40:30Z</updated>
+    <published>2005-09-01T14:40:30Z</published>
+    <title>An algorithmic approach to resolutions</title>
+    <summary>  We provide an algorithmic method for constructing projective resolutions of
+modules over quotients of path algebras. This algorithm is modified to
+construct minimal projective resolutions of linear modules over Koszul
+algebras.
+</summary>
+    <author>
+      <name>Edward L. Green</name>
+    </author>
+    <author>
+      <name>Øyvind Solberg</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jsc.2007.05.002</arxiv:doi>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Symbolic Computation, vol. 42, 11-12 (2007) 1012-1033,
+  Non-commutative Gr\~A{\P}bner bases and applications</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0509020v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0509020v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jsc.2007.05.002" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16E05, 18G10, 16P10, 16S37" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

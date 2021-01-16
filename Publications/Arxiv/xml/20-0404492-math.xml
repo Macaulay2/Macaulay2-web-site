@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0404492%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0404492&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/K8cFwG1nUclCdrx5DA7bFfXeiac</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0404492v1</id>
+    <updated>2004-04-27T16:03:34Z</updated>
+    <published>2004-04-27T16:03:34Z</published>
+    <title>A new family of rational surfaces in P^4</title>
+    <summary>  We describe a new method of constructing rational surfaces with given
+invariants in P^4 and present a family of degree 11 rational surfaces of
+sectional genus 11 with 2 six-secants that we found with this method.
+</summary>
+    <author>
+      <name>Hans-Christian Graf v. Bothmer</name>
+    </author>
+    <author>
+      <name>Cord Erdenberger</name>
+    </author>
+    <author>
+      <name>Katharina Ludwig</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jsc.2004.09.003</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, AMSLateX, 1 figure. Texfile contains additional Macaulay
+  scripts (see also http://www-ifm.math.uni-hannover.de/~bothmer/surface)</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Symbolic Comput. 39 (2005), no. 1, 51--60</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0404492v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0404492v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jsc.2004.09.003" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J26" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

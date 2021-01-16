@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.05396%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.05396&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jKN7HhiyAR95FjBC2RRLlFzr2rM</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05396v1</id>
+    <updated>2018-04-15T18:00:01Z</updated>
+    <published>2018-04-15T18:00:01Z</published>
+    <title>4d $\mathcal{N}=3$ indices via discrete gauging</title>
+    <summary>  A class of 4d $\mathcal{N}=3$ SCFTs can be obtained from gauging a discrete
+subgroup of the global symmetry group of $\mathcal{N}=4$ Super Yang-Mills
+theory. This discrete subgroup contains elements of both the $SU(4)$ R-symmetry
+group and the $SL(2,\mathbb{Z})$ S-duality group of $\mathcal{N}=4$ SYM. We
+give a prescription for how to perform the discrete gauging at the level of the
+superconformal index and Higgs branch Hilbert series. We interpret and match
+the information encoded in these indices to known results for rank one
+$\mathcal{N}=3$ theories. Our prescription is easily generalised for the
+Coloumb branch and the Higgs branch indices of higher rank theories, allowing
+us to make new predictions for these theories. Most strikingly we find that the
+Coulomb branches of higher rank theories are generically not-freely generated.
+</summary>
+    <author>
+      <name>Thomas Bourton</name>
+    </author>
+    <author>
+      <name>Alessandro Pini</name>
+    </author>
+    <author>
+      <name>Elli Pomoni</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.05396v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.05396v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

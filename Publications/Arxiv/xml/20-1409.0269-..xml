@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.0269%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.0269&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/w/Xrp4kzjnTSh29xeFtwxPmGlwo</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.0269v1</id>
+    <updated>2014-09-01T00:03:51Z</updated>
+    <published>2014-09-01T00:03:51Z</published>
+    <title>Parameter-free methods distinguish Wnt pathway models and guide design
+  of experiments</title>
+    <summary>  The canonical Wnt signaling pathway, mediated by $\beta$-catenin, is
+crucially involved in development, adult stem cell tissue maintenance and a
+host of diseases including cancer. We undertake analysis of different
+mathematical models of Wnt from the literature, and compare them to a new
+mechanistic model of Wnt signaling that targets spatial localization of key
+molecules. Using Bayesian methods we infer parameters for each of the models to
+mammalian Wnt signaling data and find that all models can fit this time course.
+We are able to overcome this lack of data by appealing to algebraic methods
+(concepts from chemical reaction network theory and matroid theory) to analyze
+the models without recourse to specific parameter values. These approaches
+provide insight into Wnt signaling: The new model (unlike any other
+investigated) permits a bistable switch in the system via control of shuttling
+and degradation parameters, corresponding to stem-like vs committed cell states
+in the differentiation hierarchy. Our analysis also identifies groups of
+variables that must be measured to fully characterize and discriminate between
+competing models, and thus serves as a guide for performing minimal experiments
+for model comparison.
+</summary>
+    <author>
+      <name>Adam L. MacLean</name>
+    </author>
+    <author>
+      <name>Zvi Rosen</name>
+    </author>
+    <author>
+      <name>Helen M. Byrne</name>
+    </author>
+    <author>
+      <name>Heather A. Harrington</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.0269v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.0269v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

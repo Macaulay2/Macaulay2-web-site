@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1304.1659%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1304.1659&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zKn+yplJf0ZgbjlLAMe+jLBxARA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1304.1659v1</id>
+    <updated>2013-04-05T09:40:11Z</updated>
+    <published>2013-04-05T09:40:11Z</published>
+    <title>Periodicity of betti numbers of monomial curves</title>
+    <summary>  Let $K$ be an arbitrary field. Let $\a = (a_1&lt; ... &lt;a_n)$ be a sequence of
+positive integers. Let $C(\a)$ be the affine monomial curve in ${\mathbb A}^n$
+parametrized by $t\to (t^{a_1}, ..., t^{a_n})$. Let $I(\a)$ be the defining
+ideal of $C(\a)$ in $K[x_1, ..., x_n]$. For each positive integer $j$, let
+$\a+j$ be the sequence $(a_1 + j, ..., a_n+j)$. In this paper, we prove the
+conjecture of Herzog and Srinivasan saying that the betti numbers of $I(\a +
+j)$ are eventually periodic in $j$ with period $a_n -a_1$. When $j$ is large
+enough, we describe the betti table for the closure of $C(\a+j)$ in $\PP^n$.
+</summary>
+    <author>
+      <name>Thanh Vu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 1 tikz picture</arxiv:comment>
+    <link href="http://arxiv.org/abs/1304.1659v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1304.1659v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13F55, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

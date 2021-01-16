@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1707.00736%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1707.00736&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UV75PnC5/X35mhBTsUBCalSHxzw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1707.00736v2</id>
+    <updated>2017-07-17T22:12:15Z</updated>
+    <published>2017-07-03T19:24:33Z</published>
+    <title>Fano 3-folds in $\mathbb {P^2} \times \mathbb {P^2}$ format, Tom and
+  Jerry</title>
+    <summary>  We study Q-factorial terminal Fano 3-folds whose equations are modelled on
+those of the Segre embedding of P^2 x P^2. These lie in codimension 4 in their
+total anticanonical embedding and have Picard rank 2. They fit into the current
+state of classification in three different ways. Some families arise as
+unprojections of degenerations of complete intersections, where the generic
+unprojection is a known prime Fano 3-fold in codimension 3; these are new, and
+an analysis of their Gorenstein projections reveals yet other new families.
+Others represent the "second Tom" unprojection families already known in
+codimension 4, and we show that every such family contains one of our models.
+Yet others have no easy Gorenstein projection analysis at all, so prove the
+existence of Fano components on their Hilbert scheme.
+</summary>
+    <author>
+      <name>Gavin Brown</name>
+    </author>
+    <author>
+      <name>Alexander Kasprzyk</name>
+    </author>
+    <author>
+      <name>Muhammad Imran Qureshi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 2 tables. Reference added</arxiv:comment>
+    <link href="http://arxiv.org/abs/1707.00736v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1707.00736v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

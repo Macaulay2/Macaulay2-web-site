@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1206.2233%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1206.2233&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uuQiNnzAokVFYxOqbun8ctza5EM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1206.2233v1</id>
+    <updated>2012-06-11T14:40:05Z</updated>
+    <published>2012-06-11T14:40:05Z</published>
+    <title>GL-equivariant modules over polynomial rings in infinitely many
+  variables</title>
+    <summary>  Consider the polynomial ring in countably infinitely many variables over a
+field of characteristic zero, together with its natural action of the infinite
+general linear group G. We study the algebraic and homological properties of
+finitely generated modules over this ring that are equipped with a compatible
+G-action. We define and prove finiteness properties for analogues of Hilbert
+series, systems of parameters, depth, local cohomology, Koszul duality, and
+regularity. We also show that this category is built out of a simpler, more
+combinatorial, quiver category which we describe explicitly.
+  Our work is motivated by recent papers in the literature which study
+finiteness properties of infinite polynomial rings equipped with group actions.
+(For example, the paper by Church, Ellenberg and Farb on the category of
+FI-modules, which is equivalent to our category.) Along the way, we see several
+connections with the character polynomials from the representation theory of
+the symmetric groups. Several examples are given to illustrate that the
+invariants we introduce are explicit and computable.
+</summary>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <author>
+      <name>Andrew Snowden</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages, uses ytableau.sty</arxiv:comment>
+    <link href="http://arxiv.org/abs/1206.2233v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1206.2233v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50, 13C05, 13D02, 05E05, 05E10, 16G20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

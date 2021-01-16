@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0510025%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0510025&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BVwjPFnSPgwkYw5KR2t4GUZj5Ak</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0510025v1</id>
+    <updated>2005-10-03T03:16:51Z</updated>
+    <published>2005-10-03T03:16:51Z</published>
+    <title>Minimal Primes Over Permanental Ideals</title>
+    <summary>  In this paper we discuss minimal primes over permanental ideals of generic
+matrices. We give a complete list of the minimal primes over ideals of 3 x 3
+permanents of a generic matrix, and show that there are monomials in the ideal
+of maximal permanents of a d x 2d-1 matrix if the characteristic of the ground
+field is sufficiently large. We also discuss the Alon-Jaeger-Tarsi Conjecture,
+using our results and techniques to strenthen the previously known results.
+</summary>
+    <author>
+      <name>George Kirkup</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 Pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0510025v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0510025v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10,13F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

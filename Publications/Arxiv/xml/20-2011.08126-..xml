@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.08126%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.08126&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Y7wZ1tJ5A9Ap+YQo0v2dhYBBf1Q</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08126v2</id>
+    <updated>2021-01-13T20:54:38Z</updated>
+    <published>2020-11-16T17:46:50Z</published>
+    <title>Threaded Gröbner Bases: a Macaulay2 package</title>
+    <summary>  The complexity of Gr\"{o}bner computations has inspired many improvements to
+Buchberger's algorithm over the years. Looking for further insights into the
+algorithm's performance, we offer a threaded implementation of classical
+Buchberger's algorithm in {\it Macaulay2}. The output of the main function of
+the package includes information about {\it lineages} of non-zero remainders
+that are added to the basis during the computation. This information can be
+used for further algorithm improvements and optimization.
+</summary>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <author>
+      <name>Shahrzad Jamshidi Zelenberg</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, package in revision</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.08126v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.08126v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

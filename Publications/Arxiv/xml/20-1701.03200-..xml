@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.03200%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.03200&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/P7TNwfLUDYRFHvXNyoNwGUZC00g</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03200v2</id>
+    <updated>2017-01-13T02:35:34Z</updated>
+    <published>2017-01-12T01:08:27Z</published>
+    <title>The degree of ${SO}(n)$</title>
+    <summary>  We provide a closed formula for the degree of ${SO}(n)$ over an
+algebraically closed field of characteristic zero. In addition, we describe
+symbolic and numerical techniques which can also be used to compute the degree
+of ${SO}(n)$ for small values of $n$. As an application of our results, we
+give a formula for the number of critical points of a low-rank semidefinite
+programming optimization problem. Finally, we provide some evidence for a
+conjecture regarding the real locus of ${SO}(n)$.
+</summary>
+    <author>
+      <name>Madeline Brandt</name>
+    </author>
+    <author>
+      <name>DJ Bruce</name>
+    </author>
+    <author>
+      <name>Taylor Brysiewicz</name>
+    </author>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Elina Robeva</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.03200v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.03200v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

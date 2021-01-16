@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.3312%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.3312&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vB37AYj2ah3LkdS0OfgStlWWuoM</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.3312v1</id>
+    <updated>2014-02-13T21:44:37Z</updated>
+    <published>2014-02-13T21:44:37Z</published>
+    <title>Veronese Geometry and the Electroweak Vacuum Moduli Space</title>
+    <summary>  We explain the origin of the Veronese surface in the vacuum moduli space
+geometry of the MSSM electroweak sector. While this result appeared many years
+ago using techniques of computational algebraic geometry, it has never been
+demonstrated analytically. Here, we present an analytical derivation of the
+vacuum geometry of the electroweak theory by understanding how the F- and
+D-term relations lead to the Veronese surface. We moreover give a detailed
+description of this geometry, realising an extra branch as a zero-dimensional
+point when quadratic Higgs lifting deformations are incorporated into the
+superpotential.
+</summary>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Vishnu Jejjala</name>
+    </author>
+    <author>
+      <name>Cyril Matti</name>
+    </author>
+    <author>
+      <name>Brent D. Nelson</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.physletb.2014.06.072</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.physletb.2014.06.072" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 3 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1402.3312v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.3312v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

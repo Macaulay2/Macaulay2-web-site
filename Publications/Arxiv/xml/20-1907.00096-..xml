@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1907.00096%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1907.00096&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/siVWM0oMjtAvBvQEa7D939Jcmj0</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1907.00096v1</id>
+    <updated>2019-06-28T22:19:04Z</updated>
+    <published>2019-06-28T22:19:04Z</published>
+    <title>Solving Polynomial Systems with phcpy</title>
+    <summary>  The solutions of a system of polynomials in several variables are often
+needed, e.g.: in the design of mechanical systems, and in phase-space analyses
+of nonlinear biological dynamics. Reliable, accurate, and comprehensive
+numerical solutions are available through PHCpack, a FOSS package for solving
+polynomial systems with homotopy continuation. This paper explores new
+developments in phcpy, a scripting interface for PHCpack, over the past five
+years. For instance, phcpy is now available online through a JupyterHub server
+featuring Python2, Python3, and SageMath kernels. As small systems are solved
+in real-time by phcpy, they are suitable for interactive exploration through
+the notebook interface. Meanwhile, phcpy supports GPU parallelization,
+improving the speed and quality of solutions to much larger polynomial systems.
+From various model design and analysis problems in STEM, certain classes of
+polynomial system frequently arise, to which phcpy is well-suited.
+</summary>
+    <author>
+      <name>Jasmine Otto</name>
+    </author>
+    <author>
+      <name>Angus Forbes</name>
+    </author>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted for publication in the SciPy 2019 proceedings</arxiv:comment>
+    <link href="http://arxiv.org/abs/1907.00096v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1907.00096v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

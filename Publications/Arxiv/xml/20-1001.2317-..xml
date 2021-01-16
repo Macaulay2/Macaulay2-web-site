@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1001.2317%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1001.2317&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AnatO58xY8KoW3pmzjOaX96V6KE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1001.2317v1</id>
+    <updated>2010-01-13T21:49:56Z</updated>
+    <published>2010-01-13T21:49:56Z</published>
+    <title>Yukawa Textures From Heterotic Stability Walls</title>
+    <summary>  A holomorphic vector bundle on a Calabi-Yau threefold, X, with h^{1,1}(X)&gt;1
+can have regions of its Kahler cone where it is slope-stable, that is, where
+the four-dimensional theory is N=1 supersymmetric, bounded by "walls of
+stability". On these walls the bundle becomes poly-stable, decomposing into a
+direct sum, and the low energy gauge group is enhanced by at least one
+anomalous U(1) gauge factor. In this paper, we show that these additional
+symmetries can strongly constrain the superpotential in the stable region,
+leading to non-trivial textures of Yukawa interactions and restrictions on
+allowed masses for vector-like pairs of matter multiplets. The Yukawa textures
+exhibit a hierarchy; large couplings arise on the stability wall and some
+suppressed interactions "grow back" off the wall, where the extended U(1)
+symmetries are spontaneously broken. A number of explicit examples are
+presented involving both one and two stability walls, with different
+decompositions of the bundle structure group. A three family standard-like
+model with no vector-like pairs is given as an example of a class of SU(4)
+bundles that has a naturally heavy third quark/lepton family. Finally, we
+present the complete set of Yukawa textures that can arise for any holomorphic
+bundle with one stability wall where the structure group breaks into two
+factors.
+</summary>
+    <author>
+      <name>Lara B. Anderson</name>
+    </author>
+    <author>
+      <name>James Gray</name>
+    </author>
+    <author>
+      <name>Burt Ovrut</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP05(2010)086</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP05(2010)086" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">53 pages, 4 figures and 13 tables</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1005:086,2010</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1001.2317v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1001.2317v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

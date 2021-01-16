@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0911.3169%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0911.3169&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZURRnpkUlI7KMiTNhXn++JvyzEs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0911.3169v2</id>
+    <updated>2010-10-27T14:41:08Z</updated>
+    <published>2009-11-17T20:47:58Z</published>
+    <title>Solution to the Ward Identities for Superamplitudes</title>
+    <summary>  Supersymmetry and R-symmetry Ward identities relate on-shell amplitudes in a
+supersymmetric field theory. We solve these Ward identities for (Next-to)^K MHV
+amplitudes of the maximally supersymmetric N=4 and N=8 theories. The resulting
+superamplitude is written in a new, manifestly supersymmetric and R-invariant
+form: it is expressed as a sum of very simple SUSY and SU(N)_R-invariant
+Grassmann polynomials, each multiplied by a "basis amplitude". For (Next-to)^K
+MHV n-point superamplitudes the number of basis amplitudes is equal to the
+dimension of the irreducible representation of SU(n-4) corresponding to the
+rectangular Young diagram with N columns and K rows. The linearly independent
+amplitudes in this algebraic basis may still be functionally related by
+permutation of momenta. We show how cyclic and reflection symmetries can be
+used to obtain a smaller functional basis of color-ordered single-trace
+amplitudes in N=4 gauge theory. We also analyze the more significant reduction
+that occurs in N=8 supergravity because gravity amplitudes are not ordered. All
+results are valid at both tree and loop level.
+</summary>
+    <author>
+      <name>Henriette Elvang</name>
+    </author>
+    <author>
+      <name>Daniel Z. Freedman</name>
+    </author>
+    <author>
+      <name>Michael Kiermaier</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP10(2010)103</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP10(2010)103" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, published version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1010:103,2010</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0911.3169v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0911.3169v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

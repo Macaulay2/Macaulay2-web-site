@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1603.01331%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1603.01331&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QBct47nTjDAHHHuBp2pNXDFQ8LM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1603.01331v1</id>
+    <updated>2016-03-04T02:07:50Z</updated>
+    <published>2016-03-04T02:07:50Z</published>
+    <title>Hypergraphs with high projective dimension and 1-dimensional Hypergraphs</title>
+    <summary>  We prove a sufficient and a necessary condition for a square-free monomial
+ideal $J$ associated to a (dual) hypergraph to have projective dimension equal
+to the minimal number of generators of $J$ minus 2. We also provide an
+effective explicit procedure to compute the projective dimension of
+1-dimensional hypergraphs $\mathcal{H}$ when each connected component contains
+at most one cycle. An algorithm to compute the projective dimension is also
+included. Applications of these results are given; they include, for instance,
+computing the projective dimension of monomial ideals whose associated
+hypergraph has a spanning Ferrers graph.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Paolo Mantero</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 9 figures, 2 algorithm</arxiv:comment>
+    <link href="http://arxiv.org/abs/1603.01331v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1603.01331v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

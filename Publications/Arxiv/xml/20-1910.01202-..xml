@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1910.01202%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1910.01202&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JyOeYFu6nBFG0H1TMO5+53qcOXQ</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1910.01202v1</id>
+    <updated>2019-10-02T20:17:19Z</updated>
+    <published>2019-10-02T20:17:19Z</published>
+    <title>Plane polar Cremona maps of arbitrarily large degree in positive
+  characteristic</title>
+    <summary>  A result of I.V.Dolgachev states that the complex homaloidal polynomials in
+three variables, i.e. the complex homogeneous polynomials whose polar map is
+birational, are of degree at most three. In this note we describe homaloidal
+polynomials in three variables of arbitrarily large degree in positive
+characteristic.
+</summary>
+    <author>
+      <name>Remi Bignalet-Cazalet</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1910.01202v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1910.01202v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14E05, 14B05," scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

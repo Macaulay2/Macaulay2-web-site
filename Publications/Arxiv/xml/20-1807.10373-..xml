@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.10373%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.10373&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rh684OnsqlK1CpJXIarVHXXA/yo</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.10373v2</id>
+    <updated>2018-12-21T12:21:34Z</updated>
+    <published>2018-07-26T21:32:30Z</published>
+    <title>Smoothable zero dimensional schemes and special projections of algebraic
+  varieties</title>
+    <summary>  We study the degrees of generators of the ideal of a projected Veronese
+variety $v_2(\mathbb{P}^3)\subset \mathbb{P}^9$ to $\mathbb{P}^6$ depending on
+the center of projection. This is related to the geometry of zero dimensional
+schemes of length $8$ in $\mathbb{A}^4$, Cremona transforms of $\mathbb{P}^6$,
+and the geometry of Tonoli Calabi-Yau threefolds of degree $17$ in
+$\mathbb{P}^6$.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <author>
+      <name>Grzegorz Kapustka</name>
+    </author>
+    <author>
+      <name>Michal Kapustka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2, updated main theorem: 13 pages. Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.10373v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.10373v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32, 14E07, 14C05 (primary), 14J10 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

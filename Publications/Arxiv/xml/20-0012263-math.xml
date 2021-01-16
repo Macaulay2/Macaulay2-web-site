@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0012263%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0012263&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Z8OJJ7H/HdvmMqwblu681lzNU1w</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0012263v2</id>
+    <updated>2001-10-01T13:37:26Z</updated>
+    <published>2000-12-29T13:44:56Z</published>
+    <title>Describing coherent sheaves on projective spaces via Koszul duality</title>
+    <summary>  A new section on projections of coherent sheaves from a projective space to a
+lower-dimensional projective space has been added.
+  Also some of the notation has been altered to bring it into line with the
+joint paper with Eisenbud and Schreyer.
+</summary>
+    <author>
+      <name>Gunnar Floystad</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">AMSLatex, 67 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0012263v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0012263v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05 (Primary) 14Q99, 16E05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

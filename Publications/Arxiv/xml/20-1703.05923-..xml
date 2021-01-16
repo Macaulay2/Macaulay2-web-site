@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1703.05923%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1703.05923&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TszTnUwg65I0OvwI8ojBhZB8u2g</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1703.05923v1</id>
+    <updated>2017-03-17T08:49:06Z</updated>
+    <published>2017-03-17T08:49:06Z</published>
+    <title>Some non-special cubic fourfolds</title>
+    <summary>  In [1309.1899], Ranestad and Voisin showed, quite surprisingly, that the
+divisor in the moduli space of cubic fourfolds consisting of cubics "apolar to
+a Veronese surface" is not a Noether-Lefschetz divisor. We give an independent
+proof of this by exhibiting an explicit cubic fourfold X in the divisor and
+using point counting methods over finite fields to show X is Noether-Lefschetz
+general. We also show that two other divisors considered in [ibid.] are not
+Noether-Lefschetz divisors.
+</summary>
+    <author>
+      <name>Nicolas Addington</name>
+    </author>
+    <author>
+      <name>Asher Auel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, Macaulay2 and C++ code as ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1703.05923v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1703.05923v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

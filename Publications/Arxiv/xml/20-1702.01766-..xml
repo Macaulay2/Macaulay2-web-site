@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1702.01766%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1702.01766&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/S6J8Lr2HoNrNX0cKYYKMaR0R2Ig</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1702.01766v1</id>
+    <updated>2017-02-06T19:01:14Z</updated>
+    <published>2017-02-06T19:01:14Z</published>
+    <title>Symbolic powers of sums of ideals</title>
+    <summary>  Let $I$ and $J$ be nonzero ideals in two Noetherian algebras $A$ and $B$ over
+a field $k$. We study algebraic properties and invariants of symbolic powers of
+the ideal $I+J$ in $A\otimes_k B$. Our main technical result is the binomial
+expansion $(I+J)^{(n)} = \sum_{i+j = n} I^{(i)} J^{(j)}$ for all $n &gt; 0$.
+Moreover, we show that if char$(k) = 0$ or if $I$ is a monomial ideal, the
+induced maps Tor$_i^A(I^{(n)},k) \to$ Tor$_i^A(I^{(n-1)},k)$ are zero for all
+$i \ge 0$. These results allow us to establish formulas for the depth and the
+regularity of $(I+J)^{(n)}$ and $(I+J)^{(n)}/(I+J)^{(n+1)}$ in terms of those
+of $I$ and $J$. Our approach has several interesting consequences on the
+equality between ordinary and symbolic powers, the Waldschmidt constant and the
+Cohen-Macaulayness of symbolic powers. In particular, we show that any
+convergent non-negative numerical function is the depth function of powers of a
+monomial ideal, which settles a conjecture of Herzog and Hibi.
+</summary>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>Dang Hop Nguyen</name>
+    </author>
+    <author>
+      <name>Ngo Viet Trung</name>
+    </author>
+    <author>
+      <name>Tran Nam Trung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1702.01766v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.01766v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C05, 13C15, 13D02, 13D07, 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

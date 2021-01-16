@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.10008%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.10008&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XHkz8TkCMq/Q9kXIuW5Z8CLP9Qo</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.10008v1</id>
+    <updated>2019-03-24T16:07:49Z</updated>
+    <published>2019-03-24T16:07:49Z</published>
+    <title>PLMP - Point-Line Minimal Problems in Complete Multi-View Visibility</title>
+    <summary>  We present a complete classification of all minimal problems for generic
+arrangements of points and lines completely observed by calibrated perspective
+cameras. We show that there are only 30 minimal problems in total, no problems
+exist for more than 6 cameras, for more than 5 points, and for more than 6
+lines. We present a sequence of tests for detecting minimality starting with
+counting degrees of freedom and ending with full symbolic and numeric
+verification of representative examples. For all minimal problems discovered,
+we present their algebraic degrees, i.e. the number of solutions, which measure
+their intrinsic difficulty. Our classification shows that there are many
+interesting new minimal problems. Our results also show how exactly the
+difficulty of problems grows with the number of views. Importantly, we
+discovered several new minimal problems with small degrees that might be
+practical in image matching and 3D reconstruction.
+</summary>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <author>
+      <name>Tomas Pajdla</name>
+    </author>
+    <link href="http://arxiv.org/abs/1903.10008v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.10008v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M20, 14Q15, 14N99, 15A69, 65H20, 68T45, 13P10, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

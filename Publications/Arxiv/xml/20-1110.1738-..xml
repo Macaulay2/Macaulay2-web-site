@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.1738%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.1738&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RJyUpI/SOW0pjjPW/666EYtQ/SM</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.1738v1</id>
+    <updated>2011-10-08T13:53:50Z</updated>
+    <published>2011-10-08T13:53:50Z</published>
+    <title>Failure of the Hasse principle on general K3 surfaces</title>
+    <summary>  We show that transcendental elements of the Brauer group of an algebraic
+surface can obstruct the Hasse principle. We construct a general K3 surface X
+of degree 2 over Q, together with a two-torsion Brauer class A that is
+unramified at every finite prime, but ramifies at real points of X. Motivated
+by Hodge theory, the pair (X,A) is constructed from a double cover of P^2 x P^2
+ramified over a hypersurface of bi-degree (2,2).
+</summary>
+    <author>
+      <name>Brendan Hassett</name>
+    </author>
+    <author>
+      <name>Anthony Várilly-Alvarado</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX, 22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1110.1738v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.1738v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11 G35 (Primary), 14 G05 (Secondary), 14 F22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

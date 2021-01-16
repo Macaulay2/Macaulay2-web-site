@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.01512%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.01512&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1dvOZom0AnmH//geoOWKz34e9Eo</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.01512v1</id>
+    <updated>2018-10-02T21:06:13Z</updated>
+    <published>2018-10-02T21:06:13Z</published>
+    <title>Initially regular sequences and depths of ideals</title>
+    <summary>  For an arbitrary ideal $I$ in a polynomial ring $R$ and any term order, we
+define a new notion of initially regular sequences on $R/I$. These sequences
+share properties with regular sequences, and are relatively easy to construct
+using information obtained from the initial ideal of $I$. For any ideal $I$ we
+give a combinatorial description of elements that form an initially regular
+sequence on $R/I$, and identify situations where these sequences are also
+regular sequences. We use these results to obtain both a lower bound on
+${\rm{depth}} \ R/I$ and a concrete description of a sequence of linear
+polynomials that is either a regular sequence, or is sufficiently close to a
+regular sequence to realize the depth bound. We illustrate how polarization of
+the initial ideal can be used to strengthen the results, which is particularly
+useful when considering the depths of powers of an ideal. A general bound for
+the depths of powers of an ideal is given in the case of a squarefree monomial
+ideal $I$, which generalizes a known bound for ${\rm{depth}} \ R/I$ in terms of
+the edgewise domination number of the corresponding hypergraph.
+</summary>
+    <author>
+      <name>Louiza Fouli</name>
+    </author>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>Susan Morey</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.01512v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.01512v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C15, 13D05, 05E40, 13F20, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

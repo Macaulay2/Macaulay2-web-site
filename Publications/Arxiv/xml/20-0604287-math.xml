@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0604287%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0604287&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ep/tz3mStFl+ZY52amC/qwxZ3EU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0604287v1</id>
+    <updated>2006-04-12T16:30:38Z</updated>
+    <published>2006-04-12T16:30:38Z</published>
+    <title>Algebraic computation of some intersection D-modules</title>
+    <summary>  Let $X$ be a complex analytic manifold, $D\subset X$ a locally
+quasi-homogeneous free divisor, $E$ an integrable logarithmic connection with
+respect to $D$ and $L$ the local system of the horizontal sections of $E$ on
+$X-D$. In this paper we give an algebraic description in terms of $E$ of the
+regular holonomic D-module whose de Rham complex is the intersection complex
+associated with $L$. As an application, we perform some effective computations
+in the case of quasi-homogeneous plane curves.
+</summary>
+    <author>
+      <name>F. J. Calderon-Moreno</name>
+    </author>
+    <author>
+      <name>L. Narvaez-Macarro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0604287v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0604287v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32C38; 32S40; 32S60; 14F40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

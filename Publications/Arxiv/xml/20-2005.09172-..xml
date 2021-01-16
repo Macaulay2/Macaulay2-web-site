@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.09172%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.09172&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mWGs8+2vDowNVpHZg/aewKbMieg</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.09172v1</id>
+    <updated>2020-05-19T02:32:28Z</updated>
+    <published>2020-05-19T02:32:28Z</published>
+    <title>$F$-thresholds and test ideals of Thom-Sebastiani type polynomials</title>
+    <summary>  We provide a formula for $F$-thresholds of a Thom-Sebastiani type polynomial
+over a perfect field of prime characteristic. This result extends the formula
+for the $F$-pure threshold of a diagonal hypersurface. We also compute the
+first test ideal of Thom-Sebastiani type polynomials. Finally, we apply our
+result to find hypersurfaces where the log canonical thresholds equals the
+$F$-pure thresholds for infinitely many prime numbers.
+</summary>
+    <author>
+      <name>Manuel González Villa</name>
+    </author>
+    <author>
+      <name>Delio Jaramillo-Velez</name>
+    </author>
+    <author>
+      <name>Luis Núñez-Betancourt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.09172v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.09172v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13A35, Secondary 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

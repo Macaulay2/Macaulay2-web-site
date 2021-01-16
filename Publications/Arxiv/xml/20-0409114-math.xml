@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0409114%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0409114&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3cwZg4ojtsAvp/oDzwWJTbZJYBo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0409114v1</id>
+    <updated>2004-09-07T21:19:08Z</updated>
+    <published>2004-09-07T21:19:08Z</published>
+    <title>Some Geometric Results arising from the Borel Fixed Property</title>
+    <summary>  In this paper, we will give some geometric results using generic initial
+ideals for the degree reverse lex order. The first application is to the
+regularity of a Cohen-Macaulay algebra, and we improve a well-known bound. The
+main goal of the paper, though, is to improve on results of Bigatti, Geramita
+and Migliore concerning geometric consequences of maximal growth of the Hilbert
+function of the Artinian reduction of a set of points. When the points have the
+Uniform Position Property, the consequences they gave are even more striking.
+Here we weaken the growth condition, assuming only that the values of the
+Hilbert function of the Artinian reduction are equal in two consecutive
+degrees, and that the first of these degrees is greater than the second
+reduction number of the points. We continue to get nice geometric consequences
+even from this weaker assumption. However, we have surprising examples to show
+that imposing the Uniform Position Property on the points does not give the
+striking consequences that one might expect. This leads to a better
+understanding of the Hilbert function, and the ideal itself, of a set of points
+with the Uniform Position Property, which is an important open question. In the
+last section we describe the role played by the Weak Lefschetz Property (WLP)
+in this theory, and we show that the general hyperplane section of a smooth
+curve may fail to have WLP.
+</summary>
+    <author>
+      <name>Jeaman Ahn</name>
+    </author>
+    <author>
+      <name>Juan C. Migliore</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0409114v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0409114v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D40; 14M05; 13C05; 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

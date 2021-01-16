@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0708.2078%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0708.2078&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IvQ9Wvr0+uopSKd57sDTE3pvnUw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0708.2078v1</id>
+    <updated>2007-08-15T19:12:15Z</updated>
+    <published>2007-08-15T19:12:15Z</published>
+    <title>Obstructions to Genericity in Study of Parametric Problems in Control
+  Theory</title>
+    <summary>  We investigate systems of equations, involving parameters from the point of
+view of both control theory and computer algebra. The equations might involve
+linear operators such as partial (q-)differentiation, (q-)shift, (q-)difference
+as well as more complicated ones, which act trivially on the parameters. Such a
+system can be identified algebraically with a certain left module over a
+non-commutative algebra, where the operators commute with the parameters. We
+develop, implement and use in practice the algorithm for revealing all the
+expressions in parameters, for which e.g. homological properties of a system
+differ from the generic properties. We use Groebner bases and Groebner basics
+in rings of solvable type as main tools. In particular, we demonstrate an
+optimized algorithm for computing the left inverse of a matrix over a ring of
+solvable type. We illustrate the article with interesting examples. In
+particular, we provide a complete solution to the "two pendula, mounted on a
+cart" problem from the classical book of Polderman and Willems, including the
+case, where the friction at the joints is essential . To the best of our
+knowledge, the latter example has not been solved before in a complete way.
+</summary>
+    <author>
+      <name>Viktor Levandovskyy</name>
+    </author>
+    <author>
+      <name>Eva Zerz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0708.2078v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0708.2078v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10; 93B25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

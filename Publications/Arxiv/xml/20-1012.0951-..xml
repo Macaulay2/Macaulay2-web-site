@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1012.0951%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1012.0951&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qylSVe4ISqKCQOWq28cbPm/8jR0</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1012.0951v1</id>
+    <updated>2010-12-04T22:10:41Z</updated>
+    <published>2010-12-04T22:10:41Z</published>
+    <title>Stabilization of the Regularity of Powers of An Ideal</title>
+    <summary>  When M is a finitely generated graded module over a standard graded algebra S
+and I is an ideal of S, it is known from work of Cutkosky, Herzog, Kodiyalam,
+R\"omer, Trung and Wang that the Castelnuovo-Mumford regularity of I^mM has the
+form dm+e when m &gt;&gt; 0. We give an explicit bound on the m$for which this is
+true, under the hypotheses that I is generated in a single degree and M/IM has
+finite length, and we explore the phenomena that occur when these hypotheses
+are not satisfied. Finally, we prove a regularity bound for a reduced,
+equidimensional projective scheme of codimension 2 that is similar to the bound
+in the Eisenbud-Goto conjecture [1984], under the additional hypotheses that
+the scheme lies on a quadric and has nice singularities.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Bernd Ulrich</name>
+    </author>
+    <link href="http://arxiv.org/abs/1012.0951v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1012.0951v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13C99, 13P20, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

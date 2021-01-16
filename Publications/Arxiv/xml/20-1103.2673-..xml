@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1103.2673%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1103.2673&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+ztOlr1sE1u+D3GFCJGyEce68Lk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1103.2673v1</id>
+    <updated>2011-03-14T14:21:24Z</updated>
+    <published>2011-03-14T14:21:24Z</published>
+    <title>A framework for tropical mirror symmetry</title>
+    <summary>  Applying tropical geometry a framework for mirror symmetry, including a
+mirror construction for Calabi-Yau varieties, was proposed by the author. We
+discuss the conceptual foundations of this construction based on a natural
+mirror map identifying deformations and divisors. We show how the construction
+specializes to that by Batyrev for hypersurfaces and its generalization by
+Batyrev and Borisov to complete intersections. Based on an explicit example we
+comment on the implementation in the Macaulay2 package SRdeformations.
+</summary>
+    <author>
+      <name>Janko Boehm</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, no figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1103.2673v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1103.2673v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J33 (Primary) 14J32, 14T05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

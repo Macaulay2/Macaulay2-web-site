@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0603166%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0603166&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/26WrQdIm5+rW2MNIoSlSvSxbUww</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0603166v6</id>
+    <updated>2006-11-02T17:54:45Z</updated>
+    <published>2006-03-07T18:02:39Z</published>
+    <title>Multinets, resonance varieties, and pencils of plane curves</title>
+    <summary>  We show that a line arrangement in the complex projective plane supports a
+nontrivial resonance variety if and only if it is the underlying arrangement of
+a "multinet," a multi-arrangement with a partition into three or more
+equinumerous classes which have equal multiplicities at each inter-class
+intersection point, and satisfy a connectivity condition. We also prove that
+this combinatorial structure is equivalent to the existence of a pencil of
+plane curves, also satisfying a connectivity condition, whose singular fibers
+include at least three products of lines, which comprise the arrangement. We
+derive numerical conditions which impose restrictions on the number of classes,
+and the line and point multiplicities that can appear in multinets, and allow
+us to detect whether the associated pencils yield nonlinear fiberings of the
+complement.
+</summary>
+    <author>
+      <name>Michael Falk</name>
+    </author>
+    <author>
+      <name>Sergey Yuzvinsky</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version to appear in Compositio Math</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0603166v6" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0603166v6" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C35,14H10,05B30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

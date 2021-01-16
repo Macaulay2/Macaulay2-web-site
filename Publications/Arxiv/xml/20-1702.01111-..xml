@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1702.01111%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1702.01111&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XVNDJK+/T4gH5ZssiPvDXYUw9M4</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1702.01111v2</id>
+    <updated>2017-04-23T16:11:03Z</updated>
+    <published>2017-02-03T18:52:59Z</published>
+    <title>Annihilators of Koszul Homologies and Almost Complete Intersections</title>
+    <summary>  In this article, as a generalization of the Monomial Conjecture, we propound
+a question on the annihilator of Koszul homologies of a system of parameters of
+an almost complete intersection $R$. Our question can be stated in terms of the
+acyclicity of certain residual approximation complexes whose $0$-th homologies
+are the residue field of $R$. We establish our question for certain almost
+complete intersections with small multiplicities. To this aim, for an
+equi-characteristic almost complete intersection $(R, \mathfrak{m}) $, we
+establish an inequality between multiplicity and Cohen-Macaulay defect,
+$\et(R)\ge \dim(R)-\dep(R),$ when $\dim(R)\le 3$ or $\et(R)\le 2$. We, also,
+present an example to show that the above inequality does not hold in general.
+</summary>
+    <author>
+      <name>S. Hamid Hassanzadeh</name>
+    </author>
+    <author>
+      <name>Ehsan Tavanfar</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: text overlap with arXiv:1607.00025</arxiv:comment>
+    <link href="http://arxiv.org/abs/1702.01111v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.01111v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1001.1126%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1001.1126&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fSf7SxGRsV6LfHD6eiN7ahGX5Hs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1126v1</id>
+    <updated>2010-01-07T18:23:55Z</updated>
+    <published>2010-01-07T18:23:55Z</published>
+    <title>A package for computing implicit equations of parametrizations from
+  toric surfaces</title>
+    <summary>  In this paper we present an algorithm for computing a matrix representation
+for a surface in P^3 parametrized over a 2-dimensional toric variety T. This
+algorithm follows the ideas of [Botbol-Dickenstein-Dohm-09] and it was
+implemented in Macaulay2. We showed in [BDD09] that such a surface can be
+represented by a matrix of linear syzygies if the base points are finite in
+number and form locally a complete intersection, and in [Botbol-09] we
+generalized this to the case where the base locus is not necessarily a local
+complete intersection. The key point consists in exploiting the sparse
+structure of the parametrization, which allows us to obtain significantly
+smaller matrices than in the homogeneous case.
+</summary>
+    <author>
+      <name>Nicolas Botbol Marc Dohm</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, 2 figures, Macaulay2 code</arxiv:comment>
+    <link href="http://arxiv.org/abs/1001.1126v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1001.1126v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

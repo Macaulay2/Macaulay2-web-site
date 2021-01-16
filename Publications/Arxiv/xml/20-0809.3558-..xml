@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0809.3558%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0809.3558&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/APbV6bc1pZmdgHz9T+GjsQMcUow</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0809.3558v1</id>
+    <updated>2008-09-21T08:00:28Z</updated>
+    <published>2008-09-21T08:00:28Z</published>
+    <title>Strong Lefschetz elements of the coinvariant rings of finite Coxeter
+  groups</title>
+    <summary>  For the coinvariant rings of finite Coxeter groups of types other than H$_4$,
+we show that a homogeneous element of degree one is a strong Lefschetz element
+if and only if it is not fixed by any reflections. We also give the necessary
+and sufficient condition for strong Lefschetz elements in the invariant
+subrings of the coinvariant rings of Weyl groups.
+</summary>
+    <author>
+      <name>Toshiaki Maeno</name>
+    </author>
+    <author>
+      <name>Yasuhide Numata</name>
+    </author>
+    <author>
+      <name>Akihito Wachi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0809.3558v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0809.3558v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20F55; 13A50, 14M15, 14N15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

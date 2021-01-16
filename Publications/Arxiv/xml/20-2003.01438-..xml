@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.01438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.01438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LcyZgxrZROQ1G1fH8bTI1r6Xb4k</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.01438v1</id>
+    <updated>2020-03-03T10:48:00Z</updated>
+    <published>2020-03-03T10:48:00Z</published>
+    <title>Generalized Hilbert-Kunz function of the Rees algebra of the face ring
+  of a simplicial complex</title>
+    <summary>  Let $R$ be the face ring of a simplicial complex of dimension $d-1$ and
+${\mathcal R}(\mathfrak{n})$ be the Rees algebra of the maximal homogeneous
+ideal $\mathfrak{n}$ of $R.$ We show that the generalized Hilbert-Kunz function
+$HK(s)=\ell({\mathcal R}(\mathfrak n)/(\mathfrak n, \mathfrak n t)^{[s]})$ is
+given by a polynomial for all large $s.$ We calculate it in many examples and
+also provide a Macaulay2 code for computing $HK(s).$
+</summary>
+    <author>
+      <name>Arindam Banerjee</name>
+    </author>
+    <author>
+      <name>Kriti Goel</name>
+    </author>
+    <author>
+      <name>J. K. Verma</name>
+    </author>
+    <link href="http://arxiv.org/abs/2003.01438v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.01438v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13D40, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1312.5634%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1312.5634&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zkOwoDjecrdlhUceLNAjy2uG1rA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1312.5634v1</id>
+    <updated>2013-12-19T16:57:47Z</updated>
+    <published>2013-12-19T16:57:47Z</published>
+    <title>Fixed Points of the EM Algorithm and Nonnegative Rank Boundaries</title>
+    <summary>  Matrices of nonnegative rank r represent mixtures of r independent
+distributions. Likelihood inference for this model leads to problems in real
+algebraic geometry that are addressed here for the first time. We characterize
+the fixed point locus of Expectation Maximization, and we study the boundary of
+the space of matrices with nonnegative rank at most 3. Both of these are
+algebraic varieties with many irreducible components.
+</summary>
+    <author>
+      <name>Kaie Kubjas</name>
+    </author>
+    <author>
+      <name>Elina Robeva</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1312.5634v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.5634v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

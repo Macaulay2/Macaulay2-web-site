@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.08303%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.08303&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OXygzfc5hYnDFTkq5XsMC/vz9sY</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.08303v1</id>
+    <updated>2018-03-22T10:50:12Z</updated>
+    <published>2018-03-22T10:50:12Z</published>
+    <title>The representation type of determinantal varieties</title>
+    <summary>  This work is entirely devoted to construct huge families of indecomposable
+arithmetically Cohen-Macaulay (resp. Ulrich) sheaves E of arbitrary high rank
+on a general standard (resp. linear) determinantal scheme X\subset \PP^n of
+codimension c \ge 1, n-c \ge 1 and defined by the maximal minors of a t \times
+(t+c-1) homogeneous matrix A. The sheaves E are constructed as iterated
+extensions of sheaves of lower rank. As applications: (1) we prove that any
+general standard determinantal scheme X\subset \PP^n is of wild representation
+type provided the degrees of the entries of the matrix A satisfy some weak
+numerical assumptions; and (2) we determine values of t, n and n-c for which a
+linear standard determinantal scheme X\subset \PP^n is of wild representation
+type with respect to the much more restrictive category of its indecomposable
+Ulrich sheaves, i.e. X is of Ulrich wild representation type.
+</summary>
+    <author>
+      <name>Jan O. Kleppe</name>
+    </author>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10468-017-9673-4</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10468-017-9673-4" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is a postprint (AAM) of an article published in Algebras and
+  Representation Theory. The final authenticated version is available online
+  at: http://dx.doi.org/10.1007/s10468-017-9673-4</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Algebr Represent Theor (2017) 20:1029-1059</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1803.08303v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.08303v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16G60, 14M12 (Primary) 13C40, 13D07 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

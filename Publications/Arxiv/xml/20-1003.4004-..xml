@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1003.4004%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1003.4004&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QZfg8jl1Nj1H0vDBeNerHlPTtsE</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1003.4004v2</id>
+    <updated>2011-02-13T19:30:08Z</updated>
+    <published>2010-03-21T16:23:07Z</published>
+    <title>Deformations of equivelar Stanley-Reisner abelian surfaces</title>
+    <summary>  The versal deformation of Stanley-Reisner schemes associated to equivelar
+triangulations of the torus is studied. The deformation space is defined by
+binomials and there is a toric smoothing component which I describe in terms of
+cones and lattices. Connections to moduli of abelian surfaces are considered.
+The case of the M\"obius torus is especially nice and leads to a projective
+Calabi-Yau 3-fold with Euler number 6.
+</summary>
+    <author>
+      <name>Jan Arthur Christophersen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Revised version. Small improvements. Added drawings</arxiv:comment>
+    <link href="http://arxiv.org/abs/1003.4004v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1003.4004v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.00384%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.00384&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jsXPRi8nm1P9SnaUXP3JhUHDNIo</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00384v2</id>
+    <updated>2016-05-09T08:52:35Z</updated>
+    <published>2016-05-02T08:10:02Z</published>
+    <title>Waring loci and the Strassen conjecture</title>
+    <summary>  The Waring locus of a form F is the collection of the degree one forms
+appearing in some minimal sum of powers decomposition of F. In this paper, we
+give a complete description of Waring loci for several family of forms, such as
+quadrics, monomials, binary forms and plane cubics. We also introduce a Waring
+loci version of Strassen's Conjecture, which implies the original conjecture,
+and we prove it in many cases.
+</summary>
+    <author>
+      <name>Enrico Carlini</name>
+    </author>
+    <author>
+      <name>Maria Virginia Catalisano</name>
+    </author>
+    <author>
+      <name>Alessandro Oneto</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">New Prop 3.1 and Corollary 3.2</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.00384v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00384v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

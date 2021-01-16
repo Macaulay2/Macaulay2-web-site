@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.03188%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.03188&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wUYBKLs7+kF5bQXEgc7Q1Rx0HNw</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.03188v1</id>
+    <updated>2015-02-11T03:44:19Z</updated>
+    <published>2015-02-11T03:44:19Z</published>
+    <title>Algebraic Systems Biology: A Case Study for the Wnt Pathway</title>
+    <summary>  Steady state analysis of dynamical systems for biological networks give rise
+to algebraic varieties in high-dimensional spaces whose study is of interest in
+their own right. We demonstrate this for the shuttle model of the Wnt signaling
+pathway. Here the variety is described by a polynomial system in 19 unknowns
+and 36 parameters. Current methods from computational algebraic geometry and
+combinatorics are applied to analyze this model.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Heather A. Harrington</name>
+    </author>
+    <author>
+      <name>Zvi Rosen</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.03188v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.03188v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

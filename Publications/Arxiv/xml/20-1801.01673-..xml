@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1801.01673%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1801.01673&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/10/e69yW+Z0BZMlUUYRWJRk6aOE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01673v2</id>
+    <updated>2018-06-07T06:57:29Z</updated>
+    <published>2018-01-05T08:46:31Z</published>
+    <title>On the average condition number of tensor rank decompositions</title>
+    <summary>  We compute the expected value of powers of the geometric condition number of
+random tensor rank decompositions. It is shown in particular that the expected
+value of the condition number of $n_1\times n_2 \times 2$ tensors with a random
+rank-$r$ decomposition, given by factor matrices with independent and
+identically distributed standard normal entries, is infinite. This entails that
+it is expected and probable that such a rank-$r$ decomposition is sensitive to
+perturbations of the tensor. Moreover, it provides concrete further evidence
+that tensor decomposition can be a challenging problem, also from the numerical
+point of view. On the other hand, we provide strong theoretical and empirical
+evidence that tensors of size $n_1~\times~n_2~\times~n_3$ with all $n_1,n_2,n_3
+\ge 3$ have a finite average condition number. This suggests there exists a gap
+in the expected sensitivity of tensors between those of format $n_1\times n_2
+\times 2$ and other order-3 tensors. For establishing these results, we show
+that a natural weighted distance from a tensor rank decomposition to the locus
+of ill-posed decompositions with an infinite geometric condition number is
+bounded from below by the inverse of this condition number. That is, we prove
+one inequality towards a so-called condition number theorem for the tensor rank
+decomposition.
+</summary>
+    <author>
+      <name>Paul Breiding</name>
+    </author>
+    <author>
+      <name>Nick Vannieuwenhoven</name>
+    </author>
+    <link href="http://arxiv.org/abs/1801.01673v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.01673v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

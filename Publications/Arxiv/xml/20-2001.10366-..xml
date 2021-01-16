@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.10366%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.10366&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nGFRZI5/q3AwqMls2xdl3oX8gZ0</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.10366v1</id>
+    <updated>2020-01-28T14:38:11Z</updated>
+    <published>2020-01-28T14:38:11Z</published>
+    <title>Expecting the unexpected: quantifying the persistence of unexpected
+  hypersurfaces</title>
+    <summary>  If $X \subset \mathbb P^n$ is a reduced subscheme, we say that $X$ admits an
+unexpected hypersurface of degree $t$ for multiplicity $m$ if the imposition of
+having multiplicity $m$ at a general point $P$ fails to impose the expected
+number of conditions on the linear system of hypersurfaces of degree $t$
+containing $X$. Conditions which either guarantee the occurrence of unexpected
+hypersurfaces, or which ensure that they cannot occur, are not well understand.
+We introduce new methods for studying unexpectedness, such as the use of
+generic initial ideals and partial elimination ideals to clarify when it can
+and when it cannot occur. We also exhibit algebraic and geometric properties of
+$X$ which in some cases guarantee and in other cases preclude $X$ having
+certain kinds of unexpectedness. In addition, we formulate a new way of
+quantifying unexpectedness (our AV sequence), which allows us detect the extent
+to which unexpectedness persists as $t$ increases but $t-m$ remains constant.
+Finally, we study to what extent we can detect unexpectedness from the Hilbert
+function of $X$.
+</summary>
+    <author>
+      <name>Giuseppe Favacchio</name>
+    </author>
+    <author>
+      <name>Elena Guardo</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Juan Migliore</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2001.10366v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.10366v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 14C20, 13D40, 14Q10, 14M10, Secondary: 14M05, 14M07, 13E10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

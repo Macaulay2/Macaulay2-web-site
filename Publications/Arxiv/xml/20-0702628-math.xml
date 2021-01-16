@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0702628%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0702628&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/U8EMmYl6OxY8gNg+Eepzj1/bG0g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0702628v1</id>
+    <updated>2007-02-22T04:04:33Z</updated>
+    <published>2007-02-22T04:04:33Z</published>
+    <title>On special p-Borel ideals</title>
+    <summary>  We define the reduced horseshoe resolution and the notion of conjoined pairs
+of ideals in order to study the minimal graded free resolution of a class of
+p-Borel ideals and recover Pardue's regularity formula for them. It will follow
+from our technique that the graded betti numbers of these ideals do not depend
+on the characteristic of the base field k.
+</summary>
+    <author>
+      <name>Achilleas Sinefakopoulos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0702628v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0702628v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

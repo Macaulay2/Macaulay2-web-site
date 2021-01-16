@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.03148%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.03148&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9PIqO3o+h1pqkW1FHsaTo4s9+lE</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.03148v1</id>
+    <updated>2021-01-08T18:24:50Z</updated>
+    <published>2021-01-08T18:24:50Z</published>
+    <title>Dimension of Tensor Network varieties</title>
+    <summary>  The tensor network variety is a variety of tensors associated to a graph and
+a set of positive integer weights on its edges, called bond dimensions. We
+determine an upper bound on the dimension of the tensor network variety. A
+refined upper bound is given in cases relevant for applications such as
+varieties of matrix product states and projected entangled pairs states. We
+provide a range (the "supercritical range") of the parameters where the upper
+bound is sharp.
+</summary>
+    <author>
+      <name>Alessandra Bernardi</name>
+    </author>
+    <author>
+      <name>Claudia De Lazzari</name>
+    </author>
+    <author>
+      <name>Fulvio Gesmundo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.03148v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.03148v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 81P45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

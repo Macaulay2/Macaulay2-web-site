@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0005055%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0005055&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IB2ZCrm6CZ3kqnRCBk6ZkB64CUo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0005055v1</id>
+    <updated>2000-05-05T19:44:26Z</updated>
+    <published>2000-05-05T19:44:26Z</published>
+    <title>Sheaf Cohomolog and Free Resolutions over Exterior Algebras</title>
+    <summary>  In this paper we derive an explicit version of the
+Bernstein-Gel'fand-Gel'fand (BGG) correspondence between bounded complexes of
+coherent sheaves on projective space and minimal doubly infinite free
+resolutions over its ``Koszul dual'' exterior algebra. This leads to an
+efficient method for machine computation of the cohomology of sheaves. Among
+the facts about the BGG correspondence that we derive is that taking homology
+of a complex of sheaves corresponds to taking the ``linear part'' of a
+resolution over the exterior algebra.
+  Using these results we give a constructive proof of the existence of a
+Beilinson monad for a sheaf on projective space. The explicitness of our
+version allows us to to prove two conjectures about the morphisms in the monad.
+  Along the way we prove a number of results about minimal free resolutions
+over an exterior algebra. For example, we show that such resolutions are
+eventually dominated by their "linear parts" in the sense that erasing all
+terms of degree $&gt;1$ in the complex yields a new complex which is eventually
+exact.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0005055v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0005055v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05, 14Q20, 16E05 (Primary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

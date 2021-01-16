@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1101.0066%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1101.0066&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LczxmTkP+9JSsaQXPvnr4QyxDs4</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1101.0066v2</id>
+    <updated>2011-03-07T12:19:23Z</updated>
+    <published>2010-12-30T10:30:09Z</published>
+    <title>Bigraded Betti numbers of some simple polytopes</title>
+    <summary>  The bigraded Betti numbers b^{-i,2j}(P) of a simple polytope P are the
+dimensions of the bigraded components of the Tor groups of the face ring k[P].
+The numbers b^{-i,2j}(P) reflect the combinatorial structure of P as well as
+the topology of the corresponding moment-angle manifold \mathcal Z_P, and
+therefore they find numerous applications in combinatorial commutative algebra
+and toric topology. Here we calculate some bigraded Betti numbers of the type
+\beta^{-i,2(i+1)} for associahedra, and relate the calculation of the bigraded
+Betti numbers for truncation polytopes to the topology of their moment-angle
+manifolds. These two series of simple polytopes provide conjectural extrema for
+the values of b^{-i,2j}(P) among all simple polytopes P with the fixed
+dimension and number of vertices.
+</summary>
+    <author>
+      <name>Ivan Limonchenko</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, LaTex2e. Revisions in v2:(a)new references
+  added;(b)Conjecture 2.7 reformulated and proved as Theorem 2.9 in Section 2</arxiv:comment>
+    <link href="http://arxiv.org/abs/1101.0066v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1101.0066v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

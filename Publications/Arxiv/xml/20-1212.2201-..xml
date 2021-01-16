@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1212.2201%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1212.2201&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Yrg1yx6n9DaU3E2LZ5vOXuqKMVM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1212.2201v1</id>
+    <updated>2012-12-10T20:55:42Z</updated>
+    <published>2012-12-10T20:55:42Z</published>
+    <title>Betti tables of $p$-Borel-fixed ideals</title>
+    <summary>  In this note we provide a counter-example to a conjecture of K. Pardue
+[Thesis, Brandeis University, 1994.], which asserts that if a monomial ideal is
+$p$-Borel-fixed, then its $\mathbb{N}$-graded Betti table, after passing to any
+field does not depend on the field. More precisely, we show that, for any
+monomial ideal $I$ in a polynomial ring $S$ over the ring $\mathbb{Z}$ of
+integers and for any prime number $p$, there is a $p$-Borel-fixed monomial
+$S$-ideal $J$ such that a region of the multigraded Betti table of $J(S
+\otimes_\mathbb{Z} \ell)$ is in one-to-one correspondence with the multigraded
+Betti table of $I(S \otimes_\mathbb{Z} \ell)$ for all fields $\ell$ of
+arbitrary characteristic. There is no analogous statement for Borel-fixed
+ideals in characteristic zero. Additionally, the construction also shows that
+there are $p$-Borel-fixed ideals without any minimal cellular resolution.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5pp</arxiv:comment>
+    <link href="http://arxiv.org/abs/1212.2201v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.2201v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

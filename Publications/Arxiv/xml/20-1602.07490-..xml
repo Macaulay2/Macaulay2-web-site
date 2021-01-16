@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.07490%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.07490&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Rh6Ho4oFJ9V7dsmeyd0NIkJqghA</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.07490v1</id>
+    <updated>2016-02-24T13:21:40Z</updated>
+    <published>2016-02-24T13:21:40Z</published>
+    <title>Effective criteria for bigraded birational maps</title>
+    <summary>  In this paper, we consider rational maps whose source is a product of two
+subvarieties, each one being embedded in a projective space. Our main objective
+is to investigate birationality criteria for such maps. First, a general
+criterion is given in terms of the rank of a couple of matrices that became to
+be known as Jacobian dual matrices. Then, we focus on rational maps from the
+product of two projectine lines to the projective plane in very low bidegrees
+and provide new matrix-based birationality criteria by analyzing the syzygies
+of the defining equations of the map, in particular by looking at the dimension
+of certain bigraded parts of the syzygy module. Finally, applications of our
+results to the context of geometric modeling are discussed at the end of the
+paper.
+</summary>
+    <author>
+      <name>Nicolás Botbol</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">DM-UBA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Busé</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">GALAAD2</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marc Chardin</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Seyed Hamid Hassanzadeh</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Aron Simis</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Quang Hoa Tran</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/1602.07490v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.07490v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

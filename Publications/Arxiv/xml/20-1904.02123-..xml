@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.02123%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.02123&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/s8bpdwP40EZsjY6jvwTO9pFgoyM</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.02123v1</id>
+    <updated>2019-04-03T17:36:59Z</updated>
+    <published>2019-04-03T17:36:59Z</published>
+    <title>Projective geometry of Wachspress coordinates</title>
+    <summary>  We show that there is a unique hypersurface of minimal degree passing through
+the non-faces of a polytope which is defined by a simple hyperplane
+arrangement. This generalizes the construction of the adjoint curve of a
+polygon by Wachspress in 1975. The defining polynomial of our adjoint
+hypersurface is the adjoint polynomial introduced by Warren in 1996. This is a
+key ingredient for the definition of Wachspress coordinates, which are
+barycentric coordinates on an arbitrary convex polytope. We describe the
+Wachspress map, the rational map defined by the Wachspress coordinates, and the
+Wachspress variety, the image of this map. The inverse of the Wachspress map is
+the projection from the linear span of the image of the adjoint hypersurface.
+To relate adjoints of polytopes to classical adjoints of divisors in algebraic
+geometry, we study irreducible hypersurfaces that have the same degree and
+multiplicity along the non-faces of a polytope as its defining hyperplane
+arrangement. We list all finitely many combinatorial types of polytopes in
+dimensions two and three for which such irreducible hypersurfaces exist. In the
+case of polygons, the general such curves are elliptic. In the
+three-dimensional case, the general such surfaces are either K3 or elliptic.
+</summary>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <link href="http://arxiv.org/abs/1904.02123v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.02123v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 14N30, 52B10, 52B11, 14J70, 14J28, 14J27, 14J32" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0701511%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0701511&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/U7f/V8E1yeeHIujc7he016gpozs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0701511v1</id>
+    <updated>2007-01-18T17:44:21Z</updated>
+    <published>2007-01-18T17:44:21Z</published>
+    <title>Examples of Calabi-Yau 3-folds of $\mathbb{P}^7$ with $ρ=1$</title>
+    <summary>  We give some examples of Calabi-Yau 3-folds with $\rho=1$, defined over
+$\mathbb{Q}$ and constructed as 4-codimensional subvarieties of $\mathbb{P}^7$
+via commutative algebra methods. We explain how to deduce their Hodge diamond
+and top Chern classes from computer based computations over some finite field
+$\mathbb{F}_{p}$. Three of our examples are new. These examples are built out
+of Gulliksen-Neg\r{a}rd and Kustin-Miller complexes of locally free sheaves.
+Finally, we give two new examples of Calabi-Yau 3-folds of $\mathbb{P}^6$ of
+degree 14 and 15 that are not deformation-equivalent to the previously known
+examples of these degrees in $\mathbb{P}^6$ (even though they share the same
+invariants $(H^3, c_2\cdot H, c_3)$ and $\rho=1$).
+</summary>
+    <author>
+      <name>Marie-Am\' elie Bertin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0701511v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0701511v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32;14J30;14P99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

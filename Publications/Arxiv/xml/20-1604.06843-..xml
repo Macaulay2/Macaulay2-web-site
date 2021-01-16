@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1604.06843%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1604.06843&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QBVIkpZGNuXf4CxqX9H42ZA9MsY</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1604.06843v1</id>
+    <updated>2016-04-23T01:22:46Z</updated>
+    <published>2016-04-23T01:22:46Z</published>
+    <title>Cohomology of cluster varieties. I. Locally acyclic case</title>
+    <summary>  We initiate a systematic study of the cohomology of cluster varieties. We
+introduce the Louise property for cluster algebras that holds for all acyclic
+cluster algebras, and for most cluster algebras arising from marked surfaces.
+For cluster varieties satisfying the Louise property and of full rank, we show
+that the cohomology satisfies the curious Lefschetz property of Hausel and
+Rodriguez-Villegas, and that the mixed Hodge structure is split over the
+rationals. We give a complete description of the highest weight part of the
+mixed Hodge structure of these cluster varieties, and develop the notion of a
+standard differential form on a cluster variety. We show that the point counts
+of these cluster varieties over finite fields can be expressed in terms of
+Dirichlet characters. Under an additional integrality hypothesis, the point
+counts are shown to be polynomials in the order of the finite field.
+</summary>
+    <author>
+      <name>Thomas Lam</name>
+    </author>
+    <author>
+      <name>David E. Speyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">45 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1604.06843v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1604.06843v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

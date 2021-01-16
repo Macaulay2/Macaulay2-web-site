@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0303116%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0303116&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/p7PikjmbS9BOxvaUG5VLRO1NK34</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0303116v2</id>
+    <updated>2005-01-25T13:53:07Z</updated>
+    <published>2003-03-10T14:03:37Z</published>
+    <title>Computing the tight closure in dimension two</title>
+    <summary>  We study computational aspects of the tight closure of a homogeneous primary
+ideal in a two-dimensional normal standard-graded domain. We show how to use
+slope criteria for the sheaf of syzygies for generators of the ideal to compute
+the tight closure. Our method gives in particular an algorithm to compute the
+tight closure of three elements under the condition that we are able to compute
+the Harder-Narasimhan filtration. We apply this to the computation of
+(x^a,y^a,z^a)^* in K[x,y,z]/(F), where F is a homogeneous polynomial.
+</summary>
+    <author>
+      <name>Holger Brenner</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Some minor changes. To appear in Mathematics of Computations</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0303116v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0303116v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35, 14H60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

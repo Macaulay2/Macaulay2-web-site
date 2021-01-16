@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.2438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.2438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2X9wbgYxl4rqoEHYjlo9Aq8ptng</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.2438v1</id>
+    <updated>2012-08-12T16:08:51Z</updated>
+    <published>2012-08-12T16:08:51Z</published>
+    <title>Veronese quotient models of $\bar{M}_{0,n}$ and conformal blocks</title>
+    <summary>  The moduli space $\bar{M}_{0,n}$ of Deligne-Mumford stable n-pointed rational
+curves admits morphisms to spaces recently constructed by Giansiracusa, Jensen,
+and Moon that we call Veronese quotients. We study divisors on $\bar{M}_{0,n}$
+associated to these maps and show that these divisors arise as first Chern
+classes of vector bundles of conformal blocks.
+</summary>
+    <author>
+      <name>Angela Gibney</name>
+    </author>
+    <author>
+      <name>David Jensen</name>
+    </author>
+    <author>
+      <name>Han-Bom Moon</name>
+    </author>
+    <author>
+      <name>David Swinarski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.2438v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.2438v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10, 14E30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

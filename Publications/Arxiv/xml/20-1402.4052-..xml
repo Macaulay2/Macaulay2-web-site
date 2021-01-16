@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1402.4052%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1402.4052&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mXiXjI8ZVApPnQp2XiaY4Uen2GE</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1402.4052v2</id>
+    <updated>2014-09-25T20:15:59Z</updated>
+    <published>2014-02-17T16:47:38Z</published>
+    <title>Local rings of embedding codepth 3: a classification algorithm</title>
+    <summary>  Let I be an ideal of a regular local ring Q with residue field k. The length
+of the minimal free resolution of R=Q/I is called the codepth of R. If it is at
+most 3, then the resolution carries a structure of a differential graded
+algebra, and the induced algebra structure on $Tor_Q(R,k) provides for a
+classification of such local rings.
+  We describe the Macaulay2 package CodepthThree that implements an algorithm
+for classifying a local ring as above by computation of a few cohomological
+invariants.
+</summary>
+    <author>
+      <name>Lars Winther Christensen</name>
+    </author>
+    <author>
+      <name>Oana Veliche</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor changes. Final version; to appear in J. Softw. Algebra Geom.; 7
+  pp. The Macaulay2 package CodepthThree is available from one author's
+  homepage http://www.math.ttu.edu/~lchriste/publications.html</arxiv:comment>
+    <link href="http://arxiv.org/abs/1402.4052v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1402.4052v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P20, 13D02, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

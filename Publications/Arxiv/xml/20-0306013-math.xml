@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0306013%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0306013&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GEYQ4g4Yqly9tcuLrUBzexcRqG4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0306013v2</id>
+    <updated>2004-08-03T19:18:11Z</updated>
+    <published>2003-06-02T17:34:10Z</published>
+    <title>The equivariant Orlik-Solomon algebra</title>
+    <summary>  Given a real arrangement $A$, the complement $M(A)$ of the complexification
+of $A$ admits an action of $\mathbb{Z}_2$ by complex conjugation. We define the
+equivariant Orlik-Solomon algebra of $A$ to be the $\mathbb{Z}_2$-equivariant
+cohomology ring of $M(A)$ with coefficients in $\mathbb{Z}_2$. We give a
+combinatorial presentation of this ring, and interpret it as a deformation of
+the ordinary Orlik-Solomon algebra into the Varchenko-Gel'fand ring of locally
+constant $\mattbb{Z}_2$-valued functions on the complement $C(A)$ of $A$ in
+$\mathbb{R}^n$. We also show that the $\mathbb{Z}_2$-equivariant homotopy type
+of $M(A)$ is determined by the oriented matroid of $A$. As an application, we
+give two examples of pairs of arrangements $A$ and $A'$ such that $M(A)$ and
+$M(A')$ have the same nonequivariant homotopy type, but are distinguished by
+the equivariant Orlik-Solomon algebra.
+</summary>
+    <author>
+      <name>Nicholas J. Proudfoot</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 2 figures. Revised exposotion, corrections to examples</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0306013v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0306013v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

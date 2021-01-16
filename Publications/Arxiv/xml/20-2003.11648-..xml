@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.11648%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.11648&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7nP8m7rXhdsBcY0EdNq3aLvvc6o</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.11648v1</id>
+    <updated>2020-03-25T21:21:46Z</updated>
+    <published>2020-03-25T21:21:46Z</published>
+    <title>Partial Trace Ideals And Berger's Conjecture</title>
+    <summary>  Let $R$ be a commutative one-dimensional domain whose integral closure is a
+DVR. We assume further that $R$ is a complete $k$-algebra where $k$ is any
+perfect field. Under this hypothesis, there is a long standing conjecture of
+R.W. Berger which states that $R$ is regular if and only if the (universally
+finite) differential module $\Omega_{R/k}$ is torsionfree. We introduce an
+invariant of $\Omega_{R/k}$ based on a partial trace ideal, and discuss lower
+bounds on it which give new cases of this conjecture. In particular, we can
+generalize the quasihomogeneous case proved by Scheja. Finally, we explore some
+relations between this invariant and the colength of the conductor.
+</summary>
+    <author>
+      <name>Sarasij Maitra</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages; Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.11648v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.11648v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13N05, 13N15, 13Cxx (Primary) 13H10, 13D02, 13E99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2004.10237%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2004.10237&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qDE+eshVtDHhoBM4V2GGI9z1b5g</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2004.10237v2</id>
+    <updated>2020-06-01T17:26:17Z</updated>
+    <published>2020-04-21T18:41:34Z</published>
+    <title>Quadratic Gorenstein algebras with many surprising properties</title>
+    <summary>  Let $k$ be a field of characteristic $0$. Using the method of idealization,
+we show that there is a non-Koszul, quadratic, Artinian, Gorenstein, standard
+graded $k$-algebra of regularity $3$ and codimension $8$, answering a question
+of Mastroeni, Schenck, and Stillman. We also show that this example is minimal
+in the sense that no other idealization that is non-Koszul, quadratic,
+Artinian, Gorenstein algebra, with regularity $3$ has smaller codimension.
+  We also construct an infinite family of graded, quadratic, Artinian,
+Gorenstein algebras $A_m$, indexed by an integer $m \ge 2$, with the following
+properties: (1) there are minimal first syzygies of the defining ideal in
+degree $m+2$, (2) for $m \ge 3$, $A_m$ is not Koszul, (3) for $m \ge 7$, the
+Hilbert function of $A_m$ is not unimodal, and thus (4) for $m \ge 7$, $A_m$
+does not satisfy the weak or strong Lefschetz properties. In particular, the
+subadditivity property fails for quadratic Gorenstein ideals.
+  Finally, we show that the idealization of a construction of Roos yields
+non-Koszul quadratic Gorenstein algebras such that the residue field $k$ has a
+linear resolution for precisely $\alpha$ steps for any integer $\alpha \ge 2$.
+Thus there is no finite test for the Koszul property even for quadratic
+Gorenstein algebras.
+</summary>
+    <author>
+      <name>Jason McCullough</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Added new section showing there is no finite test for the Koszul
+  property for quadratic Gorenstein algebras</arxiv:comment>
+    <link href="http://arxiv.org/abs/2004.10237v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.10237v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

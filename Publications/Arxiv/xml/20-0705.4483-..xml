@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0705.4483%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0705.4483&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OCkXS41ZOpyyRFy7a+AX/5mlyvk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0705.4483v2</id>
+    <updated>2009-11-11T14:55:15Z</updated>
+    <published>2007-05-30T22:45:50Z</published>
+    <title>The Label Algorithm For Irreducible Decomposition of Monomial Ideals</title>
+    <summary>  The paper that was here is a preprint that was never turned into a proper
+paper. In particular it does not have enough citations to the literature. The
+paper "The Slice Algorithm For Irreducible Decomposition of Monomial Ideals"
+contains a much better description of the Label algorithm than this preprint
+did. If you still wish to read the original preprint then access the arXiv's
+version 1 of this paper, instead of version 2 which is what you are reading
+now.
+</summary>
+    <author>
+      <name>Bjarke Hammersholt Roune</name>
+    </author>
+    <link href="http://arxiv.org/abs/0705.4483v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0705.4483v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

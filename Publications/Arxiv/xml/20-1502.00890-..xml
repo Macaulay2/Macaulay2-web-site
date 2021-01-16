@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.00890%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.00890&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//jAHs/1moyNRzRcWRmehR9N8o+c</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00890v1</id>
+    <updated>2015-02-03T15:31:45Z</updated>
+    <published>2015-02-03T15:31:45Z</published>
+    <title>Implicitization of rational hypersurfaces via linear syzygies: a
+  practical overview</title>
+    <summary>  We unveil in concrete terms the general machinery of the syzygy-based
+algorithms for the implicitization of rational surfaces in terms of the
+monomials in the polynomials defining the parametrization, following and
+expanding our joint article with M. Dohm. These algebraic techniques, based on
+the theory of approximation complexes due to J. Herzog, A, Simis and W.
+Vasconcelos, were introduced for the implicitization problem by J.-P.
+Jouanolou, L. Bus\'e, and M. Chardin. Their work was inspired by the practical
+method of moving curves, proposed by T. Sederberg and F. Chen, translated into
+the language of syzygies by D. Cox. Our aim is to express the theoretical
+results and resulting algorithms into very concrete terms, avoiding the use of
+the advanced homological commutative algebra tools which are needed for their
+proofs.
+</summary>
+    <author>
+      <name>Nicolás Botbol</name>
+    </author>
+    <author>
+      <name>Alicia Dickenstein</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.00890v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.00890v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

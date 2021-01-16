@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.05236%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.05236&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8yzoZXCeTu5loXQl2GlAi8gVsXM</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.05236v1</id>
+    <updated>2021-01-13T17:58:49Z</updated>
+    <published>2021-01-13T17:58:49Z</published>
+    <title>On certain singular Hilbert schemes of points: local structures and
+  tautological sheaves</title>
+    <summary>  We determine the local structure of the Hilbert scheme of $\leq 7$ points in
+$\mathbb{A}^3$. In particular we show that in these cases the points with the
+same extra dimensions are singularites of the same type. We compute the
+equivariant Hilbert functions and verify a conjecture of Wang-Zhou for $\leq 6$
+points.
+</summary>
+    <author>
+      <name>Xiaowen Hu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.05236v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.05236v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

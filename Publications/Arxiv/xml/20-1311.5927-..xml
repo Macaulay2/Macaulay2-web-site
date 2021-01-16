@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1311.5927%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1311.5927&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IuHC9gddILiFhL9nrKgkw/WiuX0</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1311.5927v1</id>
+    <updated>2013-11-22T23:03:40Z</updated>
+    <published>2013-11-22T23:03:40Z</published>
+    <title>Small clique number graphs with three trivial critical ideals</title>
+    <summary>  The critical ideals of a graph are the determinantal ideals of the
+generalized Laplacian matrix associated to a graph. In this article we provide
+a set of minimal forbidden graphs for the set of graphs with at most three
+trivial critical ideals. Then we use these forbidden graphs to characterize the
+graphs with at most three trivial critical ideals and clique number equal to 2
+and 3.
+</summary>
+    <author>
+      <name>Carlos A. Alfaro</name>
+    </author>
+    <author>
+      <name>Carlos E. Valencia</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1311.5927v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1311.5927v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C25, 05C50, 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

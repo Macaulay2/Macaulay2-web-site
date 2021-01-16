@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1908.03713%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1908.03713&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/c9SVZmUOOeISjbv2m51gvY49EkU</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1908.03713v1</id>
+    <updated>2019-08-10T08:52:59Z</updated>
+    <published>2019-08-10T08:52:59Z</published>
+    <title>Convex Algebraic Geometry of Curvature Operators</title>
+    <summary>  We study the structure of the set of algebraic curvature operators satisfying
+a sectional curvature bound under the light of the emerging field of Convex
+Algebraic Geometry. More precisely, we determine in which dimensions $n$ this
+convex semialgebraic set is a spectrahedron or a spectrahedral shadow; in
+particular, for $n\geq5$, these give new counter-examples to the Helton--Nie
+Conjecture. Moreover, efficient algorithms are provided if $n=4$ to test
+membership in such a set. For $n\geq5$, algorithms using semidefinite
+programming are obtained from hierarchies of inner approximations by
+spectrahedral shadows and outer relaxations by spectrahedra.
+</summary>
+    <author>
+      <name>Renato G. Bettiol</name>
+    </author>
+    <author>
+      <name>Mario Kummer</name>
+    </author>
+    <author>
+      <name>Ricardo A. E. Mendes</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX2e, 24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1908.03713v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1908.03713v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P10, 53B20, 53C21, 90C22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

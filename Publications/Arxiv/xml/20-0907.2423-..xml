@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0907.2423%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0907.2423&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JRvzS1r3PCNrZpAb2bRiEN1h3nc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0907.2423v3</id>
+    <updated>2010-11-19T18:17:03Z</updated>
+    <published>2009-07-14T18:29:49Z</published>
+    <title>Computing Multidimensional Persistence</title>
+    <summary>  The theory of multidimensional persistence captures the topology of a
+multifiltration -- a multiparameter family of increasing spaces.
+Multifiltrations arise naturally in the topological analysis of scientific
+data. In this paper, we give a polynomial time algorithm for computing
+multidimensional persistence. We recast this computation as a problem within
+computational algebraic geometry and utilize algorithms from this area to solve
+it. While the resulting problem is Expspace-complete and the standard
+algorithms take doubly-exponential time, we exploit the structure inherent
+withing multifiltrations to yield practical algorithms. We implement all
+algorithms in the paper and provide statistical experiments to demonstrate
+their feasibility.
+</summary>
+    <author>
+      <name>Gunnar Carlsson</name>
+    </author>
+    <author>
+      <name>Gurjeet Singh</name>
+    </author>
+    <author>
+      <name>Afra Zomorodian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper has been withdrawn by the authors. Journal of
+  Computational Geometry, 1(1) 2010, pages 72-100.
+  http://jocg.org/index.php/jocg/article/view/19</arxiv:comment>
+    <link href="http://arxiv.org/abs/0907.2423v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0907.2423v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.1.2; I.3.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

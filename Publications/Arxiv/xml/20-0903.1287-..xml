@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0903.1287%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0903.1287&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IAvL/kXTBz8im7rMLFbBtUG1ngw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0903.1287v1</id>
+    <updated>2009-03-06T20:50:13Z</updated>
+    <published>2009-03-06T20:50:13Z</published>
+    <title>A convex polynomial that is not sos-convex</title>
+    <summary>  A multivariate polynomial $p(x)=p(x_1,...,x_n)$ is sos-convex if its Hessian
+$H(x)$ can be factored as $H(x)= M^T(x) M(x)$ with a possibly nonsquare
+polynomial matrix $M(x)$. It is easy to see that sos-convexity is a sufficient
+condition for convexity of $p(x)$. Moreover, the problem of deciding
+sos-convexity of a polynomial can be cast as the feasibility of a semidefinite
+program, which can be solved efficiently. Motivated by this computational
+tractability, it has been recently speculated whether sos-convexity is also a
+necessary condition for convexity of polynomials. In this paper, we give a
+negative answer to this question by presenting an explicit example of a
+trivariate homogeneous polynomial of degree eight that is convex but not
+sos-convex. Interestingly, our example is found with software using sum of
+squares programming techniques and the duality theory of semidefinite
+optimization. As a byproduct of our numerical procedure, we obtain a simple
+method for searching over a restricted family of nonnegative polynomials that
+are not sums of squares.
+</summary>
+    <author>
+      <name>Amir Ali Ahmadi</name>
+    </author>
+    <author>
+      <name>Pablo A. Parrilo</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10107-011-0457-z</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Mathematical Programming, Volume 135, Numbers 1-2, pp. 275-292,
+  (2012)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0903.1287v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0903.1287v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10107-011-0457-z" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

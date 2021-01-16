@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.01648%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.01648&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/G7bYp8akbbJLm28hkpa5QDJwTmo</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.01648v1</id>
+    <updated>2015-04-07T15:41:59Z</updated>
+    <published>2015-04-07T15:41:59Z</published>
+    <title>Mora's holy grail: Algorithms for computing in localizations at prime
+  ideals</title>
+    <summary>  This article discusses a computational treatment of the localization A_L of
+an affine coordinate ring A at a prime ideal L and its associated graded ring
+Gr_a(A_L) with the means of standard basis techniques. Building on Mora's work,
+we present alternative proofs on two of the central statements and expand on
+the applications mentioned by Mora: resolutions of ideals, systems of
+parameters and Hilbert polynomials, as well as dimension and regularity of A_L.
+All algorithms are implemented in the library graal.lib for the computer
+algebra system Singular.
+</summary>
+    <author>
+      <name>Magdaleen S. Marais</name>
+    </author>
+    <author>
+      <name>Yue Ren</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.01648v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.01648v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H99 (Primary), 13P10, 14Q99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

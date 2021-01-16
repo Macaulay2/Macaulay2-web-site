@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1312.7096%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1312.7096&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Q8jNw5/abGWUcGJgLs9MXNDjTOU</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1312.7096v1</id>
+    <updated>2013-12-26T12:39:51Z</updated>
+    <published>2013-12-26T12:39:51Z</published>
+    <title>Basic Module Theory over Non-Commutative Rings with Computational
+  Aspects of Operator Algebras</title>
+    <summary>  The present text surveys some relevant situations and results where basic
+Module Theory interacts with computational aspects of operator algebras. We
+tried to keep a balance between constructive and algebraic aspects.
+</summary>
+    <author>
+      <name>José Gómez-Torrecillas</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in the Proceedings of the AADIOS 2012 conference, to be
+  published in Lecture Notes in Computer Science</arxiv:comment>
+    <link href="http://arxiv.org/abs/1312.7096v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1312.7096v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

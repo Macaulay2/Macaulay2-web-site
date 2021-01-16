@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.03401%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.03401&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zAwAVdb89cXS3GyLllhU+YZsMVo</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.03401v1</id>
+    <updated>2020-11-06T15:02:29Z</updated>
+    <published>2020-11-06T15:02:29Z</published>
+    <title>Upper bounds for Betti numbers from constraints on the Hilbert function</title>
+    <summary>  We describe an algorithm for finding sharp upper bounds for the total Betti
+numbers of a saturated ideal given certain constraints on its Hilbert function.
+This algorithm is implemented in the Macaulay2 package, MaxBettiNumbers, along
+with variations that produce ideals with maximal total Betti numbers.
+</summary>
+    <author>
+      <name>Jay White</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 1 figure, submitted to the Journal of Software for Algebra
+  and Geometry</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.03401v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.03401v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

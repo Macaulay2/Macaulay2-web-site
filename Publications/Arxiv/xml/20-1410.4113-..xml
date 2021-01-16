@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.4113%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.4113&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5o8ucDpY31Ab3yU8nDC1YOzo2Bs</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.4113v1</id>
+    <updated>2014-10-15T16:15:52Z</updated>
+    <published>2014-10-15T16:15:52Z</published>
+    <title>A Direct Algorithm to Compute the Topological Euler Characteristic and
+  Chern-Schwartz-MacPherson Class of Projective Complete Intersection Varieties</title>
+    <summary>  Let $V$ be a possibly singular scheme-theoretic complete intersection
+subscheme of $\mathbb{P}^n$ over an algebraically closed field of
+characteristic zero. Using a recent result of Fullwood ("On Milnor classes via
+invariants of singular subschemes", Journal of Singularities) we develop an
+algorithm to compute the Chern-Schwartz-MacPherson class and Euler
+characteristic of $V$. This algorithm complements existing algorithms by
+providing performance improvements in the computation of the
+Chern-Schwartz-MacPherson class and Euler characteristic for certain types of
+complete intersection subschemes of $\mathbb{P}^n$.
+</summary>
+    <author>
+      <name>Martin Helmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.4113v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.4113v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx, 68W30, 14C17, 13P15, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="F.2.2; I.1.2; I.1.1" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

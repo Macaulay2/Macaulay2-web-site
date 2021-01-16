@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.01388%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.01388&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JK2OF+y9gTKMTPj0i6FVND2MYiY</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.01388v1</id>
+    <updated>2018-03-04T17:30:21Z</updated>
+    <published>2018-03-04T17:30:21Z</published>
+    <title>Lefschetz properties of monomial ideals with almost linear resolution</title>
+    <summary>  We study the WLP and SLP of artinian monomial ideals in
+$S=\mathbb{K}[x_1,\dots ,x_n]$ via studying their minimal free resolutions. We
+study the Lefschetz properties of such ideals where the minimal free resolution
+of $S/I$ is linear for at least $n-2$ steps. We give an affirmative answer to a
+conjecture of Eisenbud, Huneke and Ulrich for artinian monomial ideals with
+almost linear resolutions.
+</summary>
+    <author>
+      <name>Nasrin Altafi</name>
+    </author>
+    <author>
+      <name>Navid Nemati</name>
+    </author>
+    <link href="http://arxiv.org/abs/1803.01388v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.01388v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

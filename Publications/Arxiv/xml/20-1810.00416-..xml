@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.00416%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.00416&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iw1IShL+PYJOw6JNxFvJuVHUWtE</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.00416v1</id>
+    <updated>2018-09-30T16:21:13Z</updated>
+    <published>2018-09-30T16:21:13Z</published>
+    <title>Light dual multinets of order six in the projective plane</title>
+    <summary>  The aim of this paper is twofold: First we classify all abstract light dual
+multinets of order $6$ which have a unique line of length at least two. Then we
+classify the weak projective embeddings of these objects in projective planes
+over fields of characteristic zero. For the latter we present a computational
+algebraic method for the study of weak projective embeddings of finite
+point-line incidence structures.
+</summary>
+    <author>
+      <name>Norbert Bogya</name>
+    </author>
+    <author>
+      <name>Gábor P. Nagy</name>
+    </author>
+    <link href="http://arxiv.org/abs/1810.00416v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.00416v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B30, 13P15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

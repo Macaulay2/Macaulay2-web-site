@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.05905%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.05905&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eakWQswyiBoNGSawQN8Y+5NBuvo</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.05905v1</id>
+    <updated>2018-06-15T11:11:36Z</updated>
+    <published>2018-06-15T11:11:36Z</published>
+    <title>On the Coefficients of the Permanent and the Determinant of a Circulant
+  Matric. Applications</title>
+    <summary>  Let $d(N )$ (resp. $p(N )$) be the number of summands in the determinant
+(resp. permanent) of an $N\times N$ circulant matrix $A = (a_{ij} )$ given by
+$a_{ij} = X_{i+j}$ where $i + j$ should be considered $\mod N$ . This short
+note is devoted to prove that $d(N ) = p(N )$ if and only if $N$ is a prime
+power. We then give an application to homogeneous monomial ideals failing the
+Weak Lefschetz property.
+</summary>
+    <author>
+      <name>Liena Colarte</name>
+    </author>
+    <author>
+      <name>Emilia Mezzetti</name>
+    </author>
+    <author>
+      <name>Rosa Maria Miró-Roig</name>
+    </author>
+    <author>
+      <name>Martí Salat</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Proc. AMS, to appear</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.05905v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.05905v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

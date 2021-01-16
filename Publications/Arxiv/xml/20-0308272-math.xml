@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0308272%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0308272&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MqwIWXe8BD+UL9YGosU+VG1mhmg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0308272v1</id>
+    <updated>2003-08-28T04:22:41Z</updated>
+    <published>2003-08-28T04:22:41Z</published>
+    <title>Rees Algebras of Conormal Modules</title>
+    <summary>  We deal with classes of prime ideals whose associated graded ring is
+isomorphic to the Rees algebra of the conormal module in order to describe the
+divisor class group of the Rees algebra and to examine the normality of the
+conormal module.
+</summary>
+    <author>
+      <name>Jooyoun Hong</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This paper is based on the Ph.D. dissertation of the author</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0308272v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0308272v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10, 13B21, 13C20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

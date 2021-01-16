@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.3241%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.3241&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ScBA/EW1fNPUzJAimu8IZIQdEZs</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.3241v2</id>
+    <updated>2014-06-26T15:22:45Z</updated>
+    <published>2014-03-13T11:38:26Z</published>
+    <title>On the dual graph of Cohen-Macaulay algebras</title>
+    <summary>  Given a projective algebraic set X, its dual graph G(X) is the graph whose
+vertices are the irreducible components of X and whose edges connect components
+that intersect in codimension one. Hartshorne's connectedness theorem says that
+if (the coordinate ring of) X is Cohen-Macaulay, then G(X) is connected. We
+present two quantitative variants of Hartshorne's result:
+  1) If X is a Gorenstein subspace arrangement, then G(X) is r-connected, where
+r is the Castelnuovo-Mumford regularity of X. (The bound is best possible; for
+coordinate arrangements, it yields an algebraic extension of Balinski's theorem
+for simplicial polytopes.)
+  2) If X is a canonically embedded arrangement of lines no three of which meet
+in the same point, then the diameter of the graph G(X) is not larger than the
+codimension of X. (The bound is sharp; for coordinate arrangements, it yields
+an algebraic expansion on the recent combinatorial result that the Hirsch
+conjecture holds for flag normal simplicial complexes.)
+</summary>
+    <author>
+      <name>Bruno Benedetti</name>
+    </author>
+    <author>
+      <name>Matteo Varbaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor changes throughout, added Remark 4.1 and Corollary 4.2</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.3241v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.3241v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C14, 14M06, 52C45, 05C40, 05C12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

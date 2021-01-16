@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.07416%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.07416&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4ZyF80kMyd9Yog4BSnan+HvxcjY</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.07416v1</id>
+    <updated>2020-03-16T19:19:46Z</updated>
+    <published>2020-03-16T19:19:46Z</published>
+    <title>The regularity and $h$-polynomial of Cameron-Walker graphs</title>
+    <summary>  Fix an integer $n \geq 1$, and consider the set of all connected finite
+simple graphs on $n$ vertices. For each $G$ in this set, let $I(G)$ denote the
+edge ideal of $G$ in the polynomial ring $R = K[x_1,\ldots,x_n]$. We initiate a
+study of the set $\mathcal{RD}(n) \subseteq \mathbb{N}^2$ consisting of all the
+pairs $(r,d)$ where $r = {\rm reg}(R/I(G))$, the Castelnuovo-Mumford
+regularity, and $d = {\rm deg} h_{R/I(G)}(t)$, the degree of the
+$h$-polynomial, as we vary over all the connected graphs on $n$ vertices. In
+particular, we identify sets $A(n)$ and $B(n)$ such that $A(n) \subseteq
+\mathcal{RD}(n) \subseteq B(n)$. When we restrict to the family of
+Cameron-Walker graphs on $n$ vertices, we can completely characterize all the
+possible $(r,d)$.
+</summary>
+    <author>
+      <name>Takayuki Hibi</name>
+    </author>
+    <author>
+      <name>Kyouko Kimura</name>
+    </author>
+    <author>
+      <name>Kazunori Matsuda</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages; comments welcomed</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.07416v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.07416v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D40, 05C70, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

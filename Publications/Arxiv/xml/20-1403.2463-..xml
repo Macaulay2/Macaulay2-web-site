@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.2463%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.2463&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yiAImtr2ertzunQlGsBfnmomUfo</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.2463v1</id>
+    <updated>2014-03-11T02:44:36Z</updated>
+    <published>2014-03-11T02:44:36Z</published>
+    <title>Unitarity Cuts of Integrals with Doubled Propagators</title>
+    <summary>  We extend the notion of generalized unitarity cuts to accommodate loop
+integrals with higher powers of propagators. Such integrals frequently arise in
+for example integration-by-parts identities, Schwinger parametrizations and
+Mellin-Barnes representations. The method is applied to reduction of integrals
+with doubled and tripled propagators and direct extract of integral
+coefficients at one and two loops. Our algorithm is based on degenerate
+multivariate residues and computational algebraic geometry.
+</summary>
+    <author>
+      <name>Mads Sogaard</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.2463v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.2463v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

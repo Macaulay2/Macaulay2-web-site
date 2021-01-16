@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.02401%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.02401&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+VUQuxOzZmGqqO71lTrw4PG4r30</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.02401v1</id>
+    <updated>2020-07-05T18:02:03Z</updated>
+    <published>2020-07-05T18:02:03Z</published>
+    <title>Graded Betti numbers of some circulant graphs</title>
+    <summary>  Let $G$ be the circulant graph $C_n(S)$ with $S \subseteq \{1, 2, \dots,
+\lfloor \frac{n}{2} \rfloor\}$, and let $I(G)$ denote the edge ideal in the
+polynomial ring $R=\mathbb{K}[x_0, x_1, \dots, x_{n-1}]$ over a field
+$\mathbb{K}$. In this paper, we compute the $\mathbb{N}$-graded Betti numbers
+of the edge ideals of three families of circulant graphs
+$C_n(1,2,\dots,\widehat{j},\dots,\lfloor \frac{n}{2} \rfloor)$,
+$C_{lm}(1,2,\dots,\widehat{2l},\dots, \widehat{3l},\dots,\lfloor \frac{lm}{2}
+\rfloor)$ and $C_{lm}(1,2,\dots,\widehat{l},\dots,\widehat{2l},\dots,
+\widehat{3l},\dots,\lfloor \frac{lm}{2} \rfloor)$. Other algebraic and
+combinatorial properties like regularity, projective dimension, induced
+matching number and when such graphs are well-covered, Cohen-Macaulay,
+Sequentially Cohen-Macaulay, Buchsbaum and $S_2$ are also discussed.
+</summary>
+    <author>
+      <name>Sonica Anand</name>
+    </author>
+    <author>
+      <name>Amit Roy</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.02401v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.02401v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 13H10, 05C75, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

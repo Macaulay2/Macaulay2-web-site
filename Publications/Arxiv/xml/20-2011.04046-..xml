@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.04046%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.04046&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Hr58m5ld5F9eQPK7AkQGmW7N6tw</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.04046v1</id>
+    <updated>2020-11-08T18:29:47Z</updated>
+    <published>2020-11-08T18:29:47Z</published>
+    <title>Representability of the motivic Brouwer degree</title>
+    <summary>  We study which quadratic forms are representable as the local degree of a map
+$f : A^n \to A^n$ with an isolated zero at $0$, following the work of Kass and
+Wickelgren who established the connection to the quadratic form of Eisenbud,
+Khimshiashvili, and Levine. Our main observation is that over some base fields
+$k$, not all quadratic forms are representable as a local degree. Empirically
+the local degree of a map $f : A^n \to A^n$ has many hyperbolic summands, and
+we prove that in fact this is the case for local degrees of low rank. We
+establish a complete classification of the quadratic forms of rank at most $7$
+that are representable as the local degree of a map over all base fields of
+characteristic different from $2$. The number of hyperbolic summands was also
+studied by Eisenbud and Levine, where they establish general bounds on the
+number of hyperbolic forms that must appear in a quadratic form that is
+representable as a local degree. Our proof method is elementary and
+constructive in the case of rank 5 local degrees, while the work of Eisenbud
+and Levine is more general. We provide further families of examples that verify
+that the bounds of Eisenbud and Levine are tight in several cases.
+</summary>
+    <author>
+      <name>Gereon Quick</name>
+    </author>
+    <author>
+      <name>Therese Strand</name>
+    </author>
+    <author>
+      <name>Glen Matthew Wilson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 2 tables, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.04046v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.04046v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F42, 13H15, 11E04, 11E81, 55M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.02961%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.02961&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dG6I5t0WUphdcAWUjJdKnYd3LCo</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.02961v1</id>
+    <updated>2018-10-06T08:41:49Z</updated>
+    <published>2018-10-06T08:41:49Z</published>
+    <title>The universal Poisson deformation of hypertoric varieties and some
+  classification results</title>
+    <summary>  In this paper, we study and describe the universal Poisson deformation space
+of hypertoric varieties concretely. In the first application, we show that
+affine hypertoric varieties as conical symplectic varieties are classified by
+the associated regular matroids (this is a partial generalization of the result
+by Arbo and Proudfoot). As a corollary, we obtain a criterion when two quiver
+varieties whose dimension vector have all coordinates equal to one are
+isomorphic to each other. Then we describe all 4- and 6-dimensional affine
+hypertoric varieties as quiver varieties and give some examples of
+8-dimensional hypertoric varieties which cannot be raised as such quiver
+varieties. In the second application, we compute explicitly the number of all
+projective crepant resolutions of some 4-dimensional hypertoric varieties by
+using the combinatorics of hyperplane arrangements.
+</summary>
+    <author>
+      <name>Takahiro Nagaoka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.02961v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.02961v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

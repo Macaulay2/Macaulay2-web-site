@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.1372%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.1372&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/syDQjXpGTRioC3I6yuYR/nOlcBM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.1372v1</id>
+    <updated>2012-08-07T09:01:14Z</updated>
+    <published>2012-08-07T09:01:14Z</published>
+    <title>A computational approach to Lüroth quartics</title>
+    <summary>  A plane quartic curve is called L\"uroth if it contains the ten vertices of a
+complete pentalateral. White and Miller constructed in 1909 a covariant quartic
+4-fold, associated to any plane quartic. We review their construction and we
+show how it gives a computational tool to detect if a plane quartic is
+L\"uroth. As a byproduct, the 28 bitangents of a general plane quartic
+correspond to 28 singular points of the associated White-Miller quartic 4-fold.
+</summary>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, one figure, two Macaulay2 files as ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.1372v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.1372v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H45, 14Q05, 13A50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

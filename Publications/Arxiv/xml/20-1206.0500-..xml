@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1206.0500%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1206.0500&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fEqZk9frfvV1fkVaH9v76QLDcls</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1206.0500v3</id>
+    <updated>2012-09-03T04:37:33Z</updated>
+    <published>2012-06-03T23:43:17Z</published>
+    <title>Binary hidden Markov models and varieties</title>
+    <summary>  The technological applications of hidden Markov models have been extremely
+diverse and successful, including natural language processing, gesture
+recognition, gene sequencing, and Kalman filtering of physical measurements.
+HMMs are highly non-linear statistical models, and just as linear models are
+amenable to linear algebraic techniques, non-linear models are amenable to
+commutative algebra and algebraic geometry.
+  This paper closely examines HMMs in which all the hidden random variables are
+binary. Its main contributions are (1) a birational parametrization for every
+such HMM, with an explicit inverse for recovering the hidden parameters in
+terms of observables, (2) a semialgebraic model membership test for every such
+HMM, and (3) minimal defining equations for the 4-node fully binary model,
+comprising 21 quadrics and 29 cubics, which were computed using Grobner bases
+in the cumulant coordinates of Sturmfels and Zwiernik. The new model parameters
+in (1) are rationally identifiable in the sense of Sullivant, Garcia-Puente,
+and Spielvogel, and each model's Zariski closure is therefore a rational
+projective variety of dimension 5. Grobner basis computations for the model and
+its graph are found to be considerably faster using these parameters. In the
+case of two hidden states, item (2) supersedes a previous algorithm of
+Schonhuth which is only generically defined, and the defining equations (3)
+yield new invariants for HMMs of all lengths $\geq 4$. Such invariants have
+been used successfully in model selection problems in phylogenetics, and one
+can hope for similar applications in the case of HMMs.
+</summary>
+    <author>
+      <name>Andrew J. Critch</name>
+    </author>
+    <link href="http://arxiv.org/abs/1206.0500v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1206.0500v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

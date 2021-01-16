@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1212.6956%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1212.6956&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/c2va4BrpQDfWa7yg1MhEGBNcfQ8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1212.6956v2</id>
+    <updated>2013-02-02T03:24:17Z</updated>
+    <published>2012-12-31T19:50:01Z</published>
+    <title>Test ideals of non-principal ideals: Computations, Jumping Numbers,
+  Alterations and Division Theorems</title>
+    <summary>  Given an ideal $a \subseteq R$ in a (log) $Q$-Gorenstein $F$-finite ring of
+characteristic $p &gt; 0$, we study and provide a new perspective on the test
+ideal $\tau(R, a^t)$ for a real number $t &gt; 0$. Generalizing a number of known
+results from the principal case, we show how to effectively compute the test
+ideal and also describe $\tau(R, a^t)$ using (regular) alterations with a
+formula analogous to that of multiplier ideals in characteristic zero. We
+further prove that the $F$-jumping numbers of $\tau(R, a^t)$ as $t$ varies are
+rational and have no limit points, including the important case where $R$ is a
+formal power series ring. Additionally, we obtain a global division theorem for
+test ideals related to results of Ein and Lazarsfeld from characteristic zero,
+and also recover a new proof of Skoda's theorem for test ideals which directly
+mimics the proof for multiplier ideals.
+</summary>
+    <author>
+      <name>Karl Schwede</name>
+    </author>
+    <author>
+      <name>Kevin Tucker</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, comments welcome; v2: typos corrected, exposition improved.
+  Additionally, we prove Theorem D for what had been called P^0_+. What was
+  denoted P^0_+ is now denoted by P^0, this is a minor strengthening of the
+  theorem</arxiv:comment>
+    <link href="http://arxiv.org/abs/1212.6956v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.6956v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F18, 13A35, 14E15, 14J17, 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

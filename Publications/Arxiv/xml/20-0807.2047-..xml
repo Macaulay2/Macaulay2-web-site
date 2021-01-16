@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0807.2047%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0807.2047&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ystr699Mj8KZNJU6rV86/07Mnxk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0807.2047v3</id>
+    <updated>2008-07-16T15:20:03Z</updated>
+    <published>2008-07-13T18:37:06Z</published>
+    <title>The Five Points Pose Problem : A New and Accurate Solution Adapted to
+  any Geometric Configuration</title>
+    <summary>  The goal of this paper is to estimate directly the rotation and translation
+between two stereoscopic images with the help of five homologous points. The
+methodology presented does not mix the rotation and translation parameters,
+which is comparably an important advantage over the methods using the
+well-known essential matrix. This results in correct behavior and accuracy for
+situations otherwise known as quite unfavorable, such as planar scenes, or
+panoramic sets of images (with a null base length), while providing quite
+comparable results for more "standard" cases. The resolution of the algebraic
+polynomials resulting from the modeling of the coplanarity constraint is made
+with the help of powerful algebraic solver tools (the Groebner bases and the
+Rational Univariate Representation).
+</summary>
+    <author>
+      <name>Mahzad Kalantari</name>
+    </author>
+    <author>
+      <name>Franck Jung</name>
+    </author>
+    <author>
+      <name>JeanPierre Guedon</name>
+    </author>
+    <author>
+      <name>Nicolas Paparoditis</name>
+    </author>
+    <link href="http://arxiv.org/abs/0807.2047v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0807.2047v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

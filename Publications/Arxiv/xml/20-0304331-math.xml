@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0304331%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0304331&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TVoQYsT4QzFxq3ty6v77XXxd5pY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0304331v1</id>
+    <updated>2003-04-22T18:14:48Z</updated>
+    <published>2003-04-22T18:14:48Z</published>
+    <title>Geometric syzygies of elliptic normal curves and their secant varieties</title>
+    <summary>  We show that the linear syzygy spaces of elliptic normal curves, their secant
+varieties and of bielliptic canonical curves are spanned by geometric syzygies.
+</summary>
+    <author>
+      <name>Hans-Christian v. Bothmer</name>
+    </author>
+    <author>
+      <name>Klaus Hulek</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s00229-003-0421-1</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 Pages; AMSlatex</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">manuscripta mathematica, Volume 113, Number 1, Jan. 2004, pp 35-68</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0304331v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0304331v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s00229-003-0421-1" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02; 14H52; 14C20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

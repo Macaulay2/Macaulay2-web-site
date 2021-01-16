@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.0198%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.0198&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/c9nZ5MaJSqKoAWhqHD8ttwqTQ0g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.0198v2</id>
+    <updated>2013-03-18T14:05:21Z</updated>
+    <published>2012-09-30T13:40:48Z</published>
+    <title>Maximum Likelihood for Matrices with Rank Constraints</title>
+    <summary>  Maximum likelihood estimation is a fundamental optimization problem in
+statistics. We study this problem on manifolds of matrices with bounded rank.
+These represent mixtures of distributions of two independent discrete random
+variables. We determine the maximum likelihood degree for a range of
+determinantal varieties, and we apply numerical algebraic geometry to compute
+all critical points of their likelihood functions. This led to the discovery of
+maximum likelihood duality between matrices of complementary ranks, a result
+proved subsequently by Draisma and Rodriguez.
+</summary>
+    <author>
+      <name>Jonathan Hauenstein</name>
+    </author>
+    <author>
+      <name>Jose Rodriguez</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.0198v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.0198v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14Q15, 62F12, 65H10, Secondary 14M12, 62H17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

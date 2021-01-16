@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.02705%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.02705&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/s6IB+8/sF6E23zsPJrf1/bfmKVg</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.02705v1</id>
+    <updated>2018-02-08T03:49:42Z</updated>
+    <published>2018-02-08T03:49:42Z</published>
+    <title>Frobenius powers</title>
+    <summary>  This article extends the notion of a Frobenius power of an ideal in prime
+characteristic to allow arbitrary nonnegative real exponents. These generalized
+Frobenius powers are closely related to test ideals in prime characteristic,
+and multiplier ideals over fields of characteristic zero. For instance, like
+these well-known families of ideals, Frobenius powers also give rise to jumping
+exponents that we call critical Frobenius exponents. In fact, the Frobenius
+powers of a principal ideal coincides with its test ideals, but appear to be a
+more refined measure of singularities in general. Herein, we develop the theory
+of Frobenius powers in regular domains, and apply it to study singularities,
+especially those of generic hypersurfaces. These applications illustrate one
+way in which multiplier ideals behave more like Frobenius powers than like test
+ideals.
+</summary>
+    <author>
+      <name>Daniel J. Hernández</name>
+    </author>
+    <author>
+      <name>Pedro Teixeira</name>
+    </author>
+    <author>
+      <name>Emily E. Witt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.02705v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.02705v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35 (primary), 14B05 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

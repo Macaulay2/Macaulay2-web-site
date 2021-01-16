@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.04853%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.04853&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wGUNu60W+cASh/MndtTpjYIM1po</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04853v1</id>
+    <updated>2015-04-19T16:42:17Z</updated>
+    <published>2015-04-19T16:42:17Z</published>
+    <title>Linearity defects of powers are eventually constant</title>
+    <summary>  The linearity defect, introduced by Herzog and Iyengar in 2005, is a measure
+for the complexity of modules without a linear free resolution. We consider the
+asymptotic properties of linearity defect of powers of an ideal. We prove that
+if the base ring is regular local, large enough powers of a given proper ideal
+have constant linearity defect. We give an upper bound for the first point when
+linearity defect becomes a constant. To provide concrete examples, we compute
+the linearity defect of powers of certain sums and fibre products of
+componentwise linear ideals. In particular, we prove that the fibre product of
+two ideals $J, L$ over two polynomial rings has componentwise linear powers if
+and only if $J$ and $L$ have componentwise linear powers.
+</summary>
+    <author>
+      <name>Hop D. Nguyen</name>
+    </author>
+    <author>
+      <name>Thanh Vu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages; comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.04853v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.04853v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

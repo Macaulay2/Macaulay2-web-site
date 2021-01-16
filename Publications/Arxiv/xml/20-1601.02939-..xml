@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1601.02939%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1601.02939&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//w1HqoaQc68CHIInDxZR/Fn0UO8</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1601.02939v1</id>
+    <updated>2016-01-05T19:24:25Z</updated>
+    <published>2016-01-05T19:24:25Z</published>
+    <title>The minimal hitting set generation problem: algorithms and computation</title>
+    <summary>  Finding inclusion-minimal "hitting sets" for a given collection of sets is a
+fundamental combinatorial problem with applications in domains as diverse as
+Boolean algebra, computational biology, and data mining. Much of the
+algorithmic literature focuses on the problem of *recognizing* the collection
+of minimal hitting sets; however, in many of the applications, it is more
+important to *generate* these hitting sets. We survey twenty algorithms from
+across a variety of domains, considering their history, classification, useful
+features, and computational performance on a variety of synthetic and
+real-world inputs. We also provide a suite of implementations of these
+algorithms with a ready-to-use, platform-agnostic interface based on Docker
+containers and the AlgoRun framework, so that interested computational
+scientists can easily perform similar tests with inputs from their own research
+areas on their own computers or through a convenient Web interface.
+</summary>
+    <author>
+      <name>Andrew Gainer-Dewar</name>
+    </author>
+    <author>
+      <name>Paola Vera-Licona</name>
+    </author>
+    <link href="http://arxiv.org/abs/1601.02939v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1601.02939v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.AI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W05, 68R05, 05C85" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

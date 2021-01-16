@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0206141%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0206141&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hRJrcoT3jkPuxpgru3BcMB1Rfmk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0206141v3</id>
+    <updated>2004-10-26T18:06:27Z</updated>
+    <published>2002-06-13T23:00:38Z</published>
+    <title>Effective Detection of Nonsplit Module Extensions</title>
+    <summary>  Let n be a positive integer, and let R be a finitely presented (but not
+necessarily finite dimensional) associative algebra over a computable field. We
+examine algorithmic tests for deciding (1) if every n-dimensional
+representation of R is semisimple, and (2) if there exist nonsplit extensions
+of non-isomorphic irreducible R-modules whose dimensions sum to no greater than
+n. Our basic strategy is to reduce each of the considered representation
+theoretic decision problems to the problem of deciding whether a particular set
+of commutative polynomials has a common zero. Standard methods of computational
+algebraic geometry can then be applied (in principle).
+</summary>
+    <author>
+      <name>Edward S. Letzter</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">AMS-TeX; 13 pages; no figures. Revised version. To appear in Journal
+  of Pure and Applied Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0206141v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0206141v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16Z05; 14Q20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

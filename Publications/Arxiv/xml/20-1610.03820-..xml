@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.03820%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.03820&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/POmY+Av2ynb4GKj2buy5gxnjdNU</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.03820v1</id>
+    <updated>2016-10-12T18:48:19Z</updated>
+    <published>2016-10-12T18:48:19Z</published>
+    <title>Implicitization of tensor product surfaces in the presence of a generic
+  set of basepoints</title>
+    <summary>  Given a $4$-dimensional vector subspace $U=\{ f_{0},\ldots,f_{3}\}$ of
+$H^{0}(\mathbb{P}^1 \times \mathbb{P}^1,\mathcal{O}(a,b))$, a tensor product
+surface, denoted by $X_{U}$, is the closure of the image of the rational map
+$\lambda_{U}:\mathbb{P}^1 \times \mathbb{P}^1 -\!\to \mathbb{P}^{3}$ determined
+by $U$. These surfaces arise in geometric modeling and in this context it is
+useful to know the implicit equation of $X_{U}$ in $\mathbb{P}^{3}$. In this
+paper we show that if $U\subseteq H^{0}(\mathbb{P}^1 \times
+\mathbb{P}^1,\mathcal{O}(a,1))$ has a finite set of $r$ basepoints in generic
+position, then the implicit equation of $X_{U}$ is determined by two syzygies
+of $I_{U}=\langle f_{0},\ldots,f_{3} \rangle$ in bidegrees $\left(
+a-\lceil\frac{r}{2}\rceil,0 \right)$ and $\left( a-\lfloor\frac{r}{2}\rfloor,0
+\right)$. This result is proved by understanding the geometry of the basepoints
+of $U$ in $\mathbb{P}^1 \times \mathbb{P}^1$. The proof techniques for the main
+theorem also apply when $U$ is basepoint free.
+</summary>
+    <author>
+      <name>Eliana Duarte</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.03820v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.03820v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

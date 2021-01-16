@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0212044%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0212044&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QSnS7TTKbbFX4s1Q20GSmBCsJ60</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0212044v3</id>
+    <updated>2008-04-18T18:05:27Z</updated>
+    <published>2002-12-03T17:41:40Z</published>
+    <title>Toric ideals, real toric varieties, and the algebraic moment map</title>
+    <summary>  This is a tutorial on some aspects of toric varieties related to their
+potential use in geometric modeling. We discuss projective toric varieties and
+their ideals, as well as real toric varieties and the algebraic moment map. In
+particular, we explain the relation between linear precision and the algebraic
+moment map. This builds on the introduction to toric varieties by David Cox:
+What is a Toric Variety? at http://www.cs.amherst.edu/~dac/lectures/tutorial.ps
+</summary>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Corrected the discussion in the published version about the moment
+  map, and changed the title from "Toric ideals, real toric varieties, and the
+  moment map". This should be the definitive version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">in Topics in Algebraic Geometry and Geometric Modeling, Contemp.
+  Math., 334, 2003., pp.225-240</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0212044v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0212044v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 14Q99, 13P10, 68U05, 68U07; ACM I.3.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

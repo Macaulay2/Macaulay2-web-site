@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1408.3355%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1408.3355&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tmbrCnLCvNyj/VxOQjwTZ3e7PUA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1408.3355v1</id>
+    <updated>2014-08-14T17:33:16Z</updated>
+    <published>2014-08-14T17:33:16Z</published>
+    <title>Global Structure of Curves from Generalized Unitarity Cut of Three-loop
+  Diagrams</title>
+    <summary>  Global structure of algebraic curves defined by generalized unitarity cut of
+four-dimensional three-loop diagrams with eleven propagators is studied in this
+paper. The global structure is topological invariant, and characterized by
+geometric genus of algebraic curve. We use Riemann-Hurwitz formula to compute
+the geometric genus of algebraic curves, with the help of convex hull polytope
+method and numeric algebraic geometry techniques. Some interesting properties
+of genus for arbitrary loop orders are also explored. Information of genus can
+serves as an initial step for integral or integrand reduction of three-loop
+amplitudes through algebraic geometry approach.
+</summary>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Rijun Huang</name>
+    </author>
+    <author>
+      <name>Dhagash Mehta</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1408.3355v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1408.3355v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

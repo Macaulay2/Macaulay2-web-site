@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1510.01541%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1510.01541&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jVm+O0a4nt05NkfsbSrZ1EioLjM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1510.01541v2</id>
+    <updated>2015-10-30T10:45:29Z</updated>
+    <published>2015-10-06T11:54:53Z</published>
+    <title>Tensors Masquerading as Matchgates: Relaxing Planarity Restrictions on
+  Pfaffian Circuits</title>
+    <summary>  Holographic algorithms, alternatively known as Pfaffian circuits, have
+received a great deal of attention for giving polynomial-time algorithms of
+$\#\mathsf{P}$-hard problems. Much work has been done to determine the extent
+of what this machinery can do and the expressiveness of these circuits. One
+aspect of interest is the fact that these circuits must be planar. Work has
+been done to try and relax the planarity conditions and extend these algorithms
+further. We show that an approach based on orbit closures does not work, but
+give a different technique for allowing the SWAP gate to be used in a Pfaffian
+circuit given a suitable basis and restricted type of graph. This is done by
+exploiting the fact that the set of Pfaffian (co)gates always lies in a
+hyperplane. We then give a variety of bases that can be chosen such that the
+SWAP gate acts like a Pfaffian cogate and discuss how many SWAP gates can be
+implemented in a Pfaffian circuit.
+</summary>
+    <author>
+      <name>Jacob Turner</name>
+    </author>
+    <link href="http://arxiv.org/abs/1510.01541v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1510.01541v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

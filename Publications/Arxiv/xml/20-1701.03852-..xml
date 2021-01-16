@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.03852%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.03852&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kmrFCtrII7VMg/zhue3tMuzvtnc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03852v1</id>
+    <updated>2017-01-13T23:50:29Z</updated>
+    <published>2017-01-13T23:50:29Z</published>
+    <title>The multidegree of the multi-image variety</title>
+    <summary>  The multi-image variety is a subvariety of Gr(1,P^3)^n that models taking
+pictures with n rational cameras. We compute its cohomology class in the
+cohomology of Gr(1,P^3)^n, and from there its multidegree as a subvariety of
+(P^5)^n under the Pl\"ucker embedding.
+</summary>
+    <author>
+      <name>Laura Escobar</name>
+    </author>
+    <author>
+      <name>Allen Knutson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, 5 figures, 1 table</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.03852v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.03852v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

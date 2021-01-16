@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1006.1384%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1006.1384&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eJmq7LAI9Vls4eM4Eky/Z322wfQ</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1006.1384v1</id>
+    <updated>2010-06-07T21:54:04Z</updated>
+    <published>2010-06-07T21:54:04Z</published>
+    <title>An Implicitization Challenge for Binary Factor Analysis</title>
+    <summary>  We use tropical geometry to compute the multidegree and Newton polytope of
+the hypersurface of a statistical model with two hidden and four observed
+binary random variables, solving an open question stated by Drton, Sturmfels
+and Sullivant in "Lectures on Algebraic Statistics" (Problem 7.7). The model is
+obtained from the undirected graphical model of the complete bipartite graph
+$K_{2,4}$ by marginalizing two of the six binary random variables. We present
+algorithms for computing the Newton polytope of its defining equation by
+parallel walks along the polytope and its normal fan. In this way we compute
+vertices of the polytope. Finally, we also compute and certify its facets by
+studying tangent cones of the polytope at the symmetry classes vertices. The
+Newton polytope has 17214912 vertices in 44938 symmetry classes and 70646
+facets in 246 symmetry classes.
+</summary>
+    <author>
+      <name>Maria Angelica Cueto</name>
+    </author>
+    <author>
+      <name>Enrique A. Tobis</name>
+    </author>
+    <author>
+      <name>Josephine Yu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, 5 figures, presented at Mega 09 (Barcelona, Spain)</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Symbolic Comput. 45 (2010), no. 12, 1296--1315</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1006.1384v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1006.1384v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05, (14M25, 14Q10)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

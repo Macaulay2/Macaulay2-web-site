@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1503.05177%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1503.05177&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qarZzZW2Bc6H+qxkpd7V5tzlbQE</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1503.05177v2</id>
+    <updated>2015-05-22T18:03:30Z</updated>
+    <published>2015-03-17T19:36:23Z</published>
+    <title>Higher resonance varieties of matroids</title>
+    <summary>  We present some new results about the resonance varieties of matroids and
+hyperplane arrangements. Though these have been the objects of ongoing study,
+most work so far has focussed on cohomological degree 1. We show that certain
+phenomena become apparent only by considering all degrees at once.
+</summary>
+    <author>
+      <name>Graham Denham</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages; final version with minor corrections</arxiv:comment>
+    <link href="http://arxiv.org/abs/1503.05177v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1503.05177v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 05B35, Secondary: 52C35, 32S22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.04273%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.04273&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jFCPBiEKhx2wqfQsPP9HLiK2C40</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.04273v1</id>
+    <updated>2016-02-13T02:56:25Z</updated>
+    <published>2016-02-13T02:56:25Z</published>
+    <title>Pure virtual braids, resonance, and formality</title>
+    <summary>  We investigate the resonance varieties, lower central series ranks, and Chen
+ranks of the pure virtual braid groups and their upper-triangular subgroups. As
+an application, we give a complete answer to the 1-formality question for this
+class of groups. In the process, we explore various connections between the
+Alexander-type invariants of a finitely generated group and several of the
+graded Lie algebras associated to it, and discuss possible extensions of the
+resonance-Chen ranks formula in this context.
+</summary>
+    <author>
+      <name>Alexander I. Suciu</name>
+    </author>
+    <author>
+      <name>He Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.04273v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.04273v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20F36, 16S37, 20F14, 20F40, 20J05, 55P62, 57M07" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

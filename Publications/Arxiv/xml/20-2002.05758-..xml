@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.05758%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.05758&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/f9MlBwibTsltxPPIO0mT1O97+MY</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.05758v1</id>
+    <updated>2020-02-13T19:51:53Z</updated>
+    <published>2020-02-13T19:51:53Z</published>
+    <title>FastLinAlg package for Macaulay2</title>
+    <summary>  In this article, we present FastLinAlg.m2, a package in Macaulay2 designed to
+introduce new methods focused on computations in function field linear algebra.
+Some key functionality that our package offers includes: finding a submatrix of
+a given rank in a provided matrix (when present), verifying that a ring is
+regular in codimension n, recursively computing the ideals of minors in a
+matrix, and finding an upper bound of the projective dimension of a module.
+</summary>
+    <author>
+      <name>Boyana Martinova</name>
+    </author>
+    <author>
+      <name>Marcus Robinson</name>
+    </author>
+    <author>
+      <name>Karl Schwede</name>
+    </author>
+    <author>
+      <name>Yuhui Yao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome. The lastest version of the package is avaiable at
+  https://github.com/kschwede/M2/blob/master/M2/Macaulay2/packages/FastLinAlg.m2</arxiv:comment>
+    <link href="http://arxiv.org/abs/2002.05758v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.05758v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

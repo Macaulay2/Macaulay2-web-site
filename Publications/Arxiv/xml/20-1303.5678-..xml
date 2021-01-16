@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.5678%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.5678&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//S+zi640cwLKjlTwTVf5WYuLti8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.5678v1</id>
+    <updated>2013-03-22T18:28:00Z</updated>
+    <published>2013-03-22T18:28:00Z</published>
+    <title>Interference alignment for the MIMO interference channel</title>
+    <summary>  We study vector space interference alignment for the MIMO interference
+channel with no time or frequency diversity. We prove both necessary and
+sufficient conditions for alignment. In particular, we characterize the
+feasibility of alignment for the symmetric three-user channel where all
+transmitters have M antennas and all receivers have N antennas, as well as
+feasibility of alignment for the fully symmetric (M=N) channel with arbitrary
+number of users.
+  An implication of our results is that the total degrees of freedom available
+in a K-user interference channel, using only spatial diversity from the
+multiple antennas, is at most 2. This is in sharp contrast to the K/2 degrees
+of freedom shown to be possible by Cadambe and Jafar with arbitrary large time
+or frequency diversity.
+  Moving beyond the question of feasibility, we additionally discuss
+computation of the number of solutions using Schubert calculus in cases where
+there are a finite number of solutions.
+</summary>
+    <author>
+      <name>Guy Bresler</name>
+    </author>
+    <author>
+      <name>Dustin Cartwright</name>
+    </author>
+    <author>
+      <name>David Tse</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1303.5678v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.5678v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

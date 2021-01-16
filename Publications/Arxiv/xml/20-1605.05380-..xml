@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.05380%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.05380&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/o6+oYv4biJWJC0FyP0/z77dqIBs</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.05380v1</id>
+    <updated>2016-05-17T21:58:08Z</updated>
+    <published>2016-05-17T21:58:08Z</published>
+    <title>Chern-Schwartz-MacPherson Class of Determinantal Varieties</title>
+    <summary>  For $m\geq n$, let $\tau_{m,n,k}$ be the set of $m\times n$ matrices with
+kernel dimension $\ge k$. It is viewed as a subvariety of the projective space
+$\mathbb{P}^{mn-1}$ of nonzero $m\times n$ matrices up to scalar. In most cases
+$\tau_{m,n,k}$ is singular, and its singular locus is $\tau_{m,n,k+1}$. In this
+note we compute its Chern-Schwartz-MacPherson class $c_{SM}(\tau_{m,n,k})$ by
+using a resolution of singularities $\nu\colon \hat\tau_{m,n,k}\to \tau_{m,n,k}
+$, which may also be realized as a projective bundle over a Grassmannian. By
+the functoriality of $c_{SM}$ class, we can relate $c_{SM}(\tau_{m,n,k})$ to
+the pushforward $\nu_*c_{SM}(\hat \tau_{m,n,k})$, and the Grassmanian plays an
+important role in the computation. Our formula can be easily implemented in
+Macaulay2. On the basis of explicit computations in low dimension, we formulate
+conjectures concerning the effectivity of the classes and the vanishing of
+specific terms in the $c_{SM}$ classes of the nonsingular part of the loci
+$\tau_{m,n,k}$.
+</summary>
+    <author>
+      <name>Xiping Zhang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1605.05380v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.05380v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

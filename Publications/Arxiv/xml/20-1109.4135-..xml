@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1109.4135%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1109.4135&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vO0QbGI3nh4xOgAIiJ2lkq4odVI</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1109.4135v1</id>
+    <updated>2011-09-19T19:42:55Z</updated>
+    <published>2011-09-19T19:42:55Z</published>
+    <title>Log-concavity of asymptotic multigraded Hilbert series</title>
+    <summary>  We study the linear map sending the numerator of the rational function
+representing the Hilbert series of a module to that of its r-th Veronese
+submodule. We show that the asymptotic behaviour as r tends to infinity depends
+on the multidegree of the module and the underlying positively multigraded
+polynomial ring. More importantly, we give a polyhedral description for the
+asymptotic polynomial and prove that the coefficients are log-concave. In
+particular, we extend some results by Beck-Stapledon and Diaconis-Fulman beyond
+the standard graded situation.
+</summary>
+    <author>
+      <name>Adam McCabe</name>
+    </author>
+    <author>
+      <name>Gregory G. Smith</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1109.4135v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1109.4135v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40, 13D40, 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

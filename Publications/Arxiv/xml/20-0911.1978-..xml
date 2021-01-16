@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0911.1978%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0911.1978&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L8awVXWonRHHs/Y3xYuDsTV77DU</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0911.1978v2</id>
+    <updated>2010-04-19T21:41:00Z</updated>
+    <published>2009-11-10T19:45:34Z</published>
+    <title>A conjecture on critical graphs and connections to the persistence of
+  associated primes</title>
+    <summary>  We introduce a conjecture about constructing critically (s+1)-chromatic
+graphs from critically s-chromatic graphs. We then show how this conjecture
+implies that any unmixed height two square-free monomial ideal I, i.e., the
+cover ideal of a finite simple graph, has the persistence property, that is,
+Ass(R/I^s) \subseteq Ass(R/I^{s+1}) for all s &gt;= 1. To support our conjecture,
+we prove that the statement is true if we also assume that \chi_f(G), the
+fractional chromatic number of the graph G, satisfies \chi(G) -1 &lt; \chi_f(G) &lt;=
+\chi(G). We give an algebraic proof of this result.
+</summary>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages; Minor changes throughout the paper; to appear in Discrete
+  Math.</arxiv:comment>
+    <link href="http://arxiv.org/abs/0911.1978v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0911.1978v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 05C17, 05C38, 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

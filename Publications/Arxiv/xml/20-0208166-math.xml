@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0208166%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0208166&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WOxyoO2R2JUm9xvb+bsEWdKFY2g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0208166v2</id>
+    <updated>2002-09-04T17:52:41Z</updated>
+    <published>2002-08-22T16:08:10Z</published>
+    <title>Secant Varieties of Grasmann Varieties</title>
+    <summary>  In this paper we discuss the dimensions of the (higher) secant varieties to
+the Grassmann varieties, embedded via the Plucker embeddings. We use
+Terracini's Lemma and the duality in the exterior algebra of a finite
+dimensional vector space to translate the problem into that of finding the
+dimension of a graded piece of a " fat" ideal in the exterior algebra. Among
+other things, our methods prove that (apart from the chordal varieties to the
+Grassmannians of lines) all the chordal varieties of Grassmannians have the
+expected dimension.
+  We also discuss some Grassmannians with deficient secant varieties, giving
+new proofs that G(3,7) and G(3,9) are of this type. We also find a new
+Grassmannian, namely G(4,8) with deficient secant varieties.
+</summary>
+    <author>
+      <name>M. V. Catalisano</name>
+    </author>
+    <author>
+      <name>A. V. Geramita</name>
+    </author>
+    <author>
+      <name>A. Gimigliano</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, plain tex, corrected some typos and misunderstanding of a
+  conjecture</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0208166v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0208166v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

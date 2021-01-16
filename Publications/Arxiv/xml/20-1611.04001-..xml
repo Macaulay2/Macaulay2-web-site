@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.04001%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.04001&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WyHidA5n+Jym1mOaLvO5KIyEvRU</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.04001v1</id>
+    <updated>2016-11-12T14:06:04Z</updated>
+    <published>2016-11-12T14:06:04Z</published>
+    <title>Detecting Koszulness and related homological properties from the algebra
+  structure of Koszul homology</title>
+    <summary>  Let $k$ be a field and $R$ a standard graded $k$-algebra. We denote by
+$\operatorname{H}^R$ the homology algebra of the Koszul complex on a minimal
+set of generators of the irrelevant ideal of $R$. We discuss the relationship
+between the multiplicative structure of $\operatorname{H}^R$ and the property
+that $R$ is a Koszul algebra. More generally, we work in the setting of local
+rings and we show that certain conditions on the multiplicative structure of
+Koszul homology imply strong homological properties, such as existence of
+certain Golod homomorphisms, leading to explicit computations of Poincar\'e
+series. As an application, we show that the Poincar\'e series of all finitely
+generated modules over a stretched Cohen-Macaulay local ring are rational,
+sharing a common denominator.
+</summary>
+    <author>
+      <name>Amanda Croll</name>
+    </author>
+    <author>
+      <name>Roger Dellaca</name>
+    </author>
+    <author>
+      <name>Anjan Gupta</name>
+    </author>
+    <author>
+      <name>Justin Hoffmeier</name>
+    </author>
+    <author>
+      <name>Vivek Mukundan</name>
+    </author>
+    <author>
+      <name>Denise Rangel Tracy</name>
+    </author>
+    <author>
+      <name>Liana M. Şega</name>
+    </author>
+    <author>
+      <name>Gabriel Sosa</name>
+    </author>
+    <author>
+      <name>Peder Thompson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages; comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.04001v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.04001v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

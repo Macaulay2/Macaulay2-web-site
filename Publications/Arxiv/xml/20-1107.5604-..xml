@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.5604%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.5604&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e6ebZeqYWfLVkk0jeLVogCd6I8Q</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.5604v4</id>
+    <updated>2012-04-11T22:47:25Z</updated>
+    <published>2011-07-27T23:38:03Z</published>
+    <title>Minimal primes of ideals arising from conditional independence
+  statements</title>
+    <summary>  We consider ideals arising in the context of conditional independence models
+that generalize the class of ideals considered by Fink [7] in a way distinct
+from the generalizations of Herzog-Hibi-Hreinsdottir-Kahle-Rauh [13] and
+Ay-Rauh [1]. We introduce switchable sets to give a combinatorial description
+of the minimal prime ideals, and for some classes we describe the minimal
+components. We discuss many possible interpretations of the ideals we study,
+including as 2 \times 2 minors of generic hypermatrices. We also introduce a
+definition of diagonal monomial orders on generic hypermatrices and we compute
+some Groebner bases.
+</summary>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <author>
+      <name>Amelia Taylor</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">We shortened and streamlined the paper from 24 to 17 pages, we
+  improved several proofs, we updated references, and we added Groebner bases
+  of certain ideals under t-diagonal orders on generic hypermatrices (a
+  generalization of diagonal orders on variables in a generic matrix). The term
+  "admissible" from previous versions is now changed to "switchable"</arxiv:comment>
+    <link href="http://arxiv.org/abs/1107.5604v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.5604v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

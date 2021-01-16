@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0102130%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0102130&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RoJNeS8Bt0duxIa57YG8nuk/7L8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0102130v1</id>
+    <updated>2001-02-16T13:52:16Z</updated>
+    <published>2001-02-16T13:52:16Z</published>
+    <title>Canonical curves and varieties of sums of powers of cubic polynomials</title>
+    <summary>  In this note we show that the apolar cubic forms associated to codimension
+two linear sections of canonical curves of genus at least eleven are special
+with respect to their presentation as sums of cubes.
+</summary>
+    <author>
+      <name>Atanas Iliev</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, Latex file</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0102130v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0102130v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10 (Primary), 13E10, 14M05, 14H45 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

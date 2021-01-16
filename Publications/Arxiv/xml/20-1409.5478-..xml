@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.5478%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.5478&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5o3R3pclmHyZewFnNdWrImJWPtY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.5478v1</id>
+    <updated>2014-09-18T22:18:27Z</updated>
+    <published>2014-09-18T22:18:27Z</published>
+    <title>The ample cone of moduli spaces of sheaves on the plane</title>
+    <summary>  Fix a Chern character of a stable sheaf on the plane. Assume either the rank
+is at most 6 or the rank and first Chern class are coprime and the discriminant
+is sufficiently large. We use recent results of Bayer and Macri on Bridgeland
+stability to compute the ample cone of the moduli space of Gieseker semistable
+sheaves with the given Chern character. We recover earlier results, such as
+those by Stromme and Yoshioka, as special cases.
+</summary>
+    <author>
+      <name>Izzet Coskun</name>
+    </author>
+    <author>
+      <name>Jack Huizenga</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.5478v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.5478v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 14J60, Secondary: 14E30, 14J26, 14D20, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

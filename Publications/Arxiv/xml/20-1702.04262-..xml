@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1702.04262%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1702.04262&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xYRCWq4Nf9bRYvTallm0UDauvHY</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1702.04262v1</id>
+    <updated>2017-02-14T15:33:07Z</updated>
+    <published>2017-02-14T15:33:07Z</published>
+    <title>A commutative noetherian local ring of embedding dimension 4 having a
+  transcendental series of Betti numbers</title>
+    <summary>  We construct a ring with the properties of the title of the paper. We also
+construct some other local rings of embedding dimension 4 with exotic
+properties. Among the methods used are the {\tt Macaulay2}-package {\tt
+DGAlgebras} by Frank Moore, combined with and inspired by results by Anick,
+Avramov, Backelin, Katth\"an, Lemaire, Levin, L\"ofwall and others.
+</summary>
+    <author>
+      <name>Jan-Erik Roos</name>
+    </author>
+    <link href="http://arxiv.org/abs/1702.04262v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1702.04262v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13Dxx, 16Dxx, 68W30 (Primary), 16S37, 55Txx (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

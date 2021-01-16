@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.04933%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.04933&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ePb9ZzvrAlU1Fn36RJ7VMZAxBZE</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04933v1</id>
+    <updated>2015-04-20T04:15:30Z</updated>
+    <published>2015-04-20T04:15:30Z</published>
+    <title>Symplectic reduction at zero angular momentum</title>
+    <summary>  We study the symplectic reduction of the phase space describing $k$ particles
+in $\mathbb{R}^n$ with total angular momentum zero. This corresponds to the
+singular symplectic quotient associated to the diagonal action of
+$\operatorname{O}_n$ on $k$ copies of $\mathbb{C}^n$ at the zero value of the
+homogeneous quadratic moment map. We give a description of the ideal of
+relations of the ring of regular functions of the symplectic quotient. Using
+this description, we demonstrate $\mathbb{Z}^+$-graded regular
+symplectomorphisms among the $\operatorname{O}_n$- and
+$\operatorname{SO}_n$-symplectic quotients and determine which of these
+quotients are graded regularly symplectomorphic to linear symplectic orbifolds.
+We demonstrate that when $n \leq k$, the zero fibre of the moment map has
+rational singularities and hence is normal and Cohen-Macaulay. We also
+demonstrate that for small values of $k$, the ring of regular functions on the
+symplectic quotient is graded Gorenstein.
+</summary>
+    <author>
+      <name>Joshua Cape</name>
+    </author>
+    <author>
+      <name>Hans-Christian Herbig</name>
+    </author>
+    <author>
+      <name>Christopher Seaton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.04933v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.04933v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53D20, 13A50, Secondary 57S15, 37J15, 20G20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

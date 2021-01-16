@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.8351%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.8351&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3mDEnd76iPXJCDvPd+37fc/S/ls</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.8351v1</id>
+    <updated>2012-10-31T14:49:28Z</updated>
+    <published>2012-10-31T14:49:28Z</published>
+    <title>Cohen-Macaulay Circulant Graphs</title>
+    <summary>  Let G be the circulant graph C_n(S) with S a subset of {1,2,...,\lfloor n/2
+\rfloor}, and let I(G) denote its the edge ideal in the ring R =
+k[x_1,...,x_n]. We consider the problem of determining when G is
+Cohen-Macaulay, i.e, R/I(G) is a Cohen-Macaulay ring. Because a Cohen-Macaulay
+graph G must be well-covered, we focus on known families of well-covered
+circulant graphs of the form C_n(1,2,...,d). We also characterize which cubic
+circulant graphs are Cohen-Macaulay. We end with the observation that even
+though the well-covered property is preserved under lexicographical products of
+graphs, this is not true of the Cohen-Macaulay property.
+</summary>
+    <author>
+      <name>Kevin N. Vander Meulen</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <author>
+      <name>Catriona Watt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.8351v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.8351v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 13H10, 05C75, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

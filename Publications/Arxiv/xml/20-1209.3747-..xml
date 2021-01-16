@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1209.3747%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1209.3747&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tnGwY8sIkGWGqCSmxIVut7hsBnI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1209.3747v3</id>
+    <updated>2013-03-19T08:09:52Z</updated>
+    <published>2012-09-17T18:42:23Z</published>
+    <title>The classification of two-loop integrand basis in pure four-dimension</title>
+    <summary>  In this paper, we have made the attempt to classify the integrand basis of
+all two-loop diagrams in pure four-dimension space-time. Our classification
+includes the topology of two-loop diagrams which determines the structure of
+denominators, and the set of numerators under different kinematic
+configurations of external momenta by using Gr\"{o}bner basis method. In our
+study, the variety defined by setting all propagators to on-shell has played an
+important role. We discuss the structure of variety and how it splits to
+various irreducible branches when external momenta at each corner of diagrams
+satisfy some special kinematic conditions. This information is crucial to the
+numerical or analytical fitting of coefficients for integrand basis in
+reduction process.
+</summary>
+    <author>
+      <name>Bo Feng</name>
+    </author>
+    <author>
+      <name>Rijun Huang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">52 pages, 9 figures. v2 reference added, v3 published version</arxiv:comment>
+    <link href="http://arxiv.org/abs/1209.3747v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1209.3747v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

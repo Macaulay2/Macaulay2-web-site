@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.06101%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.06101&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CjYjLZXnAeQp969k7+The36du6Q</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.06101v1</id>
+    <updated>2015-02-21T12:59:23Z</updated>
+    <published>2015-02-21T12:59:23Z</published>
+    <title>Cocycle Twists of Algebras</title>
+    <summary>  Let $A$ be a $k$-algebra where $k$ is an algebraically closed field and $G$
+be a finite abelian group for which the characteristic of $k$ does not divide
+$|G|$. If $G$ acts on $A$ by $k$-algebra automorphisms then the action induces
+a $G$-grading on $A$ which, in conjunction with a normalised 2-cocycle of the
+group, can be used to twist the multiplication of the algebra. Such twists can
+be formulated as Zhang twists as well as in the language of Hopf algebras. We
+investigate such cocycle twists with an emphasis on the situation where $A$
+also possesses a connected graded structure and the action of $G$ respects this
+grading. We show that many properties are preserved under such twists; for
+example the strongly noetherian property, finite global dimension and
+Artin-Shelter regularity. The above concepts are then applied to the
+4-dimensional Sklyanin algebras, $A:=A(\alpha,\beta,\gamma)$. We define an
+action of the Klein four-group on $A$ such that the action restricts to a
+special geometric factor ring $B$ (a twisted homogeneous coordinate ring). The
+cocycle twists of these algebras, denoted by $A^{G,\mu}$ and $B^{G,\mu}$
+respectively, have very different geometric properties to their untwisted
+counterparts. While $A$ has point modules parameterised by an elliptic curve
+$E$ and four extra points, $A^{G,\mu}$ has only 20 point modules (when an
+automorphism associated to $E$ has infinite order). The point modules over $A$
+can be used to construct fat point modules of multiplicity 2 over $A^{G,\mu}$,
+and there are isomorphisms among such objects corresponding to orbits of a
+natural action of $G$ on $E$. Furthermore, the ring $B^{G,\mu}$ can be
+described in terms of Artin and Stafford's classification of noncommutative
+curves.
+</summary>
+    <author>
+      <name>Andrew Davies</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Thesis submitted for examination at the University of Manchester on
+  April 22nd 2014, defended successfully on July 11th 2014</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.06101v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.06101v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16S38 (Primary) 16S35, 16W22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

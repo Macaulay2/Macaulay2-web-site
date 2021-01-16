@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0611562%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0611562&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wotfTPfZyHZaleFXQcVp8ziaNTw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0611562v3</id>
+    <updated>2008-09-08T23:07:19Z</updated>
+    <published>2006-11-19T00:15:08Z</published>
+    <title>The Algebraic Degree of Semidefinite Programming</title>
+    <summary>  Given a generic semidefinite program, specified by matrices with rational
+entries, each coordinate of its optimal solution is an algebraic number. We
+study the degree of the minimal polynomials of these algebraic numbers.
+Geometrically, this degree counts the critical points attained by a linear
+functional on a fixed rank locus in a linear space of symmetric matrices. We
+determine this degree using methods from complex algebraic geometry, such as
+projective duality, determinantal varieties, and their Chern classes.
+</summary>
+    <author>
+      <name>Jiawang Nie</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0611562v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0611562v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

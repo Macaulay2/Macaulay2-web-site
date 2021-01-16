@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.2826%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.2826&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DJP8TmIrTx13xJEmiLdZ5n8QFck</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.2826v2</id>
+    <updated>2015-07-14T09:48:49Z</updated>
+    <published>2014-10-10T16:10:04Z</published>
+    <title>Livsic-type Determinantal Representations and Hyperbolicity</title>
+    <summary>  Hyperbolic homogeneous polynomials with real coefficients, i.e., hyperbolic
+real projective hypersurfaces, and their determinantal representations, play a
+key role in the emerging field of convex algebraic geometry. In this paper we
+consider a natural notion of hyperbolicity for a real subvariety $X \subset
+\mathbb{P}^d$ of an arbitrary codimension $\ell$ with respect to a real $\ell -
+1$-dimensional linear subspace $V \subset \mathbb{P}^d$ and study its basic
+properties. We also consider a special kind of determinantal representations
+that we call Livsic-type and a nice subclass of these that we call \vr{}. Much
+like in the case of hypersurfaces ($\ell=1$), the existence of a definite
+Hermitian \vr{} Livsic-type determinantal representation implies hyperbolicity.
+We show that every curve admits a \vr{} Livsic-type determinantal
+representation. Our basic tools are Cauchy kernels for line bundles and the
+notion of the Bezoutian for two meromorphic functions on a compact Riemann
+surface that we introduce. We then proceed to show that every real curve in
+$\mathbb{P}^d$ hyperbolic with respect to some real $d-2$-dimensional linear
+subspace admits a definite Hermitian, or even real symmetric, \vr{} Livsic-type
+determinantal representation.
+</summary>
+    <author>
+      <name>Eli Shamovich</name>
+    </author>
+    <author>
+      <name>Victor Vinnikov</name>
+    </author>
+    <link href="http://arxiv.org/abs/1410.2826v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.2826v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

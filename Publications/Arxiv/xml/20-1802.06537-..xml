@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.06537%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.06537&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nB1kZvSGj1eghNowX8yM6IaOZs8</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.06537v1</id>
+    <updated>2018-02-19T07:54:32Z</updated>
+    <published>2018-02-19T07:54:32Z</published>
+    <title>Average Behavior of Minimal Free Resolutions of Monomial Ideals</title>
+    <summary>  We describe the typical homological properties of monomial ideals defined by
+random generating sets. We show that, under mild assumptions, random monomial
+ideals (RMI's) will almost always have resolutions of maximal length; that is,
+the projective dimension will almost always be $n$, where $n$ is the number of
+variables in the polynomial ring. We give a rigorous proof that
+Cohen-Macaulayness is a "rare" property. We characterize when an RMI is
+generic/strongly generic, and when it "is Scarf"---in other words, when the
+algebraic Scarf complex of $M\subset S=k[x_1,\ldots,x_n]$ gives a minimal free
+resolution of $S/M$. As a result we see that, outside of a very specific ratio
+of model parameters, RMI's are Scarf only when they are generic. We end with a
+discussion of the average magnitude of Betti numbers.
+</summary>
+    <author>
+      <name>Jesús A. De Loera</name>
+    </author>
+    <author>
+      <name>Serkan Hoşten</name>
+    </author>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Lily Silverstein</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.06537v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.06537v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

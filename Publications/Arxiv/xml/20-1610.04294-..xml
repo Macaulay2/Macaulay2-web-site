@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.04294%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.04294&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/v9WmTe1oAEOmpB3+7iXl4SCcpqU</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.04294v1</id>
+    <updated>2016-10-13T23:42:00Z</updated>
+    <published>2016-10-13T23:42:00Z</published>
+    <title>Multi-focal tensors as invariant differential forms</title>
+    <summary>  For each relative $\operatorname{GL}(V)$-invariant tensor $I\in
+\Lambda^{p_1+1}V^{\vee}\otimes .. \otimes \Lambda^{p_n+1}V^{\vee}$ we construct
+a $\operatorname{GL}(V)$-invariant weighted differential form $\eta$ on
+$(\mathbb{P} V)^{n}$. Then $\eta$ is expressed explicitly with respect to
+$n$-tuples of frames for tangent spaces at points of $\mathbb{P} V$ to obtain
+elements of a different tensor space. For certain invariants $I$, the resulting
+elements are shown to be the multi-focal tensors appearing in the machine
+vision literature (Demazure 1988, Longuet-Higgins 1981, Luong 1992, Faugeras
+1993, Faugeras and Luong 2001, Hartley and Zisserman 2003). This generalizes
+the 3 multi-focal varieties known in dimension $\dim V = 4$ to an infinite
+collection of special tensor subvarieties. We use this framework to exhibit a
+new system of degree 4 polynomial equations, reminiscent of the braid relation,
+satisfied by the Euclidean trifocal variety.
+</summary>
+    <author>
+      <name>James Mathews</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.04294v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.04294v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A72 (Primary), 51A99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

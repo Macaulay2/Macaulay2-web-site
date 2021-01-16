@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.14972%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.14972&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xOisAIFYyz6cZMQLR9UHWuXHFQw</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.14972v1</id>
+    <updated>2020-07-29T17:31:56Z</updated>
+    <published>2020-07-29T17:31:56Z</published>
+    <title>Families of Gröbner degenerations, Grassmannians and universal cluster
+  algebras</title>
+    <summary>  Let $V$ be the weighted projective variety defined by a weighted homogeneous
+ideal $J$ and $C$ a maximal cone in the Gr\"obner fan of $J$ with $m$ rays. We
+construct a flat family over $\mathbb A^m$ that assembles the Gr\"obner
+degenerations of $V$ associated with all faces of $C$. This is a
+multi-parameter generalization of the classical one-parameter Gr\"obner
+degeneration associated to a weight. We show that our family can be constructed
+from Kaveh-Manon's recent work on the classification of toric flat families
+over toric varieties: it is the pullback of a toric family defined by a Rees
+algebra with base $X_C$ (the toric variety associated to $C$) along the
+universal torsor $\mathbb A^m \to X_C$.
+  We apply this construction to the Grassmannians ${\rm Gr}(2,\mathbb C^n)$
+with their Pl\"ucker embeddings and the Grassmannian ${\rm Gr}(3,\mathbb C^6)$
+with its cluster embedding. In each case there exists a unique maximal
+Gr\"obner cone whose associated initial ideal is the Stanley-Reisner ideal of
+the cluster complex. We show that the corresponding cluster algebra with
+universal coefficients arises as the algebra defining the flat family
+associated to this cone. Further, for ${\rm Gr}(2,\mathbb C^n)$ we show how
+Escobar-Harada's mutation of Newton-Okounkov bodies can be recovered as
+tropicalized cluster mutation.
+</summary>
+    <author>
+      <name>Lara Bossinger</name>
+    </author>
+    <author>
+      <name>Fatemeh Mohammadi</name>
+    </author>
+    <author>
+      <name>Alfredo Nájera Chávez</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages, 8 figures, 3 pages appendix with computational data for
+  Gr(3,6)</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.14972v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.14972v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D06, 13P10, 14M15, 13F60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

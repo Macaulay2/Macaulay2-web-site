@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1002.2438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1002.2438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/R0NfNaIzEuZV1l/DNLO4o3VGZE8</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1002.2438v3</id>
+    <updated>2010-06-10T12:42:26Z</updated>
+    <published>2010-02-11T21:35:50Z</published>
+    <title>SimplicialDecomposability: a package for Macaulay 2</title>
+    <summary>  We introduce a new Macaulay 2 package, SimplicialDecomposability, which works
+in conjunction with the extant package SimplicialComplexes in order to compute
+a shelling order, if one exists, of a specified simplicial complex. Further,
+methods for determining vertex-decomposability are implemented, along with
+methods for determining k-decomposability.
+</summary>
+    <author>
+      <name>David Cook II</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">4 pages; extensive reworking of examples</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">The Journal of Software for Algebra and Geometry {\bf 2} (2010),
+  20--23</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1002.2438v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1002.2438v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.7569%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.7569&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FMtOHP1GJ7HCB/1BNwSuAkx3d94</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.7569v3</id>
+    <updated>2012-12-24T20:40:13Z</updated>
+    <published>2012-10-29T05:44:03Z</published>
+    <title>Minimal Free Resolutions of the $G$-parking Function Ideal and the
+  Toppling Ideal</title>
+    <summary>  The $G$-parking function ideal $M_G$ of a directed multigraph $G$ is a
+monomial ideal which encodes some of the combinatorial information of $G$. It
+is an initial ideal of the toppling ideal $I_G$, a lattice ideal intimately
+related to the chip-firing game on a graph. Both ideals were first studied by
+Cori, Rossin, and Salvy. A minimal free resolution for $M_G$ was given by
+Postnikov and Shaprio in the case when $G$ is saturated, i.\,e., whenever there
+is at least one edge $(u,v)$ for every ordered pair of distinct vertices $u$
+and $v$. They also raised the problem of an explicit description of the minimal
+free resolution in the general case. In this paper, we give a minimal free
+resolution of $M_G$ for any undirected multigraph $G$, as well as for a family
+of related ideals including the toppling ideal $I_G$. This settles a conjecture
+of Manjunath and Sturmfels, as well as a conjecture of Perkinson and Wilmes.
+</summary>
+    <author>
+      <name>Madhusudan Manjunath</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <author>
+      <name>John Wilmes</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 3 figures; v3: minor changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.7569v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.7569v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

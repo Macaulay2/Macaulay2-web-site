@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1908.07128%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1908.07128&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RNAvc9eOV31EK6MYSmxWljACm/Y</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1908.07128v1</id>
+    <updated>2019-08-20T02:05:54Z</updated>
+    <published>2019-08-20T02:05:54Z</published>
+    <title>Classification of Rank 6 Modular Categories with Galois Group $\le
+  (012)(345)\ge$</title>
+    <summary>  Modular Tensor Categories (MTC's) arise in the study of certain condensed
+matter systems. There is an ongoing program to classify MTC's of low rank, up
+to modular data. We present an overview of the methods to classify modular
+tensor categories of low rank, applied to the specific case of a rank 6
+category with Galois group $\le(012)(345)\ge$, and show that certain
+symmetries in this case imply nonunitarizable (hence, nonphysical) MTC's. We
+show that all the rank 6 MTC's with this Galois group have modular data
+conjugate to either the product of the semion category with $(A_1,
+5)_{\frac{1}{2}}$ or a certain modular subcategory of
+$\mathcal{C}(\mathfrak{so}_5, 9, e^{j\pi i/9})$ with gcd$(18, j) = 1$.
+</summary>
+    <author>
+      <name>David Green</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1908.07128v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1908.07128v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

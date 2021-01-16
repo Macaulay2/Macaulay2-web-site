@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.07806%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.07806&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WYFTioMCEJEF5GKOwpiWcoFvrQ4</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.07806v1</id>
+    <updated>2016-05-25T10:13:55Z</updated>
+    <published>2016-05-25T10:13:55Z</published>
+    <title>Numerical computation of Galois groups</title>
+    <summary>  The Galois/monodromy group of a family of geometric problems or equations is
+a subtle invariant that encodes the structure of the solutions. Computing
+monodromy permutations using numerical algebraic geometry gives information
+about the group, but can only determine it when it is the full symmetric group.
+We give numerical methods to compute the Galois group and study it when it is
+not the full symmetric group. One algorithm computes generators while the other
+gives information on its structure as a permutation group. We illustrate these
+algorithms with examples using a Macaulay2 package we are developing that
+relies upon Bertini to perform monodromy computations.
+</summary>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Jose Israel Rodriguez</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <link href="http://arxiv.org/abs/1605.07806v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.07806v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

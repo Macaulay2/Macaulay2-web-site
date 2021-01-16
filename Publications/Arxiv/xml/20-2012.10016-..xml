@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.10016%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.10016&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/i1FU6hVlG/wt2VgAcpCPgEtk3BQ</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.10016v1</id>
+    <updated>2020-12-18T02:28:39Z</updated>
+    <published>2020-12-18T02:28:39Z</published>
+    <title>The dual of an evaluation code</title>
+    <summary>  The aim of this work is to study the dual and the algebraic dual of an
+evaluation code using standard monomials and indicator functions. We show that
+the dual of an evaluation code is the evaluation code of the algebraic dual. We
+develop an algorithm for computing a basis for the algebraic dual. Let $C_1$
+and $C_2$ be linear codes spanned by standard monomials. We give a
+combinatorial condition for the monomial equivalence of $C_1$ and the dual
+$C_2^\perp$. Moreover, we give an explicit description of a generator matrix of
+$C_2^\perp$ in terms of that of $C_1$ and coefficients of indicator functions.
+For Reed--Muller-type codes we give a duality criterion in terms of the
+v-number and the Hilbert function of a vanishing ideal. As an application, we
+provide an explicit duality for Reed--Muller-type codes corresponding to
+Gorenstein ideals. In addition, when the evaluation code is monomial and the
+set of evaluation points is a degenerate affine space, we classify when the
+dual is a monomial code.
+</summary>
+    <author>
+      <name>Hiram H. López</name>
+    </author>
+    <author>
+      <name>Ivan Soprunov</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <link href="http://arxiv.org/abs/2012.10016v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.10016v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 14G50, 94B27, 11T71" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.11572%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.11572&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8jaYvn2gbFUOLPLWB5yZA/e4xyE</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.11572v1</id>
+    <updated>2020-12-21T18:50:41Z</updated>
+    <published>2020-12-21T18:50:41Z</published>
+    <title>Computing Maximum Likelihood Estimates for Gaussian Graphical Models
+  with Macaulay2</title>
+    <summary>  We introduce the package GraphicalModelsMLE for computing the maximum
+likelihood estimator (MLE) of a Gaussian graphical model in the computer
+algebra system Macaulay2. The package allows to compute for the class of
+loopless mixed graphs. Additional functionality allows to explore the
+underlying algebraic structure of the model, such as its ML degree and the
+ideal of score equations.
+</summary>
+    <author>
+      <name>Carlos Améndola</name>
+    </author>
+    <author>
+      <name>Luis David García-Puente</name>
+    </author>
+    <author>
+      <name>Roser Homs</name>
+    </author>
+    <author>
+      <name>Olga Kuznetsova</name>
+    </author>
+    <author>
+      <name>Harshit J. Motwani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.11572v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.11572v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62R01, 62H22, 62F10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0402418%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0402418&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hFokSRgJI4Qvh0GTO7y0nsRxNEQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0402418v2</id>
+    <updated>2005-02-14T13:28:58Z</updated>
+    <published>2004-02-26T16:36:52Z</published>
+    <title>Generic initial ideals of points and curves</title>
+    <summary>  Let I be the defining ideal of a smooth irreducible complete intersection
+space curve C with defining equations of degrees a and b. We use the partial
+elimination ideals introduced by Mark Green to show that the lexicographic
+generic initial ideal of I has Castelnuovo-Mumford regularity 1+ab(a-1)(b-1)/2
+with the exception of the case a=b=2, where the regularity is 4. Note that
+ab(a-1)(b-1)/2 is exactly the number of singular points of a general projection
+of C to the plane. Additionally, we show that for any term ordering tau, the
+generic initial ideal of a generic set of points in P^r is a tau-segment ideal.
+</summary>
+    <author>
+      <name>Aldo Conca</name>
+    </author>
+    <author>
+      <name>Jessica Sidman</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jsc.2005.01.009</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">AMS Latex, 20 pages, v2: 19 pages, updated references, minor
+  corrections, proofs of some elementary facts shortened or removed. To appear
+  in J. Symbolic Computation</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Symbolic Comput. 40 (2005), no. 3, 1023-1038</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0402418v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0402418v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jsc.2005.01.009" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 14H50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

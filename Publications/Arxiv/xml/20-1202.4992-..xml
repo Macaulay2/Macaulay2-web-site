@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1202.4992%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1202.4992&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BXVbyPHHuV8V1WmjJGMi87IINho</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1202.4992v2</id>
+    <updated>2012-09-24T15:50:25Z</updated>
+    <published>2012-02-22T17:59:21Z</published>
+    <title>Examples of finitely determined map-germs of corank 2 from $n$-space to
+  $(n+1)$-space</title>
+    <summary>  We produce new examples supporting the Mond conjecture which can be stated as
+follows. The number of parameters needed for a miniversal unfolding of a
+finitely determined map-germ from $n$-space to $(n+1)$-space is less than (or
+equal to if the map-germ is weighted homogeneous) the rank of the $n$th
+homology group of the image of a stable perturbation of the map-germ. We give
+examples of finitely determined map-germs of corank 2 from 3-space to 4-space
+satisfying the conjecture. We introduce a new type of augmentations to generate
+series of finitely determined map-germs in dimensions $(n,n+1)$ from a given
+one in dimensions $(n-1,n)$. We present more examples in dimensions $(4,5)$ and
+$(5,6)$ based on our examples, and verify the conjecture for them.
+</summary>
+    <author>
+      <name>Ayse Altintas</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, v2: shortened and revised: section on map-germs from
+  3-space to 4-space removed, the examples kept; remark 4.11 corrected, now it
+  is remark 4.4; remark 4.12 revised; replaced the term 'reduction' with
+  'augmentation'</arxiv:comment>
+    <link href="http://arxiv.org/abs/1202.4992v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1202.4992v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="58K40, 32S30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

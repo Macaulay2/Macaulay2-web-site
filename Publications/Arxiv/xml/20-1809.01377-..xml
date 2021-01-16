@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.01377%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.01377&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XEAeahYvZlDPFAUNGEfo8Pmtuto</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.01377v1</id>
+    <updated>2018-09-05T08:22:10Z</updated>
+    <published>2018-09-05T08:22:10Z</published>
+    <title>The Lecture Hall Cone as a toric deformation</title>
+    <summary>  The Lecture Hall cone is a simplicial cone whose lattice points naturally
+correspond to Lecture Hall partitions. The celebrated Lecture Hall Theorem of
+Bousquet-M\'elou and Eriksson states that a particular specialization of its
+multivariate Ehrhart series factors in a very nice and unexpected way. Over the
+years, several proofs of this result have been found, but it is still not
+considered to be well-understood from a geometric perspective. In this note we
+propose two conjectures which aim at clarifying this result. Our main
+conjecture is that the Ehrhart ring of the Lecture Hall cone is actually an
+initial subalgebra $A_n$ of a certain subalgebra of a polynomial ring, which is
+itself isomorphic to a polynomial ring. As passing to initial subalgebras does
+not affect the Hilbert function, this explains the observed factorization. We
+give a recursive definition of certain Laurent polynomials, which generate the
+algebra $A_n$. Our second conjecture is that these Laurent polynomials are in
+fact polynomials. We computationally verified that both conjectures hold for
+Lecture Hall partitions of length at most 12.
+</summary>
+    <author>
+      <name>Lukas Katthän</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages, To appear in the proceedings of the 2018 Summer Workshop on
+  Lattice Polytopes at Osaka University</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.01377v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.01377v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 05A19, Secondary: 05A17, 11C20, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

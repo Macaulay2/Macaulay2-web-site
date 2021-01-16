@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.08860%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.08860&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7dfXBgXDrQ6q36VwpS0h/Q+c9jQ</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.08860v1</id>
+    <updated>2018-02-24T15:11:33Z</updated>
+    <published>2018-02-24T15:11:33Z</published>
+    <title>Cohomologies of coherent sheaves and massless spectra in F-theory</title>
+    <summary>  In this PhD thesis we investigate the significance of Chow groups for zero
+mode counting and anomaly cancellation in F-theory vacua.
+  The major part of this thesis focuses on zero mode counting. We explain that
+elements of Chow group describe a subset of gauge backgrounds and give rise to
+a line bundle on each matter curve. The sheaf cohomologies of these line
+bundles are found to encode the chiral and anti-chiral localised zero modes in
+this compactification. Therefore, it is of prime interest to compute these
+sheaf cohomologies. Unfortunately, the line bundles in question are in general
+non-pullback line bundles. In particular, this is the case for the hypercharge
+flux employed in F-theory models of grand unified theories (GUTs).
+Consequently, existing methods, such as the cohomCalg-algorithm, cannot be
+applied. In collaboration with the mathematician Mohamed Barakat, we have
+therefore implemented algorithms which determine the sheaf cohomologies of all
+coherent sheaves on toric varieties. These algorithms are provided by the
+gap-package SheafCohomologiesOnToricVarieties which extends the homalg-project
+of Mohamed Barakat. We exemplify these algorithms in explicit (toy-)models of
+F-theory GUTs.
+  As a spin-off of this analysis, we proved that in an entire class of F-theory
+vacua, the matter surface fluxes satisfy a number of relations in the Chow
+ring, which we related to anomaly cancellation. Based on this evidence we
+conjecture that the well-known anomaly cancellation conditions in F-theory -
+typically phrased as intersections in the cohomology ring - can be extended
+even to relations in the Chow ring.
+</summary>
+    <author>
+      <name>Martin Bies</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">PhD thesis</arxiv:comment>
+    <link href="http://arxiv.org/abs/1802.08860v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.08860v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

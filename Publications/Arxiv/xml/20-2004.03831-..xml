@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2004.03831%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2004.03831&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mMAREKn1DDa6kyZnXWgbTpM9zvY</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2004.03831v1</id>
+    <updated>2020-04-08T06:29:30Z</updated>
+    <published>2020-04-08T06:29:30Z</published>
+    <title>Symbolic powers of determinantal ideals in prime characteristic</title>
+    <summary>  We study the symbolic powers of determinantal ideals of generic, generic
+symmetric, and Hankel matrices of variables, and of Pfaffians of generic
+skew-symmetric matrices, in prime characteristic. Specifically, we show that
+the limit $\lim\limits_{n\to\infty} \frac{\textrm{reg}(I^{(n)})}{n}$ exists and
+that $\textrm{depth}(R/I^{(n)})$ stabilizes for $n\gg 0$. Furthermore, we give
+explicit formulas for the stable value of $\textrm{depth}(R/I^{(n)})$ in the
+generic and skew-symmetric cases. In order to show these results, we introduce
+the notion of symbolic $F$-purity of ideals which is satisfied by the classes
+of ideals mentioned above. Moreover, we find several properties satisfied by
+symbolic $F$-pure ideals. For example, we show that their symbolic Rees
+algebras and symbolic associated graded algebras are $F$-pure. As a
+consequence, their $a$-invariants and depths present good behaviors. In
+addition, we provide a Fedder's-like Criterion for symbolic $F$-purity.
+</summary>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <author>
+      <name>Luis Núñez-Betancourt</name>
+    </author>
+    <link href="http://arxiv.org/abs/2004.03831v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.03831v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

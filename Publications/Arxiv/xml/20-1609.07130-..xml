@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.07130%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.07130&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6znZC1cae3Lvc8HTjH9wrkLBUyc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.07130v2</id>
+    <updated>2017-01-11T11:30:25Z</updated>
+    <published>2016-09-22T19:51:36Z</published>
+    <title>Ulrich Bundles on Veronese surfaces</title>
+    <summary>  We prove that every Ulrich bundle on the Veronese surface has a resolution in
+terms of twists of the trivial bundle over $\mathbb{P}^{2}$. Using this
+classification, we prove existence results for stable Ulrich bundles over
+$\mathbb{P}^{k}$ with respect to an arbitrary polarization $dH$.
+</summary>
+    <author>
+      <name>Emre Coskun</name>
+    </author>
+    <author>
+      <name>Ozhan Genc</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">to appear in the Proceedings of the AMS</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.07130v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.07130v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

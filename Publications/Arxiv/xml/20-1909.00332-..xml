@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.00332%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.00332&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FTzXUj5x8H/0tRKGwNJ8eEtO5Y8</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.00332v1</id>
+    <updated>2019-09-01T06:29:29Z</updated>
+    <published>2019-09-01T06:29:29Z</published>
+    <title>Set of independencies and Tutte polynomial of matroids over a domain</title>
+    <summary>  In this work, we study matroids over a domain and several classical
+combinatorial and algebraic invariants related. We define their
+Grothendieck-Tutte polynomial $T_{\mathcal{M}}(x,y)$, extending the definition
+given by Fink and Moci in 2016, and we show that such polynomial has the
+classical deletion-contraction property.
+  Moreover, we study the set of independencies for a realizable matroid over a
+domain, generalizing the definition of \emph{poset of torsions}
+$Gr(\mathcal{M})$ given by the second author in 2017. This is a union of
+identical simplicial posets as for (quasi-)arithmetic matroids. The new notions
+harmonize naturally through the face module $N_\mathcal{M}$ of the matroid over
+a domain.
+  Whenever $Gr(\mathcal{M})$ is a finite poset, the Hilbert series
+$N_\mathcal{M}(t)$ of its face module is a specialization of the Tutte
+polynomial $T_{\mathcal{M}}(x,y)$. Further, for arrangements of codimension-one
+abelian subvarities of an elliptic curve admitting complex multiplication, we
+extend certain results of Bibby and we provide an algebraic interpretation of
+the elliptic Tutte polynomial.
+</summary>
+    <author>
+      <name>Alessio Borzì</name>
+    </author>
+    <author>
+      <name>Ivan Martino</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages; 3 pics</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.00332v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.00332v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B35, 52B40, 14N20, 32S22, 52C30, 52C35, 13F05, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

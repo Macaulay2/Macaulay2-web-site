@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1010.2663%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1010.2663&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Se8XODVTHuWdBdejnZK4wfNUFE8</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1010.2663v2</id>
+    <updated>2011-11-02T14:00:11Z</updated>
+    <published>2010-10-13T13:56:35Z</published>
+    <title>Poset structures in Boij-Söderberg theory</title>
+    <summary>  Boij-S\"oderberg theory is the study of two cones: the cone of cohomology
+tables of coherent sheaves over projective space and the cone of standard
+graded minimal free resolutions over a polynomial ring. Each cone has a
+simplicial fan structure induced by a partial order on its extremal rays. We
+provide a new interpretation of these partial orders in terms of the existence
+of nonzero homomorphisms, for both the general and the equivariant
+constructions. These results provide new insights into the families of sheaves
+and modules at the heart of Boij-S\"oderberg theory: supernatural sheaves and
+Cohen-Macaulay modules with pure resolutions. In addition, our results strongly
+suggest the naturality of these partial orders, and they provide tools for
+extending Boij-S\"oderberg theory to other graded rings and projective
+varieties.
+</summary>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1093/imrn/rnr222</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1093/imrn/rnr222" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages; v2: Added Section 8, reordered previous sections</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Int. Math. Res. Not. IMRN (2012), no. 22, 5132-5160</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1010.2663v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1010.2663v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14F05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

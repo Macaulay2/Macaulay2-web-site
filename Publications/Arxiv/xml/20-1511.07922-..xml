@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1511.07922%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1511.07922&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/M+lU3IK6eZZNVQ6NBOnTzjeEffo</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1511.07922v8</id>
+    <updated>2016-01-29T03:02:20Z</updated>
+    <published>2015-11-25T00:15:50Z</published>
+    <title>Contraction of Ore Ideals with Applications</title>
+    <summary>  Ore operators form a common algebraic abstraction of linear ordinary
+differential and recurrence equations. Given an Ore operator $L$ with
+polynomial coefficients in $x$, it generates a left ideal $I$ in the Ore
+algebra over the field $\mathbf{k}(x)$ of rational functions. We present an
+algorithm for computing a basis of the contraction ideal of $I$ in the Ore
+algebra over the ring $R[x]$ of polynomials, where $R$ may be either
+$\mathbf{k}$ or a domain with $\mathbf{k}$ as its fraction field. This
+algorithm is based on recent work on desingularization for Ore operators by
+Chen, Jaroschek, Kauers and Singer. Using a basis of the contraction ideal, we
+compute a completely desingularized operator for $L$ whose leading coefficient
+not only has minimal degree in $x$ but also has minimal content. Completely
+desingularized operators have interesting applications such as certifying
+integer sequences and checking special cases of a conjecture of Krattenthaler.
+</summary>
+    <author>
+      <name>Yi Zhang</name>
+    </author>
+    <link href="http://arxiv.org/abs/1511.07922v8" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1511.07922v8" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

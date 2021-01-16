@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2004.07735%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2004.07735&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7Cd6Fafd7E+a7/FppClJFNv4Hwc</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2004.07735v1</id>
+    <updated>2020-04-16T16:16:18Z</updated>
+    <published>2020-04-16T16:16:18Z</published>
+    <title>Maximum likelihood degree and space of orbits of a ${\mathbb C}^*$
+  action</title>
+    <summary>  We study the maximum likelihood (ML) degree of linear concentration models in
+algebraic statistics. We relate it to an intersection problem on a smooth
+compact moduli space of orbits of a ${\mathbb C}^*$ action on the Lagrangian
+Grassmannian which we call Gaussian moduli. This allows us to provide an
+explicit, basic, albeit of high computational complexity, formula for the
+ML-degree. The Gaussian moduli is an exact analog for symmetric matrices of the
+permutohedron variety for the diagonal matrices.
+</summary>
+    <author>
+      <name>Mateusz Michałek</name>
+    </author>
+    <author>
+      <name>Leonid Monin</name>
+    </author>
+    <author>
+      <name>Jarosław Wiśniewski</name>
+    </author>
+    <link href="http://arxiv.org/abs/2004.07735v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2004.07735v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="primary: 62R01, 14M17, 14N10, 14E05 secondary: 14C17, 14M15, 14Q15,&#10;  60G15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

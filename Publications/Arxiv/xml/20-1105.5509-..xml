@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1105.5509%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1105.5509&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0bkpU/H5Nr8iYhh1SnKqrGGFupY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1105.5509v1</id>
+    <updated>2011-05-27T09:46:53Z</updated>
+    <published>2011-05-27T09:46:53Z</published>
+    <title>A parallel Buchberger algorithm for multigraded ideals</title>
+    <summary>  We demonstrate a method to parallelize the computation of a Gr\"obner basis
+for a homogenous ideal in a multigraded polynomial ring. Our method uses
+anti-chains in the lattice $\mathbb N^k$ to separate mutually independent
+S-polynomials for reduction.
+</summary>
+    <author>
+      <name>Mikael Vejdemo-Johansson</name>
+    </author>
+    <author>
+      <name>Emil Sköldberg</name>
+    </author>
+    <author>
+      <name>Jason Dusek</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">8 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1105.5509v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1105.5509v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13-04 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

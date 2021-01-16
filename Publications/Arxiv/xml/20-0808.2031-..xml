@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0808.2031%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0808.2031&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/h3HAidpTGo5e5DCQXMH8jhMNT6M</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0808.2031v1</id>
+    <updated>2008-08-14T17:16:16Z</updated>
+    <published>2008-08-14T17:16:16Z</published>
+    <title>Piecewise polynomials on polyhedral complexes</title>
+    <summary>  For a d-dimensional polyhedral complex P, the dimension of the space of
+piecewise polynomial functions (splines) on P of smoothness r and degree k is
+given, for k sufficiently large, by a polynomial f(P,r,k) of degree d. When d=2
+and P is simplicial, Alfeld and Schumaker determined a formula for all three
+coefficients of f. However, in the polyhedral case, no formula is known. Using
+localization techniques and specialized dual graphs associated to
+codimension--2 linear spaces, we obtain the first three coefficients of
+f(P,r,k), giving a complete answer when d=2.
+</summary>
+    <author>
+      <name>T. McDonald</name>
+    </author>
+    <author>
+      <name>H. Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 7 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Advances in Applied Mathematics, 42 (2009), 82-93</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0808.2031v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0808.2031v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="41A15 (Primary) 13D40, 52C99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

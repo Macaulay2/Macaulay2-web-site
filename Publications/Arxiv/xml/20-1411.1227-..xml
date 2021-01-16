@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1411.1227%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1411.1227&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XQSn0KP8q7zq3+iOue2+FYu6dwQ</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1411.1227v3</id>
+    <updated>2015-06-13T15:21:23Z</updated>
+    <published>2014-11-05T11:10:53Z</published>
+    <title>Examples of special quadratic birational transformations into complete
+  intersections of quadrics via computer-aided methods</title>
+    <summary>  We find explicit equations for four three-fold scrolls over surfaces by
+fixing the main existence problems in the classification of special quadratic
+birational transformations of a projective space into a not too much singular
+projective variety and whose base locus has dimension at most three.
+</summary>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <link href="http://arxiv.org/abs/1411.1227v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.1227v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05, 14Q15, 14J30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1209.1732%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1209.1732&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GvGZpCM5PE1HhsVnuTMIA9W0eGE</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1209.1732v1</id>
+    <updated>2012-09-08T17:04:05Z</updated>
+    <published>2012-09-08T17:04:05Z</published>
+    <title>An asymptotic bound for secant varieties of Segre varieties</title>
+    <summary>  This paper studies the defectivity of secant varieties of Segre varieties. We
+prove that there exists an asymptotic lower estimate for the greater
+non-defective secant variety (without filling the ambient space) of any given
+Segre variety. In particular, we prove that the ratio between the greater
+non-defective secant variety of a Segre variety and its expected rank is lower
+bounded by a value depending just on the number of factors of the Segre
+variety. Moreover, in the final section, we present some results obtained by
+explicit computation, proving the non-defectivity of all the secant varieties
+of Segre varieties of the shape (P^n)^4, with 1 &lt; n &lt; 11, except at most
+\sigma_199((P^8)^4) and \sigma_357((P^10)^4).
+</summary>
+    <author>
+      <name>Fulvio Gesmundo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1209.1732v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1209.1732v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M20, 14Q99, 15A69, 15A72" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

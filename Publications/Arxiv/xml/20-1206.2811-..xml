@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1206.2811%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1206.2811&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eqatyM1BdQu5OI3z63gOfpTzp18</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1206.2811v1</id>
+    <updated>2012-06-13T14:05:57Z</updated>
+    <published>2012-06-13T14:05:57Z</published>
+    <title>Rational curves of degree 16 on a general heptic fourfold</title>
+    <summary>  According to a conjecture of H. Clemens, the dimension of the space of
+rational curves on a general projective hypersurface should equal the number
+predicted by a na\"ive dimension count. In the case of a general hypersurface
+of degree 7 in $\mathbb{P}^5$, the conjecture predicts that the only rational
+curves should be lines. This has been verified by Hana and Johnsen for rational
+curves of degree at most 15. Here we extend their results to show that no
+rational curves of degree 16 lie on a general heptic fourfold.
+</summary>
+    <author>
+      <name>Ethan Cotterill</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1206.2811v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1206.2811v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

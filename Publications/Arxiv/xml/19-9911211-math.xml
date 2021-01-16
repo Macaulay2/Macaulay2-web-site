@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9911211%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9911211&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/km2Rutvw6GVs0aeatmOnu0RZu50</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9911211v1</id>
+    <updated>1999-11-26T13:47:22Z</updated>
+    <published>1999-11-26T13:47:22Z</published>
+    <title>Computation of maximal reachability submodules</title>
+    <summary>  A new and conceptually simple procedure is derived for the compu- tation of
+the maximal reachability submodule of a given submodule of the state space of a
+linear discrete time system over a Noethenian ring R. The procedure is
+effective if R is effective and if kernels and inter- sections can be computed.
+The procedure is compared with a rather different procedure by Assan e.a.
+published recently.
+</summary>
+    <author>
+      <name>Wiland Schmale</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9911211v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9911211v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

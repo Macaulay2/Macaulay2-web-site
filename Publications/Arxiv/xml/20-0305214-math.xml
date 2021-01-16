@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0305214%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0305214&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gWFsabrlrCwGR6qE4VNh60p8klU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0305214v1</id>
+    <updated>2003-05-15T00:28:10Z</updated>
+    <published>2003-05-15T00:28:10Z</published>
+    <title>Multigraded Castelnuovo-Mumford Regularity</title>
+    <summary>  We develop a multigraded variant of Castelnuovo-Mumford regularity. Motivated
+by toric geometry, we work with modules over a polynomial ring graded by a
+finitely generated abelian group. As in the standard graded case, our
+definition of multigraded regularity involves the vanishing of graded
+components of local cohomology. We establish the key properties of regularity:
+its connection with the minimal generators of a module and its behavior in
+exact sequences. For an ideal sheaf on a simplicial toric variety X, we prove
+that its multigraded regularity bounds the equations that cut out the
+associated subvariety. We also provide a criterion for testing if an ample line
+bundle on X gives a projectively normal embedding.
+</summary>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <author>
+      <name>Gregory G. Smith</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1515/crll.2004.040</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 5 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal fur die reine und angewandte Mathematik (Crelle's Journal)
+  571 (2004) 179-212</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0305214v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0305214v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1515/crll.2004.040" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25; 13D45; 14Q20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

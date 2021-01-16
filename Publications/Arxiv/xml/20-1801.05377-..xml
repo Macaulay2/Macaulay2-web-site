@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1801.05377%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1801.05377&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+t6xqU7qvsPKu2qTuWIagODsWj4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1801.05377v1</id>
+    <updated>2018-01-16T17:26:42Z</updated>
+    <published>2018-01-16T17:26:42Z</published>
+    <title>Ranks and Symmetric Ranks of Cubic Surfaces</title>
+    <summary>  We study cubic surfaces as symmetric tensors of format $4 \times 4 \times 4$.
+We consider the non-symmetric tensor rank and the symmetric Waring rank of
+cubic surfaces, and show that the two notions coincide over the complex
+numbers. The corresponding algebraic problem concerns border ranks. We show
+that the non-symmetric border rank coincides with the symmetric border rank for
+cubic surfaces. As part of our analysis, we obtain minimal ideal generators for
+the symmetric analogue to the secant variety from the salmon conjecture. We
+also give a test for symmetric rank given by the non-vanishing of certain
+discriminants. The results extend to order three tensors of all sizes, implying
+the equality of rank and symmetric rank when the symmetric rank is at most
+seven, and the equality of border rank and symmetric border rank when the
+symmetric border rank is at most five. We also study real ranks via the real
+substitution method.
+</summary>
+    <author>
+      <name>Anna Seigal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.05377v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.05377v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

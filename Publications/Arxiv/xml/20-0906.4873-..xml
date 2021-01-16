@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0906.4873%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0906.4873&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Glni6W+Jm5tZ8YtjLxpvHQ06a1A</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0906.4873v3</id>
+    <updated>2010-01-21T16:40:16Z</updated>
+    <published>2009-06-26T13:24:12Z</published>
+    <title>Decompositions of Binomial Ideals</title>
+    <summary>  We present Binomials, a package for the computer algebra system Macaulay2,
+which specializes well known algorithms to binomial ideals. These come up
+frequently in algebraic statistics and commutative algebra, and it is shown
+that significant speedup of computations like primary decomposition is
+possible. While central parts of the implemented algorithms go back to Eisenbud
+and Sturmfels (1996), we also discuss a new algorithm for computing the minimal
+primes of a binomial ideal. All decompositions make significant use of
+combinatorial structure found in binomial ideals, and to demonstrate the power
+of this approach we show how Binomials was used to compute primary
+decompositions of commuting birth and death ideals of Evans et al., yielding a
+counterexample for a conjecture therein.
+</summary>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, Revision after referee's comments</arxiv:comment>
+    <link href="http://arxiv.org/abs/0906.4873v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0906.4873v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W30; 13P10; 60J22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

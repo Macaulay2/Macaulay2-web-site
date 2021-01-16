@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1808.01692%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1808.01692&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/05E28ZGVTc3e5dlNoIeTN1Skzfk</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1808.01692v1</id>
+    <updated>2018-08-05T22:13:55Z</updated>
+    <published>2018-08-05T22:13:55Z</published>
+    <title>Projectively unique polytopes and toric slack ideals</title>
+    <summary>  The slack ideal of a polytope is a saturated determinantal ideal that gives
+rise to a new model for the realization space of the polytope. The simplest
+slack ideals are toric and have connections to projectively unique polytopes.
+We prove that if a projectively unique polytope has a toric slack ideal, then
+it is the toric ideal of the bipartite graph of vertex-facet non-incidences of
+the polytope. The slack ideal of a polytope is contained in this toric ideal if
+and only if the polytope is morally 2-level, a generalization of the 2-level
+property in polytopes. We show that polytopes that do not admit rational
+realizations cannot have toric slack ideals. A classical example of a
+projectively unique polytope with no rational realizations is due to Perles. We
+prove that the slack ideal of the Perles polytope is reducible, providing the
+first example of a slack ideal that is not prime.
+</summary>
+    <author>
+      <name>João Gouveia</name>
+    </author>
+    <author>
+      <name>Antonio Macchia</name>
+    </author>
+    <author>
+      <name>Rekha R. Thomas</name>
+    </author>
+    <author>
+      <name>Amy Wiebe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Parts of this paper originally appeared in the first version of
+  arXiv:1708.04739 [math.CO]. That paper was subsequently split into two:
+  arXiv:1708.04739[math.CO] describing the slack realization space of a
+  polytope &amp; applications of the slack ideal, and this paper focussing on toric
+  slack ideals &amp; projective uniqueness. In addition, this paper contains the
+  first example of a reducible slack ideal</arxiv:comment>
+    <link href="http://arxiv.org/abs/1808.01692v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1808.01692v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1505.02409%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1505.02409&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/65kuBfAAxJtSs/ci5UEBR9D51KU</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1505.02409v1</id>
+    <updated>2015-05-10T17:17:49Z</updated>
+    <published>2015-05-10T17:17:49Z</published>
+    <title>The Hilbert series of 3d N=2 Yang-Mills theories with vectorlike matter</title>
+    <summary>  This paper presents a formula for the Hilbert series that counts gauge
+invariant chiral operators in 3d N=2 Yang-Mills theories with vectorlike matter
+and no Chern-Simons interactions. The formula counts 't Hooft monopole
+operators dressed by gauge invariants of a residual gauge theory of massless
+fields in the monopole background, which is determined by the Higgs mechanism.
+The sum over magnetic charges is restricted due to instanton effects that
+partially lift the classical Coulomb branch. The formalism is applied to
+unitary and symplectic gauge theories with fundamental matter, reproducing old
+results for the moduli space of vacua and the chiral ring, without resorting to
+any further effective superpotential on the moduli space.
+</summary>
+    <author>
+      <name>Stefano Cremonesi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, no figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1505.02409v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1505.02409v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

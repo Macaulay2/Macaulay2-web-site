@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.09874%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.09874&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sinVEY3c+0lGI9GSeGq6v9AqK5A</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.09874v1</id>
+    <updated>2020-03-22T12:37:44Z</updated>
+    <published>2020-03-22T12:37:44Z</published>
+    <title>Hodge ideals for the determinant hypersurface</title>
+    <summary>  We determine explicitly the Hodge ideals for the determinant hypersurface as
+an intersection of symbolic powers of determinantal ideals. We prove our
+results by studying the Hodge and weight filtrations on the mixed Hodge module
+O_X(*Z) of regular functions on the space X of n x n matrices, with poles along
+the divisor Z of singular matrices. The composition factors for the weight
+filtration on O_X(*Z) are pure Hodge modules with underlying D-modules given by
+the simple GL-equivariant D-modules on X, where GL is the natural group of
+symmetries, acting by row and column operations on the matrix entries. By
+taking advantage of the GL-equivariance and the Cohen-Macaulay property of
+their associated graded, we describe explicitly the possible Hodge filtrations
+on a simple GL-equivariant D-module, which are unique up to a shift determined
+by the corresponding weights. For non-square matrices, O_X(*Z) is naturally
+replaced by the local cohomology modules H^j_Z(X,O_X), which turn out to be
+pure Hodge modules. By working out explicitly the Decomposition Theorem for
+some natural resolutions of singularities of determinantal varieties, and using
+the results on square matrices, we determine the weights and the Hodge
+filtration for these local cohomology modules.
+</summary>
+    <author>
+      <name>Michael Perlman</name>
+    </author>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.09874v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.09874v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14J17, 14E15, 13D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.03785%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.03785&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Jczk/lobNOEyZxankvW+HM7ajWE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.03785v1</id>
+    <updated>2017-10-10T19:00:14Z</updated>
+    <published>2017-10-10T19:00:14Z</published>
+    <title>Monomial ideals of weighted oriented graphs</title>
+    <summary>  Let I=I(D) be the edge ideal of a weighted oriented graph D. We determine the
+irredundant irreducible decomposition of I. Also, we characterize the
+associated primes and the unmixed property of I. Furthermore, we give a
+combinatorial characterization for the unmixed property of I, when D is
+bipartite, D is a whisker or D is a cycle. Finally, we study the Cohen-Macaulay
+property of I.
+</summary>
+    <author>
+      <name>Yuriko Pitones</name>
+    </author>
+    <author>
+      <name>Enrique Reyes</name>
+    </author>
+    <author>
+      <name>Jonathan Toledo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1710.03785v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.03785v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

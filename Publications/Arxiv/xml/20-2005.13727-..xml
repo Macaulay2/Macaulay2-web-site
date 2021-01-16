@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2005.13727%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2005.13727&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2PXqrdvY2cLvUkc2J5rBfp1lbLU</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2005.13727v1</id>
+    <updated>2020-05-28T01:16:24Z</updated>
+    <published>2020-05-28T01:16:24Z</published>
+    <title>Tropical flag varieties</title>
+    <summary>  Flag matroids are combinatorial abstractions of flags of linear subspaces,
+just as matroids are of linear subspaces. We introduce the flag Dressian as a
+tropical analogue of the partial flag variety, and prove a correspondence
+between: (a) points on the flag Dressian, (b) valuated flag matroids, (c) flags
+of projective tropical linear spaces, and (d) coherent flag matroidal
+subdivisions. We introduce and characterize projective tropical linear spaces,
+which serve as a fundamental tool in our proof. We apply the correspondence to
+prove that all valuated flag matroids on ground set up to size 5 are
+realizable, and give an example where this fails for a flag matroid on 6
+elements.
+</summary>
+    <author>
+      <name>Madeline Brandt</name>
+    </author>
+    <author>
+      <name>Christopher Eur</name>
+    </author>
+    <author>
+      <name>Leon Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages; comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2005.13727v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2005.13727v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05, 52B40, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

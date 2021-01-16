@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.04228%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.04228&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2UfnzV0gHyBUvKwkVmOWtwIr5Js</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.04228v1</id>
+    <updated>2020-01-13T13:22:33Z</updated>
+    <published>2020-01-13T13:22:33Z</published>
+    <title>Solving Decomposable Sparse Systems</title>
+    <summary>  Amendola et al. proposed a method for solving systems of polynomial equations
+lying in a family which exploits a recursive decomposition into smaller
+systems. A family of systems admits such a decomposition if and only if the
+corresponding Galois group is imprimitive. When the Galois group is imprimitive
+we consider the problem of computing an explicit decomposition. A consequence
+of Esterov's classification of sparse polynomial systems with imprimitive
+Galois groups is that this decomposition is obtained by inspection. This leads
+to a recursive algorithm to solve decomposable sparse systems, which we present
+and give evidence for its efficiency.
+</summary>
+    <author>
+      <name>Taylor Brysiewicz</name>
+    </author>
+    <author>
+      <name>Jose Israel Rodriguez</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Thomas Yahl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2001.04228v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.04228v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 65H10, 65H20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

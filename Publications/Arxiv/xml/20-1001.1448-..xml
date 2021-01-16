@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1001.1448%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1001.1448&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aPDoWIG3ffWQGgGsw02Jjo1G24Q</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1001.1448v3</id>
+    <updated>2010-09-24T19:26:40Z</updated>
+    <published>2010-01-09T20:39:35Z</published>
+    <title>Algebraic methods for parameterized codes and invariants of vanishing
+  ideals over finite fields</title>
+    <summary>  Let K be a finite field with q elements and let X be a subset of a projective
+space P^{s-1}, over the field K, which is parameterized by Laurent monomials.
+Let I(X) be the vanishing ideal of X. Some of the main contributions of this
+paper are in determining the structure of I(X) and some of their invariants. It
+is shown that I(X) is a lattice ideal. We introduce the notion of a
+parameterized code arising from X and present algebraic methods to compute and
+study its dimension, length and minimum distance. For a parameterized code
+arising from a connected graph we are able to compute its length and to make
+our results more precise. If the graph is non-bipartite, we show an upper bound
+for the minimum distance. We also study the underlying geometric structure of
+X.
+</summary>
+    <author>
+      <name>C. Renteria</name>
+    </author>
+    <author>
+      <name>A. Simis</name>
+    </author>
+    <author>
+      <name>R. H. Villarreal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Finite Fields Appl., to appear</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Finite Fields Appl. 17 (2011), no. 1, 81-104</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1001.1448v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1001.1448v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 94B27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

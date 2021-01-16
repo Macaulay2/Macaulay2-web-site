@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1006.4894%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1006.4894&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/C7zElhI+O2+TmtuzHUy2pYqXZgs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1006.4894v1</id>
+    <updated>2010-06-25T01:07:38Z</updated>
+    <published>2010-06-25T01:07:38Z</published>
+    <title>Dualities in Convex Algebraic Geometry</title>
+    <summary>  Convex algebraic geometry concerns the interplay between optimization theory
+and real algebraic geometry. Its objects of study include convex semialgebraic
+sets that arise in semidefinite programming and from sums of squares. This
+article compares three notions of duality that are relevant in these contexts:
+duality of convex bodies, duality of projective varieties, and the
+Karush-Kuhn-Tucker conditions derived from Lagrange duality. We show that the
+optimal value of a polynomial program is an algebraic function whose minimal
+polynomial is expressed by the hypersurface projectively dual to the constraint
+set. We give an exposition of recent results on the boundary structure of the
+convex hull of a compact variety, we contrast this to Lasserre's representation
+as a spectrahedral shadow, and we explore the geometric underpinnings of
+semidefinite programming duality.
+</summary>
+    <author>
+      <name>Philipp Rostalski</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">48 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1006.4894v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1006.4894v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="90C22, 14P05, 52A05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

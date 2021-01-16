@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1211.1316%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1211.1316&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1j2J1Axri/JjXXx1+aFKvK4oSh4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1211.1316v1</id>
+    <updated>2012-11-06T17:23:28Z</updated>
+    <published>2012-11-06T17:23:28Z</published>
+    <title>Bounds for the Multiplicity of Gorenstein algebras</title>
+    <summary>  We prove upper bounds for the Hilbert-Samuel multiplicity of standard graded
+Gorenstein algebras. The main tool that we use is Boij-S\"oderberg theory to
+obtain a decomposition of the Betti table of a Gorenstein algebra as the sum of
+rational multiples of symmetrized pure tables. Our bound agrees with the one in
+the quasi-pure case obtained by Srinivasan [J. Algebra, vol.~208, no.~2,
+(1998)].
+</summary>
+    <author>
+      <name>Sabine El Khoury</name>
+    </author>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <author>
+      <name>Hema Srinivasan</name>
+    </author>
+    <link href="http://arxiv.org/abs/1211.1316v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1211.1316v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10, 13H15, 13D40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

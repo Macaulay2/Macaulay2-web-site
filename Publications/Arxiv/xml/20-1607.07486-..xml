@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.07486%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.07486&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iSw4JXnhamSEOfrs/MyiaE/1jRk</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.07486v1</id>
+    <updated>2016-07-25T21:23:53Z</updated>
+    <published>2016-07-25T21:23:53Z</published>
+    <title>Tropical approach to legendrian curves in $\mathbb{C}P^3$</title>
+    <summary>  The famous twistor construction tells us that harmonic surfaces in $S^4$ can
+be obtained as projections of complex legendrian curves in $\mathbb{C}P^3$. A
+mostly computational attempt to study the tropicalizations of the latter curves
+is presented. Several combinatorial properties of these tropical curves are
+proven and conjectured. The code in Macaulay2 to compute examples is supplied.
+The journey starts with drawing a legendrian rational cubics through three
+generic points and classification of legendrian curves on a quadric surface and
+ends with a proof of one combinatorial property of legendrian tropical curves
+and heuristical arguments using tropical differential forms for the second
+property.
+</summary>
+    <author>
+      <name>Nikita Kalinin</name>
+    </author>
+    <link href="http://arxiv.org/abs/1607.07486v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.07486v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

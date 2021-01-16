@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.10247%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.10247&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RxZJMNXwUrwLN+d2DtJAIvHNcjE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.10247v1</id>
+    <updated>2017-10-27T17:24:14Z</updated>
+    <published>2017-10-27T17:24:14Z</published>
+    <title>Towards Deconstruction of the Type D (2,0) Theory</title>
+    <summary>  We propose a four-dimensional supersymmetric theory that deconstructs, in a
+particular limit, the six-dimensional $(2,0)$ theory of type $D_k$. This 4d
+theory is defined by a necklace quiver with alternating gauge nodes
+$\mathrm{O}(2k)$ and $\mathrm{Sp}(k)$. We test this proposal by comparing the
+6d half-BPS index to the Higgs branch Hilbert series of the 4d theory. In the
+process, we overcome several technical difficulties, such as Hilbert series
+calculations for non-complete intersections, and the choice of $\mathrm{O}$
+versus $\mathrm{SO}$ gauge groups. Consistently, the result matches the Coulomb
+branch formula for the mirror theory upon reduction to 3d.
+</summary>
+    <author>
+      <name>Antoine Bourget</name>
+    </author>
+    <author>
+      <name>Alessandro Pini</name>
+    </author>
+    <author>
+      <name>Diego Rodriguez-Gomez</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP12(2017)146</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP12(2017)146" rel="related"/>
+    <link href="http://arxiv.org/abs/1710.10247v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.10247v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

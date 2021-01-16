@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1201.1579%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1201.1579&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/54PuNHHX5lH9K2QY3iQFJU2aVn8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1201.1579v1</id>
+    <updated>2012-01-07T17:56:16Z</updated>
+    <published>2012-01-07T17:56:16Z</published>
+    <title>Solvable Groups, Free Divisors and Nonisolated Matrix Singularities II:
+  Vanishing Topology</title>
+    <summary>  In this paper we use the results from the first part to compute the vanishing
+topology for matrix singularities based on certain spaces of matrices. We place
+the variety of singular matrices in a geometric configuration of free divisors
+which are the "exceptional orbit varieties" for repesentations of solvable
+groups. Because there are towers of representations for towers of solvable
+groups, the free divisors actually form a tower of free divisors $E_n$, and we
+give an inductive procedure for computing the vanishing topology of the matrix
+singularities. The inductive procedure we use is an extension of that
+introduced by L\^{e}-Greuel for computing the Milnor number of an ICIS. Instead
+of linear subspaces, we use free divisors arising from the geometric
+configuration and which correspond to subgroups of the solvable groups.
+  Here the vanishing topology involves a singular version of the Milnor fiber;
+however, it still has the good connectivity properties and is homotopy
+equivalent to a bouquet of spheres, whose number is called the singular Milnor
+number. We give formulas for this singular Milnor number in terms of singular
+Milnor numbers of various free divisors on smooth subspaces, which can be
+computed as lengths of determinantal modules. In addition to being applied to
+symmetric, general and skew-symmetric matrix singularities, the results are
+also applied to compute the Milnor number of isolated Cohen-Macaulay surface
+singularities in $C^4$ and the difference of Betti numbers of Milnor fibers
+for isolated Cohen-Macaulay 3-fold singularities in $C^5$.
+</summary>
+    <author>
+      <name>James Damon</name>
+    </author>
+    <author>
+      <name>Brian Pike</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1201.1579v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1201.1579v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32S30 (Primary) 17B66, 14M05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

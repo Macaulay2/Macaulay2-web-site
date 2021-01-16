@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0606189%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0606189&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CAyjm0JM9afmJwOrQcGgMTEAdnY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0606189v2</id>
+    <updated>2006-11-13T16:15:12Z</updated>
+    <published>2006-06-08T14:26:38Z</published>
+    <title>Computing Groebner bases of ideals of few points in high dimensions</title>
+    <summary>  A contemporary and exciting application of Groebner bases is their use in
+computational biology, particularly in the reverse engineering of gene
+regulatory networks from experimental data. In this setting, the data are
+typically limited to tens of points, while the number of genes or variables is
+potentially in the thousands. As such data sets vastly underdetermine the
+biological network, many models may fit the same data and reverse engineering
+programs often require the use of methods for choosing parsimonious models.
+Grobner bases have recently been employed as a selection tool for polynomial
+dynamical systems that are characterized by maps in a vector space over a
+finite field.
+  While there are numerous existing algorithms to compute Groebner bases, to
+date none has been specifically designed to cope with large numbers of
+variables and few distinct data points. In this paper, we present an algorithm
+for computing Grobner bases of zero-dimensional ideals that is optimized for
+the case when the number m of points is much smaller than the number n of
+indeterminates. The algorithm identifies those variables that are essential,
+that is, in the support of the standard monomials associated to a polynomial
+ideal, and computes the relations in the Groebner bases in terms of these
+variables. When n is much larger than m, the complexity is dominated by nm^3.
+The algorithm has been implemented and tested in the computer algebra system
+Macaulay 2. We provide a comparison of its performance to the
+Buchberger-Moeller algorithm, as built into the system.
+</summary>
+    <author>
+      <name>Winfried Just</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Department of Mathematics, Ohio University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Brandilyn Stigler</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Mathematical Biosciences Institute, The Ohio State University</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 4 figures. Minor clarifying revisions including typos, a
+  reference, and title change. To appear in Communications in Computer Algebra</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Communications in Computer Algebra 40 (3): 65-96, 2006.</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0606189v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0606189v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

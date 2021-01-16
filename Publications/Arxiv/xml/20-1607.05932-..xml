@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1607.05932%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1607.05932&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gA0J9BF3D1umLF9D7vfexmSLNn0</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1607.05932v2</id>
+    <updated>2016-08-03T14:52:32Z</updated>
+    <published>2016-07-20T12:24:23Z</published>
+    <title>Coisotropic Hypersurfaces in the Grassmannian</title>
+    <summary>  To every projective variety $X$, we associate a family of hypersurfaces in
+different Grassmannians, called the coisotropic hypersurfaces of $X$. These
+include the Chow form and the Hurwitz form of $X$. Gel'fand, Kapranov and
+Zelevinsky characterized coisotropic hypersurfaces by a rank one condition on
+tangent spaces. We present a new and simplified proof of that result. We show
+that the coisotropic hypersurfaces of $X$ equal those of its projectively dual
+variety $X^\vee$, and that their degrees are the polar degrees of $X$.
+Coisotropic hypersurfaces of Segre varieties are defined by hyperdeterminants,
+and all hyperdeterminants arise in that manner. We derive new equations for the
+Cayley variety which parametrizes all coisotropic hypersurfaces of given degree
+in a fixed Grassmannian. We provide a Macaulay2 package for transitioning
+between $X$ and its coisotropic hypersurfaces.
+</summary>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <link href="http://arxiv.org/abs/1607.05932v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1607.05932v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J70, 14M15, 14C05, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

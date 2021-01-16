@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1401.6101%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1401.6101&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qHnemypm0Z8hq2BayzsAevzD3eQ</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6101v2</id>
+    <updated>2014-02-24T20:10:32Z</updated>
+    <published>2014-01-23T18:49:40Z</published>
+    <title>Toward GIT stability of syzygies of canonical curves</title>
+    <summary>  We introduce the problem of GIT stability for syzygy points of canonical
+curves with a view toward a GIT construction of the canonical model of the
+moduli space of stable curves. As the first step in this direction, we prove
+semi-stability of the first syzygy point for a general canonical curve of odd
+genus.
+</summary>
+    <author>
+      <name>Anand Deopurkar</name>
+    </author>
+    <author>
+      <name>Maksym Fedorchuk</name>
+    </author>
+    <author>
+      <name>David Swinarski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages. v2: minor typographical and exposition changes; comments
+  are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1401.6101v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.6101v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

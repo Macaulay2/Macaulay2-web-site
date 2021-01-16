@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.13118%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.13118&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cu9oluRVPnpKvhOo4qqtotgt/jo</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.13118v1</id>
+    <updated>2019-12-30T23:59:34Z</updated>
+    <published>2019-12-30T23:59:34Z</published>
+    <title>Dimension of polynomial splines of mixed smoothness on T-meshes</title>
+    <summary>  In this paper we study the dimension of splines of mixed smoothness on
+axis-aligned T-meshes. This is the setting when different orders of smoothness
+are required across the edges of the mesh. Given a spline space whose dimension
+is independent of its T-mesh's geometric embedding, we present constructive and
+sufficient conditions that ensure that the smoothness across a subset of the
+mesh edges can be reduced while maintaining stability of the dimension. The
+conditions have a simple geometric interpretation. Examples are presented to
+show the applicability of the results on both hierarchical and non-hierarchical
+T-meshes. For hierarchal T-meshes it is shown that mixed smoothness spline
+spaces that contain the space of PHT-splines (Deng et al., 2008) always have
+stable dimension.
+</summary>
+    <author>
+      <name>Deepesh Toshniwal</name>
+    </author>
+    <author>
+      <name>Nelly Villamizar</name>
+    </author>
+    <link href="http://arxiv.org/abs/1912.13118v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.13118v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65D07, 68W30, 14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

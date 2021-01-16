@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.08302%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.08302&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/t10Qq3qj1M15WSUFD6pspno+Irs</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.08302v1</id>
+    <updated>2018-03-22T10:39:35Z</updated>
+    <published>2018-03-22T10:39:35Z</published>
+    <title>Tangent cones of monomial curves obtained by numerical duplication</title>
+    <summary>  Given a numerical semigroup ring $R=k[\![S]\!]$, an ideal $E$ of $S$ and an
+odd element $b \in S$, the numerical duplication $S \! \Join^b \! E$ is a
+numerical semigroup, whose associated ring $k[\![S \! \Join^b \! E]\!]$ shares
+many properties with the Nagata's idealization and the amalgamated duplication
+of $R$ along the monomial ideal $I=(t^e \mid e\in E)$. In this paper we study
+the associated graded ring of the numerical duplication characterizing when it
+is Cohen-Macaulay, Gorenstein or complete intersection. We also study when it
+is a homogeneous numerical semigroup, a property that is related to the fact
+that a ring has the same Betti numbers of its associated graded ring. On the
+way we also characterize when ${\rm gr}_{\mathfrak m}(I)$ is Cohen-Macaulay and
+when ${\rm gr}_{\mathfrak m}(\omega_R)$ is a canonical module of ${\rm
+gr}_{\mathfrak m}(R)$ in terms of numerical semigroup's properties, where
+$\omega_R$ is a canonical module of $R$.
+</summary>
+    <author>
+      <name>Marco D'Anna</name>
+    </author>
+    <author>
+      <name>Raheleh Jafari</name>
+    </author>
+    <author>
+      <name>Francesco Strazzanti</name>
+    </author>
+    <link href="http://arxiv.org/abs/1803.08302v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.08302v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13H10, 20M14, 20M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

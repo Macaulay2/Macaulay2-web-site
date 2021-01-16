@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.11497%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.11497&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yOysS9g5hfz5ZbcaXazM9CQBi9c</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.11497v1</id>
+    <updated>2019-06-27T08:31:27Z</updated>
+    <published>2019-06-27T08:31:27Z</published>
+    <title>On Gorenstein Circulant Graphs and Gorenstein SQC Graphs</title>
+    <summary>  We characterize some graphs with a Gorenstein edge ideal. In particular, we
+show that if $G$ is a circulant graph with vertex degree at most four or a
+circulant graph of the form $C_n(1,\ldots, d)$ for some $d\leq n/2$, then $G$
+is Gorenstein if and only if $G\cong tK_2$, $G\cong t\overline{C_n}$ or $G\cong
+tC_{13}(1,5)$ for some integers $t$ and $n\geq 4$. Also we prove that if $G$ is
+a \mathcal{SQC}\ graph, then $G$ is Gorenstein if and only if each component of
+$G$ is either an edge or a 5-cycle.
+</summary>
+    <author>
+      <name>Ashkan Nikseresht</name>
+    </author>
+    <author>
+      <name>Mohammad Reza Oboudi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1906.11497v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.11497v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 13H10, 05E40, 05C25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

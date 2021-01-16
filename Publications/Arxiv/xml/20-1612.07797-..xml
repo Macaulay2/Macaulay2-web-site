@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.07797%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.07797&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fFL/ja7P1gOciTfE+Adkc4uhk3M</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.07797v1</id>
+    <updated>2016-12-22T20:58:12Z</updated>
+    <published>2016-12-22T20:58:12Z</published>
+    <title>The Leray Dimension of a Convex Code</title>
+    <summary>  Convex codes were recently introduced as models for neural codes in the
+brain. Any convex code $\C$ has an associated minimal embedding dimension
+$d(\C)$, which is the minimal Euclidean space dimension such that the code can
+be realized by a collection of convex open sets. In this work we import tools
+from combinatorial commutative algebra in order to obtain better bounds on
+$d(\C)$ from an associated simplicial complex $\Delta(\C)$. In particular, we
+make a connection to minimal free resolutions of Stanley-Reisner ideals, and
+observe that they contain topological information that provides stronger bounds
+on $d(\C)$. This motivates us to define the Leray dimension $d_L(\C),$ and show
+that it can be obtained from the Betti numbers of such a minimal free
+resolution. We compare $d_L(\C)$ to two previously studied dimension bounds,
+obtained from Helly's theorem and the simplicial homology of $\Delta(\C)$.
+Finally, we show explicitly how $d_L(\C)$ can be computed algebraically, and
+illustrate this with examples.
+</summary>
+    <author>
+      <name>Carina Curto</name>
+    </author>
+    <author>
+      <name>Ramón Vera</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.07797v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.07797v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

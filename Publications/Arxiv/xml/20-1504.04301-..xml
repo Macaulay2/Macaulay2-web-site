@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.04301%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.04301&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6WMg8z66zJa+5ZpGxggAyXajkYk</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04301v1</id>
+    <updated>2015-04-16T16:42:37Z</updated>
+    <published>2015-04-16T16:42:37Z</published>
+    <title>Hadamard Products of Linear Spaces</title>
+    <summary>  We describe properties of Hadamard products of algebraic varieties. We show
+any Hadamard power of a line is a linear space, and we construct star
+configurations from products of collinear points. Tropical geometry is used to
+find the degree of Hadamard products of other linear spaces.
+</summary>
+    <author>
+      <name>Cristiano Bocci</name>
+    </author>
+    <author>
+      <name>Enrico Carlini</name>
+    </author>
+    <author>
+      <name>Joe Kileel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.04301v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.04301v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.6983%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.6983&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+GWUlCBGoIM805geft+LLt/XDrc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.6983v2</id>
+    <updated>2013-02-08T12:00:04Z</updated>
+    <published>2013-01-29T16:52:18Z</published>
+    <title>Replication in critical graphs and the persistence of monomial ideals</title>
+    <summary>  Motivated by questions about square-free monomial ideals in polynomial rings,
+Francisco et al. [Discrete Math. 310 (2010), 2176-2182] conjectured that for
+every positive integer k and every k-critical (i.e., critically k-chromatic)
+graph, there is a set of vertices whose replication produces a (k+1)-critical
+graph. (The replication of a set W of vertices of a graph is the operation that
+adds a copy of each vertex w in W, one at a time, and connects it to w and all
+its neighbours.)
+  We disprove the conjecture by providing an infinite family of
+counterexamples. Furthermore, the smallest member of the family answers a
+question of Herzog and Hibi concerning the depth functions of square-free
+monomial ideals in polynomial rings, and a related question on the persistence
+property of such ideals.
+  As an aside, we give a simple direct proof of the result of Francisco et al.
+that their conjecture holds for graphs whose fractional chromatic number
+exceeds k-1.
+</summary>
+    <author>
+      <name>Tomáš Kaiser</name>
+    </author>
+    <author>
+      <name>Matěj Stehlík</name>
+    </author>
+    <author>
+      <name>Riste Škrekovski</name>
+    </author>
+    <link href="http://arxiv.org/abs/1301.6983v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.6983v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.00415%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.00415&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Y843ggqL0/kKzdsg8UQAtsVFM+c</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.00415v1</id>
+    <updated>2016-11-01T22:47:36Z</updated>
+    <published>2016-11-01T22:47:36Z</published>
+    <title>Regularity and cohomology of determinantal thickenings</title>
+    <summary>  We consider the ring S=C[x_ij] of polynomial functions on the vector space
+C^(m x n) of complex m x n matrices. We let GL= GL_m x GL_n and consider its
+action via row and column operations on C^(m x n) (and the induced action on
+S). For every GL-invariant ideal I in S and every j&gt;=0, we describe the
+decomposition of the modules Ext^j_S(S/I,S) into irreducible
+GL-representations. For any inclusion I into J of GL-invariant ideals we
+determine the kernels and cokernels of the induced maps Ext^j_S(S/I,S) -&gt;
+Ext^j_S(S/J,S). As a consequence of our work, we give a formula for the
+regularity of the powers and symbolic powers of generic determinantal ideals,
+and in particular we determine which powers have a linear minimal free
+resolution. As another consequence, we characterize the GL-invariant ideals I
+in S for which the induced maps Ext^j_S(S/I,S) -&gt; H_I^j(S) are injective. In a
+different direction we verify that Kodaira vanishing, as described in work of
+Bhatt-Blickle-Lyubeznik-Singh-Zhang, holds for determinantal thickenings.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1611.00415v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.00415v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F10, 13D45, 14M12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

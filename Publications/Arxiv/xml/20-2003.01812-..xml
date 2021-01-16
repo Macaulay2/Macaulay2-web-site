@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.01812%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.01812&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fzBlAXRiOssQ5bxrj/13fsgQbMk</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.01812v1</id>
+    <updated>2020-02-29T18:06:29Z</updated>
+    <published>2020-02-29T18:06:29Z</published>
+    <title>The case for algebraic biology: from research to education</title>
+    <summary>  Though it goes without saying that linear algebra is fundamental to
+mathematical biology, polynomial algebra is less visible. In this article, we
+will give a brief tour of four diverse biological problems where multivariate
+polynomials play a central role -- a subfield that is sometimes called
+"algebraic biology." Namely, these topics include biochemical reaction
+networks, Boolean models of gene regulatory networks, algebraic statistics and
+genomics, and place fields in neuroscience. After that, we will summarize the
+history of discrete and algebraic structures in mathematical biology, from
+their early appearances in the late 1960s to the current day. Finally, we will
+discuss the role of algebraic biology in the modern classroom and curriculum,
+including resources in the literature and relevant software. Our goal is to
+make this article widely accessible, reaching the mathematical biologist who
+knows no algebra, the algebraist who knows no biology, and especially the
+interested student who is curious about the synergy between these two seemingly
+unrelated fields.
+</summary>
+    <author>
+      <name>Matthew Macauley</name>
+    </author>
+    <author>
+      <name>Nora Youngs</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.01812v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.01812v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.NC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.OT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="92B05, 14-01, 13P25, 12Y05, 97M60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

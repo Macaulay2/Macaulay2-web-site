@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.11359%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.11359&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vvYWIyItE7uM/PWEL7USqr0qaRY</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.11359v3</id>
+    <updated>2020-10-02T05:48:47Z</updated>
+    <published>2020-09-23T20:02:00Z</published>
+    <title>A Unified Analysis of First-Order Methods for Smooth Games via Integral
+  Quadratic Constraints</title>
+    <summary>  The theory of integral quadratic constraints (IQCs) allows the certification
+of exponential convergence of interconnected systems containing nonlinear or
+uncertain elements. In this work, we adapt the IQC theory to study first-order
+methods for smooth and strongly-monotone games and show how to design tailored
+quadratic constraints to get tight upper bounds of convergence rates. Using
+this framework, we recover the existing bound for the gradient method~(GD),
+derive sharper bounds for the proximal point method~(PPM) and optimistic
+gradient method~(OG), and provide \emph{for the first time} a global
+convergence rate for the negative momentum method~(NM) with an iteration
+complexity $\bigo(\kappa^{1.5})$, which matches its known lower bound. In
+addition, for time-varying systems, we prove that the gradient method with
+optimal step size achieves the fastest provable worst-case convergence rate
+with quadratic Lyapunov functions. Finally, we further extend our analysis to
+stochastic games and study the impact of multiplicative noise on different
+algorithms. We show that it is impossible for an algorithm with one step of
+memory to achieve acceleration if it only queries the gradient once per batch
+(in contrast with the stochastic strongly-convex optimization setting, where
+such acceleration has been demonstrated). However, we exhibit an algorithm
+which achieves acceleration with two gradient queries per batch.
+</summary>
+    <author>
+      <name>Guodong Zhang</name>
+    </author>
+    <author>
+      <name>Xuchan Bao</name>
+    </author>
+    <author>
+      <name>Laurent Lessard</name>
+    </author>
+    <author>
+      <name>Roger Grosse</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2009.11359v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.11359v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

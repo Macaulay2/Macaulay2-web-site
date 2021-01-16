@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1404.5871%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1404.5871&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZFMJKGMPTQti4hhxdWs1bqDTboA</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1404.5871v1</id>
+    <updated>2014-04-23T16:02:20Z</updated>
+    <published>2014-04-23T16:02:20Z</published>
+    <title>F-threshold functions: syzygy gap fractals and the two-variable
+  homogeneous case</title>
+    <summary>  In this article we study F-pure thresholds (and, more generally,
+F-thresholds) of homogeneous polynomials in two variables over a field of
+characteristic p&gt;0. Passing to a field extension, we factor such a polynomial
+into a product of powers of pairwise prime linear forms, and to this collection
+of linear forms we associate a special type of function called a syzygy gap
+fractal. We use this syzygy gap fractal to study, at once, the collection of
+all F-pure thresholds of all polynomials constructed with the same fixed linear
+forms. This allows us to describe the structure of the denominator of such an
+F-pure threshold, showing in particular that whenever the F-pure threshold
+differs from its expected value its denominator is a multiple of p. This
+answers a question of Schwede in the two-variable homogeneous case.
+</summary>
+    <author>
+      <name>Daniel J. Hernández</name>
+    </author>
+    <author>
+      <name>Pedro Teixeira</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages; 7 figures; comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1404.5871v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1404.5871v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

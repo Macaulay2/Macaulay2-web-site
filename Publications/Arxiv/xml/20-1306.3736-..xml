@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.3736%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.3736&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/X6CHmH3q+8G7I5f1TuWNkfUdbAI</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.3736v4</id>
+    <updated>2014-05-02T06:26:29Z</updated>
+    <published>2013-06-17T04:36:51Z</published>
+    <title>The local cohomology of the jacobian ring</title>
+    <summary>  We study the 0-th local cohomology module of the jacobian ring of a singular
+reduced complex projective hypersurface X, by relating it to the sheaf of
+logarithmic vector field along X. We investigate the analogies between the
+local cohomology and the well known properties of the jacobian ring of a
+nonsingular hypersurface. In particular we study self-duality, Hodge theoretic
+and Torelli type questions.
+</summary>
+    <author>
+      <name>Edoardo Sernesi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Documenta Mathematica vol. 19 (2014), p. 541-565</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1306.3736v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.3736v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

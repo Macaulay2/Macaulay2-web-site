@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.03079%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.03079&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WTdAXC10gRQE9kXjsmG9sPI36FM</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.03079v1</id>
+    <updated>2020-12-05T17:18:48Z</updated>
+    <published>2020-12-05T17:18:48Z</published>
+    <title>Tom &amp; Jerry triples with an application to Fano 3-folds</title>
+    <summary>  Unprojection is a theory due to Reid which constructs more complicated rings
+starting from simpler data. The idea of unprojection is intended for serial
+use. Papadakis and Neves developed a theory of parallel unprojection. In the
+present work we develop a new method of unprojection. Starting from a
+codimension 3 ideal defined by the pfaffians of a 5x5 skewsymmetric matrix, we
+use parallel unprojection of Kustin-Miller type in order to construct
+Gorenstein rings of codimension 6. We give two applications. These are two
+families of codimension 6 Fano 3-folds, in weighted projective space.
+</summary>
+    <author>
+      <name>Vasiliki Petrotou</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.03079v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.03079v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M05, 14J45, 13H10, 14E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

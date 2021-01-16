@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2003.10984%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2003.10984&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QsoxrEIFUaRiK7gW0hb0KT834dw</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2003.10984v1</id>
+    <updated>2020-03-24T17:22:25Z</updated>
+    <published>2020-03-24T17:22:25Z</published>
+    <title>On the period of Lehn, Lehn, Sorger, and van Straten's symplectic
+  eightfold</title>
+    <summary>  For the irreducible holomorphic symplectic eightfold Z associated to a cubic
+fourfold Y not containing a plane, we show that a natural Abel-Jacobi map from
+H^4_prim(Y) to H^2_prim(Z) is a Hodge isometry. We describe the full H^2(Z) in
+terms of the Mukai lattice of the K3 category A of Y. We give numerical
+conditions for Z to be birational to a moduli space of sheaves on a K3 surface
+or to Hilb^4(K3). We propose a conjecture on how to use Z to produce
+equivalences from A to the derived category of a K3 surface.
+</summary>
+    <author>
+      <name>Nicolas Addington</name>
+    </author>
+    <author>
+      <name>Franco Giovenzana</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, Macaulay2 code as ancillary file</arxiv:comment>
+    <link href="http://arxiv.org/abs/2003.10984v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2003.10984v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

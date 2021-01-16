@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1006.1436%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1006.1436&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TuC284He3HUzAXSIBMiDRZzqNxs</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1006.1436v2</id>
+    <updated>2010-11-02T15:48:01Z</updated>
+    <published>2010-06-08T01:21:35Z</published>
+    <title>Borel generators</title>
+    <summary>  We use the notion of Borel generators to give alternative methods for
+computing standard invariants, such as associated primes, Hilbert series, and
+Betti numbers, of Borel ideals. Because there are generally few Borel
+generators relative to ordinary generators, this enables one to do manual
+computations much more easily. Moreover, this perspective allows us to find new
+connections to combinatorics involving Catalan numbers and their
+generalizations. We conclude with a surprising result relating the Betti
+numbers of certain principal Borel ideals to the number of pointed
+pseudo-triangulations of particular planar point sets.
+</summary>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Jeffrey Mermin</name>
+    </author>
+    <author>
+      <name>Jay Schweig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 2 figures; very minor changes in v2. To appear in J.
+  Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1006.1436v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1006.1436v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D40, 13F20, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

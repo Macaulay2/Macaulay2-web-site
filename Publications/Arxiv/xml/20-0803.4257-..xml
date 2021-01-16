@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0803.4257%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0803.4257&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/58QbjFEvOyatGzb5W7Asnhrh3rg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0803.4257v2</id>
+    <updated>2008-08-29T19:20:30Z</updated>
+    <published>2008-03-29T13:21:05Z</published>
+    <title>SQCD: A Geometric Apercu</title>
+    <summary>  We take new algebraic and geometric perspectives on the old subject of SQCD.
+We count chiral gauge invariant operators using generating functions, or
+Hilbert series, derived from the plethystic programme and the Molien-Weyl
+formula. Using the character expansion technique, we also see how the global
+symmetries are encoded in the generating functions. Equipped with these methods
+and techniques of algorithmic algebraic geometry, we obtain the character
+expansions for theories with arbitrary numbers of colours and flavours.
+Moreover, computational algebraic geometry allows us to systematically study
+the classical vacuum moduli space of SQCD and investigate such structures as
+its irreducible components, degree and syzygies. We find the vacuum manifolds
+of SQCD to be affine Calabi-Yau cones over weighted projective varieties.
+</summary>
+    <author>
+      <name>James Gray</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Vishnu Jejjala</name>
+    </author>
+    <author>
+      <name>Noppadol Mekareeya</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1088/1126-6708/2008/05/099</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">49 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP0805:099,2008</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0803.4257v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0803.4257v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1088/1126-6708/2008/05/099" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

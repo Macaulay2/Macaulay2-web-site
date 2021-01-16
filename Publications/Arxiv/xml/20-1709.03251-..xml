@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1709.03251%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1709.03251&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WaTHIo2ZdsGml2+K86PUsi+R8Qo</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.03251v1</id>
+    <updated>2017-09-11T05:55:00Z</updated>
+    <published>2017-09-11T05:55:00Z</published>
+    <title>Koszul blowup algebras associated to three-dimensional Ferrers diagrams</title>
+    <summary>  We investigate the Rees algebra and the toric ring of the squarefree monomial
+ideal associated to the three-dimensional Ferrers diagram. Under the layer
+property condition, we find the presentation ideals of the Rees ring and the
+toric ring. We show that the toric ring is a Koszul Cohen--Macaulay normal
+domain and the Rees algebra is Koszul as well.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Yi-Huang Shen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.03251v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.03251v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13F55, 13P10, 14M25, 16S37, Secondary 14M05, 14N10, 05E40,&#10;  05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

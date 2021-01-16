@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0901.0212%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0901.0212&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DzAE7FfWLQLYHlEp/rJMF/2x4+g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0901.0212v2</id>
+    <updated>2009-08-27T05:40:43Z</updated>
+    <published>2009-01-02T03:38:15Z</published>
+    <title>The Hilbert scheme of the diagonal in a product of projective spaces</title>
+    <summary>  The diagonal in a product of projective spaces is cut out by the ideal of
+2x2-minors of a matrix of unknowns. The multigraded Hilbert scheme which
+classifies its degenerations has a unique Borel-fixed ideal. This Hilbert
+scheme is generally reducible, and its main component is a compactification of
+PGL(d)^n/PGL(d). For n=2 we recover the manifold of complete collineations. For
+projective lines we obtain a space of trees that is irreducible but singular.
+All ideals in our Hilbert scheme are radical. We also explore connections to
+affine buildings and Deligne schemes.
+</summary>
+    <author>
+      <name>Dustin Cartwright</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/0901.0212v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0901.0212v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

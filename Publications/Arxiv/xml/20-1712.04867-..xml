@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.04867%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.04867&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WG7rl5FcEqicMefNKSFj4uIrcUM</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.04867v1</id>
+    <updated>2017-12-13T17:13:58Z</updated>
+    <published>2017-12-13T17:13:58Z</published>
+    <title>Nearly free curves and arrangements: a vector bundle point of view</title>
+    <summary>  Many papers are devoted to study logarithmic sheaves associated to reduced
+divisors, in particular logarithmic bundles associated to plane curves since
+forty years in differential and algebraic topology or geometry. An interesting
+family of these curves are the so-called free ones for which the associated
+logarithmic sheaf is the direct sum of two line bundles. When the curve is a
+finite set of distinct lines (i.e. a line arrangement), Terao conjectured
+thirty years ago that its freeness depends only on its combinatorics. A lot of
+efforts were done to prove it but at this time it is only proved up to 12
+lines. If one wants to find a counter example to this conjecture a new family
+of curves arises naturally: the nearly free curves introduced by Dimca and
+Sticlaru. We prove here that the logarithmic bundle associated to a nearly free
+curve possesses a minimal non zero section that vanishes on one single point
+$P$, called jumping point, and that characterizes the bundle. Then we give a
+precise description of the behaviour of $P$. In particular we show, based on
+detailed examples, that the position of $P$ relatively to its corresponding
+nearly free arrangement of lines may or may not be a combinatorial invariant,
+depending on the chosen combinatorics.
+</summary>
+    <author>
+      <name>Simone Marchesi</name>
+    </author>
+    <author>
+      <name>Jean Vallès</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.04867v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.04867v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

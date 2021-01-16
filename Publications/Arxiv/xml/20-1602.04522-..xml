@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.04522%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.04522&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gQXrsbq252lK3n+6/apdG1q7+/Q</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.04522v1</id>
+    <updated>2016-02-14T22:54:45Z</updated>
+    <published>2016-02-14T22:54:45Z</published>
+    <title>A smoothness test for higher codimensions</title>
+    <summary>  Based on an idea in Hironaka's proof of resolution of singularities, we
+present an algorithmic smoothness test for algebraic varieties. The test is
+inherently parallel and does not involve the calculation of codimension-sized
+minors of the Jacobian matrix of the variety. We also describe a hybrid method
+which combines the new method with the Jacobian criterion, thus making use of
+the strengths of both approaches. We have implemented all algorithms in the
+computer algebra system Singular, and compare the different approaches with
+respect to timings and memory usage. The test examples originate from questions
+in algebraic geometry, where the use of the Jacobian criterion is impractical
+due to the number and size of the minors involved.
+</summary>
+    <author>
+      <name>Janko Boehm</name>
+    </author>
+    <author>
+      <name>Anne Frühbis-Krüger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 4 algorithms</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.04522v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.04522v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B05, 68W10, 13P10, 32S05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

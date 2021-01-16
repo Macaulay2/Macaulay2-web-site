@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.06283%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.06283&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cuGKDQNsnnTQgpqrlLrlxXl7oZU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.06283v1</id>
+    <updated>2018-07-17T08:54:58Z</updated>
+    <published>2018-07-17T08:54:58Z</published>
+    <title>Tropical Fano Schemes</title>
+    <summary>  We define a tropical version $F_d$(trop X) of the Fano Scheme $F_d(X)$ of a
+projective variety $X\subset \mathbb P^n$. We focus on $d=1$ and compare it
+with the tropicalization of $F_1(X)$. In general we have that trop
+$F_1(X)\subset F_1$(trop $X)$. We construct linear spaces $L$ such that the
+containment is strict and show that instead for a toric variety trop
+$F_1(X)=F_1($trop $X)$. Finally we prove that $F_1($trop $X)$ is the support of
+a polyhedral complex contained in trop $\mathbb G(1,n)$.
+</summary>
+    <author>
+      <name>Sara Lamboglia</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 7 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.06283v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.06283v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

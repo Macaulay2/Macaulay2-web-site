@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1001.4125%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1001.4125&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/C0am7zsCxrOjOKVC6wimVy0M5sM</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1001.4125v1</id>
+    <updated>2010-01-23T03:26:25Z</updated>
+    <published>2010-01-23T03:26:25Z</published>
+    <title>Solving Schubert Problems with Littlewood-Richardson Homotopies</title>
+    <summary>  We present a new numerical homotopy continuation algorithm for finding all
+solutions to Schubert problems on Grassmannians. This Littlewood-Richardson
+homotopy is based on Vakil's geometric proof of the Littlewood-Richardson rule.
+Its start solutions are given by linear equations and they are tracked through
+a sequence of homotopies encoded by certain checker configurations to find the
+solutions to a given Schubert problem. For generic Schubert problems the number
+of paths tracked is optimal. The Littlewood-Richardson homotopy algorithm is
+implemented using the path trackers of the software package PHCpack.
+</summary>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Ravi Vakil</name>
+    </author>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Extended abstract. 14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1001.4125v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1001.4125v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H10; 14N15, 14Q99, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

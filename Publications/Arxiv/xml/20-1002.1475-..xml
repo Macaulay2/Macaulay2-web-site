@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1002.1475%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1002.1475&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YORN93F4cU2Erm4s7inQ30of1kY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1475v2</id>
+    <updated>2010-06-25T15:41:22Z</updated>
+    <published>2010-02-07T19:00:08Z</published>
+    <title>Algorithms for Bernstein-Sato polynomials and multiplier ideals</title>
+    <summary>  The Bernstein-Sato polynomial (or global b-function) is an important
+invariant in singularity theory, which can be computed using symbolic methods
+in the theory of D-modules. After surveying algorithms for computing the global
+b-function, we develop a new method to compute the local b-function for a
+single polynomial. We then develop algorithms that compute generalized
+Bernstein-Sato polynomials of Budur-Mustata-Saito and Shibuta for an arbitrary
+polynomial ideal. These lead to computations of log canonical thresholds,
+jumping coefficients, and multiplier ideals. Our algorithm for multiplier
+ideals simplifies that of Shibuta and shares a common subroutine with our local
+b-function algorithm. The algorithms we present have been implemented in the
+D-modules package of the computer algebra system Macaulay2.
+</summary>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, to appear in ISSAC 2010</arxiv:comment>
+    <link href="http://arxiv.org/abs/1002.1475v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1002.1475v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F20 (Primary), 14F18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

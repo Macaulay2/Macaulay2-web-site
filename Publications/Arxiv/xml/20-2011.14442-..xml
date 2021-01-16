@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.14442%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.14442&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7MDyhk6rlhSKeMujY95x4iAvfYs</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.14442v1</id>
+    <updated>2020-11-29T20:56:49Z</updated>
+    <published>2020-11-29T20:56:49Z</published>
+    <title>Universes as Big Data</title>
+    <summary>  We briefly overview how, historically, string theory led theoretical physics
+first to precise problems in algebraic and differential geometry, and thence to
+computational geometry in the last decade or so, and now, in the last few
+years, to data science. Using the Calabi-Yau landscape -- accumulated by the
+collaboration of physicists, mathematicians and computer scientists over the
+last 4 decades -- as a starting-point and concrete playground, we review some
+recent progress in machine-learning applied to the sifting through of possible
+universes from compactification, as well as wider problems in geometrical
+engineering of quantum field theories. In parallel, we discuss the programme in
+machine-learning mathematical structures and address the tantalizing question
+of how it helps doing mathematics, ranging from mathematical physics, to
+geometry, to representation theory, to combinatorics, and to number theory.
+</summary>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 3 figures. Invited review for IJMPA, based on various
+  colloquia, seminars and conference talks in the 2019-2020 academic year</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.14442v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.14442v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.hist-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

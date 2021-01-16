@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1406.6924%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1406.6924&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8P/+Vg6IbvJxJbgDemWQAdCJRBI</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1406.6924v1</id>
+    <updated>2014-06-26T15:35:00Z</updated>
+    <published>2014-06-26T15:35:00Z</published>
+    <title>Strongly stable ideals and Hilbert polynomials</title>
+    <summary>  The \textit{StronglyStableIdeals} package for \textit{Macaulay2} provides a
+method to compute all the saturated strongly stable ideals in a given
+polynomial ring defining schemes with a fixed Hilbert polynomial. A description
+of the main method and the auxiliary tools is given.
+</summary>
+    <author>
+      <name>Davide Alberelli</name>
+    </author>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Source code available at
+  http://www.personalweb.unito.it/paolo.lella/EN/Publications_files/StronglyStableIdeals.m2</arxiv:comment>
+    <link href="http://arxiv.org/abs/1406.6924v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1406.6924v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 13P99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

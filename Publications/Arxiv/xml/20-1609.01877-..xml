@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.01877%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.01877&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zd44Yy3f6Cf7u7hhvDHNN/Edh2U</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.01877v2</id>
+    <updated>2017-05-18T08:21:33Z</updated>
+    <published>2016-09-07T08:37:29Z</published>
+    <title>Singularities of plane rational curves via projections</title>
+    <summary>  We consider the parameterization ${\mathbf{f}}=(f_0,f_1,f_2)$ of a plane
+rational curve $C$ of degree $n$, and we want to study the singularities of $C$
+via such parameterization. We do this by using the projection from the rational
+normal curve $C_n\subset \mathbb{P}^n$ to $C$ and its interplay with the secant
+varieties to $C_n$. In particular, we define via ${\mathbf{f}}$ certain
+0-dimensional schemes $X_k\subset \mathbb{P}^k$, $2\leq k\leq (n-1)$, which
+encode all information on the singularities of multiplicity $\geq k$ of $C$
+(e.g. using $X_2$ we can give a criterion to determine whether $C$ is a
+cuspidal curve or has only ordinary singularities). We give a series of
+algorithms which allow to get info about the singularities from such schemes.
+</summary>
+    <author>
+      <name>Alessandra Bernardi</name>
+    </author>
+    <author>
+      <name>Alessandro Gimigliano</name>
+    </author>
+    <author>
+      <name>Monica Idà</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 4 algorithms. Conjecture 4.4 in v1, now is Proposition 4.4.
+  Accepted for the publication in JSC</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.01877v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.01877v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

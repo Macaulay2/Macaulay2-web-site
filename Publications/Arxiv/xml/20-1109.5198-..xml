@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1109.5198%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1109.5198&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e7imK5I09IfvvBRY+Yo/kBpMq2k</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1109.5198v2</id>
+    <updated>2012-02-20T02:53:06Z</updated>
+    <published>2011-09-23T20:52:21Z</published>
+    <title>The cone of Betti diagrams over a hypersurface ring of low embedding
+  dimension</title>
+    <summary>  We give a complete description of the cone of Betti diagrams over a standard
+graded hypersurface ring of the form k[x,y]/&lt;q&gt;, where q is a homogeneous
+quadric. We also provide a finite algorithm for decomposing Betti diagrams,
+including diagrams of infinite projective dimension, into pure diagrams.
+Boij--Soederberg theory completely describes the cone of Betti diagrams over a
+standard graded polynomial ring; our result provides the first example of
+another graded ring for which the cone of Betti diagrams is entirely
+understood.
+</summary>
+    <author>
+      <name>Christine Berkesch</name>
+    </author>
+    <author>
+      <name>Jesse Burke</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Courtney Gibbons</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor edits, references updated</arxiv:comment>
+    <link href="http://arxiv.org/abs/1109.5198v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1109.5198v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

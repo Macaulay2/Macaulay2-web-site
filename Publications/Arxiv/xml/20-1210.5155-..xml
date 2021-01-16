@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.5155%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.5155&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/otkqD8YyteGpu/Ae85MyJC0jZNs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.5155v1</id>
+    <updated>2012-10-18T15:09:24Z</updated>
+    <published>2012-10-18T15:09:24Z</published>
+    <title>Computation of Jeffrey-Kirwan residue using Gröbner basis</title>
+    <summary>  The Jeffrey-Kirwan residue is a powerful tool for computation of intersection
+numbers or volume of symplectic quotients. In this article, we give an
+algorithm to compute it using Gr\"obner bases. Our result is parallel to that
+of Cattani-Dickenstein for Grothendieck residues.
+</summary>
+    <author>
+      <name>Zsolt Szilágyi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.5155v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.5155v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

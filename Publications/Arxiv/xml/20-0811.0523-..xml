@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0811.0523%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0811.0523&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YJe6SghAAepbzXy84PY+BOzuwEM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0811.0523v3</id>
+    <updated>2010-05-13T14:30:19Z</updated>
+    <published>2008-11-04T14:36:07Z</published>
+    <title>The curve of lines on a prime Fano threefold of genus 8</title>
+    <summary>  We show that a general prime Fano threefold X of genus 8 can be reconstructed
+from the pair $(\Gamma,L)$, where $\Gamma$ is its Fano curve of lines and
+$L=O_{\Gamma}(1)$ is the theta-characteristic which gives a natural embedding
+$\Gamma \subset \matbb{P}^5$.
+</summary>
+    <author>
+      <name>Flaminio Flamini</name>
+    </author>
+    <author>
+      <name>Edoardo Sernesi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, misprints corrected, to appear in International Journal of
+  Mathematics</arxiv:comment>
+    <link href="http://arxiv.org/abs/0811.0523v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0811.0523v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C34, 14J45, 14J70, 14N05, 14N20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

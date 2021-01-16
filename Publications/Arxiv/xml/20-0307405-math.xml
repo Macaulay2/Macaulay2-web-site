@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0307405%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0307405&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2GoTRyKf1l1E8+jH/K2xbR77Bm8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0307405v2</id>
+    <updated>2004-04-28T21:41:39Z</updated>
+    <published>2003-07-31T18:38:30Z</published>
+    <title>On the topology of graph picture spaces</title>
+    <summary>  We study the space ${\mathcal X}^{d}(G)$ of pictures of a graph $G$ in
+complex projective $d$-space. The main result is that the homology groups (with
+integer coefficients) of ${\mathcal X}^{d}(G)$ are completely determined by the
+Tutte polynomial of $G$. One application is a criterion in terms of the Tutte
+polynomial for independence in the {\it $d$-parallel matroids} studied in
+combinatorial rigidity theory. For certain special graphs called
+\defterm{orchards}, the picture space is smooth and has the structure of an
+iterated projective bundle. We give a Borel presentation of the cohomology ring
+of the picture space of an orchard, and use this presentation to develop an
+analogue of the classical Schubert calculus.
+</summary>
+    <author>
+      <name>Jeremy L. Martin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">LaTeX (uses xypic package), 22 pages. Final version, to appear in
+  Advances in Mathematics. The title has been changed slightly, the exposition
+  improved, the material in Section 6 clarified, and some open problems added</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Adv. Math. 191, no. 2 (2005), 312--338</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0307405v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0307405v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C10 (Primary) 05B35, 14N20, 52C35 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

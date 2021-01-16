@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1411.0151%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1411.0151&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ogT6IhKoFVjuc8ndDfZA+ORq1y8</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1411.0151v1</id>
+    <updated>2014-11-01T18:45:17Z</updated>
+    <published>2014-11-01T18:45:17Z</published>
+    <title>The syzygies of some thickenings of determinantal varieties</title>
+    <summary>  The vector space of m x n complex matrices (m &gt;= n) admits a natural action
+of the group GL = GL_m x GL_n via row and column operations. For positive
+integers a,b, we consider the ideal I_{a x b} defined as the smallest
+GL-equivariant ideal containing the b-th powers of the a x a minors of the
+generic m x n matrix. We compute the syzygies of the ideals I_{a x b} for all
+a,b, together with their GL-equivariant structure, generalizing earlier results
+of Lascoux for the ideals of minors (b=1), and of Akin-Buchsbaum-Weyman for the
+powers of the ideals of maximal minors (a=n).
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <author>
+      <name>Jerzy Weyman</name>
+    </author>
+    <link href="http://arxiv.org/abs/1411.0151v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.0151v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14M12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.06040%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.06040&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8WCRQ1oIraYcJtRfZlVvtjLhlhI</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.06040v1</id>
+    <updated>2016-12-19T04:05:57Z</updated>
+    <published>2016-12-19T04:05:57Z</published>
+    <title>Exact tests for stochastic block models</title>
+    <summary>  We develop a finite-sample goodness-of-fit test for \emph{latent-variable}
+block models for networks and test it on simulated and real data sets. The main
+building block for the latent block assignment model test is the exact test for
+the model with observed blocks assignment. The latter is implemented using
+algebraic statistics. While we focus on three variants of the stochastic block
+model, the methodology extends to any mixture of log-linear models on discrete
+data.
+</summary>
+    <author>
+      <name>Vishesh Karwa</name>
+    </author>
+    <author>
+      <name>Debdeep Pati</name>
+    </author>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <author>
+      <name>Liam Solus</name>
+    </author>
+    <author>
+      <name>Nikita Alexeev</name>
+    </author>
+    <author>
+      <name>Mateja Raič</name>
+    </author>
+    <author>
+      <name>Dane Wilburne</name>
+    </author>
+    <author>
+      <name>Robert Williams</name>
+    </author>
+    <author>
+      <name>Bowei Yan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages, several figures, Discussion</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.06040v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.06040v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ME" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

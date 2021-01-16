@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1801.01942%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1801.01942&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PZ8Z1UwIlyfkFcop8JITHGHbFsU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1801.01942v2</id>
+    <updated>2018-01-12T20:12:19Z</updated>
+    <published>2018-01-05T23:20:35Z</published>
+    <title>Vanishing theorems for representation homology and the derived cotangent
+  complex</title>
+    <summary>  Let $G$ be a reductive affine algebraic group defined over a field $k$ of
+characteristic zero. In this paper, we study the cotangent complex of the
+derived $G$-representation scheme $ {\rm DRep}_G(X)$ of a pointed connected
+topological space $X$. We construct an (algebraic version of) unstable Adams
+spectral sequence relating the cotangent homology of $ {\rm DRep}_G(X) $ to the
+representation homology $ {\rm HR}_*(X,G) := \pi_*[{\rm DRep}_G(X)] $ and prove
+some vanishing theorems for groups and geometrically interesting spaces. Our
+examples include virtually free groups, Riemann surfaces, link complements in $
+{\mathbb R}^3 $ and generalized lens spaces. In particular, for any f.g.
+virtually free group $ \Gamma $, we show that $\, {\rm HR}_i({\rm B}\Gamma, G)
+= 0 \,$ for all $ i &gt; 0 $. For a closed Riemann surface $\Sigma_g $ of genus $
+g \ge 1 $, we have $\, {\rm HR}_i(\Sigma_g, G) = 0 \,$ for all $ i &gt; \dim G $.
+The sharp vanishing bounds for $ \Sigma_g $ depend actually on the genus: we
+conjecture that if $ g = 1 $, then $\, {\rm HR}_i(\Sigma_g, G) = 0 \,$ for $ i
+&gt; {\rm rank}\,G $, and if $ g \ge 2 $, then $\, {\rm HR}_i(\Sigma_g, G) = 0 \,$
+for $ i &gt; \dim\,{\mathcal Z}(G) \,$, where $ {\mathcal Z}(G) $ is the center of
+$G$. We prove these bounds locally on the smooth locus of the representation
+scheme $ {\rm Rep}_G[\pi_1(\Sigma_g)]\,$ in the case of complex connected
+reductive groups. One important consequence of our results is the existence of
+a well-defined $K$-theoretic virtual fundamental class for $ {\rm DRep}_G(X)$
+in the sense of Ciocan-Fontanine and Kapranov. We give a new `Tor formula' for
+this class in terms of functor homology.
+</summary>
+    <author>
+      <name>Yuri Berest</name>
+    </author>
+    <author>
+      <name>Ajay C. Ramadoss</name>
+    </author>
+    <author>
+      <name>Wai-kit Yeung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.01942v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.01942v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1507.07240%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1507.07240&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/T81CzZW4Zd5LM7MNbFghJyOrQZo</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1507.07240v1</id>
+    <updated>2015-07-26T20:00:22Z</updated>
+    <published>2015-07-26T20:00:22Z</published>
+    <title>Hilbert series and operator bases with derivatives in effective field
+  theories</title>
+    <summary>  We introduce a systematic framework for counting and finding independent
+operators in effective field theories, taking into account the redundancies
+associated with use of the classical equations of motion and integration by
+parts. By working in momentum space, we show that the enumeration problem can
+be mapped onto that of understanding a polynomial ring in the field momenta.
+All-order information about the number of independent operators in an effective
+field theory is encoded in a geometrical object of the ring known as the
+Hilbert series. We obtain the Hilbert series for the theory of N real scalar
+fields in (0+1) dimensions--an example, free of space-time and internal
+symmetries, where aspects of our framework are most transparent. Although this
+is as simple a theory involving derivatives as one could imagine, it provides
+fruitful lessons to be carried into studies of more complicated theories: we
+find surprising and rich structure from an interplay between integration by
+parts and equations of motion and a connection with SL(2,C) representation
+theory which controls the structure of the operator basis.
+</summary>
+    <author>
+      <name>Brian Henning</name>
+    </author>
+    <author>
+      <name>Xiaochuan Lu</name>
+    </author>
+    <author>
+      <name>Tom Melia</name>
+    </author>
+    <author>
+      <name>Hitoshi Murayama</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1507.07240v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1507.07240v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

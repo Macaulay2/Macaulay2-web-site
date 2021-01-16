@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1002.3423%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1002.3423&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RpdmIsEUNT35WBAaJ/m80QvcybU</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1002.3423v5</id>
+    <updated>2010-11-21T21:51:34Z</updated>
+    <published>2010-02-18T17:36:50Z</published>
+    <title>Closed surface bundles of least volume</title>
+    <summary>  Since the set of volumes of hyperbolic 3-manifolds is well ordered, for each
+fixed g there is a genus-g surface bundle over the circle of minimal volume.
+Here, we introduce an explicit family of genus-g bundles which we conjecture
+are the unique such manifolds of minimal volume. Conditional on a very
+plausible assumption, we prove that this is indeed the case when g is large.
+The proof combines a soft geometric limit argument with a detailed
+Neumann-Zagier asymptotic formula for the volumes of Dehn fillings.
+  Our examples are all Dehn fillings on the sibling of the Whitehead manifold,
+and we also analyze the dilatations of all closed surface bundles obtained in
+this way, identifying those with minimal dilatation. This gives new families of
+pseudo-Anosovs with low dilatation, including a genus 7 example which minimizes
+dilatation among all those with orientable invariant foliations.
+</summary>
+    <author>
+      <name>John William Aaber</name>
+    </author>
+    <author>
+      <name>Nathan M. Dunfield</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.2140/agt.2010.10.2315</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.2140/agt.2010.10.2315" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 4 figures. V2: Corrected Table 1.9; V3: Added Table 1.10;
+  V4: Minor edits; V5: Corrected Figure 2.1. To appear in AG&amp;T</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Algebr. Geom. Topol. 10 (2010) 2315-2342</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1002.3423v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1002.3423v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="57M50, 37E30, 37E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

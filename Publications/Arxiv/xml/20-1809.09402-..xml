@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.09402%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.09402&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fDM8DkMqfUjUNr1budCRNop6ZII</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.09402v1</id>
+    <updated>2018-09-25T10:46:06Z</updated>
+    <published>2018-09-25T10:46:06Z</published>
+    <title>Cubics in 10 variables vs. cubics in 1000 variables: Uniformity
+  phenomena for bounded degree polynomials</title>
+    <summary>  Hilbert famously showed that polynomials in n variables are not too
+complicated, in various senses. For example, the Hilbert Syzygy Theorem shows
+that the process of resolving a module by free modules terminates in finitely
+many (in fact, at most n) steps, while the Hilbert Basis Theorem shows that the
+process of finding generators for an ideal also terminates in finitely many
+steps. These results laid the foundations for the modern algebraic study of
+polynomials.
+  Hilbert's results are not uniform in n: unsurprisingly, polynomials in n
+variables will exhibit greater complexity as n increases. However, an array of
+recent work has shown that in a certain regime---namely, that where the number
+of polynomials and their degrees are fixed---the complexity of polynomials (in
+various senses) remains bounded even as the number of variables goes to
+infinity. We refer to this as Stillman uniformity, since Stillman's Conjecture
+provided the motivating example. The purpose of this paper is to give an
+exposition of Stillman uniformity, including: the circle of ideas initiated by
+Ananyan and Hochster in their proof of Stillman's Conjecture, the followup
+results that clarified and expanded on those ideas, and the implications for
+understanding polynomials in many variables.
+</summary>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <author>
+      <name>Andrew Snowden</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This expository paper was written in conjunction with Craig Huneke's
+  talk on Stillman's Conjecture at the 2018 JMM Current Events Bulletin</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.09402v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.09402v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A02, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

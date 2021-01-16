@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.01935%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.01935&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NnDUMPWxTxh+/LsgexGF8CFU85Y</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.01935v1</id>
+    <updated>2015-08-08T18:11:35Z</updated>
+    <published>2015-08-08T18:11:35Z</published>
+    <title>Geometric Shifts and Positroid Varieties</title>
+    <summary>  Matroid varieties are the closures in the Grassmannian of sets of points
+defined by specifying which Pl\"ucker coordinates vanish and which don't ---
+the set of nonvanishing Pl\"ucker coordinates forms a well-studied object
+called a matroid. Many problems in enumerative geometry could be solved if
+there were an efficient way to compute the cohomology class of a matroid
+variety in an efficient way just from the combinatorial data contained in the
+matroid itself. Unfortunately, in full generality, this problem is known to be
+completely intractable. In this thesis, we explore two attempts to get a handle
+on this problem in the special case of a better-behaved class of matroids
+called positroids. First we examine a method based on degenerations on the
+Grassmannian that's known to be successful for an even smaller class of
+matroids called interval rank matroids, showing that it can be made to work
+with some effort in rank 3 but that there is a counterexample demonstrating
+that it is hopeless beyond that. Finally, we give a way of producing a number
+for each matroid variety called its expected codimension that can be computed
+combinatorially solely from the matroid itself and show that it agrees with the
+actual codimension in the case of a positroid variety.
+</summary>
+    <author>
+      <name>Nicolas Ford</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: substantial text overlap with arXiv:1309.0460</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.01935v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.01935v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

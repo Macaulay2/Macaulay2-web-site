@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.00667%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.00667&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/E6sFe2Bv1Ok2e9X4KcddCI4L69U</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.00667v1</id>
+    <updated>2019-09-02T11:04:34Z</updated>
+    <published>2019-09-02T11:04:34Z</published>
+    <title>Brane Webs and Magnetic Quivers for SQCD</title>
+    <summary>  It is widely considered that the classical Higgs branch of 4d $\mathcal{N}=2$
+SQCD is a well understood object. However there is no satisfactory
+understanding of its structure. There are two complications: (1) the Higgs
+branch chiral ring contains nilpotent elements, as can easily be checked in the
+case of $\mathrm{SU}(N)$ with 1 flavour. (2) the Higgs branch as a geometric
+space can in general be decomposed into two cones with nontrivial intersection,
+the baryonic and mesonic branches. To study the second point in detail we use
+the recently developed tool of magnetic quivers for five-brane webs, using the
+fact that the classical Higgs branch for theories with 8 supercharges does not
+change through dimensional reduction. We compare this approach with the
+computation of the hyper-K\"ahler quotient using Hilbert series techniques,
+finding perfect agreement if nilpotent operators are eliminated by the
+computation of a so called radical. We study the nature of the nilpotent
+operators and give conjectures for the Hilbert series of the full Higgs branch,
+giving new insights into the vacuum structure of 4d $\mathcal{N}=2$ SQCD. In
+addition we demonstrate the power of the magnetic quiver technique, as it
+allows us to identify the decomposition into cones, and provides us with the
+global symmetries of the theory, as a simple alternative to the techniques that
+were used to date.
+</summary>
+    <author>
+      <name>Antoine Bourget</name>
+    </author>
+    <author>
+      <name>Santiago Cabrera</name>
+    </author>
+    <author>
+      <name>Julius F. Grimminger</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Zhenghao Zhong</name>
+    </author>
+    <link href="http://arxiv.org/abs/1909.00667v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.00667v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

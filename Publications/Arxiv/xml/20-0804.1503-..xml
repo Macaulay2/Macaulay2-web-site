@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0804.1503%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0804.1503&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/d+bfn1vci1TZLmwBAmYtCLec2wY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0804.1503v1</id>
+    <updated>2008-04-09T15:10:38Z</updated>
+    <published>2008-04-09T15:10:38Z</published>
+    <title>Rationality of the moduli spaces of plane curves of sufficiently large
+  degree</title>
+    <summary>  We prove that the moduli space of plane curves of degree d is rational for
+all sufficiently large d.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf v. Bothmer</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s00222-009-0214-6</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages; 1 figure; Macaulay2 scripts used can be found at
+  http://www.uni-math.gwdg.de/bothmer/rationality/ or at the end of the latex
+  source file</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Inventiones Mathematicae, Volume 179, Number 1 (2010), 159-173</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0804.1503v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0804.1503v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s00222-009-0214-6" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E08; 14M20; 14L24" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

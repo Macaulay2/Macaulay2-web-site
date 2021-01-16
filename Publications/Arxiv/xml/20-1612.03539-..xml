@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1612.03539%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1612.03539&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VxpjHsUihBRo27Adv9PPgwQqRaI</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1612.03539v1</id>
+    <updated>2016-12-12T04:05:32Z</updated>
+    <published>2016-12-12T04:05:32Z</published>
+    <title>Fitness, Apprenticeship, and Polynomials</title>
+    <summary>  This article discusses the design of the Apprenticeship Program at the Fields
+Institute, held 21 August - 3 September 2016. Six themes from combinatorial
+algebraic geometry were selected for the two weeks: curves, surfaces,
+Grassmannians, convexity, abelian combinatorics, parameters and moduli. The
+activities were structured into fitness, research and scholarship.
+Combinatorics and concrete computations with polynomials (and theta functions)
+empowers young scholars in algebraic geometry, and it helps them to connect
+with the historic roots of their field. We illustrate our perspective for the
+threefold obtained by blowing up six points in $\mathbb{P}^3$.
+</summary>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1612.03539v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1612.03539v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

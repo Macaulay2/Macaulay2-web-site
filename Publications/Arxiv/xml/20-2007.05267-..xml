@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.05267%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.05267&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8h/RLsBRDDh0ocUZUp2LmzkNpmc</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.05267v1</id>
+    <updated>2020-07-10T09:22:25Z</updated>
+    <published>2020-07-10T09:22:25Z</published>
+    <title>Steiner systems and configurations of points</title>
+    <summary>  The aim of this paper is to make a connection between design theory and
+algebraic geometry/commutative algebra. In particular, given any Steiner System
+$S(t,n,v)$ we associate two ideals, in a suitable polynomial ring, defining a
+Steiner configuration of points and its Complement. We focus on the latter,
+studying its homological invariants, such as Hilbert Function and Betti
+numbers. We also study symbolic and regular powers associated to the ideal
+defining a Complement of a Steiner configuration of points, finding its
+Waldschmidt constant, regularity, bounds on its resurgence and asymptotic
+resurgence. We also compute the parameters of linear codes associated to any
+Steiner configuration of points and its Complement.
+</summary>
+    <author>
+      <name>Edoardo Ballico</name>
+    </author>
+    <author>
+      <name>Giuseppe Favacchio</name>
+    </author>
+    <author>
+      <name>Elena Guardo</name>
+    </author>
+    <author>
+      <name>Lorenzo Milazzo</name>
+    </author>
+    <link href="http://arxiv.org/abs/2007.05267v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.05267v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="51E10, 13F55, 13F20, 14G50, 94B27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

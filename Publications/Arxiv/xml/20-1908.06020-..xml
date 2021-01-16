@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1908.06020%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1908.06020&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WxUBeJBJC34pIQEhZ6Qt5qxNdac</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1908.06020v1</id>
+    <updated>2019-08-15T03:12:22Z</updated>
+    <published>2019-08-15T03:12:22Z</published>
+    <title>Probabilistic Saturations and Alt's Problem</title>
+    <summary>  Alt's problem, formulated in 1923, is to count the number of four-bar
+linkages whose coupler curve interpolates nine general points in the plane.
+This problem can be phrased as counting the number of solutions to a system of
+polynomial equations which was first solved numerically using homotopy
+continuation by Wampler, Morgan, and Sommese in 1992. Since there is still not
+a proof that all solutions were obtained, we consider upper bounds for Alt's
+problem by counting the number of solutions outside of the base locus to a
+system arising as the general linear combination of polynomials. In particular,
+we derive effective symbolic and numeric methods for studying such systems
+using probabilistic saturations that can be employed using both finite fields
+and floating-point computations. We give bounds on the size of finite field
+required to achieve a desired level of certainty. These methods can also be
+applied to many other problems where similar systems arise such as computing
+the volumes of Newton-Okounkov bodies and computing intersection theoretic
+invariants including Euler characteristics, Chern classes, and Segre classes.
+</summary>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Martin Helmer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1908.06020v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1908.06020v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx, 13Pxx, 70B15, 68T40, 70Q05, 93C85, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

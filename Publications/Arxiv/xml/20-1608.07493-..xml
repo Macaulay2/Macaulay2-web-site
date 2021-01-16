@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1608.07493%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1608.07493&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iWuYT6OEsnKsB1WqGZWxVEOxX+U</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1608.07493v1</id>
+    <updated>2016-08-26T15:24:05Z</updated>
+    <published>2016-08-26T15:24:05Z</published>
+    <title>Frobenius and Cartier algebras of Stanley-Reisner rings (II)</title>
+    <summary>  It is known that the Cartier algebra of a Stanley-Reisner ring can be only
+principally generated or infinitely generated as algebra over its degree zero
+piece, and that this fact can be read off in the corresponding simplicial
+complex; in the infinite case, we exhibit a 1-1 correspondence between new
+generators appearing on each graded piece and free faces of such a simplicial
+complex. As main application, we provide an algebraic algorithm to produce all
+the free faces of a given simplicial complex.
+</summary>
+    <author>
+      <name>Alberto F. Boix</name>
+    </author>
+    <author>
+      <name>Santiago Zarzuela</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.07493v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.07493v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35 (Primary), 13F55 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

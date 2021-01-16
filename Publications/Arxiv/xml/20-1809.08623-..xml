@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.08623%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.08623&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/A0Li+PCrUki0LTI7VLleM20wISg</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.08623v2</id>
+    <updated>2018-09-27T19:29:08Z</updated>
+    <published>2018-09-23T16:11:31Z</published>
+    <title>The rings of Hilbert modular forms for $\mathbb{Q}(sqrt{29})$ and
+  $\mathbb{Q}(sqrt{37})$</title>
+    <summary>  We use Borcherds products and their restrictions to Hirzebruch-Zagier curves
+to determine generators and relations for the graded rings of Hilbert modular
+forms for the fields $\mathbb{Q}(√{29})$ and $\mathbb{Q}(√37)$. These
+seem to be the first cases where the graded ring can be computed despite
+obstructions to the existence of Borcherds products with arbitrary divisors.
+</summary>
+    <author>
+      <name>Brandon Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages. v2 fixes some typos</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.08623v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.08623v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F27, 11F41" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

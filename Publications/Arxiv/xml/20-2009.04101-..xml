@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.04101%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.04101&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e70PilvMoO2hECx7r8TLaimSGRI</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.04101v1</id>
+    <updated>2020-09-09T04:52:04Z</updated>
+    <published>2020-09-09T04:52:04Z</published>
+    <title>Projective dimensions of hyperplane arrangements</title>
+    <summary>  We establish a general theory for projective dimensions of the logarithmic
+derivation modules of hyperplane arrangements. That includes the
+addition-deletion and restriction theorem, Yoshinaga-type result, and the
+division theorem for projective dimensions of hyperplane arrangements. They are
+generalizations of the free arrangement cases, that can be regarded as the
+special case of our result when the projective dimension is zero. The keys to
+prove them are several new methods to determine the surjectivity of the Euler
+and the Ziegler restriction maps, that is combinatorial when the projective
+dimension is not maximal for all localizations. Also, we introduce a new class
+of arrangements in which the projective dimension is comibinatorially
+determined.
+</summary>
+    <author>
+      <name>Takuro Abe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2009.04101v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.04101v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32S22, 52S35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

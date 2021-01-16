@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.8065%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.8065&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ovn2/JC9FwgIQpMiGtmJ0q5H6uE</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8065v2</id>
+    <updated>2014-11-12T14:52:09Z</updated>
+    <published>2014-10-29T17:27:03Z</published>
+    <title>On linear systems of P^3 with nine base points</title>
+    <summary>  We study special linear systems of surfaces of P^3 interpolating nine points
+in general position having a quadric as fixed component. By performing
+degenerations in the blown-up space, we interpret the quadric obstruction in
+terms of linear obstructions for a quasi-homogeneous class. By degeneration we
+also prove a Nagata type result for P^2 that implies a base locus lemma for the
+quadric. As an application we establish Laface-Ugaglia Conjecture for linear
+systems with multiplicities bounded by 8 and for homogeneous linear systems
+with multiplicity m and degree up to 2m+1.
+</summary>
+    <author>
+      <name>Maria Chiara Brambilla</name>
+    </author>
+    <author>
+      <name>Olivia Dumitrescu</name>
+    </author>
+    <author>
+      <name>Elisa Postinghel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.8065v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.8065v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C20 (Primary) 14J70, 14J26 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

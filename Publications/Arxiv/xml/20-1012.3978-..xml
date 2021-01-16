@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1012.3978%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1012.3978&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gU3/NiMouvTnebU292EZY+ceC/M</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1012.3978v3</id>
+    <updated>2011-12-29T13:08:20Z</updated>
+    <published>2010-12-17T20:49:01Z</published>
+    <title>The central curve in linear programming</title>
+    <summary>  The central curve of a linear program is an algebraic curve specified by
+linear and quadratic constraints arising from complementary slackness. It is
+the union of the various central paths for minimizing or maximizing the cost
+function over any region in the associated hyperplane arrangement. We determine
+the degree, arithmetic genus and defining prime ideal of the central curve,
+thereby answering a question of Bayer and Lagarias. These invariants, along
+with the degree of the Gauss image of the curve, are expressed in terms of the
+matroid of the input matrix. Extending work of Dedieu, Malajovich and Shub,
+this yields an instance-specific bound on the total curvature of the central
+path, a quantity relevant for interior point methods. The global geometry of
+central curves is studied in detail.
+</summary>
+    <author>
+      <name>Jesús A. De Loera</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Cynthia Vinzant</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10208-012-9127-7</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10208-012-9127-7" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 5 figures, added section on average total curvature, minor
+  revisions</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Foundations of Computational Mathematics: Volume 12, Issue 4
+  (2012), Page 509-540</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1012.3978v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1012.3978v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="90C05 (Primary) 05B35, 13P25, 14H45, 52C35 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

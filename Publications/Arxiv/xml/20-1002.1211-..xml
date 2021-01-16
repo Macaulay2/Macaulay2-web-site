@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1002.1211%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1002.1211&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RnF4szj9tVpVwXrUbm+uvZvDKeY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1002.1211v3</id>
+    <updated>2011-05-09T00:45:46Z</updated>
+    <published>2010-02-05T12:34:48Z</published>
+    <title>Spheres arising from multicomplexes</title>
+    <summary>  In 1992, Thomas Bier introduced a surprisingly simple way to construct a
+large number of simplicial spheres. He proved that, for any simplicial complex
+$\Delta$ on the vertex set $V$ with $\Delta \ne 2^V$, the deleted join of
+$\Delta$ with its Alexander dual $\Delta^\vee$ is a combinatorial sphere. In
+this paper, we extend Bier's construction to multicomplexes, and study their
+combinatorial and algebraic properties. We show that all these spheres are
+shellable and edge decomposable, which yields a new class of many shellable
+edge decomposable spheres that are not realizable as polytopes. It is also
+shown that these spheres are related to polarizations and Alexander duality for
+monomial ideals which appear in commutative algebra theory.
+</summary>
+    <author>
+      <name>Satoshi Murai</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jcta.2011.04.015</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jcta.2011.04.015" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages. Improve presentation. To appear in Journal of Combinatorial
+  Theory, Series A</arxiv:comment>
+    <link href="http://arxiv.org/abs/1002.1211v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1002.1211v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B22, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

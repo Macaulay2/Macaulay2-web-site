@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.01015%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.01015&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9YXFo6wYe9ejQg2QO3MtfQrnnNo</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.01015v4</id>
+    <updated>2018-04-26T21:04:30Z</updated>
+    <published>2018-04-03T14:57:15Z</published>
+    <title>The numerical algebraic geometry of bottlenecks</title>
+    <summary>  This is a computational study of bottlenecks on algebraic varieties. The
+bottlenecks of a smooth variety $X \subseteq \mathbb{C}^n$ are the lines in
+$\mathbb{C}^n$ which are normal to $X$ at two distinct points. The main result
+is a numerical homotopy that can be used to approximate all isolated
+bottlenecks. This homotopy has the optimal number of paths under certain
+genericity assumptions. In the process we prove bounds on the number of
+bottlenecks in terms of the Euclidean distance degree. Applications include the
+optimization problem of computing the distance between two real varieties.
+Also, computing bottlenecks may be seen as part of the problem of computing the
+reach of a smooth real variety and efficient methods to compute the reach are
+still to be developed. Relations to triangulation of real varieties and meshing
+algorithms used in computer graphics are discussed in the paper. The resulting
+algorithms have been implemented with Bertini and Macaulay2.
+</summary>
+    <author>
+      <name>David Eklund</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Changed title, added refs</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.01015v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.01015v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

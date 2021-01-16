@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1910.11852%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1910.11852&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jTAkun3I3EckeaYpryiVKHRhN/E</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1910.11852v1</id>
+    <updated>2019-10-25T17:18:21Z</updated>
+    <published>2019-10-25T17:18:21Z</published>
+    <title>From Infinity to Four Dimensions: Higher Residue Pairings and Feynman
+  Integrals</title>
+    <summary>  We study a surprising phenomenon in which Feynman integrals in
+$D=4-2\varepsilon$ space-time dimensions as $\varepsilon \to 0$ can be fully
+characterized by their behavior in the opposite limit, $\varepsilon \to
+\infty$. More concretely, we consider vector bundles of Feynman integrals over
+kinematic spaces, whose connections have a polynomial dependence on
+$\varepsilon$ and are known to be governed by intersection numbers of twisted
+forms. They give rise to differential equations that can be obtained exactly as
+a truncating expansion in either $\varepsilon$ or $1/\varepsilon$. We use the
+latter for explicit computations, which are performed by expanding intersection
+numbers in terms of Saito's higher residue pairings (previously used in the
+context of topological Landau-Ginzburg models and mirror symmetry). These
+pairings localize on critical points of a certain Morse function, which
+correspond to regions in the loop-momentum space that were previously thought
+to govern only the large-$D$ physics. The results of this work leverage recent
+understanding of an analogous situation for moduli spaces of curves, where the
+$\alpha' \to 0$ and $\alpha' \to \infty$ limits of intersection numbers
+coincide for scattering amplitudes of massless quantum field theories.
+</summary>
+    <author>
+      <name>Sebastian Mizera</name>
+    </author>
+    <author>
+      <name>Andrzej Pokraka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1910.11852v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1910.11852v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

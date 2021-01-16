@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.06851%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.06851&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//EO4vWST4HrrNxclsfL5V3ru1uc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.06851v1</id>
+    <updated>2016-10-18T19:50:00Z</updated>
+    <published>2016-10-18T19:50:00Z</published>
+    <title>Polynomial interpolation in higher dimension: from simplicial complexes
+  to GC sets</title>
+    <summary>  Geometrically characterized (GC) sets were introduced by Chung-Yao in their
+work on polynomial interpolation in R^d. Conjectures on the structure of GC
+sets have been proposed by Gasca-Maeztu for the planar case, and in higher
+dimension by de Boor and Apozyan-Hakopian. We investigate GC sets in dimension
+three or more, and show that one way to obtain such sets is from the
+combinatorics of simplicial complexes.
+</summary>
+    <author>
+      <name>Nathan Fieldsteel</name>
+    </author>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1610.06851v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.06851v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 41A05, Secondary 41A10, 41A65" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

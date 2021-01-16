@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.04010%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.04010&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3xo29DZXuuW9as81SLNeP+G+Hhs</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.04010v1</id>
+    <updated>2021-01-11T16:35:59Z</updated>
+    <published>2021-01-11T16:35:59Z</published>
+    <title>Consequences of the packing problem</title>
+    <summary>  We study several consequences of the packing problem, a conjecture from
+combinatorial optimization, using algebraic invariants of square-free monomial
+ideals. While the packing problem is currently unresolved, we successfully
+settle the validity of its consequences. Our work prompts additional questions
+and conjectures, which are presented together with their motivation.
+</summary>
+    <author>
+      <name>Hrishikesh Bodas</name>
+    </author>
+    <author>
+      <name>Benjamin Drabkin</name>
+    </author>
+    <author>
+      <name>Caleb Fong</name>
+    </author>
+    <author>
+      <name>Su Jin</name>
+    </author>
+    <author>
+      <name>Justin Kim</name>
+    </author>
+    <author>
+      <name>Wenxuan Li</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Tingting Tang</name>
+    </author>
+    <author>
+      <name>Brendan Williams</name>
+    </author>
+    <link href="http://arxiv.org/abs/2101.04010v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.04010v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

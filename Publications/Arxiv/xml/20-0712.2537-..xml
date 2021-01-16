@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0712.2537%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0712.2537&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DI0r17zFi8KAddlDjGoiaL+28Ro</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0712.2537v1</id>
+    <updated>2007-12-15T21:35:24Z</updated>
+    <published>2007-12-15T21:35:24Z</published>
+    <title>Betti numbers of monomial ideals and shifted skew shapes</title>
+    <summary>  We present two new problems on lower bounds for resolution Betti numbers of
+monomial ideals generated in a fixed degree. The first concerns any such ideal
+and bounds the total Betti numbers, while the second concerns ideals that are
+quadratic and bihomogeneous with respect to two variable sets, but gives a more
+finely graded lower bound.
+  These problems are solved for certain classes of ideals that generalize (in
+two different directions) the edge ideals of threshold graphs and Ferrers
+graphs. In the process, we produce particularly simple cellular linear
+resolutions for strongly stable and squarefree strongly stable ideals generated
+in a fixed degree, and combinatorial interpretations for the Betti numbers of
+other classes of ideals, all of which are independent of the coefficient field.
+</summary>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <author>
+      <name>Victor Reiner</name>
+    </author>
+    <link href="http://arxiv.org/abs/0712.2537v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0712.2537v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.07140%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.07140&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W7x1OfwrV/AigK+17vjxGovd/p0</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.07140v1</id>
+    <updated>2018-10-16T17:13:14Z</updated>
+    <published>2018-10-16T17:13:14Z</published>
+    <title>Regularity and $h$-polynomials of edge ideals</title>
+    <summary>  For any two integers $d,r \geq 1$, we show that there exists an edge ideal
+$I(G)$ such that the ${\rm reg}\left(R/I(G)\right)$, the Castelnuovo-Mumford
+regularity of $R/I(G)$, is $r$, and ${\rm deg} (h_{R/I(G)}(t))$, the degree of
+the $h$-polynomial of $R/I(G)$, is $d$. Additionally, if $G$ is a graph on $n$
+vertices, we show that ${\rm reg}\left(R/I(G)\right) + {\rm deg}
+(h_{R/I(G)}(t)) \leq n$.
+</summary>
+    <author>
+      <name>Takayuki Hibi</name>
+    </author>
+    <author>
+      <name>Kazunori Matsuda</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages; comments welcomed</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.07140v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.07140v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D40, 05C69, 05C70, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1504.04415%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1504.04415&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HXgzSL9HTsifD0O5GXIedzEcOFM</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1504.04415v1</id>
+    <updated>2015-04-17T01:16:07Z</updated>
+    <published>2015-04-17T01:16:07Z</published>
+    <title>Free resolutions of some Schubert singularities</title>
+    <summary>  In this paper we construct free resolutions of certain class of closed
+subvarieties of affine spaces (the so-called "opposite big cells" of
+Grassmannians). Our class covers the determinantal varieties, whose resolutions
+were first constructed by A. Lascoux (Adv. Math., 1978). Our approach uses the
+geometry of Schubert varieties. An interesting aspect of our work is its
+connection to the computation of the cohomology of homogeneous bundles (that
+are not necessarily completely reducible) on partial flag varieties.
+</summary>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <author>
+      <name>V. Lakshmibai</name>
+    </author>
+    <author>
+      <name>Pramathanath Sastry</name>
+    </author>
+    <author>
+      <name>C. S. Seshadri</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1504.04415v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1504.04415v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 13D25, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

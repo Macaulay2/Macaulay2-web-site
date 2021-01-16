@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0511683%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0511683&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qHh2icU/0uimyVKJvkhKBsH5aIw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0511683v1</id>
+    <updated>2005-11-28T15:04:28Z</updated>
+    <published>2005-11-28T15:04:28Z</published>
+    <title>A probabilistic algorithm for the secant defect of Grassmann varieties</title>
+    <summary>  In this paper we study the higher secant varieties of Grassmann varieties in
+relation to Waring's problem for alternating tensors and to
+Alexander-Hirschowitz theorem. We show how to identify defective higher secant
+varieties of Grassmannians using a probabilistic method involving Terracini's
+Lemma, and we describe an algorithm which can compute, by numerical methods,
+dim(G(k,n)^{s}) for n&lt;=14. Our main result is that, except for Grassmannians of
+lines, if n&lt;=14 and k&lt;=(n-1)/2 (if n=14 we have studied the case k&lt;=5) there
+are only the four known defective cases: G(2,6)^{3}, G(3,7)^{3}, G(3,7)^{4} and
+G(2,8)^{4}.
+</summary>
+    <author>
+      <name>Barbara McGillivray</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0511683v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0511683v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q15 (Primary); 13P10; 15A69 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

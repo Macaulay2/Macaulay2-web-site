@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0905.3964%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0905.3964&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zg1Jm2+JIfY06z8iRhrilUJ7FMA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0905.3964v1</id>
+    <updated>2009-05-25T08:29:01Z</updated>
+    <published>2009-05-25T08:29:01Z</published>
+    <title>A New Solution to the Relative Orientation Problem using only 3 Points
+  and the Vertical Direction</title>
+    <summary>  This paper presents a new method to recover the relative pose between two
+images, using three points and the vertical direction information. The vertical
+direction can be determined in two ways: 1- using direct physical measurement
+like IMU (inertial measurement unit), 2- using vertical vanishing point. This
+knowledge of the vertical direction solves 2 unknowns among the 3 parameters of
+the relative rotation, so that only 3 homologous points are requested to
+position a couple of images. Rewriting the coplanarity equations leads to a
+simpler solution. The remaining unknowns resolution is performed by an
+algebraic method using Grobner bases. The elements necessary to build a
+specific algebraic solver are given in this paper, allowing for a real-time
+implementation. The results on real and synthetic data show the efficiency of
+this method.
+</summary>
+    <author>
+      <name>Mahzad Kalantari</name>
+    </author>
+    <author>
+      <name>Amir Hashemi</name>
+    </author>
+    <author>
+      <name>Franck Jung</name>
+    </author>
+    <author>
+      <name>JeanPierre Guedon</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10851-010-0234-2</arxiv:doi>
+    <link href="http://arxiv.org/abs/0905.3964v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0905.3964v1" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10851-010-0234-2" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

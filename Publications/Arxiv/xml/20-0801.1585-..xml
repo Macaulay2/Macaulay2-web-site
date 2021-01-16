@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0801.1585%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0801.1585&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VUuoCj8fVWetQaz5m+q1deQSJgA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0801.1585v2</id>
+    <updated>2008-04-18T18:11:55Z</updated>
+    <published>2008-01-10T12:24:35Z</published>
+    <title>The Master Space of N=1 Gauge Theories</title>
+    <summary>  The full moduli space M of a class of N=1 supersymmetric gauge theories is
+studied. For gauge theories living on a stack of D3-branes at Calabi-Yau
+singularities X, M is a combination of the mesonic and baryonic branches, the
+former being the symmetric product of X. In consonance with the mathematical
+literature, the single brane moduli space is called the master space F.
+Illustrating with a host of explicit examples, we exhibit many
+algebro-geometric properties of the master space such as when F is toric
+Calabi-Yau, behaviour of its Hilbert series, its irreducible components and its
+symmetries. In conjunction with the plethystic programme, we investigate the
+counting of BPS gauge invariants, baryonic and mesonic, using the geometry of F
+and show how its refined Hilbert series not only engenders the generating
+functions for the counting but also beautifully encode ``hidden'' global
+symmetries of the gauge theory which manifest themselves as symmetries of the
+complete moduli space M for arbitrary number of branes.
+</summary>
+    <author>
+      <name>Davide Forcella</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Alberto Zaffaroni</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1088/1126-6708/2008/08/012</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">84 pages, 14 figures, comments and refs added</arxiv:comment>
+    <link href="http://arxiv.org/abs/0801.1585v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0801.1585v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1088/1126-6708/2008/08/012" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

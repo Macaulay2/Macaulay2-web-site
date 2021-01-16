@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1008.0978%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1008.0978&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eJ9KdfNrMw4qkQjyzLEOkEzwp/g</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1008.0978v2</id>
+    <updated>2011-04-02T13:13:30Z</updated>
+    <published>2010-08-05T14:06:33Z</published>
+    <title>The Degree Complexity of Smooth Surfaces of codimension 2</title>
+    <summary>  D.Bayer and D.Mumford introduced the degree complexity of a projective scheme
+for the given term order as the maximal degree of the reduced Gr\"{o}bner
+basis. It is well-known that the degree complexity with respect to the graded
+reverse lexicographic order is equal to the Castelnuovo-Mumford regularity
+(\cite{BS}). However, little is known about the degree complexity with respect
+to the graded lexicographic order (\cite{A}, \cite{CS}).
+  In this paper, we study the degree complexity of a smooth irreducible surface
+in $\p^4$ with respect to the graded lexicographic order and its geometric
+meaning. Interestingly, this complexity is closely related to the invariants of
+the double curve of a surface under the generic projection.
+  As results, we prove that except a few cases, the degree complexity of a
+smooth surface $S$ of degree $d$ with $h^0(\mathcal I_S(2))\neq 0$ in $\p^4$ is
+given by $2+\binom{\deg Y_1(S)-1}{2}-\rho_{a}(Y_{1}(S))$, where $Y_1(S)$ is a
+double curve of degree $\binom{d-1}{2}-\rho_{a}(S \cap H)$ under a generic
+projection of $S$ (Theorem \ref{mainthm2}). Exceptional cases are either a
+rational normal scroll or a complete intersection surface of $(2,2)$-type or a
+Castelnuovo surface of degree 5 in $\p^4$ whose degree complexities are in fact
+equal to their degrees. This complexity can also be expressed only in terms of
+the maximal degree of defining equations of $I_S$ (Corollary \ref{cor:01} and
+\ref{cor:02}).
+  We also provide some illuminating examples of our results via calculations
+done with {\it Macaulay 2} (Example \ref{Exam:01}).
+</summary>
+    <author>
+      <name>Jeaman Ahn</name>
+    </author>
+    <author>
+      <name>Sijong Kwak</name>
+    </author>
+    <author>
+      <name>YeongSeok Song</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages. Some theorems and examples are added. The case of singular
+  space curves is deleted</arxiv:comment>
+    <link href="http://arxiv.org/abs/1008.0978v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1008.0978v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q10, 14Q20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

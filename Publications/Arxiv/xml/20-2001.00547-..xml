@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.00547%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.00547&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tLVyc0RLsMwqTqZ3aDGMi+gCgvw</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.00547v1</id>
+    <updated>2020-01-02T18:09:14Z</updated>
+    <published>2020-01-02T18:09:14Z</published>
+    <title>Mixed multiplicities and projective degrees of rational maps</title>
+    <summary>  We consider the notion of mixed multiplicities for multigraded modules by
+using Hilbert series, and this is later applied to study the projective degrees
+of rational maps. We use a general framework to determine the projective
+degrees of a rational map via a computation of the multiplicity of the
+saturated special fiber ring. As specific applications, we provide explicit
+formulas for all the projective degrees of rational maps determined by perfect
+ideals of height two or by Gorenstein ideals of height three.
+</summary>
+    <author>
+      <name>Yairon Cid-Ruiz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2001.00547v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.00547v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13H15, 14E05, Secondary 13A30, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

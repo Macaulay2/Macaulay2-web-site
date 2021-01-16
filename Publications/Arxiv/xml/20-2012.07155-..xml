@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.07155%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.07155&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EBmx3Qbg2kQxNr2dbv5yBYLegf8</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.07155v1</id>
+    <updated>2020-12-13T21:15:43Z</updated>
+    <published>2020-12-13T21:15:43Z</published>
+    <title>Smooth Fano intrinsic Grassmannians of type $(2,n)$ with Picard number
+  two</title>
+    <summary>  We introduce the notion of intrinsic Grassmannians which generalizes the well
+known weighted Grassmannians. An intrinsic Grassmannian is a normal projective
+variety whose Cox ring is defined by the Pl\"ucker ideal $I_{d,n}$ of the
+Grassmannian $\mathrm{Gr}(d,n)$. We give a complete classification of all
+smooth Fano intrinsic Grassmannians of type $(2,n)$ with Picard number two and
+prove an explicit formula to compute the total number of such varieties for an
+arbitrary $n$. We study their geometry and show that they satisfy Fujita's
+freeness conjecture.
+</summary>
+    <author>
+      <name>Muhammad Imran Qureshi</name>
+    </author>
+    <author>
+      <name>Milena Wrobel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.07155v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.07155v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J45, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

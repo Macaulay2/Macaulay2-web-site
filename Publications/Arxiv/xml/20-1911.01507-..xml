@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1911.01507%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1911.01507&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/K0MRkjCElkFRkd6dSKigcMlwigU</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1911.01507v1</id>
+    <updated>2019-11-04T22:07:56Z</updated>
+    <published>2019-11-04T22:07:56Z</published>
+    <title>Minimal Solvers for Rectifying from Radially-Distorted Conjugate
+  Translations</title>
+    <summary>  This paper introduces minimal solvers that jointly solve for
+affine-rectification and radial lens undistortion from the image of translated
+and reflected coplanar features. The proposed solvers use the invariant that
+the affine-rectified image of the meet of the joins of radially-distorted
+conjugately-translated point correspondences is on the line at infinity. The
+hidden-variable trick from algebraic geometry is used to reformulate and
+simplify the constraints so that the generated solvers are stable, small and
+fast. Multiple solvers are proposed to accommodate various local feature types
+and sampling strategies, and, remarkably, three of the proposed solvers can
+recover rectification and lens undistortion from only one radially-distorted
+conjugately-translated affine-covariant region correspondence. Synthetic and
+real-image experiments confirm that the proposed solvers demonstrate superior
+robustness to noise compared to the state of the art. Accurate rectifications
+on imagery taken with narrow to fisheye field-of-view lenses demonstrate the
+wide applicability of the proposed method. The method is fully automatic.
+</summary>
+    <author>
+      <name>James Pritts</name>
+    </author>
+    <author>
+      <name>Zuzana Kukelova</name>
+    </author>
+    <author>
+      <name>Viktor Larsson</name>
+    </author>
+    <author>
+      <name>Yaroslava Lochman</name>
+    </author>
+    <author>
+      <name>Ondřej Chum</name>
+    </author>
+    <link href="http://arxiv.org/abs/1911.01507v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1911.01507v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

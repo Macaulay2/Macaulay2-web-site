@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.4157%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.4157&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VfrJUk8AklVcZ5Ft2KWxd2QeTY4</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.4157v1</id>
+    <updated>2014-03-17T16:40:55Z</updated>
+    <published>2014-03-17T16:40:55Z</published>
+    <title>An algorithm for generic and low-rank specific identifiability of
+  complex tensors</title>
+    <summary>  We propose a new sufficient condition for verifying whether generic rank-r
+complex tensors of arbitrary order admit a unique decomposition as a linear
+combination of rank-1 tensors. A practical algorithm is proposed for verifying
+this condition, with which it was established that in all spaces of dimension
+less than 15000, with a few known exceptions, listed in the paper, generic
+identifiability holds for ranks up to one less than the generic rank of the
+space. This is the largest possible rank value for which generic
+identifiability can hold, except for spaces with a perfect shape. The algorithm
+can also verify the identifiability of a given specific rank-r decomposition,
+provided that it can be shown to correspond to a nonsingular point of the r-th
+order secant variety. For sufficiently small rank, which nevertheless improves
+upon the known bounds for specific identifiability, some local equations of
+this variety are known, allowing us to verify this property. As a particular
+example of our approach, we prove the identifiability of a specific 5x5x5
+tensor of rank 7, which cannot be handled by the conditions recently provided
+in [I. Domanov and L. De Lathauwer, On the Uniqueness of the Canonical Polyadic
+Decomposition of third-order tensors--Part II: Uniqueness of the overall
+decomposition, SIAM J. Matrix Anal. Appl. 34(3), 2013]. Finally, we also
+present a surprising new class of weakly-defective Segre varieties that
+nevertheless turns out to admit a generically unique decomposition.
+</summary>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <author>
+      <name>Nick Vannieuwenhoven</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, one C++ code and two Macaulay2 codes as ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.4157v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.4157v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14A10, 14A25, 15A69, 15A21, 14Q15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

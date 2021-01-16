@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.02773%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.02773&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lbmbg0GvQfs5gRAF9SSmuqSmnlg</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.02773v1</id>
+    <updated>2019-09-06T08:49:53Z</updated>
+    <published>2019-09-06T08:49:53Z</published>
+    <title>Joins, Ears and Castelnuovo-Mumford regularity</title>
+    <summary>  We introduce a new class of polynomial ideals associated to a simple graph,
+$G$. Let $K[E_G]$ be the polynomial ring on the edges of $G$ and $K[V_G]$ the
+polynomial ring on the vertices of $G$. We associate to $G$ an ideal, $I(X_G)$,
+defined as the preimage of $(x_i^2-x_j^2 : i,j\in V_G)\subseteq K[V_G]$ by the
+map $K[E_G]\to K[V_G]$ which sends a variable, $t_e$, associated to an edge
+$e=\{i,j\}$, to the product $x_ix_j$ of the variables associated to its
+vertices. We show that $K[E_G]/I(X_G)$ is a one-dimensional, Cohen-Macaulay,
+graded ring, that $I(X_G)$ is a binomial ideal and that, with respect to a
+fixed monomial order, its initial ideal has a generating set independent of the
+field $K$. We focus on the Castelnuovo-Mumford regularity of $I(X_G)$ providing
+the following sharp upper and lower bounds: $$ \mu(G) \leq \operatorname{reg}
+I(X_G) \leq |V_G|-b_0(G)+1, $$ where $\mu(G)$ is the maximum vertex join number
+of the graph and $b_0(G)$ is the number of its connected components. We show
+that the lower bound is attained for a bipartite graph and use this to derive a
+new combinatorial result on the number of even length ears of nested ear
+decomposition.
+</summary>
+    <author>
+      <name>Jorge Neves</name>
+    </author>
+    <author>
+      <name>Maria Vaz Pinto</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <link href="http://arxiv.org/abs/1909.02773v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.02773v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 13P20, 05E40, 05C70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

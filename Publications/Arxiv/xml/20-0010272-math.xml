@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0010272%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0010272&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2oqcdQlWqktcc2llGm3nBwoKTAg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0010272v2</id>
+    <updated>2000-11-07T22:37:47Z</updated>
+    <published>2000-10-27T20:30:42Z</published>
+    <title>Elliptic functions and equations of modular curves</title>
+    <summary>  Let $p\ge 5$ be a prime. We show that the space of weight one Eisenstein
+series defines an embedding into $\PP^{(p-3)/2}$ of the modular curve $X_1(p)$
+for the congruence group $\Gamma_1(p)$ that is scheme-theoretically cut out by
+explicit quadratic equations.
+</summary>
+    <author>
+      <name>Lev Borisov</name>
+    </author>
+    <author>
+      <name>Paul Gunnells</name>
+    </author>
+    <author>
+      <name>Sorin Popescu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">AMS-LaTeX, 15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0010272v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0010272v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F11; 14G35; 14H52; 14H70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.08989%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.08989&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sXWzUWnmst2Xzt/vDedHTg+wM/c</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08989v1</id>
+    <updated>2020-11-17T22:37:27Z</updated>
+    <published>2020-11-17T22:37:27Z</published>
+    <title>Maximum Likelihood Estimation for Nets of Conics</title>
+    <summary>  We study the problem of maximum likelihood estimation for $3$-dimensional
+linear spaces of $3\times 3$ symmetric matrices from the point of view of
+algebraic statistics where we view these nets of conics as linear concentration
+or linear covariance models of Gaussian distributions on $\mathbb{R}^3$. In
+particular, we study the reciprocal surfaces of nets of conics which are
+rational surfaces in $\mathbb{P}^5$. We show that the reciprocal surfaces are
+projections from the Veronese surface and determine their intersection with the
+polar nets. This geometry explains the maximum likelihood degrees of these
+linear models. We compute the reciprocal maximum likelihood degrees. This work
+is based on Wall's classification of nets of conics from 1977.
+</summary>
+    <author>
+      <name>Stefan Dye</name>
+    </author>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Felix Rydell</name>
+    </author>
+    <author>
+      <name>Rainer Sinn</name>
+    </author>
+    <link href="http://arxiv.org/abs/2011.08989v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.08989v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

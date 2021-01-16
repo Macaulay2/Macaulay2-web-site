@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1310.4915%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1310.4915&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/E8kP0BGRkJbdpX2rWC4ejoIhYyc</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1310.4915v1</id>
+    <updated>2013-10-18T04:33:26Z</updated>
+    <published>2013-10-18T04:33:26Z</published>
+    <title>Fitting ideals and multiple-points of surface parameterizations</title>
+    <summary>  Given a birational parameterization of an algebraic surface S in the
+projective space, the purpose of this paper is to investigate the sets of
+points on S whose preimage consists in k or more points, counting
+multiplicities. They are described explicitly in terms of Fitting ideals of
+some graded parts of the symmetric algebra associated to this parameterization.
+</summary>
+    <author>
+      <name>Nicolás Botbol</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">DM-UBA</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Laurent Busé</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">INRIA Sophia Antipolis</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Marc Chardin</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ, UPMC</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/1310.4915v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1310.4915v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

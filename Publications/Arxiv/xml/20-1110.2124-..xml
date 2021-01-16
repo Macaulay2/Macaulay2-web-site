@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.2124%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.2124&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Vdde1Q6Z5O+vwGKMug13k94fbWw</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.2124v2</id>
+    <updated>2013-06-21T17:27:32Z</updated>
+    <published>2011-10-10T18:01:42Z</published>
+    <title>The Degree and regularity of vanishing ideals of algebraic toric sets
+  over finite fields</title>
+    <summary>  Let X* be a subset of an affine space A^s, over a finite field K, which is
+parameterized by the edges of a clutter. Let X and Y be the images of X* under
+the maps x --&gt; [x] and x --&gt; [(x,1)] respectively, where [x] and [(x,1)] are
+points in the projective spaces P^{s-1} and P^s respectively. For certain
+clutters and for connected graphs, we were able to relate the algebraic
+invariants and properties of the vanishing ideals I(X) and I(Y). In a number of
+interesting cases, we compute its degree and regularity. For Hamiltonian
+bipartite graphs, we show the Eisenbud-Goto regularity conjecture. We give
+optimal bounds for the regularity when the graph is bipartite. It is shown that
+X* is an affine torus if and only if I(Y) is a complete intersection. We
+present some applications to coding theory and show some bounds for the minimum
+distance of parameterized linear codes for connected bipartite graphs.
+</summary>
+    <author>
+      <name>Maria Vaz Pinto</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1080/00927872.2012.686643</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1080/00927872.2012.686643" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Comm. Algebra 41 (2013), no. 9, 3376--3396</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1110.2124v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.2124v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 13P25, 11T71, 94B25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

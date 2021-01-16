@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0411051%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0411051&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zySo5zkHTi7G96VVrAvvGF95yFI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0411051v1</id>
+    <updated>2004-11-02T17:51:13Z</updated>
+    <published>2004-11-02T17:51:13Z</published>
+    <title>Construction of rational surfaces of degree 12 in projective fourspace
+  (with an appendix by Kristian Ranestad)</title>
+    <summary>  The aim of this paper is to present two different constructions of smooth
+rational surfaces in projective fourspace with degree 12 and sectional genus
+13. In particular, we establish the existences of five different families of
+smooth rational surfaces in projective fourspace with the prescribed
+invariants.
+</summary>
+    <author>
+      <name>Hirotachi Abo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">See http://www.math.colostate.edu/~abo/programs.html for the
+  Macaulay2 scripts</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0411051v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0411051v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J26" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

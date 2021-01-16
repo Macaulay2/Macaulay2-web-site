@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.09215%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.09215&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wRNc+dz+SqZNq8r/GGdF4634iNg</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.09215v2</id>
+    <updated>2018-03-16T17:57:45Z</updated>
+    <published>2017-12-26T09:12:54Z</published>
+    <title>Feynman integral relations from parametric annihilators</title>
+    <summary>  We study shift relations between Feynman integrals via the Mellin transform
+through parametric annihilation operators. These contain the momentum space IBP
+relations, which are well-known in the physics literature. Applying a result of
+Loeser and Sabbah, we conclude that the number of master integrals is computed
+by the Euler characteristic of the Lee-Pomeransky polynomial. We illustrate
+techniques to compute this Euler characteristic in various examples and compare
+it with numbers of master integrals obtained in previous works.
+</summary>
+    <author>
+      <name>Thomas Bitoun</name>
+    </author>
+    <author>
+      <name>Christian Bogner</name>
+    </author>
+    <author>
+      <name>Rene Pascal Klausen</name>
+    </author>
+    <author>
+      <name>Erik Panzer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: new section 3.1 added, several misprints corrected and additional
+  remarks</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.09215v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.09215v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

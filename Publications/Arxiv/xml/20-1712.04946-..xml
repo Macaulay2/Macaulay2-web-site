@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.04946%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.04946&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4am2MprhP6If8Mxcnw5fQzdZ5Go</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.04946v1</id>
+    <updated>2017-12-13T19:00:02Z</updated>
+    <published>2017-12-13T19:00:02Z</published>
+    <title>The Hodge Numbers of Divisors of Calabi-Yau Threefold Hypersurfaces</title>
+    <summary>  We prove a formula for the Hodge numbers of square-free divisors of
+Calabi-Yau threefold hypersurfaces in toric varieties. Euclidean branes
+wrapping divisors affect the vacuum structure of Calabi-Yau compactifications
+of type IIB string theory, M-theory, and F-theory. Determining the
+nonperturbative couplings due to Euclidean branes on a divisor $D$ requires
+counting fermion zero modes, which depend on the Hodge numbers
+$h^i({\cal{O}}_D)$. Suppose that $X$ is a smooth Calabi-Yau threefold
+hypersurface in a toric variety $V$, and let $D$ be the restriction to $X$ of a
+square-free divisor of $V$. We give a formula for $h^i({\cal{O}}_D)$ in terms
+of combinatorial data. Moreover, we construct a CW complex $\mathscr{P}_D$ such
+that $h^i({\cal{O}}_D)=h_i(\mathscr{P}_D)$. We describe an efficient algorithm
+that makes possible for the first time the computation of sheaf cohomology for
+such divisors at large $h^{1,1}$. As an illustration we compute the Hodge
+numbers of a class of divisors in a threefold with $h^{1,1}=491$. Our results
+are a step toward a systematic computation of Euclidean brane superpotentials
+in Calabi-Yau hypersurfaces.
+</summary>
+    <author>
+      <name>Andreas P. Braun</name>
+    </author>
+    <author>
+      <name>Cody Long</name>
+    </author>
+    <author>
+      <name>Liam McAllister</name>
+    </author>
+    <author>
+      <name>Michael Stillman</name>
+    </author>
+    <author>
+      <name>Benjamin Sung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">67 pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1712.04946v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.04946v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1403.0585%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1403.0585&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/S1t+xmDl+QgEzCuePdizRmD9VGI</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1403.0585v2</id>
+    <updated>2014-09-23T16:12:49Z</updated>
+    <published>2014-03-03T21:00:30Z</published>
+    <title>Coulomb branch Hilbert series and Hall-Littlewood polynomials</title>
+    <summary>  There has been a recent progress in understanding the chiral ring of 3d
+$\mathcal{N}=4$ superconformal gauge theories by explicitly constructing an
+exact generating function (Hilbert series) counting BPS operators on the
+Coulomb branch. In this paper we introduce Coulomb branch Hilbert series in the
+presence of background magnetic charges for flavor symmetries, which are useful
+for computing the Hilbert series of more general theories through gluing
+techniques. We find a simple formula of the Hilbert series with background
+magnetic charges for $T_\rho(G)$ theories in terms of Hall-Littlewood
+polynomials. Here $G$ is a classical group and $\rho$ is a certain partition
+related to the dual group of $G$. The Hilbert series for vanishing background
+magnetic charges show that Coulomb branches of $T_\rho(G)$ theories are
+complete intersections. We also demonstrate that mirror symmetry maps
+background magnetic charges to baryonic charges.
+</summary>
+    <author>
+      <name>Stefano Cremonesi</name>
+    </author>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Noppadol Mekareeya</name>
+    </author>
+    <author>
+      <name>Alberto Zaffaroni</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v1: 40 pages + appendices, 3 figures; v2: minor revision, version to
+  appear in JHEP</arxiv:comment>
+    <link href="http://arxiv.org/abs/1403.0585v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1403.0585v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

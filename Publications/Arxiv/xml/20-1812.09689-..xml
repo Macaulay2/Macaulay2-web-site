@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.09689%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.09689&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Rwva3TaxMgprIfPurBQbC1c8MNU</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.09689v1</id>
+    <updated>2018-12-23T11:09:43Z</updated>
+    <published>2018-12-23T11:09:43Z</published>
+    <title>Symplectic and Kähler structures on biquotients</title>
+    <summary>  We construct symplectic structures on roughly half of all equal rank
+biquotients of the form $G//T$, where $G$ is a compact simple Lie group and $T$
+a torus, and investigate Hamiltonian Lie group actions on them. In addition to
+the previously known K\"ahler structure on the Eschenburg flag, we find another
+K\"ahler structure on one of the biquotients.
+</summary>
+    <author>
+      <name>Oliver Goertsches</name>
+    </author>
+    <author>
+      <name>Panagiotis Konstantis</name>
+    </author>
+    <author>
+      <name>Leopold Zoller</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages. Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.09689v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.09689v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

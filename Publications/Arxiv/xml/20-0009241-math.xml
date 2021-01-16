@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0009241%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0009241&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LZDXN38fEIK1n8K9p7h+qlwYmDM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0009241v1</id>
+    <updated>2000-09-29T04:20:30Z</updated>
+    <published>2000-09-29T04:20:30Z</published>
+    <title>Syzygies of Oriented Matroids</title>
+    <summary>  We construct minimal cellular resolutions of squarefree monomial ideals
+arising from hyperplane arrangements, matroids and oriented matroids. These are
+Stanley-Reisner ideals of complexes of independent sets, and of triangulations
+of Lawrence matroid polytopes. Our resolution provides a cellular realization
+of Stanley's formula for their Betti numbers. For unimodular matroids our
+resolutions are related to hyperplane arrangements on tori, and we recover the
+resolutions constructed by Bayer, Popescu and Sturmfels. We resolve the
+combinatorial problems posed in their paper by computing Mobius invariants of
+graphic and cographic arrangements in terms of Hermite polynomials.
+</summary>
+    <author>
+      <name>I. Novik</name>
+    </author>
+    <author>
+      <name>A. Postnikov</name>
+    </author>
+    <author>
+      <name>B. Sturmfels</name>
+    </author>
+    <link href="http://arxiv.org/abs/math/0009241v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0009241v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B35; 52C35; 52C40; 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

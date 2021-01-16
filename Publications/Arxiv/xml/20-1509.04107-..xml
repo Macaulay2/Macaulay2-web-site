@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.04107%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.04107&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yXEH9/dDePo4d6IQFDntPKP3Zm4</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.04107v1</id>
+    <updated>2015-09-14T14:21:11Z</updated>
+    <published>2015-09-14T14:21:11Z</published>
+    <title>The homological projective dual of Sym^2 P(V)</title>
+    <summary>  We study the derived category of a complete intersection X of bilinear
+divisors in the orbifold Sym^2 P(V). Our results are in the spirit of
+Kuznetsov's theory of homological projective duality, and we describe a
+homological projective duality relation between Sym^2 P(V) and a category of
+modules over a sheaf of Clifford algebras on P(Sym^2 V^vee).
+  The proof follows a recently developed strategy combining variation of GIT
+stability and categories of global matrix factorisations. We begin by
+translating D^b(X) into a derived category of factorisations on an LG model,
+and then apply VGIT to obtain a birational LG model. Finally, we interpret the
+derived factorisation category of the new LG model as a Clifford module
+category.
+  In some cases we can compute this Clifford module category as the derived
+category of a variety. As a corollary we get a new proof of a result of Hosono
+and Takagi, which says that a certain pair of nonbirational Calabi-Yau 3-folds
+have equivalent derived categories.
+</summary>
+    <author>
+      <name>Jørgen Vold Rennemo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">54 pages, Ph.D. thesis</arxiv:comment>
+    <link href="http://arxiv.org/abs/1509.04107v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.04107v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F05 (Primary) 16E35, 53D37 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

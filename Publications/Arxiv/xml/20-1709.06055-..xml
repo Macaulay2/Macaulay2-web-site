@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1709.06055%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1709.06055&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Tut1gO+olslor3JMsBVMT09P5zo</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.06055v1</id>
+    <updated>2017-09-18T17:17:26Z</updated>
+    <published>2017-09-18T17:17:26Z</published>
+    <title>Dual Conformal Symmetry, Integration-by-Parts Reduction, Differential
+  Equations and the Nonplanar Sector</title>
+    <summary>  We show that dual conformal symmetry, mainly studied in planar $\mathcal N =
+4$ super-Yang-Mills theory, has interesting consequences for Feynman integrals
+in nonsupersymmetric theories such as QCD, including the nonplanar sector. A
+simple observation is that dual conformal transformations preserve unitarity
+cut conditions for any planar integrals, including those without dual conformal
+symmetry. Such transformations generate differential equations without raised
+propagator powers, often with the right hand side of the system proportional to
+the dimensional regularization parameter $\epsilon$. A nontrivial subgroup of
+dual conformal transformations, which leaves all external momenta invariant,
+generates integration-by-parts relations without raised propagator powers,
+reproducing, in a simpler form, previous results from computational algebraic
+geometry for several examples with up to two loops and five legs. By opening up
+the two-loop three- and four-point nonplanar diagrams into planar ones, we find
+a nonplanar analog of dual conformal symmetry. As for the planar case this is
+used to generate integration-by-parts relations and differential equations.
+This implies that the symmetry is tied to the analytic properties of the
+nonplanar sector of the two-loop four-point amplitude of $\mathcal N = 4$
+super-Yang-Mills theory.
+</summary>
+    <author>
+      <name>Zvi Bern</name>
+    </author>
+    <author>
+      <name>Michael Enciso</name>
+    </author>
+    <author>
+      <name>Harald Ita</name>
+    </author>
+    <author>
+      <name>Mao Zeng</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevD.96.096017</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevD.96.096017" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">66 pages, 14 figures, REVTeX</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys. Rev. D 96, 096017 (2017)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1709.06055v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.06055v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

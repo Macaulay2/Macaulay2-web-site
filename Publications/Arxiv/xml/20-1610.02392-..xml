@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1610.02392%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1610.02392&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/D7k6c77kSkl9zcoNWCfKO/cBi30</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1610.02392v1</id>
+    <updated>2016-10-07T19:57:41Z</updated>
+    <published>2016-10-07T19:57:41Z</published>
+    <title>An Automatic System for Acoustic Microphone Geometry Calibration based
+  on Minimal Solvers</title>
+    <summary>  In this paper, robust detection, tracking and geometry estimation methods are
+developed and combined into a system for estimating time-difference estimates,
+microphone localization and sound source movement. No assumptions on the 3D
+locations of the microphones and sound sources are made. The system is capable
+of tracking continuously moving sound sources in an reverberant environment.
+The multi-path components are explicitly tracked and used in the geometry
+estimation parts. The system is based on matching between pairs of channels
+using GCC-PHAT. Instead of taking a single maximum at each time instant from
+each such pair, we select the four strongest local maxima. This produce a set
+of hypothesis to work with in the subsequent steps, where consistency
+constraints between the channels and time-continuity constraints are exploited.
+In the paper it demonstrated how such detections can be used to estimate
+microphone positions, sound source movement and room geometry. The methods are
+tested and verified using real data from several reverberant environments. The
+evaluation demonstrated accuracy in the order of few millimeters.
+</summary>
+    <author>
+      <name>Simayijiang Zhayida</name>
+    </author>
+    <author>
+      <name>Simon Segerblom Rex</name>
+    </author>
+    <author>
+      <name>Yubin Kuang</name>
+    </author>
+    <author>
+      <name>Fredrik Andersson</name>
+    </author>
+    <author>
+      <name>Kalle Åström</name>
+    </author>
+    <link href="http://arxiv.org/abs/1610.02392v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1610.02392v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

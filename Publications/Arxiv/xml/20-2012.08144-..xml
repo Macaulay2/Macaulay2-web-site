@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.08144%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.08144&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MLEFUxQmFeX/4Y4HQf4fGkH2qo8</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.08144v1</id>
+    <updated>2020-12-15T08:20:52Z</updated>
+    <published>2020-12-15T08:20:52Z</published>
+    <title>On the configuration of the singular fibers of jet schemes of rational
+  double points</title>
+    <summary>  To each variety $X$ and a nonnegative integer $m$, there is a space $X_m$
+over $X$, called the jet scheme of $X$ of order $m$, parametrizing $m$-th jets
+on $X$. Its fiber over a singular point of $X$ is called a singular fiber. For
+a surface with a rational double point, Mourtada gave a one-to-one
+correspondence between the irreducible components of the singular fiber of
+$X_m$ and the exceptional curves of the minimal resolution of $X$ for $m \gg
+0$.
+  In this paper, for a surface $X$ over complex number with a singularity of
+$A_n$ or $D_4$-type, we study the intersections of irreducible components of
+the singular fiber and construct a graph using this information. The vertices
+of the graph correspond to irreducible components of the singular fiber and two
+vertices are connected when the intersection of the corresponding components is
+maximal for the inclusion relation. In the case of $A_n$ or $D_4$-type
+singularity, we show that this graph is isomorphic to the resolution graph for
+$m \gg 0$.
+</summary>
+    <author>
+      <name>Yoshimune Koreeda</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.08144v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.08144v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

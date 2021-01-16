@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.06214%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.06214&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vGbUCfBPgR9V9vw6SPz9qgbmUAc</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.06214v2</id>
+    <updated>2016-02-11T10:21:02Z</updated>
+    <published>2015-09-21T13:07:30Z</published>
+    <title>A very special EPW sextic and two IHS fourfolds</title>
+    <summary>  We show that the Hilbert scheme of two points on the Vinberg $K3$ surface has
+a 2:1 map onto a very symmetric EPW sextic $Y$ in $\mathbb{P}^5$. The fourfold
+$Y$ is singular along $60$ planes, $20$ of which form a complete family of
+incident planes. This solves a problem of Morin and O'Grady and establishes
+that $20$ is the maximal cardinality of such a family of planes. Next, we show
+that this Hilbert scheme is birationally isomorphic to the Kummer type IHS
+fourfold $X_0$ constructed in [DW]. We find that $X_0$ is also related to the
+Debarre-Varley abelian fourfold.
+</summary>
+    <author>
+      <name>Maria Donten-Bury</name>
+    </author>
+    <author>
+      <name>Bert van Geemen</name>
+    </author>
+    <author>
+      <name>Grzegorz Kapustka</name>
+    </author>
+    <author>
+      <name>Michał Kapustka</name>
+    </author>
+    <author>
+      <name>Jarosław A. Wiśniewski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1509.06214v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.06214v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14M07, 14D06, 14J70, 14J35, 14J28, 14J50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

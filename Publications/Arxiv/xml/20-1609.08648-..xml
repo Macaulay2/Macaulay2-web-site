@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.08648%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.08648&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HJJmyjk/q86NIfNCS7YSboJZIqY</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.08648v1</id>
+    <updated>2016-09-27T20:19:41Z</updated>
+    <published>2016-09-27T20:19:41Z</published>
+    <title>Negative curves on symmetric blowups of the projective plane,
+  resurgences and Waldschmidt constants</title>
+    <summary>  The Klein and Wiman configurations are highly symmetric configurations of
+lines in the projective plane arising from complex reflection groups. One
+noteworthy property of these configurations is that all the singularities of
+the configuration have multiplicity at least three. In this paper we study the
+surface X obtained by blowing up the projective plane in the singular points of
+one of these line configurations. We study invariant curves on X in detail,
+with a particular emphasis on curves of negative self-intersection. We use the
+representation theory of the stabilizers of the singular points to discover
+several invariant curves of negative self-intersection on X, and use these
+curves to study Nagata-type questions for linear series on X.
+  The homogeneous ideal I of the collection of points in the configuration is
+an example of an ideal where the symbolic cube of the ideal is not contained in
+the square of the ideal; ideals with this property are seemingly quite rare.
+The resurgence and asymptotic resurgence are invariants which were introduced
+to measure such failures of containment. We use our knowledge of negative
+curves on X to compute the resurgence of I exactly. We also compute the
+asymptotic resurgence and Waldschmidt constant exactly in the case of the Wiman
+configuration of lines, and provide estimates on both for the Klein
+configuration.
+</summary>
+    <author>
+      <name>Thomas Bauer</name>
+    </author>
+    <author>
+      <name>Sandra Di Rocco</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Jack Huizenga</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Tomasz Szemberg</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.08648v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.08648v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C20, 14J26, 13A50, 13P10 (Primary), 14J50, 14Q20, 11H46, 52C30,&#10;  32S22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

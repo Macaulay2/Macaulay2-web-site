@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1110.6217%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1110.6217&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BKZn8mrSWCD2mYusZug3CJPBa1o</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1110.6217v3</id>
+    <updated>2012-09-02T23:58:57Z</updated>
+    <published>2011-10-27T23:33:54Z</published>
+    <title>Algorithm to find a maximum of a multilinear map over a product of
+  spheres</title>
+    <summary>  We provide an algorithm to compute the 2-norm maximum of a multilinear map
+over a product of spheres. As a corollary we give a method to compute the first
+singular value of a linear map and an application to the theory of entangled
+states in quantum physics. Also, we give an application to find the closest
+rank-one tensor of a given one.
+</summary>
+    <author>
+      <name>Cesar Massri</name>
+    </author>
+    <link href="http://arxiv.org/abs/1110.6217v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1110.6217v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="26-04, 26C10, 49K35, 65-04, 65S05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

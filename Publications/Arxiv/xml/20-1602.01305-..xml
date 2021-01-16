@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.01305%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.01305&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RDgUzvLoPR0Kk1SY8ZlbqnARcA0</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.01305v1</id>
+    <updated>2016-02-03T14:11:36Z</updated>
+    <published>2016-02-03T14:11:36Z</published>
+    <title>On the K-stability of Fano varieties and anticanonical divisors</title>
+    <summary>  We apply a recent theorem of Li and the first author to give some criteria
+for the K-stability of Fano varieties in terms of anticanonical Q-divisors.
+First, we propose a condition in terms of certain anticanonical Q-divisors of
+given Fano variety, which we conjecture to be equivalent to the K-stability. We
+prove that it is at least sufficient condition and also relate to the
+Berman-Gibbs stability. We also give another algebraic proof of the K-stability
+of Fano varieties which satisfy Tian's alpha invariants condition.
+</summary>
+    <author>
+      <name>Kento Fujita</name>
+    </author>
+    <author>
+      <name>Yuji Odaka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.01305v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.01305v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.06288%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.06288&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rJDNzq8QpLTN8ibwDrVd+Y4bGno</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.06288v7</id>
+    <updated>2015-10-07T16:53:36Z</updated>
+    <published>2015-09-21T16:21:38Z</published>
+    <title>Hilbert series of graded Milnor algebras and roots of Bernstein-Sato
+  polynomials</title>
+    <summary>  We show that there is a pair of homogeneous polynomials such that the sets of
+roots of their Bernstein-Sato polynomials which are strictly supported at the
+origin are different although the sets of roots which are not strictly
+supported at the origin are the same and moreover their graded Milnor algebras
+have the same Hilbert series. This shows that the roots of the Bernstein-Sato
+polynomials strictly supported at the origin cannot be determined uniquely by
+the Hilbert series of the Milnor algebras. This is contrary to certain
+hyperplane arrangement cases. It also implies that a nonzero torsion element
+with pure degree in the Milnor algebra does not necessarily contribute to a
+root of the Bernstein-Sato polynomial in an expected way. This example is found
+by using Macaulay2 and RISA/ASIR.
+</summary>
+    <author>
+      <name>Morihiko Saito</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, Remarks A.5 corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/1509.06288v7" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.06288v7" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

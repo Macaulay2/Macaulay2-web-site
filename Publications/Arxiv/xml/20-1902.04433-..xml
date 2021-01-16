@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1902.04433%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1902.04433&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LZze6+LUoX00/PXIQxcyG70Js+k</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1902.04433v2</id>
+    <updated>2019-02-15T10:49:09Z</updated>
+    <published>2019-02-09T11:30:27Z</published>
+    <title>On the multipliers at fixed points of self-maps of the projective plane</title>
+    <summary>  This paper deals with holomorphic self-maps of the complex projective plane
+and the algebraic relations among the eigenvalues of the derivatives at the
+fixed points. These eigenvalues are constrained by certain index theorems such
+as the holomorphic Lefschetz fixed-point theorem. A simple dimensional argument
+suggests there must exist even more algebraic relations that the ones currently
+known. In this work we analyze the case of quadratic self-maps having an
+invariant line and obtain all such relations. We also prove that a generic
+quadratic self-map with an invariant line is completely determined, up to
+linear equivalence, by the collection of these eigenvalues. Under the natural
+correspondence between quadratic rational maps of $\mathbb{P}^2$ and quadratic
+homogeneous vector fields on $\mathbb{C}^3$, the algebraic relations among
+multipliers translate to algebraic relations among the Kowalevski exponents of
+a vector field. As an application of our results, we describe the sets of
+integers that appear as the Kowalevski exponents of a class of quadratic
+homogeneous vector fields on $\mathbb{C}^3$ having exclusively single-valued
+solutions.
+</summary>
+    <author>
+      <name>Adolfo Guillot</name>
+    </author>
+    <author>
+      <name>Valente Ramírez</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 15 ancillary files (plus README files)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1902.04433v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1902.04433v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="37C25, 58C30, 34M35 (Primary), 37F10, 14Q99, 14N99 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

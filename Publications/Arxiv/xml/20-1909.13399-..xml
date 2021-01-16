@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.13399%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.13399&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MRqrV8t2YwKb1R6L3opeDlumRkk</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.13399v2</id>
+    <updated>2019-11-11T17:14:20Z</updated>
+    <published>2019-09-29T23:59:22Z</published>
+    <title>A new bound for smooth spline spaces</title>
+    <summary>  For a planar simplicial complex Delta contained in R^2, Schumaker proved that
+a lower bound on the dimension of the space C^r_k(Delta) of planar splines of
+smoothness r and polynomial degree at most k on Delta is given by a polynomial
+P_Delta(r,k), and Alfeld-Schumaker showed this polynomial gives the correct
+dimension when k &gt;= 4r+1. Examples due to Morgan-Scott, Tohaneanu, and Yuan
+show that the equality dim C^r_k(Delta) = P_Delta(r,k) can fail when k = 2r or
+2r+1. We prove that the equality dim C^r_k(Delta)= P_Delta(r,k) cannot hold in
+general for k &lt;= (22r+7)/10.
+</summary>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Mike Stillman</name>
+    </author>
+    <author>
+      <name>Beihui Yuan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v1: 4 pages, 1 figure. v2: minor stylistic changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.13399v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.13399v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="41A15, 14J60, 52C99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

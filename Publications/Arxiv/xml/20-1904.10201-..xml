@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.10201%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.10201&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RQvNxjeBm5swvJSQb38JnyTRTsA</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.10201v1</id>
+    <updated>2019-04-23T08:40:55Z</updated>
+    <published>2019-04-23T08:40:55Z</published>
+    <title>Graded rings of paramodular forms of levels $5$ and $7$</title>
+    <summary>  We compute generators and relations for the graded rings of paramodular forms
+of degree two and levels 5 and 7. The generators are expressed as quotients of
+Gritsenko lifts and Borcherds products. The computation is made possible by a
+characterization of modular forms on the Humbert surfaces of discriminant 4
+that arise from paramodular forms by restriction.
+</summary>
+    <author>
+      <name>Brandon Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.10201v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.10201v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F27, 11F46" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

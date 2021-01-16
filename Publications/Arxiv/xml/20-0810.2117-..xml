@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0810.2117%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0810.2117&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Vt7Qv+ADT+yWPxvgIjFXZSYmInc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0810.2117v1</id>
+    <updated>2008-10-12T16:48:13Z</updated>
+    <published>2008-10-12T16:48:13Z</published>
+    <title>Linear systems in P^3 with low degrees and low multiplicities</title>
+    <summary>  We prove that the linear system of hypersurfaces in P^3 of degree d, 14 &lt;= d
+&lt;= 40, with double, triple and quadruple points in general position are
+non-special. This solves the cases that have not been completed in a paper by
+E. Ballico and M.C. Brambilla.
+</summary>
+    <author>
+      <name>Marcin Dumnicki</name>
+    </author>
+    <link href="http://arxiv.org/abs/0810.2117v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0810.2117v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J17; 14J70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

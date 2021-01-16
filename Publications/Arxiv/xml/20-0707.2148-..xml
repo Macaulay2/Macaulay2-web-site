@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0707.2148%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0707.2148&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uNn6GHDOKc8Pv3GXD/BTnJNMdOI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0707.2148v2</id>
+    <updated>2008-09-27T14:58:49Z</updated>
+    <published>2007-07-14T13:16:16Z</published>
+    <title>Reducible family of height three level algebras</title>
+    <summary>  Let $R=k[x_1,..., x_r]$ be the polynomial ring in $r$ variables over an
+infinite field $k$, and let $M$ be the maximal ideal of $R$. Here a \emph{level
+algebra} will be a graded Artinian quotient $A$ of $R$ having socle
+$Soc(A)=0:M$ in a single degree $j$. The Hilbert function $H(A)=(h_0,h_1,...
+,h_j)$ gives the dimension $h_i=\dim_k A_i$ of each degree-$i$ graded piece of
+$A$ for $0\le i\le j$. The embedding dimension of $A$ is $h_1$, and the
+\emph{type} of $A$ is $\dim_k \Soc (A)$, here $h_j$. The family $\Levalg (H)$
+of level algebra quotients of $R$ having Hilbert function $H$ forms an open
+subscheme of the family of graded algebras or, via Macaulay duality, of a
+Grassmannian.
+  We show that for each of the Hilbert functions $H=H_1=(1,3,4,4)$ and
+$H=H_2=(1,3,6,8,9,3)$ the family $LevAlg (H)$ parametrizing level Artinian
+algebras of Hilbert function $H$ has several irreducible components. We show
+also that these examples each lift to points. However, in the first example, an
+irreducible Betti stratum for Artinian algebras becomes reducible when lifted
+to points. These were the first examples we obtained of multiple components for
+$\Levalg(H)$ in embedding dimension three.
+  We also show that the second example is the first in an infinite sequence of
+examples of type three Hilbert functions $H(c)$ in which also the number of
+components of LevAlg(H) gets arbitrarily large.
+  The first case where the phenomenon of multiple components can occur (i.e.
+the lowest embedding dimension and then the lowest type) is that of dimension
+three and type two. Examples of this first case have been obtained by the
+authors and also by J.-O. Kleppe.
+</summary>
+    <author>
+      <name>Mats Boij</name>
+    </author>
+    <author>
+      <name>Anthony Iarrobino</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages. Minor revision</arxiv:comment>
+    <link href="http://arxiv.org/abs/0707.2148v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0707.2148v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10 (Primary); 13H10, 13D40, 14D20 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

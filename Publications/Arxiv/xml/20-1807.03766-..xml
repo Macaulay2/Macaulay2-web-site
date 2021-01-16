@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.03766%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.03766&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dyLWPO1IaK259QrikGXwD/a3xQc</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03766v1</id>
+    <updated>2018-07-10T17:28:16Z</updated>
+    <published>2018-07-10T17:28:16Z</published>
+    <title>Nilpotence varieties</title>
+    <summary>  We consider algebraic varieties canonically associated to any Lie
+superalgebra, and study them in detail for super-Poincar\'e algebras of
+physical interest. They are the locus of nilpotent elements in (the
+projectivized parity reversal of) the odd part of the algebra. Most of these
+varieties have appeared in various guises in previous literature, but we study
+them systematically here, from a new perspective: as the natural moduli spaces
+parameterizing twists of a super-Poincar\'e-invariant physical theory. We
+obtain a classification of all possible twists, as well as a systematic
+analysis of unbroken symmetry in twisted theories. The natural stratification
+of the varieties, the identification of strata with twists, and the action of
+Lorentz and $R$-symmetry on the varieties are emphasized. We also include a
+short and unconventional exposition of the pure-spinor superfield formalism,
+from the perspective of twisting, and demonstrate that it can be applied to
+construct familiar multiplets in four-dimensional minimally supersymmetric
+theories; in all dimensions and with any amount of supersymmetry, this
+technique produces BRST or BV complexes of supersymmetric theories from the
+Koszul complex of the cone point over the coordinate ring of the nilpotence
+variety, possibly tensored with a module over that coordinate ring. In
+addition, we remark on a natural emergence of nilpotence varieties in the
+Chevalley-Eilenberg cohomology of supertranslations, and give two applications
+related to these ideas: a calculation of Chevalley-Eilenberg cohomology for the
+six-dimensional $\mathcal{N}=(2,0)$ supertranslation algebra, and a BV complex
+matching the field content of type IIB supergravity from the coordinate ring of
+the corresponding nilpotence variety.
+</summary>
+    <author>
+      <name>Richard Eager</name>
+    </author>
+    <author>
+      <name>Ingmar Saberi</name>
+    </author>
+    <author>
+      <name>Johannes Walcher</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">66 pages, two figures, two tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.03766v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.03766v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="81T60, 17B08, 17B81, 14D21" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.10222%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.10222&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WsNYNPYzsBMtGuY0ls6jr446g4k</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.10222v1</id>
+    <updated>2018-09-26T20:38:03Z</updated>
+    <published>2018-09-26T20:38:03Z</published>
+    <title>Quivers supporting twisted Calabi-Yau algebras</title>
+    <summary>  We consider graded twisted Calabi-Yau algebras of dimension 3 which are
+derivation-quotient algebras of the form $A = \Bbbk Q/I$, where $Q$ is a quiver
+and $I$ is an ideal of relations coming from taking partial derivatives of a
+twisted superpotential on $Q$. We define the type $(M, P, d)$ of such an
+algebra $A$, where $M$ is the incidence matrix of the quiver, $P$ is the
+permutation matrix giving the action of the Nakayama automorphism of $A$ on the
+vertices of the quiver, and $d$ is the degree of the superpotential. We study
+the question of what possible types can occur under the additional assumption
+that $A$ has polynomial growth. In particular, we are able to give a nearly
+complete answer to this question when $Q$ has at most 3 vertices.
+</summary>
+    <author>
+      <name>Jason Gaddis</name>
+    </author>
+    <author>
+      <name>Daniel Rogalski</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.10222v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.10222v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 16E65, 16P90, 16S38, 16W50. Secondary: 16T05, 16S40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

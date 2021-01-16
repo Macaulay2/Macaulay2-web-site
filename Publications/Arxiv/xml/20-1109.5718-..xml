@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1109.5718%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1109.5718&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zoJrusNcvTlPzDFSb11QIvKwyy8</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1109.5718v2</id>
+    <updated>2011-09-29T20:56:31Z</updated>
+    <published>2011-09-26T20:25:18Z</published>
+    <title>A tour of the Weak and Strong Lefschetz Properties</title>
+    <summary>  An artinian graded algebra, $A$, is said to have the Weak Lefschetz property
+(WLP) if multiplication by a general linear form has maximal rank in every
+degree. A vast quantity of work has been done studying and applying this
+property, touching on numerous and diverse areas of algebraic geometry,
+commutative algebra, and combinatorics. Amazingly, though, much of this work
+has a "common ancestor" in a theorem originally due to Stanley, although
+subsequently reproved by others. In this expository paper we describe the
+different directions in which research has moved starting with this theorem,
+and we discuss some of the open questions that continue to motivate current
+research.
+</summary>
+    <author>
+      <name>Juan Migliore</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 3 figures. Added three references in section 6 and in the
+  bibliography</arxiv:comment>
+    <link href="http://arxiv.org/abs/1109.5718v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1109.5718v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

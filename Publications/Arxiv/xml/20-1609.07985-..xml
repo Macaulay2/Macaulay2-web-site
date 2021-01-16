@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.07985%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.07985&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qL1ThISUfGxqH4hhtx8j4Oz1X+8</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.07985v1</id>
+    <updated>2016-09-07T19:38:31Z</updated>
+    <published>2016-09-07T19:38:31Z</published>
+    <title>Algebraic Tools for the Analysis of State Space Models</title>
+    <summary>  We present algebraic techniques to analyze state space models in the areas of
+structural identifiability, observability, and indistinguishability. While the
+emphasis is on surveying existing algebraic tools for studying ODE systems, we
+also present a variety of new results. In particular: on structural
+identifiability, we present a method using linear algebra to find identifiable
+functions of the parameters of a model for unidentifiable models. On
+observability, we present techniques using Gr\"obner bases and algebraic
+matroids to test algebraic observability of state space models. On
+indistinguishability, we present a sufficient condition for distinguishability
+using computational algebra and demonstrate testing indistinguishability.
+</summary>
+    <author>
+      <name>Nicolette Meshkat</name>
+    </author>
+    <author>
+      <name>Zvi Rosen</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.07985v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.07985v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

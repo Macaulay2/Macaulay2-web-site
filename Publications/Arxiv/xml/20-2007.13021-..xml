@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.13021%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.13021&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iPXI3bwJPlKhTHfKBgR2uiP0ytU</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.13021v2</id>
+    <updated>2020-07-28T01:58:51Z</updated>
+    <published>2020-07-25T22:04:52Z</published>
+    <title>A colorful Hochster formula and universal parameters for face rings</title>
+    <summary>  This paper has two related parts. The first generalizes Hochster's formula on
+resolutions of Stanley-Reisner rings to a colorful version, applicable to any
+proper vertex-coloring of a simplicial complex. The second part examines a
+universal system of parameters for Stanley-Reisner rings of simplicial
+complexes, and more generally, face rings of simplicial posets. These
+parameters have good properties, including being fixed under symmetries, and
+detecting depth of the face ring. Moreover, when resolving the face ring over
+these parameters, the shape is predicted, conjecturally, by the colorful
+Hochster formula.
+</summary>
+    <author>
+      <name>Ashleigh Adams</name>
+    </author>
+    <author>
+      <name>Victor Reiner</name>
+    </author>
+    <link href="http://arxiv.org/abs/2007.13021v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.13021v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 13F50, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

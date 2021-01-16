@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.05264%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.05264&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6HoRRoXVMmsD53nG4FwblorzjuE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.05264v1</id>
+    <updated>2018-04-14T18:47:38Z</updated>
+    <published>2018-04-14T18:47:38Z</published>
+    <title>The slack realization space of a matroid</title>
+    <summary>  We introduce a new model for the realization space of a matroid, which is
+obtained from a variety defined by a saturated determinantal ideal, called the
+slack ideal, coming from the vertex-hyperplane incidence matrix of the matroid.
+This is inspired by a similar model for the slack realization space of a
+polytope. We show how to use these ideas to certify non-realizability of
+matroids, and describe an explicit relationship to the standard
+Grassmann-Pl\"ucker realization space model. We also exhibit a way of detecting
+projectively unique matroids via their slack ideals by introducing a toric
+ideal that can be associated to any matroid.
+</summary>
+    <author>
+      <name>Madeline Brandt</name>
+    </author>
+    <author>
+      <name>Amy Wiebe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.05264v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.05264v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

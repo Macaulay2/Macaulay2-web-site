@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0508582%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0508582&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hx8n40B9tBnaWQMFoJoma0a75WM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508582v1</id>
+    <updated>2005-08-29T20:19:48Z</updated>
+    <published>2005-08-29T20:19:48Z</published>
+    <title>Exterior algebra methods for the construction of rational surfaces in
+  the projective fourspace</title>
+    <summary>  The aim of this paper is to present a construction of smooth rational
+surfaces in projective fourspace with degree 12 and sectional genus 13. The
+construction is based on exterior algebra methods, finite field searches and
+standard deformation theory.
+</summary>
+    <author>
+      <name>Hirotachi Abo</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages. Singular or Macaulay2 scripts needed to construct and
+  analyse these surfaces are available at
+  http://www.math.uni-sb.de/~ag-schreyer and
+  http://www.math.colostate.edu/~abo/programs.html</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0508582v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0508582v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J10, 14J26; 14Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

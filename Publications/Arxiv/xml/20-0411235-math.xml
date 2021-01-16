@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0411235%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0411235&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UOtPAiE439ED+fDpsb4nK2i8LvA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0411235v3</id>
+    <updated>2005-08-02T14:08:04Z</updated>
+    <published>2004-11-10T17:22:41Z</published>
+    <title>The 3-cuspidal quartic and braid monodromy of degree 4 coverings</title>
+    <summary>  We study the discriminant of a degree 4 extension given by a deformed
+bidouble cover, i.e., by equations z^2= u + a w, w^2= v + bz. We first show
+that the discriminant surface is a quartic which is cuspidal on a twisted
+cubic, i.e.,is the discriminant of the general equation of degree 3. We then
+take a(u,v), b(u,v) and get a 3-cuspidal affine quartic curve whose braid
+monodromy we compute. This calculation of the local braid monodromy is a step
+towards the determination of global braid monodromies, e.g. for the (a,b,c)
+surfaces previously considered by the authors. In the revision we fill a gap
+(noticed by the referee) in the proof of the classical theorem that any quartic
+surface which has the twisted cubic as cuspidal curve is its tangential
+developable, and we changed a base point in order to make a picture correct.
+</summary>
+    <author>
+      <name>Fabrizio Catanese</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">University of Bayreuth</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Bronislaw Wajnryb</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Technion Haifa</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in the proceedings of the Conference "Projective varieties
+  with unexpected properties", in honour of the 150-th anniversary of the birth
+  of G. Veronese, to be published by De Gruyter, 16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0411235v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0411235v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J80, 14N25,57M12, 57R52, 58 K15, 32S50, 13B99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

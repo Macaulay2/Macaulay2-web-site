@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.08284%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.08284&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VRze0i5qXEes9Jng6DDG4KLD29U</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.08284v2</id>
+    <updated>2020-05-31T17:18:04Z</updated>
+    <published>2020-02-19T16:54:01Z</published>
+    <title>The Gröbner fan of the Hilbert scheme</title>
+    <summary>  We give a notion of "combinatorial proximity" among strongly stable ideals in
+a given polynomial ring with a fixed Hilbert polynomial. We show that this
+notion guarantees "geometric proximity" of the corresponding points in the
+Hilbert scheme. We define a graph whose vertices correspond to strongly stable
+ideals and whose edges correspond to pairs of adjacent ideals. Every term order
+induces an orientation of the edges of the graph. This directed graph describes
+the behavior of the points of the Hilbert scheme under Gr\"obner degenerations
+with respect to the given term order.
+  Then, we introduce a polyhedral fan that we call Gr\"obner fan of the Hilbert
+scheme. Each cone of maximal dimension corresponds to a different directed
+graph induced by a term order. This fan encodes several properties of the
+Hilbert scheme. We use these tools to present a new proof of the connectedness
+of the Hilbert scheme. Finally, we improve the technique introduced in the
+paper "Double-generic initial ideal and Hilbert scheme" by Bertone, Cioffi and
+Roggero to give a lower bound on the number of irreducible components of the
+Hilbert scheme.
+</summary>
+    <author>
+      <name>Yuta Kambe</name>
+    </author>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor revision. Relation with T-graphs of Hilbert schemes explained.
+  To appear in Annali di Matematica Pura ed Applicata</arxiv:comment>
+    <link href="http://arxiv.org/abs/2002.08284v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.08284v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 13P10, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

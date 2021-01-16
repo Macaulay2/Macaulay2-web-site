@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.04707%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.04707&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TpEjhCsY4lguDq28iqYGSFUFPOI</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.04707v1</id>
+    <updated>2020-02-11T21:52:41Z</updated>
+    <published>2020-02-11T21:52:41Z</published>
+    <title>Smooth Points on Semi-algebraic Sets</title>
+    <summary>  Many algorithms for determining properties of real algebraic or
+semi-algebraic sets rely upon the ability to compute smooth points. Existing
+methods to compute smooth points on semi-algebraic sets use symbolic quantifier
+elimination tools. In this paper, we present a simple algorithm based on
+computing the critical points of some well-chosen function that guarantees the
+computation of smooth points in each connected compact component of a real
+(semi)-algebraic set. Our technique is intuitive in principal, performs well on
+previously difficult examples, and is straightforward to implement using
+existing numerical algebraic geometry software. The practical efficiency of our
+approach is demonstrated by solving a conjecture on the number of equilibria of
+the Kuramoto model for the $n=4$ case. We also apply our method to design an
+efficient algorithm to compute the real dimension of (semi)-algebraic sets, the
+original motivation for this research.
+</summary>
+    <author>
+      <name>Katherine Harris</name>
+    </author>
+    <author>
+      <name>Jonathan D. Hauenstein</name>
+    </author>
+    <author>
+      <name>Agnes Szanto</name>
+    </author>
+    <link href="http://arxiv.org/abs/2002.04707v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.04707v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

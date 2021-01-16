@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.05089%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.05089&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Pz/9g97A2gDJ72JkYocObdB94vQ</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.05089v1</id>
+    <updated>2020-01-15T00:44:27Z</updated>
+    <published>2020-01-15T00:44:27Z</published>
+    <title>Residual Intersections and Linear Powers</title>
+    <summary>  If I is an ideal in a Gorenstein ring S and S/I is Cohen-Macaulay, then the
+same is true for any linked ideal I'. However, such statements hold for
+residual intersections of higher codimension only under very restrictive
+hypotheses, not satisfied even by ideals as simple as the ideal L_n of minors
+of a generic 2 x n matrix when n&gt;3.
+  In this paper we initiate the study of a different sort of Cohen-Macaulay
+property that holds for certain general residual intersections of the maximal
+(interesting) codimension, one less than the analytic spread of I. For example,
+we prove that if K is the residual intersection of L_n by 2n-3 general
+quadratic forms in L_n, then S/K is integrally closed with isolated singularity
+and I^{n-3} S/K is a self-dual Maximal Cohen-Macaulay module over S/K with
+linear free resolution over S.
+  The technical heart of the paper is a result about ideals of analytic spread
+1 whose high powers are linearly presented.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Craig Huneke</name>
+    </author>
+    <author>
+      <name>Bernd Ulrich</name>
+    </author>
+    <link href="http://arxiv.org/abs/2001.05089v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.05089v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13C40, 13H10, 14M06, 14M10. Secondary: 13D02, 13N05, 14B12,&#10;  14M12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

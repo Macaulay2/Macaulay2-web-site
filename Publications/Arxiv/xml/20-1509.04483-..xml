@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.04483%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.04483&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IPmetJItb4WlRdru4mcQBI3cglY</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.04483v1</id>
+    <updated>2015-09-15T10:33:51Z</updated>
+    <published>2015-09-15T10:33:51Z</published>
+    <title>An Algebraic Approach to the Scattering Equations</title>
+    <summary>  We employ the so-called companion matrix method from computational algebraic
+geometry, tailored for zero-dimensional ideals, to study the scattering
+equations. The method renders the CHY-integrand of scattering amplitudes
+computable using simple linear algebra and is amenable to an algorithmic
+approach. Certain identities in the amplitudes as well as rationality of the
+final integrand become immediate in this formalism.
+</summary>
+    <author>
+      <name>Rijun Huang</name>
+    </author>
+    <author>
+      <name>Junjie Rao</name>
+    </author>
+    <author>
+      <name>Bo Feng</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP12(2015)056</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP12(2015)056" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages, 1 figure</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1512 (2015) 056</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1509.04483v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.04483v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

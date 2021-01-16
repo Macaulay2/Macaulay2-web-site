@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1202.4384%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1202.4384&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9JA//HzOyDwiaAnsgq+g0Wj0pG0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1202.4384v1</id>
+    <updated>2012-02-20T17:05:30Z</updated>
+    <published>2012-02-20T17:05:30Z</published>
+    <title>Computable Hilbert Schemes</title>
+    <summary>  In this PhD thesis we propose an algorithmic approach to the study of the
+Hilbert scheme. Developing algorithmic methods, we also obtain general results
+about Hilbert schemes. In Chapter 1 we discuss the equations defining the
+Hilbert scheme as subscheme of a suitable Grassmannian and in Chapter 5 we
+determine a new set of equations of degree lower than the degree of equations
+known so far. In Chapter 2 we study the most important objects used to project
+algorithmic techniques, namely Borel-fixed ideals. We determine an algorithm
+computing all the saturated Borel-fixed ideals with Hilbert polynomial assigned
+and we investigate their combinatorial properties. In Chapter 3 we show a new
+type of flat deformations of Borel-fixed ideals which lead us to give a new
+proof of the connectedness of the Hilbert scheme. In Chapter 4 we construct
+families of ideals that generalize the notion of family of ideals sharing the
+same initial ideal with respect to a fixed term ordering. Some of these
+families correspond to open subsets of the Hilbert scheme and can be used to a
+local study of the Hilbert scheme. In Chapter 6 we deal with the problem of the
+connectedness of the Hilbert scheme of locally Cohen-Macaulay curves in the
+projective 3-space. We show that one of the Hilbert scheme considered a "good"
+candidate to be non-connected, is instead connected. Moreover there are three
+appendices that present and explain how to use the implementations of the
+algorithms proposed.
+</summary>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is the PhD thesis of the author. Most of the results appeared or
+  are going to appear in some paper. However the thesis contains more detailed
+  explanations, proofs and remarks and it can be used also as handbook for all
+  algorithms proposed and available at
+  http://www.personalweb.unito.it/paolo.lella/HSC/index.html . arXiv admin
+  note: text overlap with arXiv:1101.2866 by other authors</arxiv:comment>
+    <link href="http://arxiv.org/abs/1202.4384v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1202.4384v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 13P10, 13P99, 15A75, 13C99, 14Q20, 14H50, 14Q05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

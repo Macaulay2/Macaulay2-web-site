@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.01758%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.01758&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LoX3gGaQ9WIU7/JpvpEhYqXNPIs</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.01758v1</id>
+    <updated>2020-10-05T03:28:25Z</updated>
+    <published>2020-10-05T03:28:25Z</published>
+    <title>On the Identifiability of Phylogenetic Networks under a Pseudolikelihood
+  model</title>
+    <summary>  The Tree of Life is the graphical structure that represents the evolutionary
+process from single-cell organisms at the origin of life to the vast
+biodiversity we see today. Reconstructing this tree from genomic sequences is
+challenging due to the variety of biological forces that shape the signal in
+the data, and many of those processes like incomplete lineage sorting and
+hybridization can produce confounding information. Here, we present the
+mathematical version of the identifiability proofs of phylogenetic networks
+under the pseudolikelihood model in SNaQ. We establish that the ability to
+detect different hybridization events depends on the number of nodes on the
+hybridization blob, with small blobs (corresponding to closely related species)
+being the hardest to be detected. Our work focuses on level-1 networks, but
+raises attention to the importance of identifiability studies on phylogenetic
+inference methods for broader classes of networks.
+</summary>
+    <author>
+      <name>Claudia Solis-Lemus</name>
+    </author>
+    <author>
+      <name>Arrigo Coen</name>
+    </author>
+    <author>
+      <name>Cecile Ane</name>
+    </author>
+    <link href="http://arxiv.org/abs/2010.01758v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.01758v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

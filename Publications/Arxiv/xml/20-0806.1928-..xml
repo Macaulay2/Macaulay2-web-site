@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0806.1928%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0806.1928&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zpASPayKcX7GIxRxhmG1lViZq2w</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0806.1928v3</id>
+    <updated>2009-08-17T13:57:23Z</updated>
+    <published>2008-06-11T19:05:38Z</published>
+    <title>Fibers of Generic Projections</title>
+    <summary>  Let X be a smooth projective variety of dimension n in P^r. We study the
+fibers of a general linear projection pi: X --&gt; P^{n+c}, with c &gt; 0. When n is
+small it is classical that the degree of any fiber is bounded by n/c+1, but
+this fails for n &gt;&gt; 0. We describe a new invariant of the fiber that agrees
+with the degree in many cases and is always bounded by n/c+1. This implies, for
+example, that if we write a fiber as the disjoint union of schemes Y' and Y''
+such that Y' is the union of the locally complete intersection components of Y,
+then deg Y'+deg Y''_red &lt;= n/c+1 and this formula can be strengthened a little
+further. Our method also gives a sharp bound on the subvariety of P^r swept out
+by the l-secant lines of X for any positive integer l, and we discuss a
+corresponding bound for highly secant linear spaces of higher dimension. These
+results extend Ziv Ran's "Dimension+2 Secant Lemma".
+</summary>
+    <author>
+      <name>Roya Beheshti</name>
+    </author>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Proof of the main theorem simplified and new examples added</arxiv:comment>
+    <link href="http://arxiv.org/abs/0806.1928v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0806.1928v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05; 14B07; 13B22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

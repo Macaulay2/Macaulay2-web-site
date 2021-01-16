@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0905.2745%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0905.2745&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wBUG8lzKWkraclp2n9spkrxwc78</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0905.2745v1</id>
+    <updated>2009-05-17T16:17:09Z</updated>
+    <published>2009-05-17T16:17:09Z</published>
+    <title>Computations of instanton invariants</title>
+    <summary>  Motivated by newly discovered properties of instantons on non-compact spaces,
+we realised that certain analytic invariants of vector bundles detect fine
+geometric properties. We present numerical algorithms, implemented in Macaulay
+2, to compute these invariants.
+  Precisely, we obtain the direct image and first derived functor of the
+contraction map $\pi \colon Z \to X$, where $Z$ is the total space of a
+negative bundle over $\mathbb{P}^1$ and $\pi$ contracts the zero section. We
+obtain two numerical invariants of a rank-2 vector bundle $E$ on $Z$, the width
+$h^0\bigl(X; (\pi_*E)^{\vee \vee} \bigl/ \pi_*E\bigr)$ and the height
+$h^0\bigl(X; R^1 \pi_*E \bigr)$, whose sum is the local holomorphic Euler
+characteristic $\chi^\text{loc}(E)$.
+</summary>
+    <author>
+      <name>Thomas Köppe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24/25 pages (A4/letter); Revisions: v1 - as submitted for
+  publication. Contains the actual Macaulay2-code and explanation as
+  attachments</arxiv:comment>
+    <link href="http://arxiv.org/abs/0905.2745v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0905.2745v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99; 12Y05; 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

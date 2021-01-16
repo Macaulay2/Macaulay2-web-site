@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.07965%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.07965&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QmouoD1DshifCsG0D2ldvDpQJSo</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.07965v2</id>
+    <updated>2017-03-03T18:35:19Z</updated>
+    <published>2016-11-23T20:25:15Z</published>
+    <title>Normaliz 2013-2016</title>
+    <summary>  In this article we describe mathematically relevant extensions to Normaliz
+that were added to it during the support by the DFG SPP "Algorithmische und
+Experimentelle Methoden in Algebra, Geometrie und Zahlentheorie": nonpointed
+cones, rational polyhedra, homogeneous systems of parameters, bottom
+decomposition, class groups and systems of module generators of integral
+closures.
+</summary>
+    <author>
+      <name>Winfried Bruns</name>
+    </author>
+    <author>
+      <name>Richard Sieg</name>
+    </author>
+    <author>
+      <name>Christof Söger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1611.07965v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.07965v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B20, 13F20, 14M25, 91B12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

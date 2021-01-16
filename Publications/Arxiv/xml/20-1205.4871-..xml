@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1205.4871%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1205.4871&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Pw+XFtzEUU9p4x4vp5hxIS1ZpVs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1205.4871v1</id>
+    <updated>2012-05-22T10:39:08Z</updated>
+    <published>2012-05-22T10:39:08Z</published>
+    <title>Pfaffian Calabi-Yau threefolds, Stanley-Reisner schemes and mirror
+  symmetry</title>
+    <summary>  Calabi-Yau manifolds are important objects in algebraic geometry and in
+theoretical physics. A hypothesis of mirror symmetry is that Calabi-Yau
+manifolds of dimension 3 come in pairs, with the Hodge numbers of one manifold
+mirroring the Hodge numbers of the other.
+  In this thesis, Calabi-Yau manifolds are constructed by smoothing
+Stanley-Reisner schemes of triangulations of 3-spheres. The triangulations of
+the 3-sphere with 7 or 8 vertices have been constructed and classified by
+Gr\"unbaum and Sreedharan (1967). In this thesis we characterize the Calabi-Yau
+manifolds obtained from the triangulations with 7 vertices. They are embedded
+in six-dimensional projective space. Mirrors of such manifolds are constructed
+by resolution of singularities performed on a singular fiber in the deformation
+family of the Stanley-Reisner scheme. In this way, we reproduce the mirror by
+R{\o}dland (1999) of a degree 14 pfaffian Calabi-Yau threefold, and the mirror
+candidate by B\"ohm (2007) of a degree 13 pfaffian Calabi-Yau threefold. In the
+latter case we verify that the Hodge numbers in fact constitute a mirror, using
+toric geometry.
+</summary>
+    <author>
+      <name>Ingrid Fausk</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Thesis for the degree of Ph.D, submitted to the University of Oslo,
+  2012</arxiv:comment>
+    <link href="http://arxiv.org/abs/1205.4871v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1205.4871v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

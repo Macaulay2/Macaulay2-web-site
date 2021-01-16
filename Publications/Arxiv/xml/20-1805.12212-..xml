@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.12212%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.12212&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fL2o+EGw3QQvizhLKCx7kUB7/5M</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.12212v1</id>
+    <updated>2018-05-30T20:23:11Z</updated>
+    <published>2018-05-30T20:23:11Z</published>
+    <title>Monodromy Solver: Sequential and Parallel</title>
+    <summary>  We describe, study, and experiment with an algorithm for finding all
+solutions of systems of polynomial equations using homotopy continuation and
+monodromy. This algorithm follows a framework developed in previous work and
+can operate in the presence of a large number of failures of the homotopy
+continuation subroutine. We give special attention to parallelization and
+probabilistic analysis of a model adapted to parallelization and failures.
+Apart from theoretical results, we developed a simulator that allows us to run
+a large number of experiments without recomputing the outcomes of the
+continuation subroutine.
+</summary>
+    <author>
+      <name>Nathan Bliss</name>
+    </author>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <author>
+      <name>Jeff Sommars</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, accepted to ISSAC 2018</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.12212v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.12212v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99, 65H99, 68W20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

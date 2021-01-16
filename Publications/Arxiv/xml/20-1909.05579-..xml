@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.05579%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.05579&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/r9/e7EwRAvnTiiiJ2+SmSmoSHNo</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.05579v2</id>
+    <updated>2019-09-14T16:51:25Z</updated>
+    <published>2019-09-12T11:43:24Z</published>
+    <title>Determinantal representations of the cubic discriminant</title>
+    <summary>  We compute and study two determinantal representations of the discriminant of
+a cubic quaternary form. The first representation is computed via constructing
+a Chow complex for an Ulrich bundle on $2$-uple embedding of $\mathbb{P}^3$. We
+then consider the determinantal representation described by Nanson. We
+investigate the geometric nature of cubic surfaces whose discriminant matrices
+satisfy certain rank conditions. As a special case of interest, we use certain
+minors of this matrix to suggest equations vanishing on the locus of $k$-nodal
+cubic surfaces.
+</summary>
+    <author>
+      <name>Dominic Bunnett</name>
+    </author>
+    <author>
+      <name>Hanieh Keneshlou</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.05579v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.05579v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

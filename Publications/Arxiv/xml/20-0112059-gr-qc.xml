@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dgr-qc%2F0112059%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=gr-qc/0112059&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5HbCzIGXBsoLBg2lf1TOq7HQN+4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/gr-qc/0112059v2</id>
+    <updated>2002-06-20T19:51:12Z</updated>
+    <published>2001-12-22T11:22:46Z</published>
+    <title>Algebraic approach to time-delay data analysis for LISA</title>
+    <summary>  Cancellation of laser frequency noise in interferometers is crucial for
+attaining the requisite sensitivity of the triangular 3-spacecraft LISA
+configuration. Raw laser noise is several orders of magnitude above the other
+noises and thus it is essential to bring it down to the level of other noises
+such as shot, acceleration, etc. Since it is impossible to maintain equal
+distances between spacecrafts, laser noise cancellation must be achieved by
+appropriately combining the six beams with appropriate time-delays. It has been
+shown in several recent papers that such combinations are possible. In this
+paper, we present a rigorous and systematic formalism based on algebraic
+geometrical methods involving computational commutative algebra, which
+generates in principle {\it all} the data combinations cancelling the laser
+frequency noise. The relevant data combinations form the first module of
+syzygies, as it is called in the literature of algebraic geometry. The module
+is over a polynomial ring in three variables, the three variables corresponding
+to the three time-delays around the LISA triangle. Specifically, we list
+several sets of generators for the module whose linear combinations with
+polynomial coefficients generate the entire module. We find that this formalism
+can also be extended in a straight forward way to cancel Doppler shifts due to
+optical bench motions. The two modules are infact isomorphic.
+  We use our formalism to obtain the transfer functions for the six beams and
+for the generators. We specifically investigate monochromatic gravitational
+wave sources in the LISA band and carry out the maximisiation over linear
+combinations of the generators of the signal-to-noise ratios with the frequency
+and source direction angles as parameters.
+</summary>
+    <author>
+      <name>S. V. Dhurandhar</name>
+    </author>
+    <author>
+      <name>K. Rajesh Nayak</name>
+    </author>
+    <author>
+      <name>J-Y. Vinet</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1103/PhysRevD.65.102002</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 Pages, 6 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Phys.Rev. D70 (2004) 102003</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/gr-qc/0112059v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/gr-qc/0112059v2" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1103/PhysRevD.65.102002" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

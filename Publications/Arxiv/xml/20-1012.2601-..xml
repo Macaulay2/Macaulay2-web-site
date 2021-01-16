@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1012.2601%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1012.2601&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Cuk1Y2Imgazc6zgj/lkfrtnPvOY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1012.2601v1</id>
+    <updated>2010-12-12T23:09:08Z</updated>
+    <published>2010-12-12T23:09:08Z</published>
+    <title>Hyperplane sections and the subtlety of the Lefschetz properties</title>
+    <summary>  The weak and strong Lefschetz properties are two basic properties that
+Artinian algebras may have. Both Lefschetz properties may vary under small
+perturbations or changes of the characteristic. We study these subtleties by
+proposing a systematic way of deforming a monomial ideal failing the weak
+Lefschetz property to an ideal with the same Hilbert function and the weak
+Lefschetz property. In particular, we lift a family of Artinian monomial ideals
+to finite level sets of points in projective space with the property that a
+general hyperplane section has the weak Lefschetz property in almost all
+characteristics, whereas a special hyperplane section does not have this
+property in any characteristic.
+</summary>
+    <author>
+      <name>David Cook II</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jpaa.2011.05.007</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jpaa.2011.05.007" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Pure Appl. Algebra 216 (2012), no. 1, 108-114</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1012.2601v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1012.2601v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C40, 14M10, 14N99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

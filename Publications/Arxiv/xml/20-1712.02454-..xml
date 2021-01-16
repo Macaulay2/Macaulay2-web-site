@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.02454%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.02454&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wDDMrNhz8eZfLrzRAtkBLxf9jNE</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.02454v1</id>
+    <updated>2017-12-07T00:31:17Z</updated>
+    <published>2017-12-07T00:31:17Z</published>
+    <title>Hive algebras and tensor product algebras for small GL(n)</title>
+    <summary>  For the complex general linear group GL(n), the GL(n) tensor product algebra
+TA(n) introduced by Howe et al. describes the decomposition of the tensor
+products of two irreducible polynomial representations of GL(n). Using the hive
+model for the Littlewood-Richardson coefficients, we provide a finite
+presentation of the algebra TA(n) for n=2, 3, 4 in terms of generators and
+relations, thereby giving a description of highest weight vectors of
+irreducible representations in the tensor products. We also compute the
+generating function of certain sums of Littlewood-Richardson coefficients.
+</summary>
+    <author>
+      <name>Donggyun Kim</name>
+    </author>
+    <author>
+      <name>Sangjib Kim</name>
+    </author>
+    <author>
+      <name>Euisung Park</name>
+    </author>
+    <link href="http://arxiv.org/abs/1712.02454v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.02454v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20G05, 13A50, 05E15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

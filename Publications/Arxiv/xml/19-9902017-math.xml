@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9902017%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9902017&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7qjHAkHCix0Hek0kOfuAu8NHl6A</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9902017v1</id>
+    <updated>1999-02-02T22:40:40Z</updated>
+    <published>1999-02-02T22:40:40Z</published>
+    <title>The moduli space of (1,11)-polarized abelian surfaces is unirational</title>
+    <summary>  We prove that the moduli space A_{11}^{lev} of (1,11) polarized abelian
+surfaces with level structure of canonical type is birational to Klein's cubic
+hypersurface:
+  a^2b+b^2c+c^2d+d^2e+e^2a=0 in P^4.
+  Therefore, A_{11}^{lev} is unirational but not rational, and there are no
+Gamma_{11}-cusp forms of weight 3. The same methods also provide an easy proof
+of the rationality of A_{9}^{lev}.
+</summary>
+    <author>
+      <name>Mark Gross</name>
+    </author>
+    <author>
+      <name>Sorin Popescu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, TeX with diagrams.tex. Related Macaulay2 code and
+  PostScript file available at http://www.math.columbia.edu/~psorin/</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9902017v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9902017v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

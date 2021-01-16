@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1004.4237%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1004.4237&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/mCYmgMgsIAintL6wefZvGIxYDzY</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1004.4237v1</id>
+    <updated>2010-04-23T23:12:56Z</updated>
+    <published>2010-04-23T23:12:56Z</published>
+    <title>Complexes, duality and Chern classes of logarithmic forms along
+  hyperplane arrangements</title>
+    <summary>  We describe dualities and complexes of logarithmic forms and differentials
+for central affine and corresponding projective arrangements. We generalize the
+Borel-Serre formula from vector bundles to sheaves on projective d-space with
+locally free resolutions of length one. Combining these results we present a
+generalization of a formula due to Mustata and Schenck, relating the Poincare
+polynomial of an arrangement in projective 3-space (or a locally tame
+arrangement in projective d-space with zero-dimensional non-free locus) to the
+total Chern polynomial of its sheaf of logarithmic 1-forms.
+</summary>
+    <author>
+      <name>Graham Denham</name>
+    </author>
+    <author>
+      <name>Mathias Schulze</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Arrangements of hyperplanes - Sapporo 2009, 27-57, Adv. Stud. Pure
+  Math., 62, Math. Soc. Japan, Tokyo, 2012</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1004.4237v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1004.4237v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32S22, 52C35, 16W25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

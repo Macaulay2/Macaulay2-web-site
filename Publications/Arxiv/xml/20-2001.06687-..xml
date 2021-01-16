@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.06687%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.06687&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yM3kdPbaFruMGv2GLHZOU5l3FCo</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.06687v1</id>
+    <updated>2020-01-18T15:16:34Z</updated>
+    <published>2020-01-18T15:16:34Z</published>
+    <title>Rank 3 Quadratic Generations of Veronese Embeddings</title>
+    <summary>  Let $L$ be a very ample line bundle on a projective scheme $X$ defined over
+an algebraically closed field $\Bbbk$ with ${\rm char}~\Bbbk \neq 2$. We say
+that $(X,L)$ satisfies property $\mathsf{QR}(k)$ if the homogeneous ideal of
+the linearly normal embedding $X \subset \mathbb{P}H^0 (X,L)$ can be generated
+by quadrics of rank $\leq k$. Many classical varieties such as Segre-Veronese
+embeddings, rational normal scrolls and curves of high degree satisfy property
+$\mathsf{QR}(4)$.
+  In this paper, we first prove that if ${\rm char}~\Bbbk \neq 3$ then
+$(\mathbb{P}^n , \mathcal{O}_{\mathbb{P}^n} (d))$ satisfies property
+$\mathsf{QR}(3)$ for all $n \geq 1$ and $d \geq 2$. We also investigate an
+asymptotic behavior of property $\mathsf{QR}(3)$ for any projective scheme.
+Namely, we prove that $(i)$ if $X \subset \mathbb{P} H^0 (X,L)$ is $m$-regular
+then $(X,L^d )$ satisfies property $\mathsf{QR}(3)$ for all $d \geq m$ and
+$(ii)$ if $A$ is an ample line bundle on $X$ then $(X,A^d )$ satisfies property
+$\mathsf{QR}(3)$ for all sufficiently large even number $d$. These results
+provide an affirmative evidence for the expectation that property
+$\mathsf{QR}(3)$ holds for all sufficiently ample line bundles on $X$, as in
+the cases of Green-Lazarsfeld's condition $\mathrm{N}_p$ and
+Eisenbud-Koh-Stillman's determininantal presentation in [EKS88]. Finally, when
+${\rm char}~\Bbbk = 3$ we prove that $(\mathbb{P}^n ,
+\mathcal{O}_{\mathbb{P}^n} (2))$ fails to satisfy property $\mathsf{QR}(3)$ for
+all $n \geq 3$.
+</summary>
+    <author>
+      <name>Kangjin Han</name>
+    </author>
+    <author>
+      <name>Wanseok Lee</name>
+    </author>
+    <author>
+      <name>Hyunsuk Moon</name>
+    </author>
+    <author>
+      <name>Euisung Park</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2001.06687v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.06687v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14A25, 14N05, 14M12, 14M17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

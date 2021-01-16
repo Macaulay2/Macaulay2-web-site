@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1411.6427%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1411.6427&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rLmvqI2YfUmeiE25nlxgoSBq9Kc</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1411.6427v2</id>
+    <updated>2015-04-15T11:43:16Z</updated>
+    <published>2014-11-24T12:31:27Z</published>
+    <title>Jet schemes of the closure of nilpotent orbits</title>
+    <summary>  We study in this paper the jet schemes of the closure of nilpotent orbits in
+a finite-dimensional complex reductive Lie algebra. For the nilpotent cone,
+which is the closure of the regular nilpotent orbit, all the jet schemes are
+irreducible. This was first observed by Eisenbud and Frenkel, and follows from
+a strong result of Musta ˘ t (2001). Using induction and restriction of
+"little" nilpotent orbits in reductive Lie algebras, we show that for a large
+number of nilpotent orbits, the jet schemes of their closure are reducible. As
+a consequence, we obtain certain geometrical properties of these nilpotent
+orbit closures.
+</summary>
+    <author>
+      <name>Anne Moreau</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMA-Poitiers</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rupert W. T. Yu</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LM-Reims</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages in English. The proof of Theorem 5.6 has been corrected,
+  Proposition 7.3 is now more general, some other minor changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/1411.6427v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1411.6427v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

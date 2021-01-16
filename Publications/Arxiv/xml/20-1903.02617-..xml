@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.02617%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.02617&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9bmVs5Km1rpjKBRACiQr+3cphwc</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.02617v1</id>
+    <updated>2019-03-06T21:20:33Z</updated>
+    <published>2019-03-06T21:20:33Z</published>
+    <title>Oscillations and bistability in a model of ERK regulation</title>
+    <summary>  This work concerns the question of how two important dynamical properties,
+oscillations and bistability, emerge in an important biological signaling
+network. Specifically, we consider a model for dual-site phosphorylation and
+dephosphorylation of extracellular signal-regulated kinase (ERK). We prove that
+oscillations persist even as the model is greatly simplified (reactions are
+made irreversible and intermediates are removed). Bistability, however, is much
+less robust -- this property is lost when intermediates are removed or even
+when all reactions are made irreversible. Moreover, bistability is
+characterized by the presence of two reversible, catalytic reactions: as other
+reactions are made irreversible, bistability persists as long as one or both of
+the specified reactions is preserved. Finally, we investigate the maximum
+number of steady states, aided by a network's "mixed volume" (a concept from
+convex geometry). Taken together, our results shed light on the question of how
+oscillations and bistability emerge from a limiting network of the ERK network
+-- namely, the fully processive dual-site network -- which is known to be
+globally stable and therefore lack both oscillations and bistability. Our
+proofs are enabled by a Hopf bifurcation criterion due to Yang, analyses of
+Newton polytopes arising from Hurwitz determinants, and recent
+characterizations of multistationarity for networks having a steady-state
+parametrization.
+</summary>
+    <author>
+      <name>Nida Obatake</name>
+    </author>
+    <author>
+      <name>Anne Shiu</name>
+    </author>
+    <author>
+      <name>Xiaoxian Tang</name>
+    </author>
+    <author>
+      <name>Angelica Torres</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 4 figures, 4 tables, 3 appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.02617v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.02617v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

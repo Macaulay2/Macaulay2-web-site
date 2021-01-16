@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1302.5579%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1302.5579&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tKkK307eRL/YJDwdJQ4dqz0ysCM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1302.5579v1</id>
+    <updated>2013-02-22T13:20:35Z</updated>
+    <published>2013-02-22T13:20:35Z</published>
+    <title>On special quadratic birational transformations of a projective space</title>
+    <summary>  A birational map from a projective space onto a not too much singular
+projective variety with a single irreducible non-singular base locus scheme
+(special birational transformation) is a rare enough phenomenon to allow
+meaningful and concise classification results.
+  We shall concentrate on transformations defined by quadratic equations onto
+some varieties (especially projective hypersurfaces of small degree), where
+quite surprisingly the base loci are interesting projective manifolds appearing
+in other contexts; for example, exceptions for adjunction theory, small degree
+or small codimensional manifolds, Severi or more generally homogeneous
+varieties.
+  In particular, we shall classify: quadro-quadric transformations into a
+quadric hypersurface; quadro-cubic transformations into a del Pezzo variety;
+transformations whose base locus (scheme) has dimension at most three.
+</summary>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This is my Ph.D. thesis, with the addition of a few other examples</arxiv:comment>
+    <link href="http://arxiv.org/abs/1302.5579v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1302.5579v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

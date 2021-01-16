@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0602002%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0602002&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/srMUDRvfM+pbTSmG7gd9Nxp7xg8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0602002v2</id>
+    <updated>2006-06-06T00:53:35Z</updated>
+    <published>2006-01-31T23:13:46Z</published>
+    <title>The Horrocks-Mumford bundle restricted to planes</title>
+    <summary>  We study the behavior of the Horrocks-Mumford bundle when restricted to a
+plane P^2 in P^4, looking for all possible minimal free resolutions for the
+restricted bundle. To each of the 6 resolutions (4 stable and 2 unstable) we
+find, we then associate a subvariety of the Grassmannian G(2,4) of planes in
+P^4. We thus obtain a filtration of the Grassmannian, which we describe in the
+second part of this work.
+</summary>
+    <author>
+      <name>Ada Boralevi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, typos removed, added details in Propostions 2.1 and 3.5</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0602002v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0602002v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60; 14F05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

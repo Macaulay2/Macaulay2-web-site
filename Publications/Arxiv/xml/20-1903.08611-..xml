@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.08611%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.08611&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/B+/Q2TaCb/jSeST0x9OAnYts2eY</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.08611v1</id>
+    <updated>2019-03-20T16:53:30Z</updated>
+    <published>2019-03-20T16:53:30Z</published>
+    <title>Autocovariance Varieties of Moving Average Random Fields</title>
+    <summary>  We study the autocovariance functions of moving average random fields over
+the integer lattice $\mathbb{Z}^d$ from an algebraic perspective. These
+autocovariances are parametrized polynomially by the moving average
+coefficients, hence tracing out algebraic varieties. We derive dimension and
+degree of these varieties and we use their algebraic properties to obtain
+statistical consequences such as identifiability of model parameters. We
+connect the problem of parameter estimation to the algebraic invariants known
+as euclidean distance degree and maximum likelihood degree. Throughout, we
+illustrate the results with concrete examples. In our computations we use tools
+from commutative algebra and numerical algebraic geometry.
+</summary>
+    <author>
+      <name>Carlos Améndola</name>
+    </author>
+    <author>
+      <name>Viet Son Pham</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 5 tables, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.08611v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.08611v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="60G60, 62M10, 62F10, 14Q15, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

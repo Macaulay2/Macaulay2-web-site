@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1105.0127%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1105.0127&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KMhdTtcsg8iE0r3/OglQWVyFaiI</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1105.0127v3</id>
+    <updated>2011-08-26T15:40:10Z</updated>
+    <published>2011-04-30T23:05:13Z</published>
+    <title>Geometry of a desingularization of eleven-dimensional gravitational
+  spinors</title>
+    <summary>  We show that the space of gravitational spinors in eleven dimensions, defined
+by equations $\Gamma_{\alpha\beta}^i\lambda^{\alpha}\lambda^{\beta}=0$ admits a
+desingularization with nice geometric properties. In particular the
+desingularization fibers over the isotropic Grassmannian OGr(2,11). This
+enables us to recast equations of linearized eleven-dimensional supergravity
+adapted to 3-form potential into Cauchy-Riemann equations on a super extension
+of isotropic Grassmannian OGr(2,11).
+</summary>
+    <author>
+      <name>M. V. Movshev</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">A brief outline of the proof of the main proposition added</arxiv:comment>
+    <link href="http://arxiv.org/abs/1105.0127v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1105.0127v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

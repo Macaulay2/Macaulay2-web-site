@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.02102%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.02102&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6qRaM1wm3wYrlmftSCUw3rg9kns</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.02102v2</id>
+    <updated>2016-08-21T13:46:18Z</updated>
+    <published>2016-05-06T21:16:05Z</published>
+    <title>Triple planes with p_g=q=0</title>
+    <summary>  We show that general triple planes with p_g=q=0 belong to at most 12
+families, that we call surfaces of type I,..., XII, and we prove that the
+corresponding Tschirnhausen bundle is direct sum of two line bundles in cases
+I, II, III, whereas is a rank 2 Steiner bundle in the remaining cases.
+  We also provide existence results and explicit constructions for surfaces of
+type I,..., VII, recovering all classical examples and discovering several new
+ones. In particular, triple planes of type VII provide counterexamples to a
+wrong claim made in 1942 by Bronowski.
+</summary>
+    <author>
+      <name>Daniele Faenzi</name>
+    </author>
+    <author>
+      <name>Francesco Polizzi</name>
+    </author>
+    <author>
+      <name>Jean Vallès</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Added a section on moduli spaces</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.02102v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.02102v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

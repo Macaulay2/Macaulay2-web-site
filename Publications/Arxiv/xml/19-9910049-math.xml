@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9910049%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9910049&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/InO5Fu2F8WXXJ7JWICt/X7CgNV4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9910049v2</id>
+    <updated>2000-06-28T11:17:53Z</updated>
+    <published>1999-10-08T21:45:19Z</published>
+    <title>A smooth space of tetrahedra</title>
+    <summary>  We construct a smooth symmetric compactification of the space of all labeled
+tetrahedra in P^3.
+</summary>
+    <author>
+      <name>Eric Babson</name>
+    </author>
+    <author>
+      <name>Paul E. Gunnells</name>
+    </author>
+    <author>
+      <name>Richard Scott</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pp., paper substantially revised, results unchanged</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9910049v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9910049v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

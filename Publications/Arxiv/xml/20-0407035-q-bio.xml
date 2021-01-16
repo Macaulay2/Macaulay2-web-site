@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dq-bio%2F0407035%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=q-bio/0407035&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qwbu0tmg70XXmVGVDFqS6qSvtgA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/q-bio/0407035v1</id>
+    <updated>2004-07-26T16:16:14Z</updated>
+    <published>2004-07-26T16:16:14Z</published>
+    <title>Phylogenetic invariants for stationary base composition</title>
+    <summary>  Changing base composition during the evolution of biological sequences can
+mislead some of the phylogenetic inference techniques in current use. However,
+detecting whether such a process has occurred may be difficult, since
+convergent evolution may lead to similar base frequencies emerging from
+different lineages.
+  To study this situation, algebraic models of biological sequence evolution
+are introduced in which the base composition is fixed throughout evolution.
+Basic properties of the associated algebraic varieties are investigated,
+including the construction of some phylogenetic invariants.
+</summary>
+    <author>
+      <name>Elizabeth S. Allman</name>
+    </author>
+    <author>
+      <name>John A. Rhodes</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/q-bio/0407035v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/q-bio/0407035v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

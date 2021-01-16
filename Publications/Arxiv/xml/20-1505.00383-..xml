@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1505.00383%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1505.00383&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8xZH4d6CbKNPtZDnczK7ZvPJQ4w</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1505.00383v1</id>
+    <updated>2015-05-03T00:50:23Z</updated>
+    <published>2015-05-03T00:50:23Z</published>
+    <title>Tracking Many Solution Paths of a Polynomial Homotopy on a Graphics
+  Processing Unit</title>
+    <summary>  Polynomial systems occur in many areas of science and engineering. Unlike
+general nonlinear systems, the algebraic structure enables to compute all
+solutions of a polynomial system. We describe our massive parallel
+predictor-corrector algorithms to track many solution paths of a polynomial
+homotopy. The data parallelism that provides the speedups stems from the
+evaluation and differentiation of the monomials in the same polynomial system
+at different data points, which are the points on the solution paths.
+Polynomial homotopies that have tens of thousands of solution paths can keep a
+sufficiently large amount of threads occupied. Our accelerated code combines
+the reverse mode of algorithmic differentiation with double double and quad
+double precision to compute more accurate results faster.
+</summary>
+    <author>
+      <name>Jan Verschelde</name>
+    </author>
+    <author>
+      <name>Xiangcheng Yu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1505.00383v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1505.00383v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

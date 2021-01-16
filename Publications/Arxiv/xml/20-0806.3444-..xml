@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0806.3444%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0806.3444&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4bknJtkrXJ3NehRv61nDh+nIttw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0806.3444v1</id>
+    <updated>2008-06-20T19:08:03Z</updated>
+    <published>2008-06-20T19:08:03Z</published>
+    <title>Log minimal model program for the moduli space of stable curves: The
+  first flip</title>
+    <summary>  We give a geometric invariant theory (GIT) construction of the log canonical
+model $\bar M_g(\alpha)$ of the pairs $(\bar M_g, \alpha \delta)$ for $\alpha
+\in (7/10 - \epsilon, 7/10]$ for small $\epsilon \in \mathbb Q_+$. We show that
+$\bar M_g(7/10)$ is isomorphic to the GIT quotient of the Chow variety
+bicanonical curves; $\bar M_g(7/10-\epsilon)$ is isomorphic to the GIT quotient
+of the asymptotically-linearized Hilbert scheme of bicanonical curves. In each
+case, we completely classify the (semi)stable curves and their orbit closures.
+Chow semistable curves have ordinary cusps and tacnodes as singularities but do
+not admit elliptic tails. Hilbert semistable curves satisfy further conditions,
+e.g., they do not contain elliptic bridges. We show that there is a small
+contraction $\Psi: \bar M_g(7/10+\epsilon) \to \bar M_g(7/10)$ that contracts
+the locus of elliptic bridges. Moreover, by using the GIT interpretation of the
+log canonical models, we construct a small contraction $\Psi^+ : \bar
+M_g(7/10-\epsilon) \to \bar M_g(7/10)$ that is the Mori flip of $\Psi$.
+</summary>
+    <author>
+      <name>Brendan Hassett</name>
+    </author>
+    <author>
+      <name>Donghoon Hyeon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">75 pages, 15 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/0806.3444v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0806.3444v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L24, 14H10, 14D22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

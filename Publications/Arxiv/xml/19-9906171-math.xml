@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9906171%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9906171&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oy4GBWO1dsxx+1a2ZeEEXVlKZsw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9906171v1</id>
+    <updated>1999-06-25T14:18:26Z</updated>
+    <published>1999-06-25T14:18:26Z</published>
+    <title>Enriques Surfaces and other Non-Pfaffian Subcanonical Subschemes of
+  Codimension 3</title>
+    <summary>  We give examples of subcanonical subvarieties of codimension 3 in projective
+n-space which are not Pfaffian, i.e. defined by the ideal sheaf of submaximal
+Pfaffians of an alternating map of vector bundles. This gives a negative answer
+to a question asked by Okonek.
+  Walter had previously shown that a very large majority of subcanonical
+subschemes of codimension 3 in P^n are Pfaffian, but he left open the question
+whether the exceptional non-Pfaffian cases actually occur. We give non-Pfaffian
+examples of the principal types allowed by his theorem, including (Enriques)
+surfaces in P^5 in characteristic 2 and a smooth 4-fold in P^7.
+  These examples are based on our previous work math.AG/9906170 showing that
+any strongly subcanonical subscheme of codimension 3 of a Noetherian scheme can
+be realized as a locus of degenerate intersection of a pair of Lagrangian
+(maximal isotropic) subbundles of a twisted orthogonal bundle.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Sorin Popescu</name>
+    </author>
+    <author>
+      <name>Charles Walter</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">AMS-Latex 1.2 with diagrams.tex and epsf.tex; one postscript figure;
+  24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9906171v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9906171v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M07, 14J28, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

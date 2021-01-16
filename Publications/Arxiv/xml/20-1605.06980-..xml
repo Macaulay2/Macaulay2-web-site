@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.06980%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.06980&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4mC369ErLVz4Hwo8N3KDhmruMbI</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.06980v1</id>
+    <updated>2016-05-23T11:33:25Z</updated>
+    <published>2016-05-23T11:33:25Z</published>
+    <title>Bounds on the regularity of toric ideals of graphs</title>
+    <summary>  Let $G$ be a finite simple graph. We give a lower bound for the
+Castelnuovo-Mumford regularity of the toric ideal $I_G$ associated to $G$ in
+terms of the sizes and number of induced complete bipartite graphs in $G$. When
+$G$ is a chordal bipartite graph, we find an upper bound for the regularity of
+$I_G$ in terms of the size of the bipartition of $G$. We also give a new proof
+for the graded Betti numbers of the toric ideal associated to the complete
+bipartite graph $K_{2,n}$.
+</summary>
+    <author>
+      <name>Jennifer Biermann</name>
+    </author>
+    <author>
+      <name>Augustine O'Keefe</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.06980v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.06980v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

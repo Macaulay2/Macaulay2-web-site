@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1310.4445%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1310.4445&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BCUEhVGrPgwrcD9Zk3IOxBwGjAc</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1310.4445v1</id>
+    <updated>2013-10-16T16:53:07Z</updated>
+    <published>2013-10-16T16:53:07Z</published>
+    <title>Multi-loop Integrand Reduction with Computational Algebraic Geometry</title>
+    <summary>  We discuss recent progress in multi-loop integrand reduction methods.
+Motivated by the possibility of an automated construction of multi-loop
+amplitudes via generalized unitarity cuts we describe a procedure to obtain a
+general parameterisation of any multi-loop integrand in a renormalizable gauge
+theory. The method relies on computational algebraic geometry techniques such
+as Gr\"obner bases and primary decomposition of ideals. We present some results
+for two and three loop amplitudes obtained with the help of the Macaulay2
+computer algebra system and the Mathematica package BasisDet.
+</summary>
+    <author>
+      <name>Simon Badger</name>
+    </author>
+    <author>
+      <name>Hjalte Frellesvig</name>
+    </author>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Contribution to the 15th International Workshop on advanced computing
+  and analysis techniques (ACAT 2013), 16-21 May, Beijing, China. 8 pages, 2
+  figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1310.4445v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1310.4445v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

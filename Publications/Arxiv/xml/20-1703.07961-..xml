@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1703.07961%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1703.07961&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4SEKYoe2FaA07Niq7N1jwJnfVis</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1703.07961v2</id>
+    <updated>2017-03-29T08:15:12Z</updated>
+    <published>2017-03-23T08:14:03Z</published>
+    <title>On the Hilbert coefficients, depth of associated graded rings and
+  reduction numbers</title>
+    <summary>  Let $(R,\mathfrak{m})$ be a $d$-dimensional Cohen-Macaulay local ring, $I$ an
+$\mathfrak{m}$-primary ideal of $R$ and $J=(x_1,...,x_d)$ a minimal reduction
+of $I$. We show that if $J_{d-1}=(x_1,...,x_{d-1})$ and
+$\sum\limits_{n=1}^\infty\lambda{({I^{n+1}\cap J_{d-1}})/({J{I^n} \cap
+J_{d-1}})=i}$ where i=0,1, then depth $G(I)\geq{d-i-1}$. Moreover, we prove
+that if $e_2(I) = \sum_{n=2}^\infty (n-1) \lambda (I^n/JI^{n-1})-2;$ or if $I$
+is integrally closed and $e_2(I) = \sum_{n=2}^\infty
+(n-1)\lambda({{I^{n}}}/JI^{n-1})-i$ where $i=3,4$, then $e_1(I) =
+\sum_{n=1}^\infty \lambda(I^n / JI^{n-1})-1.$ In addition, we show that $r(I)$
+is independent. Furthermore, we study the independence of $r(I)$ with some
+other conditions.
+</summary>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Dler Naderi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1703.07961v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1703.07961v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

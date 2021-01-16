@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1602.00429%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1602.00429&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GcatnJps1C+YStUKkGOAJvOLZP8</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1602.00429v2</id>
+    <updated>2016-03-01T15:53:30Z</updated>
+    <published>2016-02-01T08:53:01Z</published>
+    <title>Cohomological support and the geometric join</title>
+    <summary>  Let $M,N$ be finitely generated modules over a local complete intersection
+$R$. Assume that for each $i&gt;0$, $\mathrm{Tor}^R_i(M,N)=0$. We prove that the
+cohomological support of $M\otimes_R N$ (in the sense of Avramov-Buchweitz) is
+equal to the geometric join of the cohomological supports of $M,N$. Such result
+gives a new connection between two active areas or research, and immediately
+produces several surprising corollaries. Naturally, it also raises many
+intriguing new questions about the homological properties of modules over a
+complete intersection, some of those are investigated in the second half of
+this note.
+</summary>
+    <author>
+      <name>Hailong Dao</name>
+    </author>
+    <author>
+      <name>William Sanders</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor typos are fixed</arxiv:comment>
+    <link href="http://arxiv.org/abs/1602.00429v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1602.00429v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

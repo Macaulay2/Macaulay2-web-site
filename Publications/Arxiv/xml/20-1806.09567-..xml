@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1806.09567%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1806.09567&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/heYJLzT/WBoOrLxz+5JnutAX+3A</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1806.09567v1</id>
+    <updated>2018-06-25T17:07:32Z</updated>
+    <published>2018-06-25T17:07:32Z</published>
+    <title>Singularities in mixed characteristic via big Cohen-Macaulay algebras</title>
+    <summary>  We utilize a recent result of Andr\'e and Gabber on the existence of weakly
+functorial (integral perfectoid) big Cohen-Macaulay (BCM) algebras to study
+singularities of local rings in mixed characteristic. In particular, we
+introduce a mixed characteristic BCM-variant of rational/$F$-rational
+singularities, of log terminal/$F$-regular singularities and of multiplier/test
+ideals of divisor pairs. We prove a number of results about these objects
+including a restriction theorem for BCM multiplier/test ideals and deformation
+statements for BCM-regular and BCM-rational singularities. As an application,
+we obtain results on the behavior of $F$-regular and $F$-rational singularities
+in arithmetic families.
+</summary>
+    <author>
+      <name>Linquan Ma</name>
+    </author>
+    <author>
+      <name>Karl Schwede</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">51 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1806.09567v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1806.09567v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D22, 13A35, 14F18, 14B05, 14D10, 11G99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

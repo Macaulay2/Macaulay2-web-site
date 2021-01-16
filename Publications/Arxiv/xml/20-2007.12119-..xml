@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2007.12119%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2007.12119&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kxk2T6UsK/SSDFO9muNY5ki3Otk</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2007.12119v1</id>
+    <updated>2020-07-23T16:45:18Z</updated>
+    <published>2020-07-23T16:45:18Z</published>
+    <title>Deformation and Unobstructedness of Determinantal Schemes</title>
+    <summary>  Let $Hilb ^{p(t)}(P^n)$ be the Hilbert scheme of closed subschemes of $P^n$
+with Hilbert polynomial $p(t) \in Q[t]$, and let $W:=
+\overline{W(\underline{b};\underline{a};r)}$ be the closure of the locus in
+$Hilb ^{p(t)}(P^n)$ of determinantal schemes defined by the vanishing of the
+$(t-r+1)\times (t - r+1)$ minors of some matrix $\mathcal A$ of size $t\times
+(t+c-1)$ with $ij$-enty a homogeneous form of degree $a_j-b_i$ and with $r$
+satisfying $\max\{1,2-c\} \le r &lt; t$. $W$ is an irreducible algebraic set.
+First of all, we compute an upper $r$-independent bound for the dimension of
+$W$ in terms of $a_j$ and $b_i$ which is sharp for $r=1$. In the linear case
+($a_j = 1, b_i=0$) and cases sufficiently close, we conjecture and to a certain
+degree prove that this bound is achieved for all $r$. Then, we study to what
+extent $W$ is a generically smooth component of $Hilb ^{p(t)}(P^n)$. Under some
+weak numerical assumptions on the integers $a_j$ and $b_i$ (or under some depth
+conditions) we conjecture and often prove that $W$ is a generically smooth
+component. Moreover, we also study the depth of the normal module of the
+homogeneous coordinate ring of $(X)\in W$ and of a closely related module. We
+conjecture, and in some cases prove, that their codepth is often 1 (resp. $r$).
+These results extend previous results on standard determinantal schemes to
+determinantal schemes; i.e. previous results of the authors on
+$W(\underline{b};\underline{a};1)$ to $W$ with $1\le r &lt; t$ and $c\ge 2-r$.
+Finally, deformations of exterior powers of the cokernel of the map determined
+by $\mathcal A$ are studied and proven to be given as deformations of $X
+\subset P^n$ if $\dim X \ge 3$. The work contains many examples which
+illustrate the results obtained and a considerable number of open problems;
+some of them are collected as conjectures in the final section.
+</summary>
+    <author>
+      <name>Jan O. Kleppe</name>
+    </author>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Accepted for publication by the Memoirs of the American Mathematical
+  Society</arxiv:comment>
+    <link href="http://arxiv.org/abs/2007.12119v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2007.12119v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14C05(Primary) 14H10, 14J10, 13C40(Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

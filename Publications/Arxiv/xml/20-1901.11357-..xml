@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1901.11357%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1901.11357&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eXGFeXMHoYuOhbbYrHfappirmV8</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1901.11357v1</id>
+    <updated>2019-01-31T13:52:50Z</updated>
+    <published>2019-01-31T13:52:50Z</published>
+    <title>Efficient Relative Pose Estimation for Cameras and Generalized Cameras
+  in Case of Known Relative Rotation Angle</title>
+    <summary>  We propose two minimal solutions to the problem of relative pose estimation
+of (i) a calibrated camera from four points in two views and (ii) a calibrated
+generalized camera from five points in two views. In both cases, the relative
+rotation angle between the views is assumed to be known. In practice, such
+angle can be derived from the readings of a 3d gyroscope. We represent the
+rotation part of the motion in terms of unit quaternions in order to construct
+polynomial equations encoding the epipolar constraints. The Gr\"{o}bner basis
+technique is then used to efficiently derive the solutions. Our first solver
+for regular cameras significantly improves the existing state-of-the-art
+solution. The second solver for generalized cameras is novel.
+  The presented minimal solvers can be used in a hypothesize-and-test
+architecture such as RANSAC for reliable pose estimation. Experiments on
+synthetic and real datasets confirm that our algorithms are numerically stable,
+fast and robust.
+</summary>
+    <author>
+      <name>Evgeniy Martyushev</name>
+    </author>
+    <author>
+      <name>Bo Li</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 9 eps-figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1901.11357v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1901.11357v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

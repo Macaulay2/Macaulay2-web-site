@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.03128%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.03128&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RKNQIioSaVNBFqnliFcCa/EWGjE</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.03128v1</id>
+    <updated>2019-04-05T15:44:32Z</updated>
+    <published>2019-04-05T15:44:32Z</published>
+    <title>The graph of a Weyl algebra endomorphism</title>
+    <summary>  Endomorphisms of Weyl algebras are studied using bimodules. Initially, for a
+Weyl algebra over a field of characteristic zero, Bernstein's inequality
+implies that holonomic bimodules finitely generated from the right or left form
+a monoidal category.
+  The most important bimodule in this paper is the graph of an endomorphism. We
+prove that the graph of an endomorphism of a Weyl algebra over a field of
+characteristic zero is a simple bimodule. The simplicity of the tensor product
+of the dual graph and the graph is equivalent to the Dixmier conjecture.
+  It is also shown how the graph construction leads to a non-commutative
+Groebner basis algorithm for detecting invertibility of an endomorphism for
+Weyl algebras and computing the inverse over arbitrary fields.
+</summary>
+    <author>
+      <name>Niels Lauritzen</name>
+    </author>
+    <author>
+      <name>Jesper Funch Thomsen</name>
+    </author>
+    <link href="http://arxiv.org/abs/1904.03128v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.03128v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1901.07967%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1901.07967&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pdwp/h9BLFIL/Q//l8R+34loLiQ</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1901.07967v2</id>
+    <updated>2019-01-29T17:01:20Z</updated>
+    <published>2019-01-23T15:59:00Z</published>
+    <title>Chudnovsky's conjecture and resurgence numbers of fiber products of
+  projective schemes</title>
+    <summary>  We establish Chudnovsky's conjecture for a general set of points in
+projective spaces. This conjecture provides a lower bound for the least degree
+of a homogeneous polynomial that vanishes at the given set of points with a
+given multiplicity. We also investigate the resurgence and asymptotic
+resurgence numbers of fiber products of projective schemes. Particularly, we
+show that while the asymptotic resurgence number of the k-fold fiber product of
+a projective scheme remains unchanged, its resurgence number could strictly
+increase.
+</summary>
+    <author>
+      <name>Sankhaneel Bisui</name>
+    </author>
+    <author>
+      <name>Huy Tai Ha</name>
+    </author>
+    <author>
+      <name>A. V. Jayanthan</name>
+    </author>
+    <author>
+      <name>Abu Chackalamannil Thomas</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">minor changes; 15 pages; comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1901.07967v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1901.07967v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 14C20, 13F20, 32S05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1901.02375%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1901.02375&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cW8mqftvZHcuFEyiXMsZNPWeuDA</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1901.02375v1</id>
+    <updated>2019-01-08T15:44:13Z</updated>
+    <published>2019-01-08T15:44:13Z</published>
+    <title>The semi-algebraic geometry of optimal designs for the Bradley-Terry
+  model</title>
+    <summary>  Optimal design theory for nonlinear regression studies local optimality on a
+given design space. We identify designs for the Bradley--Terry paired
+comparison model with small undirected graphs and prove that every saturated
+optimal design is represented by a path. We discuss the case of 4 alternatives
+in detail and derive explicit polynomial inequality descriptions for optimality
+regions in parameter space.
+</summary>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Frank Röttger</name>
+    </author>
+    <author>
+      <name>Rainer Schwabe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1901.02375v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1901.02375v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 62K05 Secondary: 13P25, 14P10, 62J02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0512632%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0512632&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6NflvdqQq/gmyiCm6jV1QIbPzfw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0512632v1</id>
+    <updated>2005-12-29T02:59:06Z</updated>
+    <published>2005-12-29T02:59:06Z</published>
+    <title>Balanced normal cones and Fulton-MacPherson's intersection theory</title>
+    <summary>  Let X be a subscheme of a reduced scheme Y. Then Y has a flat "degeneration
+to the normal cone" C_X Y of X, and this degeneration plays a key step in
+Fulton and MacPherson's "basic construction" in intersection theory. The
+intersection product has a canonical refinement as a sum over the components of
+C_X Y, for X and Y depending on the given intersection problem. The cone C_X Y
+is usually not reduced, which leads to the appearance of multiplicities in
+intersection formulae.
+  We describe a variant of this degeneration, due essentially to Samuel, Rees,
+and Nagata, in which Y flatly degenerates to the "balanced" normal cone \barC_X
+Y. This space is reduced, and has a natural map onto the reduction (C_X Y)_red
+of C_X Y. The multiplicity of a component now appears as the degree of this
+map. Hence intersection theory can be studied using only reduced schemes.
+Moreover, since the map \barC_X Y \to (C_X Y)_red may wrap multiple components
+of \barC_X Y around one component of C_X Y, writing the intersection product as
+a sum over the components of \barC_X Y gives a further canonical refinement. \\
+  In the case that X is a Cartier divisor in a projective scheme Y, we describe
+the balanced normal cone in homotopy-theoretic terms, and prove a useful upper
+bound on the Hilbert function of \barC_X Y.
+</summary>
+    <author>
+      <name>Allen Knutson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages, 2 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Pure and Applied Mathematics Quarterly Vol 2, #4, 2006 (MacPherson
+  special issue part II)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/math/0512632v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0512632v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17; 13A30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

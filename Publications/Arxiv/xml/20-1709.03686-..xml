@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1709.03686%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1709.03686&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EC1hV50XZSnCRoRK7vQrOTlbA3A</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.03686v1</id>
+    <updated>2017-09-12T04:16:25Z</updated>
+    <published>2017-09-12T04:16:25Z</published>
+    <title>Generalized Permutohedra, Scattering Amplitudes, and a Cubic Three-Fold</title>
+    <summary>  In this note, we apply combinatorial techniques from our Ph.D. thesis to
+study how generalized permutohedra may be represented functionally on
+Parke-Tayor factors and related rational functions. In any functional
+representation of polyhedral cones, in general certain homological information
+may be lost. The combinatorial relations of the Parke-Taylor factors lift
+homologically to generalized permutohedra.
+  The 6-particle case contains several related layers of interesting geometric
+data: the Newton polytope for the polynomial numerator lifts the permutohedron
+in three variables, which is a hexagon, and the fraction itself provides a
+functional representation of certain neighborhoods of a vertex of a
+5-dimensional weight permutohedron. The lift from fraction to generalized
+permutohedron was derived by comparing functional representations. We observe
+additionally that the numerator and its permutations satisfy a degree 3
+polynomial relation which defines a classical projective variety known as the
+Segre cubic.
+  We include in an extended Appendix selected Mathematica code which can be
+used to verify our computations independently.
+</summary>
+    <author>
+      <name>Nick Early</name>
+    </author>
+    <link href="http://arxiv.org/abs/1709.03686v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.03686v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

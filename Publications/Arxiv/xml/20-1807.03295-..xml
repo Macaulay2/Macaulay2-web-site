@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.03295%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.03295&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lQUk4QMdidfnpIDDFyhcjVNFJ4g</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03295v1</id>
+    <updated>2018-07-09T17:58:16Z</updated>
+    <published>2018-07-09T17:58:16Z</published>
+    <title>Coordinate-wise Powers of Algebraic Varieties</title>
+    <summary>  We introduce and study coordinate-wise powers of subvarieties of
+$\mathbb{P}^n$, i.e. varieties arising from raising all points in a given
+subvariety of $\mathbb{P}^n$ to the $r$-th power, coordinate by coordinate.
+This corresponds to studying the image of a subvariety of $\mathbb{P}^n$ under
+the quotient of $\mathbb{P}^n$ by the action of the finite group
+$\mathbb{Z}_r^{n+1}$. We determine the degree of coordinate-wise powers and
+study their defining equations, particularly for hypersurfaces and linear
+spaces. Applying these results, we compute the degree of the variety of
+orthostochastic matrices and determine iterated dual and reciprocal varieties
+of power sum hypersurfaces. We also establish a link between coordinate-wise
+squares of linear spaces and the study of real symmetric matrices with a
+degenerate eigenspectrum.
+</summary>
+    <author>
+      <name>Papri Dey</name>
+    </author>
+    <author>
+      <name>Paul Görlach</name>
+    </author>
+    <author>
+      <name>Nidhi Kaihnsa</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.03295v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.03295v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

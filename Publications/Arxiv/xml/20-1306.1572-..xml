@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.1572%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.1572&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7G12ro22gJnz72M4C1n379jA5bE</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.1572v1</id>
+    <updated>2013-06-06T23:15:06Z</updated>
+    <published>2013-06-06T23:15:06Z</published>
+    <title>Special positions of body-and-cad frameworks</title>
+    <summary>  A recent result provides a combinatorial characterization of the generic
+rigidity for the majority of Computer Aided Design (CAD) structures. However,
+an algorithm based on this result will incorrectly classify a design as
+well-constrained if it is in a special (non-generic) position allowing an
+internal motion. Since, in practice, CAD users often rely on highly organized
+structural elements and design patterns which may exhibit this non-generic
+behavior, we seek an approach to determine whether a design is in a special
+position. We present a combinatorial approach for finding the factors of the
+polynomial whose vanishing indicates a special position. For certain
+structures, we further find geometric properties determining when factors of
+the polynomial vanish by using the Grassmann-Cayley algebra and present case
+studies demonstrating our approach.
+</summary>
+    <author>
+      <name>James Farre</name>
+    </author>
+    <author>
+      <name>Audrey Lee-St. John</name>
+    </author>
+    <author>
+      <name>Jessica Sidman</name>
+    </author>
+    <author>
+      <name>Louis Theran</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 11 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.1572v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.1572v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0911.1569%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0911.1569&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CmTgMDONDCdbuIg4Jg8C06rIfx4</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0911.1569v1</id>
+    <updated>2009-11-08T23:42:45Z</updated>
+    <published>2009-11-08T23:42:45Z</published>
+    <title>Exploring Positive Monad Bundles And A New Heterotic Standard Model</title>
+    <summary>  A complete analysis of all heterotic Calabi-Yau compactifications based on
+positive two-term monad bundles over favourable complete intersection
+Calabi-Yau threefolds is performed. We show that the original data set of about
+7000 models contains 91 standard-like models which we describe in detail. A
+closer analysis of Wilson-line breaking for these models reveals that none of
+them gives rise to precisely the matter field content of the standard model. We
+conclude that the entire set of positive two-term monads on complete
+intersection Calabi-Yau manifolds is ruled out on phenomenological grounds. We
+also take a first step in analyzing the larger class of non-positive monads. In
+particular, we construct a supersymmetric heterotic standard model within this
+class. This model has the standard model gauge group and an additional
+U(1)_{B-L} symmetry, precisely three families of quarks and leptons, one pair
+of Higgs doublets and no anti-families or exotics of any kind.
+</summary>
+    <author>
+      <name>Lara B. Anderson</name>
+    </author>
+    <author>
+      <name>James Gray</name>
+    </author>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Andre Lukas</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP02(2010)054</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP02(2010)054" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">48 pages</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">JHEP 1002:054,2010</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0911.1569v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0911.1569v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

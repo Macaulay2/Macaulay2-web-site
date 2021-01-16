@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.08107%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.08107&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PmUV4k06S/H60svNtWjE/VtYLaA</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.08107v1</id>
+    <updated>2019-03-19T16:54:14Z</updated>
+    <published>2019-03-19T16:54:14Z</published>
+    <title>Fibers of multi-graded rational maps and orthogonal projection onto
+  rational surfaces</title>
+    <summary>  We contribute a new algebraic method for computing the orthogonal projections
+of a point onto a rational algebraic surface embedded in the three dimensional
+projective space. This problem is first turned into the computation of the
+finite fibers of a generically finite dominant rational map: a congruence of
+normal lines to the rational surface. Then, an in-depth study of certain syzygy
+modules associated to such a congruence is presented and applied to build
+elimination matrices that provide universal representations of its finite
+fibers, under some genericity assumptions. These matrices depend linearly in
+the variables of the three dimensional space and the orthogonal projections of
+a point can be approximately computed from them by means of eigenvalue and
+eigenvector numerical calculations.
+</summary>
+    <author>
+      <name>Nicolás Botbol</name>
+    </author>
+    <author>
+      <name>Laurent Busé</name>
+    </author>
+    <author>
+      <name>Marc Chardin</name>
+    </author>
+    <author>
+      <name>Fatmanur Yildirim</name>
+    </author>
+    <link href="http://arxiv.org/abs/1903.08107v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.08107v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

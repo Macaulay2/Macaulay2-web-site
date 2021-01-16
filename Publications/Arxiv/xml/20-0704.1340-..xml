@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0704.1340%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0704.1340&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kId69rR1bM8+uor630T9UeU/Wco</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0704.1340v1</id>
+    <updated>2007-04-11T02:33:11Z</updated>
+    <published>2007-04-11T02:33:11Z</published>
+    <title>Tautological classes on moduli spaces of curves with linear series and a
+  push-forward formula when $ρ=0$</title>
+    <summary>  We define tautological Chow classes on the moduli space of curves with linear
+series. In the case where the forgetful morphism to the moduli space of curves
+has relative dimension zero, we describe the images of these classes in the
+Chow group of Mgbar. As an application, we compute the (virtual) slopes of
+several different classes of divisors on Mgbar.
+</summary>
+    <author>
+      <name>Deepak Khosla</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 4 figures. New version of math.AG/0608024 with applications</arxiv:comment>
+    <link href="http://arxiv.org/abs/0704.1340v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0704.1340v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10, 14H51," scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.03221%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.03221&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4f78ya9X8zh6s4XbZ0hLleFcfSU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.03221v1</id>
+    <updated>2018-07-09T15:16:37Z</updated>
+    <published>2018-07-09T15:16:37Z</published>
+    <title>Discrete Gauging in Coulomb branches of Three Dimensional
+  $\mathcal{N}=4$ Supersymmetric Gauge Theories</title>
+    <summary>  This paper tests a conjecture on discrete non-Abelian gauging of 3d
+$\mathcal{N} = 4$ supersymmetric quiver gauge theories. Given a parent quiver
+with a bouquet of $n$ nodes of rank $1$, invariant under a discrete $S_n$
+global symmetry, one can construct a daughter quiver where the bouquet is
+substituted by a single adjoint $n$ node. Based on the main conjecture in this
+paper, the daughter quiver corresponds to a theory where the $S_n$ discrete
+global symmetry is gauged and the new Coulomb branch is a non-Abelian orbifold
+of the parent Coulomb branch. We demonstrate and test the conjecture for three
+simply laced families of bouquet quivers and a non-simply laced bouquet quiver
+with $C_2$ factor in the global symmetry.
+</summary>
+    <author>
+      <name>Amihay Hanany</name>
+    </author>
+    <author>
+      <name>Anton Zajac</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">51 pages, 38 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.03221v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.03221v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

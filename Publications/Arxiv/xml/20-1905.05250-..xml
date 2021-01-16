@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1905.05250%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1905.05250&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L22fRdBarpl6z8/l84m1hHV2mCI</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1905.05250v1</id>
+    <updated>2019-05-13T19:15:27Z</updated>
+    <published>2019-05-13T19:15:27Z</published>
+    <title>Critical points at infinity for analytic combinatorics</title>
+    <summary>  On complex algebraic varieties, height functions arising in combinatorial
+applications fail to be proper. This complicates the description and
+computation via Morse theory of key topological invariants. Here we establish
+checkable conditions under which the behavior at infinity may be ignored, and
+the usual theorems of classical and stratified Morse theory may be applied.
+</summary>
+    <author>
+      <name>Yuliy Baryshnikov</name>
+    </author>
+    <author>
+      <name>Stephen Melczer</name>
+    </author>
+    <author>
+      <name>Robin Pemantle</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1905.05250v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1905.05250v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F9904071%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/9904071&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xNcg72qNW4ukvtn9ggaSYqRuosM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/9904071v1</id>
+    <updated>1999-04-15T09:02:10Z</updated>
+    <published>1999-04-15T09:02:10Z</published>
+    <title>Standard bases with respect to the Newton filtration</title>
+    <summary>  The aim of this article is to introduce standard bases of ideals in
+polynomial rings with respect to a class of orderings which are not necessarily
+semigroup orderings. Our approach generalises the concept of standard bases
+with respect to semigroup orderings described by Graebe and Greuel/Pfister. To
+compute these standard bases we give a slightly modified version of the
+Buchberger algorithm. The orderings we consider are refinements of certain
+filtrations. In the local case these filtrations are Newton filtrations. For a
+zero dimensional ideal, an algorithm converting standard bases with respect to
+local orderings is given. As an application, we show how to compute the
+spectrum of an isolated complex hypersurface singularity $f:(C^n,0)\to(C,0)$
+with nondegenerate principal part.
+</summary>
+    <author>
+      <name>Stephan Endrass</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/9904071v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/9904071v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

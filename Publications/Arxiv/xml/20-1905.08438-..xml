@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1905.08438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1905.08438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7kVEAskUqLEjjz4IEVBfBBeTlS4</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1905.08438v1</id>
+    <updated>2019-05-21T04:38:53Z</updated>
+    <published>2019-05-21T04:38:53Z</published>
+    <title>Bivariate Semialgebraic Splines</title>
+    <summary>  Semialgebraic splines are bivariate splines over meshes whose edges are arcs
+of algebraic curves. They were first considered by Wang, Chui, and Stiller. We
+compute the dimension of the space of semialgebraic splines in two extreme
+cases. If the polynomials defining the edges span a three-dimensional space of
+polynomials, then we compute the dimensions from the dimensions for a
+corresponding rectilinear mesh. If the mesh is sufficiently generic, we give a
+formula for the dimension of the spline space valid in large degree and bound
+how large the degree must be for the formula to hold. We also study the
+dimension of the spline space in examples which do not satisfy either extreme.
+The results are derived using commutative and homological algebra.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1905.08438v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1905.08438v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 41A15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

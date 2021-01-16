@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.2192%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.2192&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/O+vyBNADNrkmHi22juUQwVo72zc</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.2192v1</id>
+    <updated>2014-09-08T02:51:54Z</updated>
+    <published>2014-09-08T02:51:54Z</published>
+    <title>Nilpotent matrices having a given Jordan type as maximum commuting
+  nilpotent orbit</title>
+    <summary>  The Jordan type of a nilpotent matrix is the partition giving the sizes of
+its Jordan blocks. We study pairs of partitions $(P,Q)$, where $Q={\mathcal
+Q}(P )$ is the Jordan type of a generic nilpotent matrix A commuting with a
+nilpotent matrix B of Jordan type $ P$. T. Ko\v{s}ir and P. Oblak have shown
+that $Q$ has parts that differ pairwise by at least two. Such partitions, which
+are also known as "super distinct" or "Rogers-Ramanujan", are exactly those
+that are stable or "self-large" in the sense that ${\mathcal Q}(Q)=Q$.
+  In 2012 P. Oblak formulated a conjecture concerning the cardinality of the
+set of partitions $P$ such that ${\mathcal Q}(P )$ is a given stable partition
+$ Q$ with two parts, and proved some special cases. R. Zhao refined this to
+posit that those partitions $P$ such that ${\mathcal Q}(P )= Q=(u,u-r)$ with
+$u&gt;r\ge 2$ could be arranged in an $(r-1)$ by $(u-r)$ table ${\mathcal T}(Q)$
+where the entry in the $k$-th row and $\ell$-th column has $k+\ell$ parts.
+  We prove this Table Theorem, and then generalize the statement to propose a
+Box Conjecture for the set of partitions $P$ for which ${\mathcal Q}(P )=Q$,
+for an arbitrary stable partition $Q$.
+</summary>
+    <author>
+      <name>Anthony Iarrobino</name>
+    </author>
+    <author>
+      <name>Leila Khatami</name>
+    </author>
+    <author>
+      <name>Bart Van Steirteghem</name>
+    </author>
+    <author>
+      <name>Rui Zhao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">48 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.2192v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.2192v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 15A27, Secondary 05E40, 13E10, 14M10, 20G05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0505229%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0505229&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gdEp4I24dkmzhgXCWBgGQlP7Rpg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505229v1</id>
+    <updated>2005-05-11T19:01:25Z</updated>
+    <published>2005-05-11T19:01:25Z</published>
+    <title>Extensions of the Multiplicity Conjecture</title>
+    <summary>  The Multiplicity conjecture of Herzog, Huneke, and Srinivasan states an upper
+bound for the multiplicity of any graded $k$-algebra as well as a lower bound
+for Cohen-Macaulay algebras. In this note we extend this conjecture in several
+directions. We discuss when these bounds are sharp, find a sharp lower bound in
+case of not necessarily arithmetically Cohen-Macaulay one-dimensional schemes
+of 3-space, and we propose an upper bound for finitely generated graded torsion
+modules. We establish this bound for torsion modules whose codimension is at
+most two.
+</summary>
+    <author>
+      <name>Juan Migliore</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <author>
+      <name>Tim Roemer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0505229v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0505229v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02; 13H15; 13C40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

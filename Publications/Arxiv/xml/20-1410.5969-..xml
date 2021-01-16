@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.5969%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.5969&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/To9pPpMVfEpN1eOxY7GcgTqP5PE</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.5969v2</id>
+    <updated>2014-11-20T11:08:00Z</updated>
+    <published>2014-10-22T09:49:10Z</published>
+    <title>The converse of a theorem by Bayer and Stillman</title>
+    <summary>  Bayer-Stillman showed that $reg(I) = reg(gin_\tau(I))$ when $\tau$ is the
+graded reverse lexicographic order. We show that the reverse lexicographic
+order is the unique monomial order $\tau$ satisfying $reg(I) =
+reg(gin_\tau(I))$ for all ideals $I$. We also show that if $gin_{\tau_1}(I) =
+gin_{\tau_2}(I)$ for all $I$, then $\tau_1 = \tau_2$.
+</summary>
+    <author>
+      <name>HyunBin Loh</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1410.5969v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.5969v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

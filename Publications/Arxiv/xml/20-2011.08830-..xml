@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.08830%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.08830&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/o1qWLpMQWMMkY0oKohGcnfLW/U0</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.08830v2</id>
+    <updated>2020-12-03T14:24:47Z</updated>
+    <published>2020-11-17T18:50:22Z</published>
+    <title>Stable maps to Looijenga pairs</title>
+    <summary>  A log Calabi-Yau surface with maximal boundary, or Looijenga pair, is a pair
+$(Y,D)$ with $Y$ a smooth rational projective complex surface and $D=D_1+\dots
++ D_l \in |-K_Y|$ an anticanonical singular nodal curve. Under some positivity
+conditions on the pair, we propose a series of correspondences relating five
+different classes of enumerative invariants attached to $(Y,D)$:
+  1) the log Gromov-Witten theory of the pair $(Y,D)$,
+  2) the Gromov-Witten theory of the total space of $\bigoplus_i
+\mathcal{O}_Y(-D_i)$,
+  3) the open Gromov-Witten theory of special Lagrangians in a Calabi-Yau
+3-fold determined by $(Y,D)$,
+  4) the Donaldson-Thomas theory of a symmetric quiver specified by $(Y,D)$,
+and
+  5) a class of BPS invariants considered in different contexts by
+Klemm-Pandharipande, Ionel-Parker, and Labastida-Marino-Ooguri-Vafa.
+  We furthermore provide a complete closed-form solution to the calculation of
+all these invariants.
+</summary>
+    <author>
+      <name>Pierrick Bousseau</name>
+    </author>
+    <author>
+      <name>Andrea Brini</name>
+    </author>
+    <author>
+      <name>Michel van Garrel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">114 pages (80pp+appendices), 40 figures. v2: minor changes,
+  references added</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.08830v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.08830v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

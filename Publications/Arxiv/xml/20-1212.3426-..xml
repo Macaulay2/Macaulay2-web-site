@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1212.3426%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1212.3426&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W30ZY+Z1qC3wAOk2BowEqSJem6A</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1212.3426v1</id>
+    <updated>2012-12-14T10:02:24Z</updated>
+    <published>2012-12-14T10:02:24Z</published>
+    <title>Generic and special constructions of pure O-sequences</title>
+    <summary>  It is shown that the h-vectors of Stanley-Reisner rings of three classes of
+matroids are pure O-sequences. The classes are (a) matroids that are
+truncations of other matroids, or more generally of Cohen-Macaulay complexes,
+(b) matroids whose dual is (rank + 2)-partite, and (c) matroids of
+Cohen-Macaulay type at most five. Consequences for the computational search for
+a counterexample to a conjecture of Stanley are discussed.
+</summary>
+    <author>
+      <name>Alexandru Constantinescu</name>
+    </author>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Matteo Varbaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1212.3426v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1212.3426v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B05, 05E40 (Primary) 13D40, 13E10, 13F55 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

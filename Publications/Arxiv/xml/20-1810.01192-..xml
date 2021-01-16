@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.01192%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.01192&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2n4A+2RYeVTQsDA0kM2ufwxN58Y</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.01192v1</id>
+    <updated>2018-10-02T12:02:42Z</updated>
+    <published>2018-10-02T12:02:42Z</published>
+    <title>Local Operators from the Space of Vacua of Four Dimensional SUSY Gauge
+  Theories</title>
+    <summary>  We construct local operators in short representations of supersymmetry
+algebras from polyvector fields on the quantum moduli space of vacua of
+supersymmetric gauge theories. These operators form a super Lie algebra under a
+natural bracket operation with structure constants determined by terms in the
+operator product expansion of the corresponding operators. We propose a formula
+for the superconformal index in terms of an index over polyvector fields on the
+moduli space of vacua.
+  Along the way, we construct several models with moduli space of vacua
+corresponding to affine cones over smooth bases using the classical geometry of
+Severi varieties and the Landsberg-Manivel projective geometries corresponding
+to the Freudenthal magic square of exceptional Lie algebras. Curiously, we
+relate the Landsberg-Manivel projective geometries to the exceptional enhanced
+symmetry surprises of Dimofte and Gaiotto. Finally, we determine Beasley-Witten
+higher-derivative F-terms in new examples arising from Severi varieties and
+remark on their origin in classical projective duality.
+</summary>
+    <author>
+      <name>Richard Eager</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.01192v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.01192v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

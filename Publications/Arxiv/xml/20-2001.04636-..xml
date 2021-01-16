@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2001.04636%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2001.04636&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wFWbhn4Yo/xQmUIQpwbh/DWC2BI</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2001.04636v2</id>
+    <updated>2020-01-17T05:17:14Z</updated>
+    <published>2020-01-14T06:09:18Z</published>
+    <title>Spherical functions and local densities on the space of $p$-adic
+  quaternion hermitian matrices</title>
+    <summary>  We introduce the space $X$ of quaternion hermitian forms of size $n$ on a
+${\mathfrak p}$-adic field with odd residual characteristic, and define typical
+spherical functions $\omega(x;s)$ on $X$ and give their induction formula on
+sizes by using local densities of quaternion hermitian forms. Then we give
+functional equation of spherical functions with respect to $S_n$, and determine
+the explicit formulas of $\omega(x;s)$. On the other hand, we define the
+spherical transform on the Schwartz space ${\mathcal S}(K\backslash X)$ based
+on $\omega(x; s)$ and study the Hecke module structure of ${\mathcal S}(K
+\backslash X)$.
+</summary>
+    <author>
+      <name>Yumiko Hironaka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2001.04636v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2001.04636v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F85, 11E95, 11F70, 33D45, 33D52" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

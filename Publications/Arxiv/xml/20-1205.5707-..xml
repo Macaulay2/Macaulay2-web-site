@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1205.5707%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1205.5707&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vTz8Pg1wyCX7PsKDN+f9J+c8qZw</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1205.5707v3</id>
+    <updated>2012-09-20T21:37:33Z</updated>
+    <published>2012-05-25T14:30:38Z</published>
+    <title>Integrand-Level Reduction of Loop Amplitudes by Computational Algebraic
+  Geometry Methods</title>
+    <summary>  We present an algorithm for the integrand-level reduction of multi-loop
+amplitudes of renormalizable field theories, based on computational algebraic
+geometry. This algorithm uses (1) the Gr\"obner basis method to determine the
+basis for integrand-level reduction, (2) the primary decomposition of an ideal
+to classify all inequivalent solutions of unitarity cuts. The resulting basis
+and cut solutions can be used to reconstruct the integrand from unitarity cuts,
+via polynomial fitting techniques. The basis determination part of the
+algorithm has been implemented in the Mathematica package, BasisDet. The
+primary decomposition part can be readily carried out by algebraic geometry
+softwares, with the output of the package BasisDet. The algorithm works in both
+D=4 and $D=4-2\epsilon$ dimensions, and we present some two and three-loop
+examples of applications of this algorithm.
+</summary>
+    <author>
+      <name>Yang Zhang</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP09(2012)042</arxiv:doi>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">published version: typos corrected; more examples added</arxiv:comment>
+    <link href="http://arxiv.org/abs/1205.5707v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1205.5707v3" rel="related" type="application/pdf"/>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP09(2012)042" rel="related"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

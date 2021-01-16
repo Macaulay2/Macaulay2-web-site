@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.04206%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.04206&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eQ9gmm3RNY45gFOyJSI4u2mqm2g</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.04206v1</id>
+    <updated>2017-11-11T23:01:06Z</updated>
+    <published>2017-11-11T23:01:06Z</published>
+    <title>Rationality of Poincaré Series for a Family of Lattice Simplices</title>
+    <summary>  We investigate multi-graded Gorenstein semigroup algebras associated with an
+infinite family of reflexive lattice simplices. For each of these algebras, we
+prove that their multigraded Poincar\'e series is rational. Our method of proof
+is to produce for each algebra an explicit minimal free resolution of the
+ground field, in which the resolution reflects the recursive structure encoded
+in the denominator of the finely-graded Poincar\'e series. Using this
+resolution, we show that these algebras are not Koszul, and therefore
+rationality is non-trivial. Our results demonstrate how interactions between
+multivariate and univariate rational generating functions can create subtle
+complications when attempting to use rational Poincar\'e series to inform the
+construction of minimal resolutions.
+</summary>
+    <author>
+      <name>Benjamin Braun</name>
+    </author>
+    <author>
+      <name>Brian Davis</name>
+    </author>
+    <link href="http://arxiv.org/abs/1711.04206v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.04206v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

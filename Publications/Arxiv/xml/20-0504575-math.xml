@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0504575%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0504575&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EalRA6RwaCyq7cOW3rruB5bWgBk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0504575v2</id>
+    <updated>2005-05-10T20:53:07Z</updated>
+    <published>2005-04-28T15:10:55Z</published>
+    <title>A presentation for the Chow ring of \bar{M}_{0,2}(P^1,2)</title>
+    <summary>  We give a presentation for the Chow ring of the moduli space of degree two
+stable maps from two-pointed rational curves to P^1. Also, integrals of of all
+degree four monomials in the hyperplane pullbacks and boundary divisors of this
+ring are computed using equivariant intersection theory. Finally, the
+presentation is used to give a new computation of the (previously known) values
+of the genus zero, degree two, two-pointed gravitational correlators of P^1.
+This article is a sequel to math.AG/0501322, although the only information
+truly needed from that article is the Poincare polynomial of the moduli space
+under consideration.
+</summary>
+    <author>
+      <name>Jonathan A. Cox</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, 1 reference modified and 1 added, geometric explanation for
+  linear relation noted in Section 4.3</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0504575v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0504575v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C15 (Primary) 14D22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0705.3658%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0705.3658&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/b7BwRRfOJp9Ke7Ex5alhkQPmak0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0705.3658v1</id>
+    <updated>2007-05-24T20:54:17Z</updated>
+    <published>2007-05-24T20:54:17Z</published>
+    <title>Picard-Fuchs Differential Equations for Families of K3 Surfaces</title>
+    <summary>  This thesis studies some examples of families of K3 surfaces with Picard
+lattices of maximal rank. These families occur as invariants of finite
+automorphism groups. The Picard-Fuchs differential equations describing the
+variation of Hodge structure in these families are considered. Techniques are
+developed to find the corresponding monodromy groups as arithmetic Fuchsian
+groups acting on the families' period spaces.
+</summary>
+    <author>
+      <name>James P Smith</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Ph.D. Thesis (July 2006). 123 pages, 19 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/0705.3658v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0705.3658v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J28 (Primary) 14J10, 14D05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

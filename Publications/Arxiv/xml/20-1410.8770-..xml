@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1410.8770%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1410.8770&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Bpqc1oVU5z10edTHEO/73U6rQ3I</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1410.8770v2</id>
+    <updated>2015-06-05T13:14:56Z</updated>
+    <published>2014-10-31T15:23:14Z</published>
+    <title>Logarithmic bundles of multi-degree arrangements in $\mathbf{P}^{n}$</title>
+    <summary>  Let $ \mathcal{D} = \{D_{1}, ..., D_{\ell}\} $ be a multi-degree arrangement
+with normal crossings on the complex projective space $ \mathbf{P}^{n} $, with
+degrees $ d_{1}, ..., d_{\ell} $; let $ \Omega_{\mathbf{P}^{n}}^{1}(\log
+\mathcal{D}) $ be the logarithmic bundle attached to it. First we prove a
+Torelli type theorem when $ \mathcal{D} $ has a sufficiently large number of
+components by recovering them as unstable smooth irreducible degree-$ d_{i} $
+hypersurfaces of $ \Omega_{\mathbf{P}^{n}}^{1}(\log \mathcal{D}) $. Then, when
+$ n = 2 $, by describing the moduli spaces containing $
+\Omega_{\mathbf{P}^{2}}^{1}(\log \mathcal{D}) $, we show that arrangements of a
+line and a conic, or of two lines and a conic, are not Torelli. Moreover we
+prove that the logarithmic bundle of three lines and a conic is related with
+the one of a cubic. Finally we analyze the conic-case.
+</summary>
+    <author>
+      <name>Elena Angelini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 3 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Documenta Mathematica 20 (2015) 507-529</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1410.8770v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1410.8770v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60, 14F05, 14C34, 14C20, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

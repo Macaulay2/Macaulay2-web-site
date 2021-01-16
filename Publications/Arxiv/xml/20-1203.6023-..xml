@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1203.6023%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1203.6023&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kpbxAFlk/xUVSoaxEXburw7Esi0</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1203.6023v1</id>
+    <updated>2012-03-24T16:29:14Z</updated>
+    <published>2012-03-24T16:29:14Z</published>
+    <title>Analytical Solution of the Forward Displacement Problem for Spherical
+  Parallel Manipulators</title>
+    <summary>  In this paper, an analytical method that solves the forward displacement
+problem of several common spherical parallel manipulators (SPMs) is presented.
+The method uses the the quaternion algebra to restate the problem as a system
+of four quadrics in four variables and uses an algebraic geometry result by
+Dixon from 1908 to solve. In addition, a case study is presented for a specific
+SPM.
+</summary>
+    <author>
+      <name>Jose Rodriguez</name>
+    </author>
+    <author>
+      <name>Maurizio Ruggiu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1203.6023v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1203.6023v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

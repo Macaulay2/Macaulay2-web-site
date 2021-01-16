@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.05329%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.05329&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/a9nnokTbZnLTGOa3I9HAY2deiBU</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.05329v1</id>
+    <updated>2017-01-19T08:35:26Z</updated>
+    <published>2017-01-19T08:35:26Z</published>
+    <title>A Macaulay2 package for computations with rational maps</title>
+    <summary>  The Macaulay2 package Cremona performs some computations on rational and
+birational maps between irreducible projective varieties. For instance, it
+provides methods to compute degrees and projective degrees of rational maps
+without any theoretical limitation, from which is derived a general method to
+compute the push-forward to projective space of Segre classes. Moreover, the
+computations can be done both deterministically and probabilistically. We give
+here a brief description of the methods and algorithms implemented.
+</summary>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Draft</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.05329v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.05329v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E05, 14Q15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

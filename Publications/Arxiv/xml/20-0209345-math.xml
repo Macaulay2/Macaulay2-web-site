@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0209345%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0209345&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WY1zK8R2+Atgn7mPKrwYGy52hCY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0209345v1</id>
+    <updated>2002-09-25T16:49:55Z</updated>
+    <published>2002-09-25T16:49:55Z</published>
+    <title>A new family of ideals with the doubly exponential ideal membership
+  property</title>
+    <summary>  Mayr and Meyer found ideals with the doubly exponential ideal membership
+property. In the analysis of the associated primes of these ideals (in
+math.AC/0209344), a new family of ideals arose. This new family is presented
+and analyzed in this paper. It is proved that this new family also satisfies
+the doubly exponential ideal membership property. Furthermore, the set of
+associated primes of this family can be computed inductively.
+</summary>
+    <author>
+      <name>Irena Swanson</name>
+    </author>
+    <link href="http://arxiv.org/abs/math/0209345v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0209345v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C13, 13P05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

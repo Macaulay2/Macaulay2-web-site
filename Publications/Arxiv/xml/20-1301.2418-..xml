@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.2418%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.2418&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/N2J15GuFzDId/mZpoCx2dJ3Jvqo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.2418v1</id>
+    <updated>2013-01-11T08:47:10Z</updated>
+    <published>2013-01-11T08:47:10Z</published>
+    <title>Bornes effectives des fonctions d'approximation des solutions formelles
+  d'équations binomiales</title>
+    <summary>  The aim of this paper is to give an effective version of the Strong Artin
+Approximation Theorem for binomial equations. First we give an effective
+version of the Greenberg Approximation Theorem for polynomial equations, then
+using the Weierstrass Preparation Theorem, we apply this effective result to
+binomial equations. We prove that the Artin function of a system of binomial
+equations is bounded by a doubly exponential function in general and that it is
+bounded by an affine function if the order of the approximated solutions is
+bounded.
+</summary>
+    <author>
+      <name>Guillaume Rond</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Published in Journal of Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.2418v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.2418v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13B40, Secondary 13P99, 14B12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

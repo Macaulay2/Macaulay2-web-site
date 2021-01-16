@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1708.07658%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1708.07658&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DZWzAQlquCatY7cmfw/MPdhJiRA</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1708.07658v1</id>
+    <updated>2017-08-25T09:13:16Z</updated>
+    <published>2017-08-25T09:13:16Z</published>
+    <title>Determination of many-electron basis functions for a Quantum Hall ground
+  state using Schur polynomials</title>
+    <summary>  A method for determining the ground state of a planar interacting
+many-electron system in a magnetic field perpendicular to the plane is
+described. The ground state wave-function is expressed as a linear combination
+of a set of basis functions. Given only the flux and the number of electrons
+describing an incompressible state, we use the combinatorics of partitioning
+the flux among the electrons to derive the basis wave-functions as linear
+combinations of Schur polynomials. The procedure ensures that the basis
+wave-functions form representations of the angular momentum algebra. We
+exemplify the method by deriving the basis functions for the 5/2 quantum Hall
+state with a few particles.
+</summary>
+    <author>
+      <name>Sudhansu S. Mandal</name>
+    </author>
+    <author>
+      <name>Sutirtha Mukherjee</name>
+    </author>
+    <author>
+      <name>Koushik Ray</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.aop.2018.01.015</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.aop.2018.01.015" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1708.07658v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1708.07658v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cond-mat.str-el" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

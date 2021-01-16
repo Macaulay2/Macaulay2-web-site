@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1704.01777%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1704.01777&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WhKydO1zF4DdLRi4I1zGJ+nrLZo</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1704.01777v1</id>
+    <updated>2017-04-06T10:42:53Z</updated>
+    <published>2017-04-06T10:42:53Z</published>
+    <title>Noether resolutions in dimension $2$</title>
+    <summary>  Let $R:= K[x_1,\ldots,x_{n}]$ be a polynomial ring over an infinite field
+$K$, and let $I \subset R$ be a homogeneous ideal with respect to a weight
+vector $\omega = (\omega_1,\ldots,\omega_n) \in (\mathbb{Z}^+)^n$ such that
+$\dim(R/I) = d$. In this paper we study the minimal graded free resolution of
+$R/I$ as $A$-module, that we call the Noether resolution of $R/I$, whenever $A
+:=K[x_{n-d+1},\ldots,x_n]$ is a Noether normalization of $R/I$. When $d=2$ and
+$I$ is saturated, we give an algorithm for obtaining this resolution that
+involves the computation of a minimal Gr\"obner basis of $I$ with respect to
+the weighted degree reverse lexicographic order. In the particular case when
+$R/I$ is a $2$-dimensional semigroup ring, we also describe the multigraded
+version of this resolution in terms of the underlying semigroup. Whenever we
+have the Noether resolution of $R/I$ or its multigraded version, we obtain
+formulas for the corresponding Hilbert series of $R/I$, and when $I$ is
+homogeneous, we obtain a formula for the Castelnuovo-Mumford regularity of
+$R/I$. Moreover, in the more general setting that $R/I$ is a simplicial
+semigroup ring of any dimension, we provide its Macaulayfication.
+  As an application of the results for $2$-dimensional semigroup rings, we
+provide a new upper bound for the Castelnuovo-Mumford regularity of the
+coordinate ring of a projective monomial curve. Finally, we describe the
+multigraded Noether resolution and the Macaulayfication of either the
+coordinate ring of a projective monomial curve $\mathcal{C} \subseteq
+\mathbb{P}_K^{n}$ associated to an arithmetic sequence or the coordinate ring
+of any canonical projection $\pi_{r}(\mathcal{C})$ of $\mathcal{C}$ to
+$\mathbb{P}_K^{n-1}$.
+</summary>
+    <author>
+      <name>Isabel Bermejo</name>
+    </author>
+    <author>
+      <name>Eva García-Llorente</name>
+    </author>
+    <author>
+      <name>Ignacio García-Marco</name>
+    </author>
+    <author>
+      <name>Marcel Morales</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jalgebra.2017.03.026</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jalgebra.2017.03.026" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages. To appear in Journal of Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/1704.01777v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1704.01777v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13B25, 13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

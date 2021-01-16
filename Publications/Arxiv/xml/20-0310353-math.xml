@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0310353%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0310353&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/h+pkVqOhThset7EJYmLuAjWuIBI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0310353v1</id>
+    <updated>2003-10-22T14:32:43Z</updated>
+    <published>2003-10-22T14:32:43Z</published>
+    <title>Exemples de surfaces canoniques de ${\mathbb P}^6$ et de solides de
+  Calabi-Yau de ${\mathbb P}^7$</title>
+    <summary>  Using the global Gulliksen-Neg{\aa}rd complex, we build in this note regular
+canonical surfaces of general type in ${\mathbb P}^6$, Calabi-Yau 3-folds in
+${\mathbb P}^7$ and Fano anticanonical 4-folds, all of degree 17 and 20. We
+also give their Hodge number and syzygies.
+</summary>
+    <author>
+      <name>Marie-Amélie Bertin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages, in french</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0310353v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0310353v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Jxx;14M07" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

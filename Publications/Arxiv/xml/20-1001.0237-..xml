@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1001.0237%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1001.0237&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ggl7tMv5faFq/ebWPxYANy5xnWA</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1001.0237v2</id>
+    <updated>2010-01-18T17:29:06Z</updated>
+    <published>2010-01-01T14:20:20Z</published>
+    <title>Tropical types and associated cellular resolutions</title>
+    <summary>  An arrangement of finitely many tropical hyperplanes in the tropical torus
+leads to a notion of `type' data for points, with the underlying unlabeled
+arrangement giving rise to `coarse type'. It is shown that the decomposition of
+the tropical torus induced by types gives rise to minimal cocellular
+resolutions of certain associated monomial ideals. Via the Cayley trick from
+geometric combinatorics this also yields cellular resolutions supported on
+mixed subdivisions of dilated simplices, extending previously known
+constructions. Moreover, the methods developed lead to an algebraic algorithm
+for computing the facial structure of arbitrary tropical complexes from point
+data.
+</summary>
+    <author>
+      <name>Anton Dochtermann</name>
+    </author>
+    <author>
+      <name>Michael Joswig</name>
+    </author>
+    <author>
+      <name>Raman Sanyal</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.jalgebra.2011.12.028</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.jalgebra.2011.12.028" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">minor corrections</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Algebra 356 (2012), 304-324</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1001.0237v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1001.0237v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B70, 13D02, 13P99, 14P99, 52B55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

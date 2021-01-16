@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1201.2591%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1201.2591&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SFDh8mrbj8zpXnmi3W/c09UuT8c</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1201.2591v3</id>
+    <updated>2012-06-21T01:55:36Z</updated>
+    <published>2012-01-12T15:26:26Z</published>
+    <title>Positive margins and primary decomposition</title>
+    <summary>  We study random walks on contingency tables with fixed marginals,
+corresponding to a (log-linear) hierarchical model. If the set of allowed moves
+is not a Markov basis, then there exist tables with the same marginals that are
+not connected. We study linear conditions on the values of the marginals that
+ensure that all tables in a given fiber are connected. We show that many
+graphical models have the positive margins property, which says that all fibers
+with strictly positive marginals are connected by the quadratic moves that
+correspond to conditional independence statements. The property persists under
+natural operations such as gluing along cliques, but we also construct examples
+of graphical models not enjoying this property. We also provide a negative
+answer to a question of Engstr\"om, Kahle, and Sullivant by demonstrating that
+the global Markov ideal of the complete bipartite graph K_(3,3) is not radical.
+  Our analysis of the positive margins property depends on computing the
+primary decomposition of the associated conditional independence ideal. The
+main technical results of the paper are primary decompositions of the
+conditional independence ideals of graphical models of the $N$-cycle and the
+complete bipartite graph $K_(2,N-2)$, with various restrictions on the size of
+the nodes.
+</summary>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <author>
+      <name>Johannes Rauh</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 3 figures, v2: various small improvements, v3: added
+  K_(3,3) as an example of a non-radical global Markov ideal + small
+  improvements</arxiv:comment>
+    <link href="http://arxiv.org/abs/1201.2591v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1201.2591v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 52B20 (Primary) 11P21, 60J22, 62J12, 05C81 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

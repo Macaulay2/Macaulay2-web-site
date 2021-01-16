@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.08722%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.08722&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GVWmYTXA70ZKqFf8A8KkFVchAoo</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.08722v3</id>
+    <updated>2017-06-05T19:16:25Z</updated>
+    <published>2016-09-28T01:48:48Z</published>
+    <title>Solving polynomial systems via homotopy continuation and monodromy</title>
+    <summary>  We study methods for finding the solution set of a generic system in a family
+of polynomial systems with parametric coefficients. We present a framework for
+describing monodromy based solvers in terms of decorated graphs. Under the
+theoretical assumption that monodromy actions are generated uniformly, we show
+that the expected number of homotopy paths tracked by an algorithm following
+this framework is linear in the number of solutions. We demonstrate that our
+software implementation is competitive with the existing state-of-the-art
+methods implemented in other software packages.
+</summary>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Cvetelina Hill</name>
+    </author>
+    <author>
+      <name>Anders Jensen</name>
+    </author>
+    <author>
+      <name>Kisun Lee</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <author>
+      <name>Jeff Sommars</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.08722v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.08722v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

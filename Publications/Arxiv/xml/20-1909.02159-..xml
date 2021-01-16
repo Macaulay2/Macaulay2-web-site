@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.02159%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.02159&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uyCrZiJjEMWce5ESkRLQtquz1+s</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.02159v1</id>
+    <updated>2019-09-05T00:17:27Z</updated>
+    <published>2019-09-05T00:17:27Z</published>
+    <title>Free resolutions of function classes via order complexes</title>
+    <summary>  Function classes are collections of Boolean functions on a finite set, which
+are fundamental objects of study in theoretical computer science. We study
+algebraic properties of ideals associated to function classes previously
+defined by the third author. We consider the broad family of
+intersection-closed function classes, and describe cellular free resolutions of
+their ideals by order complexes of the associated posets. For function classes
+arising from matroids, polyhedral cell complexes, and more generally interval
+Cohen-Macaulay posets, we show that the multigraded Betti numbers are pure, and
+are given combinatorially by the M\"obius functions. We then apply our methods
+to derive bounds on the VC dimension of some important families of function
+classes in learning theory.
+</summary>
+    <author>
+      <name>Justin Chen</name>
+    </author>
+    <author>
+      <name>Christopher Eur</name>
+    </author>
+    <author>
+      <name>Greg Yang</name>
+    </author>
+    <author>
+      <name>Mengyuan Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages with figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1909.02159v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.02159v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 68Q32, 05E40, 06A12, 05B35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

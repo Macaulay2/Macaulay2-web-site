@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1307.1116%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1307.1116&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/81lDV7wITb3oUTZoRov8OPzShvg</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1307.1116v1</id>
+    <updated>2013-07-03T19:27:36Z</updated>
+    <published>2013-07-03T19:27:36Z</published>
+    <title>Stacks of ramified Galois covers</title>
+    <summary>  Given a finite, flat and finitely presented group scheme $G$ over some base
+$S$, we introduce the notion of ramified $G$-covers and study the moduli stack
+$G$-Cov they form. The thesis is divided in three parts. The first one concerns
+the case when $G$ is a diagonalizable group scheme and it essentially coincides
+with arxiv:1106.2347. In the second part I deal with the general case. Assuming
+that the base S is affine and given an $S$-scheme $T$, I interpret $G$-covers
+of $T$ as particolar (lax) monoidal functors from the category of finite,
+$G$-equivariant locally free sheaves over $S$ to the category of finite locally
+free sheaves over $T$, extending the classical Tannakian correspondence between
+$G$-torsors and strong monoidal functors as above. Using this point of view, I
+prove that $G$-Cov is always reducible if $G$ is a non-abelian linearly
+reductive group. When $G$ is constant and tame I also give a criterion to
+detect when a $G$-cover of a regular in codimension one, integral scheme has
+regular in codimension one total space in terms of the functor associated with
+the cover. In the last part I focus on the case $G=S_3$, prove that $S_3$-Cov
+has exactly two irreducible components and describe the principal one. I also
+describe particular open loci of $S_3$-Cov, that is particular families of
+$S_3$-covers, classify $S_3$-covers of regular schemes whose total space is
+regular and compute the invariants of $S_3$-covers of smooth surfaces.
+</summary>
+    <author>
+      <name>Fabio Tonini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Ph.D. thesis (May 2013). Advisor: Angelo Vistoli. 192 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1307.1116v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1307.1116v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

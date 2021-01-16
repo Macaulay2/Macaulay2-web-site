@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.00818%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.00818&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kLnoSW7OEbs+IjVbSCZfetNwQ8k</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.00818v2</id>
+    <updated>2020-03-02T14:24:03Z</updated>
+    <published>2020-02-03T15:19:03Z</published>
+    <title>Linearly Constrained Gaussian Processes with Boundary Conditions</title>
+    <summary>  One goal in Bayesian machine learning is to encode prior knowledge into prior
+distributions, to model data efficiently. We consider prior knowledge from
+systems of linear (partial and ordinary) differential equations together with
+their boundary conditions. We construct multi-output Gaussian process priors
+with realizations dense in the solution set of such systems, in particular any
+solution (and only such solutions) can be represented to arbitrary precision by
+Gaussian process regression. The construction is fully algorithmic via
+Gr\"obner bases and it does not employ any approximation. It builds these
+priors combining two parametrizations via a pullback: the first parametrizes
+the solutions for the system of differential equations and the second
+parametrizes all functions adhering to the boundary conditions.
+</summary>
+    <author>
+      <name>Markus Lange-Hegermann</name>
+    </author>
+    <link href="http://arxiv.org/abs/2002.00818v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.00818v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 13P20, 18-04, 47F05, 60G15, 60-08, 62G05, 68T01" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="G.3; I.1.2; I.1.4; I.2.6; I.5.1" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

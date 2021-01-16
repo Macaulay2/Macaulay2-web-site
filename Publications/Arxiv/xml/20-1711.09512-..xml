@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1711.09512%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1711.09512&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tRk6QNISRQmD27YoEYSz0W7dN64</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1711.09512v2</id>
+    <updated>2018-05-04T15:48:44Z</updated>
+    <published>2017-11-27T02:40:38Z</published>
+    <title>Spanning Lattice Polytopes and the Uniform Position Principle</title>
+    <summary>  A lattice polytope $P$ is called IDP if any lattice point in its $k$th dilate
+is a sum of $k$ lattice points in $P$. In 1991 Stanley proved a strong
+inequality in Ehrhart theory for IDP lattice polytopes. We show that his
+conclusion holds under much milder assumptions, namely if the lattice polytope
+$P$ is spanning, i.e., any lattice point of the ambient lattice is an integer
+affine combination of lattice points in $P$. As an application, we get a
+generalization of Hibi's Lower Bound Theorem. Our proof relies on generalizing
+Bertini's theorem to the semistandard situation and Harris' Uniform Position
+Principle to certain curves in weighted projective space.
+</summary>
+    <author>
+      <name>Johannes Hofscheier</name>
+    </author>
+    <author>
+      <name>Lukas Katthän</name>
+    </author>
+    <author>
+      <name>Benjamin Nill</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages; v2 revised manuscript, presentation improved</arxiv:comment>
+    <link href="http://arxiv.org/abs/1711.09512v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1711.09512v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 52B20, Secondary: 13A02, 05E40, 14H45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

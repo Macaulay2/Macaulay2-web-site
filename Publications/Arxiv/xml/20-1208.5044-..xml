@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.5044%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.5044&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qxxXEVwzdVpCgHDBg91c76pWoak</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.5044v2</id>
+    <updated>2012-12-16T18:06:29Z</updated>
+    <published>2012-08-24T19:45:33Z</published>
+    <title>Minimal biquadratic energy of 5 particles on 2-sphere</title>
+    <summary>  Consider n points on the unit 2-sphere. The potential of the interaction of
+two points is a function f(r) of the distance r between the points. The total
+energy E of n points is the sum of the pairwise energies. The question is how
+to place the points on the sphere to minimize the energy E. For the Coulomb
+potential f(r)=1/r, the problem goes back to Thomson (1904). The results for n
+&lt; 5 are well known. We focus on the case n=5, which turns out to be difficult.
+In this case, the following results have been obtained. For n=5, Dragnev, Legg,
+and Townsend (2002) give a solution of the problem for f(r)=-log r known as
+Whyte's problem. Hou and Shao (2009) give a rigorous computer-aided solution
+for f(r)=-r. Schwartz (2010) gives a rigorous computer-aided solution of
+Thompson's problem. We give a solution for biquadratic potentials.
+</summary>
+    <author>
+      <name>Alexander Tumanov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.5044v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.5044v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52A40, 52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

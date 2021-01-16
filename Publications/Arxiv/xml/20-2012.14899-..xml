@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.14899%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.14899&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4lOs0jRGBiSYyTE7Yu+GKBH1eoM</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.14899v1</id>
+    <updated>2020-12-29T18:51:34Z</updated>
+    <published>2020-12-29T18:51:34Z</published>
+    <title>Multigraded regularity of complete intersections</title>
+    <summary>  $V$ is a complete intersection scheme in a multiprojective space if it can be
+defined by an ideal $I$ with as many generators as $\textrm{codim}(V)$. We
+investigate the multigraded regularity of complete intersections scheme in
+$\mathbb{P}^n\times \mathbb{P}^m$. We explicitly compute many values of the
+Hilbert functions of $0$-dimensional complete intersections. We show that these
+values only depend upon $n,m$, and the bidegrees of the generators of $I$. As a
+result, we provide a sharp upper bound for the multigraded regularity of
+$0$-dimensional complete intersections.
+</summary>
+    <author>
+      <name>Marc Chardin</name>
+    </author>
+    <author>
+      <name>Navid Nemati</name>
+    </author>
+    <link href="http://arxiv.org/abs/2012.14899v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.14899v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D40, 14B15, 13D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

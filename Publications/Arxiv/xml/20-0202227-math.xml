@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0202227%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0202227&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FYN9KgdZMuXNNcO4SuiOKuMU4oQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0202227v1</id>
+    <updated>2002-02-22T05:52:17Z</updated>
+    <published>2002-02-22T05:52:17Z</published>
+    <title>A Fitting Lemma for Z/2-graded modules</title>
+    <summary>  We study the annihilator of the cokernel of a map of free Z/2-graded modules
+over a Z/2-graded skew-commutative algebra in characteristic 0 and define
+analogues of its Fitting ideals. We show that in the ``generic'' case the
+annihilator is given by a Fitting ideal, and explain relations between the
+Fitting ideal and the annihilator that hold in general. Our results generalize
+the classical Fitting Lemma, and extend the key result of Green [1999]. They
+depend on the Berele-Regev theory of representations of general linear Lie
+super-algebras.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Jerzy Weyman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages Plain TeX; uses diagrams.tex</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0202227v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0202227v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16W55; 15A75; 17B55; 17B60; 14H51" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

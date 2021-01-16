@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1308.4906%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1308.4906&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UfnWqxQnP6bNHV9pScCHh6LDRK4</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1308.4906v3</id>
+    <updated>2013-10-24T17:01:15Z</updated>
+    <published>2013-08-22T15:49:57Z</published>
+    <title>Quantum cohomology and conformal blocks on $\bar{M}_{0,n}$</title>
+    <summary>  We give several necessary and sufficient conditions for conformal blocks
+divisors on $\bar{M}_{0,n}$ to be nonzero. We show that conformal block
+divisors in type A satisfy new symmetries when levels and ranks are
+interchanged in non-standard ways. Higher level conformal block divisors are
+made accessible using techniques from quantum cohomology and representation
+theory. Several examples are given, and relations to Hassett spaces are
+obtained.
+</summary>
+    <author>
+      <name>Prakash Belkale</name>
+    </author>
+    <author>
+      <name>Angela Gibney</name>
+    </author>
+    <author>
+      <name>Swarnava Mukhopadhyay</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages. Comments added on relations of critical and theta levels to
+  parabolic semi-stability (cf. Remark 1.3, Section 4.1 and Question 4.2). Some
+  sections and remarks were removed</arxiv:comment>
+    <link href="http://arxiv.org/abs/1308.4906v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1308.4906v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10, 14N35, 14D20, 14D21" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

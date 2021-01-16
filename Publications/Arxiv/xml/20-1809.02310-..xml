@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1809.02310%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1809.02310&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Z1tVHSvJmell35aSz6TEUKnZNz0</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1809.02310v1</id>
+    <updated>2018-09-07T04:47:55Z</updated>
+    <published>2018-09-07T04:47:55Z</published>
+    <title>On asymptotic vanishing behavior of local cohomology</title>
+    <summary>  Let $R$ be a standard graded algebra over a field $k$, with irrelevant
+maximal ideal $\mathfrak{m}$, and $I$ a homogeneous $R$-ideal. We study the
+asymptotic vanishing behavior of the graded components of the local cohomology
+modules $\{\text{H}^i_{\mathfrak{m}}(R/I^n)\}_{n\in \mathbb{N}}$. If these
+modules are Noetherian for $n\gg 0$, we show that, when $\text{char}\, k= 0$,
+$R/I$ is Cohen-Macaulay, and $I$ is locally a complete intersection, their
+lowest degrees are bounded by a linear function whose slope is controlled by
+the largest generating degree of the dual of the conormal module of $I$. Our
+result is a direct consequence of a related bound for symmetric powers of
+locally free modules. If no assumptions are made on the ideal, we show that the
+complexity of the sequence of lowest degrees is at most polynomial.
+</summary>
+    <author>
+      <name>Hailong Dao</name>
+    </author>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1809.02310v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1809.02310v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

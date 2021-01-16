@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0208119%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0208119&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4/AADx8Eiq3zMGnmSDBp4jeh91g</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0208119v5</id>
+    <updated>2002-09-11T20:21:05Z</updated>
+    <published>2002-08-14T22:37:38Z</published>
+    <title>Geometry of the tetrahedron space</title>
+    <summary>  Let X^{circ} be the space of all labeled tetrahedra in P^{3}. In [BGS] we
+constructed a smooth symmetric compactification X-tilde of X^{circ}. In this
+article we show that the complement X-tilde smallsetminus X^{circ} is a divisor
+with normal crossings, and we compute the cohomology ring H^*(X-tilde;Q).
+</summary>
+    <author>
+      <name>Eric Babson</name>
+    </author>
+    <author>
+      <name>Paul E. Gunnells</name>
+    </author>
+    <author>
+      <name>Richard Scott</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Replaced with revised version (minor edits only)</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0208119v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0208119v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M99, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

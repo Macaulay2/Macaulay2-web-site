@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.05679%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.05679&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ph7zqVFR7yBCWLEFIRYw/1O/fSM</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.05679v1</id>
+    <updated>2019-04-11T13:20:53Z</updated>
+    <published>2019-04-11T13:20:53Z</published>
+    <title>Fano varieties of K3 type and IHS manifolds</title>
+    <summary>  We construct several new families of Fano varieties of K3 type. We give a
+geometrical explanation of the K3 structure and we link some of them to
+projective families of irreducible holomorphic symplectic manifolds.
+</summary>
+    <author>
+      <name>Enrico Fatighenti</name>
+    </author>
+    <author>
+      <name>Giovanni Mongardi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.05679v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.05679v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

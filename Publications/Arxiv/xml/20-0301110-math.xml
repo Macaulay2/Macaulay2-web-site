@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0301110%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0301110&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uCAsPG+ZitIXej51VAVebOOPdDI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0301110v3</id>
+    <updated>2003-02-14T22:49:23Z</updated>
+    <published>2003-01-11T01:40:08Z</published>
+    <title>Trees, parking functions, syzygies, and deformations of monomial ideals</title>
+    <summary>  For a graph G, we construct two algebras, whose dimensions are both equal to
+the number of spanning trees of G. One of these algebras is the quotient of the
+polynomial ring modulo certain monomial ideal, while the other is the quotient
+of the polynomial ring modulo certain powers of linear forms. We describe the
+set of monomials that forms a linear basis in each of these two algebras. The
+basis elements correspond to G-parking functions that naturally came up in the
+abelian sandpile model. These ideals are instances of the general class of
+monotone monomial ideals and their deformations. We show that the Hilbert
+series of a monotone monomial ideal is always bounded by the Hilbert series of
+its deformation. Then we define an even more general class of monomial ideals
+associated with posets and construct free resolutions for these ideals. In some
+cases these resolutions coincide with Scarf resolutions. We prove several
+formulas for Hilbert series of monotone monomial ideals and investigate when
+they are equal to Hilbert series of deformations. In the appendix we discuss
+the sandpile model.
+</summary>
+    <author>
+      <name>Alexander Postnikov</name>
+    </author>
+    <author>
+      <name>Boris Shapiro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages; v2: appendix on sandpiles added, references added, typos
+  corrected; v3: references added</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0301110v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0301110v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A99, 05C05, 13D02, 13P99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

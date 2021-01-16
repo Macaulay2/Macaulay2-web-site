@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1611.06405%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1611.06405&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cxJs5km83Ss0cN0+gUiFjOkXECc</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1611.06405v1</id>
+    <updated>2016-11-19T17:45:59Z</updated>
+    <published>2016-11-19T17:45:59Z</published>
+    <title>The second generalized Hamming weight of some evaluation codes arising
+  from a projective torus</title>
+    <summary>  In this paper we find the second generalized Hamming weight of some
+evaluation codes arising from a projective torus, and it allows to compute the
+second generalized Hamming weight of the codes parameterized by the edges of
+any complete bipartite graph. Also, at the beginning, we obtain some results
+about the generalized Hamming weights of some evaluation codes arising from a
+complete intersection when the minimum distance is known and they are
+non--degenerate codes. Finally we give an example where we use these results to
+determine the complete weight hierarchy of some codes.
+</summary>
+    <author>
+      <name>Manuel Gonzalez-Sarabia</name>
+    </author>
+    <author>
+      <name>Eduardo Camps</name>
+    </author>
+    <author>
+      <name>Eliseo Sarmiento</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <link href="http://arxiv.org/abs/1611.06405v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1611.06405v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="94B60, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

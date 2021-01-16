@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.00952%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.00952&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sLxGv0Eez/Q+V8gj4ZPEm+tdaW0</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.00952v1</id>
+    <updated>2016-09-04T16:10:57Z</updated>
+    <published>2016-09-04T16:10:57Z</published>
+    <title>The non-Lefschetz locus</title>
+    <summary>  We study the weak Lefschetz property of artinian Gorenstein algebras and in
+particular of artinian complete intersections. In codimension four and higher,
+it is an open problem whether all complete intersections have the weak
+Lefschetz property. For a given artinian Gorenstein algebra $A$ we ask what
+linear forms are Lefschetz elements for this particular algebra, i.e., which
+linear forms $\ell$ give maximal rank for all the multiplication maps $\times
+\ell: [A]_i \longrightarrow [A]_{i+1}$. This is a Zariski open set and its
+complement is the \emph{non-Lefschetz locus}. For monomial complete
+intersections, we completely describe the non-Lefschetz locus. For general
+complete intersections of codimension three and four we prove that the
+non-Lefschetz locus has the expected codimension, which in particular means
+that it is empty in a large family of examples. For general Gorenstein algebras
+of codimension three with a given Hilbert function, we prove that the
+non-Lefschetz locus has the expected codimension if the first difference of the
+Hilbert function is of decreasing type. For completeness we also give a full
+description of the non-Lefschetz locus for artinian algebras of codimension
+two.
+</summary>
+    <author>
+      <name>Mats Boij</name>
+    </author>
+    <author>
+      <name>Juan Migliore</name>
+    </author>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <link href="http://arxiv.org/abs/1609.00952v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.00952v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

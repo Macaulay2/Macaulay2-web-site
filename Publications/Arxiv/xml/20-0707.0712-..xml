@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0707.0712%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0707.0712&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KWaOf7jUYpfTv09JutMOjWpWsNg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0707.0712v1</id>
+    <updated>2007-07-05T03:09:22Z</updated>
+    <published>2007-07-05T03:09:22Z</published>
+    <title>On the Positivity of the Coefficients of a Certain Polynomial Defined by
+  Two Positive Definite Matrices</title>
+    <summary>  It is shown that the polynomial \[p(t) = \text{Tr}[(A+tB)^m]\] has positive
+coefficients when $m = 6$ and $A$ and $B$ are any two 3-by-3 complex Hermitian
+positive definite matrices. This case is the first that is not covered by
+prior, general results. This problem arises from a conjecture raised by Bessis,
+Moussa and Villani in connection with a long-standing problem in theoretical
+physics. The full conjecture, as shown recently by Lieb and Seiringer, is
+equivalent to $p(t)$ having positive coefficients for any $m$ and any two
+$n$-by-$n$ positive definite matrices. We show that, generally, the question in
+the real case reduces to that of singular $A$ and $B$, and this is a key part
+of our proof.
+</summary>
+    <author>
+      <name>Christopher J. Hillar</name>
+    </author>
+    <author>
+      <name>Charles R. Johnson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, J. Statistical Physics</arxiv:comment>
+    <link href="http://arxiv.org/abs/0707.0712v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0707.0712v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

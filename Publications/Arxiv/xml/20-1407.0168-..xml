@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1407.0168%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1407.0168&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wQaImbB+jBPvvcJ9GZ/qkQpJeYU</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1407.0168v2</id>
+    <updated>2014-07-09T13:45:07Z</updated>
+    <published>2014-07-01T10:03:04Z</published>
+    <title>Syzygies of Jacobian ideals and weighted homogeneous singularities</title>
+    <summary>  Let $V$ be a projective hypersurface having only isolated singularities. We
+show that these singularities are weighted homogeneous if and only if the
+Koszul syzygies among the partial derivatives of an equation for $V$ are
+exactly the syzygies with a generic first component vanishing on the singular
+locus subscheme of $V$. This yields in particular a positive answer in this
+setting to a question raised by Morihiko Saito and the first author. Finally we
+explain how our result can be used to improve the listing of Jacobian syzygies
+of a given degree by a computer algebra system such as Singular, CoCoA or
+Macaulay2.
+</summary>
+    <author>
+      <name>Alexandru Dimca</name>
+    </author>
+    <author>
+      <name>Gabriel Sticlaru</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">version 2: presentation of results slightly modified due to the
+  addition a key reference by L. Bus\'e and J.-P. Jouanolou</arxiv:comment>
+    <link href="http://arxiv.org/abs/1407.0168v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1407.0168v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

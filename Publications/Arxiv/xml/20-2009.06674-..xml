@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2009.06674%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2009.06674&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hJAy9aO2cC+x07Kn8InNAlsIsLU</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2009.06674v1</id>
+    <updated>2020-09-14T18:14:26Z</updated>
+    <published>2020-09-14T18:14:26Z</published>
+    <title>McKay quivers and Lusztig algebras of some finite groups</title>
+    <summary>  We are interested in the McKay quiver $\Gamma(G)$ and skew group rings $A*G$,
+where $G$ is a finite subgroup of $\mathrm{GL}(V)$, where $V$ is a finite
+dimensional vector space over a field $K$, and $A$ is a $K-G$-algebra. These
+skew group rings appear in Auslander's version of the McKay correspondence.
+  In the first part of this paper we consider complex reflection groups $G
+\subseteq \mathrm{GL}(V)$ and find a combinatorial method, making use of Young
+diagrams, to construct the McKay quivers for the groups $G(r,p,n)$. We first
+look at the case $G(1,1,n)$, which is isomorphic to the symmetric group $S_n$,
+followed by $G(r,1,n)$ for $r &gt;1$. Then, using Clifford theory, we can
+determine the McKay quiver for any $G(r,p,n)$ and thus for all finite
+irreducible complex reflection groups up to finitely many exceptions.
+  In the second part of the paper we consider a more conceptual approach to
+McKay quivers of arbitrary finite groups: we define the Lusztig algebra
+$\widetilde A(G)$ of a finite group $G \subseteq \mathrm{GL}(V)$, which is
+Morita equivalent to the skew group ring $A*G$. This description gives us an
+embedding of the basic algebra Morita equivalent to $A*G$ into a matrix algebra
+over $A$.
+</summary>
+    <author>
+      <name>Ragnar-Olaf Buchweitz</name>
+    </author>
+    <author>
+      <name>Eleonore Faber</name>
+    </author>
+    <author>
+      <name>Colin Ingalls</name>
+    </author>
+    <author>
+      <name>Matthew Lewis</name>
+    </author>
+    <link href="http://arxiv.org/abs/2009.06674v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2009.06674v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E10 16G20 16S35 16S37 20F55 20C30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

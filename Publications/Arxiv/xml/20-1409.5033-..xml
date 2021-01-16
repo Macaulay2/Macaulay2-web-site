@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.5033%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.5033&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ALvVFR54M3oCVVWl1MF9jYmWl8o</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.5033v1</id>
+    <updated>2014-09-17T15:36:45Z</updated>
+    <published>2014-09-17T15:36:45Z</published>
+    <title>Moduli of abelian surfaces, symmetric theta structures and theta
+  characteristics</title>
+    <summary>  The aim of this paper is to study the birational geometry of certain moduli
+spaces of abelian surfaces with some additional structures. In particular, we
+inquire moduli of abelian surfaces with a symmetric theta structure and an odd
+theta characteristic. More precisely, on one hand, for a $(d_1,d_2)$-polarized
+abelian surfaces, we study how the parity of $d_1$ and $d_2$ influence the
+relation between the datum of a canonical level structure and that of a
+symmetric theta structure. On the other, for certain values of $d_1$ and $d_2$,
+the datum of a theta characteristic, seen as a quadratic form on the points of
+$2$-torsion induced by a symmetric line bundle, is necessary in order to
+well-define Theta-null maps. Finally we use these Theta-null maps and preceding
+work of other authors on the representations of the Heisenberg group to study
+the birational geometry and the Kodaira dimension these moduli spaces.
+</summary>
+    <author>
+      <name>Michele Bolognesi</name>
+    </author>
+    <author>
+      <name>Alex Massarenti</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages. Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.5033v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.5033v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.08441%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.08441&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BHex57QIlrxbnJaQXBtVjJOlSdw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.08441v1</id>
+    <updated>2017-05-23T17:52:14Z</updated>
+    <published>2017-05-23T17:52:14Z</published>
+    <title>Normal bundles of rational curves on complete intersections</title>
+    <summary>  Let $X \subset \mathbb{P}^n$ be a general Fano complete intersection of type
+$(d_1,\dots, d_k)$. If at least one $d_i$ is greater than $2$, we show that $X$
+contains rational curves of degree $e \leq n$ with balanced normal bundle. If
+all $d_i$ are $2$ and $n\geq 2k+1$, we show that $X$ contains rational curves
+of degree $e \leq n-1$ with balanced normal bundle. As an application, we prove
+a stronger version of the theorem of Z. Tian \cite{Tian}, Q. Chen and Y. Zhu
+\cite{ChenZhu} that $X$ is separably rationally connected by exhibiting very
+free rational curves in $X$ of optimal degrees.
+</summary>
+    <author>
+      <name>Izzet Coskun</name>
+    </author>
+    <author>
+      <name>Eric Riedl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.08441v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.08441v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

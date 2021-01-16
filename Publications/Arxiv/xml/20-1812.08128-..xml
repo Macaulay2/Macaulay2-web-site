@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.08128%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.08128&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lDk4yZq8qFYEJsx2XIAr3/vuCL4</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.08128v1</id>
+    <updated>2018-12-19T18:13:16Z</updated>
+    <published>2018-12-19T18:13:16Z</published>
+    <title>Exposed circuits, linear quotients, and chordal clutters</title>
+    <summary>  A graph $G$ is said to be chordal if it has no induced cycles of length four
+or more. In a recent preprint Culbertson, Guralnik, and Stiller give a new
+characterization of chordal graphs in terms of sequences of what they call
+`edge-erasures'. In this note we show that these moves are in fact equivalent
+to a linear quotient ordering on $I_{\overline{G}}$, the edge ideal of the
+complement graph $\overline G$. Known results imply that $I_{\overline G}$ has
+linear quotients if and only if $G$ is chordal, and hence this recovers an
+algebraic proof of their characterization. We investigate higher-dimensional
+analogues of this result, and show that in fact linear quotients for more
+general circuit ideals of $d$-clutters can be characterized in terms of
+removing exposed circuits in the complement clutter. Restricting to properly
+exposed circuits can be characterized by a homological condition. This leads to
+a notion of higher dimensional chordal clutters which borrows from commutative
+algebra and simple homotopy theory. Other connections to combinatorial
+commutative algebra, chordal complexes, and hierarchical clustering algorithms
+are explored.
+</summary>
+    <author>
+      <name>Anton Dochtermann</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 6 figures, Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.08128v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.08128v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E45, 05E40, 13D02, 13F55, 57Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

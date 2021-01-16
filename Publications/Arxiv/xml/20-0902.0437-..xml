@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0902.0437%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0902.0437&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vzxEmF17YNk++22E5ZEBCSlod4I</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0902.0437v1</id>
+    <updated>2009-02-03T07:07:54Z</updated>
+    <published>2009-02-03T07:07:54Z</published>
+    <title>Regularity, Depth and Arithmetic Rank of Bipartite Edge Ideals</title>
+    <summary>  We study minimal free resolutions of edge ideals of bipartite graphs. We
+associate a directed graph to a bipartite graph whose edge ideal is unmixed,
+and give expressions for the regularity and the depth of the edge ideal in
+terms of invariants of the directed graph. For some classes of unmixed edge
+ideals, we show that the arithmetic rank of the ideal equals projective
+dimension of its quotient.
+</summary>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Algebraic Combin. 30 (2009), no. 4, 429-445</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0902.0437v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0902.0437v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D05, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

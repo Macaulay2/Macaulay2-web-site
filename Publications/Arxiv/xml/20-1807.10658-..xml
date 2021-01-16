@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.10658%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.10658&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/67+j6HpryEjet3kh2gJqB7Uf9wc</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.10658v1</id>
+    <updated>2018-07-23T12:54:39Z</updated>
+    <published>2018-07-23T12:54:39Z</published>
+    <title>SageMathCloud as the Learning Tool Cloud Technologies of the
+  Computer-Based Studying Mathematics and Informatics Disciplines</title>
+    <summary>  The aim of this study is to determine peculiarities of computer-based
+learning of informatics and mathematical disciplines in cloud-oriented
+environment SageMathCloud. The objectives of the study is to investigate the
+didactic potential SageMathCloud, study the structure of SageMathCloud
+components to create a cloud-oriented software, learning systems and distance
+learning courses in the mathematics and informatics disciplines. In this paper,
+the characteristics of the didactic potential SageMathCloud environment for the
+implementation of computer-based learning natural, mathematics and informatics
+disciplines with the use of cloud technologies; lists and illustrates the
+SageMathCloud basic components which can be used in the design of cloud-based
+software and methodical complex and remote training course.
+</summary>
+    <author>
+      <name>S. V. Shokaliuk</name>
+    </author>
+    <author>
+      <name>O. M. Markova</name>
+    </author>
+    <author>
+      <name>S. O. Semerikov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 6 figures, in Ukrainian</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Modeling in Education: Status. Problems. Prospects (2017) 130-142,
+  295-296</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/1807.10658v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.10658v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.ed-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="K.3.1; H.3.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

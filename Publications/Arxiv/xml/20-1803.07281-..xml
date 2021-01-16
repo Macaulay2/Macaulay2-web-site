@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.07281%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.07281&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Es9pMULIr67rRq/VBezQjPgGeRU</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.07281v2</id>
+    <updated>2018-05-16T00:46:07Z</updated>
+    <published>2018-03-20T07:51:35Z</published>
+    <title>Offset Hypersurfaces and Persistent Homology of Algebraic Varieties</title>
+    <summary>  In this paper, we study the true persistent homology of algebraic varieties.
+We prove the algebraicity of two quantities central to the computation of
+persistent homology. Moreover, we connect persistent homology and algebraic
+optimization (Euclidean Distance Degree). Namely, we express the degree
+corresponding to the distance variable of the offset hypersurface in terms of
+the Euclidean Distance degree of the starting variety, obtaining a new way to
+compute these degrees. Finally, we describe the non-properness locus of the
+offset construction and use this to describe the set of points that are
+topologically interesting (the medial axis and center points of the bounded
+components of the complement of the variety) and relevant to the computation of
+persistent homology.
+</summary>
+    <author>
+      <name>Emil Horobet</name>
+    </author>
+    <author>
+      <name>Madeleine Weinstein</name>
+    </author>
+    <link href="http://arxiv.org/abs/1803.07281v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.07281v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P25, 68W30, 14H45, 14M12, 90C26, 41A65, 55R80" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

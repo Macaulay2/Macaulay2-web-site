@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.05404%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.05404&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Q3847yPWQm+cLFxGp9yrPDLRBsA</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.05404v1</id>
+    <updated>2020-12-10T01:49:23Z</updated>
+    <published>2020-12-10T01:49:23Z</published>
+    <title>A truncated minimal free resolution of the residue field</title>
+    <summary>  In a paper in 1962, Golod proved that the Betti sequence of the residue field
+of a local ring attains an upper bound given by Serre if and only if the
+homology algebra of the Koszul complex of the ring has trivial multiplications
+and trivial Massey operations. This is the origin of the notion of Golod ring.
+Using the Koszul complex components he also constructed a minimal free
+resolution of the residue field. In this article, we extend this construction
+up to degree five for any local ring. We describe how the multiplicative
+structure and the triple Massey products of the homology of the Koszul algebra
+are involved in this construction. As a consequence, we provide explicit
+formulas for the first six terms of a sequence that measures how far the ring
+is from being Golod.
+</summary>
+    <author>
+      <name>Van C. Nguyen</name>
+    </author>
+    <author>
+      <name>Oana Veliche</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.05404v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.05404v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13D07, 13H10, 13C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

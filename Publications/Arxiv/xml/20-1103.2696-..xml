@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1103.2696%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1103.2696&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/q1u8pnsEIVb6i3zGKc5v1FpU9n4</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1103.2696v1</id>
+    <updated>2011-03-14T15:53:24Z</updated>
+    <published>2011-03-14T15:53:24Z</published>
+    <title>On generic identifiability of 3-tensors of small rank</title>
+    <summary>  We introduce an inductive method for the study of the uniqueness of
+decompositions of tensors, by means of tensors of rank 1. The method is based
+on the geometric notion of weak defectivity. For three-dimensional tensors of
+type (a, b, c), a\le b\le c, our method proves that the decomposition is unique
+(i.e. k-identifiability holds) for general tensors of rank k, as soon as k\le
+(a+1)(b+1)/16. This improves considerably the known range for identifiability.
+The method applies also to tensor of higher dimension. For tensors of small
+size, we give a complete list of situations where identifiability does not
+hold. Among them, there are 4\times4\times4 tensors of rank 6, an interesting
+case because of its connection with the study of DNA strings.
+</summary>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages; two Macaulay2 files as ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1103.2696v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1103.2696v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05, 15A21, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

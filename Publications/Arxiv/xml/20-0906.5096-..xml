@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0906.5096%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0906.5096&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HYwUmuFYFb1zpA12TpgvbtfHrgU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0906.5096v1</id>
+    <updated>2009-06-27T18:12:37Z</updated>
+    <published>2009-06-27T18:12:37Z</published>
+    <title>Blow-ups of $\mathbb{P}^{n-3}$ at $n$ points and spinor varieties</title>
+    <summary>  Work of Dolgachev and Castravet-Tevelev establishes a bijection between the
+$2^{n-1}$ weights of the half-spin representations of $\mathfrak{so}_{2n}$ and
+the generators of the Cox ring of the variety $X_n$ which is obtained by
+blowing up $\mathbb{P}^{n-3}$ at $n$ points. We derive a geometric explanation
+for this bijection, by embedding ${\rm Cox}(X_n)$ into the even spinor variety
+(the homogeneous space of the even half-spin representation). The Cox ring of
+the blow-up $X_n$ is recovered geometrically by intersecting torus translates
+of the even spinor variety. These are higher-dimensional generalizations of
+results by Derenthal and Serganova-Skorobogatov on del Pezzo surfaces.
+</summary>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Mauricio Velasco</name>
+    </author>
+    <link href="http://arxiv.org/abs/0906.5096v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0906.5096v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E25; 14J10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1502.00208%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1502.00208&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yftlEcLOiIqgLhpZqiYHGgWjew4</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1502.00208v2</id>
+    <updated>2015-05-14T01:41:26Z</updated>
+    <published>2015-02-01T07:21:21Z</published>
+    <title>Doubling construction of Calabi-Yau fourfolds from toric Fano fourfolds</title>
+    <summary>  We give a differential-geometric construction of Calabi-Yau fourfolds by the
+`doubling' method, which was introduced in \cite{DY14} to construct Calabi-Yau
+threefolds. We also give examples of Calabi-Yau fourfolds from toric Fano
+fourfolds. Ingredients in our construction are \emph{admissible pairs}, which
+were first dealt with by Kovalev in \cite{K03}. Here in this paper an
+admissible pair $({X},D)$ consists of a compact K\"{a}hler manifold
+${X}$ and a smooth anticanonical divisor $D$ on ${X}$. If two
+admissible pairs $({X}_1,D_1)$ and $({X}_2,D_2)$ with
+$\dim_{\mathbb{C}}{X}_i=4$ satisfy the \emph{gluing condition}, we can
+glue ${X}_1\setminus D_1$ and ${X}_2\setminus D_2$ together
+to obtain a compact Riemannian $8$-manifold $(M,g)$ whose holonomy group
+$\mathrm{Hol}(g)$ is contained in $\mathrm{Spin}(7)$. Furthermore, if the
+$\widehat{A}$-genus of $M$ equals $2$, then $M$ is a Calabi-Yau fourfold, i.e.,
+a compact Ricci-flat K\"{a}hler fourfold with holonomy $\mathrm{SU}(4)$. In
+particular, if $({X}_1,D_1)$ and $({X}_2,D_2)$ are identical
+to an admissible pair $({X},D)$, then the gluing condition holds
+automatically, so that we obtain a compact Riemannian $8$-manifold $M$ with
+holonomy contained in $\mathrm{Spin}(7)$. Moreover, we show that if the
+admissible pair is obtained from \emph{any} of the toric Fano fourfolds, then
+the resulting manifold $M$ is a Calabi-Yau fourfold by computing
+$\widehat{A}(M)=2$.
+</summary>
+    <author>
+      <name>Mamoru Doi</name>
+    </author>
+    <author>
+      <name>Naoto Yotsutani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages; minor collections; arXiv admin note: text overlap with
+  arXiv:1305.0074</arxiv:comment>
+    <link href="http://arxiv.org/abs/1502.00208v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1502.00208v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53C25, 14J32" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

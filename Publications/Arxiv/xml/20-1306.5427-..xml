@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.5427%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.5427&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ATDjVjmxX2grNWBssh5Bb4d5M1k</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.5427v3</id>
+    <updated>2014-01-24T17:48:50Z</updated>
+    <published>2013-06-23T15:47:37Z</published>
+    <title>Quantization of Drinfeld Zastava in type C</title>
+    <summary>  Drinfeld zastava is a certain closure of the moduli space of maps from the
+projective line to the Kashiwara flag scheme of an affine Lie algebra $g$.
+In case $g$ is the symplectic Lie algebra $sp_N$, we introduce an affine,
+reduced, irreducible, normal quiver variety $Z$ which maps to the zastava space
+isomorphically in characteristic 0. The natural Poisson structure on the
+zastava space $Z$ can be described in terms of Hamiltonian reduction of a
+certain Poisson subvariety of the dual space of a (nonsemisimple) Lie algebra.
+The quantum Hamiltonian reduction of the corresponding quotient of its
+universal enveloping algebra produces a quantization $Y$ of the coordinate ring
+of $Z$. The same quantization was obtained in the finite (as opposed to the
+affine) case generically in arXiv:math/0409031 . We prove that $Y$ is a
+quotient of the affine Borel Yangian. The analogous results for $g=sl_N$ were
+obtained in our previous work arXiv:1009.0676 .
+</summary>
+    <author>
+      <name>Michael Finkelberg</name>
+    </author>
+    <author>
+      <name>Leonid Rybnikov</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages. To appear in Algebraic Geometry (2014). arXiv admin note:
+  text overlap with arXiv:1009.0676</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.5427v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.5427v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

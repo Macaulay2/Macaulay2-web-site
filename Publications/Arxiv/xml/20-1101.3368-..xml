@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1101.3368%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1101.3368&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5ZkdTuPTIbf9ZVGflSuBOEf+mzg</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1101.3368v1</id>
+    <updated>2011-01-18T01:57:55Z</updated>
+    <published>2011-01-18T01:57:55Z</published>
+    <title>Ideals with Larger Projective Dimension and Regularity</title>
+    <summary>  We define a family of homogeneous ideals with large projective dimension and
+regularity relative to the number of generators and their common degree. This
+family subsumes and improves upon constructions given in [Cav04] and [McC]. In
+particular, we describe a family of three-generated homogeneous ideals in
+arbitrary characteristic whose projective dimension grows asymptotically as
+sqrt{d}^(sqrt(d) - 1).
+</summary>
+    <author>
+      <name>Jesse Beder</name>
+    </author>
+    <author>
+      <name>Jason McCullough</name>
+    </author>
+    <author>
+      <name>Luis Nunez-Betancourt</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Bart Snapp</name>
+    </author>
+    <author>
+      <name>Branden Stone</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages. This work was completed at the MRC for Commutative Algebra
+  in Snowbird, UT, which was generously supported by the AMS</arxiv:comment>
+    <link href="http://arxiv.org/abs/1101.3368v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1101.3368v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

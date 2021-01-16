@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1202.1317%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1202.1317&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4fVycvjrsxi5Z85mNks5E7pkREs</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1202.1317v1</id>
+    <updated>2012-02-06T23:42:43Z</updated>
+    <published>2012-02-06T23:42:43Z</published>
+    <title>The Limiting Polytope of the Generic Initial System of a Complete
+  Intersection</title>
+    <summary>  Consider a complete intersection I of type (d_1,..., d_r) in a polynomial
+ring over a field of characteristic 0. We study the graded system of ideals
+{gin(I^n)}_n obtained by taking the reverse lexicographic generic initial
+ideals of the powers of I and describe its asymptotic behavior. This behavior
+is nicely captured by the limiting polytope which is shown to depend only on
+the type of the complete intersection.
+</summary>
+    <author>
+      <name>Sarah Mayes</name>
+    </author>
+    <link href="http://arxiv.org/abs/1202.1317v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1202.1317v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 13C40, 14F18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

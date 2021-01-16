@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0712.0001%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0712.0001&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+jKpXDrLEF6EiNALdpBtNWa02AU</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0712.0001v2</id>
+    <updated>2008-01-20T06:47:15Z</updated>
+    <published>2007-11-30T21:02:49Z</published>
+    <title>The Computation of the Logarithmic Cohomology for Plane Curves</title>
+    <summary>  We give algorithms of computing bases of logarithmic cohomology groups for
+square-free polynomials in two variables. (Fixed typos of v1)
+</summary>
+    <author>
+      <name>Francisco Jesus Castro-Jimenez</name>
+    </author>
+    <author>
+      <name>Nobuki Takayama</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0712.0001v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0712.0001v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F43; 14F40; 13N10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

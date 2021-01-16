@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1103.4730%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1103.4730&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DelCZ1IP+C5shf6eCCUFASiOlRQ</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1103.4730v1</id>
+    <updated>2011-03-24T10:53:28Z</updated>
+    <published>2011-03-24T10:53:28Z</published>
+    <title>Some extensions of Hilbert-Kunz multiplicity</title>
+    <summary>  Let $R$ be an excellent Noetherian ring of prime characteristic. Consider an
+arbitrary nested pair of ideals (or more generally, a nested pair of submodules
+of a fixed finite module). We do \emph{not} assume that their quotient has
+finite length. In this paper, we develop various sufficient numerical criteria
+for when the tight closures of these ideals (or submodules) match. For some of
+the criteria we only prove sufficiency, while some are shown to be equivalent
+to the tight closures matching. We compare the various numerical measures (in
+some cases demonstrating that the different measures give truly different
+numerical results) and explore special cases where equivalence with matching
+tight closure can be shown. All of our measures derive ultimately from
+Hilbert-Kunz multiplicity.
+</summary>
+    <author>
+      <name>Neil Epstein</name>
+    </author>
+    <author>
+      <name>Yongwei Yao</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1103.4730v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1103.4730v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35 (13D40)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

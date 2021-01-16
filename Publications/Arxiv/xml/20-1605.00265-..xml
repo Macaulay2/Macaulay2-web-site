@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.00265%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.00265&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7w65p2uMQg1eOCK7prW5LYymaMU</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00265v1</id>
+    <updated>2016-05-01T15:31:55Z</updated>
+    <published>2016-05-01T15:31:55Z</published>
+    <title>On the feasibility of semi-algebraic sets in Poisson regression</title>
+    <summary>  Designing experiments for generalized linear models is difficult because
+optimal designs depend on unknown parameters. The local optimality approach is
+to study the regions in parameter space where a given design is optimal. In
+many situations these regions are semi-algebraic. We investigate regions of
+optimality using computer tools such as yalmip, qepcad, and Mathematica.
+</summary>
+    <author>
+      <name>Thomas Kahle</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Extended abstract for ICMS 2016 in Berlin. 6 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.00265v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00265v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62K05, 14P10, 62J02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

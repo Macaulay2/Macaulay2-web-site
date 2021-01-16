@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1009.4488%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1009.4488&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZOnpiHX3DkQyUWmxGCECc5kyPBo</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1009.4488v2</id>
+    <updated>2012-08-08T16:16:55Z</updated>
+    <published>2010-09-22T21:50:00Z</published>
+    <title>Poset Embeddings of Hilbert Functions</title>
+    <summary>  For a standard graded algebra $R$, we consider embeddings of the the poset of
+Hilbert functions of quotients of $R$ into the poset of ideals of $R$, as a way
+of classification of Hilbert functions. There are examples of rings for which
+such embeddings do not exist. We describe how the embedding can be lifted to
+certain ring extensions, which is then used in the case of polarization and
+distraction. A version of a theorem of Clements--Lindstr\"om is proved. We
+exhibit a condition on the embedding that ensures that the classification of
+Hilbert functions is obtained with images of lexicographic segment ideals.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12pp</arxiv:comment>
+    <link href="http://arxiv.org/abs/1009.4488v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1009.4488v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

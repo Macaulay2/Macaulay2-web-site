@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1405.7871%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1405.7871&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BiU+kR9T4sPaA9p+oYQWm7klfEw</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1405.7871v1</id>
+    <updated>2014-05-30T14:20:26Z</updated>
+    <published>2014-05-30T14:20:26Z</published>
+    <title>Numerical algorithms for detecting embedded components</title>
+    <summary>  We produce algorithms to detect whether a complex affine variety presented
+numerically by the machinery of numerical algebraic geometry corresponds to an
+associated component of a polynomial ideal.
+  More precisely, we complete the task of numerical primary decomposition:
+methods known before produce a finite set of suspect components of a complex
+affine scheme including all associated components along with the so-called
+pseudocomponents, but stop short of distinguishing between the two types.
+</summary>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <author>
+      <name>Jonathan Hauenstein</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 2 figures, abstract by Jonathan Hauenstein</arxiv:comment>
+    <link href="http://arxiv.org/abs/1405.7871v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1405.7871v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99, 13P99, 65D99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

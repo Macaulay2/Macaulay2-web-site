@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.08161%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.08161&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//IyQ1oW7O103V7fw25QIl+hZFQU</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.08161v1</id>
+    <updated>2019-12-17T17:57:36Z</updated>
+    <published>2019-12-17T17:57:36Z</published>
+    <title>Second powers of cover ideals of paths</title>
+    <summary>  We show that the second power of the cover ideal of a path graph has linear
+quotients. To prove our result we construct a recursively defined order on the
+generators of the ideal which yields linear quotients. Our construction has a
+natural generalization to the larger class of chordal graphs. This
+generalization allows us to raise some questions that are related to some open
+problems about powers of cover ideals of chordal graphs.
+</summary>
+    <author>
+      <name>Nursel Erey</name>
+    </author>
+    <author>
+      <name>Ayesha Asloob Qureshi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.08161v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.08161v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

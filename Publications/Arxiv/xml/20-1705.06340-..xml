@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.06340%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.06340&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lUZcs3Crz8c5LiDx6lGWU7Gz8HI</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.06340v1</id>
+    <updated>2017-05-17T20:33:55Z</updated>
+    <published>2017-05-17T20:33:55Z</published>
+    <title>There are no new index theorems for quadratic vector fields on
+  $\mathbb{C}^2$</title>
+    <summary>  Consider a degree $n$ polynomial vector field on $\mathbb{C}^2$ having an
+invariant line at infinity and isolated singularities only. We define the
+extended spectra of singularities to be the collection of the spectra of the
+linearization matrices of each of the singular points over the affine part,
+together with all the characteristic numbers (i.e. Camacho-Sad indices) at
+infinity. This collection consists of $2n^2+n+1$ complex numbers, and is
+invariant under affine equivalence of vector fields.
+  In this paper we deal with the quadratic case $n=2$, and describe all the
+algebraic relations among these 11 numbers. We further show that, among these
+relations, the only ones that come from an index theorem are those given by the
+Euler-Jacobi formula, the Baum-Bott theorem and the Camacho-Sad theorem, hence
+concluding the lack of new index theorems for (generic) quadratic vector fields
+on $\mathbb{C}^2$.
+</summary>
+    <author>
+      <name>Yury Kudryashov</name>
+    </author>
+    <author>
+      <name>Valente Ramírez</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 2 appendices</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.06340v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.06340v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="37F75, 32M25, 32S65" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

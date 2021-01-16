@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0801.0249%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0801.0249&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ld/uIuWEj4HOaGHdZaVXgd+0yL8</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0801.0249v1</id>
+    <updated>2007-12-31T23:22:50Z</updated>
+    <published>2007-12-31T23:22:50Z</published>
+    <title>A mathematical formalism for agent-based modeling</title>
+    <summary>  Many complex systems can be modeled as multiagent systems in which the
+constituent entities (agents) interact with each other. The global dynamics of
+such a system is determined by the nature of the local interactions among the
+agents. Since it is difficult to formally analyze complex multiagent systems,
+they are often studied through computer simulations. While computer simulations
+can be very useful, results obtained through simulations do not formally
+validate the observed behavior. Thus, there is a need for a mathematical
+framework which one can use to represent multiagent systems and formally
+establish their properties. This work contains a brief exposition of some known
+mathematical frameworks that can model multiagent systems. The focus is on one
+such framework, namely that of finite dynamical systems. Both, deterministic
+and stochastic versions of this framework are discussed. The paper contains a
+sampling of the mathematical results from the literature to show how finite
+dynamical systems can be used to carry out a rigorous study of the properties
+of multiagent systems and it is shown how the framework can also serve as a
+universal model for computation.
+</summary>
+    <author>
+      <name>Reinhard Laubenbacher</name>
+    </author>
+    <author>
+      <name>Abdul S. Jarrah</name>
+    </author>
+    <author>
+      <name>Henning Mortveit</name>
+    </author>
+    <author>
+      <name>S. S. Ravi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Prepared for the Encyclopedia of Complexity and System Science,
+  Springer Verlag, 2008</arxiv:comment>
+    <link href="http://arxiv.org/abs/0801.0249v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0801.0249v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0505112%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0505112&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SSQ0arI0/E92aBqpU2IDD3HIelM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0505112v1</id>
+    <updated>2005-05-06T16:36:38Z</updated>
+    <published>2005-05-06T16:36:38Z</published>
+    <title>A presentation for the Chow ring A^*(\bar{M}_{0,2}(P^1,2))</title>
+    <summary>  The purpose of this dissertation is to study the intersection theory of the
+moduli spaces of stable maps of degree two from two-pointed, genus zero nodal
+curves to arbitrary-dimensional projective space. Toward this end, first the
+Betti numbers of \bar{M}_{0,2}(P^r,2) are computed using Serre polynomials and
+equivariant Serre polynomials. Then, specializing to the space
+\bar{M}_{0,2}(P^1,2), generators and relations for the Chow ring are given.
+Chow rings of simpler spaces are also described, and the method of localization
+and linear algebra is developed. Both tools are used in finding the relations.
+It is further demonstrated that no additional relations exist among the
+generators, so that a presentation for the Chow ring A^*(\bar{M}_{0,2}(P^1,2))
+is obtained. As a further check of the presentation, it is applied to give a
+new computation of the previously known genus zero, degree two, two-pointed
+gravitational correlators of P^1.
+  Portions of this work also appear in math.AG/0501322 and math.AG/0504575, but
+the dissertation contains significantly more background and detail for those
+who may be interested in these. The dissertation is preserved in original form
+except for spacing changes, elimination of some front and end materials,
+additions to some references, and correction of typos in Proposition 11.
+</summary>
+    <author>
+      <name>Jonathan A. Cox</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">100 pages, dissertation</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0505112v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0505112v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C15 (Primary) 14D22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.09188%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.09188&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jedzqhy6MTPJ1jIBRHutbB2Ms6M</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.09188v1</id>
+    <updated>2015-12-31T00:36:51Z</updated>
+    <published>2015-12-31T00:36:51Z</published>
+    <title>Homological Properties of the Homology Algebra of the Koszul Complex of
+  a Local Ring. Examples and Questions</title>
+    <summary>  Let $R$ be a local commutative noetherian ring and $HKR$ the homology ring of
+the corresponding Koszul complex. We study the homological properties of $HKR$
+in particular the so-called Avramov spectral sequence. When the embedding
+dimension of $R$ is four and when $R$ can be presented with quadratic relations
+we have found 102 cases where this spectral sequence degenerates and only three
+cases where it does not degenerate. We also determine completely the Hilbert
+series of the bigraded Tor of these $HKR$ in tables A-D of section 5. We also
+study some higher embedding dimensions. Among the methods used are the
+programme {\tt BERGMAN} by J\"orgen Backelin et al, the {\tt Macaulay2}-package
+{\tt DGAlgebras} by Frank Moore, combined with results by Govorov, Clas
+L\"ofwall, Victor Ufnarovski and others.
+</summary>
+    <author>
+      <name>Jan-Erik Roos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.09188v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.09188v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68W30 (Primary), 16S37 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

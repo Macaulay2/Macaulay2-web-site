@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1209.4070%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1209.4070&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zlFU0S8jlzg4wFqJ/mBn6e2OiVo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1209.4070v1</id>
+    <updated>2012-09-18T19:41:54Z</updated>
+    <published>2012-09-18T19:41:54Z</published>
+    <title>Integral closure of ideals</title>
+    <summary>  The Qth-power algorithm for computing structured global presentations of
+integral closures of affine domains over finite fields is modified to compute
+structured presentations of integral closures of ideals in affine domains over
+finite fields relative to a local monomial ordering. A non-homogeneous version
+of the standard (homogeneous) Rees algebra is introduced as well.
+</summary>
+    <author>
+      <name>Douglas A. Leonard</name>
+    </author>
+    <link href="http://arxiv.org/abs/1209.4070v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1209.4070v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

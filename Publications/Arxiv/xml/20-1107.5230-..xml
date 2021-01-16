@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.5230%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.5230&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LrJuFmy7bZDYCREGby3EQ6F40Cc</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.5230v1</id>
+    <updated>2011-07-26T14:58:22Z</updated>
+    <published>2011-07-26T14:58:22Z</published>
+    <title>Lyubeznik numbers of monomial ideals</title>
+    <summary>  We study Bass numbers of local cohomology modules supported on squarefree
+monomial ideals paying special attention to Lyubeznik numbers. We build a
+dictionary between local cohomology modules and minimal free resolutions that
+allow us to interpret Lyubeznik numbers as the obstruction to the acyclicity of
+the linear strands of the Alexander dual ideals. The methods we develop also
+help us to give a bound for the injective dimension of the local cohomology
+modules in terms of the dimension of the small support.
+</summary>
+    <author>
+      <name>Josep Alvarez Montaner</name>
+    </author>
+    <author>
+      <name>Alireza Vahidi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1107.5230v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.5230v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

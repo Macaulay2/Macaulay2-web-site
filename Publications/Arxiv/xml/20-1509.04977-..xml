@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1509.04977%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1509.04977&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W5nJWXiXXDbU62e+cXeYO+E8KzM</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1509.04977v1</id>
+    <updated>2015-09-16T17:21:03Z</updated>
+    <published>2015-09-16T17:21:03Z</published>
+    <title>Ordinary and symbolic Rees algebras for ideals of Fermat point
+  configurations</title>
+    <summary>  Fermat ideals define planar point configurations that are closely related to
+the intersection locus of the members of a specific pencil of curves. These
+ideals have gained recent popularity as counterexamples to some proposed
+containments between symbolic and ordinary powers. We give a systematic
+treatment of the family of Fermat ideals, describing explicitly the minimal
+generators and the minimal free resolutions of all their ordinary powers as
+well as many symbolic powers. We use these to study the ordinary and the
+symbolic Rees algebra of Fermat ideals. Specifically, we show that the symbolic
+Rees algebras of Fermat ideals are Noetherian. Along the way, we give formulas
+for the Castelnuovo-Mumford regularity of the powers of Fermat ideals and we
+determine their reduction ideals.
+</summary>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1509.04977v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1509.04977v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dcs%2F0701037%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=cs/0701037&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YAsjJrdIwIYEPJLnJLoSXsXSlJk</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/cs/0701037v3</id>
+    <updated>2009-02-24T18:13:25Z</updated>
+    <published>2007-01-06T11:36:50Z</published>
+    <title>DMTCP: Transparent Checkpointing for Cluster Computations and the
+  Desktop</title>
+    <summary>  DMTCP (Distributed MultiThreaded CheckPointing) is a transparent user-level
+checkpointing package for distributed applications. Checkpointing and restart
+is demonstrated for a wide range of over 20 well known applications, including
+MATLAB, Python, TightVNC, MPICH2, OpenMPI, and runCMS. RunCMS runs as a 680 MB
+image in memory that includes 540 dynamic libraries, and is used for the CMS
+experiment of the Large Hadron Collider at CERN. DMTCP transparently
+checkpoints general cluster computations consisting of many nodes, processes,
+and threads; as well as typical desktop applications. On 128 distributed cores
+(32 nodes), checkpoint and restart times are typically 2 seconds, with
+negligible run-time overhead. Typical checkpoint times are reduced to 0.2
+seconds when using forked checkpointing. Experimental results show that
+checkpoint time remains nearly constant as the number of nodes increases on a
+medium-size cluster.
+  DMTCP automatically accounts for fork, exec, ssh, mutexes/semaphores, TCP/IP
+sockets, UNIX domain sockets, pipes, ptys (pseudo-terminals), terminal modes,
+ownership of controlling terminals, signal handlers, open file descriptors,
+shared open file descriptors, I/O (including the readline library), shared
+memory (via mmap), parent-child process relationships, pid virtualization, and
+other operating system artifacts. By emphasizing an unprivileged, user-space
+approach, compatibility is maintained across Linux kernels from 2.6.9 through
+the current 2.6.28. Since DMTCP is unprivileged and does not require special
+kernel modules or kernel patches, DMTCP can be incorporated and distributed as
+a checkpoint-restart module within some larger package.
+</summary>
+    <author>
+      <name>Jason Ansel</name>
+    </author>
+    <author>
+      <name>Kapil Arya</name>
+    </author>
+    <author>
+      <name>Gene Cooperman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages; 2 figures, 8 plots, and 2 tables; description of DMTCP;
+  Version 3: describing checkpointing both for distributed multi-threaded
+  applications (including MPI), and interactive shell-like languages on
+  desktop; Revised to reflect version published in IPDPS-09; Software at:
+  http://dmtcp.sourceforge.net/</arxiv:comment>
+    <link href="http://arxiv.org/abs/cs/0701037v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/cs/0701037v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.DC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.OS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="D.4.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

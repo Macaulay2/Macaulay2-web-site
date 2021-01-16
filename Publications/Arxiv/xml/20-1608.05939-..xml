@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1608.05939%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1608.05939&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IqzgMAz+UX8A8dO5gHHGpYYEqX0</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1608.05939v1</id>
+    <updated>2016-08-21T13:39:29Z</updated>
+    <published>2016-08-21T13:39:29Z</published>
+    <title>Compactifications of Adjoint Orbits and their Hodge Diamonds</title>
+    <summary>  A recent theorem of [GGSM1] showed that adjoint orbits of semisimple Lie
+algebras have the structure of symplectic Lefschetz fibrations. We investigate
+the behaviour of their fibrewise compactifications. Expressing adjoint orbits
+and fibres as affine varieties in their Lie algebra, we compactify them to
+projective varieties via homogenisation of the defining ideals. We find that
+their Hodge diamonds vary wildly according to the choice of homogenisation, and
+that extensions of the potential to the compactification must acquire
+degenerate singularities.
+</summary>
+    <author>
+      <name>Edoardo Ballico</name>
+    </author>
+    <author>
+      <name>Brian Callander</name>
+    </author>
+    <author>
+      <name>Elizabeth Gasparim</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">this paper uses the Macaulay2 algorithm developed in arXiv:1311.1265</arxiv:comment>
+    <link href="http://arxiv.org/abs/1608.05939v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1608.05939v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

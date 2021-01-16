@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1801.00153%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1801.00153&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wTR1cj8P0ogFr4BFn6TbLVewCPQ</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1801.00153v2</id>
+    <updated>2018-04-29T13:22:37Z</updated>
+    <published>2017-12-30T16:56:04Z</published>
+    <title>Betti numbers for numerical semigroup rings</title>
+    <summary>  We survey results related to the magnitude of the Betti numbers of numerical
+semigroup rings and of their tangent cones.
+</summary>
+    <author>
+      <name>Dumitru I. Stamate</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages; v2: updated references. To appear in Multigraded Algebra
+  and Applications (V. Ene, E. Miller Eds.)</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.00153v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.00153v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13-02, 13D02, 13A30, 16S36, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

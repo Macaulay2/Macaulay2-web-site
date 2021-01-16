@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2012.06350%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2012.06350&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Y9PAWhpLzTNJqkvBkCPKwn5YHt0</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2012.06350v1</id>
+    <updated>2020-12-11T13:49:14Z</updated>
+    <published>2020-12-11T13:49:14Z</published>
+    <title>Euclidean distance degree and mixed volume</title>
+    <summary>  We initiate a study of the Euclidean Distance Degree in the context of sparse
+polynomials. Specifically, we consider a hypersurface f=0 defined by a
+polynomial f that is general given its support, such that the support contains
+the origin. We show that the Euclidean Distance Degree of f=0 equals the mixed
+volume of the Newton polytopes of the associated Lagrange multiplier equations.
+We discuss the implication of our result for computational complexity and give
+a formula for the Euclidean distance degree when the Newton polytope is a
+rectangular parallelepiped.
+</summary>
+    <author>
+      <name>Paul Breiding</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>James Woodcock</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, four figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2012.06350v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2012.06350v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 90C26" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

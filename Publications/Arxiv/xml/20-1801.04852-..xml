@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1801.04852%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1801.04852&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+wayDKkjEoa00lT7K+IT7WoYT4c</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1801.04852v1</id>
+    <updated>2018-01-15T15:46:42Z</updated>
+    <published>2018-01-15T15:46:42Z</published>
+    <title>Border rank is not multiplicative under the tensor product</title>
+    <summary>  Let T_1 be an k_1-tensor and let T_2 be a k_2-tensor and consider the tensor
+product of T_1 \otimes T_2, which is a (k_1 + k_2)-tensor. It has recently been
+shown ([Christandl, Jensen, Zuiddam]) that the tensor rank can be strictly
+submultiplicative under the tensor product. The necessary upper bounds were
+obtained with help of the border rank. It was left open whether border rank
+itself can be strictly submultiplicative. In the current work, we answer this
+question in the affirmative. In order to do so, we construct lines in
+projective space along which the border rank drops multiple times and use this
+result in conjunction with a previous construction for a tensor rank drop. Our
+results also imply strict submultiplicativity for cactus rank and border cactus
+rank.
+</summary>
+    <author>
+      <name>Matthias Christandl</name>
+    </author>
+    <author>
+      <name>Fulvio Gesmundo</name>
+    </author>
+    <author>
+      <name>Asger Kjærulff Jensen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1801.04852v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1801.04852v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M20, 15A69, 15A72" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

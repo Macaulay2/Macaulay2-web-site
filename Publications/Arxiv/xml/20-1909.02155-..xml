@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1909.02155%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1909.02155&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Jdl37duqxkPwxCb857epafZDcBw</id>
+  <updated>2019-09-18T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1909.02155v1</id>
+    <updated>2019-09-04T23:45:20Z</updated>
+    <published>2019-09-04T23:45:20Z</published>
+    <title>Feasibility criteria for high-multiplicity partitioning problems</title>
+    <summary>  For fixed weights w_1,...,w_n, and for d&gt;0, we let B denote a collection of
+d*n balls, with d balls of weight w_i for each i=1,...,n. We consider the
+problem of assigning the balls to n bins with capacities C_1,...,C_n, in such a
+way that each bin is assigned d balls, without exceeding its capacity. When
+d&gt;&gt;0, we give sufficient criteria for the feasibility of this problem, which
+coincide up to explicit constants with the natural set of necessary conditions.
+Furthermore, we show that our constants are optimal when the weights w_i are
+distinct. The feasibility criteria that we present here are used elsewhere (in
+commutative algebra) to study the asymptotic behavior of the
+Castelnuovo-Mumford regularity of symmetric monomial ideals.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <link href="http://arxiv.org/abs/1909.02155v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1909.02155v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="90C27, 05D99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

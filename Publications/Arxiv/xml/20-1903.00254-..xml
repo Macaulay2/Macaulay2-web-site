@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1903.00254%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1903.00254&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oAUn8VI/3KoaMyKFiIUuVql2M3g</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1903.00254v1</id>
+    <updated>2019-03-01T11:45:01Z</updated>
+    <published>2019-03-01T11:45:01Z</published>
+    <title>Unirational component of moduli spaces of genus 11 curves with several
+  pencils of degree 6</title>
+    <summary>  We show that the moduli space $ \mathcal{M}_{11,6}(k) $ of $ 6-$gonal curves
+of genus $ 11 $, equipped with $k$ mutually independent and type I pencils of
+degree six, has a unirational irreducible component for $5\leq k\leq 9$. The
+unirational families arise from degree $ 9 $ plane curves with $ 4 $ ordinary
+triple and $ 5 $ ordinary double points that dominate an irreducible component
+of expected dimension. We will further show that the family of degree $ 8 $
+plane curves with $ 10 $ ordinary double points covers an irreducible component
+of excess dimension in $ \mathcal{M}_{11,6}(10) $.
+</summary>
+    <author>
+      <name>Hanieh Keneshlou</name>
+    </author>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1903.00254v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1903.00254v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

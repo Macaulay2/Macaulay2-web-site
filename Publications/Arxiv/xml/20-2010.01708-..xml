@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.01708%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.01708&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tJ3eqclZuyTESTaPobqZDOHBbQo</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.01708v1</id>
+    <updated>2020-10-04T22:28:50Z</updated>
+    <published>2020-10-04T22:28:50Z</published>
+    <title>Hilbert series of symplectic quotients by the 2-torus</title>
+    <summary>  We compute the Hilbert series of the graded algebra of real regular functions
+on a linear symplectic quotient by the $2$-torus as well as the first four
+coefficients of the Laurent expansion of this Hilbert series at $t = 1$. We
+describe an algorithm to compute the Hilbert series as well as the Laurent
+coefficients in explicit examples.
+</summary>
+    <author>
+      <name>Hans-Christian Herbig</name>
+    </author>
+    <author>
+      <name>Daniel Herden</name>
+    </author>
+    <author>
+      <name>Christopher Seaton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2010.01708v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.01708v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 53D20, Secondary 13A50, 14L30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

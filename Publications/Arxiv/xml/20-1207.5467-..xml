@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1207.5467%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1207.5467&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gLIQBODealkt14CzIIbBZYn0neM</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1207.5467v1</id>
+    <updated>2012-07-23T18:08:41Z</updated>
+    <published>2012-07-23T18:08:41Z</published>
+    <title>Asymptotics of random Betti tables</title>
+    <summary>  The purpose of this paper is twofold. First, we present a conjecture to the
+effect that the ranks of the syzygy modules of a smooth projective variety
+become normally distributed as the positivity of the embedding line bundle
+grows. Then, in an attempt to render the conjecture plausible, we prove a
+result suggesting that this is in any event the typical behavior from a
+probabilistic point of view. Specifically, we consider a "random" Betti table
+with a fixed number of rows, sampled according to a uniform choice of
+Boij-Soderberg coefficients. We compute the asymptotics of the entries as the
+length of the table goes to infinity, and show that they become normally
+distributed with high probability.
+</summary>
+    <author>
+      <name>Lawrence Ein</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Robert Lazarsfeld</name>
+    </author>
+    <link href="http://arxiv.org/abs/1207.5467v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1207.5467v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

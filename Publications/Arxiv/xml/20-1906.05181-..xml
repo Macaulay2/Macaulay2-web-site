@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1906.05181%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1906.05181&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ReTQ5Tdxsiw81S5HnQDQ6acbXJ0</id>
+  <updated>2019-08-08T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1906.05181v1</id>
+    <updated>2019-06-12T14:46:13Z</updated>
+    <published>2019-06-12T14:46:13Z</published>
+    <title>On the product of the singular values of a binary tensor</title>
+    <summary>  A real binary tensor consists of $2^d$ real entries arranged into hypercube
+format $2^{\times d}$. For $d=2$, a real binary tensor is a $2\times 2$ matrix
+with two singular values. Their product is the determinant. We generalize this
+formula for any $d\ge 2$. Given a partition $\mu\vdash d$ and a $\mu$-symmetric
+real binary tensor $t$, we study the distance function from $t$ to the variety
+$X_{\mu,\mathbb{R}}$ of $\mu$-symmetric real binary tensors of rank one. The
+study of the local minima of this function is related to the computation of the
+singular values of $t$. Denoting with $X_\mu$ the complexification of
+$X_{\mu,\mathbb{R}}$, the Euclidean Distance polynomial
+$\mathrm{EDpoly}_{X_\mu^\vee,t}(\epsilon^2)$ of the dual variety of $X_\mu$ at
+$t$ has among its roots the singular values of $t$. On one hand, the lowest
+coefficient of $\mathrm{EDpoly}_{X_\mu^\vee,t}(\epsilon^2)$ is the square of
+the $\mu$-discriminant of $t$ times a product of sum of squares polynomials. On
+the other hand, we describe the variety of $\mu$-symmetric binary tensors that
+do not admit the maximum number of singular values, counted with multiplicity.
+Finally, we compute symbolically all the coefficients of
+$\mathrm{EDpoly}_{X_\mu^\vee,t}(\epsilon^2)$ for tensors of format $2\times
+2\times 2$.
+</summary>
+    <author>
+      <name>Luca Sodomaco</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1906.05181v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1906.05181v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P05, 14M20, 15A72, 15A18, 58K05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

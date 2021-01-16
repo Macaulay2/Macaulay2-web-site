@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1405.1687%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1405.1687&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vreIn8gx5XRWNsGZtmXILy26j8M</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1405.1687v2</id>
+    <updated>2014-05-08T09:59:13Z</updated>
+    <published>2014-05-07T18:26:15Z</published>
+    <title>Existence of unimodular triangulations - positive results</title>
+    <summary>  Unimodular triangulations of lattice polytopes and their relatives arise in
+algebraic geometry, commutative algebra, integer programming and, of course,
+combinatorics.
+  Presumably, "most" lattice polytopes do not admit a unimodular triangulation.
+In this article, we survey which classes of polytopes are known to have
+unimodular triangulations; among them some new classes, and some not so new
+which have not been published elsewhere.
+  We include a new proof of the classical result by Knudsen-Munford-Waterman
+stating that every lattice polytope has a dilation that admits a unimodular
+triangulation. Our proof yields an explicit (although doubly exponential) bound
+for the dilation factor.
+</summary>
+    <author>
+      <name>Christian Haase</name>
+    </author>
+    <author>
+      <name>Andreas Paffenholz</name>
+    </author>
+    <author>
+      <name>Lindsay C. Piechnik</name>
+    </author>
+    <author>
+      <name>Francisco Santos</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">82 pages; updated since v1 did not contain the bibliography due to a
+  LaTeX mistake</arxiv:comment>
+    <link href="http://arxiv.org/abs/1405.1687v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1405.1687v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B10, 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

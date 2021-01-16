@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1712.04899%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1712.04899&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CAfd78M7CsCJIsQ9tdvSRlZk5B4</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1712.04899v1</id>
+    <updated>2017-12-13T18:10:33Z</updated>
+    <published>2017-12-13T18:10:33Z</published>
+    <title>The unirationality of the Hurwitz schemes $\mathcal{H}_{10,8}$ and
+  $\mathcal{H}_{13,7}$</title>
+    <summary>  We show that the Hurwitz scheme $\mathcal{H}_{g,d}$ parametrizing $d$-sheeted
+simply branched covers of the projective line by smooth curves of genus $g$, up
+to isomorphism, is unirational for $(g,d)=(10,8)$ and $(13,7)$. The
+unirationality is settled by using liaison constructions in $\mathbb{P}^1
+\times \mathbb{P}^2$ and $\mathbb{P}^6$ respectively, and through the explicit
+computation of single examples over a finite field.
+</summary>
+    <author>
+      <name>Hanieh Keneshlou</name>
+    </author>
+    <author>
+      <name>Fabio Tanturri</name>
+    </author>
+    <link href="http://arxiv.org/abs/1712.04899v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1712.04899v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10, 14H50, 14H51, 14M06, 14M20, 14Q05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

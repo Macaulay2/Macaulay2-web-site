@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1710.10651%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1710.10651&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/d6pGFe5H7p2VNpoMW7BWsO8SNlQ</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1710.10651v1</id>
+    <updated>2017-10-29T17:13:14Z</updated>
+    <published>2017-10-29T17:13:14Z</published>
+    <title>Computing Tropical Varieties in Macaulay2</title>
+    <summary>  This paper introduces a package for doing tropical computations in Macaulay2.
+The package draws on the functionality of Gfan and Polymake while making the
+process as simple as possible for the end user. This provides a powerful and
+user friendly tool for computing tropical varieties requiring little
+prerequisite knowledge.
+  The package can be downloaded from:
+http://homepages.warwick.ac.uk/staff/D.Maclagan/papers/TropicalPackage.html
+</summary>
+    <author>
+      <name>Carlos Améndola</name>
+    </author>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Sara Lamboglia</name>
+    </author>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <author>
+      <name>Ben Smith</name>
+    </author>
+    <author>
+      <name>Jeff Sommars</name>
+    </author>
+    <author>
+      <name>Paolo Tripoli</name>
+    </author>
+    <author>
+      <name>Magdalena Zajaczkowska</name>
+    </author>
+    <link href="http://arxiv.org/abs/1710.10651v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1710.10651v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T05, 14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

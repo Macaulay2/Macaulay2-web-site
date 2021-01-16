@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.3668%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.3668&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IAiE/Eh3LIlEaGK7noaNOPwKBBQ</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.3668v1</id>
+    <updated>2013-06-16T15:10:58Z</updated>
+    <published>2013-06-16T15:10:58Z</published>
+    <title>Containment Counterexamples for ideals of various configurations of
+  points in ${\bf P}^N$</title>
+    <summary>  When $I$ is the radical homogeneous ideal of a finite set of points in
+projective $N$-space, ${\bf P}^N$, over a field $K$, it has been conjectured
+that $I^{(rN-N+1)}$ should be contained in $I^r$ for all $r\geq 1$. Recent
+counterexamples show that this can fail when N=r=2. We study properties of the
+resulting ideals. We also show that failures occur for infinitely many $r$ in
+every characteristic $p&gt;2$ when N=2, and we find additional positive
+characteristic failures when $N&gt;2$.
+</summary>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.3668v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.3668v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 13A02, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

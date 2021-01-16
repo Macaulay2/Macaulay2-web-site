@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2010.08734%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2010.08734&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YXnfxzpMjjtJ5sJRDRVg0rUfxTQ</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2010.08734v1</id>
+    <updated>2020-10-17T07:28:11Z</updated>
+    <published>2020-10-17T07:28:11Z</published>
+    <title>Algebraic Methods in Difference Sets and Bent Functions</title>
+    <summary>  We provide some applications of a polynomial criterion for difference sets.
+These include counting the difference sets with specified parameters in terms
+of Hilbert functions, in particular a count of bent functions. We also consider
+the question about the bentness of certain Boolean functions introduced by
+Carlet when the $\mathcal{C}$-condition introduced by him doesn't hold.
+</summary>
+    <author>
+      <name>Pradipkumar H. Keskar</name>
+    </author>
+    <author>
+      <name>Priyanka Kumari</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2010.08734v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2010.08734v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B10, 6E30, 13P25, 94C10, 11T71" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0207109%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0207109&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fx6fbiKllMdD8jX4QkfpWu2gG2I</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0207109v2</id>
+    <updated>2002-12-30T19:00:28Z</updated>
+    <published>2002-07-12T15:23:31Z</published>
+    <title>Test ideals in diagonal hypersurface rings II</title>
+    <summary>  Let $R=k[x_1, ..., x_n]/(x_1^d + ... + x_n^d)$, where $k$ is a field of
+characteristic $p$, $p$ does not divide $d$ and $n \geq 3$. We describe a
+method for computing the test ideal for these diagonal hypersurface rings. This
+method involves using a characterization of test ideals in Gorenstein rings as
+well as developing a way to compute tight closures of certain ideals despite
+the lack of a general algorithm. In addition, we compute examples of test
+ideals in diagonal hypersurface rings of small characteristic (relative to $d$)
+including several that are not integrally closed. These examples provide a
+negative answer to Smith's (2000, Comm. in Alg.) question of whether the test
+id eal in general is always integrally closed.
+</summary>
+    <author>
+      <name>Moira A. McDermott</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">revised version, incorporating referee's comments, LaTeX, 10 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0207109v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0207109v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

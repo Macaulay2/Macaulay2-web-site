@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.03785%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.03785&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/faw2NY1PwXJZsJWw76IeCQVrAr0</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.03785v2</id>
+    <updated>2015-08-20T22:40:31Z</updated>
+    <published>2015-08-16T03:26:21Z</published>
+    <title>An Algorithm to Compute the Topological Euler Characteristic, the
+  Chern-Schwartz-MacPherson Class and the Segre class of Subschemes of Some
+  Smooth Complete Toric Varieties</title>
+    <summary>  Let $X_{\Sigma}$ be a complete smooth toric variety of dimension $n$ defined
+by a fan $\Sigma$ where all Cartier divisors in $\mathrm{Pic}(X_{\Sigma})$ are
+nef and let $V$ be a subscheme of $X_{\Sigma}$. We show a new expression for
+the Segre class $s(V,X_{\Sigma})$ in terms of the projective degrees of a
+rational map associated to $V$. In the case where the number of primitive
+collections of rays in the fan $\Sigma$ is equal to the number of generating
+rays in $\Sigma(1)$ minus the dimension of $X_{\Sigma}$ we give an explicit
+expression for the projective degrees which can be easily computed using a
+computer algebra system. We apply this to give effective algorithms to compute
+the Segre class $s(V,X_{\Sigma})$, the Chern-Schwartz-MacPherson class
+$c_{SM}(V)$ and the Euler characteristic $\chi(V)$ of $V$. These algorithms
+can, in particular, compute the Segre class, Chern-Schwartz-MacPherson class
+and Euler characteristic of arbitrary subschemes of any product of projective
+spaces $\mathbb{P}^{n_1} \times \cdots \times \mathbb{P}^{n_j}$ (over an
+algebraically closed field of characteristic zero). Running time bounds for
+several of the algorithms are given and the algorithms are tested on a variety
+of examples. In all cases the algorithm to compute the Segre class is found to
+offer significantly increased performance over other known algorithms. At
+present we know of no other algorithms which compute Chern-Schwartz-MacPherson
+classes and Euler characteristics in this setting.
+</summary>
+    <author>
+      <name>Martin Helmer</name>
+    </author>
+    <link href="http://arxiv.org/abs/1508.03785v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.03785v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx, 68W30, 14C17, 13P15, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="F.2.2; I.1.2; I.1.1" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

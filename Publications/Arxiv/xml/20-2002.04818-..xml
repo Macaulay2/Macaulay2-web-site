@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.04818%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.04818&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MRspZbJD+aTYengJGWIlxgcTTD4</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.04818v1</id>
+    <updated>2020-02-12T06:25:30Z</updated>
+    <published>2020-02-12T06:25:30Z</published>
+    <title>The apolar algebra of a product of linear forms</title>
+    <summary>  Apolarity is an important tool in commutative algebra and algebraic geometry
+which studies a form, $f$, by the action of polynomial differential operators
+on $f$. The quotient of all polynomial differential operators by those which
+annihilate $f$ is called the apolar algebra of $f$. In general, the apolar
+algebra of a form is useful for determining its Waring rank, which can be seen
+as the problem of decomposing the supersymmetric tensor, associated to the
+form, minimally as a sum of rank one supersymmetric tensors. In this article we
+study the apolar algebra of a product of linear forms, which generalizes the
+case of monomials and connects to the geometry of hyperplane arrangements. In
+the first part of the article we provide a bound on the Waring rank of a
+product of linear forms under certain genericity assumptions; for this we use
+the defining equations of so-called star configurations due to Geramita,
+Harbourne, and Migliore. In the second part of the article we use the computer
+algebra system Bertini, which operates by homotopy continuation methods, to
+solve certain rank equations for catalecticant matrices. Our computations
+suggest that, up to a change of variables, there are exactly six homogeneous
+polynomials of degree six in three variables which factor completely as a
+product of linear forms defining an irreducible multi-arrangement and whose
+apolar algebras have dimension six in degree three. As a consequence of these
+calculations, we find six cases of such forms with cactus rank six, five of
+which also have Waring rank six. Among these are products defining
+subarrangements of the braid and Hessian arrangements.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <author>
+      <name>Zachary Flores</name>
+    </author>
+    <author>
+      <name>Chris Peterson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2002.04818v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.04818v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10, 13N10, 68W30, 14N20, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

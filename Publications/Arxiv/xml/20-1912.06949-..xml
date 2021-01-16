@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1912.06949%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1912.06949&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0Hmp5cTr1GJnTP5IxXYaliZ0TeY</id>
+  <updated>2020-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1912.06949v1</id>
+    <updated>2019-12-14T23:52:00Z</updated>
+    <published>2019-12-14T23:52:00Z</published>
+    <title>Structure Theory for a Class of Grade 3 Homogeneous Ideals Defining Type
+  2 Compressed Rings</title>
+    <summary>  Let $R=k[x,y,z]$ be a standard graded $3$-variable polynomial ring, where $k$
+denotes any field. We study grade $3$ homogeneous ideals $I \subseteq R$
+defining compressed rings with socle $k(-s) \oplus k(-2s+1)$, where $s \geq3$
+is some integer. We prove that all such ideals are obtained by a trimming
+process introduced by Christensen, Veliche, and Weyman. We also construct a
+general resolution for all such ideals which is minimal in sufficiently generic
+cases. Using this resolution, we can give bounds on the minimal number of
+generators $\mu(I)$ of $I$ depending only on $s$; moreover, we show these
+bounds are sharp by constructing ideals attaining the upper and lower bounds
+for all $s\geq 3$. Finally, we study the Tor-algebra structure of $R/I$. It is
+shown that these rings have Tor algebra class $G(r)$ for $s \leq r \leq 2s-1$.
+Furthermore, we produce ideals $I$ for all $s \geq 3$ and all $r$ with $s \leq
+r \leq 2s-1$ such that $\textrm{Soc} (R/I ) = k(-s) \oplus k(-2s+1)$ and $R/I$
+has Tor-algebra class $G(r)$, partially answering a question of realizability
+posed by Avramov.
+</summary>
+    <author>
+      <name>Keller VandeBogert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1912.06949v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1912.06949v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

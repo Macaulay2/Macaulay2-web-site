@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1207.4588%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1207.4588&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sWQbxppz5yFUER9DfoI1oiJld80</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1207.4588v1</id>
+    <updated>2012-07-19T09:19:39Z</updated>
+    <published>2012-07-19T09:19:39Z</published>
+    <title>Smooth curves specialize to extremal curves</title>
+    <summary>  Let H_{d,g} denote the Hilbert scheme of locally Cohen-Macaulay curves of
+degree d and genus g in projective three space. We show that, given a smooth
+irreducible curve C of degree d and genus g, there is a rational curve {[C_t]:
+t \in \mathbb{A}^1\} in H_{d,g} such that C_t for t \neq 0 is projectively
+equivalent to C, while the special fibre C_0 is an extremal curve. It follows
+that smooth curves lie in a unique connected component of H_{d,g}. We also
+determine necessary and sufficient conditions for a locally Cohen-Macaulay
+curve to admit such a specialization to an extremal curve.
+</summary>
+    <author>
+      <name>Robin Hartshorne</name>
+    </author>
+    <author>
+      <name>Paolo Lella</name>
+    </author>
+    <author>
+      <name>Enrico Schlesinger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1207.4588v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1207.4588v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14H50, 14Q05, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

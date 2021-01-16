@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1303.0010%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1303.0010&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ibNkMCLX80+jgQtCJA5Q/JlJyks</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1303.0010v1</id>
+    <updated>2013-02-28T21:00:13Z</updated>
+    <published>2013-02-28T21:00:13Z</published>
+    <title>Segre classes of monomial schemes</title>
+    <summary>  We propose an explicit formula for the Segre classes of monomial subschemes
+of nonsingular varieties, such as schemes defined by monomial ideals in
+projective space. The Segre class is expressed as a formal integral on a region
+bounded by the corresponding Newton polyhedron. We prove this formula for
+monomial ideals in two variables and verify it for some families of examples in
+any number of variables.
+</summary>
+    <author>
+      <name>Paolo Aluffi</name>
+    </author>
+    <link href="http://arxiv.org/abs/1303.0010v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1303.0010v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17, 14B05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

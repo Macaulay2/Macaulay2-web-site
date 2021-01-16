@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.10181%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.10181&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ow4maqckMj4nwRa50uK0QnzTRGQ</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.10181v1</id>
+    <updated>2020-11-20T02:37:40Z</updated>
+    <published>2020-11-20T02:37:40Z</published>
+    <title>Rational curves on K3 surfaces of small genus</title>
+    <summary>  Let $\mathfrak B_g$ denote the moduli space of primitively polarized $K3$
+surfaces $(S,H)$ of genus $g$ over $\mathbb C$. It is well-known that
+$\mathfrak B_g$ is irreducible and that there are only finitely many rational
+curves in $|H|$ for any primitively polarized $K3$ surface $(S,H)$. So we can
+ask the question of finding the monodromy group of such curves. The case of
+$g=2$ essentially follows from the results of Harris \cite{Ha} to be the full
+symmetric group $S_{324}$, here we solve the case $g=3$ and $4$.
+</summary>
+    <author>
+      <name>Rijul Saini</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">53 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2011.10181v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.10181v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J28 (Primary), 20B25, 14H45 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

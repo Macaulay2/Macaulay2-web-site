@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.07462%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.07462&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IPvfkv2JnTabdmY7fjvst5R1m3w</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.07462v1</id>
+    <updated>2017-06-22T19:06:33Z</updated>
+    <published>2017-06-22T19:06:33Z</published>
+    <title>The Rees algebra of a two-Borel ideal is Koszul</title>
+    <summary>  Let $M$ and $N$ be two monomials of the same degree, and let $I$ be the
+smallest Borel ideal containing $M$ and $N$. We show that the toric ring of $I$
+is Koszul by constructing a quadratic Gr\"obner basis for the associated toric
+ideal. Our proofs use the construction of graphs corresponding to fibers of the
+toric map. As a consequence, we conclude that the Rees algebra is also Koszul.
+</summary>
+    <author>
+      <name>Michael DiPasquale</name>
+    </author>
+    <author>
+      <name>Christopher A. Francisco</name>
+    </author>
+    <author>
+      <name>Jeffrey Mermin</name>
+    </author>
+    <author>
+      <name>Jay Schweig</name>
+    </author>
+    <author>
+      <name>Gabriel Sosa</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1706.07462v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.07462v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13P10, 05B35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

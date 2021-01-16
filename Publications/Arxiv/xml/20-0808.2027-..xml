@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0808.2027%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0808.2027&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9z9DQQUJpWbMiq93dw6rrUU+XOc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0808.2027v2</id>
+    <updated>2009-01-02T16:58:20Z</updated>
+    <published>2008-08-14T16:59:23Z</published>
+    <title>Efficient computation of resonance varieties via Grassmannians</title>
+    <summary>  Associated to the cohomology ring A of the complement X(A) of a hyperplane
+arrangement A in complex m-space are the resonance varieties R^k(A). The most
+studied of these is R^1(A), which is the union of the tangent cones at the
+origin to the characteristic varieties of the fundamental group of X. R^1(A)
+may be described in terms of Fitting ideals, or as the locus where a certain
+Ext module is supported. Both these descriptions give obvious algorithms for
+computation. In this note, we show that interpreting R^1(A) as the locus of
+decomposable two-tensors in the Orlik-Solomon ideal leads to a description of
+R^1(A) as the intersection of a Grassmannian with a linear space, determined by
+the quadratic generators of the Orlik-Solomon ideal. This method is much faster
+than previous alternatives.
+</summary>
+    <author>
+      <name>P. Lima-Filho</name>
+    </author>
+    <author>
+      <name>H. Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages 2 figures, Macaulay2 code to implement v2: refs updated</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Journal of Pure and Applied Algebra, 213 (2009), 1606-1611</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0808.2027v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0808.2027v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C35 (Primary) 13D07, 20F14 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

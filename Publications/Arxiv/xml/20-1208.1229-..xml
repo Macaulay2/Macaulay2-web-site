@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1208.1229%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1208.1229&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/v1o3bUfJ9fVFA4d26lJJmRyTsUo</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1208.1229v2</id>
+    <updated>2012-08-26T18:33:42Z</updated>
+    <published>2012-08-06T18:19:29Z</published>
+    <title>The Universal Kummer Threefold</title>
+    <summary>  The universal Kummer threefold is a 9-dimensional variety that represents the
+total space of the 6-dimensional family of Kummer threefolds in 7-dimensional
+projective space. We compute defining polynomials for three versions of this
+family, over the Satake hypersurface, over the G\"opel variety, and over the
+reflection representation of type E7. We develop classical themes such as theta
+functions and Coble's quartic hypersurface using current tools from
+combinatorics, geometry, and commutative algebra. Symbolic and numerical
+computations for genus 3 moduli spaces appear alongside toric and tropical
+methods.
+</summary>
+    <author>
+      <name>Qingchun Ren</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <author>
+      <name>Gus Schrader</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">48 pages; v2: added Remark 4.3, strengthened Lemma 8.3</arxiv:comment>
+    <link href="http://arxiv.org/abs/1208.1229v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1208.1229v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14K10, 14K25, 14M25, 14T05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

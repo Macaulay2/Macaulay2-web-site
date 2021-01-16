@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1401.6216%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1401.6216&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/R8mibOjN6mr3985AVnfBGBhMCKY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1401.6216v1</id>
+    <updated>2014-01-23T23:29:35Z</updated>
+    <published>2014-01-23T23:29:35Z</published>
+    <title>A multiplicity bound for graded rings and a criterion for the
+  Cohen-Macaulay property</title>
+    <summary>  Let $R$ be a polynomial ring over a field. We prove an upper bound for the
+multiplicity of $R/I$ when $I$ is a homogeneous ideal of the form $I=J+(F)$,
+where $J$ is a Cohen-Macaulay ideal and $F\notin J$. The bound is given in
+terms of two invariants of $R/J$ and the degree of $F$. We show that ideals
+achieving this upper bound have high depth, and provide a purely numerical
+criterion for the Cohen-Macaulay property. Applications to quasi-Gorenstein
+rings and almost complete intersections are given.
+</summary>
+    <author>
+      <name>Craig Huneke</name>
+    </author>
+    <author>
+      <name>Paolo Mantero</name>
+    </author>
+    <author>
+      <name>Jason McCullough</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1401.6216v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1401.6216v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

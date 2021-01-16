@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.03060%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.03060&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DluXfHnTlJ5BQuBYVtVCZa56n6U</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03060v1</id>
+    <updated>2017-06-09T17:59:27Z</updated>
+    <published>2017-06-09T17:59:27Z</published>
+    <title>Distinguishing Phylogenetic Networks</title>
+    <summary>  Phylogenetic networks are becoming increasingly popular in phylogenetics
+since they have the ability to describe a wider range of evolutionary events
+than their tree counterparts. In this paper, we study Markov models on
+phylogenetic networks and their associated geometry. We restrict our attention
+to large-cycle networks, networks with a single undirected cycle of length at
+least four. Using tools from computational algebraic geometry, we show that the
+semi-directed network topology is generically identifiable for Jukes-Cantor
+large-cycle network models.
+</summary>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Colby Long</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 10 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1706.03060v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.03060v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

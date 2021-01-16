@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.06868%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.06868&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/C/Q2F4hCD/IZvv122DTpnkqBUKo</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.06868v2</id>
+    <updated>2016-06-12T00:41:40Z</updated>
+    <published>2015-12-18T03:11:40Z</published>
+    <title>Minimum distance functions of graded ideals and Reed-Muller-type codes</title>
+    <summary>  We introduce and study the minimum distance function of a graded ideal in a
+polynomial ring with coefficients in a field, and show that it generalizes the
+minimum distance of projective Reed-Muller-type codes over finite fields. This
+gives an algebraic formulation of the minimum distance of a projective
+Reed-Muller-type code in terms of the algebraic invariants and structure of the
+underlying vanishing ideal. Then we give a method, based on Groebner bases and
+Hilbert functions, to find lower bounds for the minimum distance of certain
+Reed-Muller-type codes. Finally we show explicit upper bounds for the number of
+zeros of polynomials in a projective nested cartesian set and give some support
+to a conjecture of Carvalho, Lopez-Neumann and Lopez.
+</summary>
+    <author>
+      <name>Jose Martinez-Bernal</name>
+    </author>
+    <author>
+      <name>Yuriko Pitones</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">J. Pure Appl. Algebra, to appear</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.06868v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.06868v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

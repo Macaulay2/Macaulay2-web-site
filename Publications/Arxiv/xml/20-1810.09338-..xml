@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1810.09338%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1810.09338&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Y5vpohcAPs6CnjMB9dIWU/0G+rc</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1810.09338v1</id>
+    <updated>2018-10-22T15:02:05Z</updated>
+    <published>2018-10-22T15:02:05Z</published>
+    <title>On Comon's and Strassen's conjectures</title>
+    <summary>  Comon's conjecture on the equality of the rank and the symmetric rank of a
+symmetric tensor, and Strassen's conjecture on the additivity of the rank of
+tensors are two of the most challenging and guiding problems in the area of
+tensor decomposition. We survey the main known results on these conjectures,
+and, under suitable bounds on the rank, we prove them, building on classical
+techniques used in the case of symmetric tensors, for mixed tensors. Finally,
+we improve the bound for Comon's conjecture given by flattenings by producing
+new equations for secant varieties of Veronese and Segre varieties.
+</summary>
+    <author>
+      <name>Alex Casarotti</name>
+    </author>
+    <author>
+      <name>Alex Massarenti</name>
+    </author>
+    <author>
+      <name>Massimiliano Mella</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1810.09338v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1810.09338v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 15A69, 15A72, 11P05, Secondary 14N05, 15A69" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

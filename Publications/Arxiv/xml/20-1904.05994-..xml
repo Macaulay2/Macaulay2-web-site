@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.05994%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.05994&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fx4FBbJULVZFr762BpMbZ2pRpkc</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.05994v1</id>
+    <updated>2019-04-12T00:48:55Z</updated>
+    <published>2019-04-12T00:48:55Z</published>
+    <title>What Makes a Complex Virtual</title>
+    <summary>  Virtual resolutions are homological representations of finitely generated
+$\text{Pic}(X)$-graded modules over the Cox ring of a smooth projective toric
+variety. In this paper, we identify two algebraic conditions that characterize
+when a chain complex is virtual. We then turn our attention to the saturation
+of Fitting ideals by the irrelevant ideal of the Cox ring and prove some
+results that mirror the classical theory of Fitting ideals for Noetherian
+rings.
+</summary>
+    <author>
+      <name>Michael C. Loper</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.05994v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.05994v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

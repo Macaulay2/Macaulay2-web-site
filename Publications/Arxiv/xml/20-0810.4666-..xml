@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0810.4666%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0810.4666&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ppzu5ttzAWQSTdvVWvyISb7vf3Q</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0810.4666v2</id>
+    <updated>2009-07-29T21:13:55Z</updated>
+    <published>2008-10-26T06:23:31Z</published>
+    <title>Computing inclusions of Schur modules</title>
+    <summary>  We describe a software package for constructing minimal free resolutions of
+GL_n(Q)-equivariant graded modules M over Q[x_1, ..., x_n] such that for all i,
+the ith syzygy module of M is generated in a single degree. We do so by
+describing some algorithms for manipulating polynomial representations of the
+general linear group GL_n(Q) following ideas of Olver and
+Eisenbud-Floystad-Weyman.
+</summary>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, no figures. v2: updated with examples of code use. Package
+  may be downloaded here: http://math.mit.edu/~ssam/PieriMaps.m2</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">J. Softw. Algebra Geom. 1 (2009), 5-10</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/0810.4666v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0810.4666v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P99, 15A69, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

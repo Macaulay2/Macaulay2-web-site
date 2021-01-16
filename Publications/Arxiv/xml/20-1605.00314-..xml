@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1605.00314%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1605.00314&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ivKQMLJ0dYxrjgei/EJu6hGQ2CI</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1605.00314v1</id>
+    <updated>2016-05-01T22:22:53Z</updated>
+    <published>2016-05-01T22:22:53Z</published>
+    <title>Graph Connectivity and Binomial Edge Ideals</title>
+    <summary>  We relate homological properties of a binomial edge ideal $\mathcal{J}_G$ to
+invariants that measure the connectivity of a simple graph $G$. Specifically,
+we show if $R/\mathcal{J}_G$ is a Cohen-Macaulay ring, then graph toughness of
+$G$ is exactly $\frac{1}{2}$. We also give an inequality between the depth of
+$R/\mathcal{J}_G$ and the vertex-connectivity of $G$. In addition, we study the
+Hilbert-Samuel multiplicity, and the Hilbert-Kunz multiplicity of
+$R/\mathcal{J}_G$.
+</summary>
+    <author>
+      <name>Arindam Banerjee</name>
+    </author>
+    <author>
+      <name>Luis Núñez-Betancourt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1605.00314v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1605.00314v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C14, 05C40, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

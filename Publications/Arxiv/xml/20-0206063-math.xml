@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0206063%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0206063&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Kruw5U/7YLyJESokDtIpYSduQhA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0206063v1</id>
+    <updated>2002-06-07T01:45:31Z</updated>
+    <published>2002-06-07T01:45:31Z</published>
+    <title>Symmetric iterated Betti numbers</title>
+    <summary>  We define a set of invariants of a homogeneous ideal $I$ in a polynomial ring
+called the symmetric iterated Betti numbers of $I$. For $I_{\Gamma}$, the
+Stanley-Reisner ideal of a simplicial complex $\Gamma$, these numbers are the
+symmetric counterparts of the exterior iterated Betti numbers of $\Gamma$
+introduced by Duval and Rose. We show that the symmetric iterated Betti numbers
+of an ideal $I$ coincide with those of a particular reverse lexicographic
+generic initial ideal $\Gin(I)$ of $I$, and interpret these invariants in terms
+of the associated primes and standard pairs of $\Gin(I)$. We verify that for an
+ideal $I=I_\Gamma$ the extremal Betti numbers of $I_\Gamma$ are precisely the
+extremal (symmetric or exterior) iterated Betti numbers of $\Gamma$. We close
+with some results and conjectures about the relationship between symmetric and
+exterior iterated Betti numbers of a simplicial complex.
+</summary>
+    <author>
+      <name>Eric Babson</name>
+    </author>
+    <author>
+      <name>Isabella Novik</name>
+    </author>
+    <author>
+      <name>Rekha Thomas</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0206063v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0206063v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E02;13A02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

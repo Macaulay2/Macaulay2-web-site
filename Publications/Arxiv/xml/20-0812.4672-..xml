@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0812.4672%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0812.4672&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wpgMBtGwf/TQ4rj9JDza0uVTZlI</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0812.4672v2</id>
+    <updated>2009-07-06T22:22:27Z</updated>
+    <published>2008-12-26T11:58:21Z</published>
+    <title>Growth in the minimal injective resolution of a local ring</title>
+    <summary>  Let R be a commutative noetherian local ring with residue field k and assume
+that it is not Gorenstein. In the minimal injective resolution of R, the
+injective envelope E of the residue field appears as a summand in every degree
+starting from the depth of R. The number of copies of E in degree i equals the
+k-vector space dimension of the cohomology module Ext^i(k,R). These dimensions,
+known as Bass numbers, form an infinite sequence of invariants of R about which
+little is known. We prove that it is non-decreasing and grows exponentially if
+R is Golod, a non-trivial fiber product, or Teter, or if it has radical cube
+zero.
+</summary>
+    <author>
+      <name>Lars Winther Christensen</name>
+    </author>
+    <author>
+      <name>Janet Striuli</name>
+    </author>
+    <author>
+      <name>Oana Veliche</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Final version, to appear in J. London Math. Soc.; 21 pp</arxiv:comment>
+    <link href="http://arxiv.org/abs/0812.4672v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0812.4672v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02; 13D07; 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

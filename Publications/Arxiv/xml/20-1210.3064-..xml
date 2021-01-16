@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1210.3064%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1210.3064&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rLR9iRNhBeldlmSmAL5gjUW/IDA</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1210.3064v1</id>
+    <updated>2012-10-10T21:12:56Z</updated>
+    <published>2012-10-10T21:12:56Z</published>
+    <title>Betti Tables of Reducible Algebraic Curves</title>
+    <summary>  We study the Betti tables of reducible algebraic curves with a focus on
+connected line arrangements and provide a general formula for computing the
+quadratic strand of the Betti table for line arrangements that satisfy certain
+hypotheses. We also give explicit formulas for the entries of the Betti tables
+for all curves of genus zero and one. Last, we give formulas for the graded
+Betti numbers for a class of curves of higher genus.
+</summary>
+    <author>
+      <name>David J. Bruce</name>
+    </author>
+    <author>
+      <name>Pin-Hung Kao</name>
+    </author>
+    <author>
+      <name>Evan D. Nash</name>
+    </author>
+    <author>
+      <name>Ben Perez</name>
+    </author>
+    <author>
+      <name>Peter Vermeire</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1210.3064v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1210.3064v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dq-bio%2F0603034%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=q-bio/0603034&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FnS64ZpbjciD4/419nmve42akTc</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/q-bio/0603034v2</id>
+    <updated>2006-04-14T16:29:51Z</updated>
+    <published>2006-03-29T15:53:28Z</published>
+    <title>Epistasis and Shapes of Fitness Landscapes</title>
+    <summary>  The relationship between the shape of a fitness landscape and the underlying
+gene interactions, or epistasis, has been extensively studied in the two-locus
+case. Gene interactions among multiple loci are usually reduced to two-way
+interactions. We present a geometric theory of shapes of fitness landscapes for
+multiple loci. A central concept is the genotope, which is the convex hull of
+all possible allele frequencies in populations. Triangulations of the genotope
+correspond to different shapes of fitness landscapes and reveal all the gene
+interactions. The theory is applied to fitness data from HIV and Drosophila
+melanogaster. In both cases, our findings refine earlier analyses and reveal
+previously undetected gene interactions.
+</summary>
+    <author>
+      <name>Niko Beerenwinkel</name>
+    </author>
+    <author>
+      <name>Lior Pachter</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 7 figures; typos removed, Example 3.10 added</arxiv:comment>
+    <link href="http://arxiv.org/abs/q-bio/0603034v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/q-bio/0603034v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

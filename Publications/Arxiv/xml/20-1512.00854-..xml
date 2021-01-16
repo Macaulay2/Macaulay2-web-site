@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1512.00854%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1512.00854&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GM81p/qeWY5v5AcYYea7vBlNcEE</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1512.00854v1</id>
+    <updated>2015-12-02T21:00:02Z</updated>
+    <published>2015-12-02T21:00:02Z</published>
+    <title>Testing R-parity with Geometry</title>
+    <summary>  We present a complete classification of the vacuum geometries of all
+renormalizable superpotentials built from the fields of the electroweak sector
+of the MSSM. In addition to the Severi and affine Calabi-Yau varieties
+previously found, new vacuum manifolds are identified; we thereby investigate
+the geometrical implication of theories which display a manifest matter parity
+(or R-parity) via the distinction between leptonic and Higgs doublets, and of
+the lepton number assignment of the right-handed neutrino fields. We find that
+the traditional R-parity assignments of the MSSM more readily accommodate the
+neutrino see-saw mechanism with non-trivial geometry than those superpotentials
+that violate R-parity. However there appears to be no geometrical preference
+for a fundamental Higgs bilinear in the superpotential, with operators that
+violate lepton number, such as \nu H\bar{H}, generating vacuum moduli spaces
+equivalent to those with a fundamental bilinear.
+</summary>
+    <author>
+      <name>Yang-Hui He</name>
+    </author>
+    <author>
+      <name>Vishnu Jejjala</name>
+    </author>
+    <author>
+      <name>Cyril Matti</name>
+    </author>
+    <author>
+      <name>Brent D. Nelson</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP03(2016)079</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP03(2016)079" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, LaTeX</arxiv:comment>
+    <link href="http://arxiv.org/abs/1512.00854v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1512.00854v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

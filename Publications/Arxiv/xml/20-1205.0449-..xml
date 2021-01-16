@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1205.0449%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1205.0449&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ws02kRphyNRQ7HJoTS9VXOPFo2E</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1205.0449v1</id>
+    <updated>2012-05-02T14:58:10Z</updated>
+    <published>2012-05-02T14:58:10Z</published>
+    <title>Categorified duality in Boij-Söderberg Theory and invariants of free
+  complexes</title>
+    <summary>  We present a robust categorical foundation for the duality theory introduced
+by Eisenbud and Schreyer to prove the Boij-S\"oderberg conjectures describing
+numerical invariants of syzygies. The new foundation allows us to extend the
+reach of the theory substantially.
+  More explicitly, we construct a pairing between derived categories that
+simultaneously categorifies all the functionals used by Eisenbud and Schreyer.
+With this new tool, we describe the cone of Betti tables of finite, minimal
+free complexes having homology modules of specified dimensions over a
+polynomial ring, and we treat many examples beyond polynomial rings. We also
+construct an analogue of our pairing between derived categories on a toric
+variety, yielding toric/multigraded analogues of the Eisenbud-Schreyer
+functionals.
+</summary>
+    <author>
+      <name>David Eisenbud</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1205.0449v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1205.0449v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14F05, 13D09" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

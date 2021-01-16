@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1306.0828%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1306.0828&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/C/yF+ZR5ggvWUKPgdKGlnjO3PGY</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1306.0828v1</id>
+    <updated>2013-06-04T15:07:15Z</updated>
+    <published>2013-06-04T15:07:15Z</published>
+    <title>Noetherianity for infinite-dimensional toric varieties</title>
+    <summary>  We prove that many families of toric ideals stabilize up to symmetry. Our
+results imply Hillar-Sullivant's Independent Set Theorem and settle
+afformatively questions in work by Aschenbrenner-Hillar, Hillar-Sullivant, and
+Hillar-Martin del Campo. Our approach involves splitting an equivariant
+monomial map into a part for which we have an explicit degree bound of the
+kernel, and a part for which we can prove that the source, a so-called matching
+monoid, is equivariantly Noetherian.
+</summary>
+    <author>
+      <name>Jan Draisma</name>
+    </author>
+    <author>
+      <name>Rob H. Eggermont</name>
+    </author>
+    <author>
+      <name>Robert Krone</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1306.0828v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1306.0828v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E05, 13E15, 13P10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.01024%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.01024&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UYZMv4iqwfTEljePE+ALRVGGURw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.01024v1</id>
+    <updated>2017-06-04T04:51:57Z</updated>
+    <published>2017-06-04T04:51:57Z</published>
+    <title>Stability properties of powers of ideals over regular local rings of
+  small dimension</title>
+    <summary>  Let $(R,\mathfrak{m})$ be a regular local ring or a polynomial ring over a
+field, and let $I$ be an ideal of $R$ which we assume to be graded if $R$ is a
+polynomial ring. Let astab$(I)$ resp. ${\rm astab}(I)$ be the smallest
+integer $n$ for which Ass$(I^n)$ resp. Ass$({I^n})$ stabilize, and
+dstab$(I)$ be the smallest integer $n$ for which depth$(I^n)$ stabilizes. Here
+${I^n}$ denotes the integral closure of $I^n$. We show that
+astab$(I)={\rm astab}(I)={\rm dstab}(I)$ if dim$\,R\leq 2$, while
+already in dimension $3$, astab$(I)$ and ${\rm astab}(I)$ may differ
+by any amount. Moreover, we show that if dim$\,R=4$, then there exist ideals
+$I$ and $J$ such that for any positive integer $c$ one has ${\rm astab}(I)-{\rm
+dstab}(I)\geq c$ and ${\rm dstab}(J)-{\rm astab}(J)\geq c$.
+</summary>
+    <author>
+      <name>Jürgen Herzog</name>
+    </author>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1706.01024v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.01024v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13A30, 13C15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

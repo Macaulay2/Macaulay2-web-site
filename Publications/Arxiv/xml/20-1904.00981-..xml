@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.00981%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.00981&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9cH9McX5XOBqfPN1LWh0VSygxHo</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.00981v1</id>
+    <updated>2019-04-01T17:33:15Z</updated>
+    <published>2019-04-01T17:33:15Z</published>
+    <title>Toric degenerations of Grassmannians and Schubert varieties from
+  matching field tableaux</title>
+    <summary>  We study the combinatorics of Gr\"obner degenerations of Grassmannians and
+the Schubert varieties inside them. We provide a family of binomial ideals
+whose combinatorics is governed by tableaux induced by matching fields in the
+sense of Sturmfels and Zelevinsky. We prove that these ideals are all
+quadratically generated and they yield a SAGBI basis of the Pl\"ucker algebra.
+This leads to a new family of toric degenerations of Grassmannians. Moreover,
+we apply our results to construct a family of Gr\"obner degenerations of
+Schubert varieties inside Grassmannians. We provide a complete characterization
+of toric ideals among these degenerations in terms of the combinatorics of
+matching fields, permutations, and semi-standard tableaux.
+</summary>
+    <author>
+      <name>Oliver Clarke</name>
+    </author>
+    <author>
+      <name>Fatemeh Mohammadi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/1904.00981v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.00981v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

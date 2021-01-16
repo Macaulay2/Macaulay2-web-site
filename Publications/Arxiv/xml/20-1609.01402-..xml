@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1609.01402%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1609.01402&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2a739jUESY1sQVvZFDm0Lgldecw</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1609.01402v1</id>
+    <updated>2016-09-06T06:04:29Z</updated>
+    <published>2016-09-06T06:04:29Z</published>
+    <title>Regularity of Powers of Bipartite Graphs</title>
+    <summary>  Let $G$ be a finite simple graph and $I(G)$ denote the corresponding edge
+ideal. For all $s \geq 1$, we obtain upper bounds for reg$(I(G)^s)$ for
+bipartite graphs. We then compare the properties of $G$ and $G'$, where $G'$ is
+the graph associated with the polarization of the ideal $(I(G)^{s+1} :
+e_1\cdots e_s)$, where $e_1,\ldots e_s$ are edges of $G$. Using these results,
+we explicitly compute reg$(I(G)^s)$ for several subclasses of bipartite graphs.
+</summary>
+    <author>
+      <name>A V Jayanthan</name>
+    </author>
+    <author>
+      <name>N Narayanan</name>
+    </author>
+    <author>
+      <name>S Selvaraja</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1609.01402v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1609.01402v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 13D02, 05C25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

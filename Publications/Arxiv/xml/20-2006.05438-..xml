@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.05438%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.05438&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TeRs033E/GfHRmE0Iirs23CJyG0</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.05438v1</id>
+    <updated>2020-06-09T18:17:53Z</updated>
+    <published>2020-06-09T18:17:53Z</published>
+    <title>Lyubeznik numbers, $F$-modules and modules of generalized fractions</title>
+    <summary>  This paper presents an algorithm for calculation of the Lyubeznik numbers of
+a local ring which is a homomorphic image of a regular local ring $R$ of prime
+characteristic. The methods used employ Lyubeznik's $F$-modules over $R$,
+particularly his $F$-finite $F$-modules, and also the modules of generalized
+fractions of Sharp and Zakeri. It is shown that many modules of generalized
+fractions over $R$ have natural structures as $F$-modules; these lead to
+$F$-module structures on certain local cohomology modules over $R$, which are
+exploited, in conjunction with $F$-module structures on injective $R$-modules
+that result from work of Huneke and Sharp, to compute Lyubeznik numbers. The
+resulting algorithm has been implemented in Macaulay2.
+</summary>
+    <author>
+      <name>Mordechai Katzman</name>
+    </author>
+    <author>
+      <name>Rodney Y. Sharp</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments appreciated!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2006.05438v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.05438v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35, 13D45, 13E05, 13H05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

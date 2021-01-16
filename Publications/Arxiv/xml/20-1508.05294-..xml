@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.05294%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.05294&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/STw9taaqdavjIZOpAFm1RjQX370</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.05294v1</id>
+    <updated>2015-08-21T15:00:19Z</updated>
+    <published>2015-08-21T15:00:19Z</published>
+    <title>Maps from the enveloping algebra of the positive Witt algebra to regular
+  algebras</title>
+    <summary>  We construct homomorphisms from the universal enveloping algebra of the
+positive (part of the) Witt algebra to several different Artin-Schelter regular
+algebras, and determine their kernels and images. As a result, we produce
+elementary proofs that the universal enveloping algebras of the Virasoro
+algebra, the Witt algebra, and the positive Witt algebra are neither left nor
+right noetherian.
+</summary>
+    <author>
+      <name>Susan J. Sierra</name>
+    </author>
+    <author>
+      <name>Chelsea Walton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages. Comments are welcomed</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.05294v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.05294v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

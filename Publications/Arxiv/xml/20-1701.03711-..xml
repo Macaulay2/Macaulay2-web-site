@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1701.03711%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1701.03711&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MZgrqN2r8GYUhdzrZzKjUmNxjuQ</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1701.03711v1</id>
+    <updated>2017-01-13T16:25:17Z</updated>
+    <published>2017-01-13T16:25:17Z</published>
+    <title>Secants, bitangents, and their congruences</title>
+    <summary>  A congruence is a surface in the Grassmannian $\mathrm{Gr}(1,\mathbb{P}^3)$
+of lines in projective 3-space. To a space curve $C$, we associate the Chow
+hypersurface in $\mathrm{Gr}(1,\mathbb{P}^3)$ consisting of all lines which
+intersect $C$. We compute the singular locus of this hypersurface, which
+contains the congruence of all secants to $C$. A surface $S$ in $\mathbb{P}^3$
+defines the Hurwitz hypersurface in $\mathrm{Gr}(1,\mathbb{P}^3)$ of all lines
+which are tangent to $S$. We show that its singular locus has two components
+for general enough $S$: the congruence of bitangents and the congruence of
+inflectional tangents. We give new proofs for the bidegrees of the secant,
+bitangent and inflectional congruences, using geometric techniques such as
+duality, polar loci and projections. We also study the singularities of these
+congruences. In order to make this article self-contained and accessible to a
+broader audience, we discuss some of the relevant background material in
+detail.
+</summary>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Bernt Ivar Utstøl Nødland</name>
+    </author>
+    <author>
+      <name>Paolo Tripoli</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/1701.03711v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1701.03711v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15, 14H50, 14J99, 14N10, 14C17, 14Q10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

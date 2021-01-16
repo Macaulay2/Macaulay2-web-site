@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1807.07613%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1807.07613&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3u/MpeQ9JxI0pr6SeMxKtzneZbg</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1807.07613v1</id>
+    <updated>2018-07-19T19:09:55Z</updated>
+    <published>2018-07-19T19:09:55Z</published>
+    <title>Derivation degree sequences of non-free arrangements</title>
+    <summary>  In this note we study the logarithmic derivation module of a non-free
+arrangement. We prove a generalized addition theorem for all arrangements. This
+addition theorem allows us to find various relationships between non-free
+arrangements, free arrangements and restriction counts. For graphic
+arrangements we can use these results to find a lower bound for the maximal
+degree generator in terms of triangles in the associated graph. We also apply
+these results to the case of hypersolvable arrangements where we define
+hyperexponents and use them to find a lower bound for their maximal degree
+generator.
+</summary>
+    <author>
+      <name>Max Wakefield</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/1807.07613v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1807.07613v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

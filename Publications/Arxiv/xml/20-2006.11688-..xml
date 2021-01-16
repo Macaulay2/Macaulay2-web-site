@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2006.11688%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2006.11688&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EP3tQHixA7XJMdhu2a/9poyP5xs</id>
+  <updated>2020-08-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2006.11688v1</id>
+    <updated>2020-06-21T01:37:08Z</updated>
+    <published>2020-06-21T01:37:08Z</published>
+    <title>Orbit and Orbit Closure Containments for Cubic Surfaces</title>
+    <summary>  Given two elements of a vector space acted on by a reductive group, we ask
+whether they lie in the same orbit, and if not, whether one lies in the orbit
+closure of the other. We develop techniques to optimize the orbit and orbit
+closure algorithms and apply these to give a partial classification of orbit
+closure containments in the case of cubic surfaces with infinitely many
+singular points, which are known to fall into 13 normal forms. We also discuss
+the computational obstructions to completing this classification, and discuss
+tools for future work in this direction.
+</summary>
+    <author>
+      <name>Eunice Sukarto</name>
+    </author>
+    <link href="http://arxiv.org/abs/2006.11688v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2006.11688v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J17, 14Q10, 14Q20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.11940%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.11940&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/250ewUQnKq3GcklURx+/PON6irQ</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.11940v1</id>
+    <updated>2018-05-30T13:29:19Z</updated>
+    <published>2018-05-30T13:29:19Z</published>
+    <title>On minimal decompositions of low rank symmetric tensors</title>
+    <summary>  We use an algebraic approach to construct minimal decompositions of symmetric
+tensors with low rank. This is done by using Apolarity Theory and by studying
+minimal sets of reduced points apolar to a given symmetric tensor, namely,
+whose ideal is contained in the apolar ideal associated to the tensor. In
+particular, we focus on the structure of the Hilbert function of these ideals
+of points. We give a procedure which produces a minimal set of points apolar to
+any symmetric tensor of rank at most 5. This procedure is also implemented in
+the algebra software Macaulay2.
+</summary>
+    <author>
+      <name>Bernard Mourrain</name>
+    </author>
+    <author>
+      <name>Alessandro Oneto</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages; the Macaulay2 package "ApolarLowRank.m2" is available in
+  the ancillary files</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.11940v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.11940v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P05, 14N20, 13F20, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

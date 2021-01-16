@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0509657%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0509657&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GJWynkYfdZSuCJ8SulQSYV7gJus</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0509657v2</id>
+    <updated>2005-10-06T15:23:04Z</updated>
+    <published>2005-09-28T12:45:14Z</published>
+    <title>On ideals of minors of matrices with indeterminate entries</title>
+    <summary>  This paper has two aims. The first is to study ideals of minors of matrices
+whose entries are among the variables of a polynomial ring. Specifically, we
+describe matrices whose ideals of minors of a given size are prime. The main
+result in the first part of this paper is a theorem which gives sufficient
+conditions for the ideal of minors of a matrix to be prime. This theorem is
+general enough to include interesting examples, such as the ideal of maximal
+minors of catalecticant matrices and their generalisations discussed in the
+second part of the paper.
+  The second aim of this paper is to settle a specific problem raised by David
+Eisenbud and Frank-Olaf Schreyer on the primary decomposition of an ideal of
+maximal minors. We solve this problem by applying the theorem above together
+with some ad-hoc techniques.
+</summary>
+    <author>
+      <name>Mordechai Katzman</name>
+    </author>
+    <link href="http://arxiv.org/abs/math/0509657v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0509657v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C40; 14M12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

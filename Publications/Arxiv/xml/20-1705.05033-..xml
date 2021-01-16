@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1705.05033%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1705.05033&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/kb5HiU9x6GU82EyRqMknekJfSCg</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1705.05033v1</id>
+    <updated>2017-05-14T22:46:23Z</updated>
+    <published>2017-05-14T22:46:23Z</published>
+    <title>Length of local cohomology of powers of ideals</title>
+    <summary>  Let $R$ be a polynomial ring over a field $k$ with irrelevant ideal $\frak m$
+and dimension $d$. Let $I$ be a homogeneous ideal in $R$. We study the
+asymptotic behavior of the length of the modules $H^{i}_{\frak m}(R/I^n)$ for
+$n\gg 0$. We show that for a fixed number $\alpha \in \mathbb Z$,
+$\limsup_{n\rightarrow \infty}\frac{\lambda(H^{i}_{\frak m}(R/I^n)_{\geq
+-\alpha n})}{n^d}&lt;\infty.$ Combining this with recent strong vanishing results
+by Bhatt-Blickle-Lyubeznik-Singh-Zhang and Raicu gives that
+$\limsup_{n\rightarrow \infty}\frac{\lambda(H^{i}_{\frak
+m}{R/I^n})}{n^d}&lt;\infty$ in many situations. We also establish that the actual
+limit exists and is rational for certain classes of monomial ideals $I$ such
+that the lengths of local cohomology of $I^n$ are eventually finite. Our proofs
+use Gr\"obner deformation and Presburger arithmetic. Finally, we utilize more
+traditional commutative algebra techniques to show that $\liminf_{n\rightarrow
+\infty}\frac{\lambda(H^{i}_{\frak m}(R/I^n))}{n^d}&gt;0$ when $R/I$ has "nice"
+singularities in both zero and positive characteristics.
+</summary>
+    <author>
+      <name>Hailong Dao</name>
+    </author>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1705.05033v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1705.05033v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

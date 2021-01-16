@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1107.5076%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1107.5076&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/N0vIp97KNdxKW0CYIQmcuUJ61Tw</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1107.5076v1</id>
+    <updated>2011-07-25T21:20:06Z</updated>
+    <published>2011-07-25T21:20:06Z</published>
+    <title>The Atiyah Class and Complex Structure Stabilization in Heterotic
+  Calabi-Yau Compactifications</title>
+    <summary>  Holomorphic gauge fields in N=1 supersymmetric heterotic compactifications
+can constrain the complex structure moduli of a Calabi-Yau manifold. In this
+paper, the tools necessary to use holomorphic bundles as a mechanism for moduli
+stabilization are systematically developed. We review the requisite deformation
+theory -- including the Atiyah class, which determines the deformations of the
+complex structure for which the gauge bundle becomes non-holomorphic and,
+hence, non-supersymmetric. In addition, two equivalent approaches to this
+mechanism of moduli stabilization are presented. The first is an efficient
+computational algorithm for determining the supersymmetric moduli space, while
+the second is an F-term potential in the four-dimensional theory associated
+with vector bundle holomorphy. These three methods are proven to be rigorously
+equivalent. We present explicit examples in which large numbers of complex
+structure moduli are stabilized. Finally, higher-order corrections to the
+moduli space are discussed.
+</summary>
+    <author>
+      <name>Lara B. Anderson</name>
+    </author>
+    <author>
+      <name>James Gray</name>
+    </author>
+    <author>
+      <name>Andre Lukas</name>
+    </author>
+    <author>
+      <name>Burt Ovrut</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP10(2011)032</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP10(2011)032" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">54 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1107.5076v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1107.5076v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

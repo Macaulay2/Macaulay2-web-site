@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1804.03590%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1804.03590&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2H4o5JciBRX8ApJlM3GRloMAY34</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1804.03590v2</id>
+    <updated>2018-06-19T17:29:10Z</updated>
+    <published>2018-04-10T15:36:48Z</published>
+    <title>On the unique unexpected quartic in $\mathbb{P}^2$</title>
+    <summary>  The computation of the dimension of linear systems of plane curves through a
+bunch of given multiple points is one of the most classic issues in Algebraic
+Geometry. However, it is still an open problem. Despite many partial results, a
+complete solution is not known, even if the fixed points are in general
+position. The famous Segre-Harbourne-Gimigliano-Hirschowitz conjecture, which
+predicts the answer, stands unsolved for more than 50 years.
+  When we consider fixed points in special position, even more interesting
+situations may occur. Recently Di Gennaro, Ilardi and Vall\`{e}s discovered a
+special configuration $Z$ of nine points with a remarkable property: a general
+triple point always fails to impose independent conditions on the ideal of $Z$
+in degree $4$. The peculiar structure and properties of this kind of unexpected
+curves were studied by Cook II, Harbourne, Migliore and Nagel. Our contribution
+to this topic is the classification of low degree unexpected curves. In
+particular, we prove that the above mentioned configuration $Z$ is the unique
+one giving rise to an unexpected quartic.
+  Moreover, we translate the existence of unexpected curves in terms of de
+Jonqui\`{e}res transformations. This allows us to give some numerical necessary
+conditions for the existence of such curves, and to find an easy proof of their
+uniqueness.
+</summary>
+    <author>
+      <name>Łucja Farnik</name>
+    </author>
+    <author>
+      <name>Francesco Galuppi</name>
+    </author>
+    <author>
+      <name>Luca Sodomaco</name>
+    </author>
+    <author>
+      <name>William Trok</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1804.03590v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1804.03590v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 14C20, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2011.07197%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2011.07197&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//TDPFUTCPo+yIRh5mbSbAun9U7E</id>
+  <updated>2021-01-16T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2011.07197v2</id>
+    <updated>2020-11-20T17:08:54Z</updated>
+    <published>2020-11-14T02:27:20Z</published>
+    <title>Existence of Two View Chiral Reconstructions</title>
+    <summary>  A fundamental question in computer vision is whether a set of point pairs is
+the image of a scene that lies in front of two cameras. Such a scene and the
+cameras together are known as a chiral reconstruction of the point pairs. In
+this paper we provide a complete classification of k point pairs for which a
+chiral reconstruction exists. The existence of chiral reconstructions is
+equivalent to the non-emptiness of certain semialgebraic sets. For up to three
+point pairs, we prove that a chiral reconstruction always exists while the set
+of five or more point pairs that do not have a chiral reconstruction is
+Zariski-dense. We show that for five generic point pairs, the chiral region is
+bounded by line segments in a Schl\"afli double six on a cubic surface with 27
+real lines. Four point pairs have a chiral reconstruction unless they belong to
+two non-generic combinatorial types, in which case they may or may not.
+</summary>
+    <author>
+      <name>Andrew Pryhuber</name>
+    </author>
+    <author>
+      <name>Rainer Sinn</name>
+    </author>
+    <author>
+      <name>Rekha R. Thomas</name>
+    </author>
+    <link href="http://arxiv.org/abs/2011.07197v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2011.07197v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

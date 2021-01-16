@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1811.09553%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1811.09553&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eY2F2biAGQEfxk6tpBom/1dw9HI</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1811.09553v1</id>
+    <updated>2018-11-23T16:46:35Z</updated>
+    <published>2018-11-23T16:46:35Z</published>
+    <title>Higher-distance commuting varieties</title>
+    <summary>  The commuting variety of matrices over a given field is a well-studied object
+in linear algebra and algebraic geometry. As a set, it consists of all pairs of
+square matrices with entries in that field that commute with one another. In
+this paper we generalize the commuting variety by using the commuting distance
+of matrices. We show that over an algebraically closed or a real closed field,
+each of our sets does indeed form a variety.
+</summary>
+    <author>
+      <name>Madeleine Elyze</name>
+    </author>
+    <author>
+      <name>Alexander Guterman</name>
+    </author>
+    <author>
+      <name>Ralph Morrison</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1811.09553v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1811.09553v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 15A27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

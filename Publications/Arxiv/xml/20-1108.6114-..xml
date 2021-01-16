@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1108.6114%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1108.6114&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JHDCW0lW8l4iJ44vxfYyHuzQU70</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1108.6114v2</id>
+    <updated>2011-12-15T03:33:26Z</updated>
+    <published>2011-08-31T02:17:47Z</published>
+    <title>Projective Parameterized Linear Codes Arising from some Matrices and
+  their Main Parameters</title>
+    <summary>  In this paper we will estimate the main parameters of some evaluation codes
+which are known as projective parameterized codes. We will find the length of
+these codes and we will give a formula for the dimension in terms of the
+Hilbert function associated to two ideals, one of them being the vanishing
+ideal of the projective torus. Also we will find an upper bound for the minimum
+distance and, in some cases, we will give some lower bounds for the regularity
+index and the minimum distance. These lower bounds work in several cases,
+particularly for any projective parameterized code associated to the incidence
+matrix of uniform clutters and then they work in the case of graphs.
+</summary>
+    <author>
+      <name>Manuel Gonzalez Sarabia</name>
+    </author>
+    <author>
+      <name>Carlos Renteria Marquez</name>
+    </author>
+    <author>
+      <name>Eliseo Sarmiento Rosales</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1108.6114v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1108.6114v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

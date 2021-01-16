@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.07219%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.07219&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CDm9Mh+5A+K+eXfjNjdgRFQkg5w</id>
+  <updated>2016-08-30T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.07219v2</id>
+    <updated>2015-11-27T17:07:14Z</updated>
+    <published>2015-08-28T14:13:17Z</published>
+    <title>Computing the Chow variety of quadratic space curves</title>
+    <summary>  Quadrics in the Grassmannian of lines in 3-space form a 19-dimensional
+projective space. We study the subvariety of coisotropic hypersurfaces.
+Following Gel'fand, Kapranov and Zelevinsky, it decomposes into Chow forms of
+plane conics, Chow forms of pairs of lines, and Hurwitz forms of quadric
+surfaces. We compute the ideals of these loci.
+</summary>
+    <author>
+      <name>Peter Bürgisser</name>
+    </author>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Pierre Lairez</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <link href="http://arxiv.org/abs/1508.07219v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.07219v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14-04" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

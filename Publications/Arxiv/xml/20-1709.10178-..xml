@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1709.10178%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1709.10178&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MzQpKbEC4O7SWn+rvQCH/MhsUsQ</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1709.10178v2</id>
+    <updated>2018-04-11T19:13:32Z</updated>
+    <published>2017-09-28T21:44:25Z</published>
+    <title>Distance ideals of graphs</title>
+    <summary>  We introduce the concept of distance ideals of graphs, which can be regarded
+as a generalization of the Smith normal form and the spectra of the distance
+matrix of a graph. We obtain a classification of the graphs with at most one
+trivial distance ideal.
+</summary>
+    <author>
+      <name>Carlos A. Alfaro</name>
+    </author>
+    <author>
+      <name>Libby Taylor</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1709.10178v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1709.10178v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

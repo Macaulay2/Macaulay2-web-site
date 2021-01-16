@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1706.03631%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1706.03631&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Y/aHjVmela3BLcIxfZO99gBamvA</id>
+  <updated>2017-08-09T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1706.03631v1</id>
+    <updated>2017-06-12T13:41:49Z</updated>
+    <published>2017-06-12T13:41:49Z</published>
+    <title>Hankel tensor decompositions and ranks</title>
+    <summary>  Hankel tensors are generalizations of Hankel matrices. This article studies
+the relations among various ranks of Hankel tensors. We give an algorithm that
+can compute the Vandermonde ranks and decompositions for all Hankel tensors.
+For a generic $n$-dimensional Hankel tensor of even order or order three, we
+prove that the the cp rank, symmetric rank, border rank, symmetric border rank,
+and Vandermonde rank all coincide with each other. In particular, this implies
+that the Comon's conjecture is true for generic Hankel tensors when the order
+is even or three. Some open questions are also posed.
+</summary>
+    <author>
+      <name>Jiawang Nie</name>
+    </author>
+    <author>
+      <name>Ke Ye</name>
+    </author>
+    <link href="http://arxiv.org/abs/1706.03631v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1706.03631v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0911.1393%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0911.1393&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DThVK65VMbF5elmTNHuPzCYAqOk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0911.1393v5</id>
+    <updated>2013-07-01T01:10:12Z</updated>
+    <published>2009-11-07T05:21:11Z</published>
+    <title>Most tensor problems are NP-hard</title>
+    <summary>  We prove that multilinear (tensor) analogues of many efficiently computable
+problems in numerical linear algebra are NP-hard. Our list here includes:
+determining the feasibility of a system of bilinear equations, deciding whether
+a 3-tensor possesses a given eigenvalue, singular value, or spectral norm;
+approximating an eigenvalue, eigenvector, singular vector, or the spectral
+norm; and determining the rank or best rank-1 approximation of a 3-tensor.
+Furthermore, we show that restricting these problems to symmetric tensors does
+not alleviate their NP-hardness. We also explain how deciding nonnegative
+definiteness of a symmetric 4-tensor is NP-hard and how computing the
+combinatorial hyperdeterminant of a 4-tensor is NP-, #P-, and VNP-hard. We
+shall argue that our results provide another view of the boundary separating
+the computational tractability of linear/convex problems from the
+intractability of nonlinear/nonconvex ones.
+</summary>
+    <author>
+      <name>Christopher Hillar</name>
+    </author>
+    <author>
+      <name>Lek-Heng Lim</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages; to appear in Journal of the ACM</arxiv:comment>
+    <link href="http://arxiv.org/abs/0911.1393v5" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0911.1393v5" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="F.2; F.2.1; G.1.2; G.1.3; G.1.5; G.1.6" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

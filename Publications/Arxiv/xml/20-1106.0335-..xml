@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1106.0335%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1106.0335&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EdaEk8UUQdyLLc1FQFOcI69uIOk</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1106.0335v3</id>
+    <updated>2011-08-09T00:06:30Z</updated>
+    <published>2011-06-01T23:09:13Z</published>
+    <title>Homology of Lie algebra of supersymmetries and of super Poincare Lie
+  algebra</title>
+    <summary>  We study the homology and cohomology groups of super Lie algebra of
+supersymmetries and of super Poincare Lie algebra in various dimensions. We
+give complete answers for (non-extended) supersymmetry in all dimensions $\leq
+11$. For dimensions $D=10,11$ we describe also the cohomology of reduction of
+supersymmetry Lie algebra to lower dimensions. Our methods can be applied to
+extended supersymmetry algebra.
+</summary>
+    <author>
+      <name>M. V. Movshev</name>
+    </author>
+    <author>
+      <name>A. Schwarz</name>
+    </author>
+    <author>
+      <name>Renjun Xu</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1016/j.nuclphysb.2011.08.023</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1016/j.nuclphysb.2011.08.023" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">New version with some additions and corrections</arxiv:comment>
+    <link href="http://arxiv.org/abs/1106.0335v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1106.0335v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

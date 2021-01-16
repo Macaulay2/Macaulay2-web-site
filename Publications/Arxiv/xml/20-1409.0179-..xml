@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1409.0179%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1409.0179&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/H9K2m1opfP0lj+C54pQcYP2qW8U</id>
+  <updated>2014-10-05T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1409.0179v1</id>
+    <updated>2014-08-31T02:37:38Z</updated>
+    <published>2014-08-31T02:37:38Z</published>
+    <title>Cellular Binomial Ideals</title>
+    <summary>  Without any restrictions on the base field, we compute the hull and provide
+an unmixed decomposition of a cellular binomial ideal. The latter had already
+been proved by Eisenbud and Sturmfels in characteristic zero, and conjectured
+to also hold in positive characteristic. Over an algebraically closed field, we
+further obtain an explicit (but not necessarily minimal) primary decomposition
+of such an ideal.
+</summary>
+    <author>
+      <name>Zekiye Sahin Eser</name>
+    </author>
+    <author>
+      <name>Laura Felicia Matusevich</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1409.0179v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1409.0179v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1803.00730%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1803.00730&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/JUX86Fs3JNWZCNYIlqcAlqP3wrY</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1803.00730v1</id>
+    <updated>2018-03-02T06:45:04Z</updated>
+    <published>2018-03-02T06:45:04Z</published>
+    <title>On stability properties over powers of polymatroidal ideals</title>
+    <summary>  Let $R=K[x_1,...,x_n]$ be the polynomial ring in $n$ variables over a filed
+$K$ with the maximal ideal $\frak{m}=(x_1,...,x_n)$.
+  Let $\astab(I)$ and $\dstab(I)$ be the smallest integer $n$ for which
+$\Ass(I^n)$ and $\depth(I^n)$ stabilize, respectively.
+  In this paper we show that $\astab(I)=\dstab(I)$ in the following cases:
+  \begin{itemize} \item[(i)] $I$ is a matroidal ideal and $n\leq 5$.
+\item[(ii)] $I$ is a polymatroidal ideal, $n=4$ and
+$\frak{m}\notin\Ass^{\infty}(I)$, where $\Ass^{\infty}(I)$ is the stable set of
+associated prime ideals of $I$. \item[(iii)] $I$ is a polymatroidal ideal of
+degree $2$. \end{itemize} Moreover, we give a counterexample such that the
+equality of $\astab(I)=\dstab(I)$ is not true for all polymatroidal ideals $I$,
+in general.
+</summary>
+    <author>
+      <name>Shokoufe Karimi</name>
+    </author>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages. Comments are very welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1803.00730v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1803.00730v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13A30, 13C15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

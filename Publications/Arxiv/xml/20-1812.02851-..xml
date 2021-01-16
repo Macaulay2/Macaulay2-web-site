@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1812.02851%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1812.02851&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/G0znRqHOvlaae5qtnRRe55cw6N0</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1812.02851v1</id>
+    <updated>2018-12-06T23:21:14Z</updated>
+    <published>2018-12-06T23:21:14Z</published>
+    <title>Certification for Polynomial Systems via Square Subsystems</title>
+    <summary>  We consider numerical certification of approximate solutions to an
+overdetermined system of N polynomial equations in n variables where n &lt; N by
+passing to a square subsystem. We give two approaches which rely upon
+additional intersection-theoretic information. The excess solutions to a square
+subsystem are counted by a birationally-invariant intersection index or
+Newton-Okounkov body. When this number is known, we explain how to certify
+individual solutions to the original overdetermined system. When the number of
+solutions to both systems are known, we explain how to certify all solutions to
+the overdetermined system.
+</summary>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1812.02851v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1812.02851v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q99, 65G20, 65H05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

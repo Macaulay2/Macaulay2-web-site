@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1904.04502%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1904.04502&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/k0WuSc869fQtwTNFJ04HYpAnX+w</id>
+  <updated>2019-04-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1904.04502v1</id>
+    <updated>2019-04-09T07:40:09Z</updated>
+    <published>2019-04-09T07:40:09Z</published>
+    <title>The bottleneck degree of algebraic varieties</title>
+    <summary>  A bottleneck of a smooth algebraic variety $X \subset \mathbb{C}^n$ is a pair
+of distinct points $(x,y) \in X$ such that the Euclidean normal spaces at $x$
+and $y$ contain the line spanned by $x$ and $y$. The narrowness of bottlenecks
+is a fundamental complexity measure in the algebraic geometry of data. In this
+paper we study the number of bottlenecks of affine and projective varieties,
+which we call the bottleneck degree. The bottleneck degree is a measure of the
+complexity of computing all bottlenecks of an algebraic variety, using for
+example numerical homotopy methods. We show that the bottleneck degree is a
+function of classical invariants such as Chern classes and polar classes. We
+give the formula explicitly in low dimension and provide an algorithm to
+compute it in the general case.
+</summary>
+    <author>
+      <name>Sandra Di Rocco</name>
+    </author>
+    <author>
+      <name>David Eklund</name>
+    </author>
+    <author>
+      <name>Madeleine Weinstein</name>
+    </author>
+    <link href="http://arxiv.org/abs/1904.04502v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1904.04502v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

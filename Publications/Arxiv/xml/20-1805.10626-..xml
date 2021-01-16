@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1805.10626%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1805.10626&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XduwCpCkWZwkmEQLO0iYsmqsP9Y</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1805.10626v2</id>
+    <updated>2018-06-19T15:34:06Z</updated>
+    <published>2018-05-27T13:49:09Z</published>
+    <title>Unexpected hypersurfaces and where to find them</title>
+    <summary>  This paper approaches the problem of studying unexpected hypersurfaces from
+the perspectives of algebra, geometry, representation theory and computation.
+We determine all $(n,d,m)$ for which there is an unexpected hypersurface of
+degree $d$ in $\mathbb P^n$ having a general point $P$ of multiplicity $m$ with
+respect to some finite set of points $Z$. We also give new insight into where
+to look for the point sets $Z$. The concept of an unexpected hypersurface (with
+a focus on plane curves) was introduced in a recent paper by Cook, Harbourne,
+Migliore and Nagel [CHMN], and those results allow one to recognize point sets
+$Z \subset \mathbb P^2$ admitting unexpected curves once $Z$ is in hand. But it
+is still an interesting question where to look for such $Z$ in the first place.
+Recent work of Di Marca, Malara and Oneto [DMO] and of Bauer, Malara, Szemberg
+and Szpond [BMSS] give new results and examples in $\mathbb P^2$ and $\mathbb
+P^3$. In this paper we present two new methods for constructing unexpected
+hypersurfaces. One method applies in $\mathbb P^n$ for $n \geq 3$ and gives a
+broad range of examples, which we link to certain failures of the Weak
+Lefschetz Property. The other method uses root systems to construct new
+examples both in $\mathbb P^2$ and $\mathbb P^n$ for $n \geq 3$. We also
+explain an observation of [BMSS], showing that the unexpected curves of [CHMN]
+are in some sense dual to their tangent cones at their singular point.
+</summary>
+    <author>
+      <name>B. Harbourne</name>
+    </author>
+    <author>
+      <name>J. Migliore</name>
+    </author>
+    <author>
+      <name>U. Nagel</name>
+    </author>
+    <author>
+      <name>Z. Teitler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 3 figures. Minor corrections and improvements</arxiv:comment>
+    <link href="http://arxiv.org/abs/1805.10626v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1805.10626v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20 (primary), 13D02, 14C20, 14N05, 05E40, 14F05 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1508.03782%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1508.03782&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Fq6gKng9fMcYUf/3twWLnW0lR74</id>
+  <updated>2015-08-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1508.03782v1</id>
+    <updated>2015-08-16T01:37:32Z</updated>
+    <published>2015-08-16T01:37:32Z</published>
+    <title>Higher homotopies and Golod rings</title>
+    <summary>  We study the homological algebra of an R = Q/I module M using A-infinity
+structures on Q-projective resolutions of R and M. We use these higher
+homotopies to construct an R-projective bar resolution of M, Q-projective
+resolutions for all R-syzygies of M, and describe the differentials in the
+Eilenberg-Moore spectral sequence for M. These techniques apply particularly
+well to Golod modules over local rings. We characterize R-modules that are
+Golod over Q as those with minimal A-infinity structures. This gives a
+construction of the minimal resolution of every module over a Golod ring, and
+it also follows that if the inequality traditionally used to define Golod
+modules is an equality in the first dim Q+1 degrees, then the module is Golod,
+where no bound was previously known. We also relate A-infinity structures on
+resolutions to Avramov's obstructions to the existence of a dg-module
+structure. Along the way we give new, shorter, proofs of several classical
+results about Golod modules.
+</summary>
+    <author>
+      <name>Jesse Burke</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1508.03782v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1508.03782v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

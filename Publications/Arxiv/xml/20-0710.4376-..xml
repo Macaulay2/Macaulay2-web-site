@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D0710.4376%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=0710.4376&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/74+8H0KYi0BPT1nzVONCClmwj9k</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/0710.4376v1</id>
+    <updated>2007-10-24T05:42:38Z</updated>
+    <published>2007-10-24T05:42:38Z</published>
+    <title>Castelnuovo-Mumford regularity and reduction number of smooth monomial
+  curves</title>
+    <summary>  We compare, for smooth monomial projective curves, the Castel- nuovo-Mumford
+regularity and the reduction number; we present an example where these two
+numbers differ. However, we show they coin- cide for a certain class of
+monomial curves. Furthermore, for smooth monomial curves we prove an inequality
+which is stronger than the one from the Eisenbud-Goto conjecture.
+</summary>
+    <author>
+      <name>Michael Hellus</name>
+    </author>
+    <author>
+      <name>Lê Tuân Hoa</name>
+    </author>
+    <author>
+      <name>Jürgen Stückrad</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/0710.4376v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/0710.4376v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30; 13D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

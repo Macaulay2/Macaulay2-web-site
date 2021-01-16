@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0508127%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0508127&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EDL7duZ+upYq4LWsObCoXReMokg</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0508127v2</id>
+    <updated>2005-10-27T22:06:16Z</updated>
+    <published>2005-08-07T00:07:19Z</published>
+    <title>A Modular Non-Rigid Calabi-Yau Threefold</title>
+    <summary>  We construct an algebraic variety by resolving singularities of a quintic
+Calabi-Yau threefold. The middle cohomology of the threefold is shown to
+contain a piece coming from a pair of elliptic surfaces. The resulting quotient
+is a two-dimensional Galois representation. By using the Lefschetz fixed-point
+theorem in \'etale cohomology and counting points on the variety over finite
+fields, this Galois representation is shown to be modular.
+</summary>
+    <author>
+      <name>Edward Lee</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages; To appear in "Mirror Symmetry V", Proceedings of the BIRS
+  Workshop on Calabi-Yau Varieties and Mirror Symmetry, December 6-11, 2003.
+  Some typos in tables corrected, proof of Lemma 5.6 corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0508127v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0508127v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J32 (primary); 14J15 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

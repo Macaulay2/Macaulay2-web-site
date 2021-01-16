@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2002.09492%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2002.09492&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/m+h4XZWuJVG7SPgUTmLxLs4T5RU</id>
+  <updated>2020-06-02T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2002.09492v2</id>
+    <updated>2020-03-05T18:06:40Z</updated>
+    <published>2020-02-21T19:00:00Z</published>
+    <title>Constructing d-log integrands and computing master integrals for
+  three-loop four-particle scattering</title>
+    <summary>  We compute all master integrals for massless three-loop four-particle
+scattering amplitudes required for processes like di-jet or di-photon
+production at the LHC. We present our result in terms of a Laurent expansion of
+the integrals in the dimensional regulator up to 8$^{\text{th}}$ power, with
+coefficients expressed in terms of harmonic polylogarithms. As a basis of
+master integrals we choose integrals with integrands that only have logarithmic
+poles - called $d$log forms. This choice greatly facilitates the subsequent
+computation via the method of differential equations. We detail how this basis
+is obtained via an improved algorithm originally developed by one of the
+authors. We provide a public implementation of this algorithm. We explain how
+the algorithm is naturally applied in the context of unitarity. In addition, we
+classify our $d$log forms according to their soft and collinear properties.
+</summary>
+    <author>
+      <name>Johannes Henn</name>
+    </author>
+    <author>
+      <name>Bernhard Mistlberger</name>
+    </author>
+    <author>
+      <name>Vladimir A. Smirnov</name>
+    </author>
+    <author>
+      <name>Pascal Wasser</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/JHEP04(2020)167</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/JHEP04(2020)167" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 figures, 533 integrals</arxiv:comment>
+    <link href="http://arxiv.org/abs/2002.09492v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2002.09492v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

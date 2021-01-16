@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3Dmath%2F0308280%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=math/0308280&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/xyrWbU4G0F/e4OguBN+bvHn2VUY</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/math/0308280v1</id>
+    <updated>2003-08-28T17:04:26Z</updated>
+    <published>2003-08-28T17:04:26Z</published>
+    <title>Markov bases of binary graph models</title>
+    <summary>  This paper is concerned with the topological invariant of a graph given by
+the maximum degree of a Markov basis element for the corresponding graph model
+for binary contingency tables. We describe a degree four Markov basis for the
+model when the underlying graph is a cycle and generalize this result to the
+complete bipartite graph $K_{2,n}$. We also give a combinatorial classification
+of degree two and three Markov basis moves as well as a Buchberger-free
+algorithm to compute moves of arbitrary given degree. Finally, we compute the
+algebraic degree of the model when the underlying graph is a forest.
+</summary>
+    <author>
+      <name>Mike Develin</name>
+    </author>
+    <author>
+      <name>Seth Sullivant</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/math/0308280v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/math/0308280v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

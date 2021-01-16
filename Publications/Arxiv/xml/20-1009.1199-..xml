@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1009.1199%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1009.1199&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/inxpEBpTWP/RaZCiAlcGNGBiYWw</id>
+  <updated>2016-08-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1009.1199v1</id>
+    <updated>2010-09-07T06:09:26Z</updated>
+    <published>2010-09-07T06:09:26Z</published>
+    <title>Secant varieties of P^2 x P^n embedded by O(1,2)</title>
+    <summary>  We describe the defining ideal of the rth secant variety of P^2 x P^n
+embedded by O(1,2), for arbitrary n and r at most 5. We also present the Schur
+module decomposition of the space of generators of each such ideal. Our main
+results are based on a more general construction for producing explicit matrix
+equations that vanish on secant varieties of products of projective spaces.
+This extends previous work of Strassen and Ottaviani.
+</summary>
+    <author>
+      <name>Dustin Cartwright</name>
+    </author>
+    <author>
+      <name>Daniel Erman</name>
+    </author>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1112/jlms/jdr038</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1112/jlms/jdr038" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1009.1199v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1009.1199v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15 (Primary) 14M12 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1301.4125%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1301.4125&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iT1SDubsmIRzABwmaQVVhskqRUQ</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1301.4125v2</id>
+    <updated>2013-01-18T09:39:44Z</updated>
+    <published>2013-01-17T15:34:45Z</published>
+    <title>A Macaulay2 package for characteristic classes and the topological Euler
+  characteristic of complex projective schemes</title>
+    <summary>  The Macaulay2 package CharacteristicClasses provides commands for the
+computation of the topological Euler characteristic, the degrees of the Chern
+classes and the degrees of the Segre classes of a closed subscheme of complex
+projective space. The computations can be done both symbolically and
+numerically, the latter using an interface to Bertini. We provide some
+background of the implementation and show how to use the package with the help
+of examples.
+</summary>
+    <author>
+      <name>Christine Jost</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">6 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/1301.4125v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1301.4125v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx, 14C17, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

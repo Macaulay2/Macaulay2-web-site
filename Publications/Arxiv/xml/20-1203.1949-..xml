@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1203.1949%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1203.1949&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eGWFfTaPBlVw5hmEnzRJl+dXWG4</id>
+  <updated>2013-05-22T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1203.1949v2</id>
+    <updated>2012-11-19T20:44:06Z</updated>
+    <published>2012-03-08T22:22:40Z</published>
+    <title>Koszul property of projections of the Veronese cubic surface</title>
+    <summary>  Let V be the Veronese cubic surface in P^9. We classify the projections of V
+to P^8 whose coordinate rings are Koszul. In particular we obtain a purely
+theoretical proof of the Koszulness of the pinched Veronese, a result obtained
+originally by Caviglia using filtrations, deformations and computer assisted
+computations. To this purpose we extend, to certain complete intersections,
+results of Conca, Herzog, Trung and Valla concerning homological properties of
+diagonal algebras.
+</summary>
+    <author>
+      <name>Giulio Caviglia</name>
+    </author>
+    <author>
+      <name>Aldo Conca</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor revision, few typos corrected. To appear in Adv. in Math</arxiv:comment>
+    <link href="http://arxiv.org/abs/1203.1949v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1203.1949v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14M99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

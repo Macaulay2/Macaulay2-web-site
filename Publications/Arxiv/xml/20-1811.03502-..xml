@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1811.03502%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1811.03502&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XUkowpyIZTBiI3Lf9+x38WbhLDE</id>
+  <updated>2019-01-03T00:00:00-05:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1811.03502v1</id>
+    <updated>2018-11-08T15:44:39Z</updated>
+    <published>2018-11-08T15:44:39Z</published>
+    <title>Explicit rationality of some cubic fourfolds</title>
+    <summary>  Recent results of Hassett, Kuznetsov and others pointed out countably many
+divisors $C_d$ in the open subset of
+$\mathbb{P}^{55}=\mathbb{P}(H^0(\mathcal{O}_{\mathbb{P}^5}(3)))$ parametrizing
+all cubic 4-folds and lead to the conjecture that the cubics corresponding to
+these divisors should be precisely the rational ones. Rationality has been
+proved by Fano for the first divisor $C_{14}$ and in [arXiv:1707.00999] for the
+divisors $C_{26}$ and $C_{38}$. In this note we describe explicit birational
+maps from a general cubic fourfold in $C_{14}$, in $C_{26}$ and in $C_{38}$ to
+$\mathbb{P}^4$, providing concrete geometric realizations of the more abstract
+constructions in [arXiv:1707.00999]. We shall also point out some relations
+with other explicit birational maps onto four dimensional linear sections of
+Grassmannians of lines analogous to Fano's example. We also construct some new
+irreducible surfaces in $\mathbb{P}^5$ admitting a congruence of
+$(3e-1)$-secant curves of degree $e$ for $e=3,5$, such as a remarkable octic
+scroll with six nodes and the first example of a non rational surface of this
+kind.
+</summary>
+    <author>
+      <name>Francesco Russo</name>
+    </author>
+    <author>
+      <name>Giovanni Staglianò</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">First draft. Comments are very welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/1811.03502v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1811.03502v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E08, 14J25, 14N05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

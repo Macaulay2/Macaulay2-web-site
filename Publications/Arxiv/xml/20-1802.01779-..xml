@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D1802.01779%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=1802.01779&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/oT8L0mc9gGMrA7wZmyJVyGKrO78</id>
+  <updated>2018-07-24T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/1802.01779v1</id>
+    <updated>2018-02-06T03:28:37Z</updated>
+    <published>2018-02-06T03:28:37Z</published>
+    <title>Isotropic Subspaces of Schur Modules</title>
+    <summary>  It is a well-known fact that over the complex numbers and for a fixed $k$ and
+$n$, a generic $s$ in $Sym^2V^*$ vanishes on some $k$-dimensional subspace of
+$V$ if and only if $n\geq 2k$. Tevelev found exact conditions for the extension
+of this statement for general symmetric and skew-symmetric multilinear forms,
+and we extend his work to all possible symmetric types, which corresponds to
+Schur modules for a general partition.
+</summary>
+    <author>
+      <name>Leesa B. Anzaldo</name>
+    </author>
+    <link href="http://arxiv.org/abs/1802.01779v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/1802.01779v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
