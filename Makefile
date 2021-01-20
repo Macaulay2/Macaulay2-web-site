@@ -5,7 +5,6 @@ mirror:; rsync -a --delete . root@www2.macaulay2.com:/var/www/www2.macaulay2.com
 DIRS = \
 	Book \
 	Citing \
-	Contributors \
 	Downloads \
 	Events \
 	Funding \
