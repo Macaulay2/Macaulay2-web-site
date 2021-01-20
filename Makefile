@@ -11,7 +11,6 @@ DIRS = \
 	GettingStarted \
 	Jobs \
 	Libraries \
-	Packages \
 	PublicKeys \
 	Publications \
 	Resources \
