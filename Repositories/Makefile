@@ -9,7 +9,7 @@ include ../Makefile.include
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
 UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily \
-		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy
+		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy hirsute
 DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch buster
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
@@ -106,6 +106,7 @@ debian : always
 		    Ubuntu-eoan) match="Ubuntu-19.10" ;;\
 		    Ubuntu-focal) match="Ubuntu-20.04" ;;\
 		    Ubuntu-groovy) match="Ubuntu-20.10" ;;\
+		    Ubuntu-hirsute) match="Ubuntu-21.04" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
@@ -141,8 +142,8 @@ debian : always
 			  : echo "    gpg --verify --quiet $$p.sig" >&2 ;\
 			  : gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
 			  ln -sv $$p $$p.sig . 2>&1 | sed 's/^/    /' >&2 || exit 1;\
-			  ar x $$p control.tar.gz ;\
-			  tar xzf control.tar.gz control ;\
+			  ar x $$p control.tar.gz control.tar.xz ;\
+			  tar xf control.tar.*z control || tar xf control.tar.*z ./control ;\
 			  ( cat control ; \
 			    echo Filename: $$basename/`basename $$p` ; \
 			    echo MD5sum: `md5sum $$p | sed 's/ .*//'` ; \
@@ -150,26 +151,30 @@ debian : always
 			    echo SHA256: `sha256sum $$p | sed 's/ .*//'` ; \
 			    echo Size: `wc -c $$p | sed 's/ .*//'` ; \
 			    echo ) >> $$ITEM ;\
-			  rm control control.tar.gz ;\
-			  p=`echo $$p | sed -e "s=/$$dist/=/Common/=" -e "s=-$$ARCH.*=-common.deb="` ;\
-			  : echo $$dist $$release $$ARCH : `basename $$p` >&2 ;\
-			  if ! [ -f $$p ] ;\
-			  then echo "missing file: $$p" >&2 ;\
-			       exit 1;\
-			  fi ;\
-			  : echo "    gpg --verify --quiet $$p.sig" >&2 ;\
-			  : gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
-			  ln -sv $$p $$p.sig . 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
-			  ar x $$p control.tar.gz ;\
-			  tar xzf control.tar.gz control ;\
-			  ( cat control ; \
-			    echo Filename: $$basename/`basename $$p` ; \
-			    echo MD5sum: `md5sum $$p | sed 's/ .*//'` ; \
-			    echo SHA1: `sha1sum $$p | sed 's/ .*//'` ; \
-			    echo SHA256: `sha256sum $$p | sed 's/ .*//'` ; \
-			    echo Size: `wc -c $$p | sed 's/ .*//'` ; \
-			    echo ) >> $$ITEM ;\
-			  rm control control.tar.gz ;\
+			  rm control control.tar.*z ;\
+			  case `basename $$p` in \
+			    Macaulay2-*) \
+			       p=`echo $$p | sed -e "s=/$$dist/=/Common/=" -e "s=-$$ARCH.*=-common.deb="` ;\
+			       : echo $$dist $$release $$ARCH : `basename $$p` >&2 ;\
+			       if ! [ -f $$p ] ;\
+			       then echo "missing file: $$p" >&2 ;\
+				    exit 1;\
+			       fi ;\
+			       : echo "    gpg --verify --quiet $$p.sig" >&2 ;\
+			       : gpg --verify --quiet $$p.sig 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
+			       ln -sv $$p $$p.sig . 2>&1 | sed 's/^/    /' >&2 || exit 1 ;\
+			       ar x $$p control.tar.gz control.tar.xz ;\
+			       tar xf control.tar.*z control || tar xf control.tar.*z ./control ;\
+			       ( cat control ; \
+				 echo Filename: $$basename/`basename $$p` ; \
+				 echo MD5sum: `md5sum $$p | sed 's/ .*//'` ; \
+				 echo SHA1: `sha1sum $$p | sed 's/ .*//'` ; \
+				 echo SHA256: `sha256sum $$p | sed 's/ .*//'` ; \
+				 echo Size: `wc -c $$p | sed 's/ .*//'` ; \
+				 echo ) >> $$ITEM ;\
+			       rm control control.tar.*z ;\
+			     ;;\
+			  esac ;\
 		     fi ;\
 		  done ;\
 		  gzip  <$$ITEM >$$ITEM.gz  ;\
