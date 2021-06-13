@@ -1,3 +1,4 @@
+
 <h2>Instructions for installing Macaulay2 with root access</h2>
 
 <!--U-->   <p>
@@ -27,8 +28,22 @@
 <!--D-->   </p>
 <!--D-->   
 
+<!--U-->   <p>
+<!--U-->     An alternate method for installing the latest version of Macaulay2
+<!--U-->     in Ubuntu is to use the
+<!--U-->     <a href="https://launchpad.net/~macaulay2/+archive/ubuntu/macaulay2">PPA</a>
+<!--U-->     (Personal Package Archive):
+<!--U-->   </p>
+<!--U-->   
+<!--U-->   <pre>
+<!--U-->        sudo add-apt-repository ppa:macaulay2/macaulay2
+<!--U-->        sudo apt install macaulay2
+<!--U-->   </pre>
+
 <p>
-  Prepare for installing Macaulay2 (with apt-get, gdebi-gtk, or the
+  Another way to install Macaulay2 is to use the repositories we maintain on
+  our website -- they will eventually be phased out.
+  To do that, first prepare for installing Macaulay2 (with apt-get, gdebi-gtk, or the
   Synaptic Package Manager) by adding the following line to the file
   <tt>/etc/apt/sources.list</tt>, suitably modified as described in the table below:
 </p>
@@ -245,16 +260,3 @@
   it can be removed.
 </p>
 
-<!--U-->   <h2>Instructions for installing Macaulay2 from Personal Package Archive</h2>
-<!--U-->   
-<!--U-->   <p>
-<!--U-->     An alternate method for installing the latest version of Macaulay2
-<!--U-->     in Ubuntu is to use the
-<!--U-->     <a href="https://launchpad.net/~macaulay2/+archive/ubuntu/macaulay2">PPA</a>
-<!--U-->     (Personal Package Archive):
-<!--U-->   </p>
-<!--U-->   
-<!--U-->   <pre>
-<!--U-->        sudo add-apt-repository ppa:macaulay2/macaulay2
-<!--U-->        sudo apt install macaulay2
-<!--U-->   </pre>
