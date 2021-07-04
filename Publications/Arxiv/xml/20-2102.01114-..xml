@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.01114%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.01114&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TxUlqrf2+0icNl8d3m4vW24UP4o</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.01114v4</id>
+    <updated>2021-06-21T18:11:04Z</updated>
+    <published>2021-02-01T19:14:51Z</published>
+    <title>Linear Strands Supported on Regular CW Complexes</title>
+    <summary>  In this paper, we study ideals $I$ whose linear strand can be supported on a
+regular CW complex. We provide a sufficient condition for the linear strand of
+an arbitrary subideal of $I$ to remain supported on an easily described
+subcomplex. In particular, we prove that a certain class of rainbow monomial
+ideals always have linear strand supported on a regular CW complex, including
+any initial ideal of the ideal of maximal minors of a generic matrix. We also
+provide a sufficient condition for these ideals to have linear resolution,
+which is also an equivalence under mild assumptions. We then employ a result of
+Almousa, Fl\o ystad, and Lohne to apply these results to polarizations of
+Artinian monomial ideals. We conclude with further questions relating to
+cellularity of certain classes of squarefree monomial ideals and the
+relationship between initial ideals of maximal minors and algebra structures on
+certain resolutions.
+</summary>
+    <author>
+      <name>Keller VandeBogert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, minor typo fixes + updated proof</arxiv:comment>
+    <link href="http://arxiv.org/abs/2102.01114v4" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.01114v4" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

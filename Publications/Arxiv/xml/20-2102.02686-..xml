@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.02686%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.02686&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/159Ej2e1D8/MIVnZvATmOFrT3fs</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.02686v1</id>
+    <updated>2021-02-04T15:29:20Z</updated>
+    <published>2021-02-04T15:29:20Z</published>
+    <title>Variation of Stratifications From Toric GIT</title>
+    <summary>  When a reductive group acts on an algebraic variety, a linearized ample line
+bundle induces a stratification on the variety where the strata are ordered by
+the degrees of instability. In this paper, we study variation of
+stratifications coming from the group actions in the GIT quotient construction
+for projective toric varieties. Cox showed that each projective toric variety
+is a GIT quotient of an affine space by a diagonalizable group with respect to
+linearizations that come from ample divisors on the toric variety. We provide a
+sufficient conditions for two ample divisors to induce the same stratification
+and formulate two types of walls in the ample cone that completely capture two
+kinds of variations. We also prove that the variation is intrinsic to the
+primitive collections and the relations among ray generators of the fans.
+</summary>
+    <author>
+      <name>Chi-yu Cheng</name>
+    </author>
+    <link href="http://arxiv.org/abs/2102.02686v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.02686v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14L24, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

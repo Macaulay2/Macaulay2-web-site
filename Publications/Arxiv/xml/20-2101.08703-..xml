@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.08703%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.08703&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hwHxvUKA+7sO3FgNRqwbmZ5VguA</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.08703v1</id>
+    <updated>2021-01-21T16:31:56Z</updated>
+    <published>2021-01-21T16:31:56Z</published>
+    <title>Real-fibered morphisms of del Pezzo surfaces and conic bundles</title>
+    <summary>  It goes back to Ahlfors that a real algebraic curve admits a real-fibered
+morphism to the projective line if and only if the real part of the curve
+disconnects its complex part. Inspired by this result, we are interested in
+characterising real algebraic varieties of dimension $n$ admitting real-fibered
+morphisms to the $n$-dimensional projective space. We present a criterion to
+classify real-fibered morphisms that arise as finite surjective linear
+projections from an embedded variety which relies on topological linking
+numbers. We address special attention to real algebraic surfaces. We classify
+all real-fibered morphisms from real del Pezzo surfaces to the projective plane
+and determine which such morphisms arise as the composition of a projective
+embedding with a linear projection. Furthermore, we give some insights in the
+case of real conic bundles.
+</summary>
+    <author>
+      <name>Mario Kummer</name>
+    </author>
+    <author>
+      <name>Cédric Le Texier</name>
+    </author>
+    <author>
+      <name>Matilde Manzaroli</name>
+    </author>
+    <link href="http://arxiv.org/abs/2101.08703v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.08703v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

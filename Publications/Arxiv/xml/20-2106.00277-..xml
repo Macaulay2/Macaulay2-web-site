@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.00277%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.00277&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZDTFNJSHpRdSIaBlpT9gSwc/j80</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.00277v1</id>
+    <updated>2021-06-01T07:16:45Z</updated>
+    <published>2021-06-01T07:16:45Z</published>
+    <title>Spectral theory of weighted hypergraphs via tensors</title>
+    <summary>  One way to study an hypergraph is to attach to it a tensor. Tensors are a
+generalization of matrices, and they are an efficient way to encode information
+in a compact form. In this paper we study how properties of weighted
+hypergraphs are reflected on eigenvalues and eigenvectors of their associated
+tensors. We also show how to efficiently compute eingenvalues with some
+techniques from numerical algebraic geometry.
+</summary>
+    <author>
+      <name>Francesco Galuppi</name>
+    </author>
+    <author>
+      <name>Raffaella Mulas</name>
+    </author>
+    <author>
+      <name>Lorenzo Venturello</name>
+    </author>
+    <link href="http://arxiv.org/abs/2106.00277v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.00277v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

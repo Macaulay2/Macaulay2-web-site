@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.04538%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.04538&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eL6WvaIatBRBe3elnmnLAFx/W7s</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.04538v1</id>
+    <updated>2021-03-08T04:02:52Z</updated>
+    <published>2021-03-08T04:02:52Z</published>
+    <title>Appearance of the Kashiwara-Saito singularity in the representation
+  theory of $p$-adic $GL_{16}$</title>
+    <summary>  In 1993 David Vogan proposed a basis for the vector space of stable
+distributions on $p$-adic groups using the microlocal geometry of moduli spaces
+of Langlands parameters. In the case of general linear groups, distribution
+characters of irreducible admissible representations, taken up to equivalence,
+form a basis for the vector space of stable distributions. In this paper we
+show that these two bases, one putative, cannot be equal. Specifically, we use
+the Kashiwara-Saito singularity to find a non-Arthur type irreducible
+admissible representation of $p$-adic $\mathop{GL}_{16}$ whose ABV-packet, as
+defined in earlier work, contains exactly one other representation; remarkably,
+this other admissible representation is of Arthur type. In the course of this
+study we strengthen the main result concerning the Kashiwara-Saito singularity.
+The irreducible admissible representations in this paper illustrate a fact we
+found surprising: for general linear groups, while all A-packets are
+singletons, some ABV-packets are not.
+</summary>
+    <author>
+      <name>Clifton Cunningham</name>
+    </author>
+    <author>
+      <name>Andrew Fiori</name>
+    </author>
+    <author>
+      <name>Nicole Kitt</name>
+    </author>
+    <link href="http://arxiv.org/abs/2103.04538v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.04538v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F70, 22E50, 32S30, 32S60" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

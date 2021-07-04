@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.05415%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.05415&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uU8jFOqNTbP2Z+tb5dSiFAxsZP4</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.05415v1</id>
+    <updated>2021-03-09T13:30:35Z</updated>
+    <published>2021-03-09T13:30:35Z</published>
+    <title>Components of symmetric wide-matrix varieties</title>
+    <summary>  We show that if X_n is a variety of cxn-matrices that is stable under the
+group Sym([n]) of column permutations and if forgetting the last column maps
+X_n into X_{n-1}, then the number of Sym([n])-orbits on irreducible components
+of X_n is a quasipolynomial in n for all sufficiently large n. To this end, we
+introduce the category of affine FI^op-schemes of width one, review existing
+literature on such schemes, and establish several new structural results about
+them. In particular, we show that under a shift and a localisation, any
+width-one FI^op-scheme becomes of product form, where X_n=Y^n for some scheme Y
+in affine c-space. Furthermore, to any FI^op-scheme of width one we associate a
+component functor from the category FI of finite sets with injections to the
+category PF of finite sets with partially defined maps. We present a
+combinatorial model for these functors and use this model to prove that
+Sym([n])-orbits of components of X_n, for all n, correspond bijectively to
+orbits of a groupoid acting on the integral points in certain rational
+polyhedral cones. Using the orbit-counting lemma for groupoids and theorems on
+quasipolynomiality of lattice point counts, this yields our Main Theorem.
+</summary>
+    <author>
+      <name>Jan Draisma</name>
+    </author>
+    <author>
+      <name>Rob H. Eggermont</name>
+    </author>
+    <author>
+      <name>Azhar Farooq</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">36 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.05415v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.05415v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E05, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

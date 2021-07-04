@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.02759%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.02759&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/o61qQ+eKouU/9SYX96GQWxzht3k</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.02759v1</id>
+    <updated>2021-06-05T00:22:35Z</updated>
+    <published>2021-06-05T00:22:35Z</published>
+    <title>Virtual resolutions of points in $\mathbb{P}^1 \times \mathbb{P}^1$</title>
+    <summary>  We explore explicit virtual resolutions, as introduced by Berkesch, Erman,
+and Smith, for ideals of sets of points in $\mathbb{P}^1 \times \mathbb{P}^1$.
+Specifically, we describe a virtual resolution for a sufficiently general set
+of points $X$ in $\mathbb{P}^1 \times \mathbb{P}^1$ that only depends on $|X|$.
+We also improve an existence result of Berkesch, Erman, and Smith in the
+special case of points in $\mathbb{P}^1 \times \mathbb{P}^1$; more precisely,
+we give an effective bound for their construction that gives a virtual
+resolution of length two for any set of points in $\mathbb{P}^1 \times
+\mathbb{P}^1$.
+</summary>
+    <author>
+      <name>Megumi Harada</name>
+    </author>
+    <author>
+      <name>Maryam Nowroozi</name>
+    </author>
+    <author>
+      <name>Adam Van Tuyl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.02759v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.02759v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13D02, Secondary: 14M05, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

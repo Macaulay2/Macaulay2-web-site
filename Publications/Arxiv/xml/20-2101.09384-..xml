@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.09384%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.09384&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wQe2d6j3kLs8Og+x9MKFTGMGHfU</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.09384v1</id>
+    <updated>2021-01-23T00:12:34Z</updated>
+    <published>2021-01-23T00:12:34Z</published>
+    <title>Algebraic Model Selection and Experimental Design in Biological Data
+  Science</title>
+    <summary>  Design of experiments and model selection, though essential steps in data
+science, are usually viewed as unrelated processes in the study and analysis of
+biological networks. Not accounting for their inter-relatedness has the
+potential to introduce bias and increase the risk of missing salient features
+in the modeling process. We propose a data-driven computational framework to
+unify experimental design and model selection for discrete data sets and
+minimal polynomial models. We use a special affine transformation, called a
+linear shift, to provide both the data sets and the polynomial terms that form
+a basis for a model. This framework enables us to address two important
+questions that arise in biological data science research: finding the data
+which identify a set of known interactions and finding identifiable
+interactions given a set of data. We present the theoretical foundation for a
+web-accessible database. As an example, we apply this methodology to a
+previously constructed pharmacodynamic model of epidermal derived growth factor
+receptor (EGFR) signaling.
+</summary>
+    <author>
+      <name>Anyu Zhang</name>
+    </author>
+    <author>
+      <name>Jingzhen Hu</name>
+    </author>
+    <author>
+      <name>Qingzhong Liang</name>
+    </author>
+    <author>
+      <name>Elena S. Dimitrova</name>
+    </author>
+    <author>
+      <name>Brandilyn Stigler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 8 figures, 6 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.09384v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.09384v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 14G15, 93B15, 93B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

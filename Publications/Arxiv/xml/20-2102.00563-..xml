@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.00563%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.00563&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/69GkPAt+s/qCGkGfsusOzKOfp+o</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.00563v3</id>
+    <updated>2021-04-04T13:58:30Z</updated>
+    <published>2021-01-31T23:55:09Z</published>
+    <title>Schubert puzzles and integrability II: multiplying motivic Segre classes</title>
+    <summary>  In Schubert Puzzles and Integrability I we proved several "puzzle rules" for
+computing products of Schubert classes in K-theory (and sometimes equivariant
+K-theory) of d-step flag varieties. The principal tool was "quantum
+integrability", in several variants of the Yang--Baxter equation; this let us
+recognize the Schubert structure constants as q-&gt;0 limits of certain matrix
+entries in products of R- (and other) matrices of quantized affine algebra
+representations. In the present work we give direct cohomological
+interpretations of those same matrix entries but at finite q: they compute
+products of "motivic Segre classes", closely related to K-theoretic
+Maulik--Okounkov stable classes living on the cotangent bundles of the flag
+varieties. Without q-&gt;0, we avoid some divergences that blocked fuller
+understanding of d=3,4. The puzzle computations are then explained (in
+cohomology onlyin this work, not K-theory) in terms of Lagrangian convolutions
+between Nakajima quiver varieties. More specifically, the conormal bundle to
+the diagonal inclusion of a flag variety factors through a quiver variety that
+is not a cotangent bundle, and it is on that intermediate quiver variety that
+the R-matrix calculation occurs.
+</summary>
+    <author>
+      <name>Allen Knutson</name>
+    </author>
+    <author>
+      <name>Paul Zinn-Justin</name>
+    </author>
+    <link href="http://arxiv.org/abs/2102.00563v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.00563v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.07346%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.07346&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/j2iw5VnAzuKfAPUXQ5jzQtgPB8k</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.07346v1</id>
+    <updated>2021-01-18T22:19:24Z</updated>
+    <published>2021-01-18T22:19:24Z</published>
+    <title>Companion varieties for root systems and Fermat arrangements</title>
+    <summary>  Unexpected hypersurfaces are a brand name for some special linear systems.
+They were introduced around 2017 and are a field of intensive study since then.
+They attracted a lot of attention because of their close tights to various
+other areas of mathematics including vector bundles, arrangements of
+hyperplanes, geometry of projective varieties. Our research is motivated by the
+what is now known as the BMSS duality, which is a new way of deriving
+projective varieties out of already constructed. The last author coined the
+concept of companion surfaces in the setting of unexpected curves admitted by
+the $B_3$ root system. Here we extend this construction in various directions.
+We revisit the configurations of points associated to either root systems or to
+Fermat arrangements and we study the geometry of the associated varieties and
+their companions.
+</summary>
+    <author>
+      <name>Roberta Di Gennaro</name>
+    </author>
+    <author>
+      <name>Giovanna Ilardi</name>
+    </author>
+    <author>
+      <name>Rosa Maria Miró-Roig</name>
+    </author>
+    <author>
+      <name>Tomasz Szemberg</name>
+    </author>
+    <author>
+      <name>Justyna Szpond</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, collaboration started at the Oberwolfach workshop on
+  Lefschetz Properties in Algebra, Geometry and Combinatorics held in
+  September/October 2020</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.07346v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.07346v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13C70, 14C20, 14E05, 14J70, 14N20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.03288%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.03288&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/58q4mJInv8zaDQN7U5NzYgI/mHs</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.03288v1</id>
+    <updated>2021-06-07T01:08:44Z</updated>
+    <published>2021-06-07T01:08:44Z</published>
+    <title>Quivers and moduli of their thin sincere representations in Macaulay2</title>
+    <summary>  We introduce the Macaulay2 package ThinSincereQuivers for studying acyclic
+quivers, the moduli of their thin-sincere representations, and the reflexive
+flow polytopes associated to them. We provide some background on the topic and
+illustrate how the package recovers examples from the literature.
+</summary>
+    <author>
+      <name>Mary Barker</name>
+    </author>
+    <author>
+      <name>Patricio Gallardo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The code is available at https://github.com/marybarker/M2</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.03288v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.03288v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="16G20, 05-04" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

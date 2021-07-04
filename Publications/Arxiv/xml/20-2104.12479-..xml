@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2104.12479%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2104.12479&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SfaiN82KkK/q+cnaS7pqk4XtdvA</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2104.12479v1</id>
+    <updated>2021-04-26T11:25:36Z</updated>
+    <published>2021-04-26T11:25:36Z</published>
+    <title>Distinguishing Level-2 Phylogenetic Networks Using Phylogenetic
+  Invariants</title>
+    <summary>  In phylogenetics, it is important for the phylogenetic network model
+parameters to be identifiable so that the evolutionary histories of a group of
+species can be consistently inferred. However, as the complexity of the
+phylogenetic network models grows, the identifiability of network models
+becomes increasingly difficult to analyze. As an attempt to analyze the
+identifiability of network models, we check whether two networks are
+distinguishable. In this paper, we specifically study the distinguishability of
+phylogenetic network models associated with level-2 networks. Using an
+algebraic approach, namely using discrete Fourier transformation, we present
+some results on the distinguishability of some level-2 networks, which
+generalize earlier work on the distinguishability of level-1 networks. In
+particular, we study simple and semisimple level-2 networks. Simple and
+semisimple level-2 networks can be thought as generalizations of level-1 sunlet
+and cycle networks, respectively. Moreover, we also compare the varieties
+associated with semisimple level-2 and cycle networks.
+</summary>
+    <author>
+      <name>Muhammad Ardiyansyah</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages, 3 tables, and 20 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2104.12479v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2104.12479v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.10527%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.10527&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Zh36LDD/GPWHtUJX1Ivh+Zt3RCY</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.10527v1</id>
+    <updated>2021-05-21T18:31:57Z</updated>
+    <published>2021-05-21T18:31:57Z</published>
+    <title>On Hilbert ideals for a class of $p$-groups in characteristic $p$</title>
+    <summary>  Let $p$ be a prime number, $\Bbbk$ a field of characteristic $p$ and $G$ a
+finite $p$-group. Let $V$ be a finite-dimensional linear representation of $G$
+over $\Bbbk$. Write $S = \mathrm{Sym} V^*$. For a class of $p$-groups which we
+call generalised Nakajima groups, we prove the following: \begin{enumerate}
+\item The Hilbert ideal is a complete intersection. As a consequence, for the
+case of generalised Nakajima groups, we prove a conjecture of Shank and Wehlau
+(reformulated by Broer) that asserts that if the invariant subring $S^G$ is a
+direct summand of $S$ as $S^G$-modules then $S^G$ is a polynomial ring. \item
+The Hilbert ideal has a generating set with elements of degree at most $|G |$.
+This bound is conjectured by Derksen and Kemper. \end{enumerate}
+</summary>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <author>
+      <name>Mandira Mondal</name>
+    </author>
+    <link href="http://arxiv.org/abs/2105.10527v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.10527v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

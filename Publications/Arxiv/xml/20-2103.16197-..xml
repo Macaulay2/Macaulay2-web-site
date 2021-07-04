@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.16197%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.16197&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/74PV1c59AX0n4PSuEMRl39ilOgg</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.16197v1</id>
+    <updated>2021-03-30T09:28:43Z</updated>
+    <published>2021-03-30T09:28:43Z</published>
+    <title>Standard monomial theory and toric degenerations of Richardson varieties
+  in flag varieties</title>
+    <summary>  We study standard monomial bases for Richardson varieties inside the flag
+variety. In general, writing down a standard monomial basis for a Richardson
+variety can be challenging, as it involves computing so-called defining chains
+or key tableaux. However, for a certain family of Richardson varieties, indexed
+by compatible permutations, we provide a very direct and straightforward
+combinatorial rule for writing down a standard monomial basis. We apply this
+result to the study of toric degenerations of Richardson varieties. In
+particular, we provide a new family of toric degenerations of Richardson
+varieties inside flag varieties.
+</summary>
+    <author>
+      <name>Narasimha Chary Bonala</name>
+    </author>
+    <author>
+      <name>Oliver Clarke</name>
+    </author>
+    <author>
+      <name>Fatemeh Mohammadi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This article supersedes the section on flag varieties in the preprint
+  arXiv:2009.03210</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Springer volume 'Women in Commutative Algebra - Proceedings of the
+  2019 WICA Workshop'</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2103.16197v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.16197v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

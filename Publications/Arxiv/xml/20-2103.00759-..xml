@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.00759%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.00759&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jQoyGARnbTVXLx5MrY+T/AkOb0M</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.00759v2</id>
+    <updated>2021-05-24T17:39:47Z</updated>
+    <published>2021-03-01T05:22:58Z</published>
+    <title>Principal Radical Systems, Lefschetz Properties and Perfection of Specht
+  Ideals of Two-Rowed Partitions</title>
+    <summary>  We show that the Specht ideal of a two-rowed partition is perfect over an
+arbitrary field, provided that the characteristic is either zero or bounded
+below by the size of the second row of the partition, and we show this lower
+bound is tight. We also establish perfection and other properties of certain
+variants of Specht ideals, and find a surprising connection to the weak
+Lefschetz property. Our results in particular give a self-contained proof of
+Cohen-Macaulayness of certain $h$-equals sets, a result previously obtained by
+Etingof-Gorsky-Losev over the complex numbers using rational Cherednik
+algebras.
+</summary>
+    <author>
+      <name>Chris McDaniel</name>
+    </author>
+    <author>
+      <name>Junzo Watanabe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.00759v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.00759v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50, 13C14, 20C30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

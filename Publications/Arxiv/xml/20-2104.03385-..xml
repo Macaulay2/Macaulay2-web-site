@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2104.03385%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2104.03385&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4elricwUxvkn9KYoNZBX4MiXBLs</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2104.03385v1</id>
+    <updated>2021-04-07T20:36:06Z</updated>
+    <published>2021-04-07T20:36:06Z</published>
+    <title>Primary decomposition of modules: a computational differential approach</title>
+    <summary>  We study primary submodules and primary decompositions from a differential
+and computational point of view. Our main theoretical contribution is a general
+structure theory and a representation theorem for primary submodules of an
+arbitrary finitely generated module over a polynomial ring. We characterize
+primary submodules in terms of differential operators and punctual Quot
+schemes. Moreover, we introduce and implement an algorithm that computes a
+minimal differential primary decomposition for a module.
+</summary>
+    <author>
+      <name>Justin Chen</name>
+    </author>
+    <author>
+      <name>Yairon Cid-Ruiz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">21 pages; ancillary file provided</arxiv:comment>
+    <link href="http://arxiv.org/abs/2104.03385v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2104.03385v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13N10, 13N99, 13E05, 14C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

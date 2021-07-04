@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.04495%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.04495&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/61RkRjYDv2+csFnaa/BSwORMEBI</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.04495v1</id>
+    <updated>2021-06-08T16:28:03Z</updated>
+    <published>2021-06-08T16:28:03Z</published>
+    <title>Hermite reciprocity and Schwarzenberger bundles</title>
+    <summary>  Hermite reciprocity refers to a series of natural isomorphisms involving
+compositions of symmetric, exterior, and divided powers of the standard
+$SL_2$-representation. We survey several equivalent constructions of these
+isomorphisms, as well as their recent applications to Green's Conjecture on
+syzygies of canonical curves. The most geometric approach to Hermite
+reciprocity is based on an idea of Voisin to realize certain multilinear
+constructions cohomologically by working on a Hilbert scheme of points. We
+explain how in the case of ${\bf P}^1$ this can be reformulated in terms of
+cohomological properties of Schwarzenberger bundles. We then proceed to study
+these bundles from several perspectives:
+  We show that their exterior powers have supernatural cohomology, arising as
+special cases of a construction of Eisenbud and Schreyer.
+  We recover basic properties of secant varieties $\Sigma$ of rational normal
+curves (normality, Cohen-Macaulayness, rational singularities) by considering
+their desingularizations via Schwarzenberger bundles, and applying the
+Kempf-Weyman geometric technique.
+  We show that Hermite reciprocity is equivalent to the self-duality of the
+unique rank one Ulrich module on the affine cone $\widehat{\Sigma}$ of some
+secant variety, and we explain how for a Schwarzenberger bundle of rank $k$ and
+degree $d\ge k$, Hermite reciprocity can be viewed as the unique (up to
+scaling) non-zero section of $(Sym^k\mathcal{E})(-d+k-1)$.
+</summary>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <author>
+      <name>Steven V Sam</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.04495v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.04495v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

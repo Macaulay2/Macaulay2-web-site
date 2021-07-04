@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.03431%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.03431&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1qjV1FKXQ1sYCh0ksXphMG4uUc4</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.03431v1</id>
+    <updated>2021-02-05T22:00:44Z</updated>
+    <published>2021-02-05T22:00:44Z</published>
+    <title>Invariants for level-1 phylogenetic networks under the
+  Cavendar-Farris-Neyman Model</title>
+    <summary>  Phylogenetic networks can model more complicated evolutionary phenomena that
+trees fail to capture such as horizontal gene transfer and hybridization. The
+same Markov models that are used to model evolution on trees can also be
+extended to networks and similar questions, such as the identifiability of the
+network parameter or the invariants of the model, can be asked. In this paper
+we focus on finding the invariants of the Cavendar-Farris-Neyman (CFN) model on
+level-1 phylogenetic networks. We do this by reducing the problem to finding
+invariants of sunlet networks, which are level-1 networks consisting of a
+single cycle with leaves at each vertex. We then determine all quadratic
+invariants in the sunlet network ideal which we conjecture generate the full
+ideal.
+</summary>
+    <author>
+      <name>Joseph Cummings</name>
+    </author>
+    <author>
+      <name>Benjamin Hollering</name>
+    </author>
+    <author>
+      <name>Christopher Manon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2102.03431v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.03431v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="92B10, 13P25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

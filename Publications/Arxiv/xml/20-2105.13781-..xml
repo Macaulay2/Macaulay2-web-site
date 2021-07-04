@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.13781%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.13781&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OLQVN1bUC6GzaPiXNAjXVRkXhgM</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.13781v1</id>
+    <updated>2021-05-28T12:37:32Z</updated>
+    <published>2021-05-28T12:37:32Z</published>
+    <title>Type and Conductor of Simplicial Affine Semigroups</title>
+    <summary>  We provide a generalization of pseudo-Frobenius numbers of numerical
+semigroups to the context of the simplicial affine semigroups. In this way, we
+characterize the Cohen-Macaulay type of the simplicial affine semigroup ring
+$\mathbb{K}[S]$.
+  We define the type of $S$, $\operatorname{type}$, in terms of some Ap\'ery
+sets of $S$ and show that it coincides with the Cohen-Macaulay type of the
+semigroup ring, when $\mathbb{K}[S]$ is Cohen-Macaulay. If $\mathbb{K}[S]$ is a
+$d$-dimensional Cohen-Macaulay ring of embedding dimension at most $d+2$, then
+$\operatorname{type}\leq 2$. Otherwise, $\operatorname{type}$ might be
+arbitrary large and it has no upper bound in terms of the embedding dimension.
+Finally, we present a generating set for the conductor of $S$ as an ideal of
+its normalization.
+</summary>
+    <author>
+      <name>Raheleh Jafari</name>
+    </author>
+    <author>
+      <name>Marjan Yaghmaei</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages, to appear in Journal of Pure and Applied Algebra</arxiv:comment>
+    <link href="http://arxiv.org/abs/2105.13781v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.13781v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.13993%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.13993&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VEkFNXorXh9PgS09YBrVQtxN3wM</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13993v1</id>
+    <updated>2021-06-26T10:07:44Z</updated>
+    <published>2021-06-26T10:07:44Z</published>
+    <title>Gorenstein and Cohen-Macaulay Matching Complexes</title>
+    <summary>  Let $H$ be a simple undirected graph. The family of all matchings of $H$
+forms a simplicial complex called the matching complex of $H$. Here , we give a
+classification of all graphs with a Gorenstein matching complex. Also we study
+when the matching complex of $H$ is Cohen-Macaulay and, in certain classes of
+graphs, we fully characterize those graphs which have a Cohen-Macaulay matching
+complex. In particular, we characterize when the matching complex of a graph
+with girth at least 5 or a complete graph or a complete bipartite graph with
+one part size less than 5 is Cohen-Macaulay.
+</summary>
+    <author>
+      <name>Ashkan Nikseresht</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">12 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.13993v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.13993v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 05E40, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

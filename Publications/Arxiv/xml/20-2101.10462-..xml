@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.10462%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.10462&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YZ4+HAuykl+dBremB3LDZYrtxYQ</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.10462v1</id>
+    <updated>2021-01-25T22:32:55Z</updated>
+    <published>2021-01-25T22:32:55Z</published>
+    <title>Real powers of monomial ideals</title>
+    <summary>  This paper concerns the exponentiation of monomial ideals. While it is
+customary for the exponentiation operation on ideals to consider natural
+powers, we extend this notion to powers where the exponent is a positive real
+number. Real powers of a monomial ideal generalize the integral closure
+operation and highlight many interesting connections to the theory of convex
+polytopes. We provide multiple algorithms for computing the real powers of a
+monomial ideal. An important result is that given any monomial ideal $I$, the
+function taking real numbers to the corresponding real power of $I$ is a step
+function whose jumping points are rational. This reduces the problem of
+determining real powers to rational exponents.
+</summary>
+    <author>
+      <name>Pratik Dongre</name>
+    </author>
+    <author>
+      <name>Benjamin Drabkin</name>
+    </author>
+    <author>
+      <name>Josiah Lim</name>
+    </author>
+    <author>
+      <name>Ethan Partida</name>
+    </author>
+    <author>
+      <name>Ethan Roy</name>
+    </author>
+    <author>
+      <name>Dylan Ruff</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Tingting Tang</name>
+    </author>
+    <link href="http://arxiv.org/abs/2101.10462v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.10462v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

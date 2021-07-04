@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.04659%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.04659&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/L//YgmqbOfvIzWigKWD/anLj0rU</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.04659v1</id>
+    <updated>2021-03-08T10:43:32Z</updated>
+    <published>2021-03-08T10:43:32Z</published>
+    <title>A footnote to a footnote to a paper of B. Segre</title>
+    <summary>  The paper is devoted to a detailed study of sextics in three variables having
+a decomposition as a sum of nine powers of linear forms. This is the unique
+case of a Veronese image of the plane which, in the terminology introduced by
+Ciliberto and the first author in [12], is weakly defective, and
+non-identifiable. The title originates from a paper of 1981, where Arbarello
+and Cornalba state and prove a result on plane curves with preassigned
+singularities, which is relevant to extend the studies of B. Segre on special
+linear series on curves. We explore the apolar ideal of a sextic $F$ and the
+associated catalecticant maps, in order to determine the minimal
+decompositions. A particular attention is played to the postulation of the
+decompositions. Starting with forms with a decomposition $A$ of length $9$, the
+postulation of $A$ determines several loci in the $9$-secant of the
+$6$-Veronese image of $\mathbb P^2$, which include the lower secant varieties,
+and the ramification locus, where the decomposition is unique. We prove that
+equations of all these loci, including the $8$-th and the $7$-th secant
+varieties, are provided by minors of the catalecticant maps and by the
+invariant $H_{27}$ that we describe in Section 4.
+</summary>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <author>
+      <name>Giorgio Ottaviani</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Dedicated to Ciro Ciliberto, for his 70th birthday</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.04659v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.04659v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N07" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

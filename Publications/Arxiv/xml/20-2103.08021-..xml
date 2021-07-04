@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.08021%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.08021&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/u6IFt106Wim0hiWysqEU43Ufjx8</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08021v2</id>
+    <updated>2021-03-28T17:23:16Z</updated>
+    <published>2021-03-14T20:10:26Z</published>
+    <title>Tautological classes of matroids</title>
+    <summary>  We introduce certain torus-equivariant classes on permutohedral varieties
+which we call "tautological classes of matroids" as a new geometric framework
+for studying matroids. Using this framework, we unify and extend many recent
+developments in matroid theory arising from its interaction with algebraic
+geometry. We achieve this by establishing a Chow-theoretic description and a
+log-concavity property for a 4-variable transformation of the Tutte polynomial,
+and by establishing an exceptional Hirzebruch-Riemann-Roch-type formula for
+permutohedral varieties that translates between K-theory and Chow theory.
+</summary>
+    <author>
+      <name>Andrew Berget</name>
+    </author>
+    <author>
+      <name>Christopher Eur</name>
+    </author>
+    <author>
+      <name>Hunter Spink</name>
+    </author>
+    <author>
+      <name>Dennis Tseng</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">69 pages; comments welcome. v2: minor edits, addition of subsection
+  10.4</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.08021v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.08021v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B40, 14T90, 14C15, 14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

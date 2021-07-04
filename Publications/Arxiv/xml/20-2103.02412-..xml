@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.02412%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.02412&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nQSGV2mfwX4Y605aKv4jefcn2Gs</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.02412v1</id>
+    <updated>2021-03-03T14:02:00Z</updated>
+    <published>2021-03-03T14:02:00Z</published>
+    <title>A matryoshka structure of higher secant varieties and the generalized
+  Bronowski's conjecture</title>
+    <summary>  In this paper, we propose a matryoshka structure of higher secant varieties
+which includes many matryoshka phenomena in the category of higher secant
+varieties and generalizes certain celebrated classical results in the study of
+syzygy to higher secant varieties. For example, we prove a generalized
+$K_{p,1}$ theorem for higher secant varieties, the syzygetic and geometric
+characterizations of minimal degree higher secant varieties, defined by
+Ciliberto and Russo, and del Pezzo higher secant varieties, newly defined in
+this paper, and also give the determinantal presentation of higher secant
+varieties having minimal degree.
+  These results come mainly from the structure of the tangent cones to higher
+secant varieties and from inductive analyses of defining equations and their
+syzygies in relation to inner and tangential projections. For our purposes, we
+prove a weak form of the generalized Bronowski's conjecture due to Ciliberto
+and Russo that relates the identifiability for higher secant varieties to the
+geometry of tangential projections.
+</summary>
+    <author>
+      <name>Junho Choe</name>
+    </author>
+    <author>
+      <name>Sijong Kwak</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">53 pages, any comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.02412v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.02412v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05 (Primary) 13D02, 14N25 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

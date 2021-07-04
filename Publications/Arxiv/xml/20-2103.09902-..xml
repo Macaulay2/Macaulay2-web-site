@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.09902%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.09902&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wp3PpgBO1oMeLh1ReAdcBgJaeOc</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.09902v1</id>
+    <updated>2021-03-17T21:00:20Z</updated>
+    <published>2021-03-17T21:00:20Z</published>
+    <title>Intersection theory on low-degree Hurwitz spaces</title>
+    <summary>  While there is much work and many conjectures surrounding the intersection
+theory of the moduli space of curves, relatively little is known about the
+intersection theory of the Hurwitz space $\mathscr{H}_{k, g}$ parametrizing
+smooth degree $k$, genus $g$ covers of $\mathbb{P}^1$. Let $k = 3, 4, 5$. We
+prove that the rational Chow rings of $\mathscr{H}_{k,g}$ stabilize in a
+suitable sense as $g$ tends to infinity. In the case $k = 3$, we completely
+determine the Chow rings for all $g$. In codimension $1$, our results hold
+integrally, thus determining the integral Picard groups
+$\mathrm{Pic}(\mathscr{H}_{k,g})$. We also prove that the rational Chow groups
+of the simply branched Hurwitz space $\mathscr{H}^s_{k,g} \subset
+\mathscr{H}_{k,g}$ are zero in codimension up to roughly $g/k$. In subsequent
+work, results developed in this paper are used to prove that the Chow rings of
+$\mathscr{M}_7, \mathscr{M}_8,$ and $\mathscr{M}_9$ are tautological.
+</summary>
+    <author>
+      <name>Samir Canning</name>
+    </author>
+    <author>
+      <name>Hannah Larson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">78 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.09902v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.09902v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C15, 14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

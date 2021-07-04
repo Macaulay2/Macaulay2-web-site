@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2104.15059%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2104.15059&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SYImsYJ7TyJYvwttK+WUISaudMo</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2104.15059v1</id>
+    <updated>2021-04-30T15:29:31Z</updated>
+    <published>2021-04-30T15:29:31Z</published>
+    <title>Tropical tangents for complete intersection curves</title>
+    <summary>  We consider the tropicalization of tangent lines to a complete intersection
+curve $X$ in $\mathbb{P}^n$. Under mild hypotheses, we describe the
+tropicalization of the image of the Gauss map of $X$ in terms of the
+tropicalizations of the hypersurfaces cutting out $X$. We apply this to obtain
+descriptions of the tropicalization of the dual variety $X^*$ and tangential
+variety $\tau(X)$ of $X$. In particular, we are able to compute the degrees of
+$X^*$ and $\tau(X)$ and the Newton polytope of $\tau(X)$ without using any
+elimination theory.
+</summary>
+    <author>
+      <name>Nathan Ilten</name>
+    </author>
+    <author>
+      <name>Yoav Len</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, 3 figures, 8 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2104.15059v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2104.15059v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

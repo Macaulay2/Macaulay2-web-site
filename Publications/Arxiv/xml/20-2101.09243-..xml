@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.09243%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.09243&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yVDPaKbxsXHBYGRlVLNmp4dtGsU</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.09243v2</id>
+    <updated>2021-04-12T13:10:43Z</updated>
+    <published>2021-01-22T17:54:49Z</published>
+    <title>Hamiltonian paths, unit-interval complexes, and determinantal facet
+  ideals</title>
+    <summary>  We study d-dimensional generalizations of three mutually related topics in
+graph theory: Hamiltonian paths, (unit) interval graphs, and binomial edge
+ideals. We provide partial high-dimensional generalizations of Ore and Posa's
+sufficient conditions for a graph to be Hamiltonian. We introduce a hierarchy
+of combinatorial properties for simplicial complexes that generalize
+unit-interval, interval, and co-comparability graphs. We connect these
+properties to the already existing notions of determinantal facet ideals and
+Hamiltonian paths in simplicial complexes. Some important consequences of our
+work are:
+  (1) Every almost-closed strongly-connected d-dimensional simplicial complex
+is traceable. (This extends the well-known result "unit-interval connected
+graphs are traceable".)
+  (2) Every almost-closed d-complex that remains strongly connected after the
+deletion of d or less vertices, is Hamiltonian. (This extends the fact that
+"unit-interval 2-connected graphs are Hamiltonian".)
+  (3) Unit-interval complexes are characterized, among traceable complexes, by
+the property that the minors defining their determinantal facet ideal form a
+Groebner basis for a diagonal term order which is compatible with the
+traceability of the complex. (This corrects a recent theorem by Ene et al.,
+extends a result by Herzog and others, and partially answers a question by
+Almousa-Vandebogert.)
+  (4) Only the d-skeleton of the simplex has a determinantal facet ideal with
+linear resolution. (This extends the result by Kiani and Saeedi-Madani that
+"only the complete graph has a binomial edge ideal with linear resolution".)
+  (5) The determinantal facet ideals of all under-closed and semi-closed
+complexes have a square-free initial ideal with respect to lex. In
+characteristic p, they are even F-pure.
+</summary>
+    <author>
+      <name>Bruno Benedetti</name>
+    </author>
+    <author>
+      <name>Lisa Seccia</name>
+    </author>
+    <author>
+      <name>Matteo Varbaro</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">41 pages, 5 figures; improved and extended version, with Main Theorem
+  V, Lemma 48, and Corollary 81 added, plus minor corrections and
+  strengthenings</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.09243v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.09243v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C45, 05C65, 05C38, 05C07, 13P10, 13F50, 55U10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

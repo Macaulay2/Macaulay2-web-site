@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.13669%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.13669&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+gaAcdNBFzr4wDpZ3sZBSrquQpg</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.13669v1</id>
+    <updated>2021-05-28T08:38:18Z</updated>
+    <published>2021-05-28T08:38:18Z</published>
+    <title>Measuring global properties of neural generative model outputs via
+  generating mathematical objects</title>
+    <summary>  We train deep generative models on datasets of reflexive polytopes. This
+enables us to compare how well the models have picked up on various global
+properties of generated samples. Our datasets are complete in the sense that
+every single example, up to changes of coordinate, is included in the dataset.
+Using this property we also perform tests checking to what extent the models
+are merely memorizing the data. We also train models on the same dataset
+represented in two different ways, enabling us to measure which form is easiest
+to learn from. We use these experiments to show that deep generative models can
+learn to generate geometric objects with non-trivial global properties, and
+that the models learn some underlying properties of the objects rather than
+simply memorizing the data.
+</summary>
+    <author>
+      <name>Bernt Ivar Utstøl Nødland</name>
+    </author>
+    <link href="http://arxiv.org/abs/2105.13669v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.13669v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.02294%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.02294&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NvhrN1V7DzaeasvyS2ATBmVut7I</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.02294v1</id>
+    <updated>2021-05-05T19:27:02Z</updated>
+    <published>2021-05-05T19:27:02Z</published>
+    <title>Vanishing Ideals of Parameterized Subgroups in a toric variety</title>
+    <summary>  Let $\K$ be a finite field and $X$ be a complete simplicial toric variety
+over $\K$. We give an algorithm relying on elimination theory for finding
+generators of the vanishing ideal of a subgroup $Y_Q$ parameterized by a matrix
+$Q$ which can be used to study algebraic geometric codes arising from $Y_Q$. We
+give a method to compute the lattice $L$ whose ideal $I_L$ is exactly $I(Y_Q)$
+under a mild condition. As applications, we give precise descriptions for the
+lattices corresponding to some special subgroups. We also prove a
+Nullstellensatz type theorem valid over finite fields, and share
+\verb|Macaulay2| codes for our algorithms.
+</summary>
+    <author>
+      <name>Esma Baran özkan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">supported by TUB\.ITAK</arxiv:comment>
+    <link href="http://arxiv.org/abs/2105.02294v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.02294v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 14M25, 14G50, Secondary 52B20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

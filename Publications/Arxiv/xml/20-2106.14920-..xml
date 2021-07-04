@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.14920%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.14920&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lSXTf97ZQKuzX8KfluBcJHliMyo</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.14920v1</id>
+    <updated>2021-06-28T18:04:20Z</updated>
+    <published>2021-06-28T18:04:20Z</published>
+    <title>On Constructions Related to the Generalized Taylor Complex</title>
+    <summary>  In this paper, we extend constructions and results for the Taylor complex to
+the generalized Taylor complex constructed by Herzog. We construct an explicit
+DG-algebra structure on the generalized Taylor complex and extend a result of
+Katth\"an on quotients of the Taylor complex by DG-ideals. We introduce a
+generalization of the Scarf complex for families of monomial ideals, and show
+that this complex is always a direct summand of the minimal free resolution of
+the sum of these ideals. We also give an example of an ideal where the
+generalized Scarf complex strictly contains the standard Scarf complex.
+Moreover, we introduce the notion of quasitransverse monomial ideals, and prove
+a list of results relating to Golodness, Koszul homology, and other homological
+properties for such ideals.
+</summary>
+    <author>
+      <name>Keller VandeBogert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.14920v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.14920v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

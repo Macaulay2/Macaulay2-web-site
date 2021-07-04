@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.06730%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.06730&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//5s9kVqXyO1DWJBgBPzDQkP4+Bo</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06730v1</id>
+    <updated>2021-06-12T09:57:42Z</updated>
+    <published>2021-06-12T09:57:42Z</published>
+    <title>On the description of identifiable quartics</title>
+    <summary>  In this paper we study the identifiability of specific forms (symmetric
+tensors), with the target of extending recent methods for the case of $3$
+variables to more general cases. In particular, we focus on forms of degree $4$
+in $5$ variables. By means of tools coming from classical algebraic geometry,
+such as Hilbert function, liaison procedure and Serre's construction, we give a
+complete geometric description and criteria of identifiability for ranks $\geq
+9$, filling the gap between rank $\leq 8$, covered by Kruskal's criterion, and
+$15$, the rank of a general quartic in $5$ variables. For the case $r=12$, we
+construct an effective algorithm that guarantees that a given decomposition is
+unique.
+</summary>
+    <author>
+      <name>Elena Angelini</name>
+    </author>
+    <author>
+      <name>Luca Chiantini</name>
+    </author>
+    <link href="http://arxiv.org/abs/2106.06730v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.06730v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N07, 14J70, 14C20, 14N05, 15A69, 15A72" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.16185%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.16185&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/6cgIfh0gndeK+Y8z7IXQSqaAJfg</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.16185v1</id>
+    <updated>2021-06-30T16:26:47Z</updated>
+    <published>2021-06-30T16:26:47Z</published>
+    <title>Rees algebras of filtrations of covering polyhedra and integral closure
+  of powers of monomial ideals</title>
+    <summary>  The aims of this work are to study Rees algebras of filtrations of monomial
+ideals associated to covering polyhedra of rational matrices with non-negative
+entries and non-zero columns using combinatorial optimization and integer
+programming, and to study powers of monomial ideals and their integral closures
+using irreducible representations and polyhedral geometry. We study the
+Waldschmidt constant and the ic-resurgence of the filtration associated to a
+covering polyhedron and show how to compute these constants using linear
+programming. Then we show lower bounds for the ic-resurgence of the ideal of
+covers of a graph and prove that the lower bound is attained when the graph is
+perfect.
+</summary>
+    <author>
+      <name>Gonzalo Grisalde</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <link href="http://arxiv.org/abs/2106.16185v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.16185v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C70, 13F20, 13F55, 05E40, 13A30, 13B22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

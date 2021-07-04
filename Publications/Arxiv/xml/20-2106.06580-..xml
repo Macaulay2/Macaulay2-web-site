@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.06580%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.06580&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5XtOJP6QtwyRntWGNluP65GeoJo</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06580v1</id>
+    <updated>2021-06-11T19:02:24Z</updated>
+    <published>2021-06-11T19:02:24Z</published>
+    <title>Revealing the canalizing structure of Boolean functions: Algorithms and
+  applications</title>
+    <summary>  Boolean functions can be represented in many ways including logical forms,
+truth tables, and polynomials. Additionally, Boolean functions have different
+canonical representations such as minimal disjunctive normal forms. Other
+canonical representation is based on the polynomial representation of Boolean
+functions where they can be written as a nested product of canalizing layers
+and a polynomial that contains the noncanalizing variables. In this paper we
+study the problem of identifying the canalizing layers format of Boolean
+functions. First, we show that the problem of finding the canalizing layers is
+NP-hard. Second, we present several algorithms for finding the canalizing
+layers of a Boolean function, discuss their complexities, and compare their
+performances. Third, we show applications where the computation of canalizing
+layers can be used for finding a disjunctive normal form of a nested canalizing
+function. Another application deals with the reverse engineering of Boolean
+networks with a prescribed layering format. Finally, implementations of our
+algorithms in Python and in the computer algebra system Macaulay2 are available
+at https://github.com/ckadelka/BooleanCanalization.
+</summary>
+    <author>
+      <name>Elena Dimitrova</name>
+    </author>
+    <author>
+      <name>Brandilyn Stigler</name>
+    </author>
+    <author>
+      <name>Claus Kadelka</name>
+    </author>
+    <author>
+      <name>David Murrugarra</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">13 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.06580v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.06580v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

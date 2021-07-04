@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2104.11329%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2104.11329&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/V+bUHkgkYtU5/eX1ChEpK0YPu9s</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2104.11329v1</id>
+    <updated>2021-04-20T22:25:12Z</updated>
+    <published>2021-04-20T22:25:12Z</published>
+    <title>What are higher-order networks?</title>
+    <summary>  Modeling complex systems and data using the language of graphs and networks
+has become an essential topic across a range of different disciplines.
+Arguably, this network-based perspective derives is success from the relative
+simplicity of graphs: A graph consists of nothing more than a set of vertices
+and a set of edges, describing relationships between pairs of such vertices.
+This simple combinatorial structure makes graphs interpretable and flexible
+modeling tools. The simplicity of graphs as system models, however, has been
+scrutinized in the literature recently. Specifically, it has been argued from a
+variety of different angles that there is a need for higher-order networks,
+which go beyond the paradigm of modeling pairwise relationships, as
+encapsulated by graphs. In this survey article we take stock of these recent
+developments. Our goals are to clarify (i) what higher-order networks are, (ii)
+why these are interesting objects of study, and (iii) how they can be used in
+applications.
+</summary>
+    <author>
+      <name>Christian Bick</name>
+    </author>
+    <author>
+      <name>Elizabeth Gross</name>
+    </author>
+    <author>
+      <name>Heather A. Harrington</name>
+    </author>
+    <author>
+      <name>Michael T. Schaub</name>
+    </author>
+    <link href="http://arxiv.org/abs/2104.11329v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2104.11329v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SI" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="nlin.AO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05C82, 34B45, 68R10, 55U10, 05C65" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

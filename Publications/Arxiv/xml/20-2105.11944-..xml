@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.11944%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.11944&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ijoTAMNUZIdCVhD2qclNRfzkpr0</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.11944v2</id>
+    <updated>2021-05-26T07:44:43Z</updated>
+    <published>2021-05-25T13:50:35Z</published>
+    <title>A numerical characterization of the extremal Betti numbers of $t$-spread
+  strongly stable Ideals</title>
+    <summary>  Let $K$ be a field and let $S=K[x_1,\dots,x_n]$ be a standard polynomial ring
+over a field $K$. We characterize the extremal Betti numbers, values as well
+positions, of a $t$-spread strongly stable ideal of $S$. Our approach is
+constructive. Indeed, given some positive integers $a_1,\dots,a_r$ and some
+pairs of positive integers $(k_1,\ell_1),\dots,(k_r,\ell_r)$, we are able to
+determine under which conditions there exist a $t$-spread strongly stable ideal
+$I$ of $S$ with $\beta_{k_i, k_i\ell_i}(I)=a_i$, $i=1, \ldots, r$, as extremal
+Betti numbers, and then to construct it.
+</summary>
+    <author>
+      <name>Luca Amata</name>
+    </author>
+    <author>
+      <name>Antonino Ficarra</name>
+    </author>
+    <author>
+      <name>Marilena Crupi</name>
+    </author>
+    <link href="http://arxiv.org/abs/2105.11944v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.11944v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

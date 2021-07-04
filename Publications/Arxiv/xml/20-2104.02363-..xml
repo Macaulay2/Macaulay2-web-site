@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2104.02363%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2104.02363&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8GZFeeG0xmHJ551RY8qywpE+IWI</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2104.02363v1</id>
+    <updated>2021-04-06T08:40:00Z</updated>
+    <published>2021-04-06T08:40:00Z</published>
+    <title>Young Flattenings in the Schur module basis</title>
+    <summary>  There are several isomorphic constructions for the irreducible polynomial
+representations of the general linear group in characteristic zero. The two
+most well-known versions are called Schur modules and Weyl modules. Steven Sam
+used a Weyl module implementation in 2009 for his Macaulay2 package PieriMaps.
+This implementation can be used to compute so-called Young flattenings of
+polynomials. Over the Schur module basis Oeding and Farnsworth describe a
+simple combinatorial procedure that is supposed to give the Young flattening,
+but their construction is not equivariant. In this paper we clarify this issue,
+present the full details of the theory of Young flattenings in the Schur module
+basis, and give a software implementation in this basis. Using Reuven Hodges'
+recently discovered Young tableau straightening algorithm in the Schur module
+basis as a subroutine, our implementation outperforms Sam's PieriMaps
+implementation by several orders of magnitude on many examples, in particular
+for powers of linear forms, which is the case of highest interest for proving
+border Waring rank lower bounds.
+</summary>
+    <author>
+      <name>Lennart J. Haas</name>
+    </author>
+    <author>
+      <name>Christian Ikenmeyer</name>
+    </author>
+    <link href="http://arxiv.org/abs/2104.02363v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2104.02363v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E10, 68Q17" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.1.2" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

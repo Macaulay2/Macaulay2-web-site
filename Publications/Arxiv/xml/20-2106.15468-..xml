@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.15468%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.15468&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5z8hsgaOV4P8R0/w7VOAgU5SMnQ</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.15468v1</id>
+    <updated>2021-06-29T14:53:19Z</updated>
+    <published>2021-06-29T14:53:19Z</published>
+    <title>From Amplitudes to Contact Cosmological Correlators</title>
+    <summary>  Our understanding of quantum correlators in cosmological spacetimes,
+including those that we can observe in cosmological surveys, has improved
+qualitatively in the past few years. Now we know many constraints that these
+objects must satisfy as consequences of general physical principles, such as
+symmetries, unitarity and locality. Using this new understanding, we derive the
+most general scalar four-point correlator, i.e., the trispectrum, to all orders
+in derivatives for manifestly local contact interactions. To obtain this result
+we use techniques from commutative algebra to write down all possible scalar
+four-particle amplitudes without assuming invariance under Lorentz boosts. We
+then input these amplitudes into a contact reconstruction formula that
+generates a contact cosmological correlator in de Sitter spacetime from a
+contact scalar or graviton amplitude. We also show how the same procedure can
+be used to derive higher-point contact cosmological correlators. Our results
+further extend the reach of the boostless cosmological bootstrap and build a
+new connection between flat and curved spacetime physics.
+</summary>
+    <author>
+      <name>James Bonifacio</name>
+    </author>
+    <author>
+      <name>Enrico Pajer</name>
+    </author>
+    <author>
+      <name>Dong-Gang Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.15468v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.15468v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="astro-ph.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

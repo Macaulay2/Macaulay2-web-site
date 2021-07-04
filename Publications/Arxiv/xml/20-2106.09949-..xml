@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.09949%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.09949&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/j2/8pYl3L1Wm5CE1HSwzNxyB2Wc</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.09949v1</id>
+    <updated>2021-06-18T07:08:53Z</updated>
+    <published>2021-06-18T07:08:53Z</published>
+    <title>Hodge numbers are not derived invariants in positive characteristic</title>
+    <summary>  We study a pair of Calabi-Yau threefolds X and M, fibered in non-principally
+polarized Abelian surfaces and their duals, and an equivalence D^b(X) = D^b(M),
+building on work of Gross, Popescu, Bak, and Schnell. Over the complex numbers,
+X is simply connected while pi_1(M) = (Z/3)^2. In characteristic 3, we find
+that X and M have different Hodge numbers, which would be impossible in
+characteristic 0.
+  In an appendix, we give a streamlined proof of Abuaf's result that the ring
+H^*(O) is a derived invariant of complex threefolds and fourfolds.
+  A second appendix by Alexander Petrov gives a family of higher-dimensional
+examples to show that h^{0,3} is not a derived invariant in any positive
+characteristic.
+</summary>
+    <author>
+      <name>Nicolas Addington</name>
+    </author>
+    <author>
+      <name>Daniel Bragg</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, Macaulay2 and Magma code as ancillary files, with an
+  appendix by Alexander Petrov</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.09949v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.09949v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.08210%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.08210&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QpERkLnjQ4aaL6sU5x1pIiDfvug</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.08210v2</id>
+    <updated>2021-03-23T14:22:31Z</updated>
+    <published>2021-03-15T08:41:59Z</published>
+    <title>Deformations and extensions of Gorenstein weighted projective spaces</title>
+    <summary>  We study the existence of deformations of all $14$ Gorenstein weighted
+projective spaces $\mathbf P$ of dimension $3$ by computing the number of times
+their general anticanonical divisors are extendable. In favorable cases (8 out
+of 14), we find that $\mathbf P$ deforms to a $3$-dimensional extension of a
+general non-primitive polarized $K3$ surface. On our way we show that each such
+$\mathbf P$ in its anticanonical model satisfies property $N_2$, and we compute
+the deformation space of the cone over $\mathbf P$. This gives as a byproduct
+the exact number of times $\mathbf P$ is extendable.
+</summary>
+    <author>
+      <name>Thomas Dedieu</name>
+    </author>
+    <author>
+      <name>Edoardo Sernesi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: minor correction in the proof of Prop.4.1, one ref. added</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.08210v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.08210v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.00766%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.00766&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5VUFRVFc+v9uuFzDSYAnSHthaog</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.00766v1</id>
+    <updated>2021-02-01T11:00:48Z</updated>
+    <published>2021-02-01T11:00:48Z</published>
+    <title>Holonomic functions and prehomogeneous spaces</title>
+    <summary>  A function that is analytic on a domain of $\mathbb{C}^n$ is holonomic if it
+is the solution to a holonomic system of linear homogeneous differential
+equations with polynomial coefficients. We define and study the Bernstein-Sato
+polynomial of a holonomic function on a smooth algebraic variety. We analyze
+the structure of certain sheaves of holonomic functions, such as the algebraic
+functions along a hypersurface, determining their direct sum decompositions
+into indecomposables, that further respect decompositions of Bernstein-Sato
+polynomials. When the space is endowed with the action of a linear algebraic
+group $G$, we study the class of $G$-finite analytic functions, i.e. functions
+that under the action of the Lie algebra of $G$ generate a finite dimensional
+rational $G$-module. These are automatically algebraic functions on a variety
+with a dense orbit. When $G$ is reductive, we give several
+representation-theoretic techniques toward the determination of Bernstein-Sato
+polynomials of $G$-finite functions. We classify the $G$-finite functions on
+all but one of the irreducible reduced prehomogeneous vector spaces, and
+compute the Bernstein-Sato polynomials for distinguished $G$-finite functions.
+The results can be used to construct explicitly equivariant
+$\mathcal{D}$-modules.
+</summary>
+    <author>
+      <name>András Cristian Lőrincz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2102.00766v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.00766v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F10, 14L30, 13A50, 11S90, 16S32, 32S40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

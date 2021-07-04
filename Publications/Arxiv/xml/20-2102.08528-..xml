@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.08528%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.08528&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PQO1P9Ya6nkTx7VG/M7C4Qe7g38</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.08528v1</id>
+    <updated>2021-02-17T01:49:50Z</updated>
+    <published>2021-02-17T01:49:50Z</published>
+    <title>Properties of the Toric Rings of a Chordal Bipartite Family of Graphs</title>
+    <summary>  This work concerns the study of properties of a group of Koszul algebras
+coming from the toric ideals of a chordal bipartite infinite family of graphs
+(alternately, these rings may be interpreted as coming from determinants of
+certain ladder-like structures). We determine a linear system of parameters for
+each ring and explicitly determine the Hilbert series for the resulting
+Artinian reduction. As corollaries, we obtain the multiplicity and regularity
+of the original rings. This work extends results easily derived from lattice
+theory for a subfamily coming from a two-sided ladder to a family where, as we
+show, lattice theory no longer applies in any obvious way and includes
+constructive proofs which may be useful in future study of these rings and
+others.
+</summary>
+    <author>
+      <name>Laura Ballard</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, to appear in Women in Commutative Algebra - Proceedings of
+  the 2019 WICA Workshop</arxiv:comment>
+    <link href="http://arxiv.org/abs/2102.08528v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.08528v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40, 13C15, 13D02, 13F65, 13H15, 16S37" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

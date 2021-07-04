@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.07168%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.07168&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cdTjDZXNvt02tXdLhTUu5hFrgbc</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.07168v1</id>
+    <updated>2021-01-18T17:17:01Z</updated>
+    <published>2021-01-18T17:17:01Z</published>
+    <title>Steiner Configurations ideals: containment and colouring</title>
+    <summary>  Given a homogeneous ideal $I \subseteq k[x_0,\dots,x_n]$, the Containment
+problem studies the relation between symbolic and regular powers of $I$, that
+is, it asks for which pair $m, r \in \mathbb{N}$, $I^{(m)} \subseteq I^r$
+holds. In the last years, several conjectures have been posed on this problem,
+creating an active area of current interests and ongoing investigations. In
+this paper, we investigated the Stable Harbourne Conjecture and the Stable
+Harbourne -- Huneke Conjecture and we show that they hold for the defining
+ideal of a Complement of a Steiner configuration of points in
+$\mathbb{P}^{n}_{k}$. We can also show that the ideal of a Complement of a
+Steiner Configuration of points has expected resurgence, that is, its
+resurgence is strictly less than its big height, and it also satisfies
+Chudnovsky and Demailly's Conjectures. Moreover, given a hypergraph $H$, we
+also study the relation between its colourability and the failure of the
+containment problem for the cover ideal associated to $H$. We apply these
+results in the case that $H$ is a Steiner System.
+</summary>
+    <author>
+      <name>Edoardo Ballico</name>
+    </author>
+    <author>
+      <name>Giuseppe Favacchio</name>
+    </author>
+    <author>
+      <name>Elena Guardo</name>
+    </author>
+    <author>
+      <name>Lorenzo Milazzo</name>
+    </author>
+    <author>
+      <name>Abu Chackalamannil Thomas</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 1 figure, to be published in "Mathematics", Special Issue
+  "Advances in Design Theory and Applications in Combinatorial Algebraic
+  Geometry"</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.07168v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.07168v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F55, 13F20, 14G50, 51E10, 94B27" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

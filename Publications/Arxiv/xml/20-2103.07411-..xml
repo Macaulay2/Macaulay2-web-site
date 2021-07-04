@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.07411%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.07411&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QPpPEPxpvANyet2pMoCUhkmj4nM</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.07411v1</id>
+    <updated>2021-03-12T17:14:59Z</updated>
+    <published>2021-03-12T17:14:59Z</published>
+    <title>Normal Forms for Tensor Rank Decomposition</title>
+    <summary>  We propose a new algorithm for computing the tensor rank decomposition or
+canonical polyadic decomposition of higher-order tensors subject to a rank and
+genericity constraint. Reformulating this as a system of polynomial equations
+allows us to leverage recent numerical linear algebra tools from computational
+algebraic geometry. We describe the complexity of our algorithm in terms of the
+multigraded regularity of a multihomogeneous ideal. We prove effective bounds
+for many formats and ranks and conjecture a general formula. These bounds are
+of independent interest for overconstrained polynomial system solving. Our
+experiments show that our algorithm can outperform state-of-the-art algebraic
+algorithms by an order of magnitude in terms of accuracy, computation time, and
+memory consumption.
+</summary>
+    <author>
+      <name>Simon Telen</name>
+    </author>
+    <author>
+      <name>Nick Vannieuwenhoven</name>
+    </author>
+    <link href="http://arxiv.org/abs/2103.07411v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.07411v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

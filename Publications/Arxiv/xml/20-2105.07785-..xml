@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.07785%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.07785&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zmmh0UB5KEA4iGZJnExVimHA4AE</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.07785v1</id>
+    <updated>2021-05-17T12:50:40Z</updated>
+    <published>2021-05-17T12:50:40Z</published>
+    <title>Algebraic degree of optimization over a variety with an application to
+  $p$-norm distance degree</title>
+    <summary>  We study an optimization problem with the feasible set being a real algebraic
+variety $X$ and whose parametric objective function $f_u$ is gradient-solvable
+with respect to the parametric data $u$. This class of problems includes
+Euclidean distance optimization as well as maximum likelihood optimization. For
+these particular optimization problems, a prominent role is played by the ED
+and ML correspondence, respectively. To our generalized optimization problem we
+attach an optimization correspondence and show that it is equidimensional. This
+leads to the notion of algebraic degree of optimization on $X$. We apply these
+results to $p$-norm optimization, and define the $p$-norm distance degree of
+$X$, which coincides with the ED degree of $X$ for $p=2$. Finally, we derive a
+formula for the $p$-norm distance degree of $X$ as a weighted sum of the polar
+classes of $X$ under suitable transversality conditions.
+</summary>
+    <author>
+      <name>Kaie Kubjas</name>
+    </author>
+    <author>
+      <name>Olga Kuznetsova</name>
+    </author>
+    <author>
+      <name>Luca Sodomaco</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2105.07785v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.07785v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N10, 14M12, 90C26, 13P25, 58K05, 14H05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

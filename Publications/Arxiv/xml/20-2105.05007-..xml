@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.05007%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.05007&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NX9pwIrPleDREjSJ9FCqZlyaveU</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.05007v2</id>
+    <updated>2021-06-16T16:33:29Z</updated>
+    <published>2021-05-11T13:15:10Z</published>
+    <title>Closed Neighborhood Ideals of Finite Simple Graphs</title>
+    <summary>  We investigate Sharifan and Moradi's closed neighborhood ideal of a finite
+simple graph, which is a square-free monomial ideal in a polynomial ring over a
+field. We explicitly describe the minimal irreducible decompositions of these
+ideals. We also characterize the trees whose closed neighborhood ideals are
+Cohen-Macaulay; in particular, this property for closed neighborhood ideals of
+trees is characteristic independent.
+</summary>
+    <author>
+      <name>Jacob Honeycutt</name>
+    </author>
+    <author>
+      <name>Keri Sather-Wagstaff</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages; v.2 update author name and add references, especially to
+  arXiv:2003.04841</arxiv:comment>
+    <link href="http://arxiv.org/abs/2105.05007v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.05007v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13F55, 13H10, secondary: 05C05, 05C69, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

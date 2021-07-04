@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.01898%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.01898&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/O6fIoartM2bWYBb7IQHAM74Tf2w</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.01898v1</id>
+    <updated>2021-06-03T14:41:27Z</updated>
+    <published>2021-06-03T14:41:27Z</published>
+    <title>Well Ordered Covers, Simplicial Bouquets, and Subadditivity of Betti
+  Numbers of Square-Free Monomial Ideals</title>
+    <summary>  Well ordered covers of square-free monomial ideals are subsets of the minimal
+generating set ordered in a certain way that give rise to a Lyubeznik
+resolution for the ideal, and have guaranteed nonvanishing Betti numbers in
+certain degrees. This paper is about square-free monomial ideals which have a
+well ordered cover. We consider the question of subadditivity of syzygies of
+square-free monomial ideals via complements in the lcm lattice of the ideal,
+and examine how lattice complementation breaks well ordered covers of the ideal
+into (well ordered) covers of subideals. We also introduce a family of well
+ordered covers called strongly disjoint sets of simplicial bouquets
+(generalizing work of Kimura on graphs), which are relatively easy to identify
+in simplicial complexes. We examine the subadditivity property via numerical
+characteristics of these bouquets.
+</summary>
+    <author>
+      <name>Sara Faridi</name>
+    </author>
+    <author>
+      <name>Mayada Shahada</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">to appear</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Proceedings of the 2019 WICA workshop</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2106.01898v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.01898v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

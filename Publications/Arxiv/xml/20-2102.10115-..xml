@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.10115%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.10115&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UfLArTg5L6NRLurhj7wDDEqutGM</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.10115v1</id>
+    <updated>2021-02-19T19:00:00Z</updated>
+    <published>2021-02-19T19:00:00Z</published>
+    <title>Root Bundles and Towards Exact Matter Spectra of F-theory MSSMs</title>
+    <summary>  Motivated by the appearance of fractional powers of line bundles in studies
+of vector-like spectra in 4d F-theory compactifications, we analyze the
+structure and origin of these bundles. Fractional powers of line bundles are
+also known as root bundles and can be thought of as generalizations of spin
+bundles. We explain how these root bundles are linked to inequivalent F-theory
+gauge potentials of a $G_4$-flux.
+  While this observation is interesting in its own right, it is particularly
+valuable for F-theory Standard Model constructions. In aiming for MSSMs, it is
+desired to argue for the absence of vector-like exotics. We work out the root
+bundle constraints on all matter curves in the largest class of currently-known
+F-theory Standard Model constructions without chiral exotics and gauge coupling
+unification. On each matter curve, we conduct a systematic "bottom"-analysis of
+all solutions to the root bundle constraints and all spin bundles. Thereby, we
+derive a lower bound for the number of combinations of root bundles and spin
+bundles whose cohomologies satisfy the physical demand of absence of
+vector-like pairs.
+  On a technical level, this systematic study is achieved by a well-known
+diagrammatic description of root bundles on nodal curves. We extend this
+description by a counting procedure, which determines the cohomologies of
+so-called limit root bundles on full blow-ups of nodal curves. By use of
+deformation theory, these results constrain the vector-like spectra on the
+smooth matter curves in the actual F-theory geometry.
+</summary>
+    <author>
+      <name>Martin Bies</name>
+    </author>
+    <author>
+      <name>Mirjam Cvetič</name>
+    </author>
+    <author>
+      <name>Ron Donagi</name>
+    </author>
+    <author>
+      <name>Muyang Liu</name>
+    </author>
+    <author>
+      <name>Marielle Ong</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages + appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/2102.10115v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.10115v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

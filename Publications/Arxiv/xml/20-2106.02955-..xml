@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.02955%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.02955&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TowaAQtVnoBS/7Ncnmcz03gMrnI</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.02955v1</id>
+    <updated>2021-06-05T20:01:14Z</updated>
+    <published>2021-06-05T20:01:14Z</published>
+    <title>Symbolic powers of generalized star configurations of hypersurfaces</title>
+    <summary>  We introduce the class of sparse symmetric shifted monomial ideals. These
+ideals have linear quotients and their Betti numbers are computed. Using this,
+we prove that the symbolic powers of the generalized star configuration ideal
+are sequentially Cohen--Macaulay under some mild genericness assumption. With
+respect to these symbolic powers, we also consider the Harbourne--Huneke
+containment problem and establish the Demailly-like bound.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Yi-Huang Shen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.02955v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.02955v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13A50, 13D02, 14N20, 52C35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

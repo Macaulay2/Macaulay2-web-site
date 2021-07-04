@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.05051%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.05051&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/EtiQ6Nu04tdSoN/pp47kBwHAv68</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.05051v1</id>
+    <updated>2021-06-09T13:05:18Z</updated>
+    <published>2021-06-09T13:05:18Z</published>
+    <title>Koszul Gorenstein algebras from Cohen-Macaulay simplicial complexes</title>
+    <summary>  We associate with every pure flag simplicial complex $\Delta$ a standard
+graded Gorenstein $\mathbb{F}$-algebra $R_{\Delta}$ whose homological features
+are largely dictated by the combinatorics and topology of $\Delta$. As our main
+result, we prove that the residue field $\mathbb{F}$ has a $k$-step linear
+$R_{\Delta}$-resolution if and only if $\Delta$ satisfies Serre's condition
+$(S_k)$ over $\mathbb{F}$, and that $R_{\Delta}$ is Koszul if and only if
+$\Delta$ is Cohen-Macaulay over $\mathbb{F}$. Moreover, we show that
+$R_{\Delta}$ has a quadratic Gr\"{o}bner basis if and only if $\Delta$ is
+shellable. We give two applications: first, we construct quadratic Gorenstein
+$\mathbb{F}$-algebras which are Koszul if and only if the characteristic of
+$\mathbb{F}$ is not in any prescribed set of primes. Finally, we prove that
+whenever $R_{\Delta}$ is Koszul the coefficients of its $\gamma$-vector
+alternate in sign, settling in the negative an algebraic generalization of a
+conjecture by Charney and Davis.
+</summary>
+    <author>
+      <name>Alessio D'Alì</name>
+    </author>
+    <author>
+      <name>Lorenzo Venturello</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 2 figures, 2 tables. Comments are very welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.05051v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.05051v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40 (Primary) 16S37, 13H10, 13D02, 13F65 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

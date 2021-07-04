@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.13137%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.13137&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+3FAlHZjHHW/EUcYObHeg1uNfc8</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.13137v1</id>
+    <updated>2021-06-24T16:10:27Z</updated>
+    <published>2021-06-24T16:10:27Z</published>
+    <title>Components and singularities of Quot schemes and varieties of commuting
+  matrices</title>
+    <summary>  We investigate the variety of commuting matrices. We classify its components
+for any number of matrices of size at most 7. We prove that starting from
+quadruples of size 8 matrices, this scheme has generically nonreduced
+components, while up to degree 7 it is generically reduced. Our approach is to
+recast the problem as deformations of modules and generalize an array of
+methods: apolarity, duality and Bia{\l{}}ynicki-Birula decompositions to this
+setup. We include a thorough review of our methods to make the paper
+self-contained and accessible to both algebraic and linear-algebraic
+communities. Our results give the corresponding statements for the Quot schemes
+of points, in particular we classify the components of
+$Quot_d(O_{\mathbb{A}^n}^{\oplus r})$ for $d\leq 7$ and all $r$, $n$.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <author>
+      <name>Klemen Šivic</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments most welcome! Initial submission: slight changes probably
+  will occur. 52 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.13137v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.13137v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 15A27, 13E10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

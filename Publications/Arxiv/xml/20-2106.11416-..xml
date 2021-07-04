@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.11416%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.11416&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZnLo2ZI9EnxS41L+zL+W1yplKJ0</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.11416v1</id>
+    <updated>2021-06-21T21:14:08Z</updated>
+    <published>2021-06-21T21:14:08Z</published>
+    <title>On the Number of Equilibria Balancing Newtonian Point Masses with a
+  Central Force</title>
+    <summary>  We consider the critical points (equilibria) of a planar potential generated
+by $n$ Newtonian point masses augmented with a quadratic term (such as arises
+from a centrifugal effect). Particular cases of this problem have been
+considered previously in studies of the circular restricted $n$-body problem.
+We show that the number of equilibria is finite for a generic set of
+parameters, and we establish estimates for the number of equilibria. We prove
+that the number of equilibria is bounded below by $n+1$, and we provide
+examples to show that this lower bound is sharp. We prove an upper bound on the
+number of equilibria that grows exponentially in $n$. In order to establish a
+lower bound on the maximum number of equilibria, we analyze a class of
+examples, referred to as ``ring configurations'', consisting of $n-1$ equal
+masses positioned at vertices of a regular polygon with an additional mass
+located at the center. Previous numerical observations indicate that these
+configurations can produce as many as $5n-5$ equilibria. We verify analytically
+that the ring configuration has at least $5n-5$ equilibria when the central
+mass is sufficiently small. We conjecture that the maximum number of equilibria
+grows linearly with the number of point masses. We also discuss some
+mathematical similarities to other equilibrium problems in mathematical
+physics, namely, Maxwell's problem from electrostatics and the image counting
+problem from gravitational lensing.
+</summary>
+    <author>
+      <name>Nickolas Arustamyan</name>
+    </author>
+    <author>
+      <name>Christopher Cox</name>
+    </author>
+    <author>
+      <name>Erik Lundberg</name>
+    </author>
+    <author>
+      <name>Sean Perry</name>
+    </author>
+    <author>
+      <name>Zvi Rosen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.11416v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.11416v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="70F10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

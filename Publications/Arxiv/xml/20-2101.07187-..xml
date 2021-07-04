@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2101.07187%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2101.07187&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2opbusgL+ZvjVUq2NON64GL4Fe4</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2101.07187v3</id>
+    <updated>2021-03-22T16:16:26Z</updated>
+    <published>2021-01-18T17:44:49Z</published>
+    <title>On the Bounded Negativity Conjecture and singular plane curves</title>
+    <summary>  There are no known failures of Bounded Negativity in characteristic 0. In the
+light of recent work showing the Bounded Negativity Conjecture fails in
+positive characteristics for rational surfaces, we propose new characteristic
+free conjectures as a replacement. We also develop bounds on numerical
+characteristics of curves constraining their negativity. For example, we show
+that the $H$-constant of a rational curve $C$ with at most $9$ singular points
+satisfies $H(C)&gt;-2$ regardless of the characteristic.
+</summary>
+    <author>
+      <name>Alexandru Dimca</name>
+    </author>
+    <author>
+      <name>Brian Harbourne</name>
+    </author>
+    <author>
+      <name>Gabriel Sticlaru</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v.3. Substantially upgraded new version, having Brian Harbourne as a
+  new co-author. All the results are now characteristic free, and there are new
+  key examples</arxiv:comment>
+    <link href="http://arxiv.org/abs/2101.07187v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2101.07187v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

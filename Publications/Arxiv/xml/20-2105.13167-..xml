@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.13167%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.13167&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/AKlhedYoSpKeYg2uC+y83WiLQSA</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.13167v1</id>
+    <updated>2021-05-27T14:21:50Z</updated>
+    <published>2021-05-27T14:21:50Z</published>
+    <title>Generic local rings on a spectrum between Golod and Gorenstein</title>
+    <summary>  Artinian quotients R of the local ring Q = k[[x,y,z]] are classified by
+multiplicative structures on A = Tor_Q^*(R,k); in particular, R is Gorenstein
+if and only if A is a Poincare duality algebra while R is Golod if and only if
+all products in A_{&gt;0} are trivial. There is empirical evidence that generic
+quotient rings with small socle ranks fall on a spectrum between Golod and
+Gorenstein in a very precise sense: The algebra A breaks up as a direct sum of
+a Poincare duality algebra P and a graded vector space V, on which P_{&gt;0} acts
+trivially. That is, A is a trivial extension, A = P \ltimes V, and the extremes
+A = (k \oplus \Sigma k) \ltimes V and A = P correspond to R being Golod and
+Gorenstein, respectively.
+  We prove that this observed behavior is, indeed, the generic behavior for
+graded quotients R of socle rank 2, and we show that the rank of P is
+controlled by the difference between the order and the degree of the socle
+polynomial of R.
+</summary>
+    <author>
+      <name>Lars Winther Christensen</name>
+    </author>
+    <author>
+      <name>Oana Veliche</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pp</arxiv:comment>
+    <link href="http://arxiv.org/abs/2105.13167v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.13167v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13C05. Secondary 13A02, 13D02, 13D07, 13E10, 13P20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

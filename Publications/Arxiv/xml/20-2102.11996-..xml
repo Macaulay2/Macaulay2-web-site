@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2102.11996%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2102.11996&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/PoDpyoQKXK/xVQrh+CfmrnnOCcU</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2102.11996v1</id>
+    <updated>2021-02-24T00:39:57Z</updated>
+    <published>2021-02-24T00:39:57Z</published>
+    <title>On Relative Pose Recovery for Multi-Camera Systems</title>
+    <summary>  The point correspondence (PC) and affine correspondence (AC) are widely used
+for relative pose estimation. An AC consists of a PC across two views and an
+affine transformation between the small patches around this PC. Previous work
+demonstrates that one AC generally provides three independent constraints for
+relative pose estimation. For multi-camera systems, there is still not any
+AC-based minimal solver for general relative pose estimation. To deal with this
+problem, we propose a complete solution to relative pose estimation from two
+ACs for multi-camera systems, consisting of a series of minimal solvers. The
+solver generation in our solution is based on Cayley or quaternion
+parameterization for rotation and hidden variable technique to eliminate
+translation. This solver generation method is also naturally applied to
+relative pose estimation from PCs, resulting in a new six-point method for
+multi-camera systems. A few extensions are made, including relative pose
+estimation with known rotation angle and/or with unknown focal lengths.
+Extensive experiments demonstrate that the proposed AC-based solvers and
+PC-based solvers are effective and efficient on synthetic and real-world
+datasets.
+</summary>
+    <author>
+      <name>Ji Zhao</name>
+    </author>
+    <author>
+      <name>Banglei Guan</name>
+    </author>
+    <link href="http://arxiv.org/abs/2102.11996v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2102.11996v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

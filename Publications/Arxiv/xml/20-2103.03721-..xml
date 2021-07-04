@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2103.03721%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2103.03721&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Hs0WK8MsWvCtrJUt5zlokuYcJdY</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2103.03721v2</id>
+    <updated>2021-03-18T07:23:20Z</updated>
+    <published>2021-03-05T14:51:23Z</published>
+    <title>Arithmetic and geometric deformations of $F$-pure and $F$-regular
+  singularities</title>
+    <summary>  Given a normal $\mathbb{Q}$-Gorenstein complex variety $X$, we prove that if
+one spreads it out to a normal $\mathbb{Q}$-Gorenstein scheme $\mathcal{X}$ of
+mixed characteristic whose reduction $\mathcal{X}_p$ modulo $p$ has normal
+$F$-pure singularities for a single prime $p$, then $X$ has log canonical
+singularities. In addition, we show its analog for log terminal singularities,
+without assuming that $\mathcal{X}$ is $\mathbb{Q}$-Gorenstein, which is a
+generalization of a result of Ma-Schwede. We also prove that two-dimensional
+strongly $F$-regular singularities are stable under equal characteristic
+deformations. Our results give an affirmative answer to a conjecture of
+Liedtke-Martin-Matsumoto on deformations of linearly reductive quotient
+singularities.
+</summary>
+    <author>
+      <name>Kenta Sato</name>
+    </author>
+    <author>
+      <name>Shunsuke Takagi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31pages; v2: minor changes, Section 5 of v1 removed and incorporated
+  into another paper</arxiv:comment>
+    <link href="http://arxiv.org/abs/2103.03721v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2103.03721v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A35, 14B05, 14B07, 14D10, 14F18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

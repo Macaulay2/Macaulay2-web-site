@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.06859%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.06859&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WkjRf+OFHgNPCncmbrnyDClQu80</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.06859v2</id>
+    <updated>2021-06-24T19:39:02Z</updated>
+    <published>2021-06-12T20:31:05Z</published>
+    <title>Divisors in the moduli space of Debarre-Voisin varieties</title>
+    <summary>  Let $V_{10}$ be a 10-dimensional complex vector space and let
+$\sigma\in\bigwedge^3V_{10}^\vee$ be a non-zero alternating 3-form. One can
+define several associated degeneracy loci: the Debarre-Voisin variety
+$X_6^\sigma\subset\mathrm{Gr}(6,V_{10})$, the Peskine variety
+$X_1^\sigma\subset\mathbf{P}(V_{10})$, and the hyperplane section
+$X_3^\sigma\subset \mathrm{Gr}(3,V_{10})$. Their interest stems from the fact
+that the Debarre-Voisin varieties form a locally complete family of projective
+hyperk\"ahler fourfolds of $\mathrm{K3}^{[2]}$-type. We prove that when smooth,
+the varieties $X_6^\sigma$, $X_1^\sigma$, and $X_3^\sigma$ share one same
+integral Hodge structure, and that $X_1^\sigma$ and $X_3^\sigma$ both satisfy
+the integral Hodge conjecture in all degrees. This is obtained as a consequence
+of a detailed analysis of the geometry of these varieties along three divisors
+in the moduli space. On one of the divisors, an associated K3 surface $S$ of
+degree 6 can be constructed geometrically and the Debarre-Voisin fourfold is
+shown to be isomorphic to a moduli space of twisted sheaves on $S$, in analogy
+with the case of cubic fourfolds containing a plane.
+</summary>
+    <author>
+      <name>Vladimiro Benedetti</name>
+    </author>
+    <author>
+      <name>Jieao Song</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages; add references to arXiv:2105.07697</arxiv:comment>
+    <link href="http://arxiv.org/abs/2106.06859v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.06859v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C30, 14J28, 14J42, 14J45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

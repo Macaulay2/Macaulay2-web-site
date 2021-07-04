@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2106.03676%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2106.03676&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Fm58g1P04Xfw/LO89g5WsuhUbSQ</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2106.03676v1</id>
+    <updated>2021-06-07T14:57:57Z</updated>
+    <published>2021-06-07T14:57:57Z</published>
+    <title>Learning a performance metric of Buchberger's algorithm</title>
+    <summary>  What can be (machine) learned about the complexity of Buchberger's algorithm?
+  Given a system of polynomials, Buchberger's algorithm computes a Gr\"obner
+basis of the ideal these polynomials generate using an iterative procedure
+based on multivariate long division. The runtime of each step of the algorithm
+is typically dominated by a series of polynomial additions, and the total
+number of these additions is a hardware independent performance metric that is
+often used to evaluate and optimize various implementation choices. In this
+work we attempt to predict, using just the starting input, the number of
+polynomial additions that take place during one run of Buchberger's algorithm.
+Good predictions are useful for quickly estimating difficulty and understanding
+what features make Gr\"obner basis computation hard. Our features and methods
+could also be used for value models in the reinforcement learning approach to
+optimize Buchberger's algorithm introduced in [Peifer, Stillman, and
+Halpern-Leistner, 2020].
+  We show that a multiple linear regression model built from a set of
+easy-to-compute ideal generator statistics can predict the number of polynomial
+additions somewhat well, better than an uninformed model, and better than
+regression models built on some intuitive commutative algebra invariants that
+are more difficult to compute. We also train a simple recursive neural network
+that outperforms these linear models. Our work serves as a proof of concept,
+demonstrating that predicting the number of polynomial additions in
+Buchberger's algorithm is a feasible problem from the point of view of machine
+learning.
+</summary>
+    <author>
+      <name>Jelena Mojsilović</name>
+    </author>
+    <author>
+      <name>Dylan Peifer</name>
+    </author>
+    <author>
+      <name>Sonja Petrović</name>
+    </author>
+    <link href="http://arxiv.org/abs/2106.03676v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2106.03676v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.ML" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

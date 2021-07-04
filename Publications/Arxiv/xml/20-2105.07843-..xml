@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2105.07843%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2105.07843&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YjpxSfcixnfPFEpSgqpbcTEFv4o</id>
+  <updated>2021-07-04T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2105.07843v1</id>
+    <updated>2021-05-17T13:53:21Z</updated>
+    <published>2021-05-17T13:53:21Z</published>
+    <title>The 3-dimensional Lyness map and a self-mirror log Calabi-Yau 3-fold</title>
+    <summary>  The 2-dimensional Lyness map is a 5-periodic birational map of the plane
+which may famously be resolved to give an automorphism of a log Calabi-Yau
+surface, given by the complement of an anticanonical pentagon of $(-1)$-curves
+in a del Pezzo surface of degree 5. This surface has many remarkable properties
+and, in particular, it is mirror to itself. We construct the 3-dimensional big
+brother of this surface by considering the 3-dimensional Lyness map, which is
+an 8-periodic birational map. The variety we obtain is a special (non-$\mathbb
+Q$-factorial) affine Fano 3-fold of type $V_{12}$, and we show that it is a
+self-mirror log Calabi-Yau 3-fold.
+</summary>
+    <author>
+      <name>Tom Ducat</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">46 pages, many figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2105.07843v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2105.07843v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
