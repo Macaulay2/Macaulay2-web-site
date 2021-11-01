@@ -22,3 +22,4 @@ install:
 	$(MAKE) -C ../Downloads/Microsoft-Windows/Cygwin index
 	$(MAKE) -C ../Downloads/GNU-Linux/Debian all
 	$(MAKE) -C ../Downloads/MacOSX index-local
+	$(MAKE) index
