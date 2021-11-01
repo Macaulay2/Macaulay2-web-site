@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.10705%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.10705&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/zTmwGHmx3QpOxMveIwh9vn/IowI</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.10705v1</id>
+    <updated>2021-10-20T18:01:05Z</updated>
+    <published>2021-10-20T18:01:05Z</published>
+    <title>Characterizing Multigraded Regularity on Products of Projective Spaces</title>
+    <summary>  We explore the relationship between multigraded Castelnuovo-Mumford
+regularity, truncations, Betti numbers, and virtual resolutions. We prove that
+on a product of projective spaces $X$, the multigraded regularity region of a
+module $M$ is determined by the minimal graded free resolutions of the
+truncations $M_{\geq\mathbf{d}}$ for $\mathbf{d}\in\operatorname{Pic}X$.
+Further, by relating the minimal graded free resolutions of $M$ and
+$M_{\geq\mathbf{d}}$ we provide a new bound on multigraded regularity of $M$ in
+terms of its Betti numbers. Using this characterization of regularity and this
+bound we also compute the multigraded Castelnuovo-Mumford regularity for a wide
+class of complete intersections.
+</summary>
+    <author>
+      <name>Juliette Bruce</name>
+    </author>
+    <author>
+      <name>Lauren Cranton Heller</name>
+    </author>
+    <author>
+      <name>Mahrud Sayrafi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">29 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.10705v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.10705v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

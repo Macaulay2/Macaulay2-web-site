@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.11469%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.11469&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BO71WJVLGwrPuZSaUkyzCoGLqpQ</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11469v1</id>
+    <updated>2021-09-23T16:15:14Z</updated>
+    <published>2021-09-23T16:15:14Z</published>
+    <title>Big quantum cohomology of even dimensional intersections of two quadrics</title>
+    <summary>  For every even dimensional smooth complete intersection, of dimension at
+least 4, of two quadric hypersurfaces in a projective space, we compute the
+genus zero Gromov-Witten invariants of length 4, and then we show that, besides
+a special invariant, all genus zero Gromov-Witten invariants can be
+reconstructed from the invariants of length 4. In dimension 4, we compute the
+special invariant by relating it to a curve counting problem. We also show that
+the generating function of genus zero Gromov-Witten invariants has a positive
+radius of convergence, and the associated Frobenius manifold is generically
+semisimple.
+</summary>
+    <author>
+      <name>Xiaowen Hu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">59 pages. The relevant Macaulay2 packages can be found at
+  https://github.com/huxw06/Quantum-cohomology-of-Fano-complete-intersections.
+  Comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.11469v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.11469v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N35, 53D45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

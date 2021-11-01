@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.07584%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.07584&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3aT0Qk56tJ0aqPZ6hJpz3FBSVpM</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.07584v1</id>
+    <updated>2021-09-15T21:28:44Z</updated>
+    <published>2021-09-15T21:28:44Z</published>
+    <title>Kinematic singularities of Feynman integrals and principal
+  A-determinants</title>
+    <summary>  We consider the analytic properties of Feynman integrals from the perspective
+of general A-discriminants and A-hypergeometric functions introduced by
+Gelfand,Kapranov and Zelevinsky (GKZ). This enables us, to give a clear and
+mathematically rigour description of the singular locus, also known as Landau
+variety, via principal A-determinants. We also comprise a description of the
+various second type singularities. Moreover, by the
+Horn-Kapranov-parametrization we give a very efficient way to calculate a
+parametrization of Landau varieties. We furthermore present a new approach to
+study the sheet structure of multivalued Feynman integrals by use of coamoebas.
+</summary>
+    <author>
+      <name>René Pascal Klausen</name>
+    </author>
+    <link href="http://arxiv.org/abs/2109.07584v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.07584v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

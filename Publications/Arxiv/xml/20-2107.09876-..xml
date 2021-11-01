@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.09876%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.09876&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/j/QlAhthAiMwfcCxNKozMAeg33c</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.09876v2</id>
+    <updated>2021-09-18T01:41:03Z</updated>
+    <published>2021-07-21T04:37:53Z</published>
+    <title>Transportation Distance between Probability Measures on the Infinite
+  Regular Tree</title>
+    <summary>  In the infinite regular tree $\mathbb{T}_{q+1}$ with $q \in \mathbb{Z}_{\ge
+2}$, we consider families $\{\mu_u^n\}$, indexed by vertices $u$ and
+nonnegative integers ("discrete time steps") $n$, of probability measures such
+that $\mu_u^n(v) = \mu_{u'}^n(v')$ if the distances $\operatorname{dist}(u,v)$
+and $\operatorname{dist}(u',v')$ are equal. Let $d$ be a positive integer, and
+let $X$ and $Y$ be two vertices in the tree which are at distance $d$ apart. We
+compute a formula for the transportation distance $W_1\!\left( \mu_X^n, \mu_Y^n
+\right)$ in terms of generating functions. In the special case where $\mu_u^n =
+\mathfrak{m}_u^n$ are measures from simple random walks after $n$ time steps,
+we establish the linear asymptotic formula $W_1\!\left( \mathfrak{m}_X^n,
+\mathfrak{m}_Y^n \right) = An + B + o(1)$, as $n \to \infty$, and give the
+formulas for the coefficients $A$ and $B$ in closed forms. We also obtain
+linear asymptotic formulas in the cases of spheres and uniform balls as the
+radii tend to infinity. We show that these six coefficients (two from simple
+random walks, two from spheres, and two from uniform balls) are related by
+inequalities.
+</summary>
+    <author>
+      <name>Pakawut Jiradilok</name>
+    </author>
+    <author>
+      <name>Supanat Kamtue</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">37 pages, 3 figures. Comments are very welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.09876v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.09876v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A16 (Primary) 05A15, 05C12, 05C21, 49Q22 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

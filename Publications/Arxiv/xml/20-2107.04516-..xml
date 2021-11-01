@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.04516%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.04516&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2lUtmhwmQt61+LN+ehxZzIHTSII</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.04516v2</id>
+    <updated>2021-07-23T15:17:17Z</updated>
+    <published>2021-07-09T16:03:33Z</published>
+    <title>Staged tree models with toric structure</title>
+    <summary>  A staged tree model is a discrete statistical model encoding relationships
+between events. These models are realised by directed trees with coloured
+vertices. In algebro-geometric terms, the model consists of points inside a
+toric variety. For certain trees, called balanced, the model is in fact the
+intersection of the toric variety and the probability simplex. This gives the
+model a straightforward description, and has computational advantages. In this
+paper we show that the class of staged tree models with a toric structure
+extends far outside of the balanced case, if we allow a change of coordinates.
+It is an open problem whether all staged tree models have toric structure.
+</summary>
+    <author>
+      <name>Christiane Görgen</name>
+    </author>
+    <author>
+      <name>Aida Maraj</name>
+    </author>
+    <author>
+      <name>Lisa Nicklasson</name>
+    </author>
+    <link href="http://arxiv.org/abs/2107.04516v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.04516v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62R01, 62A09, 13F65, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

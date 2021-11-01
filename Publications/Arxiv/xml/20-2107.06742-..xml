@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.06742%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.06742&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/G35N+PIFrXkc/PTYUCnw7ZxcNXU</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.06742v1</id>
+    <updated>2021-07-14T14:36:44Z</updated>
+    <published>2021-07-14T14:36:44Z</published>
+    <title>A note on almost Cohen-Macaulay monomial ideals</title>
+    <summary>  Let $R = k[x_1,\ldots, x_n]$ be the polynomial ring in $n$ variables over a
+field $k$ and let $I$ be a monomial ideal of $R$. In this paper, we study
+almost Cohen-Macaulay simplicial complex. Moreover, we characterize the almost
+Cohen-Macaulay polymatroidal Veronese type and transversal polymatroidal ideals
+and furthermore we give some examples.
+</summary>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Dler Naderi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">* pages. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.06742v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.06742v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C14, 13C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

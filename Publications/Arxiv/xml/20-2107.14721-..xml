@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.14721%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.14721&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ql5MfgogfS4YeDaTxUz9bdJ2Y+4</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.14721v2</id>
+    <updated>2021-10-25T08:40:05Z</updated>
+    <published>2021-07-30T15:52:32Z</published>
+    <title>Co-homology of Differential Forms and Feynman diagrams</title>
+    <summary>  In the present review we provide an extensive analysis of the intertwinement
+between Feynman integrals and cohomology theories in the light of the recent
+developments. Feynman integrals enter in several perturbative methods for
+solving non linear PDE, starting from Quantum Field Theories and including
+General Relativity and Condensed Matter Physics. Precision calculations involve
+several loop integrals, one strategy to address which is to bring them back in
+terms of linear combinations of a complete set of integrals (the Master
+Integrals). In this sense Feynman integrals can be thought as defining a sort
+of vector space to be decomposed in term of a basis. Such a task may be simpler
+if the vector space is endowed with a scalar product. Recently, it has been
+discovered that, interpreting these spaces in terms of twisted cohomology, the
+role of a scalar product is played by intersection products. The present review
+is meant to provide the mathematical tools, usually familiar to mathematicians
+but often not in the standard baggage of physicists, like singular, simplicial
+and intersection (co)homologies, hodge structures etc., apt to restate this
+strategy on precise mathematical grounds. It is thought to be both an
+introduction for beginners interested to the topic, as well as a general
+reference providing helpful tools for tackling the several still open problems.
+</summary>
+    <author>
+      <name>Sergio Luigi Cacciatori</name>
+    </author>
+    <author>
+      <name>Maria Conti</name>
+    </author>
+    <author>
+      <name>Simone Trevisan</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.3390/universe7090328</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.3390/universe7090328" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">70 pages, 23 figures</arxiv:comment>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Universe, Volume 7, Issue 9 (September 2021)</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2107.14721v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.14721v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

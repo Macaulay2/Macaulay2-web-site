@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.10475%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.10475&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aWwM3ZabVOw9oKcsHPe+9s3cqWk</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.10475v1</id>
+    <updated>2021-10-20T10:27:37Z</updated>
+    <published>2021-10-20T10:27:37Z</published>
+    <title>The generalized roof F(1,2,n): Hodge structures and derived categories</title>
+    <summary>  We classify generalized homogeneous roofs, i.e. quotients of simply
+connected, semisimple Lie groups by a parabolic subgroup, which admit two
+projective bundle structures. Given a general hyperplane section on such a
+variety, we consider the zero loci of its pushforwards along the projective
+bundle structures and we discuss their properties at the level of Hodge
+structures. In the case of the flag variety $F(1,2,n)$ with its projections to
+$\mathbb{P}^{n-1}$ and $G(2, n)$, we construct a derived embedding of the
+relevant zero loci by methods based on the study of $B$-brane categories in the
+context of a gauged linear sigma model.
+</summary>
+    <author>
+      <name>Enrico Fatighenti</name>
+    </author>
+    <author>
+      <name>Michał Kapustka</name>
+    </author>
+    <author>
+      <name>Giovanni Mongardi</name>
+    </author>
+    <author>
+      <name>Marco Rampazzo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.10475v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.10475v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J45, 14J81, 14F08, 14C30, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

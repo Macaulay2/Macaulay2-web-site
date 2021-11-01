@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.05647%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.05647&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pp4T/HnSaEPCaI5MuRkKo0wXzoo</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.05647v1</id>
+    <updated>2021-07-12T18:00:03Z</updated>
+    <published>2021-07-12T18:00:03Z</published>
+    <title>On genus one fibered Calabi-Yau threefolds with 5-sections</title>
+    <summary>  Elliptic and genus one fibered Calabi-Yau spaces play a prominent role in
+string theory and mathematics. In this article we discuss a class of genus one
+fibered Calabi-Yau threefolds with 5-sections from various perspectives. In
+algebraic geometry, such Calabi-Yaus can be constructed as complete
+intersections in Grassmannian fibrations and as Pfaffian varieties. These
+constructions naturally fit into the framework of homological projective
+duality and lead to dual pairs of Calabi-Yaus. From a physics perspective,
+these spaces can be realised as low-energy configurations ("phases") of gauged
+linear sigma models (GLSMs) with non-Abelian gauge groups, where the dual
+geometries arise as phases of the same GLSM. Using the modular bootstrap
+approach of topological string theory, one can compute all-genus Gopakumar-Vafa
+invariants of these Calabi-Yaus. We observe that homological projective duality
+acts as an element of $\Gamma_0(5)$ on the topological string partition
+function and the partition functions of dual geometries transform into each
+other. Moreover, we study the geometries from an M-/F-theory perspective. We
+compute the F-theory spectrum and show how the genus one-fibered Calabi-Yaus
+are connected to certain Calabi-Yaus in toric varieties via a series of Higgs
+transitions. Based on the F-theory physics, we conjecture that dual geometries
+are elements of the same Tate-Shafarevich group. Our analysis also leads to a
+classification of 5-section geometries, as well as the construction of F-theory
+models with charge 5 hypermultiplets.
+</summary>
+    <author>
+      <name>Johanna Knapp</name>
+    </author>
+    <author>
+      <name>Emanuel Scheidegger</name>
+    </author>
+    <author>
+      <name>Thorsten Schimannek</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">117+36 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.05647v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.05647v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

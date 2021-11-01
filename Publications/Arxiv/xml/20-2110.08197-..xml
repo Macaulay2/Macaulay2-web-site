@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.08197%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.08197&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7JGrWfl/1awfaCRyKdL3QrHBv5U</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.08197v1</id>
+    <updated>2021-10-15T16:53:44Z</updated>
+    <published>2021-10-15T16:53:44Z</published>
+    <title>Borel-Moore homology of determinantal varieties</title>
+    <summary>  We compute the rational Borel-Moore homology groups for affine determinantal
+varieties in the spaces of general, symmetric, and skew-symmetric matrices,
+solving a problem suggested by the work of Pragacz and Ratajski. The main
+ingredient is the relation with Hartshorne's algebraic de Rham homology theory,
+and the calculation of the singular cohomology of matrix orbits, using the
+methods of Cartan and Borel. We also establish the degeneration of the
+\v{C}ech-de Rham spectral sequence for determinantal varieties, and compute
+explicitly the dimensions of de Rham cohomology groups of local cohomology with
+determinantal support, which are analogues of Lyubeznik numbers first
+introduced by Switala.
+</summary>
+    <author>
+      <name>András C. Lőrincz</name>
+    </author>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.08197v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.08197v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M12, 14F10, 13D45, 14B15, 14F40, 13D07, 55N33, 55N35, 57T15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

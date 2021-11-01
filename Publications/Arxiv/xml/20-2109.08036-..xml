@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.08036%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.08036&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/5Ijov/qy2KpQ4/w7qhKzOIqDohw</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.08036v1</id>
+    <updated>2021-09-16T14:56:19Z</updated>
+    <published>2021-09-16T14:56:19Z</published>
+    <title>Landau Discriminants</title>
+    <summary>  Scattering amplitudes in quantum field theories have intricate analytic
+properties as functions of the energies and momenta of the scattered particles.
+In perturbation theory, their singularities are governed by a set of nonlinear
+polynomial equations, known as Landau equations, for each individual Feynman
+diagram. The singularity locus of the associated Feynman integral is made
+precise with the notion of the Landau discriminant, which characterizes when
+the Landau equations admit a solution. In order to compute this discriminant,
+we present approaches from classical elimination theory, as well as a numerical
+algorithm based on homotopy continuation. These methods allow us to compute
+Landau discriminants of various Feynman diagrams up to 3 loops, which were
+previously out of reach. For instance, the Landau discriminant of the envelope
+diagram is a reducible surface of degree 45 in the three-dimensional space of
+kinematic invariants. We investigate geometric properties of the Landau
+discriminant, such as irreducibility, dimension and degree. In particular, we
+find simple examples in which the Landau discriminant has codimension greater
+than one. Furthermore, we describe a numerical procedure for determining which
+parts of the Landau discriminant lie in the physical regions. In order to study
+degenerate limits of Landau equations and bounds on the degree of the Landau
+discriminant, we introduce Landau polytopes and study their facet structure.
+Finally, we provide an efficient numerical algorithm for the computation of the
+number of master integrals based on the connection to algebraic statistics. The
+algorithms used in this work are implemented in the open-source Julia package
+Landau.jl available at https://mathrepo.mis.mpg.de/Landau/.
+</summary>
+    <author>
+      <name>Sebastian Mizera</name>
+    </author>
+    <author>
+      <name>Simon Telen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">53 pages, 8 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.08036v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.08036v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

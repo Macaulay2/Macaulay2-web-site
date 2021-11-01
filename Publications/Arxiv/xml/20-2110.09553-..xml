@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.09553%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.09553&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/a9QNPmG+uwT9zSWcXm/7pKzcggQ</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.09553v1</id>
+    <updated>2021-10-18T18:06:31Z</updated>
+    <published>2021-10-18T18:06:31Z</published>
+    <title>The non-abelian Brill-Noether divisor on $M_{13}$
+  and the Kodaira dimension of $R_{13}$</title>
+    <summary>  The paper is devoted to highlighting several novel aspects of the moduli
+space of curves of genus 13, the first genus g where phenomena related to K3
+surfaces no longer govern the birational geometry of M_g. We compute the class
+of the non-abelian Brill-Noether divisor on M_13 of curves that have a stable
+rank 2 vector bundle with many sections. This provides the first example of an
+effective divisor on M_g with slope less than 6+10/g. Earlier work on the Slope
+Conjecture suggested that such divisors may not exist. The main geometric
+application of our result is a proof that the Prym moduli space of genus 13 is
+of general type. Among other things, we also prove the Bertram-Feinberg-Mukai
+and the Strong Maximal Rank Conjectures on M_13
+</summary>
+    <author>
+      <name>Gavril Farkas</name>
+    </author>
+    <author>
+      <name>Dave Jensen</name>
+    </author>
+    <author>
+      <name>Sam Payne</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.09553v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.09553v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

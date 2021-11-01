@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.04928%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.04928&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XN6/6DlNF3S+zEmpW3555fBBauw</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.04928v1</id>
+    <updated>2021-10-10T23:28:47Z</updated>
+    <published>2021-10-10T23:28:47Z</published>
+    <title>The Chow rings of moduli spaces of elliptic surfaces over $\mathbb{P}^1$</title>
+    <summary>  Let $E_N$ denote the coarse moduli space of smooth elliptic surfaces over
+$\mathbb{P}^1$ with fundamental invariant $N$. We compute the Chow ring
+$A^*(E_N)$ for $N\geq 2$. For each $N\geq 2$, $A^*(E_N)$ is Gorenstein with
+socle in codimension $16$, which is surprising in light of the fact that the
+dimension of $E_N$ is $10N-2$. As an application, we show that the maximal
+dimension of a complete subvariety of $E_N$ is $16$. When $N=2$, the
+corresponding elliptic surfaces are K3 surfaces polarized by a hyperbolic
+lattice $U$. We show that the generators for $A^*(E_2)$ are tautological
+classes on the moduli space $\mathcal{F}_{U}$ of $U$-polarized K3 surfaces,
+which provides evidence for a conjecture of Oprea and Pandharipande on the
+tautological rings of moduli spaces of lattice polarized K3 surfaces.
+</summary>
+    <author>
+      <name>Samir Canning</name>
+    </author>
+    <author>
+      <name>Bochao Kong</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.04928v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.04928v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C15, 14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2108.09729%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2108.09729&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Itedli8kxo3ngwffc26tFXcCz7s</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2108.09729v2</id>
+    <updated>2021-08-24T01:48:37Z</updated>
+    <published>2021-08-22T14:05:47Z</published>
+    <title>Wiles defect of Hecke algebras via local-global arguments</title>
+    <summary>  We continue our study of the Wiles defect of deformation rings $R$ and Hecke
+rings $T$ (at a newform $f$) acting on the cohomology of Shimura curves. The
+Wiles defect at an augmentation $\lambda_f:T \to O$ measures the failure of
+$R,T$ to be complete intersections locally at $\lambda_f$. In situations we
+study here the Taylor-Wiles-Kisin patching method gives an isomorphism $R=T$
+without the rings being complete intersections. Using novel arguments in
+commutative algebra and patching, we generalize significantly and give
+different proofs of our earlier results that compute the Wiles defect at
+$\lambda_f: R=T \to O$, and explain in an a priori manner why the answer is a
+sum of local defects. As a curious application of our work we give a new and
+more robust approach to the result of Ribet--Takahashi that computes change of
+degrees of optimal parametrizations of elliptic curves by Shimura curves as we
+vary the Shimura curve.
+</summary>
+    <author>
+      <name>Gebhard Boeckle</name>
+    </author>
+    <author>
+      <name>Chandrashekhar B. Khare</name>
+    </author>
+    <author>
+      <name>Jeffrey Manning</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">with an appendix by Najmuddin Fakhruddin and Chandrashekhar Khare</arxiv:comment>
+    <link href="http://arxiv.org/abs/2108.09729v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.09729v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F80" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.11801%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.11801&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fTHsdSmjnsp6TWu4qPQ/alS6XSM</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.11801v1</id>
+    <updated>2021-10-22T14:20:24Z</updated>
+    <published>2021-10-22T14:20:24Z</published>
+    <title>Computational methods for t-spread monomial ideals</title>
+    <summary>  Let $K$ be a field and $S=K[x_1,\ldots,x_n]$ a standard polynomial ring over
+$K$. In this paper, some new optimized algorithms to compute the smallest
+$t$-spread lexicographic set and the smallest $t$-spread strongly stable set
+containing a given set of $t$-spread monomials of $S$ are presented. Some
+technical tools allowing to compute the cardinality of $t$-spread strongly
+stable sets avoiding their construction are given. Then, a \emph{Macaulay2}
+package, \texttt{TSpreadIdeals}, providing methods to easily manage $t$-spread
+monomials and $t$-spread ideals is implemented. Some functions to ease the
+calculation of well known results about algebraic invariants for $t$-spread
+ideals are also provided.
+</summary>
+    <author>
+      <name>Luca Amata</name>
+    </author>
+    <link href="http://arxiv.org/abs/2110.11801v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.11801v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40, 13-04, 13B25, 13D02, 16W50, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

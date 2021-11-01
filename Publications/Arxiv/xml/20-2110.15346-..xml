@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.15346%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.15346&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wJn0+W86DDtsgSMWE4EMTJykALA</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.15346v1</id>
+    <updated>2021-10-28T17:54:23Z</updated>
+    <published>2021-10-28T17:54:23Z</published>
+    <title>Minimal free resolutions of sheaves on the projective plane and the
+  stable base locus decomposition of their moduli spaces</title>
+    <summary>  The purpose of this paper is to incorporate minimal free resolutions into the
+study of the birational geometry of the moduli space of coherent sheaves on the
+plane with character $\xi$, denoted by $M(\xi)$. We show that it is possible to
+recover the relevant Bridgeland destabilizing object from the minimal free
+resolution in order to compute the effective cone $\mathrm{Eff}(M(\xi))$ and
+conjecture a full relationship between Bridgeland destabilizing objects and
+minimal free resolutions. Moreover, we also prove that minimal free
+resolutions, paired with interpolation for vector bundles, yield the movable
+cone of the Hilbert scheme of $n$ points on the plane $\mathbb{P}^{2[n]}$, for
+certain values of $n$. We propose a program that computes the full stable base
+locus decomposition of $\mathbb{P}^{2[n]}$ based on free resolutions and
+interpolation. We show that this programs yields correct answers for small
+values of $n$.
+</summary>
+    <author>
+      <name>Manuel Leal</name>
+    </author>
+    <author>
+      <name>César Lozano Huerta</name>
+    </author>
+    <author>
+      <name>Tim Ryan</name>
+    </author>
+    <link href="http://arxiv.org/abs/2110.15346v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.15346v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J60 (Primary), 13D02, 14E30 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2108.01830%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2108.01830&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/GxizYh57NG7yd9LGt8Aw5gSykQU</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2108.01830v1</id>
+    <updated>2021-08-04T03:42:26Z</updated>
+    <published>2021-08-04T03:42:26Z</published>
+    <title>Stability of Associated Primes and Depth of Integral Closures of Powers
+  of Edge Ideals</title>
+    <summary>  In this paper, we study associated primes and depth of integral closures of
+powers of edge ideals. We provide sharp bounds on how big of powers for which
+the set of associated primes and the depth of integral closures of powers of
+edge ideals are stable.
+</summary>
+    <author>
+      <name>Dong Huu Mau</name>
+    </author>
+    <author>
+      <name>Tran Nam Trung</name>
+    </author>
+    <link href="http://arxiv.org/abs/2108.01830v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.01830v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D45, 05C90, 05E40, 05E45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

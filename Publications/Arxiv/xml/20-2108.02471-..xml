@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2108.02471%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2108.02471&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//ko+YJQ8gTKwifSgzVZKt0XdYo0</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2108.02471v1</id>
+    <updated>2021-08-05T09:24:39Z</updated>
+    <published>2021-08-05T09:24:39Z</published>
+    <title>Intrinsic mirrors for minimal adjoint orbits</title>
+    <summary>  I discuss mirrors of Landau-Ginzburg models formed by a minimal semisimple
+adjoint orbit of $\mathfrak{sl}(n)$ together with a potential obtained via the
+Cartan-Killing form. I show that the Landau-Ginzburg models produced by the
+Gross-Siebert recipe give precisely the objects of the desired mirrors.
+</summary>
+    <author>
+      <name>Elizabeth Gasparim</name>
+    </author>
+    <link href="http://arxiv.org/abs/2108.02471v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.02471v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

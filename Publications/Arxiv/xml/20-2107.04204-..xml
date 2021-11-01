@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.04204%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.04204&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MKkQBjn/HkRijshbn2LuqlwlW2g</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.04204v1</id>
+    <updated>2021-07-09T04:46:01Z</updated>
+    <published>2021-07-09T04:46:01Z</published>
+    <title>Higher Koszul brackets on the cotangent complex</title>
+    <summary>  Let $n\ge 1$ and $A$ be a commutative algebra of the form $\boldsymbol
+k[x_1,x_2,\dots, x_n]/I$ where $\boldsymbol k$ is a field of characteristic $0$
+and $I\subseteq \boldsymbol k[x_1,x_2,\dots, x_n]$ is an ideal. Assume that
+there is a Poisson bracket $\{\:,\:\}$ on $S$ such that $\{I,S\}\subseteq I$
+and let us denote the induced bracket on $A$ by $\{\:,\:\}$ as well. It is
+well-known that $[\mathrm d x_i,\mathrm d x_j]:=\mathrm d\{x_i,x_j\}$ defines a
+Lie bracket on the $A$-module $\Omega_{A|\boldsymbol k}$ of K\"ahler
+differentials making $(A,\Omega_{A|\boldsymbol k})$ a Lie-Rinehart pair. Recall
+that $A$ is regular if and only if $\Omega_{A|\boldsymbol k}$ is projective as
+an $A$-module. If $A$ is not regular, the cotangent complex $\mathbb
+L_{A|\boldsymbol k}$ may serve as a replacement for the $A$-module
+$\Omega_{A|\boldsymbol k}$. We prove that there is a structure of an
+$L_\infty$-algebroid on $\mathbb L_{A|\boldsymbol k}$, compatible with the
+Lie-Rinehart pair $(A,\Omega_{A|\boldsymbol k})$. The $L_\infty$-algebroid on
+$\mathbb L_{A|\boldsymbol k}$ actually comes from a $P_\infty$-algebra
+structure on the resolvent of the morphism $k[x_1,x_2,\dots, x_n]\to A$. We
+identify examples when this $L_\infty$-algebroid simplifies to a dg Lie
+algebroid. For aesthetic reasons we concentrate on cases when $ \boldsymbol
+k[x_1,x_2,\dots, x_n]$ carries a (possibly nonstandard) $\mathbb Z_{\ge
+0}$-grading and both $I$ and $\{\:,\:\}$ are homogeneous.
+</summary>
+    <author>
+      <name>Hans-Christian Herbig</name>
+    </author>
+    <author>
+      <name>Daniel Herden</name>
+    </author>
+    <author>
+      <name>Christopher Seaton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">32 pages, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.04204v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.04204v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.QA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="17B63 (Primary), 13D02, 58A50, 17B66 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

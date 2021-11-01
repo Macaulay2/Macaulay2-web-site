@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2108.00021%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2108.00021&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/enbuNUKqunLgYe2FF8zOX0UyQBE</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2108.00021v2</id>
+    <updated>2021-10-11T17:46:12Z</updated>
+    <published>2021-07-30T18:00:14Z</published>
+    <title>Modular Curves and the Refined Distance Conjecture</title>
+    <summary>  We test the refined distance conjecture in the vector multiplet moduli space
+of 4D $\mathcal{N}=2$ compactifications of the type IIA string that admit a
+dual heterotic description. In the weakly coupled regime of the heterotic
+string, the moduli space geometry is governed by the perturbative heterotic
+dualities, which allows for exact computations. This is reflected in the type
+IIA frame through the existence of a K3 fibration. We identify the degree
+$d=2N$ of the K3 fiber as a parameter that could potentially lead to large
+distances, which is substantiated by studying several explicit models. The
+moduli space geometry degenerates into the modular curve for the congruence
+subgroup $\Gamma_0(N)^+$. In order to probe the large $N$ regime, we initiate
+the study of Calabi-Yau threefolds fibered by general degree $d&gt;8$ K3 surfaces
+by suggesting a construction as complete intersections in Grassmann bundles.
+</summary>
+    <author>
+      <name>Daniel Klaewer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages, 10 figures, comments welcome; v2: references added,
+  improved discussion of log-scaling</arxiv:comment>
+    <link href="http://arxiv.org/abs/2108.00021v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.00021v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

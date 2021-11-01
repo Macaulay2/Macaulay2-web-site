@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.09943%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.09943&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Nuk8ji7dyF2v2pk6XkzEH5SwKgE</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09943v1</id>
+    <updated>2021-09-21T03:45:34Z</updated>
+    <published>2021-09-21T03:45:34Z</published>
+    <title>Identifiability of Chemical Reaction Networks with Intrinsic and
+  Extrinsic Noise from Stationary Distributions</title>
+    <summary>  Many biological systems can be modeled by a chemical reaction network with
+unknown parameters through the chemical master equation. Data available to
+identify these parameters are often in the form of a stationary distribution,
+such as obtained from single cell measurements in a cell population. In this
+work, we introduce a framework for analyzing the identifiability of the
+reaction rate coefficients of stochastic chemical reaction networks from
+stationary distribution data. Working with the linear noise approximation,
+which is a diffusive approximation to the chemical master equation, we give a
+computational procedure to certify global identifiability based on Hilbert's
+Nullstellensatz. We present a variety of examples that show the applicability
+of our method to chemical reaction networks of interest in systems and
+synthetic biology.
+</summary>
+    <author>
+      <name>Theodore W. Grunberg</name>
+    </author>
+    <author>
+      <name>Domitilla Del Vecchio</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 page, 3 figures, 1 table</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.09943v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.09943v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SY" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SY" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

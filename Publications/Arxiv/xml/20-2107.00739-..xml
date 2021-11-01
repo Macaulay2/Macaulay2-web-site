@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.00739%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.00739&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RA/lBN1AZdeM17r3eG8Iw0N3tPI</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.00739v1</id>
+    <updated>2021-07-01T20:34:16Z</updated>
+    <published>2021-07-01T20:34:16Z</published>
+    <title>Componentwise Linearity of Powers of Cover Ideals</title>
+    <summary>  Let $G$ be a finite simple graph and $J(G)$ denote its vertex cover ideal in
+a polynomial ring over a field. Assume that $J(G)^{(k)}$ is its $k$-th symbolic
+power. In this paper, we give a criteria for cover ideals of vertex
+decomposable graphs to have the property that all their symbolic powers are not
+componentwise linear. Also, we give a necessary and sufficient condition on $G$
+so that $J(G)^{(k)}$ is a componentwise linear ideal for some (equivalently,
+for all) $k \geq 2$ when $G$ is a graph such that $G \setminus N_G[A]$ has a
+simplicial vertex for any independent set $A$ of $G$. Using this result, we
+prove that $J(G)^{(k)}$ is a componentwise linear ideal for several classes of
+graphs for all $k \geq 2$. In particular, if $G$ is a bipartite graph, then
+$J(G)$ is a componentwise linear ideal if and only if $J(G)^k$ is a
+componentwise linear ideal for some (equivalently, for all) $k \geq 2$.
+</summary>
+    <author>
+      <name>S. Selvaraja</name>
+    </author>
+    <author>
+      <name>Joseph W. Skelton</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">arXiv admin note: text overlap with arXiv:1908.10576</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.00739v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.00739v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.04168%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.04168&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IvEiTtiMOfCezRY+wuZt2AmVc94</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.04168v1</id>
+    <updated>2021-07-09T01:21:46Z</updated>
+    <published>2021-07-09T01:21:46Z</published>
+    <title>Blow-up algebras of secant varieties of rational normal scrolls</title>
+    <summary>  In this paper, we are mainly concerned with the blow-up algebras of the
+secant varieties of balanced rational normal scrolls. In the first part, we
+give implicit defining equations of their associated Rees algebras and fiber
+cones. Consequently, we can tell that the fiber cones are Cohen--Macaulay
+normal domains. Meanwhile, these fiber cones have rational singularities in
+characteristic zero, and are $F$-rational in positive characteristic. The
+Gorensteinness of the fiber cones can also be characterized. In the second
+part, we compute the Castelnuovo--Mumford regularities and
+$\mathbf{a}$-invariants of the fiber cones. We also present the reduction
+numbers of the ideals defined by the secant varieties.
+</summary>
+    <author>
+      <name>Kuei-Nuan Lin</name>
+    </author>
+    <author>
+      <name>Yi-Huang Shen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Following the suggestion of experts, we split the original paper in
+  arXiv:2009.03484v1 into two parts. And this will be the second part. The
+  first part regarding the Cohen-Macaulayness of the fiber cone of the rational
+  normal scroll will appear later as arXiv:2009.03484v2. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.04168v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.04168v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 13C40, 13A30, 13P10, 13F50, Secondary 14N07, 14M12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

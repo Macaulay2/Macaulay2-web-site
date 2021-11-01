@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.09002%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.09002&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1aeRBcVBVrr77CIRqgZlxYmp+4w</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09002v1</id>
+    <updated>2021-09-18T19:56:48Z</updated>
+    <published>2021-09-18T19:56:48Z</published>
+    <title>Rational singularities of nested Hilbert schemes</title>
+    <summary>  The Hilbert scheme of points $\mathrm{Hilb}^n(S)$ of a smooth surface $S$ is
+a well-studied parameter space, lying at the interface of algebraic geometry,
+commutative algebra, representation theory, combinatorics, and mathematical
+physics. The foundational result is a classical theorem of Fogarty, stating
+that $\mathrm{Hilb}^n(S)$ is a smooth variety of dimension $2n$. In recent
+years there has been growing interest in a natural generalization of
+$\mathrm{Hilb}^n(S)$, the nested Hilbert schemes
+$\mathrm{Hilb}^{(n_1,n_2)}(S)$, which parametrize nested pairs of
+zero-dimensional subschemes $Z_1 \supseteq Z_2$ of $S$ with $\mathrm{deg}
+(Z_i)=n_i$. In contrast to Fogarty's theorem, $\mathrm{Hilb}^{(n_1,n_2)}(S)$ is
+almost always singular, and very little is known about its singularities. In
+this paper we aim to advance the knowledge of the geometry of these nested
+Hilbert schemes. Work by Fogarty in the 70's shows that
+$\mathrm{Hilb}^{(n,1)}(S)$ is a normal Cohen-Macaulay variety, and Song more
+recently proved that it has rational singularities. In our main result, we
+prove that the nested Hilbert scheme $\mathrm{Hilb}^{(n,2)}(S)$ has rational
+singularities. We employ an array of tools from commutative algebra to prove
+this theorem. Using Gr\"obner bases, we establish a connection between
+$\mathrm{Hilb}^{(n,2)}(S)$ and a certain variety of matrices with an action of
+the general linear group. This variety of matrices plays a central role in our
+work, and we analyze it by various algebraic techniques, including square-free
+Gr\"obner degenerations, the Stanley-Reisner correspondence, and the
+Kempf-Lascoux-Weyman technique of calculating syzygies. Along the way, we also
+obtain results on irreducible and reducible classes of nested Hilbert schemes,
+dimension of singular loci, and $F$-singularities in positive characteristic.
+</summary>
+    <author>
+      <name>Ritvik Ramkumar</name>
+    </author>
+    <author>
+      <name>Alessio Sammartano</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">35 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.09002v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.09002v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13D02, 13P10, 14B05, 14C05, Secondary: 05E40, 05E45, 13A50,&#10;  13C40, 13D10, 13F55, 14M15, 20G05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

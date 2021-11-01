@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.08151%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.08151&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lnWMRe2QpX2E6Gx3Akx/XHdyYog</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.08151v1</id>
+    <updated>2021-09-16T13:22:51Z</updated>
+    <published>2021-09-16T13:22:51Z</published>
+    <title>Families of polytopes with rational linear precision in higher
+  dimensions</title>
+    <summary>  In this article we introduce a new family of lattice polytopes with rational
+linear precision. For this purpose, we define a new class of discrete
+statistical models that we call multinomial staged tree models. We prove that
+these models have rational maximum likelihood estimators (MLE) and give a
+criterion for these models to be log-linear. Our main result is then obtained
+by applying Garcia-Puente and Sottile's theorem that establishes a
+correspondence between polytopes with rational linear precision and log-linear
+models with rational MLE. Throughout this article we also study the interplay
+between the primitive collections of the normal fan of a polytope with rational
+linear precision and the shape of the Horn matrix of its corresponding
+statistical model. Finally, we investigate lattice polytopes arising from toric
+multinomial staged tree models, in terms of the combinatorics of their tree
+representations.
+</summary>
+    <author>
+      <name>Isobel Davies</name>
+    </author>
+    <author>
+      <name>Eliana Duarte</name>
+    </author>
+    <author>
+      <name>Irem Portakal</name>
+    </author>
+    <author>
+      <name>Miruna-Stefana Sorea</name>
+    </author>
+    <link href="http://arxiv.org/abs/2109.08151v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.08151v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="52B20, 14M25, 62R01, 65D17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.02087%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.02087&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/N0wJCEEsWQOSNLqYuwbMrhRh10w</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.02087v1</id>
+    <updated>2021-09-05T14:42:58Z</updated>
+    <published>2021-09-05T14:42:58Z</published>
+    <title>Correspondence of Donaldson-Thomas and Gopakumar-Vafa invariants on
+  local Calabi-Yau 4-folds over V_5 and V_22</title>
+    <summary>  We compute Gromov-Witten (GW) and Donaldson-Thomas (DT) invariants (and also
+descendant invariants) for local CY 4-folds over Fano 3-folds, V_5 and V_22 up
+to degree 3. We use torus localization for GW invariants computation, and use
+classical results for Hilbert schemes on V_5 and V_22 for DT invariants
+computation. From these computations, one can check correspondence between DT
+and Gopakumar-Vafa (GV) invariants conjectured by Cao-Maulik-Toda in genus 0.
+Also we can compute genus 1 GV invariants via the conjecture of Cao-Toda, which
+turned out to be 0. These fit into the fact that there are no smooth elliptic
+curves in V_5 and V_22 up to degree 3.
+</summary>
+    <author>
+      <name>Kiryong Chung</name>
+    </author>
+    <author>
+      <name>Sanghyeon Lee</name>
+    </author>
+    <author>
+      <name>Joonyeong Won</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20pages, all comments are welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.02087v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.02087v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N35, 14C17, 14H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

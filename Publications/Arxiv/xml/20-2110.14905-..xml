@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.14905%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.14905&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ceBMX30/STZAT9J0AZdnaA5b/Ro</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.14905v1</id>
+    <updated>2021-10-28T06:12:46Z</updated>
+    <published>2021-10-28T06:12:46Z</published>
+    <title>The $h$-polynomial and the rook polynomial of some polyominoes</title>
+    <summary>  Let $X$ be a convex polyomino such that its vertex set is a sublattice of
+$\mathbb{N}^2$. Let $\Bbbk[X]$ be the toric ring (over a field $\Bbbk$)
+associated to $X$ in the sense of Qureshi, \emph{J. Algebra}, 2012. Write the
+Hilbert series of $\Bbbk[X]$ as $(1 + h_1 t + h_2 t^2 + \cdots
+)/(1-t)^{\dim(\Bbbk[X])}$. For $k \in \mathbb{N}$, let $r_k$ be the number of
+configurations in $X$ with $k$ pairwise non-attacking rooks. We show that $h_2
+&lt; r_2$ if $X$ is not a thin polyomino. This partially confirms a conjectured
+characterization of thin polyominoes by Rinaldo and Romeo, \emph{J. Algebraic
+Combin.}, 2021.
+</summary>
+    <author>
+      <name>Manoj Kummini</name>
+    </author>
+    <author>
+      <name>Dharm Veer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.14905v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.14905v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F65 (Primary), 05E40, 13D40 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

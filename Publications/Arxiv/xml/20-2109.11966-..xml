@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.11966%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.11966&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lH++swcG7xL39eU/9QtUW0G7oZ4</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.11966v1</id>
+    <updated>2021-09-24T13:54:32Z</updated>
+    <published>2021-09-24T13:54:32Z</published>
+    <title>Gorenstein stable surfaces with $K_X^2 =1$ and $ χ(\mathcal O_X) =2$</title>
+    <summary>  We classify - as far as possible - Gorenstein stable surfaces with $K_X^2 =
+1$ and $\chi(\mathcal O_X) = 2$, describing several strata in the moduli space
+quite in detail.
+</summary>
+    <author>
+      <name>Anh Thi Do</name>
+    </author>
+    <author>
+      <name>Sönke Rollenske</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">45 pages, 12 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.11966v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.11966v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J10, 14J29" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

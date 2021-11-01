@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2108.01538%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2108.01538&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TQ5jXVQE4PwVQe3gggFUu3Q+7/o</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2108.01538v1</id>
+    <updated>2021-08-03T14:42:18Z</updated>
+    <published>2021-08-03T14:42:18Z</published>
+    <title>Geometry of Linear Convolutional Networks</title>
+    <summary>  We study the family of functions that are represented by a linear
+convolutional neural network (LCN). These functions form a semi-algebraic
+subset of the set of linear maps from input space to output space. In contrast,
+the families of functions represented by fully-connected linear networks form
+algebraic sets. We observe that the functions represented by LCNs can be
+identified with polynomials that admit certain factorizations, and we use this
+perspective to describe the impact of the network's architecture on the
+geometry of the resulting function space. We further study the optimization of
+an objective function over an LCN, analyzing critical points in function space
+and in parameter space, and describing dynamical invariants for gradient
+descent. Overall, our theory predicts that the optimized parameters of an LCN
+will often correspond to repeated filters across layers, or filters that can be
+decomposed as repeated filters. We also conduct numerical and symbolic
+experiments that illustrate our results and present an in-depth analysis of the
+landscape for small architectures.
+</summary>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <author>
+      <name>Thomas Merkh</name>
+    </author>
+    <author>
+      <name>Guido Montúfar</name>
+    </author>
+    <author>
+      <name>Matthew Trager</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">37 pages, 3 figures, 2 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2108.01538v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.01538v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.LG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="68T07, 14P10, 14J70, 90C23, 62R01" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

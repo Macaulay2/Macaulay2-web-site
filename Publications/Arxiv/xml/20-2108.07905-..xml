@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2108.07905%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2108.07905&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ObcafdQ9XBFhsS/pKrUpTNNDhEw</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2108.07905v1</id>
+    <updated>2021-08-17T23:23:37Z</updated>
+    <published>2021-08-17T23:23:37Z</published>
+    <title>Galois Groups in Enumerative Geometry and Applications</title>
+    <summary>  As Jordan observed in 1870, just as univariate polynomials have Galois
+groups, so do problems in enumerative geometry. Despite this pedigree, the
+study of Galois groups in enumerative geometry was dormant for a century, with
+a systematic study only occuring in the past 15 years. We discuss the current
+directions of this study, including open problems and conjectures.
+</summary>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Thomas Yahl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">37 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2108.07905v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2108.07905v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M25, 65H20, 65H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

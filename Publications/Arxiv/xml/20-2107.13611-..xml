@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.13611%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.13611&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LjejPDpdsFK7U9Q3JLteeov5dxw</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.13611v1</id>
+    <updated>2021-07-28T19:40:04Z</updated>
+    <published>2021-07-28T19:40:04Z</published>
+    <title>Optimal anticodes, MSRD codes, and generalized weights in the sum-rank
+  metric</title>
+    <summary>  Sum-rank metric codes have recently attracted the attention of many
+researchers, due to their relevance in several applications. Mathematically,
+the sum-rank metric is a natural generalization of both the Hamming metric and
+the rank metric. In this paper, we provide an Anticode Bound for the sum-rank
+metric, which extends the corresponding Hamming and rank-metric Anticode
+bounds. We classify then optimal anticodes, i.e., codes attaining the sum-rank
+metric Anticode Bound. We use these optimal anticodes to define generalized
+sum-rank weights and we study their main properties. In particular, we prove
+that the generalized weights of an MSRD code are determined by its parameters.
+As an application, in the Appendix we explain how generalized weights measure
+information leakage in multishot network coding.
+</summary>
+    <author>
+      <name>Eduardo Camps Moreno</name>
+    </author>
+    <author>
+      <name>Elisa Gorla</name>
+    </author>
+    <author>
+      <name>Cristina Landolina</name>
+    </author>
+    <author>
+      <name>Elisa Lorenzo García</name>
+    </author>
+    <author>
+      <name>Umberto Martínez-Peñas</name>
+    </author>
+    <author>
+      <name>Flavio Salizzoni</name>
+    </author>
+    <link href="http://arxiv.org/abs/2107.13611v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.13611v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

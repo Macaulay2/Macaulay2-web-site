@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.09481%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.09481&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/wVnZJv7n+gY+eu/40LMGnHD1fHo</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.09481v1</id>
+    <updated>2021-09-20T12:35:33Z</updated>
+    <published>2021-09-20T12:35:33Z</published>
+    <title>Degrees of Kalman varieties of tensors</title>
+    <summary>  Kalman varieties of tensors are algebraic varieties consisting of tensors
+whose singular vector $k$-tuples lay on prescribed subvarieties. They were
+first studied by Ottaviani and Sturmfels in the context of matrices. We extend
+recent results of Ottaviani and the first author to the partially symmetric
+setting. We describe a generating function whose coefficients are the degrees
+of these varieties and we analyze its asymptotics, providing analytic results
+\`a la Zeilberger and Pantone. We emphasize the special role of isotropic
+vectors in the spectral theory of tensors and describe the totally isotropic
+Kalman variety as a dual variety.
+</summary>
+    <author>
+      <name>Zahra Shahidi</name>
+    </author>
+    <author>
+      <name>Luca Sodomaco</name>
+    </author>
+    <author>
+      <name>Emanuele Ventura</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.09481v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.09481v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N07, 14N05, 14N10, 15A69, 15A18" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

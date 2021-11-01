@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2107.11180%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2107.11180&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/TBNJyUaZ6qP4PD5Gb5icB4Mi/QQ</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2107.11180v1</id>
+    <updated>2021-07-23T12:46:05Z</updated>
+    <published>2021-07-23T12:46:05Z</published>
+    <title>Mixed Hodge structure and $\mathcal{N}=2$ Coulomb branch solution</title>
+    <summary>  The Coulomb branch of four dimensional $\mathcal{N}=2$ theories can be solved
+by finding a Seiberg-Witten (SW) geometry and a SW differential. While lots of
+SW geometries are found, the extraction of low energy theory out of it is
+limited due to following reasons: (a) the difficulty of distinguishing
+electric-magnetic and flavor charges; (b) the difficulty of determining the low
+energy theory at singular point; (c) the lack of SW differential. We show that
+the mixed Hodge structure (MHS) can be used to fully solve the low energy
+physics of Coulomb branch at every vacuum. The MHS can be used to solve above
+three problems as follows: (a) The smooth fiber of SW geometry carries a Mixed
+Hodge Structure structure with two weights: one weight describes
+electric-magnetic charge and the other for the flavor charge; (b) for the
+singular fiber, there are three MHS which can be used to determine the IR
+theory; (c) the MHS at $\infty$ is used to find the SW differential.
+</summary>
+    <author>
+      <name>Dan Xie</name>
+    </author>
+    <author>
+      <name>Dingxin Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">82 pages, 22 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2107.11180v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2107.11180v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

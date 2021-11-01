@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2110.01059%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2110.01059&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HgwP7+alyoxnl5w0TUuBHbx8Xbc</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2110.01059v1</id>
+    <updated>2021-10-03T18:03:05Z</updated>
+    <published>2021-10-03T18:03:05Z</published>
+    <title>Chow rings of low-degree Hurwitz spaces</title>
+    <summary>  While there is much work and many conjectures surrounding the intersection
+theory of the moduli space of curves, relatively little is known about the
+intersection theory of the Hurwitz space $\mathcal{H}_{k, g}$ parametrizing
+smooth degree $k$, genus $g$ covers of $\mathbb{P}^1$. Let $k = 3, 4, 5$. We
+prove that the rational Chow rings of $\mathcal{H}_{k,g}$ stabilize in a
+suitable sense as $g$ tends to infinity. In the case $k = 3$, we completely
+determine the Chow rings for all $g$. We also prove that the rational Chow
+groups of the simply branched Hurwitz space $\mathcal{H}^s_{k,g} \subset
+\mathcal{H}_{k,g}$ are zero in codimension up to roughly $g/k$. In subsequent
+work, results developed in this paper are used to prove that the Chow rings of
+$\mathcal{M}_7, \mathcal{M}_8,$ and $\mathcal{M}_9$ are tautological.
+</summary>
+    <author>
+      <name>Samir Canning</name>
+    </author>
+    <author>
+      <name>Hannah Larson</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">45 pages, split off from arXiv:2103.09902v1 because of length</arxiv:comment>
+    <link href="http://arxiv.org/abs/2110.01059v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2110.01059v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C15, 14C17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

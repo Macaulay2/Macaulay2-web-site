@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.00592%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.00592&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Sucw52m5flA4Mb+mle/yrRdFL98</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.00592v2</id>
+    <updated>2021-09-10T19:29:20Z</updated>
+    <published>2021-09-01T19:47:49Z</published>
+    <title>Blowup algebras of determinantal ideals in prime characteristic</title>
+    <summary>  We study $F$-purity and strong $F$-regularity of blowup algebras. Our main
+focus is on algebras given by symbolic and ordinary powers of ideals of minors
+of a generic matrix, a symmetric matrix, and a Hankel matrix. We also study
+ideals of Pfaffians of a skew-symmetric matrix. We use these results to obtain
+bounds on the degrees of the defining equations for these algebras. We also
+prove that the limit of the normalized regularity of the symbolic powers of
+these ideals exists and that their depth stabilizes. Finally, we show that, for
+determinantal ideals, there exists a monomial order for which taking initial
+ideals commutes with taking symbolic powers. To obtain these results we develop
+the notion of $F$-pure filtrations and symbolic $F$-purity.
+</summary>
+    <author>
+      <name>Alessandro De Stefani</name>
+    </author>
+    <author>
+      <name>Jonathan Montaño</name>
+    </author>
+    <author>
+      <name>Luis Núñez-Betancourt</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This preprint corrects, replaces, and expands the work done in
+  preprint arXiv:2004.03831, which contains a mistake Lemma 5.4</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.00592v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.00592v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13A35, 13A02, 13C15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

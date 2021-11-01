@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2109.08493%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2109.08493&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VzHQfESXaK/vuLKAgatEfnW0rIM</id>
+  <updated>2021-11-01T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2109.08493v1</id>
+    <updated>2021-09-17T12:11:00Z</updated>
+    <published>2021-09-17T12:11:00Z</published>
+    <title>Geometry of lines on a cubic fourfold</title>
+    <summary>  For a general cubic fourfold $X\subset\mathbb{P}^5$ with Fano scheme of lines
+$F$, we prove a number of properties of the universal family of lines $I\to F$
+and various subloci. We first describe the moduli and ramification theory of
+the genus four fibration $p:I\to X$ and explore its relation to a birational
+model of $F$ in $I$. The main part of the paper is devoted to describing the
+locus $V\subset F$ of triple lines, i.e., the fixed locus of the Voisin map
+$\phi:F\dashrightarrow F$, in particular proving it is an irreducible
+projective singular surface of class $21\mathrm{c}_2(\mathcal{U}_F)$ and
+detailing its intersection with the locus $S$ of second type lines. A
+consequence of the analysis of the singularities of $V$ is a geometric proof of
+the fact that if $X$ is very general, then the number of singular (necessarily
+1-nodal) rational curves in $F$ of primitive class is 3780.
+</summary>
+    <author>
+      <name>Frank Gounelas</name>
+    </author>
+    <author>
+      <name>Alexis Kouvidakis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">This new submission is split off from arXiv:2008.05162 but inherits
+  the old title. Major revision of most of the material with new proofs and new
+  results and fixing some mistakes</arxiv:comment>
+    <link href="http://arxiv.org/abs/2109.08493v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2109.08493v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J70, 14J35, 14H10, 14M15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
