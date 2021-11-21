@@ -9,8 +9,8 @@ include ../Makefile.include
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
 UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily \
-		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy hirsute
-DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch buster
+		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy hirsute impish
+DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch buster bullseye
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
 
@@ -107,6 +107,7 @@ debian : always
 		    Ubuntu-focal) match="Ubuntu-20.04" ;;\
 		    Ubuntu-groovy) match="Ubuntu-20.10" ;;\
 		    Ubuntu-hirsute) match="Ubuntu-21.04" ;;\
+		    Ubuntu-impish) match="Ubuntu-21.10" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
@@ -114,6 +115,7 @@ debian : always
 		    Debian-jessie) match="Debian-8.*" ;;\
 		    Debian-stretch) match="Debian-9.*" ;;\
 		    Debian-buster) match="Debian-10*" ;;\
+		    Debian-bullseye) match="Debian-11*" ;;\
 		    Raspbian-wheezy) match="Raspbian-7" ;;\
 		    *) echo unrecognized release: $$release >&2 ; exit 1 ;;\
 	       esac ;\
