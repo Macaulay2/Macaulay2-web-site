@@ -2,7 +2,7 @@ when new releases come out remember to:
    update the the redirections in .htaccess
    add the documentation to ./doc
    update DOCVERSION in Makefile.include
-   update links and the release date in Style/trailer.html
+   update links and the release date in Style/trailer.html, both the current version and the previous version
    run 'make' in . to get all the webpages remade with the correct version info in the sidebars
    run 'make' in ./Scripts to make the javascript database of documentation for the random documentation function
    run 'make mirror' in . to propagate the changes to our mirror at www2.macaulay2.com
