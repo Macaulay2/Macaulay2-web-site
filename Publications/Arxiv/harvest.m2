@@ -7,7 +7,7 @@ slowGetWWW = x -> (
 query = "Macaulay2"
 -- query = "%22Macaulay+2%22"
 -- query = "%22Cohen+Macaulay+2%22"
-queryURL = concatenate ("http://search.arxiv.org:8081/?query=",query,"&in=&byDate=1")
+queryURL = concatenate ("https://search.arxiv.org/?query=",query,"&in=&byDate=1")
 
 harvest = () -> (
      count = 0;
