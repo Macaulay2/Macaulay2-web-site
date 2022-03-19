@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.10554%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.10554&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/U1mo0dyx1fVLRwETPOs192/0ps4</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.10554v1</id>
+    <updated>2021-12-20T14:27:18Z</updated>
+    <published>2021-12-20T14:27:18Z</published>
+    <title>Matrix factorizations and intermediate Jacobians of cubic threefolds</title>
+    <summary>  Results due to Druel and Beauville show that the blowup of the intermediate
+Jacobian of a smooth cubic threefold X in the Fano surface of lines can be
+identified with a moduli space of semistable sheaves of Chern classes c_1=0,
+c_2=2, c_3=0 on X. Here we further identify this space with a space of matrix
+factorizations. This has the advantage that this description naturally
+generalizes to singular and even reducible cubic threefolds. In this way, given
+a degeneration of X to a reducible cubic threefold X_0, we obtain an associated
+degeneration of the above moduli spaces of semistable sheaves.
+</summary>
+    <author>
+      <name>Christian Böhning</name>
+    </author>
+    <author>
+      <name>Hans-Christian Graf von Bothmer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.10554v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.10554v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D20, 14H40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

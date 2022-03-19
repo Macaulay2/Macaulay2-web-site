@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2201.13002%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2201.13002&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/t/oWjQCT+czrMDIdRZedXvRVLKM</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2201.13002v1</id>
+    <updated>2022-01-31T05:08:17Z</updated>
+    <published>2022-01-31T05:08:17Z</published>
+    <title>Torsion in Differentials and Berger's Conjecture</title>
+    <summary>  Let $(R,\mathfrak{m},\mathbb{k})$ be an equicharacteristic one-dimensional
+complete local domain over an algebraically closed field $\mathbb{k}$ of
+characteristic 0. R. Berger conjectured that R is regular if and only if the
+universally finite module of differentials $\Omega_R$ is a torsion-free
+$R$-module. We give new cases of this conjecture by extending works of G\"uttes
+(Arch Math 54:499-510, 1990) and Corti\~nas et al. (Math Z 228:569-588,
+1998).This is obtained by constructing a new subring $S$ of
+$\operatorname{Hom}_R(\mathfrak{m},\mathfrak{m})$ and constructing enough
+torsion in $\Omega_S$, enabling us to pull back a nontrivial torsion to
+$\Omega_R$.
+</summary>
+    <author>
+      <name>Craig Huneke</name>
+    </author>
+    <author>
+      <name>Sarasij Maitra</name>
+    </author>
+    <author>
+      <name>Vivek Mukundan</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s40687-021-00295-y</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s40687-021-00295-y" rel="related"/>
+    <arxiv:journal_ref xmlns:arxiv="http://arxiv.org/schemas/atom">Research in the Mathematical Sciences 8.4 (2021): 1-15</arxiv:journal_ref>
+    <link href="http://arxiv.org/abs/2201.13002v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.13002v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13N05, 13C12 (Primary), 13H10 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

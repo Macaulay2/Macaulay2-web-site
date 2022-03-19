@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.12588%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.12588&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9t25MZIxPriKhrXf06qxRVY9PxU</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.12588v1</id>
+    <updated>2021-12-23T14:40:00Z</updated>
+    <published>2021-12-23T14:40:00Z</published>
+    <title>A formula for symbolic powers</title>
+    <summary>  Let $S$ be a Cohen-Macaulay ring which is local or standard graded over a
+field, and let $I$ be an unmixed ideal that is also generically a complete
+intersection. Our goal in this paper is multi-fold. First, we give a
+multiplicity-based characterization of when an unmixed subideal $J \subseteq
+I^{(m)}$ equals the $m$-th symbolic power $I^{(m)}$ of $I$. Second, we provide
+a saturation-type formula to compute $I^{(m)}$ and employ it to deduce a
+theoretical criterion for when $I^{(m)}=I^m$. Third, we establish an explicit
+linear bound on the exponent that makes the saturation formula effective, and
+use it to obtain lower bounds for the initial degree of $I^{(m)}$. Along the
+way, we prove a conjecture (in fact, a generalized version of it) due to
+Eisenbud and Mazur about ${\rm ann}_S(I^{(m)}/I^m)$, and we propose a
+conjecture connecting the symbolic defect of an ideal to Jacobian ideals.
+</summary>
+    <author>
+      <name>Paolo Mantero</name>
+    </author>
+    <author>
+      <name>Cleto B. Miranda-Neto</name>
+    </author>
+    <author>
+      <name>Uwe Nagel</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.12588v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.12588v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2201.00619%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2201.00619&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vUM6Bk8Uuia0H10FHADFRaafZ0k</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2201.00619v1</id>
+    <updated>2022-01-03T13:06:50Z</updated>
+    <published>2022-01-03T13:06:50Z</published>
+    <title>Finite quotients of abelian varieties with a Calabi-Yau resolution</title>
+    <summary>  Let $A$ be an abelian variety, and $G \subset Aut(A)$ a finite group acting
+freely in codimension two. We discuss whether the singular quotient $A/G$
+admits a resolution that is a Calabi-Yau manifold. While Oguiso constructed two
+examples in dimension $3$, we show that there are none in dimension $4$. We
+also classify up to isogeny the possible abelian varieties $A$ in arbitrary
+dimension.
+</summary>
+    <author>
+      <name>Cécile Gachet</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">54 pages, including the programs in the 6-page-long Appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/2201.00619v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.00619v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GR" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

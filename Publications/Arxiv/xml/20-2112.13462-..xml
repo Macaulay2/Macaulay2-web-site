@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.13462%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.13462&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api//omTAHKq8FNeejJz75zUk8Gdc0o</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.13462v2</id>
+    <updated>2022-02-04T20:30:56Z</updated>
+    <published>2021-12-26T23:03:55Z</published>
+    <title>Geometry of logarithmic derivations of hyperplane arrangements</title>
+    <summary>  We study the Hadamard product of the linear forms defining a hyperplane
+arrangement with those of its dual, which we view as generating an ideal in a
+certain polynomial ring. We use this ideal, which we call the ideal of pairs,
+to study logarithmic derivations and critical set varieties of arrangements in
+a way which is symmetric with respect to matroid duality. Our main result
+exhibits the variety of the ideal of pairs as a subspace arrangement whose
+components correspond to cyclic flats of the arrangement. As a corollary, we
+are able to give geometric explanations of some freeness and projective
+dimension results due to Ziegler and Kung--Schenck.
+</summary>
+    <author>
+      <name>Avi Steiner</name>
+    </author>
+    <author>
+      <name>Graham Denham</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Minor changes</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.13462v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.13462v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05B35 (Primary) 52C35, 14N20, 14B05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

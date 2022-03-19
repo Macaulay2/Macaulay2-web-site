@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.12975%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.12975&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/t2zAvhhe+B2MtOzwQjPbqXRa9B0</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.12975v1</id>
+    <updated>2022-02-25T21:09:36Z</updated>
+    <published>2022-02-25T21:09:36Z</published>
+    <title>Degenerations of Pascal Lines</title>
+    <summary>  Let $\mathcal{K}$ denote a nonsingular conic in the complex projective plane.
+Pascal's theorem says that, given six distinct points $A,B,C,D,E,F$ on
+$\mathcal{K}$, the three intersection points $AE \cap BF, AD \cap CF, BD \cap
+CE$ are collinear. The line containing them is called the Pascal line of the
+sextuple. However, this construction may fail when some of the six points come
+together. In this paper, we find the indeterminacy locus where the Pascal line
+is not well-defined and then use blow-ups along polydiagonals to define it. We
+analyse the geometry of Pascals in these degenerate cases. Finally we offer
+some remarks about the indeterminacy of other geometric elements in Pascal's
+hexagrammum mysticum.
+</summary>
+    <author>
+      <name>Jaydeep Chipalkatti</name>
+    </author>
+    <author>
+      <name>Sergio Da Silva</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.12975v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.12975v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05, 51N35" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2201.12065%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2201.12065&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pDGWR28kE6Usx5ycRqJV06c/y5M</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2201.12065v1</id>
+    <updated>2022-01-28T12:14:57Z</updated>
+    <published>2022-01-28T12:14:57Z</published>
+    <title>Marked Godeaux surfaces with special bicanonical fibers</title>
+    <summary>  In this paper we study marked numerical Godeaux surfaces with special
+bicanonical fibers. Based on our construction method of marked Godeaux surfaces
+we give a complete characterization for the existence of hyperelliptic
+bicanonical fibers and torsion fibers. Moreover, we describe how the families
+of Reid and Miyaoka with torsion $\mathbb{Z}/3\mathbb{Z}$ and
+$\mathbb{Z}/5\mathbb{Z}$ arise in our homological setting.
+</summary>
+    <author>
+      <name>Frank-Olaf Schreyer</name>
+    </author>
+    <author>
+      <name>Isabel Stenger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages. The content of this paper was part of the original paper on
+  arXiv:2009.05357 which we have divided into two parts</arxiv:comment>
+    <link href="http://arxiv.org/abs/2201.12065v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.12065v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J10, 14J29, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

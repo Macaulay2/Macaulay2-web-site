@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2201.09925%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2201.09925&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/H3GoH4tdJi+rNMYpGN/B4oHn7Ys</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2201.09925v1</id>
+    <updated>2022-01-24T19:33:18Z</updated>
+    <published>2022-01-24T19:33:18Z</published>
+    <title>On vertex decomposability and regularity of graphs</title>
+    <summary>  There are two motivation questions in \cite{MTS, MTS1} about
+Castelnuovo-Mumford regularity and vertex decomposable of simple graph $G$. In
+this paper, we disprove the questions by providing of two counterexamples.
+</summary>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Dler Naderi</name>
+    </author>
+    <author>
+      <name>Parasto Soufivand</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages. Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2201.09925v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.09925v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10, 05C75, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

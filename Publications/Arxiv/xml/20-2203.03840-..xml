@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.03840%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.03840&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XVTwN7SH3DouYDG12Lil9LqL484</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.03840v1</id>
+    <updated>2022-03-08T04:20:03Z</updated>
+    <published>2022-03-08T04:20:03Z</published>
+    <title>Newton-Okounkov bodies of chemical reaction systems</title>
+    <summary>  Despite their noted potential in polynomial-system solving, there are few
+concrete examples of Newton-Okounkov bodies arising from applications.
+Accordingly, in this paper, we introduce a new application of Newton-Okounkov
+body theory to the study of chemical reaction networks, and compute several
+examples. An important invariant of a chemical reaction network is its maximum
+number of positive steady states, which is realized as the maximum number of
+positive real roots of a parametrized polynomial system. Here, we introduce a
+new upper bound on this number, namely the `Newton-Okounkov body bound' of a
+chemical reaction network. Through explicit examples, we show that the
+Newton-Okounkov body bound of a network gives a good upper bound on its maximum
+number of positive steady states. We also compare this Newton-Okounkov body
+bound to a related upper bound, namely the mixed volume of a chemical reaction
+network, and find that it often achieves better bounds.
+</summary>
+    <author>
+      <name>Nida Obatake</name>
+    </author>
+    <author>
+      <name>Elise Walker</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 3 figures, 2 tables, 1 appendix</arxiv:comment>
+    <link href="http://arxiv.org/abs/2203.03840v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.03840v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Qxx (primary), 13P15, 14M25, 80A30 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

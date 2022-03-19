@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.14307%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.14307&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/CcvK0JvS2pLTpL9JvNngx81lvws</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.14307v1</id>
+    <updated>2021-11-29T02:40:35Z</updated>
+    <published>2021-11-29T02:40:35Z</published>
+    <title>Faster algorithms for circuits in the Cayley-Menger algebraic matroid</title>
+    <summary>  A classical problem in Distance Geometry, with multiple practical
+applications (in molecular structure determination, sensor network localization
+etc.) is to find the possible placements of the vertices of a graph with given
+edge lengths. For minimally rigid graphs, the double-exponential Gr\"obner
+Bases algorithm with an elimination order can be applied, in theory, but it is
+impractical even for small instances. By relating the problem to the
+computation of circuit polynomials in the Cayley-Menger ideal, we recently
+proposed an algebraic-combinatorial approach and an elimination algorithm for
+circuit polynomials [23]. It is guided by a tree structure whose leaves
+correspond to complete $K_4$ graphs and whose nodes perform algebraic resultant
+operations. In this paper we uncover further combinatorial structure in the
+Cayley-Menger algebraic matroid that leads to an extension of our algorithm. In
+particular, we generalize the combinatorial resultant operation of [23] to take
+advantage of the non-circuit generators and irreducible polynomials in the
+Cayley-Menger ideal and use them as leaves of the tree guiding the elimination.
+Our new method has been implemented in Mathematica and allows previously
+unobtainable calculations to be carried out. In particular, the
+$K_{3,3}$-plus-one circuit polynomial, with over one million terms in 10
+variables and whose calculation crashed after several days with the previous
+method of [23], succeeded now in approx. 30 minutes.
+</summary>
+    <author>
+      <name>Goran Malić</name>
+    </author>
+    <author>
+      <name>Ileana Streinu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 7 figures. arXiv admin note: text overlap with
+  arXiv:2103.08432</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.14307v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.14307v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

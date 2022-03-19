@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.06270%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.06270&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/YhEMqbwcEJRkVNkjuOLmSZB0h7Q</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.06270v1</id>
+    <updated>2021-11-11T15:27:34Z</updated>
+    <published>2021-11-11T15:27:34Z</published>
+    <title>Quantum Correlations in the Minimal Scenario</title>
+    <summary>  In the minimal scenario of quantum correlations, two parties can choose from
+two observables with two possible outcomes each. Probabilities are specified by
+four marginals and four correlations. The resulting four-dimensional convex
+body of correlations, denoted $\mathcal{Q}$, is fundamental for quantum
+information theory. It is here studied through the lens of convex algebraic
+geometry. We review and systematize what is known and add many details,
+visualizations, and complete proofs. A new result is that $\mathcal{Q}$ is
+isomorphic to its polar dual. The boundary of $\mathcal{Q}$ consists of
+three-dimensional faces isomorphic to elliptopes and sextic algebraic manifolds
+of exposed extreme points. These share all basic properties with the usual
+maximally CHSH-violating correlations. These patches are separated by cubic
+surfaces of non-exposed extreme points. We provide a trigonometric
+parametrization of all extreme points, along with their exposing Tsirelson
+inequalities and quantum models. All non-classical extreme points (exposed or
+not) are self-testing, i.e., realized by an essentially unique quantum model.
+  Two principles, which are specific to the minimal scenario, allow a quick and
+complete overview: The first is the pushout transformation, the application of
+the sine function to each coordinate. This transforms the classical polytope
+exactly into the correlation body $\mathcal{Q}$, also identifying the boundary
+structures. The second principle, self-duality, reveals the polar dual, i.e.,
+the set of all Tsirelson inequalities satisfied by all quantum correlations.
+The convex body $\mathcal{Q}$ includes the classical correlations, a cross
+polytope, and is contained in the no-signaling body, a 4-cube. These polytopes
+are dual to each other, and the linear transformation realizing this duality
+also identifies $\mathcal{Q}$ with its dual.
+</summary>
+    <author>
+      <name>Thinh P. Le</name>
+    </author>
+    <author>
+      <name>Chiara Meroni</name>
+    </author>
+    <author>
+      <name>Bernd Sturmfels</name>
+    </author>
+    <author>
+      <name>Reinhard F. Werner</name>
+    </author>
+    <author>
+      <name>Timo Ziegler</name>
+    </author>
+    <link href="http://arxiv.org/abs/2111.06270v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.06270v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

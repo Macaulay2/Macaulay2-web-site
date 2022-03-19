@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.15136%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.15136&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/b8sW56DBR1yziTwaJ70BEx4ROKE</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.15136v2</id>
+    <updated>2022-01-28T15:33:24Z</updated>
+    <published>2021-12-30T17:20:47Z</published>
+    <title>Cohen-Macaulay generalized binomial edge ideals</title>
+    <summary>  Let $G$ be a simple graph on $n$ vertices and let $J_{G,m}$ be the
+generalized binomial edge ideal associated to $G$ in the polynomial ring
+$K[x_{ij}, 1\le i \le m, 1\le j \le n]$. We classify the Cohen-Macaulay
+generalized binomial edge ideals. Moreover we study the unmixedness and
+classify the bipartite and power cycle unmixed ones.
+</summary>
+    <author>
+      <name>Luca Amata</name>
+    </author>
+    <author>
+      <name>Marilena Crupi</name>
+    </author>
+    <author>
+      <name>Giancarlo Rinaldo</name>
+    </author>
+    <link href="http://arxiv.org/abs/2112.15136v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.15136v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

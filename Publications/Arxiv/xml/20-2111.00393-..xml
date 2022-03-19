@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.00393%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.00393&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HktIn4IaU9NrUEe7a10Ezytrx/0</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.00393v2</id>
+    <updated>2022-01-05T00:08:00Z</updated>
+    <published>2021-10-31T03:11:55Z</published>
+    <title>Chow rings of matroids are Koszul</title>
+    <summary>  Chow rings of matroids were instrumental in the resolution of the
+Heron-Rota-Welsh Conjecture by Adiprasito, Huh, and Katz and in the resolution
+of the Top-Heavy Conjecture by Braden, Huh, Matherne, Proudfoot, and Wang. The
+Chow ring of a matroid is a commutative, graded, Artinian, Gorenstein algebra
+with linear and quadratic relations defined by the matroid. Dotsenko
+conjectured that the Chow ring of any matroid is Koszul. The purpose of this
+paper is to prove Dotsenko's conjecture. We also show that the augmented Chow
+ring of a matroid is Koszul. As a corollary, we show that the Chow rings and
+augmented Chow rings of matroids have rational Poincar\'{e} series.
+</summary>
+    <author>
+      <name>Matthew Mastroeni</name>
+    </author>
+    <author>
+      <name>Jason McCullough</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Added a proof that the augmented Chow ring of a matroid is Koszul;
+  replaced meet-shellable terminology with total coatom ordering; 24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.00393v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.00393v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 16S37, 13E10, 05B35, Secondary: 13H10, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

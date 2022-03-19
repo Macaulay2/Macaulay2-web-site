@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.01883%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.01883&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/E/UAEInM27640cizbcAoXgf8HMY</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.01883v1</id>
+    <updated>2022-01-12T07:54:46Z</updated>
+    <published>2022-01-12T07:54:46Z</published>
+    <title>Reduced polynomial invariant integrity basis for in-plane
+  magneto-mechanical loading</title>
+    <summary>  The description of the behavior of a material subjected to multi-physics
+loadings requires the formulation of constitutive laws that usually derive from
+Gibbs free energies, using invariant quantities depending on the considered
+physics and material symmetries. On the other hand, most of crystalline
+materials can be described by their crystalline texture and the associated
+preferred directions of strong crystalline symmetry (the so-called fibers).
+Moreover, among the materials produced industrially, many are manufactured in
+the form of sheets or of thin layers. This article has for object the study of
+the magneto-mechanical coupling which is a function of the stress $\sigma$ and
+the magnetization M. We consider a material with cubic symmetry whose texture
+can be described by one of three fibers denoted as $\theta$, $\gamma$ or
+$\alpha$ ' , and which is thin enough so that both the stress and the
+magnetization can be considered as in-plane quantities. We propose an algorithm
+able to derive linear relations between the 30 cubic invariants I k of a
+minimal integrity basis describing a magneto-elastic problem, when they are
+restricted to in-plane loading conditions and for different fiber orientations.
+The algorithm/program output is a reduced list of invariants of cardinal 7 for
+the {100}-oriented $\theta$ fiber, of cardinal 15 for the {110}-oriented
+$\alpha$ ' fiber and of cardinal 8 for the {111}-oriented $\gamma$ fiber. This
+reduction (compared to initial cardinal 30) can be of great help for the
+formulation of low-parameter macroscopic magneto-mechanical models.
+</summary>
+    <author>
+      <name>Julien Taurines</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Boris Kolev</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rodrigue Desmorat</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Olivier Hubert</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMT</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/2202.01883v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.01883v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

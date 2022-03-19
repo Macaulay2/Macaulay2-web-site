@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.02045%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.02045&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+S/7YLplc2VOO5t3D7sZWLhRcYk</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.02045v1</id>
+    <updated>2022-03-03T22:29:33Z</updated>
+    <published>2022-03-03T22:29:33Z</published>
+    <title>Serre weights, Galois deformation rings, and local models</title>
+    <summary>  We survey some recent progress on generalizations of conjectures of Serre
+concerning the cohomology of arithmetic groups, focusing primarily on the
+"weight" aspect. This is intimately related to (generalizations of) a
+conjecture of Breuil and M\'ezard relating the geometry of potentially
+semistable deformation rings to modular representation theory. Recently, B.
+Levin, S. Morra, and the authors established these conjectures in tame generic
+contexts by constructing projective varieties (local models) in mixed
+characteristic whose singularities model, in generic cases, those of tamely
+potentially crystalline Galois deformation rings for unramified extensions of
+$\mathbb{Q}_p$ with small regular Hodge-Tate weights.
+</summary>
+    <author>
+      <name>Daniel Le</name>
+    </author>
+    <author>
+      <name>Bao Viet Le Hung</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2203.02045v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.02045v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="11F33, 11F80" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.05918%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.05918&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/v6WzL7hdwB5VDqoup8AiblYNnDw</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.05918v1</id>
+    <updated>2021-12-11T05:37:25Z</updated>
+    <published>2021-12-11T05:37:25Z</published>
+    <title>A note on stability properties of powers of polymatroidal ideals</title>
+    <summary>  Let $I$ be a matroidal ideal of degrre $d$ of a polynomial ring
+$R=K[x_1,...,x_n]$, where $K$ is a field. Let astab$(I)$ and dstab$(I)$ be the
+smallest integer $n$ for which Ass$(I^n)$ and depth$(I^n)$ stabilize,
+respectively. In this paper, we show that astab$(I)=1$ if and only if
+dstab$(I)=1$. Moreover, we prove that if $d=3$, then ${\rm astab}(I)={\rm
+dstab}(I)$. Furthermore, we show that if $I$ is an almost square-free Veronese
+type ideal of degree $d$, then ${\rm astab}(I)={\rm
+dstab}(I)=\lceil\frac{n-1}{n-d}\rceil$.
+</summary>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Dler Naderi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages. Comments well comes</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.05918v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.05918v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A15, 13A30, 13C15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

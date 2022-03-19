@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.14106%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.14106&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bFwCO61z9cRsS2xo0rQ0ncRwsCM</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14106v1</id>
+    <updated>2021-12-28T12:09:28Z</updated>
+    <published>2021-12-28T12:09:28Z</published>
+    <title>On construction of k-regular maps to Grassmannians via algebras of socle
+  dimension two</title>
+    <summary>  A continuous map $\mathbb{C}^n\to Gr(\tau, N)$ is $k$-regular if the
+$\tau$-dimensional subspaces corresponding to images of any $k$ distinct points
+span a $\tau k$-dimensional space. For $\tau = 1$ this essentially recovers the
+classical notion of a $k$-regular map $\mathbb{C}^n\to \mathbb{C}^N$. We
+provide new examples of $k$-regular maps, both in the classical setting $\tau =
+1$ and for $\tau\geq 2$, where these are the first examples known.
+  Our methods come from algebraic geometry, following and generalizing
+Buczy\'{n}ski-Januszkiewicz-Jelisiejew-Micha{\l}ek. The key and highly
+nontrivial part of the argument is proving that certain loci of the Hilbert
+scheme of points have expected dimension. As an important side result, we prove
+irreducibility of the punctual Hilbert scheme of $k$ points on a threefold, for
+$k\leq 11$.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <author>
+      <name>Hanieh Keneshlou</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">27 pages, 2 pictures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.14106v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.14106v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53A07, 14C05 (primary) 57R42, 14L30 (secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

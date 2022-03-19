@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.04260%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.04260&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/3qR7JkQ2hmL3HWZn3M2KRyDftaU</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.04260v1</id>
+    <updated>2022-02-09T03:29:44Z</updated>
+    <published>2022-02-09T03:29:44Z</published>
+    <title>Detecting Golodness via Gröbner Degeneration</title>
+    <summary>  In this paper we study the extent to which Golodness may be transferred along
+morphisms of DG-algebras. In particular, we show that if $I$ is a so-called
+fiber invariant ideal, then Golodness of $I$ is equivalent to Golodness of the
+initial ideal of $I$. We use this to transfer Golodness results for monomial
+ideals to more general classes of ideals. We also prove that any so-called
+rainbow monomial ideal with linear resolution defines a Golod ring; this result
+encompasses and generalizes many known Golodness results for classes of
+monomial ideals. We then combine the techniques developed to give a concise
+proof that maximal minors of (sparse) generic matrices define Golod rings,
+independent of characteristic.
+</summary>
+    <author>
+      <name>Keller VandeBogert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.04260v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.04260v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

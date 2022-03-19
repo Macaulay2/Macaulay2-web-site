@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2201.04164%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2201.04164&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qTrspydc39j4LnbFjHCHQ3TZVLs</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2201.04164v1</id>
+    <updated>2022-01-11T19:31:57Z</updated>
+    <published>2022-01-11T19:31:57Z</published>
+    <title>The Principal Component of the Jets of a Graph</title>
+    <summary>  We define the s-order principal component of the jets of a graph and give a
+description of the primary decomposition of its edge ideal in terms of the
+minimal vertex covers of the base graph. As an application, we show the s-order
+principal component of the jets of a cochordal graph is cochordal, and connect
+this to Froberg's theorem on the linear resolution of edge ideals of cochordal
+graphs. An appendix is provided describing some computations of jets in the
+computer algebra system Macaulay2.
+</summary>
+    <author>
+      <name>Nicholas Iammarino</name>
+    </author>
+    <link href="http://arxiv.org/abs/2201.04164v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.04164v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

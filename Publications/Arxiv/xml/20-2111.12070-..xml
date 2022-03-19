@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.12070%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.12070&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/gd5ZOHVcj4wsh4febmKWMM3z50A</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.12070v2</id>
+    <updated>2022-01-14T14:01:35Z</updated>
+    <published>2021-11-23T18:34:30Z</published>
+    <title>Affine semigroups of maximal projective dimension</title>
+    <summary>  We generalize the notion of symmetric semigroups, pseudo symmetric
+semigroups, and row factorization matrices for pseudo Frobenius elements of
+numerical semigroups to the case of semigroups with maximal projective
+dimension (MPD semigroups).
+</summary>
+    <author>
+      <name>Om Prakash Bhardwaj</name>
+    </author>
+    <author>
+      <name>Kriti Goel</name>
+    </author>
+    <author>
+      <name>Indranath Sengupta</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">The name Betti-type has been introduced, which is meaningful even for
+  semigroups which are not Cohen-Macaulay</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.12070v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.12070v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="20M14, 20M25, 13A02, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

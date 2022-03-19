@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.00301%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.00301&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ea0XKPQd3KGAZ378y49ajmDXOB0</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.00301v1</id>
+    <updated>2022-02-01T10:01:38Z</updated>
+    <published>2022-02-01T10:01:38Z</published>
+    <title>EPW sextics vs EPW cubes</title>
+    <summary>  We study the period domain of double EPW cubes. As a consequence, we prove
+that a very general double EPW cube is the moduli space of stable objects on
+the Kuznetsov component of its corresponding Gushel-Mukai fourfolds; this
+answers a problem posed by Perry, Pertusi and Zhao. We moreover show that the
+moduli spaces of minimal degree elliptic curves on a very general double EPW
+sextic and the corresponding double EPW cube are isomorphic curves. This
+provides further evidence for a conjecture of Nesterov and Oberdieck.
+</summary>
+    <author>
+      <name>Grzegorz Kapustka</name>
+    </author>
+    <author>
+      <name>Michal Kapustka</name>
+    </author>
+    <author>
+      <name>Giovanni Mongardi</name>
+    </author>
+    <link href="http://arxiv.org/abs/2202.00301v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.00301v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

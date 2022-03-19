@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.04625%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.04625&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/SjxHWn8BEJmaFiqeSnZm8bhxfd4</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.04625v1</id>
+    <updated>2022-03-09T10:26:01Z</updated>
+    <published>2022-03-09T10:26:01Z</published>
+    <title>Vector-spread monomial ideals and Eliahou-Kervaire type resolutions</title>
+    <summary>  We introduce the class of vector-spread monomial ideals. This notion
+generalizes that of $t$-spread ideals introduced by Ene, Herzog and Qureshi. In
+particular, we focus on vector-spread strongly stable ideals, we compute their
+Koszul cycles and describe their minimal free resolution. As a consequence the
+graded Betti numbers and the Poincar\'e series are determined. Finally, we
+consider a generalization of algebraic shifting theory for such a class of
+ideals.
+</summary>
+    <author>
+      <name>Antonino Ficarra</name>
+    </author>
+    <link href="http://arxiv.org/abs/2203.04625v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.04625v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40, 13B25, 13D02, 16W50, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

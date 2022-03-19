@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.03192%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.03192&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iq82rSgc2lWXALq82yMwKKWI7X8</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.03192v1</id>
+    <updated>2021-11-04T23:11:45Z</updated>
+    <published>2021-11-04T23:11:45Z</published>
+    <title>Algebraic properties of Hermitian sums of squares, II</title>
+    <summary>  We study real bihomogeneous polynomials $r(z,\bar{z})$ in $n$ complex
+variables for which $r(z,\bar{z}) \|z\|^2$ is the squared norm of a holomorphic
+polynomial mapping. Such polynomials are the focus of the Sum of Squares
+Conjecture, which describes the possible ranks for the squared norm
+$r(z,\bar{z}) \|z\|^2$ and has important implications for the study of proper
+holomorphic mappings between balls in complex Euclidean spaces of different
+dimension. Questions about the possible signatures for $r(z,\bar{z})$ and the
+rank of $r(z,\bar{z}) \|z\|^2$ can be reformulated as questions about
+polynomial ideals. We take this approach and apply purely algebraic tools to
+obtain constraints on the signature of $r$.
+</summary>
+    <author>
+      <name>Jennifer Brooks</name>
+    </author>
+    <author>
+      <name>Dusty Grundmeier</name>
+    </author>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.03192v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.03192v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32A99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

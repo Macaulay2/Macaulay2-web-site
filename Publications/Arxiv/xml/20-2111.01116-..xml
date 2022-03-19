@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.01116%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.01116&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/7vEohpuMSrsRrpTnZDuRhKLHoXY</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.01116v1</id>
+    <updated>2021-11-01T17:45:42Z</updated>
+    <published>2021-11-01T17:45:42Z</published>
+    <title>Hypertetrahedral arrangements</title>
+    <summary>  In this paper, we introduce the notion of a complete hypertetrahedral
+arrangement $\mathcal{A}$ in $\mathbb{P}^{n}$. We address two basic problems.
+First, we describe the local freeness of $\mathcal{A}$ in terms of smaller
+complete hypertetrahedral arrangements and graph theory properties,
+specializing the Musta\c{t}\u{a}-Schenck criterion. As an application, we
+obtain that general complete hypertetrahedral arrangements are not locally
+free. In the second part of this paper, we bound the initial degree of the
+first syzygy module of the Jacobian ideal of $\mathcal{A}$.
+</summary>
+    <author>
+      <name>Liena Colarte</name>
+    </author>
+    <author>
+      <name>Laura Costa</name>
+    </author>
+    <author>
+      <name>Simone Marchesi</name>
+    </author>
+    <author>
+      <name>Rosa Maria Miró-Roig</name>
+    </author>
+    <author>
+      <name>Marti Salat</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages. To appear in Mathematische Zeitschrift. Comments are
+  welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.01116v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.01116v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N20, 13D02, 14F06" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

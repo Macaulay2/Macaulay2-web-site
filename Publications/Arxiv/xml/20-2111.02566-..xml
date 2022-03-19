@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.02566%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.02566&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/d5PSkF7ZUh0rvzH4YO08bnSUzDU</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.02566v1</id>
+    <updated>2021-11-04T00:09:08Z</updated>
+    <published>2021-11-04T00:09:08Z</published>
+    <title>Deformation Theory for Finite Cluster Complexes</title>
+    <summary>  We study the deformation theory of the Stanley-Reisner rings associated to
+cluster complexes for skew-symmetrizable cluster algebras of geometric and
+finite cluster type. In particular, we show that in the skew-symmetric case,
+these cluster complexes are unobstructed, generalizing a result of Ilten and
+Christophersen in the $A_n$ case.
+  We also study the connection between cluster algebras with universal
+coefficients and cluster complexes. We show that for a full rank positively
+graded cluster algebra $\mathcal{A}$ of geometric and finite cluster type, the
+cluster algebra $\mathcal{A}^{\mathrm{univ}}$ with universal coefficients may
+be recovered as the universal family over a partial closure of a torus orbit in
+a multigraded Hilbert scheme. Likewise, we show that under suitable hypotheses,
+the cluster algebra $\mathcal{A}^{\mathrm{univ}}$ may be recovered as the
+coordinate ring for a certain torus-invariant semiuniversal deformation of the
+Stanley-Reisner ring of the cluster complex.
+  We apply these results to show that for any cluster algebra $\mathcal{A}$ of
+geometric and finite cluster type, $\mathcal{A}$ is Gorenstein, and
+$\mathcal{A}$ is unobstructed if it is skew-symmetric. Moreover, if
+$\mathcal{A}$ has enough frozen variables then it has no non-trivial
+torus-invariant deformations. We also study the Gr\"obner theory of the ideal
+of relations among cluster and frozen variables of $\mathcal{A}$. As a
+byproduct we generalize previous results in this setting obtained by Bossinger,
+Mohammadi and N\'ajera Ch\'avez for Grassmannians of planes and
+$\text{Gr}(3,6)$.
+</summary>
+    <author>
+      <name>Nathan Ilten</name>
+    </author>
+    <author>
+      <name>Alfredo Nájera Chávez</name>
+    </author>
+    <author>
+      <name>Hipolito Treffinger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">57 pages. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.02566v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.02566v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

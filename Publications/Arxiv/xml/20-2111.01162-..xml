@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.01162%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.01162&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/97hdnK8kZasLcUPmiqPkUVZRtQ4</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.01162v2</id>
+    <updated>2022-01-07T18:37:01Z</updated>
+    <published>2021-11-01T18:00:11Z</published>
+    <title>Perspectives on the pure spinor superfield formalism</title>
+    <summary>  In this note, we study, formalize, and generalize the pure spinor superfield
+formalism from a rather nontraditional perspective. To set the stage, we review
+the notion of a multiplet for a general super Lie algebra, working in the
+context of the BV and BRST formalisms. Building on this, we explain how the
+pure spinor superfield formalism can be viewed as constructing a supermultiplet
+out of the input datum of an equivariant graded module over the ring of
+functions on the nilpotence variety. We use the homotopy transfer theorem and
+other computational techniques from homological algebra to relate these
+multiplets to more standard component-field formulations. Physical properties
+of the resulting multiplets can then be understood in terms of algebrogeometric
+properties of the nilpotence variety. We illustrate our discussion with many
+examples in various dimensions.
+</summary>
+    <author>
+      <name>Richard Eager</name>
+    </author>
+    <author>
+      <name>Fabian Hahner</name>
+    </author>
+    <author>
+      <name>Ingmar Saberi</name>
+    </author>
+    <author>
+      <name>Brian R. Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">v2: updated grant information. 66 pages, 27 tables. Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.01162v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.01162v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="81T60, 81R25, 17B55, 17B81" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

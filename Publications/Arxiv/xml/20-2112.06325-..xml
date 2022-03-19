@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.06325%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.06325&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nIt0m602z4mEuRrs/nr56Nvi/QU</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.06325v1</id>
+    <updated>2021-12-12T21:20:32Z</updated>
+    <published>2021-12-12T21:20:32Z</published>
+    <title>Multivariate Goppa codes</title>
+    <summary>  In this paper, we introduce multivariate Goppa codes, which contain as a
+special case the well-known, classical Goppa codes. We provide a parity check
+matrix for a multivariate Goppa code in terms of a tensor product of
+generalized Reed-Solomon codes. We prove that multivariate Goppa codes are
+subfield subcodes of augmented Cartesian codes. By showing how this new family
+of codes relates to tensor products of generalized Reed-Solomon codes and
+augmented codes, we obtain information about the parameters, subcodes, duals,
+and hulls of multivariate Goppa codes. We see that in certain cases, the hulls
+of multivariate Goppa codes (resp., tensor product of generalized Reed-Solomon
+codes), are also multivariate Goppa codes (resp. tensor product of generalized
+Reed-Solomon codes). We utilize the multivariate Goppa codes to obtain
+entanglement-assisted quantum error-correcting codes and to build families of
+long LCD, self-dual, or self-orthogonal codes.
+</summary>
+    <author>
+      <name>Hiram H. López</name>
+    </author>
+    <author>
+      <name>Gretchen L. Matthews</name>
+    </author>
+    <link href="http://arxiv.org/abs/2112.06325v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.06325v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="94B05, 11T71, 14G50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.05817%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.05817&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9ggCARAuJkFe9MeRH6cjfyNKNxQ</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.05817v1</id>
+    <updated>2021-11-10T17:21:24Z</updated>
+    <published>2021-11-10T17:21:24Z</published>
+    <title>Quaternary quartic forms and Gorenstein rings</title>
+    <summary>  A quaternary quartic form, a quartic form in four variables, is the dual
+socle generator of an Artinian Gorenstein ring of codimension and regularity 4.
+We present a classification of quartic forms in terms of rank and powersum
+decompositions which corresponds to the classification by the Betti tables of
+the corresponding Artinian Gorenstein rings. This gives a stratification of the
+space of quaternary quartic forms which we compare with the Noether-Lefschetz
+stratification. We discuss various phenomena related to this stratification. We
+study the geometry of powersum varieties for a general form in each stratum. In
+particular, we show that the powersum variety $VSP(F,9)$ of a general quartic
+with singular middle catalecticant is again a quartic surface, thus giving a
+rational map between two divisors in the space of quartics. Finally, we provide
+various explicit constructions of general Artinian Gorenstein rings
+corresponding to each stratum and discuss their lifting to higher dimension.
+These provide constructions of codimension four varieties, which include
+canonical surfaces, Calabi-Yau threefolds and Fano fourfolds. In the particular
+case of quaternary quartics, our results yield answers to questions posed by
+Geramita, Iarrobino-Kanev, and Reid.
+</summary>
+    <author>
+      <name>Gregorz Kapustka</name>
+    </author>
+    <author>
+      <name>Michał Kapustka</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <author>
+      <name>Mike Stillman</name>
+    </author>
+    <author>
+      <name>Beihui Yuan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">106 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.05817v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.05817v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10 (Primary), 14J32, 13H10, 13D02 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

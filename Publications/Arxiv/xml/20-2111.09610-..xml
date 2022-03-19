@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.09610%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.09610&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8UsPssf2szc4GxEDaBFAI0LA2tI</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.09610v3</id>
+    <updated>2022-02-16T15:39:27Z</updated>
+    <published>2021-11-18T10:35:17Z</published>
+    <title>Matroids on Eight Elements with the Half-plane Property and Related
+  Concepts</title>
+    <summary>  We classify all matroids with at most 8 elements that have the half-plane
+property, and we provide a list of some matroids on 9 elements that have, and
+that do not have the half-plane property. Furthermore, we prove that several
+classes of matroids and polynomials that are motivated by the theory of
+semidefinite programming are closed under taking minors and under passing to
+faces of the Newton polytope.
+</summary>
+    <author>
+      <name>Mario Kummer</name>
+    </author>
+    <author>
+      <name>Büşra Sert</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Test results on the half-plane property of matroids on 9 elements are
+  added</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.09610v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.09610v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

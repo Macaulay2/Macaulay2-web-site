@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.14664%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.14664&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MDheY0g8sorCopHnqNIm1cv4Gd0</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.14664v1</id>
+    <updated>2021-12-29T17:30:47Z</updated>
+    <published>2021-12-29T17:30:47Z</published>
+    <title>Reducibility of a family of local Artinian Gorenstein algebras</title>
+    <summary>  The Jordan type of an Artinian algebra is the Jordan block partition
+associated to multiplication by a generic element of the maximal ideal. We
+study the Jordan type for Artinian Gorenstein (AG) local algebras A, and the
+interaction of Jordan type with the symmetric decomposition of the Hilbert
+function H(A). We give examples of Gorenstein sequences H for which the family
+Gor(H) of AG algebras having Hilbert function H has several irreducible
+components, each corresponding to a symmetric decomposition of H. The component
+structure results from the intersection of two opposing filtrations of the
+family Gor(H) of AG algebras: that by Jordan type satisfies the usual dominance
+property; the second filtration, by symmetric decomposition, satisfies a known
+semicontinuity property. Our examples are in codimension three -- the lowest
+codimension of such an example, as Gor(H) is irreducible in codimension two.
+</summary>
+    <author>
+      <name>Anthony Iarrobino</name>
+    </author>
+    <author>
+      <name>Pedro Macias Marques</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">43 pages, 1 figure, comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.14664v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.14664v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H10 (Primary) 13E10, 14B07, 14C05 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

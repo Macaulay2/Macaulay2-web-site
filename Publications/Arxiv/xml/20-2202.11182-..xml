@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.11182%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.11182&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/VSh6OgNgCNkR5QrJabXkzp4ISg0</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.11182v1</id>
+    <updated>2022-02-22T21:22:29Z</updated>
+    <published>2022-02-22T21:22:29Z</published>
+    <title>Boolean models of the transport, synthesis, and metabolism of tryptophan
+  in Escherichia Coli</title>
+    <summary>  The tryptophan (trp) operon in E. coli codes for the proteins responsible for
+the synthesis of the amino acid tryptophan from chorismic acid, and has been
+one of the most well-studied gene networks since its discovery in the 1960s.
+The tryptophanase (tna) operon codes for proteins needed to transport and
+metabolize it. Both of these have been modeled individually with delay
+differential equations under the assumption of mass-action kinetics. Recent
+work has provided strong evidence for bistable behavior of the tna operon. The
+authors of (Orozco, 2019) identified a medium range of tryptophan in which the
+system has two stable steady-states, and they reproduced these experimentally.
+In this paper, we will show how a Boolean model can capture this bistability.
+We will also develop and analyze a Boolean model of the trp operon. Finally, we
+will combine these two to create a single Boolean model of the transport,
+synthesis, and metabolism of tryptophan. In this amalgamated model, the
+bistability disappears, presumably reflecting the ability of the trp operon to
+produce tryptophan and drive the system toward homeostasis. All of these models
+have longer attractors that we call "artifacts of synchrony", which disappear
+in the asynchronous automata. This curiously matches the behavior of a recent
+Boolean model of the arabinose operon in E. coli, and we discuss some
+open-ended questions that arise along these lines.
+</summary>
+    <author>
+      <name>Isadora Deal</name>
+    </author>
+    <author>
+      <name>Matthew Macauley</name>
+    </author>
+    <author>
+      <name>Robin Davies</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages, 12 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.11182v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.11182v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="92C42, 13P25, 70K05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

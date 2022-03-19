@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.12881%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.12881&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UC06d24ix2CbcQYtK4cGWF0/8VU</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.12881v2</id>
+    <updated>2022-03-03T13:31:39Z</updated>
+    <published>2021-11-25T02:49:13Z</published>
+    <title>The $\mathrm{v}$-number of Monomial Ideals</title>
+    <summary>  We generalize some results of $\mathrm{v}$-number for arbitrary monomial
+ideals by showing that the $\mathrm{v}$-number of an arbitrary monomial ideal
+is the same as the $\mathrm{v}$-number of its polarization. We prove that the
+$\mathrm{v}$-number $\mathrm{v}(I(G))$ of the edge ideal $I(G)$, the induced
+matching number $\mathrm{im}(G)$ and the regularity $\mathrm{reg}(R/I(G))$ of a
+graph $G$, satisfy $\mathrm{v}(I(G))\leq \mathrm{im}(G)\leq
+\mathrm{reg}(R/I(G))$, where $G$ is either a bipartite graph, or a
+$(C_{4},C_{5})$-free vertex decomposable graph, or a whisker graph. There is an
+open problem in \cite{v}, whether $\mathrm{v}(I)\leq \mathrm{reg}(R/I)+1$ for
+any square-free monomial ideal $I$. We show that
+$\mathrm{v}(I(G))&gt;\mathrm{reg}(R/I(G))+1$, for a disconnected graph $G$. We
+derive some inequalities of $\mathrm{v}$-numbers which may be helpful to answer
+the above problem for the case of connected graphs. We connect
+$\mathrm{v}(I(G))$ with an invariant of the line graph $L(G)$ of $G$. For a
+simple connected graph $G$, we show that $\mathrm{reg}(R/I(G))$ can be
+arbitrarily larger than $\mathrm{v}(I(G))$. Also, we try to see how the
+$\mathrm{v}$-number is related to the Cohen-Macaulay property of square-free
+monomial ideals.
+</summary>
+    <author>
+      <name>Kamalesh Saha</name>
+    </author>
+    <author>
+      <name>Indranath Sengupta</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">By adding Lemma 3.2, we have modified Proposition 3.2 (in v1) to
+  Proposition 3.3 (in v2). Also, Theorem 3.3, Proposition 3.4, Proposition 3.5
+  have been modified to Theorem 3.4, Proposition 3.7, Proposition 3.9,
+  respectively. We have added Lemma 3.8 to modify the proof of Proposition 3.9
+  (v2). Also, Corollary 3.5 and Example 3.6 have been added</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.12881v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.12881v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 13F55, 05C70, 05E40, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

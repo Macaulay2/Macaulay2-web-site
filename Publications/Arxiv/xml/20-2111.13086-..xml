@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.13086%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.13086&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rICsr6b3bi9cxBlZ4e6kN3UmVns</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.13086v1</id>
+    <updated>2021-11-25T13:53:31Z</updated>
+    <published>2021-11-25T13:53:31Z</published>
+    <title>Monads and moduli components for stable rank 2 bundles with odd
+  determinant on the projective space</title>
+    <summary>  We propose a three-step program for the classification of stable rank 2
+bundles on the projective space $\mathbb{P}^3$ inspired by an article by
+Hartshorne and Rao. While this classification program has been successfully
+completed for stable rank 2 bundles with even determinant and $c_2\le5$, much
+less is known for bundles with odd determinant. After revising the known facts
+about these objects, we list all possible spectra and minimal monads for stable
+rank 2 bundles with odd determinant and $c_2\le8$. We provide a full
+classification of all bundles with positive minimal monads, provide a negative
+answer to a question raised by Hartshorne and Rao, and describe new irreducible
+components of the moduli spaces of stable rank 2 bundles with odd determinant
+and $c_2=6,8$.
+</summary>
+    <author>
+      <name>Aislan Fontes</name>
+    </author>
+    <author>
+      <name>Marcos Jardim</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.13086v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.13086v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D20 (Primary), 14D21 14D23 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

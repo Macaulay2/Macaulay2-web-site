@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.03489%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.03489&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hjWfUWILy4bIVKDJCA3APquqxyA</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.03489v1</id>
+    <updated>2022-02-07T20:08:05Z</updated>
+    <published>2022-02-07T20:08:05Z</published>
+    <title>Lines on $p$-adic and real cubic surfaces</title>
+    <summary>  We study lines on smooth cubic surfaces over the field of $p$-adic numbers,
+from a theoretical and computational point of view. Segre showed that the
+possible counts of such lines are $0,1,2,3,5,7,9,15$ or $27$. We show that each
+of these counts is achieved. Probabilistic aspects are also investigated by
+sampling both $p$-adic and real cubic surfaces from different distributions and
+estimating the probability of each count. We link this to recent results on
+probabilistic enumerative geometry. Some experimental results on the Galois
+groups attached to $p$-adic cubic surfaces are also discussed.
+</summary>
+    <author>
+      <name>Rida Ait El Manssour</name>
+    </author>
+    <author>
+      <name>Yassine El Maazouz</name>
+    </author>
+    <author>
+      <name>Enis Kaya</name>
+    </author>
+    <author>
+      <name>Kemal Rose</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.03489v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.03489v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q10, 14N10, 60B99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.00819%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.00819&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UDsOYzMomQvbB3Ydh8bhhxJWa/g</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.00819v1</id>
+    <updated>2021-11-01T10:45:24Z</updated>
+    <published>2021-11-01T10:45:24Z</published>
+    <title>The spine of the T-graph of the Hilbert scheme of points in the plane</title>
+    <summary>  The torus T of projective space also acts on the Hilbert scheme of subschemes
+of projective space. The T-graph of the Hilbert scheme has vertices the fixed
+points of this action, and edges connecting pairs of fixed points in the
+closure of a one-dimensional orbit. In general this graph depends on the
+underlying field. We construct a subgraph, which we call the spine, of the
+T-graph of Hilb^m(A^2) that is independent of the choice of infinite field. For
+certain edges in the spine we also give a description of the tropical ideal, in
+the sense of tropical scheme theory, of a general ideal in the edge. This gives
+a more refined understanding of these edges, and of the tropical stratification
+of the Hilbert scheme.
+</summary>
+    <author>
+      <name>Diane Maclagan</name>
+    </author>
+    <author>
+      <name>Rob Silversmith</name>
+    </author>
+    <link href="http://arxiv.org/abs/2111.00819v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.00819v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C05, 14T10, 14L30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

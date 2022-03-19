@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.13521%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.13521&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/18gC1onaofoO+RxhSKB9++p7/PY</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.13521v1</id>
+    <updated>2021-11-26T14:37:40Z</updated>
+    <published>2021-11-26T14:37:40Z</published>
+    <title>On the numerical dimension of Calabi-Yau 3-folds of Picard number 2</title>
+    <summary>  We show that for any smooth Calabi-Yau threefold $X$ of Picard number $2$
+with infinite birational automorphism group, the numerical dimension
+$\kappa_\sigma$ of the extremal rays of the movable cone of $X$ is
+$\frac{3}{2}$. Furthermore, we provide new examples of Calabi-Yau threefolds of
+Picard number $2$ with infinite birational automorphism group.
+</summary>
+    <author>
+      <name>Michael Hoff</name>
+    </author>
+    <author>
+      <name>Isabel Stenger</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2111.13521v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.13521v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

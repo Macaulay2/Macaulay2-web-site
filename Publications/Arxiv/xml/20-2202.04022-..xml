@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.04022%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.04022&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Auz3IgckOffga5u8YeegfwXxBa8</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.04022v1</id>
+    <updated>2022-02-08T17:43:40Z</updated>
+    <published>2022-02-08T17:43:40Z</published>
+    <title>The mathematical research-data repository MathRepo</title>
+    <summary>  MathRepo, located at https://mathrepo.mis.mpg.de, is an online repository for
+mathematical research data. In mathematics, research data comes in many
+different flavours. For instance, in computer algebra it most often takes the
+form of mathematical documents, notebooks, research-software packages and
+libraries, computer algebra systems, algorithms, and collections of
+mathematical objects. In this work we give an overview of the type of
+contributions hosted by MathRepo, we discuss the principles that should be
+followed to make a research-data repository good, and the current challenges we
+are facing as MathRepo's maintainers.
+</summary>
+    <author>
+      <name>Claudia Fevola</name>
+    </author>
+    <author>
+      <name>Christiane Görgen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">5 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.04022v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.04022v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.HO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

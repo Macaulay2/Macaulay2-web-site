@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.13784%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.13784&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ZPAJM0VGt38BEX9BSe+72RSugP8</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.13784v1</id>
+    <updated>2022-02-28T13:26:01Z</updated>
+    <published>2022-02-28T13:26:01Z</published>
+    <title>A Signature-based Algorithm for Computing the Nondegenerate Locus of a
+  Polynomial System</title>
+    <summary>  Polynomial system solving arises in many application areas to model
+non-linear geometric properties. In such settings, polynomial systems may come
+with degeneration which the end-user wants to exclude from the solution set.
+The nondegenerate locus of a polynomial system is the set of points where the
+codimension of the solution set matches the number of equations. Computing the
+nondegenerate locus is classically done through ideal-theoretic operations in
+commutative algebra such as saturation ideals or equidimensional decompositions
+to extract the component of maximal codimension. By exploiting the algebraic
+features of signature-based Gr\"obner basis algorithms we design an algorithm
+which computes a Gr\"obner basis of the equations describing the closure of the
+nondegenerate locus of a polynomial system, without computing first a Gr\"obner
+basis for the whole polynomial system.
+</summary>
+    <author>
+      <name>Christian Eder</name>
+    </author>
+    <author>
+      <name>Pierre Lairez</name>
+    </author>
+    <author>
+      <name>Rafael Mohr</name>
+    </author>
+    <author>
+      <name>Mohab Safey El Din</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.13784v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.13784v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 13P05" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.1.2; G.4" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.03424%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.03424&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/vbeIXuQw8EkYEV9nUxFNxhjqniE</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.03424v1</id>
+    <updated>2021-12-06T23:51:20Z</updated>
+    <published>2021-12-06T23:51:20Z</published>
+    <title>Learning to Solve Hard Minimal Problems</title>
+    <summary>  We present an approach to solving hard geometric optimization problems in the
+RANSAC framework. The hard minimal problems arise from relaxing the original
+geometric optimization problem into a minimal problem with many spurious
+solutions. Our approach avoids computing large numbers of spurious solutions.
+We design a learning strategy for selecting a starting problem-solution pair
+that can be numerically continued to the problem and the solution of interest.
+We demonstrate our approach by developing a RANSAC solver for the problem of
+computing the relative pose of three calibrated cameras, via a minimal
+relaxation using four points in each view. On average, we can solve a single
+problem in under 70 $\mu s.$ We also benchmark and study our engineering
+choices on the very familiar problem of computing the relative pose of two
+calibrated cameras, via the minimal case of five points in two views.
+</summary>
+    <author>
+      <name>Petr Hruby</name>
+    </author>
+    <author>
+      <name>Timothy Duff</name>
+    </author>
+    <author>
+      <name>Anton Leykin</name>
+    </author>
+    <author>
+      <name>Tomas Pajdla</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages total: 14 pages main paper and 10 pages supplementary</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.03424v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.03424v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H20, 68T45" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="I.4.5" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

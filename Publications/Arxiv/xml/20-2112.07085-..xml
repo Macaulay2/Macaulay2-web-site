@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.07085%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.07085&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rgQO/aBIoPRrwMAi6dTaHa36caY</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.07085v1</id>
+    <updated>2021-12-14T01:05:39Z</updated>
+    <published>2021-12-14T01:05:39Z</published>
+    <title>Relative generalized Hamming weights of evaluation codes</title>
+    <summary>  The aim of this work is to algebraically describe the relative generalized
+Hamming weights of evaluation codes. We give a lower bound for these weights in
+terms of a footprint bound. We prove that this bound can be sharp. We compute
+the next-to-minimal weight of toric codes over hypersimplices of degree 1.
+</summary>
+    <author>
+      <name>Delio Jaramillo-Velez</name>
+    </author>
+    <author>
+      <name>Hiram H. López</name>
+    </author>
+    <author>
+      <name>Yuriko Pitones</name>
+    </author>
+    <link href="http://arxiv.org/abs/2112.07085v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.07085v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 14G50, 94B27, 11T71" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

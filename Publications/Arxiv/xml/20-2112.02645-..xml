@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2112.02645%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2112.02645&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/E7Wp1iOOaiuplw9r1k4RT6gfkUY</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2112.02645v2</id>
+    <updated>2022-03-10T17:31:30Z</updated>
+    <published>2021-12-05T18:25:59Z</published>
+    <title>Normally torsion-free edge ideals of weighted oriented graphs</title>
+    <summary>  Let $I=I(D)$ be the edge ideal of a weighted oriented graph $D$, let $G$ be
+the underlying graph of $D$, and let $I^{(n)}$ be the $n$-th symbolic power of
+$I$ defined using the minimal primes of $I$. We prove that $I^2=I^{(2)}$ if and
+only if (i) every vertex of $D$ with weight greater than $1$ is a sink and (ii)
+$G$ has no triangles. As a consequence, using a result of Mandal and Pradhan,
+and the classification of normally torsion-free edge ideals of graphs, it
+follows that $I^n=I^{(n)}$ for all $n\geq 1$ if and only if (a) every vertex of
+$D$ with weight greater than $1$ is a sink and (b) $G$ is bipartite. If $I$ has
+no embedded primes, conditions (a) and (b) classify when $I$ is normally
+torsion-free. Using polyhedral geometry and integral closure, we give necessary
+conditions for the equality of ordinary and symbolic powers of monomial ideals
+with a minimal irreducible decomposition. Then, we classify when the Alexander
+dual of the edge ideal of a weighted oriented graph is normally torsion-free.
+</summary>
+    <author>
+      <name>Gonzalo Grisalde</name>
+    </author>
+    <author>
+      <name>Jose Martinez-Bernal</name>
+    </author>
+    <author>
+      <name>Rafael H. Villarreal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">We added some results</arxiv:comment>
+    <link href="http://arxiv.org/abs/2112.02645v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2112.02645v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C70, 13A70, 13F20, 05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

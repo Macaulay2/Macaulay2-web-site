@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2201.04268%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2201.04268&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fJn07Z7xcbzbGgCyW3fHHT972Bc</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2201.04268v1</id>
+    <updated>2022-01-12T01:55:48Z</updated>
+    <published>2022-01-12T01:55:48Z</published>
+    <title>Sparse trace tests</title>
+    <summary>  We establish how the coefficients of a sparse polynomial system influence the
+sum (or the trace) of its zeros. As an application, we develop numerical tests
+for verifying whether a set of solutions to a sparse system is complete. These
+algorithms extend the classical trace test in numerical algebraic geometry. Our
+results rely on both the analysis of the structure of sparse resultants as well
+as an extension of Esterov's results on monodromy groups of sparse systems.
+</summary>
+    <author>
+      <name>Taylor Brysiewicz</name>
+    </author>
+    <author>
+      <name>Michael Burr</name>
+    </author>
+    <link href="http://arxiv.org/abs/2201.04268v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2201.04268v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="65H14, 14Q65, 14M25, 68W30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

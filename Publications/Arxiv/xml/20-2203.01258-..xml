@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.01258%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.01258&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/0SokHJ6UD9Zqyo8jVJF+C7vnJss</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01258v1</id>
+    <updated>2022-03-02T17:30:30Z</updated>
+    <published>2022-03-02T17:30:30Z</published>
+    <title>Lefschetz properties of some codimension three Artinian Gorenstein
+  algebras</title>
+    <summary>  Codimension two Artinian algebras $A$ have the strong and weak Lefschetz
+properties provided the characteristic is zero or greater than the socle
+degree. It is open to what extent such results might extend to codimension
+three AG algebras - the most promising results so far have concerned the weak
+Lefschetz property for such algebras. We here show that every standard-graded
+codimension three Artinian Gorenstein algebra $A$ having low maximum value of
+the Hilbert function - at most six - has the strong Lefschetz property,
+provided that the characteristic is zero. When the characteristic is greater
+than the socle degree of $A$, we show that $A$ is almost strong Lefschetz. This
+quite modest result is nevertheless arguably the most encompassing so far
+concerning the strong Lefschetz property for graded codimension three AG
+algebras.
+</summary>
+    <author>
+      <name>Nancy Abdallah</name>
+    </author>
+    <author>
+      <name>Nasrin Altafi</name>
+    </author>
+    <author>
+      <name>Anthony Iarrobino</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <author>
+      <name>Joachim Yaméogo</name>
+    </author>
+    <link href="http://arxiv.org/abs/2203.01258v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.01258v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10, 13D40, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

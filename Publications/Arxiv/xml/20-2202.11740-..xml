@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2202.11740%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2202.11740&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/sp8crOwrXKrAVg3Gc75rQcela4w</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2202.11740v1</id>
+    <updated>2022-02-23T19:03:36Z</updated>
+    <published>2022-02-23T19:03:36Z</published>
+    <title>Lower bounds on the rank and symmetric rank of real tensors</title>
+    <summary>  We lower bound the rank of a tensor by a linear combination of the ranks of
+three of its unfoldings, using Sylvester's rank inequality. In a similar way,
+we lower bound the symmetric rank by a linear combination of the symmetric
+ranks of three unfoldings. Lower bounds on the rank and symmetric rank of
+tensors are important for finding counterexamples to Comon's conjecture. A real
+counterexample to Comon's conjecture is a tensor whose real rank and real
+symmetric rank differ. Previously, there was only one real counterexample
+known, constructed in a paper of Shitov. We divide the construction into three
+steps. The first step involves linear spaces of binary tensors. The second step
+considers a linear space involving larger decomposable tensors. The third step
+is to verify a conjecture that lower bounds the symmetric rank, on a tensor of
+interest. We use the construction to build an order six real tensor whose real
+rank and real symmetric rank differ.
+</summary>
+    <author>
+      <name>Kexin Wang</name>
+    </author>
+    <author>
+      <name>Anna Seigal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">26 pages, 3 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2202.11740v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2202.11740v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 14N07, 13P15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

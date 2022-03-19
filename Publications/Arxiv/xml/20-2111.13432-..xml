@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2111.13432%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2111.13432&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/C6xtSaXCjxSn7tQXeMPrhg0aeYY</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2111.13432v1</id>
+    <updated>2021-11-26T11:32:58Z</updated>
+    <published>2021-11-26T11:32:58Z</published>
+    <title>The center of the universal enveloping algebras of small-dimensional
+  nilpotent Lie algebras in prime characteristic</title>
+    <summary>  We describe the centers of the universal enveloping algebras of nilpotent Lie
+algebras of dimension at most six over fields of prime characteristic. If the
+characteristic is not smaller than the nilpontency class, then the center is
+the integral closure of the algebra generated over the $p$-center by the same
+generators that also occur in characteristic zero. Except for three examples
+(two of which are standard filiform), this algebra is already integrally closed
+and hence it coincides with the center. In the case of these three exceptional
+algebras, the center has further generators. Then we show that the center of
+the universal enveloping algebra of the algebras investigated in this paper is
+isomorphic to the Poisson center (the algebra of invariants under the adjoint
+representation). This shows that Braun's conjecture is valid for this class of
+Lie algebras.
+</summary>
+    <author>
+      <name>Vanderlei Lopes de Jesus</name>
+    </author>
+    <author>
+      <name>Csaba Schneider</name>
+    </author>
+    <link href="http://arxiv.org/abs/2111.13432v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2111.13432v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="17B35, 17B30, 16U70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

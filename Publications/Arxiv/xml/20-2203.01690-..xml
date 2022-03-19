@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.01690%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.01690&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/1q4gmsujGB6N8RNHH5AB0SF/ul8</id>
+  <updated>2022-03-19T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.01690v1</id>
+    <updated>2022-03-03T12:54:53Z</updated>
+    <published>2022-03-03T12:54:53Z</published>
+    <title>Introduction to Toric Geometry</title>
+    <summary>  These notes are based on a series of lectures given by the author at the Max
+Planck Institute for Mathematics in the Sciences in Leipzig. Addressed topics
+include affine and projective toric varieties, abstract normal toric varieties
+from fans, divisors on toric varieties and Cox's construction of a toric
+variety as a GIT quotient. We emphasize the role of toric varieties in solving
+systems of polynomial equations and provide many computational examples using
+the Julia package Oscar.jl.
+</summary>
+    <author>
+      <name>Simon Telen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">79 pages, 27 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2203.01690v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.01690v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
