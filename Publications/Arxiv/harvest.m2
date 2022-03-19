@@ -7,7 +7,7 @@ slowGetWWW = x -> (
 query = "Macaulay2"
 -- query = "%22Macaulay+2%22"
 -- query = "%22Cohen+Macaulay+2%22"
-queryURL = concatenate ("https://search.arxiv.org/?query=",query,"&in=&byDate=1")
+queryURL = concatenate ("https://search.arxiv.org/?query=",query,"&byDate=1")
 
 harvest = () -> (
      count = 0;
@@ -25,7 +25,7 @@ harvest = () -> (
      do (
 	  n = select(m,l -> match(">Next &gt;&gt;",l));
 	  if #n == 0 then break;
-	  url = "http://search.arxiv.org:8081/" | replace(".*(.query=[^\"]*).*","\\1",n#0);
+	  url = "https://search.arxiv.org/" | replace(".*(.query=[^\"]*).*","\\1",n#0);
 	  url = replace("&amp;","&",url);
 	  x = slowGetWWW url;
 	  ))
