@@ -9,7 +9,7 @@ include ../Makefile.include
 DOWNLOADDIR = ../Downloads/GNU-Linux
 FLAVORS = Ubuntu Debian Raspbian
 UBUNTU_RELEASES = maverick precise quantal raring trusty utopic vivid wily \
-		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy hirsute impish
+		  xenial yakkety zesty artful bionic cosmic disco eoan focal groovy hirsute impish jammy
 DEBIAN_RELEASES = etch lenny squeeze wheezy jessie stretch buster bullseye
 RASPBIAN_RELEASES = wheezy
 SUFFIX =
@@ -108,6 +108,7 @@ debian : always
 		    Ubuntu-groovy) match="Ubuntu-20.10" ;;\
 		    Ubuntu-hirsute) match="Ubuntu-21.04" ;;\
 		    Ubuntu-impish) match="Ubuntu-21.10" ;;\
+		    Ubuntu-jammy) match="Ubuntu-22.04" ;;\
 		    Debian-etch) match="Debian-4.0" ;;\
 		    Debian-lenny) match="Debian-5.0" ;;\
 		    Debian-squeeze) match="Debian-6.0" ;;\
