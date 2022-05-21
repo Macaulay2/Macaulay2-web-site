@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2204.03971%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2204.03971&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/n0ScKVltWIr8adBTrsuK/6T5xUo</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2204.03971v1</id>
+    <updated>2022-04-08T09:59:20Z</updated>
+    <published>2022-04-08T09:59:20Z</published>
+    <title>No eleventh conditional Ingleton inequality</title>
+    <summary>  A rational probability distribution on four binary random variables $X, Y, Z,
+U$ is constructed which satisfies the conditional independence relations $[X
+\mathrel{\text{$\perp\mkern-10mu\perp$}} Y]$, $[X
+\mathrel{\text{$\perp\mkern-10mu\perp$}} Z \mid U]$, $[Y
+\mathrel{\text{$\perp\mkern-10mu\perp$}} U \mid Z]$ and $[Z
+\mathrel{\text{$\perp\mkern-10mu\perp$}} U \mid XY]$ but whose entropy vector
+violates the Ingleton inequality. This settles a recent question of Studen\'y
+(IEEE Trans. Inf. Theory vol. 67, no. 11) and shows that there are, up to
+symmetry, precisely ten inclusion-minimal sets of conditional independence
+assumptions on four discrete random variables which make the Ingleton
+inequality hold.
+</summary>
+    <author>
+      <name>Tobias Boege</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2204.03971v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2204.03971v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="94A17, 62R01, 94-08" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

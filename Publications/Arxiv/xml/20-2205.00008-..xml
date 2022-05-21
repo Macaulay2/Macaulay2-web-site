@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.00008%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.00008&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2OjnhJOhJsP5kwyo7SiKupv+QuA</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.00008v2</id>
+    <updated>2022-05-03T17:00:30Z</updated>
+    <published>2022-04-29T18:00:00Z</published>
+    <title>Brill-Noether-general Limit Root Bundles: Absence of vector-like Exotics
+  in F-theory Standard Models</title>
+    <summary>  Root bundles appear prominently in studies of vector-like spectra of 4d
+F-theory compactifications. Of particular importance to phenomenology are the
+Quadrillion F-theory Standard Models (F-theory QSMs). In this work, we identify
+$\mathcal{O}(10^{11})$ F-theory QSM geometries without vector-like exotics in
+the representations $(\mathbf{3}, \mathbf{2})_{1/6}$, $(\mathbf{\bar{3}},
+\mathbf{1})_{-2/3}$ and $(\mathbf{1}, \mathbf{1})_{1}$.
+  The QSM geometries come in families of toric 3-folds $B_3( \Delta^\circ )$
+obtained from triangulations of certain 3-dimensional polytopes $\Delta^\circ$.
+The matter curves in $X_\Sigma \in B_3( \Delta^\circ )$ can be deformed to
+nodal curves which are the same for all spaces in $B_3( \Delta^\circ )$.
+Therefore, one can probe the vector-like spectra on the entire family $B_3(
+\Delta^\circ )$ from studies of five nodal curves. For the family $B_3(
+\Delta_4^\circ )$, consisting of $\mathcal{O}(10^{11})$ 3-folds, we argue that
+all limit root bundles on the nodal curves $C_{(\mathbf{3},
+\mathbf{2})_{1/6}}^\bullet$, $C_{(\mathbf{\bar{3}},
+\mathbf{1})_{-2/3}}^\bullet$ and $C_{(\mathbf{1}, \mathbf{1})_{1}}^\bullet$
+have exactly three sections. This rules out vector-like exotics.
+  We compute the cohomologies of all limit roots on selected nodal curves. In
+our applications, for the majority of limit roots this requires line bundle
+cohomology on rational tree-like curves. For this, we present a computer
+algorithm. The remaining limit roots, corresponding to circuit-like graphs, are
+handled by hand. The cohomologies are independent of the relative position of
+the nodes, except for a few circuits. On these \emph{jumping circuits}, jumps
+happen if the nodes are specially aligned. This mirrors classical Brill-Noether
+jumps. $B_3(\Delta_4^\circ)$ admits one jumping circuit. We derive explicit
+conditions which guarantee the absence of vector-like exotics.
+</summary>
+    <author>
+      <name>Martin Bies</name>
+    </author>
+    <author>
+      <name>Mirjam Cvetič</name>
+    </author>
+    <author>
+      <name>Ron Donagi</name>
+    </author>
+    <author>
+      <name>Marielle Ong</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">34 pages + appendix; typos corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.00008v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.00008v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

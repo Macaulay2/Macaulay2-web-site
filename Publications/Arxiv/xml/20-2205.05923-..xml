@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.05923%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.05923&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Vyj3Gejw5vUuS/L3nE2TcLJXxPw</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.05923v1</id>
+    <updated>2022-05-12T07:23:26Z</updated>
+    <published>2022-05-12T07:23:26Z</published>
+    <title>Hankel edge ideals of trees and (semi-)Hamiltonian graphs</title>
+    <summary>  In this paper, we study the Hankel edge ideals of graphs. We determine the
+minimal prime ideals of the Hankel edge ideal of labeled Hamiltonian and
+semi-Hamiltonian graphs, and we investigate radicality, being a complete
+intersection, almost complete intersection and set theoretic complete
+intersection for such graphs. We also consider the Hankel edge ideal of trees
+with a natural labeling, called rooted labeling. We characterize such trees
+whose Hankel edge ideal is a complete intersection, and moreover, we determine
+those whose initial ideal with respect to the reverse lexicographic order
+satisfies this property.
+</summary>
+    <author>
+      <name>Dariush Kiani</name>
+    </author>
+    <author>
+      <name>Sara Saeedi Madani</name>
+    </author>
+    <author>
+      <name>Saeed Tafazolian</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">15 pages, 6 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.05923v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.05923v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

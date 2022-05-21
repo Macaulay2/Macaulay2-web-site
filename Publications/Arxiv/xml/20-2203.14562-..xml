@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.14562%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.14562&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/FjAJEjhDXGe/iEp886UKCX5PJM8</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.14562v1</id>
+    <updated>2022-03-28T08:06:30Z</updated>
+    <published>2022-03-28T08:06:30Z</published>
+    <title>The distance to cubic symmetry class as a polynomial optimization
+  problem</title>
+    <summary>  Generically, a fully measured elasticity tensor has no material symmetry. For
+single crystals with a cubic lattice, or for the aeronautics turbine blades
+superalloys such as Nickelbased CMSX-4, cubic symmetry is nevertheless
+expected. It is in practice necessary to compute the nearest cubic elasticity
+tensor to a given raw one. Mathematically formulated, the problem consists in
+finding the distance between a given tensor and the cubic symmetry stratum. It
+is known that closed symmetry strata (for any tensorial representation of the
+rotation group) are semialgebraic sets, defined by polynomial equations and
+inequalities. It has been recently shown that the closed cubic elasticity
+stratum is moreover algebraic, which means that it can be defined by polynomial
+equations only (without requirement to polynomial inequalities). We propose to
+make use of this mathematical property to formulate the distance to cubic
+symmetry problem as a polynomial (in fact quadratic) optimization problem, and
+to derive its quasi-analytical solution using the technique of Gr{\"o}bner
+bases. The proposed methodology also applies to cubic Hill elasto-plasticity
+(where two fourth-order constitutive tensors are involved).
+</summary>
+    <author>
+      <name>Perla Azzi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMJ-PRG</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Rodrigue Desmorat</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMPS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Boris Kolev</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMPS</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Fabien Priziac</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">LMBA</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/2203.14562v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.14562v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="physics.class-ph" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

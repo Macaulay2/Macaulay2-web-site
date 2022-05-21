@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.05713%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.05713&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/a9LixsxtMxt/V/IKTMIlWKhtoY4</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.05713v1</id>
+    <updated>2022-05-11T18:09:28Z</updated>
+    <published>2022-05-11T18:09:28Z</published>
+    <title>Concise tensors of minimal border rank</title>
+    <summary>  We determine defining equations for the set of concise tensors of minimal
+border rank in $C^m\otimes C^m\otimes C^m$ when $m=5$ and the set of concise
+minimal border rank $1_*$-generic tensors when $m=5,6$. We solve this classical
+problem in algebraic complexity theory with the aid of two recent developments:
+the 111-equations defined by Buczy\'{n}ska-Buczy\'{n}ski and results of
+Jelisiejew-\v{S}ivic on the variety of commuting matrices. We introduce a new
+algebraic invariant of a concise tensor, its 111-algebra, and exploit it to
+give a strengthening of Friedland's normal form for $1$-degenerate tensors
+satisfying Strassen's equations. We use the 111-algebra to characterize wild
+minimal border rank tensors and classify them in $C^5\otimes C^5\otimes C^5$.
+</summary>
+    <author>
+      <name>Joachim Jelisiejew</name>
+    </author>
+    <author>
+      <name>J. M. Landsberg</name>
+    </author>
+    <author>
+      <name>Arpan Pal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.05713v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.05713v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="15A69, 14C05, 68Q15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

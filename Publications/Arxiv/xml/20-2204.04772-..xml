@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2204.04772%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2204.04772&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/LPtxXyIBsiO7bxJN3b1nfwgnrFk</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2204.04772v2</id>
+    <updated>2022-04-21T14:37:21Z</updated>
+    <published>2022-04-10T21:23:00Z</published>
+    <title>On the $(n+3)$-webs by rational curves induced by the forgetful maps on
+  the moduli spaces $\mathcal M_{0,n+3}$</title>
+    <summary>  We discuss the curvilinear web $\boldsymbol{\mathcal W}_{0,n+3}$ on the
+moduli space $\mathcal M_{0,n+3}$ of projective configurations of $n+3$ points
+on $\mathbf P^1$ defined by the $n+3$ forgetful maps $\mathcal
+M_{0,n+3}\rightarrow \mathcal M_{0,n+2}$. We recall classical results which
+show that this web is linearizable when $n$ is odd, or is equivalent to a web
+by conics when $n$ is even. We then turn to the abelian relations (ARs) of
+these webs. After recalling the well-known case when $n=2$ (related to the
+5-terms functional identity of the dilogarithm), we focus on the case of the
+6-web $\boldsymbol{\mathcal W}_{{0,6}}$. We show that this web is isomorphic to
+the web formed by the lines contained in Segre's cubic primal
+$\boldsymbol{S}\subset \mathbf P^4$ and that a kind of `Abel's theorem' allows
+to describe the ARs of $\boldsymbol{\mathcal W}_{{0,6}}$ by means of the
+abelian 2-forms on the Fano surface $F_1(\boldsymbol{S})\subset G_1(\mathbf
+P^4)$ of lines contained in $\boldsymbol{S}$. We deduce from this that
+$\boldsymbol{\mathcal W}_{{0,6}}$ has maximal rank with all its ARs rational,
+and that these span a space which is an irreducible $\mathfrak S_6$-module.
+Then we take up an approach due to Damiano that we correct in the case when $n$
+is odd: it leads to an abstract description of the space of ARs of
+$\boldsymbol{\mathcal W}_{0,n+3}$ as a $\mathfrak S_{n+3}$-representation. In
+particular, we obtain that this web has maximal rank for any $n\geq 2$.
+Finally, we consider `Euler's abelian relation $\boldsymbol{\mathcal E}_n$', a
+particular AR for $\boldsymbol{\mathcal W}_{0,n+3}$ constructed by Damiano from
+a characteristic class on the grassmannian of 2-planes in $\mathbf R^{n+3}$ by
+means of Gelfand-MacPherson theory of polylogarithmic forms. We give an
+explicit conjectural formula for the components of $\boldsymbol{\mathcal E}_n$
+that we prove to be correct for $n\leq 12$.
+</summary>
+    <author>
+      <name>Luc Pirio</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">121 pages, 4 figures. Second version : a few typos have been
+  corrected</arxiv:comment>
+    <link href="http://arxiv.org/abs/2204.04772v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2204.04772v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="53A60, (11G55, 14J)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

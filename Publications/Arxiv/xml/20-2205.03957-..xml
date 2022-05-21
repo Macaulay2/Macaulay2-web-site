@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.03957%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.03957&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OsklSmnk9RyFiwd0/5pv3d1s64c</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.03957v1</id>
+    <updated>2022-05-08T21:40:41Z</updated>
+    <published>2022-05-08T21:40:41Z</published>
+    <title>Toric polar maps and characteristic classes</title>
+    <summary>  Given a hypersurface in the complex projective space, we prove that the
+degree of its toric polar map is given by the signed topological Euler
+characteristic of a distinguished open set, namely the complement of the union
+of the hypersurface and the coordinate hyperplanes. In addition, we prove that
+if the hypersurface is in general position or is nondegenerate with respect to
+its Newton polytope, then the coefficients of the Chern-Schwartz-MacPherson
+class of the distinguished open set agree, up to sign, with the multidegrees of
+the toric polar map. In the latter case, we also recover the multidegrees from
+mixed volumes.
+  For plane curves, a precise formula for the degree of the toric polar map is
+obtained in terms of local invariants. Finally, we construct families, in
+arbitrary dimension, of irreducible hypersurfaces whose toric polar map is
+birational.
+</summary>
+    <author>
+      <name>Thiago Fassarella</name>
+    </author>
+    <author>
+      <name>Nivaldo Medeiros</name>
+    </author>
+    <author>
+      <name>Rodrigo Salomão</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.03957v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.03957v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14C17, 14E05, 14J70" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

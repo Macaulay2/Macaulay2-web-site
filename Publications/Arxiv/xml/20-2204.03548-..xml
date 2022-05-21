@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2204.03548%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2204.03548&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/dt5tBKQOFM5CopMVw95nhILPvBc</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2204.03548v1</id>
+    <updated>2022-04-07T16:19:27Z</updated>
+    <published>2022-04-07T16:19:27Z</published>
+    <title>Towards Landau-Ginzburg models for cominuscule spaces via the
+  exceptional cominuscule family</title>
+    <summary>  We present projective Landau-Ginzburg models for the exceptional cominuscule
+homogeneous spaces $\mathbb{OP}^2 = E_6^\mathrm{sc}/P_6$ and
+$E_7^\mathrm{sc}/P_7$, known respectively as the Cayley plane and the
+Freudenthal variety. These models are defined on the complement
+$X^\vee_\mathrm{can}$ of an anti-canonical divisor of the "Langlands dual
+homogeneous spaces" $\mathbb{X}^\vee = P^\vee\backslash G^\vee$ in terms of
+generalized Pl\"ucker coordinates, analogous to the canonical models defined
+for Grassmannians, quadrics and Lagrangian Grassmannians in arXiv:1307.1085,
+arXiv:1404.4844, arXiv:1304.4958. We prove that these models for the
+exceptional family are isomorphic to the Lie-theoretic mirror models defined in
+arXiv:math/0511124 using a restriction to an algebraic torus, also known as the
+Lusztig torus, as proven in arXiv:1912.09122. We also give a cluster structure
+on $\mathbb{C}[\mathbb{X}^\vee]$, prove that the Pl\"ucker coordinates form a
+Khovanskii basis for a valuation defined using the Lusztig torus, and compute
+the Newton-Okounkov body associated to this valuation. Although we present our
+methods for the exceptional types, they generalize immediately to the members
+of other cominuscule families.
+</summary>
+    <author>
+      <name>Peter Spacek</name>
+    </author>
+    <author>
+      <name>Charles Wang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">45 pages, 2 figures, code available at
+  https://github.com/foxflo/ExceptionalCominusculeSpaces</arxiv:comment>
+    <link href="http://arxiv.org/abs/2204.03548v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2204.03548v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J33, 14M17, 14N35, 13F60, 14M25, 20G41" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2204.00319%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2204.00319&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jmeZaIq+8Q0xuxJGvxcBvCRF2EY</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2204.00319v2</id>
+    <updated>2022-05-10T13:09:19Z</updated>
+    <published>2022-04-01T09:58:47Z</published>
+    <title>Parabolic representations and generalized Riley polynomials</title>
+    <summary>  We generalize R. Riley's study about parabolic representations of two bridge
+knot groups to the general knots in $S^3$. We utilize the parabolic quandle
+method for general knot diagrams and adopt symplectic quandle for better
+investigation, which gives such representations and their complex volumes
+explicitly. For any knot diagram with a specified crossing $c$, we define a
+generalized Riley polynomial $R_c(y) \in \mathbb{Q}[y]$ whose roots correspond
+to the conjugacy classes of parabolic representations of the knot group. The
+sign-type of parabolic quandle is newly introduced and we obtain a formula for
+the obstruction class to lift to a boundary unipotent $\text{SL}_2
+\mathbb{C}$-representation. Moreover, we define another polynomial
+$g_c(u)\in\mathbb{Q}[u]$, called $u$-polynomial, and prove that $R_c(u^2)=\pm
+g_c(u)g_c(-u)$. Based on this result, we introduce and investigate Riley field
+and $u$-field which are closely related to the invariant trace field. This
+method eventually leads to the complete classification of parabolic
+representations of knot groups along with their complex volumes and cusp shapes
+up to 12 crossings.
+</summary>
+    <author>
+      <name>Yunhi Cho</name>
+    </author>
+    <author>
+      <name>Hyuk Kim</name>
+    </author>
+    <author>
+      <name>Seonhwa Kim</name>
+    </author>
+    <author>
+      <name>Seokbeom Yoon</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Including Mathematica notebook files for example computation</arxiv:comment>
+    <link href="http://arxiv.org/abs/2204.00319v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2204.00319v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="57K31, 57K32, 57K10, 57M50" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

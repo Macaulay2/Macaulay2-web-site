@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2203.11770%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2203.11770&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Gy5cvecX5HGmwfUTeQLSp1pl6go</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2203.11770v2</id>
+    <updated>2022-04-06T11:00:33Z</updated>
+    <published>2022-03-22T14:34:52Z</published>
+    <title>Hilbert schemes over quotient rings via relative marked bases</title>
+    <summary>  In this paper, we introduce the notion of {\em relative marked bases} over
+quasi-stable ideals, together with constructive methods and a functorial
+interpretation. This notion allows to develop computational methods for the
+study of Hilbert schemes over quotients of polynomial rings for which we obtain
+the following main results. When the quotient rings are Cohen-Macaulay on
+quasi-stable ideals (for instance, Clements-Lindstr\"om rings), we describe an
+open cover of the Hilbert schemes by means of suitable changes of variables.
+When the quotient rings are Macaulay-Lex on quasi-stable ideals (for instance,
+Clements-Lindstr\"om rings), we investigate the lex-point of the Hilbert
+schemes and find some examples in which this point is singular.
+</summary>
+    <author>
+      <name>Cristina Bertone</name>
+    </author>
+    <author>
+      <name>Francesca Cioffi</name>
+    </author>
+    <author>
+      <name>Matthias Orth</name>
+    </author>
+    <author>
+      <name>Werner M. Seiler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, comments are welcome. v2: corrected typos, updated
+  references, improved presentation in Section 6</arxiv:comment>
+    <link href="http://arxiv.org/abs/2203.11770v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2203.11770v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P10, 14C05, 14M05, 13H10, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

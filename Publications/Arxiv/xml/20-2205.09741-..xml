@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.09741%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.09741&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/DA16Ad0fbM5NuS2G72yQw3DNW5Q</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.09741v1</id>
+    <updated>2022-05-19T17:50:34Z</updated>
+    <published>2022-05-19T17:50:34Z</published>
+    <title>A Translation of "Classification of four-vectors of an 8-dimensional
+  space,'' by Antonyan, L. V. , with an appendix by the translator</title>
+    <summary>  We give a translation of the article by L. V. Antonyan, "Classification of
+four-vectors of an eight-dimensional space," Trudy Sem. Vektor. Tenzor. Anal.
+20 (1981), 144-161. MR622013. We include an appendix providing normal forms for
+each nilpotent orbit.
+</summary>
+    <author>
+      <name>Luke Oeding</name>
+    </author>
+    <link href="http://arxiv.org/abs/2205.09741v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.09741v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

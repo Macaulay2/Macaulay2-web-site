@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.06629%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.06629&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NcybqQApmFPyrmL4aJYfusub8oI</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.06629v1</id>
+    <updated>2022-05-13T13:22:22Z</updated>
+    <published>2022-05-13T13:22:22Z</published>
+    <title>The disguised toric locus and affine equivalence of reaction networks</title>
+    <summary>  Under the assumption of mass-action kinetics, a dynamical system may be
+induced by several different reaction networks and/or parameters. It is
+therefore possible for a mass-action system to exhibit complex-balancing
+dynamics without being weakly reversible or satisfying toric constraints on the
+rate constants; such systems are called disguised toric dynamical systems. We
+show that the parameters that give rise to such systems are preserved under
+invertible affine transformations of the network. We also consider the dynamics
+of arbitrary mass-action systems under affine transformations, and show that
+there is a canonical bijection between their sets of positive steady states,
+although their qualitative dynamics can differ substantially.
+</summary>
+    <author>
+      <name>Sabina J. Haque</name>
+    </author>
+    <author>
+      <name>Matthew Satriano</name>
+    </author>
+    <author>
+      <name>Miruna-Stefana Sorea</name>
+    </author>
+    <author>
+      <name>Polly Y. Yu</name>
+    </author>
+    <link href="http://arxiv.org/abs/2205.06629v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.06629v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="37N25, 34C08, 14P05, 14P10, 92C42" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

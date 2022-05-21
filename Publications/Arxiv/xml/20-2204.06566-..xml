@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2204.06566%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2204.06566&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hX7f5Zln6MmvSqdiKrwJnamK+Ww</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2204.06566v1</id>
+    <updated>2022-04-13T18:00:00Z</updated>
+    <published>2022-04-13T18:00:00Z</published>
+    <title>Superpotentials from Singular Divisors</title>
+    <summary>  We study Euclidean D3-branes wrapping divisors $D$ in Calabi-Yau orientifold
+compactifications of type IIB string theory. Witten's counting of fermion zero
+modes in terms of the cohomology of the structure sheaf $\mathcal{O}_D$ applies
+when $D$ is smooth, but we argue that effective divisors of Calabi-Yau
+threefolds typically have singularities along rational curves. We generalize
+the counting of fermion zero modes to such singular divisors, in terms of the
+cohomology of the structure sheaf $\mathcal{O}_{\overline{D}}$ of the
+normalization $\overline{D}$ of $D$. We establish this by detailing
+compactifications in which the singularities can be unwound by passing through
+flop transitions, giving a physical incarnation of the normalization process.
+Analytically continuing the superpotential through the flops, we find that
+singular divisors whose normalizations are rigid can contribute to the
+superpotential: specifically,
+$h^{\bullet}_{+}(\mathcal{O}_{\overline{D}})=(1,0,0)$ and
+$h^{\bullet}_{-}(\mathcal{O}_{\overline{D}})=(0,0,0)$ give a sufficient
+condition for a contribution. The examples that we present feature infinitely
+many isomorphic geometric phases, with corresponding infinite-order monodromy
+groups $\Gamma$. We use the action of $\Gamma$ on effective divisors to
+determine the exact effective cones, which have infinitely many generators. The
+resulting nonperturbative superpotentials are Jacobi theta functions, whose
+modular symmetries suggest the existence of strong-weak coupling dualities
+involving inversion of divisor volumes.
+</summary>
+    <author>
+      <name>Naomi Gendler</name>
+    </author>
+    <author>
+      <name>Manki Kim</name>
+    </author>
+    <author>
+      <name>Liam McAllister</name>
+    </author>
+    <author>
+      <name>Jakob Moritz</name>
+    </author>
+    <author>
+      <name>Mike Stillman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">31 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2204.06566v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2204.06566v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.02127%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.02127&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W3jepOWSs00bPlpt3qz/EJjXZqQ</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.02127v2</id>
+    <updated>2022-05-11T16:12:36Z</updated>
+    <published>2022-05-04T15:31:36Z</published>
+    <title>Using Sums-of-Squares to Prove Gaussian Product Inequalities</title>
+    <summary>  The long-standing Gaussian product inequality (GPI) conjecture states that $E
+[\prod_{j=1}^{n}X_j^{2m_j}]\geq\prod_{j=1}^{n}E[X_j^{2m_j}]$ for any centered
+Gaussian random vector $(X_1,\dots,X_n)$ and $m_1,\dots,m_n\in\mathbb{N}$. In
+this note, we describe a computational algorithm involving sums-of-squares
+representations of multivariate polynomials that can be used to resolve the GPI
+conjecture. To exhibit the power of this novel method, we apply it to prove two
+special GPIs: $E[X_1^{8}X_2^{6}X_3^{4}]\ge E[X_1^{8}]E[X_2^{6}]E[X_3^{4}]$ and
+$E[X_1^{4}X_2^{2}X_3^{2}X_4^{2}]\ge E[X_1^{4}]E[X_2^{2}]E[X_3^{2}]E[X_4^{2}]$.
+</summary>
+    <author>
+      <name>Oliver Russell</name>
+    </author>
+    <author>
+      <name>Wei Sun</name>
+    </author>
+    <link href="http://arxiv.org/abs/2205.02127v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.02127v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.PR" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary 60E15, Secondary 62H12" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

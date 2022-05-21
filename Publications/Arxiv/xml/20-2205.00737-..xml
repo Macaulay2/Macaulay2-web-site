@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.00737%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.00737&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/QJCfzDzOmBvlDZdhDMKRZYmj66s</id>
+  <updated>2022-05-21T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.00737v1</id>
+    <updated>2022-05-02T08:41:38Z</updated>
+    <published>2022-05-02T08:41:38Z</published>
+    <title>Moduli of Lie p-algebras</title>
+    <summary>  In this paper, we study moduli spaces of finite-dimensional Lie algebras with
+flat center, proving that the forgetful map from Lie p-algebras to Lie algebras
+is an affine fibration, and we point out a new case of existence of a
+p-mapping. Then we illustrate these results for the special case of Lie
+algebras of rank 3, whose moduli space we build and study over Z. We extend the
+classical equivalence of categories between locally free Lie p-algebras of
+finite rank with finite locally free group schemes of height 1, showing that
+the centers of these objects correspond to each other. We finish by analysing
+the smoothness of the moduli of p-Lie algebras of rank 3, in particular
+identifying some smooth components.
+</summary>
+    <author>
+      <name>Alice Bouillet</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IRMAR</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/2205.00737v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.00737v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
