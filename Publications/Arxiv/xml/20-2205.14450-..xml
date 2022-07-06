@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.14450%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.14450&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/A+RL59Ypj+ME26o08rJ+uOiB/4Y</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14450v2</id>
+    <updated>2022-06-01T12:12:03Z</updated>
+    <published>2022-05-28T15:01:08Z</published>
+    <title>Zero-Hopf Bifurcation of Limit Cycles in Certain Differential Systems</title>
+    <summary>  This paper studies the number of limit cycles that may bifurcate from an
+equilibrium of an autonomous system of differential equations. The system in
+question is assumed to be of dimension $n$, have a zero-Hopf equilibrium at the
+origin, and consist only of homogeneous terms of order $m$. Using the
+first-order averaging method, we prove that at most $(m-1)\cdot m^{n-2}$ limit
+cycles can bifurcate from the origin of the system for generic $n\geq3$ and
+$m\geq2$. Using the averaging method of order $k$, we show that the system has
+no more than $(km)^{n-1}$ limit cycles that can bifurcate from the origin. The
+exact numbers of limit cycles or tight bounds on the numbers are determined by
+computing the mixed volumes of some polynomial systems obtained from the
+averaged functions. Based on symbolic and algebraic computation, a general and
+algorithmic approach is proposed to derive sufficient conditions for a given
+differential system to have a prescribed number of limit cycles. The
+effectiveness of the proposed approach is illustrated by a family of
+third-order differential equations and by a four-dimensional hyperchaotic
+differential system.
+</summary>
+    <author>
+      <name>Bo Huang</name>
+    </author>
+    <author>
+      <name>Dongming Wang</name>
+    </author>
+    <link href="http://arxiv.org/abs/2205.14450v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.14450v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

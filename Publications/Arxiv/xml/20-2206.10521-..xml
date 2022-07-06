@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.10521%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.10521&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/tMh59BtiqzmjKL+HkK/V02b9xcc</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.10521v1</id>
+    <updated>2022-06-21T16:42:16Z</updated>
+    <published>2022-06-21T16:42:16Z</published>
+    <title>Robustness against data loss with Algebraic Statistics</title>
+    <summary>  The paper describes an algorithm that, given an initial design
+$\mathcal{F}_n$ of size $n$ and a linear model with $p$ parameters, provides a
+sequence $\mathcal{F}_n \supset \ldots \supset \mathcal{F}_{n-k} \supset \ldots
+\supset \mathcal{F}_p$ of nested \emph{robust} designs. The sequence is
+obtained by the removal, one by one, of the runs of $\mathcal{F}_n$ till a
+$p$-run \emph{saturated} design $\mathcal{F}_p$ is obtained. The potential
+impact of the algorithm on real applications is high. The initial fraction
+$\mathcal{F}_n$ can be of any type and the output sequence can be used to
+organize the experimental activity. The experiments can start with the runs
+corresponding to $\mathcal{F}_p$ and continue adding one run after the other
+(from $\mathcal{F}_{n-k}$ to $\mathcal{F}_{n-k+1}$) till the initial design
+$\mathcal{F}_n$ is obtained. In this way, if for some unexpected reasons the
+experimental activity must be stopped before the end when only $n-k$ runs are
+completed, the corresponding $\mathcal{F}_{n-k}$ has a high value of robustness
+for $k \in \{1, \ldots, n-p\}$. The algorithm uses the circuit basis, a special
+representation of the kernel of a matrix with integer entries. The
+effectiveness of the algorithm is demonstrated through the use of simulations.
+</summary>
+    <author>
+      <name>Roberto Fontana</name>
+    </author>
+    <author>
+      <name>Fabio Rapallo</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.10521v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.10521v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62K05, 62K15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

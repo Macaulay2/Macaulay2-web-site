@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.05492%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.05492&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qjhppD6HTOShn3UFdxN4dBdHOxc</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.05492v1</id>
+    <updated>2022-06-11T10:27:31Z</updated>
+    <published>2022-06-11T10:27:31Z</published>
+    <title>Varieties of Nodal surfaces, coding theory and Discriminants of cubic
+  hypersurfaces. Part 1: Generalities and nodal K3 surfaces. Part 2: Cubic
+  Hypersurfaces, associated discriminants. Part III: Nodal quintics. Part 4:
+  Nodal sextics</title>
+    <summary>  In this paper we exploit two binary codes associated to a projective nodal
+surface (the strict code $\mathcal{K}$ and, for even degree $d$, the extended
+code $\mathcal{K}'$) to investigate the `Nodal Severi varieties $\mathcal{F}(d,
+\nu)$ of nodal surfaces in $\mathbb{P}^3$ of degree $d$ and with $\nu$ nodes,
+and their incidence hierarchy, relating partial smoothings to code shortenings.
+Our first main result solves a question which dates back over 100 years: the
+irreducible components of $\mathcal{F}(4, \nu)$ are in bijection with the
+isomorphism classes of their extended codes $\mathcal{K}'$, and these are
+exactly all the 34 possible shortenings of the extended Kummer code
+$\mathcal{K}'$, and a component is in the closure of another if and only if the
+code of the latter is a shortening of the code of the former. We then extend
+this result to nodal K3 surfaces of all other degrees $d = 2h$ in an entirely
+analogous way, showing that some unexpected families occur.
+  For surfaces of degree $d=5$ in $\mathbb{P}^3$ we determine (with one
+possible exception) all the possible codes $\mathcal{K}$ of nodal quintics, and
+for several cases of $\mathcal{K}$, we show the irreducibility of the
+corresponding open set of $\mathcal{F}(5, \nu)$, for instance we show the
+irreducibility of the family of Togliatti quintic surfaces. In the fourth part
+we show that a `Togliatti-like' description holds for surfaces of degree 6 with
+the maximum number of nodes= 65: they are discriminants of cubic hypersurfaces
+in P^6 with 31 (respectively 32) nodes, and we have an irreducible
+18-dimensional family of them. For degree d=6, our main result is based on some
+novel auxiliary results: 1) the study of the half-even sets of nodes on sextic
+surfaces, 2) the investigation of discriminants of cubic hypersurfaces $X$, 3)
+the computer assisted proof that, for $n = 65$, both codes $\mathcal{K}$,
+$\mathcal{K}'$ are uniquely determined, 4) the description of these codes,
+relating the geometry of the Barth sextic with the Doro-Hall graph.
+</summary>
+    <author>
+      <name>Fabrizio Catanese</name>
+    </author>
+    <author>
+      <name>Yonghwa Cho</name>
+    </author>
+    <author>
+      <name>Stephen Coughlan</name>
+    </author>
+    <author>
+      <name>Davide Frapporti</name>
+    </author>
+    <author>
+      <name>Alessandro Verra</name>
+    </author>
+    <author>
+      <name>Michael Kiermaier</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">200 pages. Part 1: Fabrizio Catanese. Part 2: Fabrizio Catanese,
+  Yonghwa Cho, Stephen Coughlan, Davide Frapporti. Part 3: Fabrizio Catanese,
+  Alessandro Verra. Part 4: Fabrizio Catanese, Yonghwa Cho, Michael Kiermaier.
+  With Appendices by Michael Kiermaier and Sascha Kurz</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.05492v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.05492v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

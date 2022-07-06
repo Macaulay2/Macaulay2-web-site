@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.09130%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.09130&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MAeC7Bhl/G5fzsz58fXg02Hxb38</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.09130v1</id>
+    <updated>2022-06-18T06:36:17Z</updated>
+    <published>2022-06-18T06:36:17Z</published>
+    <title>Enumerative Geometry of Curvature of Algebraic Hypersurfaces</title>
+    <summary>  We study the curvature of a smooth algebraic hypersurface $X\subset \mathbb
+R^n$ from the point of view of algebraic geometry. We introduce an algebraic
+variety, the curvature variety, that encodes the second fundamental form of
+$X$. We apply this framework to study umbilical points and points of critical
+curvature. We fully characterize the number of real and complex umbilics and
+critical curvature points for general quadrics in three-space.
+</summary>
+    <author>
+      <name>Paul Breiding</name>
+    </author>
+    <author>
+      <name>Kristian Ranestad</name>
+    </author>
+    <author>
+      <name>Madeleine Weinstein</name>
+    </author>
+    <link href="http://arxiv.org/abs/2206.09130v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.09130v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

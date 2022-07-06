@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.14078%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.14078&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/XqNY/cZbABhNDuJrkfBcQFmKMhY</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.14078v1</id>
+    <updated>2022-05-27T16:21:31Z</updated>
+    <published>2022-05-27T16:21:31Z</published>
+    <title>q-Stirling numbers in type B</title>
+    <summary>  Stirling numbers, which count partitions of a set and permutations in the
+symmetric group, have found extensive application in combinatorics, geometry,
+and algebra. We study analogues and q-analogues of these numbers corresponding
+to the Coxeter group of type B. In particular, we show how they are related to
+complete homogeneous and elementary symmetric polynomials; demonstrate how they
+q-count signed partitions and permutations; compute their ordinary,
+exponential, and q-exponential generating functions; and prove various
+identities about them. Ordered analogues of the q-Stirling numbers of the
+second kind have recently appeared in conjectures of Zabrocki and of
+Swanson--Wallach concerning the Hilbert series of certain super coinvariant
+algebras. We provide conjectural bases for these algebras and show that they
+have the correct Hilbert series.
+</summary>
+    <author>
+      <name>Bruce E. Sagan</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">Michigan State University</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Joshua P. Swanson</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">University of Southern California</arxiv:affiliation>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">46 pages, 5 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.14078v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.14078v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05A05, 05A18 (Primary) 05A15, 05A30, 05E05, 05E16 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

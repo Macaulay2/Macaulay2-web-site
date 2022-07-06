@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.01555%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.01555&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/X0UA68/zf2gGM9G8LB59omNsPyQ</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.01555v1</id>
+    <updated>2022-06-03T13:18:21Z</updated>
+    <published>2022-06-03T13:18:21Z</published>
+    <title>Implicitisation and Parameterisation in Polynomial Functors</title>
+    <summary>  In earlier work, the second author showed that a closed subset of a
+polynomial functor can always be defined by finitely many polynomial equations.
+In follow-up work on $\operatorname{GL}\nolimits_{\infty}$-varieties,
+Bik-Draisma-Eggermont-Snowden showed, among other things, that in
+characteristic zero every such closed subset is the image of a morphism whose
+domain is the product of a finite-dimensional affine variety and a polynomial
+functor. In this paper, we show that both results can be made algorithmic:
+there exists an algorithm $\mathbf{implicitise}$ that takes as input a morphism
+into a polynomial functor and outputs finitely many equations defining the
+closure of the image; and an algorithm $\mathbf{parameterise}$ that takes as
+input a finite set of equations defining a closed subset of a polynomial
+functor and outputs a morphism whose image is that closed subset.
+</summary>
+    <author>
+      <name>Andreas Blatter</name>
+    </author>
+    <author>
+      <name>Jan Draisma</name>
+    </author>
+    <author>
+      <name>Emanuele Ventura</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.01555v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.01555v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

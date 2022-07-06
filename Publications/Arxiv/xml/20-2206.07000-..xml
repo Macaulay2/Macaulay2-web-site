@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.07000%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.07000&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/OZdMjtTdJY4ygAw79cuo99+bKbk</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.07000v1</id>
+    <updated>2022-06-14T17:15:24Z</updated>
+    <published>2022-06-14T17:15:24Z</published>
+    <title>Nash conditional independence curve</title>
+    <summary>  We study the Spohn conditional independence (CI) varieties of an $n$-player
+game for one-edge Bayesian networks on $n$ binary random variables. For generic
+payoff tables we prove that the Spohn CI variety is an irreducible complete
+intersection curve (Nash conditional independence curve) in the Segre variety
+$(\mathbb P^{1})^{n-2} \times \mathbb P^3$ and we give an explicit formula for
+its degree and genus. We show that any affine real algebraic variety $S
+\subseteq \mathbb{R}^m$ defined by $k$ polynomials with $k&lt;m$ can be
+represented as the Spohn CI variety of an $n$-player game for one-edge Bayesian
+networks on $n$ binary random variables.
+</summary>
+    <author>
+      <name>Irem Portakal</name>
+    </author>
+    <author>
+      <name>Javier Sendra-Arranz</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages. Accepted for presentation at MEGA 2022, Krakow</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.07000v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.07000v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q05, 91A80, 91A06, 62R01, 14A10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.07891%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.07891&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ubA3DEkvbeIG8A60IjEAVldvKWE</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.07891v1</id>
+    <updated>2022-06-16T02:42:47Z</updated>
+    <published>2022-06-16T02:42:47Z</published>
+    <title>Gauge symmetry of linearised Nordström gravity and the dual spin two
+  field theory</title>
+    <summary>  The field equations are proposed for the third rank tensor field with the
+hook Young diagram. The equations describe the irreducible spin two massless
+representation in any $d\geq 3$. The starting point of the construction is the
+linearised system of Einstein equations which includes the Nordstr\"om
+equation. This equation, being considered irrespectively to the rest of the
+Einstein system, corresponds to the topological field theory. The general
+solution is a pure gauge, modulo topological modes which we neglect in this
+article. We find the sequence of the reducible gauge transformations for the
+linearised Nordstr\"om equation, with the hook tensor being the initial gauge
+symmetry parameter. By substituting the general solution of the Nordstr\"om
+equation into the rest of the Einstein's system, we arrive at the field
+equations for the hook tensor. The degree of freedom number count confirms, it
+is the spin two theory.
+</summary>
+    <author>
+      <name>V. A. Abakumova</name>
+    </author>
+    <author>
+      <name>D. Frolovsky</name>
+    </author>
+    <author>
+      <name>H. -C. Herbig</name>
+    </author>
+    <author>
+      <name>S. L. Lyakhovich</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.07891v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.07891v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="gr-qc" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

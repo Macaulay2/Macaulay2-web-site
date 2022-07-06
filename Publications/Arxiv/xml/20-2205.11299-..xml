@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2205.11299%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2205.11299&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Zv6E6cEV1wkIeFnFdQGO3MTSIOU</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2205.11299v1</id>
+    <updated>2022-05-23T13:38:39Z</updated>
+    <published>2022-05-23T13:38:39Z</published>
+    <title>Multiple Offsets Multilateration: a new paradigm for sensor network
+  calibration with unsynchronized reference nodes</title>
+    <summary>  Positioning using wave signal measurements is used in several applications,
+such as GPS systems, structure from sound and Wifi based positioning.
+Mathematically, such problems require the computation of the positions of
+receivers and/or transmitters as well as time offsets if the devices are
+unsynchronized. In this paper, we expand the previous state-of-the-art on
+positioning formulations by introducing Multiple Offsets Multilateration (MOM),
+a new mathematical framework to compute the receivers positions with
+pseudoranges from unsynchronized reference transmitters at known positions.
+This could be applied in several scenarios, for example structure from sound
+and positioning with LEO satellites. We mathematically describe MOM,
+determining how many receivers and transmitters are needed for the network to
+be solvable, a study on the number of possible distinct solutions is presented
+and stable solvers based on homotopy continuation are derived. The solvers are
+shown to be efficient and robust to noise both for synthetic and real audio
+data.
+</summary>
+    <author>
+      <name>Luca Ferranti</name>
+    </author>
+    <author>
+      <name>Kalle Åström</name>
+    </author>
+    <author>
+      <name>Magnus Oskarsson</name>
+    </author>
+    <author>
+      <name>Jani Boutellier</name>
+    </author>
+    <author>
+      <name>Juho Kannala</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">accepted to ICASSP2022</arxiv:comment>
+    <link href="http://arxiv.org/abs/2205.11299v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2205.11299v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SD" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.AS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="eess.SP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.03704%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.03704&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/+jh/mFCyqo3RR2YYZhwBIyVX3rI</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.03704v1</id>
+    <updated>2022-06-08T06:46:37Z</updated>
+    <published>2022-06-08T06:46:37Z</published>
+    <title>Quasi-forest simplicial complexes and almost Cohen-Macaulay</title>
+    <summary>  In this paper we study the quasi-forest simplicial complexes and we define
+the concept of simplicial $k$-cycle (denoted by $\mathcal{S}_k$) and simplicial
+$k$-point (denoted by $\mathcal{P}_k$). We show that a simplicial complex
+$\Delta$ is quasi-forest if and only if it does not have any $\mathcal{P}_k$
+and any $\mathcal{S}_k$ for $k\geq 3$. Furthermore we characterize almost
+Cohen-Macaulay quasi-forest simplicial complexes. In the end we show that the
+cycle graph $G=C_n$ is almost Cohen-Macaulay if and only if
+$n=3,4,5,6,7,8,9,11$.
+</summary>
+    <author>
+      <name>Chwas Ahmed</name>
+    </author>
+    <author>
+      <name>Amir Mafi</name>
+    </author>
+    <author>
+      <name>Mohammed Rafiq Namiq</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">10 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.03704v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.03704v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C15, 13C13, 13H10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

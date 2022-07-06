@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.13649%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.13649&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/2/+Kzx8BVt4qa/ybkL/bD3vh3fY</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.13649v1</id>
+    <updated>2022-06-27T22:12:29Z</updated>
+    <published>2022-06-27T22:12:29Z</published>
+    <title>Critical points of discrete periodic operators</title>
+    <summary>  We study the spectrum of operators on periodic graphs using methods from
+combinatorial algebraic geometry. Our main result is a bound on the number of
+complex critical points of the Bloch variety, together with an effective
+criterion for when this bound is achieved. We show that this criterion holds
+for periodic graphs of dimensions 2 and 3 with sufficiently many edges and use
+our results to establish the spectral edges conjecture for some periodic graphs
+of dimension 2. Our larger goal is to develop new methods to address questions
+in spectral theory.
+</summary>
+    <author>
+      <name>Matthew Faust</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages, many colored figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.13649v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.13649v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.SP" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="81U30, 81Q10, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

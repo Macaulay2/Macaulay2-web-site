@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.06151%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.06151&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/f/ANY2KWx6Mi+G/baI5JearZuKU</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.06151v1</id>
+    <updated>2022-06-13T13:37:08Z</updated>
+    <published>2022-06-13T13:37:08Z</published>
+    <title>Castelnuovo-Mumford regularity of unprojections and the Eisenbud-Goto
+  regularity conjecture</title>
+    <summary>  McCullough and Peeva found counterexamples to the Eisenbud-Goto conjecture on
+the Castelnuovo-Mumford regularity by using Rees-like algebras. In this paper,
+we suggest another method to construct counterexamples to the conjecture and
+show that for nondegenerate projective varieties of a fixed dimension $n\geq 3$
+and a fixed codimension $e\geq2$, the regularity can not be bounded above by
+any polynomial function of the degree whose order is about half of the
+dimension $n$. Our strategy is an unprojection process and utilizes the
+possible complexity of homogeneous ideals with three generators and
+exceptional-fundamental schemes. Also, our counterexamples exhibit how the
+singularity affects the regularity.
+</summary>
+    <author>
+      <name>Junho Choe</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages. Any comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.06151v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.06151v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14N05 (Primary) 13D02 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

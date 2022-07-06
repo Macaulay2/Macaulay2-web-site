@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.06881%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.06881&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/HxQQKBxPTv1vX7zj8fndsgKA9BU</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.06881v1</id>
+    <updated>2022-06-14T14:32:36Z</updated>
+    <published>2022-06-14T14:32:36Z</published>
+    <title>Combinatorial Derived Matroids</title>
+    <summary>  Let $M$ be an arbitrary matroid with circuits $\mathcal{C}(M)$. We propose a
+definition of a derived matroid $\delta M$ that has as its ground set
+$\mathcal{C}(M)$. Unlike previous attempts of such a definition, our definition
+applies to arbitrary matroids, and is completely combinatorial. We prove that
+the rank of $\delta M$ is $n-r(M)$, that it is connected if and only if $M$ is
+connected, and compute a range of examples.
+</summary>
+    <author>
+      <name>Olga Kuznetsova</name>
+    </author>
+    <author>
+      <name>Ragnar Freij-Hollanti</name>
+    </author>
+    <author>
+      <name>Relinde Jurrius</name>
+    </author>
+    <link href="http://arxiv.org/abs/2206.06881v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.06881v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

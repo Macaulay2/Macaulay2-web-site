@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.14106%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.14106&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ntOI2AOwDodQ0ZFXshdTZCWUQo8</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.14106v1</id>
+    <updated>2022-06-27T16:51:58Z</updated>
+    <published>2022-06-27T16:51:58Z</published>
+    <title>Euclidean distance and maximum likelihood retractions by homotopy
+  continuation</title>
+    <summary>  We define a new second-order retraction map for statistical models. We also
+compute retractions using homotopy continuation. Riemannian optimization uses
+local methods to solve optimization problems whose constraint set is a smooth
+manifold. A linear step along some descent direction usually leaves the
+constraint set, and hence retraction maps are used to approximate the
+exponential map, and return to the manifold. For many common matrix manifolds,
+retraction maps are available, with more or less explicit formulas. For other
+implicitly-defined manifolds or varieties, suitable retraction maps are
+difficult to compute. We therefore develop Algorithm 1, which uses homotopy
+continuation to compute the Euclidean distance retraction for any
+implicitly-defined submanifold of $R^n$.
+  We also consider statistical models as Riemannian submanifolds of the
+probability simplex with the Fisher metric. After defining an analogous maximum
+likelihood retraction, Algorithm 2 computes it using homotopy continuation. In
+Theorem 2, we prove that the resulting map is a second-order retraction; with
+the Levi-Civita connection associated to the Fisher metric, it approximates
+geodesics to second-order accuracy.
+</summary>
+    <author>
+      <name>Alexander Heaton</name>
+    </author>
+    <author>
+      <name>Matthias Himmelmann</name>
+    </author>
+    <link href="http://arxiv.org/abs/2206.14106v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.14106v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.OC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

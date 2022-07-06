@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.15141%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.15141&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uCNd0sgWAT0rmWCly+xZA4ROsOw</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.15141v1</id>
+    <updated>2022-06-30T09:17:38Z</updated>
+    <published>2022-06-30T09:17:38Z</published>
+    <title>On regularity and projective dimension up to symmetry</title>
+    <summary>  Ideals in infinite dimensional polynomial rings that are invariant under the
+action of a certain monoid have been extensively studied recently. Of
+particular interest is the asymptotic behavior of truncations of such an ideal
+in finite dimensional polynomial subrings. It has been conjectured that the
+Castelnuovo--Mumford regularity and projective dimension are eventual linear
+functions along such truncations. In the present paper we provide evidence for
+these conjectures. We show that for monomial ideals the projective dimension is
+eventually linear, while the regularity is asymptotically linear.
+</summary>
+    <author>
+      <name>Dinh Van Le</name>
+    </author>
+    <author>
+      <name>Hop D. Nguyen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">19 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.15141v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.15141v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A50, 13C15, 13D02, 13F20, 16P70, 16W22" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

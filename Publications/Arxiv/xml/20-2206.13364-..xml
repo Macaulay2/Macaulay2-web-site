@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2206.13364%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2206.13364&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/UinPESnh/485IgyBC/VkslLk7vA</id>
+  <updated>2022-07-06T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2206.13364v1</id>
+    <updated>2022-06-27T15:17:49Z</updated>
+    <published>2022-06-27T15:17:49Z</published>
+    <title>Algebraic study of receptor-ligand systems: a dose-response analysis</title>
+    <summary>  The study of a receptor-ligand system generally relies on the analysis of its
+dose-response (or concentration-effect) curve, which quantifies the relation
+between ligand concentration and the biological effect (or cellular response)
+induced when binding its specific cell surface receptor. Mathematical models of
+receptor-ligand systems have been developed to compute a dose-response curve
+under the assumption that the biological effect is proportional to the number
+of ligand-bound receptors. Given a dose-response curve, two quantities (or
+metrics) have been defined to characterise the properties of the
+ligand-receptor system under consideration: amplitude and potency (or
+half-maximal effective concentration, and denoted by EC$_{50}$). Both the
+amplitude and the EC$_{50}$ are key quantities commonly used in
+pharmaco-dynamic modelling, yet a comprehensive mathematical investigation of
+the behaviour of these two metrics is still outstanding; for a large (and
+important) family of receptors, called cytokine receptors, we still do not know
+how amplitude and EC$_{50}$ depend on receptor copy numbers. Here we make use
+of algebraic approaches (Gr\"obner basis) to study these metrics for a large
+class of receptor-ligand models, with a focus on cytokine receptors. In
+particular, we introduce a method, making use of two motivating examples based
+on the interleukin-7 (IL-7) receptor, to compute analytic expressions for the
+amplitude and the EC$_{50}$. We then extend the method to a wider class of
+receptor-ligand systems, sequential receptor-ligand systems with extrinsic
+kinase, and provide some examples.
+</summary>
+    <author>
+      <name>Léa Sta</name>
+    </author>
+    <author>
+      <name>Michael Adamer</name>
+    </author>
+    <author>
+      <name>Carmen Molina-París</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">7 figures, 33 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2206.13364v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2206.13364v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.MN" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.QM" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
