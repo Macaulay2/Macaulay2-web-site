@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2207.00833%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2207.00833&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/BV45kgsHLz+F7F1248edCJ8dggg</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2207.00833v2</id>
+    <updated>2022-07-31T16:25:52Z</updated>
+    <published>2022-07-02T13:41:43Z</published>
+    <title>Double EPW-sextics with actions of A7 and irrational GM threefolds</title>
+    <summary>  We construct two examples of projective hyper-K\"ahler fourfolds of
+K3[2]-type with an action of the alternating group A7, making them some of the
+most symmetric hyper-K\"ahler fourfolds. They are realized as so called double
+EPW sextics and this allows us to construct an explicit family of irrational
+Gushel-Mukai threefolds.
+</summary>
+    <author>
+      <name>Simone Billi</name>
+    </author>
+    <author>
+      <name>Tomasz Wawak</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, comments are welcome. Typo corrected, codes for computer
+  algebra included</arxiv:comment>
+    <link href="http://arxiv.org/abs/2207.00833v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2207.00833v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

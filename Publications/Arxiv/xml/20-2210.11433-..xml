@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.11433%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.11433&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ROVWUzzrfXNimpDr0gNi82stpto</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.11433v1</id>
+    <updated>2022-10-20T17:30:20Z</updated>
+    <published>2022-10-20T17:30:20Z</published>
+    <title>Multiparameter Persistent Homology-Generic Structures and Quantum
+  Computing</title>
+    <summary>  The following article is an application of commutative algebra to the study
+of multiparameter persistent homology in topological data analysis. In
+particular, the theory of finite free resolutions of modules over polynomial
+rings is applied to multiparameter persistent modules. The generic structure of
+such resolutions and the classifying spaces involved are studied using results
+spanning several decades of research in commutative algebra, beginning with the
+study of generic structural properties of free resolutions popularized by
+Buchsbaum and Eisenbud. Many explicit computations are presented using the
+computer algebra package Macaulay2, along with the code used for computations.
+This paper serves as a collection of theoretical results from commutative
+algebra which will be necessary as a foundation in the future use of
+computational methods using Gr\"obner bases, standard monomial theories, Young
+tableaux, Schur functors and Schur polynomials, and the classical
+representation theory and invariant theory involved in linear algebraic group
+actions. The methods used are in general characteristic free and are designed
+to work over the ring of integers in order to be useful for applications and
+computations in data science. As an applications we explain how one could apply
+2-parameter persistent homology to study time-varying interactions graphs
+associated to quadratic Hamiltonians such as those in the Ising model or
+Kitaev's torus code and other surface codes.
+</summary>
+    <author>
+      <name>Amelie Schreiber</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.11433v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.11433v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="quant-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13P25, 13P10, 13P20" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="E.1; E.4" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

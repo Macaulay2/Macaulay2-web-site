@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.09131%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.09131&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ozWZkdvnbp2em3pJSyBVhXjciiE</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.09131v3</id>
+    <updated>2022-10-06T16:19:58Z</updated>
+    <published>2022-08-19T03:05:09Z</published>
+    <title>Polyhedral and Tropical Geometry of Flag Positroids</title>
+    <summary>  A flag positroid of ranks $\boldsymbol{r}:=(r_1&lt;\dots &lt;r_k)$ on $[n]$ is a
+flag matroid that can be realized by a real $r_k \times n$ matrix $A$ such that
+the $r_i \times r_i$ minors of $A$ involving rows $1,2,\dots,r_i$ are
+nonnegative for all $1\leq i \leq k$. In this paper we explore the polyhedral
+and tropical geometry of flag positroids, particularly when
+$\boldsymbol{r}:=(a, a+1,\dots,b)$ is a sequence of consecutive numbers. In
+this case we show that the nonnegative tropical flag variety
+TrFl$_{\boldsymbol{r},n}^{\geq 0}$ equals the nonnegative flag Dressian
+FlDr$_{\boldsymbol{r},n}^{\geq 0}$, and that the points $\boldsymbol{\mu} =
+(\mu_a,\ldots, \mu_b)$ of TrFl$_{\boldsymbol{r},n}^{\geq 0} =$
+FlDr$_{\boldsymbol{r},n}^{\geq 0}$ give rise to coherent subdivisions of the
+flag positroid polytope $P(\underline{\boldsymbol{\mu}})$ into flag positroid
+polytopes. Our results have applications to Bruhat interval polytopes: for
+example, we show that a complete flag matroid polytope is a Bruhat interval
+polytope if and only if its $(\leq 2)$-dimensional faces are Bruhat interval
+polytopes. Our results also have applications to realizability questions. We
+define a positively oriented flag matroid to be a sequence of positively
+oriented matroids $(\chi_1,\dots,\chi_k)$ which is also an oriented flag
+matroid. We then prove that every positively oriented flag matroid of ranks
+$\boldsymbol{r}=(a,a+1,\dots,b)$ is realizable.
+</summary>
+    <author>
+      <name>Jonathan Boretsky</name>
+    </author>
+    <author>
+      <name>Christopher Eur</name>
+    </author>
+    <author>
+      <name>Lauren Williams</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.09131v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.09131v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

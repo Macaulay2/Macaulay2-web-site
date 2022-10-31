@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.06487%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.06487&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/pO4qAJWPrHEhCYw+9OaRjs5EqIM</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.06487v1</id>
+    <updated>2022-09-14T08:37:57Z</updated>
+    <published>2022-09-14T08:37:57Z</published>
+    <title>Codimension one foliations on homogeneous varieties</title>
+    <summary>  The aim of this paper is to study codimension one foliations on rational
+homogeneous spaces, with a focus on the moduli space of foliations of low
+degree on Grassmannians and cominuscule spaces. Using equivariant techniques,
+we show that codimension one degree zero foliations on (ordinary, orthogonal,
+symplectic) Grassmannians of lines, some spinor varieties, some Lagrangian
+Grassmannians, the Cayley plane (an $E_6$-variety) and the Freudenthal variety
+(an $E_7$-variety) are identified with restrictions of foliations on the
+ambient projective space. We also provide some evidence that such results can
+be extended beyond these cases.
+</summary>
+    <author>
+      <name>Vladimiro Benedetti</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMB</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Daniele Faenzi</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMB</arxiv:affiliation>
+    </author>
+    <author>
+      <name>Alan Muniz</name>
+      <arxiv:affiliation xmlns:arxiv="http://arxiv.org/schemas/atom">IMB</arxiv:affiliation>
+    </author>
+    <link href="http://arxiv.org/abs/2209.06487v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.06487v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.DG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

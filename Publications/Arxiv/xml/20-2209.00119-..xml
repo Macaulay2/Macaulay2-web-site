@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.00119%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.00119&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/V8iRL98eqoagy4xN4jiReS7wsOM</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.00119v1</id>
+    <updated>2022-08-31T21:13:34Z</updated>
+    <published>2022-08-31T21:13:34Z</published>
+    <title>On basic double links of squarefree monomial ideals</title>
+    <summary>  Nagel and R\"omer introduced the class of weakly vertex decomposable
+simplicial complexes, which include matroid, shifted, and Gorenstein complexes
+as well as vertex decomposable complexes. They proved that the Stanley-Reisner
+ideal of every weakly vertex decomposable simplicial complex is Gorenstein
+linked to an ideal of indeterminates via a sequence of basic double links. In
+this paper, we explore basic double links between squarefree monomial ideals
+beyond the weakly vertex decomposable setting.
+  Our first contribution is a structural result about certain basic double
+links which involve an edge ideal. Specifically, suppose $I(G)$ is the edge
+ideal of a graph $G$. When $I(G)$ is a basic double link of a monomial ideal
+$B$ on an arbitrary homogeneous ideal $A$, we give a generating set for $B$ in
+terms of $G$ and show that this basic double link must be of degree $1$. Our
+second focus is on examples from the literature of simplicial complexes known
+to be Cohen-Macaulay but not weakly vertex decomposable. We show that these
+examples are not basic double links of any other squarefree monomial ideals.
+</summary>
+    <author>
+      <name>Patricia Klein</name>
+    </author>
+    <author>
+      <name>Matthew Koban</name>
+    </author>
+    <author>
+      <name>Jenna Rajchgot</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Comments welcome! 14 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.00119v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.00119v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13C40, 13F55" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

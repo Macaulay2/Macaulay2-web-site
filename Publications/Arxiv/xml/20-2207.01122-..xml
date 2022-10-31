@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2207.01122%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2207.01122&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/T7I9/p8h7dZNI1lgxU874g2lC/s</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2207.01122v1</id>
+    <updated>2022-07-03T20:46:12Z</updated>
+    <published>2022-07-03T20:46:12Z</published>
+    <title>The Tate Conjecture for even dimensional Gushel-Mukai varieties in
+  characteristic $p\geq 5$</title>
+    <summary>  We study Gushel-Mukai (GM) varieties of dimension 4 or 6 in characteristic
+$p$. Our main result is the Tate conjecture for all such varieties over
+finitely generated fields of characteristic $p\geq 5$. In the case of GM
+sixfolds, we follow the method used by Madapusi Pera in his proof of the Tate
+conjecture for K3 surfaces. As input for this, we prove a number of basic
+results about GM sixfolds, such as the fact that there are no nonzero global
+vector fields. For GM fourfolds, we prove the Tate conjecture by reducing it to
+the case of GM sixfolds by making use of the notion of generalised partners
+plus the fact that generalised partners in characteristic 0 have isomorphic
+Chow motives in middle degree. Several steps in the proofs rely on results in
+characteristic 0 that are proven in a companion paper.
+</summary>
+    <author>
+      <name>Lie Fu</name>
+    </author>
+    <author>
+      <name>Ben Moonen</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">50 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2207.01122v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2207.01122v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14G17, 14C25, 14J20, 14G35, 14J45" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

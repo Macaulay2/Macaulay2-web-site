@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.08515%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.08515&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/yAcwlJzc4SEzsmYQaTj4BhIIsnI</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.08515v1</id>
+    <updated>2022-10-16T12:04:56Z</updated>
+    <published>2022-10-16T12:04:56Z</published>
+    <title>Klyachko diagrams of monomial ideals</title>
+    <summary>  In this paper, we introduce the notion of a Klyachko diagram for a monomial
+ideal $I$ in a certain multi-graded polynomial ring, namely the Cox ring $R$ of
+a smooth complete toric variety, with irrelevant maximal ideal $B$. We present
+procedures to compute the Klyachko diagram of $I$ from its monomial generators,
+and to retrieve the $B-$saturation $I^{\mathrm{sat}}$ of $I$ from its Klyachko
+diagram. We use this description to compute the first local cohomology module
+$H^{1}_{B}(I)$. As an application, we find a formula for the Hilbert function
+of $I^{\mathrm{sat}}$, and a characterization of monomial ideals with constant
+Hilbert polynomial, in terms of their Klyachko diagram.
+</summary>
+    <author>
+      <name>Rosa M. Miró-Roig</name>
+    </author>
+    <author>
+      <name>Martí Salat-Moltó</name>
+    </author>
+    <arxiv:doi xmlns:arxiv="http://arxiv.org/schemas/atom">10.1007/s10468-022-10146-1</arxiv:doi>
+    <link title="doi" href="http://dx.doi.org/10.1007/s10468-022-10146-1" rel="related"/>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">To appear in Algebras and Representation Theory</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.08515v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.08515v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.08737%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.08737&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Ba/zD7Xc9XWiwqVQ3LTTORYg6JY</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.08737v1</id>
+    <updated>2022-08-18T09:35:29Z</updated>
+    <published>2022-08-18T09:35:29Z</published>
+    <title>Action of the automorphism group on the Jacobian of Klein's quartic
+  curve II: Invariant theta-functions</title>
+    <summary>  In our previous paper we determined the singularities of the quotient variety
+of the 3-dimensional Jacobian of the plane Klein quartic curve by its full
+automorphism group of order 336. We showed that the singularities are the same
+as those of the 3-dimensional weighted projective space (WPS) with weights
+1,2,4,7, which prompted us to conjecture that the quotient is eventually
+isomorphic to this WPS. We are now providing another piece of evidence in favor
+of this conjecture, computing the Hilbert function of the algebra of invariant
+theta-functions on the Jacobian. We show that it coincides with the Hilbert
+function of the second Veronese algebra of the WPS and provide conjectural
+generators of the invariant algebra.
+</summary>
+    <author>
+      <name>Dimitri Markushevich</name>
+    </author>
+    <author>
+      <name>Anne Moreau</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">17 pages, 1 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.08737v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.08737v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B05, 11F22, 20D06, 14H45, 20H15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

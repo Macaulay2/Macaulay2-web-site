@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.10531%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.10531&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/uzyT5AUWcr4g0UsOh0kNfJOIJ7U</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.10531v1</id>
+    <updated>2022-09-21T17:47:03Z</updated>
+    <published>2022-09-21T17:47:03Z</published>
+    <title>Autocorrelation analysis for cryo-EM with sparsity constraints: Improved
+  sample complexity and projection-based algorithms</title>
+    <summary>  The number of noisy images required for molecular reconstruction in
+single-particle cryo-electron microscopy (cryo-EM) is governed by the
+autocorrelations of the observed, randomly-oriented, noisy projection images.
+In this work, we consider the effect of imposing sparsity priors on the
+molecule. We use techniques from signal processing, optimization, and applied
+algebraic geometry to obtain new theoretical and computational contributions
+for this challenging non-linear inverse problem with sparsity constraints. We
+prove that molecular structures modeled as sums of idealized point masses are
+uniquely determined by the second-order autocorrelation of their projection
+images, implying that the sample complexity is proportional to the square of
+the variance of the noise. This theory improves upon the non-sparse case, where
+the third-order autocorrelation is required for uniformly-oriented particle
+images and the sample complexity scales with the cube of the noise variance.
+Furthermore, we build a computational framework to reconstruct molecular
+structures which are sparse in the wavelet basis. This method combines the
+sparse representation for the molecule with projection-based techniques used
+for phase retrieval in X-ray crystallography.
+</summary>
+    <author>
+      <name>Tamir Bendory</name>
+    </author>
+    <author>
+      <name>Yuehaw Khoo</name>
+    </author>
+    <author>
+      <name>Joe Kileel</name>
+    </author>
+    <author>
+      <name>Oscar Mickelin</name>
+    </author>
+    <author>
+      <name>Amit Singer</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages, 4 figures, 1 movie</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.10531v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.10531v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.IT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.NA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.IT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

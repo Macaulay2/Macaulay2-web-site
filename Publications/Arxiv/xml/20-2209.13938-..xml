@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.13938%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.13938&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/RqtoKtKAsnuU4lk/AGPp6xxbn+I</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13938v1</id>
+    <updated>2022-09-28T09:13:40Z</updated>
+    <published>2022-09-28T09:13:40Z</published>
+    <title>Combinatorics of Correlated Equilibria</title>
+    <summary>  We study the correlated equilibrium polytope $P_G$ of a game $G$ from a
+combinatorial point of view. We introduce the region of full-dimensionality for
+this class of polytopes, and prove that it is a semialgebraic set for any game.
+Through the use of the oriented matroid strata, we propose a structured method
+for describing the possible combinatorial types of $P_G$, and show that for $(2
+\times n)$-games, the algebraic boundary of each stratum is the union of
+coordinate hyperplanes and binomial hypersurfaces. Finally, we provide a
+computational proof that there exists a unique combinatorial type of maximal
+dimension for $(2 \times 3)$-games.
+</summary>
+    <author>
+      <name>Marie-Charlotte Brandenburg</name>
+    </author>
+    <author>
+      <name>Benjamin Hollering</name>
+    </author>
+    <author>
+      <name>Irem Portakal</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">20 pages, 4 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.13938v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.13938v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14P10, 52B05, 52B40, 52C40, 91A05, 91A10" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

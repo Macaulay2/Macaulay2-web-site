@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.08530%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.08530&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WeRRKPaY5pBC6HXKwLMcPd2dFAk</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.08530v1</id>
+    <updated>2022-08-17T20:52:46Z</updated>
+    <published>2022-08-17T20:52:46Z</published>
+    <title>Survey of Methods for Solving Systems of Nonlinear Equations, Part I:
+  Root-finding Approaches</title>
+    <summary>  This paper presents a comprehensive survey of methods which can be utilized
+to search for solutions to systems of nonlinear equations (SNEs). Our
+objectives with this survey are to synthesize pertinent literature in this
+field by presenting a thorough description and analysis of the known methods
+capable of finding one or many solutions to SNEs, and to assist interested
+readers seeking to identify solution techniques which are well suited for
+solving the various classes of SNEs which one may encounter in real world
+applications.
+  To accomplish these objectives, we present a multi-part survey. In part one,
+we focus on root-finding approaches which can be used to search for solutions
+to a SNE without transforming it into an optimization problem. In part two, we
+will introduce the various transformations which have been utilized to
+transform a SNE into an optimization problem, and we discuss optimization
+algorithms which can then be used to search for solutions. In part three, we
+will present a robust quantitative comparative analysis of methods capable of
+searching for solutions to SNEs.
+</summary>
+    <author>
+      <name>Ilias S. Kotsireas</name>
+    </author>
+    <author>
+      <name>Panos M. Pardalos</name>
+    </author>
+    <author>
+      <name>Alexander Semenov</name>
+    </author>
+    <author>
+      <name>William T. Trevena</name>
+    </author>
+    <author>
+      <name>Michael N. Vrahatis</name>
+    </author>
+    <link href="http://arxiv.org/abs/2208.08530v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.08530v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.MS" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.07238%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.07238&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/47gVsniN8lwkwv/yCU/n7/K8pds</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.07238v2</id>
+    <updated>2022-10-03T16:44:57Z</updated>
+    <published>2022-08-15T14:50:53Z</published>
+    <title>Multidegrees, prime ideals, and non-standard gradings</title>
+    <summary>  We study several properties of multihomogeneous prime ideals. We show that
+the multigraded generic initial ideal of a prime has very special properties,
+for instance, its radical is Cohen-Macaulay. We develop a comprehensive study
+of multidegrees in arbitrary positive multigraded settings. In these
+environments, we extend the notion of Cartwright-Sturmfels ideals by means of a
+standardization technique. Furthermore, we recover or extend important results
+in the literature, for instance: we provide a multidegree version of
+Hartshorne's result stating the upper semicontinuity of arithmetic degree under
+flat degenerations, and we give an alternative proof of Brion's result
+regarding multiplicity-free varieties.
+</summary>
+    <author>
+      <name>Alessio Caminata</name>
+    </author>
+    <author>
+      <name>Yairon Cid-Ruiz</name>
+    </author>
+    <author>
+      <name>Aldo Conca</name>
+    </author>
+    <link href="http://arxiv.org/abs/2208.07238v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.07238v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13H15, 13P10, 14C17, 05E40, 52B40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

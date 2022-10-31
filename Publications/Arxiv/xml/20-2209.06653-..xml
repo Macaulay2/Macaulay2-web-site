@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.06653%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.06653&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/9OsmNJWn4VOoo9hZdhUNkVlW5+c</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.06653v2</id>
+    <updated>2022-09-29T20:11:27Z</updated>
+    <published>2022-09-14T14:00:06Z</published>
+    <title>The algebraic Brauer group of a pinched variety</title>
+    <summary>  Added lemma provided by Michel Brion. Other (minor) changes. Submitted
+version.
+  Let k be any field, let X' be a projective and geometrically integral
+k-scheme and let Y' be a finite closed subscheme of X'. If f: Y'-&gt; Y is a
+schematically dominant morphism between finite k-schemes and X is obtained by
+pinching X' along Y' via f, we describe the kernel (and, in certain cases, the
+cokernel) of the induced pullback map Br_{1}X -&gt; Br_{1}X' between the
+corresponding algebraic (cohomological) Brauer groups of X and X'_solely_ in
+terms of the Brauer groups of the residue fields of Y and Y' and the Amitsur
+subgroups of X and X' in Br k. As an application, we compute the Brauer group
+of a projective and geometrically integral k-rational curve (with arbitrary
+singularities) over any field k. We also extend a well-known theorem of
+Roquette and Lichtenbaum to a class of singular curves over any local field.
+</summary>
+    <author>
+      <name>Cristian D. Gonzalez-Aviles</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">25 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.06653v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.06653v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14F22 (Primary), 14H20, 14B05, 11G20 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

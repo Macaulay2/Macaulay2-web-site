@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.15792%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.15792&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nGHwAkUr55S2hrflSSxyDd3C3h0</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.15792v1</id>
+    <updated>2022-10-27T22:30:59Z</updated>
+    <published>2022-10-27T22:30:59Z</published>
+    <title>Lattice homology, formality, and plumbed L-space links</title>
+    <summary>  We define a link lattice complex for plumbed links, generalizing
+constructions of Ozsv\'ath, Stipsicz and Szab\'o, and of Gorsky and N\'emethi.
+We prove that for all plumbed links in rational homology 3-spheres, the link
+lattice complex is homotopy equivalent to the link Floer complex as an
+$A_\infty$-module. Additionally, we prove that the link Floer complex of a
+plumbed L-space link is a free resolution of its homology. As a consequence, we
+give an algorithm to compute the link Floer complexes of plumbed L-space links,
+in particular of algebraic links, from their multivariable Alexander
+polynomial.
+</summary>
+    <author>
+      <name>Maciej Borodzik</name>
+    </author>
+    <author>
+      <name>Beibei Liu</name>
+    </author>
+    <author>
+      <name>Ian Zemke</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">44 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.15792v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.15792v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.GT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="57K10, 57K18, 57R58, 14B05, 14J17, 14H20" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

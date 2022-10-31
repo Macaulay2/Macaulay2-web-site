@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.03835%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.03835&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/lbE47e1T+n4asfBms0mLOoMhZ8g</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.03835v1</id>
+    <updated>2022-09-08T14:15:51Z</updated>
+    <published>2022-09-08T14:15:51Z</published>
+    <title>Identifiability in Continuous Lyapunov Models</title>
+    <summary>  The recently introduced graphical continuous Lyapunov models provide a new
+approach to statistical modeling of correlated multivariate data. The models
+view each observation as a one-time cross-sectional snapshot of a multivariate
+dynamic process in equilibrium. The covariance matrix for the data is obtained
+by solving a continuous Lyapunov equation that is parametrized by the drift
+matrix of the dynamic process. In this context, different statistical models
+postulate different sparsity patterns in the drift matrix, and it becomes a
+crucial problem to clarify whether a given sparsity assumption allows one to
+uniquely recover the drift matrix parameters from the covariance matrix of the
+data. We study this identifiability problem by representing sparsity patterns
+by directed graphs. Our main result proves that the drift matrix is globally
+identifiable if and only if the graph for the sparsity pattern is simple (i.e.,
+does not contain directed two-cycles). Moreover, we present a necessary
+condition for generic identifiability and provide a computational
+classification of small graphs with up to 5 nodes.
+</summary>
+    <author>
+      <name>Philipp Dettling</name>
+    </author>
+    <author>
+      <name>Roser Homs</name>
+    </author>
+    <author>
+      <name>Carlos Améndola</name>
+    </author>
+    <author>
+      <name>Mathias Drton</name>
+    </author>
+    <author>
+      <name>Niels Richard Hansen</name>
+    </author>
+    <link href="http://arxiv.org/abs/2209.03835v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.03835v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62R01, 62H22, 15A24" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

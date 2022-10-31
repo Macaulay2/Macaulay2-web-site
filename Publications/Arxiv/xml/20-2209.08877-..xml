@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.08877%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.08877&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qkxBdPD53eChXnvCR0X7rsLAer8</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.08877v1</id>
+    <updated>2022-09-19T09:34:31Z</updated>
+    <published>2022-09-19T09:34:31Z</published>
+    <title>Unimodal singularities and boundary divisors in the KSBA moduli of a
+  class of Horikawa surfaces</title>
+    <summary>  Smooth minimal surfaces of general type with $K^2=1$, $p_g=2$, and $q=0$
+constitute a fundamental example in the geography of algebraic surfaces, and
+the 28-dimensional moduli space $\mathbf{M}$ of their canonical models admits a
+modular compactification $\bar{\mathbf{M}}$ via the minimal model program. We
+describe eight new irreducible boundary divisors in such compactification
+parametrizing reducible stable surfaces. Additionally, we study the relation
+with the GIT compactification of $\mathbf{M}$ and the Hodge theory of the
+degenerate surfaces that the eight divisors parametrize.
+</summary>
+    <author>
+      <name>Patricio Gallardo</name>
+    </author>
+    <author>
+      <name>Gregory Pearlstein</name>
+    </author>
+    <author>
+      <name>Luca Schaffler</name>
+    </author>
+    <author>
+      <name>Zheng Zhang</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">40 pages. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.08877v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.08877v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J10, 14D06, 14E05, 14D07" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

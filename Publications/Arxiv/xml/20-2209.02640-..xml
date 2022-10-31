@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.02640%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.02640&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/8j8T2R3SSUbpQBa8sOYLQn6MpQg</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.02640v2</id>
+    <updated>2022-09-28T20:31:32Z</updated>
+    <published>2022-09-06T16:49:17Z</published>
+    <title>Enumerative geometry meets statistics, combinatorics and topology</title>
+    <summary>  We explain connections among several, a priori unrelated, areas of
+mathematics: combinatorics, algebraic statistics, topology and enumerative
+algebraic geometry. Our focus is on discrete invariants, strongly related to
+the theory of Lorentzian polynomials. The main concept joining the mentioned
+fields is a linear space of matrices.
+</summary>
+    <author>
+      <name>Mateusz Michałek</name>
+    </author>
+    <link href="http://arxiv.org/abs/2209.02640v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.02640v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

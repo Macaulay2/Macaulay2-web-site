@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.12560%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.12560&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/naOABCoq/EDB7xoAz8vgb1Le7O0</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.12560v1</id>
+    <updated>2022-08-26T10:10:43Z</updated>
+    <published>2022-08-26T10:10:43Z</published>
+    <title>Gaussian likelihood geometry of projective varieties</title>
+    <summary>  We explore the maximum likelihood degree of a homogeneous polynomial $F$ on a
+projective variety $X$, $\mathrm{MLD}_X(F)$, which generalizes the concept of
+Gaussian maximum likelihood degree. We show that $\mathrm{MLD}_X(F)$ is equal
+to the count of critical points of a rational function on $X$, and give
+different geometric characterizations of it via topological Euler
+characteristic, dual varieties, and Chern classes.
+</summary>
+    <author>
+      <name>Sandra Di Rocco</name>
+    </author>
+    <author>
+      <name>Lukas Gustafsson</name>
+    </author>
+    <author>
+      <name>Luca Schaffler</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">24 pages, 1 figure. Comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.12560v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.12560v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.ST" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="stat.TH" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="62R01, 14C17, 15A15" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.02116%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.02116&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/hIEer2/xVQTrsyaz7ewcpl6q63Q</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.02116v1</id>
+    <updated>2022-10-05T09:35:38Z</updated>
+    <published>2022-10-05T09:35:38Z</published>
+    <title>Computing algebraic degrees of phylogenetic varieties</title>
+    <summary>  A phylogenetic variety is an algebraic variety parameterized by a statistical
+model of the evolution of biological sequences along a tree. Understanding this
+variety is an important problem in the area of algebraic statistics with
+applications in phylogeny reconstruction. In the broader area of algebra
+statistics, there have been important theoretical advances in computing certain
+invariants associated to algebraic varieties arising in applications. Beyond
+the dimension and degree of a variety, one is interested in computing other
+algebraic degrees, such as the maximum likelihood degree and the Euclidean
+distance degree. Despite these efforts, the current literature lacks explicit
+computations of these invariants for the particular case of phylogenetic
+varieties. In our work, we fill this gap by computing these invariants for
+phylogenetic varieties arising from the simplest group-based models of
+nucleotide substitution Cavender-Farris-Neyman model, Jukes-Cantor model,
+Kimura 2-parameter model, and the Kimura 3-parameter model on small
+phylogenetic trees with at most 5 leaves.
+</summary>
+    <author>
+      <name>Luis David Garcia Puente</name>
+    </author>
+    <author>
+      <name>Marina Garrote-López</name>
+    </author>
+    <author>
+      <name>Elima Shehu</name>
+    </author>
+    <link href="http://arxiv.org/abs/2210.02116v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.02116v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="q-bio.PE" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

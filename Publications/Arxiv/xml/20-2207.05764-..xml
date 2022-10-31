@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2207.05764%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2207.05764&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/rFP+KBjULlFxEDROiY5aA0xNLBE</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2207.05764v1</id>
+    <updated>2022-07-12T18:00:01Z</updated>
+    <published>2022-07-12T18:00:01Z</published>
+    <title>Higgs, Coulomb, and Hall-Littlewood</title>
+    <summary>  The Higgs branch of 4d $\mathcal{N}=2$ SCFTs can be analyzed via the Hilbert
+series of the Higgs branch or, in special cases, by computing the
+Hall-Littlewood index. For any class $\mathcal{S}$ theory corresponding to a
+genus-zero Riemann surface, they are conjectured to be identical. We present
+several families of counterexamples. We find that for any class $\mathcal{S}$
+theory with four or more $\mathbb{Z}_2$-twisted punctures, they do not match.
+We construct 3d mirrors for such theories and analyze their Coulomb branch
+Hilbert series to compute the Higgs branch Hilbert series of the 4d theory. We
+further construct $a=c$ theories in class $\mathcal{S}$ using the twisted
+punctures, and these theories, which includes the $\hat{D}_4(SU(2n+1))$
+theories, have Hall--Littlewood index different from the Hilbert series of the
+Higgs branch. We conjecture that this is the case for all $a=c$ theories with
+non-empty Higgs branch, including $\mathcal{N}\ge 3$ SCFTs.
+</summary>
+    <author>
+      <name>Monica Jinwoo Kang</name>
+    </author>
+    <author>
+      <name>Craig Lawrie</name>
+    </author>
+    <author>
+      <name>Ki-Hong Lee</name>
+    </author>
+    <author>
+      <name>Matteo Sacchi</name>
+    </author>
+    <author>
+      <name>Jaewon Song</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">49 pages + appendices + references, 20 figures, and 5 tables</arxiv:comment>
+    <link href="http://arxiv.org/abs/2207.05764v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2207.05764v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

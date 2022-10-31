@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.03656%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.03656&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/4XpvcwGGSAmeLN/4MQm6DHyugPM</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.03656v1</id>
+    <updated>2022-10-07T16:04:33Z</updated>
+    <published>2022-10-07T16:04:33Z</published>
+    <title>Cohomology of line bundles on the incidence correspondence</title>
+    <summary>  For a finite dimensional vector space V of dimension n, we consider the
+incidence correspondence (or partial flag variety) X in P(V) x P(V*),
+parametrizing pairs consisting of a point and a hyperplane containing it. We
+completely characterize the vanishing and non-vanishing behavior of the
+cohomology groups of line bundles on X in characteristic p&gt;0. If n=3 then X is
+the full flag variety of V, and the characterization is contained in the thesis
+of Griffith from the 70s. In characteristic 0, the cohomology groups are
+described for all V by the Borel-Weil-Bott theorem. Our strategy is to recast
+the problem in terms of computing cohomology of (twists of) divided powers of
+the cotangent sheaf on projective space, which we then study using natural
+truncations induced by Frobenius, along with careful estimates of
+Castelnuovo-Mumford regularity. When n=3, we recover the recursive description
+of characters from recent work of Linyuan Liu, while for general n we give
+character formulas for the cohomology of a restricted collection of line
+bundles. Our results suggest truncated Schur functions as the natural building
+blocks for the cohomology characters.
+</summary>
+    <author>
+      <name>Zhao Gao</name>
+    </author>
+    <author>
+      <name>Claudiu Raicu</name>
+    </author>
+    <link href="http://arxiv.org/abs/2210.03656v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.03656v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14M15, 14C20, 20G05, 20G15, 05E05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.05576%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.05576&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jke7HY2uYmezVAycnCWpsR6GD1g</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.05576v1</id>
+    <updated>2022-08-10T21:56:31Z</updated>
+    <published>2022-08-10T21:56:31Z</published>
+    <title>Real solutions to systems of polynomial equations in Macaulay2</title>
+    <summary>  The Macaulay2 package RealRoots provides symbolic methods to study real
+solutions to systems of polynomial equations. It updates and expands an earlier
+package developed by Grayson and Sottile in 1999. We provide mathematical
+background and descriptions of the RealRoots package, giving examples which
+illustrate some of its implemented methods. We also prove a general version of
+Sylvester's Theorem whose statement and proof we could not find in the
+literature.
+</summary>
+    <author>
+      <name>Jordy Lopez Garcia</name>
+    </author>
+    <author>
+      <name>Kelly Maluccio</name>
+    </author>
+    <author>
+      <name>Frank Sottile</name>
+    </author>
+    <author>
+      <name>Thomas Yahl</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">9 pages, 2 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.05576v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.05576v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14Q30" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

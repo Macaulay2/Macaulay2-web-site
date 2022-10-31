@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.10082%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.10082&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/e0BDtd6WoXFc1jQeg4Bev39Re3E</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10082v1</id>
+    <updated>2022-10-18T18:23:04Z</updated>
+    <published>2022-10-18T18:23:04Z</published>
+    <title>Jet schemes of singular surfaces of types $D_4^0$ and $D_4^1$ in
+  characteristic $2$</title>
+    <summary>  Let $k$ be an algebraically closed field, $S$ a variety over $k$ and m a
+nonnegative integer. There is a space $S_m$ over $S$ , called the jet scheme of
+$X$ of order $m$, parameterizing $m$-th jets on $S$. The fiber over the
+singular locus of $S$ is called the singular fiber. In this paper, we consider
+the singular fibers of the jet schemes of 2-dimensional rational double points
+over a field $k$ of characteristic $2$ whose resolution graph is of type $D_4$.
+There are two types of such singularities, of type $D_4^0$ and type $D_4^1$. We
+give the irreducible decomposition of the singular fiber and describe the
+configuration of the irreducible components. The case of a $D_4^0$-singularity
+is quite similar to the case of characteristic $0$ studied in [3]. The case of
+$D_4^1$-singularity requires more elaborate analysis of certain subsets of the
+singular fiber.
+</summary>
+    <author>
+      <name>Yoshimune Koreeda</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.10082v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.10082v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14J17" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

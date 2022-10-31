@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.12668%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.12668&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/q5luDoaCgEBqy6hDU2RNGpkrrX4</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.12668v1</id>
+    <updated>2022-10-23T08:59:50Z</updated>
+    <published>2022-10-23T08:59:50Z</published>
+    <title>On Rees algebras of 2-determinantal ideals</title>
+    <summary>  Let I be the ideal of minors of a 2 by n matrix of linear forms with the
+expected codimension. In this paper we prove that the Rees algebra of I and its
+special fiber ring are Cohen-Macaulay and Koszul; in particular, they are
+quadratic algebras. The main novelty in our approach is the analysis of a
+stratification of the Hilbert scheme of determinantal ideals. We study
+degenerations of Rees algebras along this stratification, and combine it with
+certain squarefree Groebner degenerations.
+</summary>
+    <author>
+      <name>Ritvik Ramkumar</name>
+    </author>
+    <author>
+      <name>Alessio Sammartano</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">30 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.12668v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.12668v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13A30, 13C40, 05E40, 13D10, 13F55, 13H10, 13P10, 14C05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

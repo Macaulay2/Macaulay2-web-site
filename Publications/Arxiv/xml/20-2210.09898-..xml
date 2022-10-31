@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.09898%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.09898&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/IYiCTooH2NoadDnh4h8kySkzLZI</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.09898v1</id>
+    <updated>2022-10-18T14:40:59Z</updated>
+    <published>2022-10-18T14:40:59Z</published>
+    <title>Loop-by-loop Differential Equations for Dual (Elliptic) Feynman
+  Integrals</title>
+    <summary>  We present a loop-by-loop method for computing the differential equations of
+Feynman integrals using the recently developed dual form formalism. We give
+explicit prescriptions for the loop-by-loop fibration of multi-loop dual forms.
+Then, we test our formalism on a simple, but non-trivial, example: the two-loop
+three-mass elliptic sunrise family of integrals. We obtain an epsilon-form
+differential equation within the correct function space in a sequence of
+relatively simple algebraic steps. In particular, none of these steps relies on
+the analysis of $q$-series. Then, we discuss interesting properties satisfied
+by our dual basis as well as its simple relation to the known epsilon-form
+basis of Feynman integrands. The underlying K3-geometry of the three-loop
+four-mass sunrise integral is also discussed. Finally, we speculate on how to
+construct a "good" loop-by-loop basis at three-loop.
+</summary>
+    <author>
+      <name>Mathieu Giroux</name>
+    </author>
+    <author>
+      <name>Andrzej Pokraka</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">57+9 pages, 9 figures</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.09898v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.09898v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-th" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="hep-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math-ph" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.MP" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

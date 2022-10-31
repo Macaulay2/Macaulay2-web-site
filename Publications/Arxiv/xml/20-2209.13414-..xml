@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.13414%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.13414&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/bZ1KBRMxQ6aZ/MC3N2NTgXK1nFw</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.13414v1</id>
+    <updated>2022-09-27T14:14:30Z</updated>
+    <published>2022-09-27T14:14:30Z</published>
+    <title>Tropical computations for toric intersection theory in Macaulay2</title>
+    <summary>  We present the Macaulay2 package TropicalToric.m2 for toric intersection
+theory computations using tropical geometry.
+</summary>
+    <author>
+      <name>Alessio Borzì</name>
+    </author>
+    <link href="http://arxiv.org/abs/2209.13414v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.13414v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14T20, 14Q99" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

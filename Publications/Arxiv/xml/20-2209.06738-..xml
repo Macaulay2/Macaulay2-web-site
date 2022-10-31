@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.06738%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.06738&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/cyldOh+NCzv1M6P1vScxg0dpdHo</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.06738v1</id>
+    <updated>2022-09-14T15:59:05Z</updated>
+    <published>2022-09-14T15:59:05Z</published>
+    <title>Local Cohomology of Certain Determinantal Thickenings</title>
+    <summary>  Let $R=\mathbb{C}[\{x_{ij}\}]$ be the ring of polynomial functions in $mn$
+variables where $m&gt; n$. Set $X$ to be the $m\times n$ matrix in these variables
+and $I:=I_n(X)$ the ideal of maximal minors of $X$. We consider the rings
+$R/I^t$; for $t\gg 0$ the depth of $R/I^t$ is equal to $n^2-1$, and we show
+that each local cohomology module $H^{n^2-1}_{\frak{m}}(R/I^t)$ is a cyclic
+$R$-module. We also compute the annihilator of $H^{n^2-1}_{\frak{m}}(R/I^t)$
+thereby completely determining its $R$-module structure.
+  In the case that $X$ is a $n\times (n-1)$ matrix we describe a map between
+the Koszul complex of the $t$-powers of the maximal minors and a free
+resolution of $R/I^t$. We use this map to explicitly describe the modules
+$\operatorname{Ext}_R ^n(R/I^t,R)$ as submodules of the top local cohomology
+module $H_I^n(R)$. Moreover, we can realize the filtration
+$\bigcup_i\operatorname{Ext}_R ^n(R/I^t,R)= H_I^n(R)$ in terms of differential
+operators. Utilizing this description, along with an explicit isomorphism
+$H_I^n(R) \cong H_{\frak{m}}^{n(n-1)}(R)$, we determine the annihilator of
+$\operatorname{Ext}_R ^n(R/I^t,R)$ and hence by graded local duality give
+another computation of the annihilator of $H^{(n-1)^2-1}_{\frak{m}}(R/I^t)$.
+</summary>
+    <author>
+      <name>Hunter Simper</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">23 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.06738v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.06738v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

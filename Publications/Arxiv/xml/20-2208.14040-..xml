@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.14040%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.14040&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/aOXXjIeGIc2lae7dTNc48S7bav8</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.14040v1</id>
+    <updated>2022-08-30T07:43:49Z</updated>
+    <published>2022-08-30T07:43:49Z</published>
+    <title>Algebraic implications of neighborhood hypergraphs and their transversal
+  hypergraphs</title>
+    <summary>  In this paper, we unfold balanced and totally balanced neighborhood
+hypergraphs to discover new classes of normally torsion-free monomial ideals.
+As a consequence, we establish that the closed neighborhood ideals and the
+dominating ideals of strongly chordal graphs are normally torsion-free. We
+discuss the stable sets of associated primes of the dominating ideals of cycles
+and characterize all the cycles with normally torsion-free dominating ideals.
+</summary>
+    <author>
+      <name>Mehrdad Nasernejad</name>
+    </author>
+    <author>
+      <name>Ayesha Asloob Qureshi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Any comments are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.14040v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.14040v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

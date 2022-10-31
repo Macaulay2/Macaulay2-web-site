@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.05934%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.05934&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/nn7XUywf+cTmPtdGk6qsV1eQPN8</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.05934v1</id>
+    <updated>2022-08-11T17:11:44Z</updated>
+    <published>2022-08-11T17:11:44Z</published>
+    <title>Higher structure maps for free resolutions of length 3 and linkage</title>
+    <summary>  Let $I$ be a perfect ideal of height 3 in a Gorenstein local ring $R$. Let
+$\mathbb{F}$ be the minimal free resolution of $I$. A sequence of linear maps,
+which generalize the multiplicative structure of $\mathbb{F}$, can be defined
+using the generic ring associated to the format of $\mathbb{F}$. Let $J$ be an
+ideal linked to $I$. We provide formulas to compute some of these maps for the
+free resolution of $J$ in terms of those of the free resolution of $I$. We
+apply our results to describe classes of licci ideals, showing that a perfect
+ideal with Betti numbers $(1,5,6,2)$ is licci if and only if at least one of
+these maps is nonzero modulo the maximal ideal of $R$.
+</summary>
+    <author>
+      <name>Lorenzo Guerrieri</name>
+    </author>
+    <author>
+      <name>Xianglong Ni</name>
+    </author>
+    <author>
+      <name>Jerzy Weyman</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">33 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.05934v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.05934v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 13C05, 13C40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

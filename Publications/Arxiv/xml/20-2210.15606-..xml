@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.15606%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.15606&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KvLwd0d3S4xZSl037cEBchFr70I</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.15606v1</id>
+    <updated>2022-10-27T16:50:12Z</updated>
+    <published>2022-10-27T16:50:12Z</published>
+    <title>A sharp bound for the resurgence of sums of ideals</title>
+    <summary>  We prove a sharp upper bound for the resurgence of sums of ideals involving
+disjoint sets of variables, strengthening work of
+Bisui--H\`a--Jayanthan--Thomas. Complete solutions are delivered for two
+conjectures proposed by these authors. For given real numbers $a$ and $b$, we
+consider the set Res$(a,b)$ of possible values of the resurgence of $I+J$ where
+$I$ and $J$ are ideals in disjoint sets of variables having resurgence $a$ and
+$b$, respectively. Some questions and partial results about Res$(a,b)$ are
+discussed.
+</summary>
+    <author>
+      <name>Do Van Kien</name>
+    </author>
+    <author>
+      <name>Hop Dang Nguyen</name>
+    </author>
+    <author>
+      <name>Le Minh Thuan</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">14 pages, 01 figure</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.15606v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.15606v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13F20, 14N05, 13A02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.02566%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.02566&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/MwWcCDo5CqWn0RdHMOhcv7CtMWs</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.02566v3</id>
+    <updated>2022-09-07T21:50:01Z</updated>
+    <published>2022-08-04T10:21:50Z</published>
+    <title>Around the motivic monodromy conjecture for non-degenerate hypersurfaces</title>
+    <summary>  We provide a new, geometric proof of the motivic monodromy conjecture for
+non-degenerate hypersurfaces in dimension $3$, which has been proven previously
+by the work of Lemahieu--Van Proeyen and Bories--Veys. More generally, given a
+non-degenerate complex polynomial $f$ in any number of variables, and a set
+$\mathbf{B}$ of $B_1$-facets of the Newton polyhedron of $f$ with consistent
+base directions, we construct a stack-theoretic embedded desingularization of
+$f^{-1}(0)$ above the origin, whose set of numerical data excludes any known
+candidate pole of the motivic zeta function of $f$ at the origin that arises
+solely from facets in $\mathbf{B}$. We anticipate that the constructions herein
+might inspire new insights as well as new possibilities towards a solution of
+the conjecture.
+</summary>
+    <author>
+      <name>Ming Hao Quek</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Only changes from v2 to v3: Reworded Conjecture 5.1.8 to Question
+  5.1.8, and revised 5.2.2</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.02566v3" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.02566v3" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14B05, 14M25, 14A20, 32S40" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

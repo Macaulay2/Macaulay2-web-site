@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.11443%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.11443&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/h/m632DQm5WAF/rjSEhTcGehTO4</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.11443v1</id>
+    <updated>2022-10-20T17:45:22Z</updated>
+    <published>2022-10-20T17:45:22Z</published>
+    <title>Snapshot of Algebraic Vision</title>
+    <summary>  In this survey article, we present interactions between algebraic geometry
+and computer vision, which have recently come under the header of Algebraic
+Vision. The subject has given new insights in multiple view geometry and its
+application to 3D scene reconstruction, and carried a host of novel problems
+and ideas back into algebraic geometry.
+</summary>
+    <author>
+      <name>Joe Kileel</name>
+    </author>
+    <author>
+      <name>Kathlén Kohn</name>
+    </author>
+    <link href="http://arxiv.org/abs/2210.11443v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.11443v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

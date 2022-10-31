@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.06688%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.06688&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/fks40jfvw/Cj6jQcJHwop/PExwo</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.06688v1</id>
+    <updated>2022-09-14T14:47:12Z</updated>
+    <published>2022-09-14T14:47:12Z</published>
+    <title>A proof of a conjecture by Monin and Rana on equations defining
+  $\bar{M}_{0,n}$</title>
+    <summary>  Monin and Rana conjectured a set of equations defining the image of the
+moduli space $\bar{M}_{0,n}$ under an embedding into $\mathbb{P}^1\times
+\cdots\times \mathbb{P}^{n-3}$ due to Keel and Tevelev and verified the
+conjecture for $n\leq 8$ using Macaulay2. We prove this conjecture for all $n$.
+</summary>
+    <author>
+      <name>Maria Gillespie</name>
+    </author>
+    <author>
+      <name>Sean T. Griffin</name>
+    </author>
+    <author>
+      <name>Jake Levinson</name>
+    </author>
+    <link href="http://arxiv.org/abs/2209.06688v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.06688v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14H10 (Primary) 14N99, 05C05, 13C70 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.13692%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.13692&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Bmm8iMDMEuYQsqhPlgC0lf5gTT0</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.13692v1</id>
+    <updated>2022-08-29T16:06:02Z</updated>
+    <published>2022-08-29T16:06:02Z</published>
+    <title>Bring's curve: Old and New</title>
+    <summary>  Bring's curve, the unique Riemann surface of genus-4 with automorphism group
+$S_5$, has many exceptional properties. We review, give new proofs of, and
+extend a number of these including giving the complete realisation of the
+automorphism group for a plane curve model, identifying a new elliptic quotient
+of the curve and the modular curve $X_0(50)$, providing a complete description
+of the orbit decomposition of the theta characteristics, and identifying the
+unique invariant characteristic with the divisor of the Sz\"ego kernel. In
+achieving this we have used modern computational tools in Sagemath, Macaulay2,
+and Maple, for which notebooks demonstrating calculations are provided.
+</summary>
+    <author>
+      <name>H. W. Braden</name>
+    </author>
+    <author>
+      <name>Linden Disney-Hogg</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">38 pages, 5 figures, accompanying Jupyter notebooks available at
+  https://github.com/DisneyHogg/Brings_Curve</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.13692v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.13692v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E07, 14H55, 14Q05, 14K02, 14K25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

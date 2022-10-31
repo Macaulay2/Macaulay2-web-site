@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.01536%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.01536&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/jP94sg/yA8q9Jj4P0mg7anNqiaQ</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.01536v1</id>
+    <updated>2022-08-02T15:34:56Z</updated>
+    <published>2022-08-02T15:34:56Z</published>
+    <title>Free resolutions and Lefschetz properties of some Artin Gorenstein rings
+  of codimension four</title>
+    <summary>  In 1978, Stanley constructed an example of an Artinian Gorenstein (AG) ring
+$A$ with non-unimodal $H$-vector $(1,13,12,13,1)$. Migliore-Zanello later
+showed that for regularity $r=4$, Stanley's example has the smallest possible
+codimension $c$ for an AG ring with non-unimodal $H$-vector. The weak Lefschetz
+property (WLP) has been much studied for AG rings; it is easy to show that an
+AG ring with non-unimodal $H$-vector fails to have WLP. In codimension $c=3$ it
+is conjectured that all AG rings have WLP. For $c=4$, Gondim showed that WLP
+always holds for $r \le 4$ and gives a family where WLP fails for any $r \ge
+7$, building on an earlier example of Ikeda of failure of WLP for $r=5$. In
+this note we study the minimal free resolution of $A$ and relation to Lefschetz
+properties (both weak and strong) and Jordan type for $c=4$ and $r \le 6$.
+</summary>
+    <author>
+      <name>Nancy Abdallah</name>
+    </author>
+    <author>
+      <name>Hal Schenck</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.01536v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.01536v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13E10, 13F55, 14F05, 13D40, 13C13, 13D02" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

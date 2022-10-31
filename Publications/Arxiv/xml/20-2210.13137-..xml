@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.13137%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.13137&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/WI7KG0vqDDzeBWQk5uiw2bqHqlU</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.13137v1</id>
+    <updated>2022-10-24T11:44:54Z</updated>
+    <published>2022-10-24T11:44:54Z</published>
+    <title>A map to a toric variety and a toric degeneration</title>
+    <summary>  We study maps to a toric variety. A torus embedding gives a simple example
+and, conversely, such maps generalize a torus embedding in that they are
+extensions of monomial maps. The motivation comes from a toric degeneration, a
+flat family whose special fiber is a not-necessarily-normal toric variety. In
+that case (and more generally), we show, away from a base locus, there is a
+dominant morphism from a general fiber of a toric degeneration to the special
+fiber. In the process, we give a negative answer to the question of I.
+Dolgachev and K. Kaveh as to whether a projective toric degeneration can be
+constructed by degeneration by projection.
+  In the classical topology over $\mathbb{C}$, following Goresky and
+MacPherson, we construct a continuous surjective map from a general fiber of a
+toric degeneration to the special fiber that is a covering over each orbit. We
+then explain how to recover and extend the construction of integral systems in
+M. Harada and K. Kaveh. "Integrable systems, toric degenerations and okounkov
+bodie" to the singular locus (using the structure of a symplectic stratified
+space).
+</summary>
+    <author>
+      <name>Lara Bossinger</name>
+    </author>
+    <author>
+      <name>Takuya Murata</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">Feedbacks are welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.13137v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.13137v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14D06" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

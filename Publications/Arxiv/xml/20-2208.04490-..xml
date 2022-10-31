@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.04490%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.04490&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/W/maZCCiz6kWDlm8R6oLYg+dDi8</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.04490v2</id>
+    <updated>2022-09-05T04:27:54Z</updated>
+    <published>2022-08-09T01:34:47Z</published>
+    <title>Homotopy techniques for analytic combinatorics in several variables</title>
+    <summary>  We combine tools from homotopy continuation solvers with the methods of
+analytic combinatorics in several variables to give the first practical
+algorithm and implementation for the asymptotics of multivariate rational
+generating functions not relying on a non-algorithmically checkable
+`combinatorial' non-negativity assumption. Our homotopy implementation
+terminates on examples from the literature in three variables, and we
+additionally describe heuristic methods that terminate and correctly predict
+asymptotic behaviour in reasonable time on examples in even higher dimension.
+Our results are implemented in Julia, through the use of the
+HomotopyContinuation.jl package, and we provide a selection of examples and
+benchmarks.
+</summary>
+    <author>
+      <name>Kisun Lee</name>
+    </author>
+    <author>
+      <name>Stephen Melczer</name>
+    </author>
+    <author>
+      <name>Josip Smolčić</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages. Accepted for presentation at SYNASC 2022</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.04490v2" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.04490v2" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.SC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

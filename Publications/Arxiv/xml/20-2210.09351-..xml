@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.09351%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.09351&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eqxgzO5eYwNsVJq8mKzikDiXR+U</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.09351v1</id>
+    <updated>2022-10-17T18:39:52Z</updated>
+    <published>2022-10-17T18:39:52Z</published>
+    <title>When are the natural embeddings of classical invariant rings pure?</title>
+    <summary>  Consider a reductive linear algebraic group $G$ acting linearly on a
+polynomial ring $S$ over an infinite field; key examples are the general linear
+group, the symplectic group, the orthogonal group, and the special linear
+group, with the classical representations as in Weyl's book: for the general
+linear group, consider a direct sum of copies of the standard representation
+and copies of the dual; in the other cases take copies of the standard
+representation. The invariant rings in the respective cases are determinantal
+rings, rings defined by Pfaffians of alternating matrices, symmetric
+determinantal rings, and the Pl\"ucker coordinate rings of Grassmannians; these
+are the classical invariant rings of the title, with $S^G\subseteq S$ being the
+natural embedding.
+  Over a field of characteristic zero, a reductive group is linearly reductive,
+and it follows that the invariant ring $S^G$ is a pure subring of $S$,
+equivalently, $S^G$ is a direct summand of $S$ as an $S^G$-module. Over fields
+of positive characteristic, reductive groups are typically no longer linearly
+reductive. We determine, in the positive characteristic case, precisely when
+the inclusion $S^G\subseteq S$ is pure. It turns out that if $S^G\subseteq S$
+is pure, then either the invariant ring $S^G$ is regular, or the group $G$ is
+linearly reductive.
+</summary>
+    <author>
+      <name>Melvin Hochster</name>
+    </author>
+    <author>
+      <name>Jack Jeffries</name>
+    </author>
+    <author>
+      <name>Vaibhav Pandey</name>
+    </author>
+    <author>
+      <name>Anurag K. Singh</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">39 pages; comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.09351v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.09351v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

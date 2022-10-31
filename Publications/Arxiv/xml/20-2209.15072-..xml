@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.15072%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.15072&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/ne/vPTjam8pyISGbvvZSv/lkRKs</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.15072v1</id>
+    <updated>2022-09-29T19:46:59Z</updated>
+    <published>2022-09-29T19:46:59Z</published>
+    <title>Partially calibrated semi-generalized pose from hybrid point
+  correspondences</title>
+    <summary>  In this paper we study the problem of estimating the semi-generalized pose of
+a partially calibrated camera, i.e., the pose of a perspective camera with
+unknown focal length w.r.t. a generalized camera, from a hybrid set of 2D-2D
+and 2D-3D point correspondences. We study all possible camera configurations
+within the generalized camera system. To derive practical solvers to previously
+unsolved challenging configurations, we test different parameterizations as
+well as different solving strategies based on the state-of-the-art methods for
+generating efficient polynomial solvers. We evaluate the three most promising
+solvers, i.e., the H51f solver with five 2D-2D correspondences and one 2D-3D
+correspondence viewed by the same camera inside generalized camera, the H32f
+solver with three 2D-2D and two 2D-3D correspondences, and the H13f solver with
+one 2D-2D and three 2D-3D correspondences, on synthetic and real data. We show
+that in the presence of noise in the 3D points these solvers provide better
+estimates than the corresponding absolute pose solvers.
+</summary>
+    <author>
+      <name>Snehal Bhayani</name>
+    </author>
+    <author>
+      <name>Viktor Larsson</name>
+    </author>
+    <author>
+      <name>Torsten Sattler</name>
+    </author>
+    <author>
+      <name>Janne Heikkila</name>
+    </author>
+    <author>
+      <name>Zuzana Kukelova</name>
+    </author>
+    <link href="http://arxiv.org/abs/2209.15072v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.15072v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="cs.CV" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

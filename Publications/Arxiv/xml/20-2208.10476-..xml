@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.10476%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.10476&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/faQXLODLPqFlSVDbi6E0KpZfiQA</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.10476v1</id>
+    <updated>2022-08-22T17:52:05Z</updated>
+    <published>2022-08-22T17:52:05Z</published>
+    <title>The combinatorial structure of symmetric strongly shifted ideals</title>
+    <summary>  Symmetric strongly shifted ideals are a class of monomial ideals which come
+equipped with an action of the symmetric group and are analogous to the
+well-studied class of strongly stable monomial ideals. In this paper we focus
+on algebraic and combinatorial properties of symmetric strongly shifted ideals.
+On the algebraic side, we elucidate properties that pertain to behavior under
+ideal operations, primary decomposition, and the structure of their Rees
+algebra. On the combinatorial side, we develop a notion of partition Borel
+generators which leads to connections to discrete polymatroids, convex
+polytopes, and permutohedral toric varieties.
+</summary>
+    <author>
+      <name>Alessandra Costantini</name>
+    </author>
+    <author>
+      <name>Alexandra Seceleanu</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">42 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.10476v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.10476v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="Primary: 13C70, 05E40. Secondary: 13B22, 13F55, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

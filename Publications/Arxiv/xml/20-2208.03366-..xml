@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.03366%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.03366&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/qwnXx8a8iSPBeg/60FjcfAYjhak</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.03366v1</id>
+    <updated>2022-08-05T19:21:34Z</updated>
+    <published>2022-08-05T19:21:34Z</published>
+    <title>Depth and Singular Varieties of Exterior Edge Ideals</title>
+    <summary>  Edge ideals of finite simple graphs are well-studied over polynomial rings.
+In this paper, we initiate the study of edge ideals over exterior algebras,
+specifically focusing on the depth and singular varieties of such ideals. We
+prove an upper bound on the depth of the edge ideal associated to a general
+graph and a more refined bound for bipartite graphs, and we show that both are
+tight. We also compute the depth of several large families of graphs including
+cycles, complete multipartite graphs, spider graphs, and Ferrers graphs.
+Finally, we focus on the effect whiskering a graph has on the depth of the
+associated edge ideal.
+</summary>
+    <author>
+      <name>Matthew Mastroeni</name>
+    </author>
+    <author>
+      <name>Jason McCullough</name>
+    </author>
+    <author>
+      <name>Andrew Osborne</name>
+    </author>
+    <author>
+      <name>Joshua Rice</name>
+    </author>
+    <author>
+      <name>Cole Willis</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages. Comments welcome</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.03366v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.03366v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CO" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RA" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="05E40, 15A75, 16E05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.11115%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.11115&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/eCGQu2f9jqixehS4+gHYDcdC/Dc</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.11115v1</id>
+    <updated>2022-08-23T17:55:06Z</updated>
+    <published>2022-08-23T17:55:06Z</published>
+    <title>Bounds on Multigraded Regularity</title>
+    <summary>  We explore the asymptotic behavior of the multigraded Castelnuovo--Mumford
+regularity of powers of ideals. Specifically, if $I$ is an ideal in the total
+coordinate ring $S$ of a smooth projective toric variety $X$, we bound the
+region $\operatorname{reg}(I^n)\subset\operatorname{Pic} X$ by proving that it
+contains a translate of the regularity of $S$ and is contained in a translate
+of the nef cone of $X$. Each bound translates by a fixed vector as $n$
+increases. Along the way we prove that the multigraded regularity of a finitely
+generated torsion-free module is contained in a translate of the nef cone
+determined by the degrees of the generators of $M$, and thus contains only
+finitely many minimal elements.
+</summary>
+    <author>
+      <name>Juliette Bruce</name>
+    </author>
+    <author>
+      <name>Lauren Cranton Heller</name>
+    </author>
+    <author>
+      <name>Mahrud Sayrafi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">11 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.11115v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.11115v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14M25" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

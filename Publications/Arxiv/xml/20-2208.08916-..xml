@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.08916%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.08916&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/iX04s2wv3hntQt1VGYBHztFG5Cw</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.08916v1</id>
+    <updated>2022-08-18T15:35:07Z</updated>
+    <published>2022-08-18T15:35:07Z</published>
+    <title>Rationality of real conic bundles with quartic discriminant curve</title>
+    <summary>  We study real double covers of $\mathbb P^1\times\mathbb P^2$ branched over a
+$(2,2)$-divisor, which have the structure of a conic bundle threefold with
+smooth quartic discriminant curve via the second projection. In each isotopy
+class of smooth plane quartics, we construct examples where the total space of
+the conic bundle is rational. For five of the six isotopy classes we construct
+$\mathbb C$-rational examples that have obstructions to rationality over
+$\mathbb R$, and for the sixth class, we show that the models we consider are
+all rational. Moreover, for three of the five classes with irrational members,
+we give characterizations of rationality using the topology of the real locus
+and the intermediate Jacobian torsor obstruction of Hassett--Tschinkel and
+Benoist--Wittenberg. The double cover models we consider were introduced and
+previously studied by S. Frei, S. Sankar, B. Viray, I. Vogt, and the first
+author.
+</summary>
+    <author>
+      <name>Lena Ji</name>
+    </author>
+    <author>
+      <name>Mattie Ji</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">22 pages, 4 figures. Comments welcome!</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.08916v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.08916v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="14E08 (Primary), 14P25, 14M20, 14D06 (Secondary)" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

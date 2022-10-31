@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2209.05906%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2209.05906&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/NLsiD0Zvc/Rr56CTmTZUo99U4N8</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2209.05906v1</id>
+    <updated>2022-09-13T11:41:27Z</updated>
+    <published>2022-09-13T11:41:27Z</published>
+    <title>Norm estimates for the $\partial$-equation on a non-reduced space</title>
+    <summary>  We study norm-estimates for the $\bar\partial$-equation on non-reduced
+analytic spaces. Our main result is that on a non-reduced analytic space, which
+is Cohen-Macaulay and whose underlying reduced space is smooth, the
+$\bar\partial$-equation for $(0,1)$-forms can be solved with $L^p$-estimates.
+</summary>
+    <author>
+      <name>Mats Andersson</name>
+    </author>
+    <author>
+      <name>Richard Lärkäng</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">28 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2209.05906v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2209.05906v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.CV" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="32A26, 32A27, 32B15, 32W05" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

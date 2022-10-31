@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2208.00562%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2208.00562&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/Nse3qGnc9Q2QhYAFRFdSowkaEAE</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2208.00562v1</id>
+    <updated>2022-08-01T01:27:33Z</updated>
+    <published>2022-08-01T01:27:33Z</published>
+    <title>A short resolution of the diagonal for smooth projective toric varieties
+  of Picard rank 2</title>
+    <summary>  Given a smooth projective toric variety $X$ of Picard rank 2, we resolve the
+diagonal sheaf on $X \times X$ by a linear complex of length $\dim{X}$
+consisting of finite direct sums of line bundles. As applications, we prove a
+new case of a conjecture of Berkesch-Erman-Smith that predicts a version of
+Hilbert's Syzygy Theorem for virtual resolutions, and we obtain a Horrocks-type
+splitting criterion for vector bundles over smooth projective toric varieties
+of Picard rank 2, extending a result of Eisenbud-Erman-Schreyer. We also apply
+our results to give a new proof, in the case of smooth projective toric
+varieties of Picard rank 2, of a conjecture of Orlov concerning the Rouquier
+dimension of derived categories.
+</summary>
+    <author>
+      <name>Michael K. Brown</name>
+    </author>
+    <author>
+      <name>Mahrud Sayrafi</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">18 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2208.00562v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2208.00562v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AG" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AC" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="13D02, 14F06, 14F08" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>

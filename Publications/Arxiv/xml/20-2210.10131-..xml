@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <link href="http://arxiv.org/api/query?search_query%3D%26id_list%3D2210.10131%26start%3D0%26max_results%3D10" rel="self" type="application/atom+xml"/>
+  <title type="html">ArXiv Query: search_query=&amp;id_list=2210.10131&amp;start=0&amp;max_results=10</title>
+  <id>http://arxiv.org/api/KFIPQDpDNQcCquYiPC+uew+z3UE</id>
+  <updated>2022-10-31T00:00:00-04:00</updated>
+  <opensearch:totalResults xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">1</opensearch:totalResults>
+  <opensearch:startIndex xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">0</opensearch:startIndex>
+  <opensearch:itemsPerPage xmlns:opensearch="http://a9.com/-/spec/opensearch/1.1/">10</opensearch:itemsPerPage>
+  <entry>
+    <id>http://arxiv.org/abs/2210.10131v1</id>
+    <updated>2022-10-18T20:03:30Z</updated>
+    <published>2022-10-18T20:03:30Z</published>
+    <title>Symmetric Homology is Representation Homology</title>
+    <summary>  Symmetric homology is a natural generalization of cyclic homology, in which
+symmetric groups play the role of cyclic groups. In the case of associative
+algebras, the symmetric homology theory was introduced by Z. Fiedorowicz
+\cite{F} and was further developed in the work of S. Ault \cite{Au1, Au2}. In
+this paper, we show that, for algebras defined over a field of characteristic
+$0$, the symmetric homology theory is naturally equivalent to the
+(one-dimensional) representation homology theory introduced by the authors
+(jointly with G. Khachatryan) in \cite{BKR}. Using known results on
+representation homology, we compute symmetric homology explicitly for basic
+algebras, such as polynomial algebras and universal enveloping algebras of (DG)
+Lie algebras. As an application, we prove two conjectures of Ault and
+Fiedorowicz, including the main conjecture of \cite{AF07} on topological
+interpretation of symmetric homology of polynomial algebras.
+</summary>
+    <author>
+      <name>Yuri Berest</name>
+    </author>
+    <author>
+      <name>Ajay C. Ramadoss</name>
+    </author>
+    <arxiv:comment xmlns:arxiv="http://arxiv.org/schemas/atom">16 pages</arxiv:comment>
+    <link href="http://arxiv.org/abs/2210.10131v1" rel="alternate" type="text/html"/>
+    <link title="pdf" href="http://arxiv.org/pdf/2210.10131v1" rel="related" type="application/pdf"/>
+    <arxiv:primary_category xmlns:arxiv="http://arxiv.org/schemas/atom" term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.AT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.KT" scheme="http://arxiv.org/schemas/atom"/>
+    <category term="math.RT" scheme="http://arxiv.org/schemas/atom"/>
+  </entry>
+</feed>
