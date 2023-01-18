@@ -1,52 +1,74 @@
 
 <h2>Instructions for installing Macaulay2 with root access</h2>
 
-<!--U-->   <p>
-<!--U-->     Beginning with Ubuntu 21.04 "Hirsute Hippo", Macaulay2 1.17.1 is available
-<!--U-->     in the official repositories and may be installed using:
-<!--U-->   </p>
-<!--U-->   <pre>
-<!--U-->     sudo apt install macaulay2
-<!--U-->   </pre>
-<!--U-->   <p>
-<!--U-->     If your system has an earlier release of Ubuntu or you would like a
-<!--U-->     more recent version of Macaulay2 than is available in the official
-<!--U-->     repositories, then continue reading.
-<!--U-->   </p>
+<h3>Official repositories</h3>
+<p>
+  Macaulay2 has been available in the official repositories since
+<!--U-->Ubuntu 21.04 "Hirsute Hippo"
+<!--D-->Debian 11 "Bullseye"
+<!--R-->Raspberry Pi OS 11 "Bullseye"
+  and may be installed using:
+</p>
+<pre>
+  sudo apt install macaulay2
+</pre>
 
-<!--D-->   <p>
-<!--D-->     Beginning with Debian 11 "Bullseye", Macaulay2 1.17.1 is available in the
-<!--D-->     official repositories and may be installed using:
-<!--D-->   </p>
-<!--D-->   <pre>
-<!--D-->     sudo apt install macaulay2
-<!--D-->   </pre>
-<!--D-->   <p>
-<!--D-->     If your system has an earlier release of Debian or you would like a
-<!--D-->     more recent version of Macaulay2 than is available in the official
-<!--D-->     repositories, then continue reading.
-<!--D-->   </p>
-<!--D-->   
+<p>
+  The version of Macaulay2 in the official repositories may be older.  To obtain
+  the most recent version, choose one of the other options below.
+</p>
 
-<!--U-->   <p>
-<!--U-->     An alternate method for installing the latest version of Macaulay2
-<!--U-->     in Ubuntu is to use the
-<!--U-->     <a href="https://launchpad.net/~macaulay2/+archive/ubuntu/macaulay2">PPA</a>
-<!--U-->     (Personal Package Archive):
-<!--U-->   </p>
-<!--U-->   
-<!--U-->   <pre>
-<!--U-->        sudo add-apt-repository ppa:macaulay2/macaulay2
-<!--U-->        sudo apt install macaulay2
-<!--U-->   </pre>
+<h3>Personal Package Archive</h3>
+<p>
+  The most recent version of Macaulay2 is available for
+<!--U-->Ubuntu 18.04 "Bionic Beaver",
+<!--U-->Ubuntu 20.04 "Focal Fossa",
+<!--U-->Ubuntu 22.04 "Jammy Jellyfish",
+<!--U-->and
+<!--U-->Ubuntu 22.10 "Kinetic Kudu"
+<!--D-->Debian 11 "Bullseye"
+<!--R-->Raspberry Pi OS 11 "Bullseye"
+  using a PPA (Personal Package Archive) maintained by Doug Torrance.
+</p>
 
-<!--D-->   <p>
-<!--D-->     An alternate method for installing the latest version of Macaulay2
-<!--D-->     in Debian is to use the
-<!--D-->     <a href="https://people.debian.org/~dtorrance/">repository</a>
-<!--D-->     set up by Doug Torrance.
-<!--D-->   </p>
+<p>
+  To add the repository to your system,
+<!--U-->  run the following command:
+<!--U--></p>
+<!--U--><pre>
+<!--U-->  sudo add-apt-repository ppa:macaulay2/macaulay2
+<!--U--></pre>
+<!--D-->add the following to <tt>/etc/apt/sources.list</tt>:
+<!--D--></p>
+<!--D--><pre>
+<!--D-->  deb [signed-by=/usr/share/keyrings/debian-maintainers.gpg] https://people.debian.org/~dtorrance/debian bullseye/
+<!--D--></pre>
+<!--D--><p>
+<!--D-->  And then run the following command:
+<!--D--></p>
+<!--D--><pre>
+<!--D-->  sudo apt update
+<!--D--></pre>
+<!--R-->add the following to <tt>/etc/apt/sources.list</tt>:
+<!--R--></p>
+<!--R--><pre>
+<!--R-->  deb [signed-by=/usr/share/keyrings/debian-maintainers.gpg] https://people.debian.org/~dtorrance/debian bullseye/
+<!--R--></pre>
+<!--R--><p>
+<!--R-->  And then run the following command:
+<!--R--></p>
+<!--R--><pre>
+<!--R-->  sudo apt update
+<!--R--></pre>
 
+<p>
+  Then you may install Macaulay2 using the following:
+</p>
+<pre>
+  sudo apt install macaulay2
+</pre>
+
+<h3>Macaulay2 website</h3>
 <p>
   Another way to install Macaulay2 is to use the repositories we maintain on
   our website -- they will eventually be phased out.
