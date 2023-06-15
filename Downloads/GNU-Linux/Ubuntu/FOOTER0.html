@@ -24,9 +24,12 @@
 <!--U-->Ubuntu 18.04 "Bionic Beaver",
 <!--U-->Ubuntu 20.04 "Focal Fossa",
 <!--U-->Ubuntu 22.04 "Jammy Jellyfish",
+<!--U-->Ubuntu 22.10 "Kinetic Kudu",
 <!--U-->and
-<!--U-->Ubuntu 22.10 "Kinetic Kudu"
+<!--U-->Ubuntu 23.04 "Lunar Lobster"
 <!--D-->Debian 11 "Bullseye"
+<!--D-->and
+<!--D-->Debian 12 "Bookworm"
 <!--R-->Raspberry Pi OS 11 "Bullseye"
   using a PPA (Personal Package Archive) maintained by Doug Torrance.
 </p>
@@ -38,8 +41,13 @@
 <!--U--><pre>
 <!--U-->  sudo add-apt-repository ppa:macaulay2/macaulay2
 <!--U--></pre>
-<!--D-->add the following to <tt>/etc/apt/sources.list</tt>:
+<!--D-->add the following to <tt>/etc/apt/sources.list</tt>.
 <!--D--></p>
+<!--D--><p>On Debian 12 "Bookworm":</p>
+<!--D--><pre>
+<!--D-->  deb [signed-by=/usr/share/keyrings/debian-keyring.gpg] https://people.debian.org/~dtorrance/debian bookworm/
+<!--D--></pre>
+<!--D--><p>On Debian 11 "Bullseye":</p>
 <!--D--><pre>
 <!--D-->  deb [signed-by=/usr/share/keyrings/debian-maintainers.gpg] https://people.debian.org/~dtorrance/debian bullseye/
 <!--D--></pre>
