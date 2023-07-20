@@ -2,4 +2,4 @@ AddCharset utf-8 .html
 
 # don't ask firefox to treat our documentation files as xml yet, because then firefox gives error
 # messages about invalid xml, instead of doing its best to display, and our html isn't perfect yet:
-Addtype 'application/xhtml+xml' .html
+# Addtype 'application/xhtml+xml' .html
