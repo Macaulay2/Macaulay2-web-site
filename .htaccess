@@ -1,3 +1,4 @@
+Redirect "Macaulay2" "/"
 # remember to update these when new releases come out:
 Redirect /Macaulay2/current http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10
 Redirect /Macaulay2/Schubert2 http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.10/share/doc/Macaulay2/Schubert2/html

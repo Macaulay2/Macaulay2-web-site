@@ -162,8 +162,8 @@ cat <<EOF
   <link rel="icon" href="/Macaulay2/Style/icon.gif" type="image/x-icon" >
 EOF
 
-echo '  <link rel="stylesheet" type="text/css" href="/Macaulay2/Style/index.css">'
-echo '  <link rel="stylesheet" type="text/css" href="/Macaulay2/Style/extra.css">'
+echo '  <link rel="stylesheet" type="text/css" href="/Style/index.css">'
+echo '  <link rel="stylesheet" type="text/css" href="/Style/extra.css">'
 
 if [ -f local.css ]
 then echo '  <link rel="stylesheet" type="text/css" href="local.css">'
