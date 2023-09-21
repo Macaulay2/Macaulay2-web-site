@@ -15,72 +15,16 @@
 <p>
   The result will be a directory named M2 containing the source code directory
   tree of <em>Macaulay2</em>, checked out from the branch called "master".
+  Active development occurs on the "development" branch, and all pull requests
+  on GitHub should be submitted to this branch.  The "development" branch is
+  regularly merged into the "pre-master" branch for further testing, and then
+  "pre-master" is merged into "master".
   Other branches are used for development of numbered releases (e.g.,
-  "release-1.6"), and there are tags that label stable versions of those
-  branches (e.g., "release-1.6-stable-20130514").
+  "release-1.22-branch"), and there are tags that label stable versions of those
+  branches (e.g., "release-1.22").
 </p>
 
 <hr/>
-
-<p>
-  The old way to get the source code, soon to be phased out, is with a
-  client for <a href="http://subversion.apache.org/">subversion</a>, the source
-  code control system we use.  To get the very latest version of the source
-  code, possibly with bugs, run this command in a new directory:
-</p>
-
-<pre>
-	svn co -q svn://svn.macaulay2.com/Macaulay2/trunk/M2
-</pre>
-
-<p>
-  The result will be a directory named M2 containing the source code directory
-  tree of <em>Macaulay2</em>.
-</p>
-
-<p>
-  Alternatively, as we work to port the latest numbered release to various
-  architectures, we will work in one of the branches listed by this command:
-</p>
-
-<pre>
-	svn list svn://svn.macaulay2.com/Macaulay2/release-branches
-</pre>
-
-<p>
-  The changes made there will eventually be merged into the trunk.  For example,
-  to get the code corresponding to version 1.2 that is most current and thus most
-  likely to compile for you, run this command:
-</p>
-
-<pre>
-	svn co -q svn://svn.macaulay2.com/Macaulay2/release-branches/1.2
-</pre>
-
-<p>
-  The resulting directory tree, 1.2, can be renamed to M2, for example.
-</p>
-
-<p>
-  To see what stable (unchanging) releases there are, run this:
-</p>
-
-<pre>
-	svn list svn://svn.macaulay2.com/Macaulay2/stable
-</pre>
-
-<p>
-  To check out one of those, do something like this:
-</p>
-
-<pre>
-	svn co -q svn://svn.macaulay2.com/Macaulay2/stable/2006-11-05-0.9.95
-</pre>
-
-<p>
-  The resulting directory tree, 2006-11-05-0.9.95, can be renamed, to M2, for
-  example.
-</p>
 
 <p>
   After getting the source code as described above, and assuming the directory
