@@ -1,1 +1,1 @@
-Disallow: /Macaulay2/doc/Macaulay2-*
+Disallow: /doc/Macaulay2-*
