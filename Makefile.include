@@ -1,6 +1,6 @@
 # -*- makefile -*-
 
-export PATH := /home/html/www/Macaulay2/Scripts:/home/html/www/Macaulay2/bin:$(PATH)
+export PATH := /var/www/www2.macaulay2.com/Scripts:/var/www/www2.macaulay2.com/bin:$(PATH)
 
 # most recent version of the documentation in ./doc:
 DOCVERSION = 1.22
