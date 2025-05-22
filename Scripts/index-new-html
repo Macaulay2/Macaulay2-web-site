@@ -156,8 +156,8 @@ cat <<EOF
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
     -->
   <title>$TITLE</title>
-  <link rel="shortcut icon" href="/Macaulay2/Style/icon.gif" type="image/x-icon" >
-  <link rel="icon" href="/Macaulay2/Style/icon.gif" type="image/x-icon" >
+  <link rel="shortcut icon" href="/Style/icon.gif" type="image/x-icon" >
+  <link rel="icon" href="/Style/icon.gif" type="image/x-icon" >
 EOF
 
 echo '  <link rel="stylesheet" type="text/css" href="/Style/index.css">'
