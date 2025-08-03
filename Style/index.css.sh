@@ -2,7 +2,7 @@
 # /*-*- css -*-*/
 ar () { echo "scale=2;" "$@" |bc; }
 pct () { echo `ar "scale=0; 100 * $1"`%; }
-barwid=280
+barwid=1000
 barun="px"
 limargin=`ar ".027 * $barwid"`
 lipadding=`ar ".027 * $barwid"`
