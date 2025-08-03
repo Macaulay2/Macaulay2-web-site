@@ -1,7 +1,7 @@
 #! /bin/sh
 # /*-*- css -*-*/
-function ar () { echo "scale=2;" "$@" |bc; }
-function pct () { echo `ar "scale=0; 100 * $1"`%; }
+ar () { echo "scale=2;" "$@" |bc; }
+pct () { echo `ar "scale=0; 100 * $1"`%; }
 barwid=280
 barun="px"
 limargin=`ar ".027 * $barwid"`
