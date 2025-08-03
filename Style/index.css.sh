@@ -2,7 +2,7 @@
 # /*-*- css -*-*/
 function ar () { echo "scale=2;" "$@" |bc; }
 function pct () { echo `ar "scale=0; 100 * $1"`%; }
-barwid=180
+barwid=280
 barun="px"
 limargin=`ar ".027 * $barwid"`
 lipadding=`ar ".027 * $barwid"`
@@ -93,7 +93,7 @@ div#content a:hover { text-decoration: underline; }
     top: 0.2em; 
     width: $barwid$barun;
     font-family:Verdana,sans-serif;
-    font-size:80%;
+    font-size:90%;
     line-height:1.2em;
 }
 #left_sidebar { left: 0; }
