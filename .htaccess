@@ -16,7 +16,7 @@ Redirect /Macaulay2/doc/Macaulay2/ http://www.math.uiuc.edu/Macaulay2/doc/Macaul
 # Options +Includes
 # AddHandler server-parsed .shtml
 
-ErrorDocument 404 /Macaulay2/404.html
+ErrorDocument 404 /404.html
 
 AddCharset utf-8 .html
 

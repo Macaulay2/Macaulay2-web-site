@@ -4,13 +4,14 @@
 <html>
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <!--
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    -->
   <title>File not found</title>
-  <script type="text/javascript" src="/Macaulay2/Scripts/citation-table.js"></script>
-  <script type="text/javascript" src="/Macaulay2/Scripts/documentation-table.js"></script>
-  <link rel="shortcut icon" href="/Macaulay2/Style/icon.gif" type="image/x-icon" >
-  <link rel="icon" href="/Macaulay2/Style/icon.gif" type="image/x-icon" >
-  <link rel="stylesheet" type="text/css" href="/Macaulay2/Style/index.css">
-  <link rel="stylesheet" type="text/css" href="/Macaulay2/Style/extra.css">
+  <link rel="shortcut icon" href="/Style/icon.gif" type="image/x-icon" >
+  <link rel="icon" href="/Style/icon.gif" type="image/x-icon" >
+  <link rel="stylesheet" type="text/css" href="/Style/index.css">
+  <link rel="stylesheet" type="text/css" href="/Style/extra.css">
   <link rel="stylesheet" type="text/css" href="local.css">
 </head>
 
@@ -19,7 +20,7 @@
   <h1>File not found</h1>
 <p>
   The web page or file that you requested does not exist.  To report a broken link,
-  contact <a href="mailto:dan@math.uiuc.edu">Dan Grayson</a>.
+  create an <a href="https://github.com/Macaulay2/Macaulay2-web-site/issues">issue on GitHub</a>.
 </p>
 
 <!--#echo var="DATE_LOCAL" -->
@@ -33,7 +34,7 @@
 -->
  </div>
 <!-- imported from Style/trailer.html -->
-<!-- -*- coding: utf-8; fill-column: 133; compile-command: "cd ..; make index-new" -*- -->
+<!-- -*- coding: utf-8; fill-column: 133; compile-command: "cd ..; make " -*- -->
 
 <div id="left_sidebar" class="sidebar">
   <ul>
@@ -49,34 +50,31 @@
 
 	<li>
 	  <div>the web site:</div>
-	  <form action="http://google.com/custom" name="sitesearch"><div>
-	      <input type="text"   
-		     name="q"
-		     >
-	      <input type="hidden" name="domains" value="http://www.math.uiuc.edu/Macaulay2/">
-	      <input type="hidden" name="sitesearch" value="http://www.math.uiuc.edu/Macaulay2/"></div></form>
+	  <form action="https://www.google.com/search">
+	    <div>
+	      <input type="text"   name="q">
+	      <input type="hidden" name="q" value="site:macaulay2.com inurl:Macaulay2">
+	    </div>
+	  </form>
 	</li>
 
 	<li>
-	  <div>just the documentation (version 1.4, when google is ready):</div>
-	  <form action="http://google.com/custom" name="docsearch"><div>
-	      <input type="text"   
-		     name="q"
-		     >
-	      <input type="hidden" name="domains" value="http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.4/">
-	      <input type="hidden" name="sitesearch" value="http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.4/"></div></form>
+	  <div>just the documentation:</div>
+	  <form action="https://www.google.com/search">
+	    <div>
+	      <input type="text"   name="q">
+	      <input type="hidden" name="q" value="site:macaulay2.com/doc">
+	    </div>
+	  </form>
 	</li>
 
-	<li>
-	  <div>just the documentation (version 1.3.1):</div>
-	  <form action="http://google.com/custom" name="docsearch"><div>
-	      <input type="text"   
-		     name="q"
-		     >
-	      <input type="hidden" name="domains" value="http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.3.1/">
-	      <input type="hidden" name="sitesearch" value="http://www.math.uiuc.edu/Macaulay2/doc/Macaulay2-1.3.1/"></div></form>
-	</li>
+      </ul>
+    </li>
 
+    <li class="bbox extra_space_below">
+      Home
+      <ul>
+	<li> <a href="http://macaulay2.com/">macaulay2.com</a> </li>
       </ul>
     </li>
 
@@ -84,11 +82,16 @@
 
     <li class="bbox"> <a href="/Macaulay2/Screenshots/">Screenshots</a></li>
 
-    <li class="bbox extra_space_below"> <a href="/Macaulay2/Documentation/">Documentation</a>
+    <li class="bbox"> <a href="/Macaulay2/TryItOut/">Try It Out</a>
       <ul>
-	<li> Selected links: </li>
-	<li> <a href="/Macaulay2/Documentation/toc.html">Table of contents</a> </li>
-	<li> <a href="/Macaulay2/Documentation/master.html">Symbol index</a> </li>
+	<li><a href="http://www.unimelb-macaulay2.cloud.edu.au/">Macaulay2Web (Melbourne)</a></li>	      
+	<li><a href="https://macaulay2.math.gatech.edu/">Macaulay2Web (Georgia Tech)</a> <span style="color:rgb(255,0,0);">(new)</span>	</li> 
+      </ul>
+    </li>
+
+    <li class="bbox extra_space_below"> Documentation
+      <ul>
+	<li><a href="/Macaulay2/doc/Macaulay2/share/doc/Macaulay2/Macaulay2Doc/html/">stable</a></li>
       </ul>
     </li>
 
@@ -96,6 +99,8 @@
       Community
       <ul>
 	<li> <a href="http://groups.google.com/group/macaulay2">Google discussion group</a> </li>
+	<li><a href="https://macaulay2.zulipchat.com/">Zulip team chat</a></li>
+	<li><a href="https://github.com/Macaulay2/M2/wiki/Package-Writing-Style-Guide">package writing</a> style guide</li>
 	<!--
 	<li> Selected links: </li>
 	<li> <a href="http://groups.google.com/group/macaulay2/topics">Discussion</a> </li>
@@ -103,26 +108,32 @@
 	    <img src="/Macaulay2/Style/feed-icon-14x14.png" class="topalign" width="14" height="14" alt=""> Subscribe <b>...</b></a></li>
 	-->
 	<li> <a href="https://github.com/Macaulay2/M2/wiki/Projects">Projects</a> undertaken or proposed</li>
-	<li> <a href="http://wiki.macaulay2.com/Macaulay2/">Macaulay2 Wiki</a></li>
-	<li> <a href="mailto:dan@math.uiuc.edu">Announcements</a>: send email to register for the mailing list </li>
-
+	<li> <a href="https://github.com/Macaulay2/M2/wiki">Macaulay2 Wikis</a></li>
       </ul>
     </li>
 
     <li class="bbox extra_space_below"> <a href="/Macaulay2/Downloads/">Downloads</a>
       <ul>
-	<li> (the current stable version is 1.4, being released November, 2010)</li>
-	<li>Related links:</li>
-	<li> <a href="/Macaulay2/Documentation/_changes_cm_sp1.4.html">Changes in version 1.4</a> </li>
-	<li> <a href="/Macaulay2/Documentation/_changes_cm_sp1.3.1.html">Changes in version 1.3.1</a> </li>
-	<li> <a href="/Macaulay2/Documentation/_changes_cm_sp1.3.html">Changes in version 1.3</a> </li>
-	<!--
-	<li> <a href="/Macaulay2/Documentation/_changes_cm_sp1.2.html">Changes in version 1.2</a> </li>
-	<li> <a href="/Macaulay2/Documentation/_changes_cm_sp1.0_spand_sp1.1.html">Changes in version 1.1</a> </li>
-	-->
-	<li> <a href="/Macaulay2/Packages/">Packages</a> for Macaulay2 that extend its functionality </li>
+	<li> (the current stable version is 1.25.06, released June 1, 2025)</li>
+	<li> <a href="/Macaulay2/doc/Macaulay2/share/doc/Macaulay2/Macaulay2Doc/html/_changes_spto_sp__Macaulay2_cm_spby_spversion.html">Changes, by version</a> </li>
+	<li> <a href="/Macaulay2/doc/Macaulay2/share/doc/Macaulay2/Macaulay2Doc/html/_packages_spprovided_spwith_sp__Macaulay2.html">Packages</a> for Macaulay2 that extend its functionality </li>
 	<li> <a href="/Macaulay2/PublicKeys/">Public key</a> for Macaulay2, used to sign files </li>
+	<li> <a href="https://github.com/Macaulay2/M2">Source code</a>, on github</li>
+	<!-- There are just two, rather old, answers here.  The google group is much better now
+	     for answers.
 	<li> <a href="/Macaulay2/Questions/">Answers to questions</a> about past releases </li>
+	-->
+	<li><a href="https://github.com/Macaulay2/Macaulay2-web-site">This web site</a>, on github</li>
+      </ul>
+    </li>
+
+    <li class="bbox extra_space_below"> <a href="/Macaulay2/Resources/">Resources</a>
+    </li>
+
+    <li class="bbox">
+      Feedback
+      <ul>
+	<li>File a <a href="https://github.com/Macaulay2/M2/issues/new">bug report</a>.</li>
       </ul>
     </li>
 
@@ -132,26 +143,59 @@
 <div id="right_sidebar" class="sidebar">
   <ul>
 
+    <!-- 
+    <li class="bbox">
+      <a href="/Macaulay2/Jobs/">Jobs</a>
+    </li>
+    -->
+
+    <li class="bbox"> Awards
+      <ul>
+	<li><a href="http://www.sigsam.org/awards/jenks/awardees/2019/">Jenks Prize, 2019</a></li>
+      </ul>
+    </li>
+
     <li class="bbox"> <a href="/Macaulay2/Events/">Events</a>
       <ul>
 	<li> Future events: </li>
-	<li> <a href="/Macaulay2/Events/Workshop2011March/">2011/2: workshop, G&ouml;ttingen</a></li>
+	<li>
+	    <a href="https://sites.google.com/view/macaulay2vietnam/home">
+		    2025/12-2026/01: Macaulay2 School and Workshop, Hue University of Education, Hue, Vietnam.</a> 	    
+	</li>
+	<li>
+		<a href="https://sites.google.com/view/warwick-macaulay2-workshop/home">
+		2026/06-07: University of Warwick, Coventry, UK.</a> 			
+	</li>
+	<li> Ongoing events: </li>
+	<li>
+	  <a href="https://github.com/Macaulay2/M2/wiki/Macaulay2%3A-under-the-hood">
+	    Macaulay2: under the hood, online.</a>
+	</li>
+	<li>
+	  <a href="https://github.com/Macaulay2/M2/wiki/Internals%3A-Meeting-Notes">
+	    M2 Internals, online.</a>
+	</li>
+	<!-- template:
+	 <li> <a href="/Macaulay2/Events/XXXX/">20XX/XX: EVENT, LOCATION</a></li>
+	 -->
       </ul>
     </li>
 
     <li class="bbox"> <a href="/Macaulay2/Publications/">Publications</a>
       <ul>
 	<li> Selected links: </li>
-	<li> <a href="http://j-sag.org/">The Journal of Software for Algebra and Geometry: <i>Macaulay2</i> </a> </li>
+	<li> <a href="http://j-sag.org/">The Journal of Software for Algebra and Geometry</a> </li>
 	<li> <a href="/Macaulay2/Book/">Computations in algebraic geometry with <i>Macaulay 2</i></a>, a book </li>
-	<li> <a href="/Macaulay2/Publications/#papers">Papers</a> referring to <i>Macaulay2</i></li>
+	<!-- <li> <a href="/Macaulay2/Publications/#papers">Papers</a> referring to <i>Macaulay2</i></li> -->
+	<li> <a href="https://scholar.google.com/scholar?cites=5544339878767751576&as_sdt=80005&sciodt=0,11&hl=en&scioq=macaulay2+grayson+stillman">Papers</a> referring to <i>Macaulay2</i> indexed by Google Scholar</li>
+	<li> <a href="http://www.swmath.org/software/537">Papers</a> referring to <i>Macaulay2</i> indexed by Zentralblatt</li>
 	<li> <a href="/Macaulay2/Citing/">How to cite</a> <i>Macaulay2</i> </li>
       </ul>
     </li>
 
     <li class="bbox"> Acknowledgments
       <ul>
-	<li> <a href="/Macaulay2/Contributors/">Contributors</a> </li>
+	<li> <a href="/doc/Macaulay2/share/doc/Macaulay2/Macaulay2Doc/html/___The_spauthors_spof_sp__Macaulay2_sppackages.html">Package authors</a> </li>
 	<li> <a href="/Macaulay2/Libraries/">Software libraries</a> </li>
 	<li> <a href="/Macaulay2/Funding/">Funding</a> </li>
 	<li> <a href="http://www.math.columbia.edu/~bayer/Macaulay/">Macaulay</a>, the predecessor of <i>Macaulay2</i></li>
@@ -159,20 +203,6 @@
 	  <a href="http://en.wikipedia.org/wiki/Francis_Sowerby_Macaulay">Francis Macaulay</a>,
 	  the mathematician after whom <i>Macaulay2</i> is named
 	</li>
-      </ul>
-    </li>
-
-    <li class="bbox">
-      A random paper referring to <i>Macaulay2</i>:
-      <ul>
-	<li>
-	  <script type="text/javascript">citation();</script> 
-	</li>
-      </ul>
-
-      A random <i>Macaulay2</i> documentation node:
-      <ul>
-	<li> <script type="text/javascript">documentation();</script> </li>
       </ul>
     </li>
 
