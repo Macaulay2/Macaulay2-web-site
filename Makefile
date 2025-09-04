@@ -22,10 +22,12 @@ DIRS = \
 	TryItOut \
 	dev
 
-index: index-local
+index: index-local 404.html
 index:; for dir in $(DIRS) ; do $(MAKE) -C $$dir $@ || exit 1 ; done
 index-local:; index-new-html -l -t Style/trailer.html
-404.html: 404-pre.html; index-new-html -f "File not found" -t Style/trailer.html <$< >$@.tmp && mv $@.tmp $@
+404.html: 404-pre.html .FORCE
+	index-new-html -f "File not found" -t Style/trailer.html <$< >$@.tmp && mv $@.tmp $@
+.FORCE:
 .PHONY : mirror
 # Local Variables:
 # compile-command: "make "
