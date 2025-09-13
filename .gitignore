@@ -1,5 +1,6 @@
 *.old
 index-shadow.html
 /index.html
+/404.html
 *.bak
 /doc/Macaulay2-*
