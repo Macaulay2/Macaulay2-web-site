@@ -1,8 +1,5 @@
-# I'm manually hard linking the appropriate rpm files into 6/ or 7/ before running this.
-# Also, use rpmsign --add-sign *.rpm to add signatures to the rpm files
-
 make-repos:
-	for i in 8 9 10 ;					\
+	for i in 40 41 42 ;					\
 	do ( set -x ;						\
 	     cd "$$i" ;						\
 	     find . -name \*.rpm > packages.tmp ;		\
