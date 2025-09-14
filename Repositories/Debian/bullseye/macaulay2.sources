@@ -1,0 +1,4 @@
+Types: deb
+URIs: https://macaulay2.com/Repositories/Debian
+Suites: bullseye/
+Signed-By: /usr/share/keyrings/debian-maintainers.gpg
