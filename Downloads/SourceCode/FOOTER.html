@@ -14,11 +14,9 @@
 
 <p>
   The result will be a directory named M2 containing the source code directory
-  tree of <em>Macaulay2</em>, checked out from the branch called "master".
+  tree of <em>Macaulay2</em>, checked out from the branch called "stable".
   Active development occurs on the "development" branch, and all pull requests
-  on GitHub should be submitted to this branch.  The "development" branch is
-  regularly merged into the "pre-master" branch for further testing, and then
-  "pre-master" is merged into "master".
+  on GitHub should be submitted to this branch.
   Other branches are used for development of numbered releases (e.g.,
   "release-1.22-branch"), and there are tags that label stable versions of those
   branches (e.g., "release-1.22").
@@ -33,7 +31,7 @@
 
 <pre>
 	 cd M2
-	 make
+	 ./autogen.sh
 </pre>
 
 <p>
@@ -45,18 +43,15 @@
 </p>
 
 <pre>
-	 cd BUILD
-	 mkdir foo
-	 cd foo
-	 ../../configure --prefix=/usr/local --enable-download
+	 cd BUILD/build
+	 ../../configure --prefix=/usr/local
 	 make
-	 make install
+	 sudo make install
 </pre>
 
 <p>
   to compile and install the code.  You may replace /usr/local by $HOME/local,
-  for example, if you don't have root privileges.  You may replace "foo" by a
-  directory anywhere, provided you adjust the path to "configure" appropriately.
+  for example, if you don't have root privileges..
 </p>
 
 <p>
@@ -72,13 +67,7 @@
 </p>
 
 <p>
-  You may refer to the file
-</p>
-
-<pre>
-	 ./INSTALL
-</pre>
-
-<p>
+  You may refer to the
+  <a href="https://github.com/Macaulay2/M2/wiki/Building-M2-from-source-using-Autotools">wiki</a>
   for some more detailed instructions about this installation.
 </p>
