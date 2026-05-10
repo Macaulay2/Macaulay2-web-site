@@ -1,5 +1,5 @@
 make-repos:
-	for i in 40 41 42 ;					\
+	for i in 42 43;					\
 	do ( set -x ;						\
 	     cd "$$i" ;						\
 	     find . -name \*.rpm > packages.tmp ;		\
