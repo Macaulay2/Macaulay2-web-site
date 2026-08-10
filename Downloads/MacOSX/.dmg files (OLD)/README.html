@@ -1,0 +1,73 @@
+<p>
+  <b>Homebrew is the preferred way to install <i>Macaulay2</i> on macOS.</b>  See the
+  <a href="https://github.com/Macaulay2/homebrew-tap">Macaulay2 homebrew tap</a> for
+  instructions.  The disk images in this directory are <em>experimental</em> and are not
+  officially supported; use one only if Homebrew is not an option for you.
+</p>
+
+<p>
+  The name of each file below indicates the architecture it was built for
+  (<tt>arm64</tt> for Apple silicon, <tt>x86_64</tt> for Intel) and, for the older files,
+  the version of macOS it was built on.  Older disk images are kept here for reference and
+  are unlikely to run on a current system.
+</p>
+
+<hr>
+
+<h2>These disk images are not signed or notarized</h2>
+
+<p>
+  We do not sign these disk images with an Apple Developer ID certificate, and we do not
+  submit them to Apple for notarization.  (The programs and libraries inside are "ad hoc"
+  signed, which is enough for them to run, but it carries no developer identity.)  As a
+  result, macOS Gatekeeper will refuse to open a disk image downloaded from this page,
+  reporting that it cannot verify that the file is free of malware.  Step 2 below works
+  around that.
+</p>
+
+<hr>
+
+<h2>Installation</h2>
+
+<ol>
+  <li>
+    <p>
+      Download the <tt>.dmg</tt> file below that matches your machine.
+    </p>
+  </li>
+  <li>
+    <p>
+      Remove the quarantine flag that your browser attached to the download.  In a
+      Terminal window:
+    </p>
+<pre>
+	xattr -d com.apple.quarantine ~/Downloads/Macaulay2-*.dmg
+</pre>
+    <p>
+      (If the response is "No such xattr: com.apple.quarantine", the file was not
+      quarantined and there is nothing to do.)  Alternatively, double-click the disk
+      image, dismiss the warning, then open System Settings, go to Privacy &amp; Security,
+      and click "Open Anyway".
+    </p>
+  </li>
+  <li>
+    <p>
+      Double-click the disk image to mount it, then drag the
+      <tt>Macaulay2-<i>VERSION</i></tt> folder onto the <tt>Applications</tt> shortcut
+      beside it.
+    </p>
+  </li>
+  <li>
+    <p>
+      Run <i>Macaulay2</i> once from its new location and evaluate <tt>setup()</tt>, which
+      offers to put <tt>M2</tt> on your <tt>PATH</tt> and to configure Emacs:
+    </p>
+<pre>
+	/Applications/Macaulay2-<i>VERSION</i>/bin/M2
+</pre>
+    <p>
+      Alternatively, add <tt>/Applications/Macaulay2-<i>VERSION</i>/bin</tt> to your
+      <tt>PATH</tt> yourself.
+    </p>
+  </li>
+</ol>
