@@ -1,0 +1,20 @@
+<p>
+  This is a package archive for the <i>Macaulay2</i> Emacs package, which
+  provides a major mode for editing <i>Macaulay2</i> code and for running
+  <i>Macaulay2</i> sessions in Emacs, along with other related Emacs packages.
+  To use it, add the following to your Emacs init file (e.g.,
+  <tt>~/.emacs</tt>):
+</p>
+
+<pre>
+(require 'package)
+(add-to-list 'package-archives '("M2" . "https://macaulay2.com/Repositories/Emacs/") t)
+(package-initialize)
+</pre>
+
+<p>
+  Then run <tt>M-x package-refresh-contents</tt> followed by
+  <tt>M-x package-install RET M2 RET</tt>.  The other packages available
+  here may be installed in the same way, or browsed using
+  <tt>M-x list-packages</tt>.
+</p>

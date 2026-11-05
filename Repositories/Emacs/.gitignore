@@ -1,0 +1,6 @@
+/index.html
+*.tar
+*.el
+!make-archive-contents.el
+archive-contents
+archive-contents.tmp
